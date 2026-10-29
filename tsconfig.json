@@ -1,0 +1,14 @@
+{
+  "extends": "$app/tsconfig",
+  "include": ["src", "tests", "*.ts"],
+  "exclude": ["node_modules", "build"],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "bundler"
+  }
+}

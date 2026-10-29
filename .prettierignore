@@ -1,0 +1,9 @@
+node_modules/
+.svelte-kit/
+build/
+.amp/in/
+.amp/portals/
+pnpm-lock.yaml
+data/*.json
+src/lib/data/*.json
+static/dados.json

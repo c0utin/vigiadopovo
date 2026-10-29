@@ -1,0 +1,1025 @@
+{
+  "collectedAt": "2026-10-29T23:03:37.220Z",
+  "votes": [
+    {
+      "id": "2620905-56",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:54:09",
+      "siglaOrgao": "PLEN",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "idOrgao": 180,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "idEvento": 83108,
+      "descricao": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "dataHoraUltimaAberturaVotacao": "2026-10-28T16:53:54",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-10-28T16:28:54",
+        "descricao": "Parecer proferido em Plenário pela Relatora, Dep. Benedita da Silva (PT-RJ) pela:\r\n• Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa; e, no mérito, pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional. ",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649363"
+      },
+      "efeitosRegistrados": [],
+      "objetosPossiveis": [
+        {
+          "id": 2649362,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649362",
+          "siglaTipo": "SBT",
+          "codTipo": 255,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "",
+          "dataApresentacao": "2026-10-28T16:27"
+        },
+        {
+          "id": 2649353,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649353",
+          "siglaTipo": "PRLP",
+          "codTipo": 891,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "PROJETO DE DECRETO LEGISLATIVO Nº 274, DE 2026\nAprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022.",
+          "dataApresentacao": "2026-10-28T15:39"
+        },
+        {
+          "id": 2649316,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649316",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 12,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-28T14:06"
+        },
+        {
+          "id": 2649317,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649317",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 13,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-28T14:06"
+        },
+        {
+          "id": 2649363,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649363",
+          "siglaTipo": "PPP",
+          "codTipo": 192,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer proferido em Plenário pela Relatora, Dep. Benedita da Silva (PT-RJ) pela: • Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa; e, no mérito, pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, e do Substitutivo adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+          "dataApresentacao": "2026-10-28T13:55"
+        },
+        {
+          "id": 2649539,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649539",
+          "siglaTipo": "RDF",
+          "codTipo": 197,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Redação Final ao PDL 274/2026",
+          "dataApresentacao": "2026-10-28T00:00"
+        },
+        {
+          "id": 2648976,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648976",
+          "siglaTipo": "PRLP",
+          "codTipo": 891,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "PROJETO DE DECRETO LEGISLATIVO Nº 274, DE 2026\nAprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022.",
+          "dataApresentacao": "2026-10-27T13:19"
+        },
+        {
+          "id": 2648958,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648958",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 10,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-27T11:06"
+        },
+        {
+          "id": 2648960,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648960",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 11,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-27T11:06"
+        },
+        {
+          "id": 2647755,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647755",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 8,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-15T09:44"
+        },
+        {
+          "id": 2647756,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647756",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 9,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-15T09:44"
+        },
+        {
+          "id": 2647632,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647632",
+          "siglaTipo": "RPD",
+          "codTipo": 892,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647633,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647633",
+          "siglaTipo": "RPD",
+          "codTipo": 1041,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026-Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647634,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647634",
+          "siglaTipo": "RPD",
+          "codTipo": 467,
+          "numero": 3,
+          "ano": 0,
+          "ementa": "Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647635,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647635",
+          "siglaTipo": "RPD",
+          "codTipo": 1043,
+          "numero": 4,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026-Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647636,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647636",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 5,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647639,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647639",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 6,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647640,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647640",
+          "siglaTipo": "RPD",
+          "codTipo": 332,
+          "numero": 7,
+          "ano": 0,
+          "ementa": "Requerimento de Votação Nominal - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2620905,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+          "siglaTipo": "PDL",
+          "codTipo": 554,
+          "numero": 274,
+          "ano": 2026,
+          "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+          "dataApresentacao": "2026-05-04T18:00"
+        }
+      ]
+    },
+    {
+      "id": "2620905-53",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:52:36",
+      "siglaOrgao": "PLEN",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "idOrgao": 180,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "idEvento": 83108,
+      "descricao": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "dataHoraUltimaAberturaVotacao": "2026-10-28T16:51:54",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-10-28T16:28:54",
+        "descricao": "Parecer proferido em Plenário pela Relatora, Dep. Benedita da Silva (PT-RJ) pela:\r\n• Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa; e, no mérito, pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional. ",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649363"
+      },
+      "efeitosRegistrados": [],
+      "objetosPossiveis": [
+        {
+          "id": 2649362,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649362",
+          "siglaTipo": "SBT",
+          "codTipo": 255,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "",
+          "dataApresentacao": "2026-10-28T16:27"
+        },
+        {
+          "id": 2649353,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649353",
+          "siglaTipo": "PRLP",
+          "codTipo": 891,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "PROJETO DE DECRETO LEGISLATIVO Nº 274, DE 2026\nAprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022.",
+          "dataApresentacao": "2026-10-28T15:39"
+        },
+        {
+          "id": 2649316,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649316",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 12,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-28T14:06"
+        },
+        {
+          "id": 2649317,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649317",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 13,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-28T14:06"
+        },
+        {
+          "id": 2649363,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649363",
+          "siglaTipo": "PPP",
+          "codTipo": 192,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer proferido em Plenário pela Relatora, Dep. Benedita da Silva (PT-RJ) pela: • Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa; e, no mérito, pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, e do Substitutivo adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+          "dataApresentacao": "2026-10-28T13:55"
+        },
+        {
+          "id": 2649539,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649539",
+          "siglaTipo": "RDF",
+          "codTipo": 197,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Redação Final ao PDL 274/2026",
+          "dataApresentacao": "2026-10-28T00:00"
+        },
+        {
+          "id": 2648976,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648976",
+          "siglaTipo": "PRLP",
+          "codTipo": 891,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "PROJETO DE DECRETO LEGISLATIVO Nº 274, DE 2026\nAprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022.",
+          "dataApresentacao": "2026-10-27T13:19"
+        },
+        {
+          "id": 2648958,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648958",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 10,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-27T11:06"
+        },
+        {
+          "id": 2648960,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648960",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 11,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-27T11:06"
+        },
+        {
+          "id": 2647755,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647755",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 8,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-15T09:44"
+        },
+        {
+          "id": 2647756,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647756",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 9,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-15T09:44"
+        },
+        {
+          "id": 2647632,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647632",
+          "siglaTipo": "RPD",
+          "codTipo": 892,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647633,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647633",
+          "siglaTipo": "RPD",
+          "codTipo": 1041,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026-Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647634,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647634",
+          "siglaTipo": "RPD",
+          "codTipo": 467,
+          "numero": 3,
+          "ano": 0,
+          "ementa": "Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647635,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647635",
+          "siglaTipo": "RPD",
+          "codTipo": 1043,
+          "numero": 4,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026-Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647636,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647636",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 5,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647639,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647639",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 6,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647640,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647640",
+          "siglaTipo": "RPD",
+          "codTipo": 332,
+          "numero": 7,
+          "ano": 0,
+          "ementa": "Requerimento de Votação Nominal - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2620905,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+          "siglaTipo": "PDL",
+          "codTipo": 554,
+          "numero": 274,
+          "ano": 2026,
+          "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+          "dataApresentacao": "2026-05-04T18:00"
+        }
+      ]
+    },
+    {
+      "id": "2620905-48",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:24:51",
+      "siglaOrgao": "PLEN",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "idOrgao": 180,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "idEvento": 83108,
+      "descricao": "Rejeitado o Requerimento.",
+      "aprovacao": 0,
+      "descUltimaAberturaVotacao": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do PDL n. 274/2026 (Projeto de Decreto Legislativo), pelo Representação Brasileira no Parlamento do Mercosul, que \"Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022\".",
+        "uriProposicaoCitada": null
+      },
+      "efeitosRegistrados": [],
+      "objetosPossiveis": [
+        {
+          "id": 2649353,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649353",
+          "siglaTipo": "PRLP",
+          "codTipo": 891,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "PROJETO DE DECRETO LEGISLATIVO Nº 274, DE 2026\nAprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022.",
+          "dataApresentacao": "2026-10-28T15:39"
+        },
+        {
+          "id": 2649316,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649316",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 12,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-28T14:06"
+        },
+        {
+          "id": 2649317,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649317",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 13,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-28T14:06"
+        },
+        {
+          "id": 2649363,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649363",
+          "siglaTipo": "PPP",
+          "codTipo": 192,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer proferido em Plenário pela Relatora, Dep. Benedita da Silva (PT-RJ) pela: • Comissão de Relações Exteriores e de Defesa Nacional, que conclui pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, nos termos do Substitutivo adotado. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa; e, no mérito, pela aprovação do Projeto de Decreto Legislativo nº 274, de 2026, e do Substitutivo adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+          "dataApresentacao": "2026-10-28T13:55"
+        },
+        {
+          "id": 2649539,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649539",
+          "siglaTipo": "RDF",
+          "codTipo": 197,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Redação Final ao PDL 274/2026",
+          "dataApresentacao": "2026-10-28T00:00"
+        },
+        {
+          "id": 2648976,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648976",
+          "siglaTipo": "PRLP",
+          "codTipo": 891,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "PROJETO DE DECRETO LEGISLATIVO Nº 274, DE 2026\nAprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022.",
+          "dataApresentacao": "2026-10-27T13:19"
+        },
+        {
+          "id": 2648958,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648958",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 10,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-27T11:06"
+        },
+        {
+          "id": 2648960,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648960",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 11,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-27T11:06"
+        },
+        {
+          "id": 2647755,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647755",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 8,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-15T09:44"
+        },
+        {
+          "id": 2647756,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647756",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 9,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-15T09:44"
+        },
+        {
+          "id": 2647632,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647632",
+          "siglaTipo": "RPD",
+          "codTipo": 892,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647633,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647633",
+          "siglaTipo": "RPD",
+          "codTipo": 1041,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026-Requerimento de Adiamento da Discussão Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647634,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647634",
+          "siglaTipo": "RPD",
+          "codTipo": 467,
+          "numero": 3,
+          "ano": 0,
+          "ementa": "Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647635,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647635",
+          "siglaTipo": "RPD",
+          "codTipo": 1043,
+          "numero": 4,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026-Requerimento de Adiamento da Votação Matéria Urgente - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647636,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647636",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 5,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647639,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647639",
+          "siglaTipo": "RPD",
+          "codTipo": 1051,
+          "numero": 6,
+          "ano": 0,
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        },
+        {
+          "id": 2647640,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647640",
+          "siglaTipo": "RPD",
+          "codTipo": 332,
+          "numero": 7,
+          "ano": 0,
+          "ementa": "Requerimento de Votação Nominal - PDL 274/2026",
+          "dataApresentacao": "2026-10-14T15:14"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2620905,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+          "siglaTipo": "PDL",
+          "codTipo": 554,
+          "numero": 274,
+          "ano": 2026,
+          "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+          "dataApresentacao": "2026-05-04T18:00"
+        }
+      ]
+    },
+    {
+      "id": "2645996-7",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:09:54",
+      "siglaOrgao": "PLEN",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "idOrgao": 180,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "idEvento": 83108,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "efeitosRegistrados": [
+        {
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+          "tituloProposicao": "PL 3099/2019",
+          "descResultado": "Aprovado o requerimento nº 4194/2026,da Sra. Flávia Morais e outros, que solicita urgência (art. 155) para o PL 3099/2019.",
+          "dataHoraResultado": "2026-10-28T13:55",
+          "descUltimaAberturaVotacao": null,
+          "dataHoraUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "uriProposicaoCitada": null,
+          "tituloProposicaoCitada": null
+        },
+        {
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+          "tituloProposicao": "PL 3099/2019",
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4194/2026.",
+          "dataHoraResultado": "2026-10-28T13:55",
+          "descUltimaAberturaVotacao": null,
+          "dataHoraUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "uriProposicaoCitada": null,
+          "tituloProposicaoCitada": null
+        }
+      ],
+      "objetosPossiveis": [
+        {
+          "id": 2645996,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2645996",
+          "siglaTipo": "REQ",
+          "codTipo": 392,
+          "numero": 4194,
+          "ano": 2026,
+          "ementa": "Requer regime de urgência urgentíssima para a apreciação do Substitutivo do Senado Federal ao Projeto de Lei nº 3.099, de 2019, que institui o Dia Nacional do Autocuidado e altera a Lei nº 8.080, de 19 de setembro de 1990, para prever o estímulo ao autocuidado responsável no âmbito do Sistema Único de Saúde – SUS.",
+          "dataApresentacao": "2026-09-04T12:46"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2204495,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+          "siglaTipo": "PL",
+          "codTipo": 139,
+          "numero": 3099,
+          "ano": 2019,
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "dataApresentacao": "2019-05-22T19:59"
+        }
+      ]
+    },
+    {
+      "id": "2647742-7",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:09:36",
+      "siglaOrgao": "PLEN",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "idOrgao": 180,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "idEvento": 83108,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "efeitosRegistrados": [
+        {
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+          "tituloProposicao": "PL 5542/2026",
+          "descResultado": "Aprovado o requerimento nº 4300/2026,do Sr. Isnaldo Bulhões Jr., que solicita urgência (art. 155) para o PL 5542/2026.",
+          "dataHoraResultado": "2026-10-28T13:55",
+          "descUltimaAberturaVotacao": null,
+          "dataHoraUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "uriProposicaoCitada": null,
+          "tituloProposicaoCitada": null
+        },
+        {
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+          "tituloProposicao": "PL 5542/2026",
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4300/2026.",
+          "dataHoraResultado": "2026-10-28T13:55",
+          "descUltimaAberturaVotacao": null,
+          "dataHoraUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "uriProposicaoCitada": null,
+          "tituloProposicaoCitada": null
+        }
+      ],
+      "objetosPossiveis": [
+        {
+          "id": 2647742,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647742",
+          "siglaTipo": "REQ",
+          "codTipo": 392,
+          "numero": 4300,
+          "ano": 2026,
+          "ementa": "Requer, nos termos do art. 155 do RICD, urgência para o Projeto de Lei nº 5.542, de 2026, que altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de\ncontenção física remota e à proteção da vítima.",
+          "dataApresentacao": "2026-10-14T20:46"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2647427,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+          "siglaTipo": "PL",
+          "codTipo": 139,
+          "numero": 5542,
+          "ano": 2026,
+          "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
+          "dataApresentacao": "2026-10-13T13:26"
+        }
+      ]
+    },
+    {
+      "id": "2613852-22",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:06:06",
+      "siglaOrgao": "CIDOSO",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "idOrgao": 537871,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+      "idEvento": 83096,
+      "descricao": "Aprovado o Parecer.",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-08-31T10:29:04",
+        "descricao": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644868"
+      },
+      "efeitosRegistrados": [],
+      "objetosPossiveis": [
+        {
+          "id": 2644869,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644869",
+          "siglaTipo": "SBT",
+          "codTipo": 255,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+          "dataApresentacao": "2026-08-31T10:29"
+        },
+        {
+          "id": 2644868,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644868",
+          "siglaTipo": "PRL",
+          "codTipo": 190,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+          "dataApresentacao": "2026-08-28T16:57"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2613852,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+          "siglaTipo": "PL",
+          "codTipo": 139,
+          "numero": 1648,
+          "ano": 2026,
+          "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+          "dataApresentacao": "2026-04-07T16:06"
+        }
+      ]
+    },
+    {
+      "id": "2612566-22",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:04:38",
+      "siglaOrgao": "CIDOSO",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "idOrgao": 537871,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+      "idEvento": 83096,
+      "descricao": "Aprovado o Parecer.",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-07-09T10:26:11",
+        "descricao": "Parecer do Relator, Dep. Castro Neto (MDB-PI), pela aprovação do PL 1453/26 e da Emenda 1/26 da CIDOSO, com substitutivo, .",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638478"
+      },
+      "efeitosRegistrados": [],
+      "objetosPossiveis": [
+        {
+          "id": 2638480,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638480",
+          "siglaTipo": "SBT",
+          "codTipo": 255,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+          "dataApresentacao": "2026-07-09T10:26"
+        },
+        {
+          "id": 2638478,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638478",
+          "siglaTipo": "PRL",
+          "codTipo": 190,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer do Relator, Dep. Castro Neto (MDB-PI), pela aprovação do PL 1453/26 e da Emenda 1/26 da CIDOSO, com substitutivo, .",
+          "dataApresentacao": "2026-07-09T10:23"
+        },
+        {
+          "id": 2623365,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2623365",
+          "siglaTipo": "EMC",
+          "codTipo": 130,
+          "numero": 1,
+          "ano": 2026,
+          "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+          "dataApresentacao": "2026-05-11T13:00"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2612566,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+          "siglaTipo": "PL",
+          "codTipo": 139,
+          "numero": 1453,
+          "ano": 2026,
+          "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+          "dataApresentacao": "2026-03-27T11:53"
+        }
+      ]
+    },
+    {
+      "id": "2618087-22",
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:03:30",
+      "siglaOrgao": "CIDOSO",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "idOrgao": 537871,
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+      "idEvento": 83096,
+      "descricao": "Aprovado o Parecer.",
+      "aprovacao": 1,
+      "descUltimaAberturaVotacao": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-07-07T15:06:42",
+        "descricao": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637652"
+      },
+      "efeitosRegistrados": [],
+      "objetosPossiveis": [
+        {
+          "id": 2642894,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642894",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 5,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 1950/2026",
+          "dataApresentacao": "2026-08-12T12:00"
+        },
+        {
+          "id": 2637653,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637653",
+          "siglaTipo": "SBT",
+          "codTipo": 255,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "PARECER AO PL 1950/2026 que Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+          "dataApresentacao": "2026-07-07T15:06"
+        },
+        {
+          "id": 2637652,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637652",
+          "siglaTipo": "PRL",
+          "codTipo": 190,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+          "dataApresentacao": "2026-07-07T14:55"
+        },
+        {
+          "id": 2636103,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636103",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 1950/2026",
+          "dataApresentacao": "2026-07-01T12:00"
+        },
+        {
+          "id": 2636104,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636104",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 2,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "dataApresentacao": "2026-07-01T12:00"
+        },
+        {
+          "id": 2636105,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636105",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 3,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "dataApresentacao": "2026-07-01T12:00"
+        },
+        {
+          "id": 2636106,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636106",
+          "siglaTipo": "RPD",
+          "codTipo": 328,
+          "numero": 4,
+          "ano": 0,
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "dataApresentacao": "2026-07-01T12:00"
+        },
+        {
+          "id": 2634761,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2634761",
+          "siglaTipo": "SBT",
+          "codTipo": 255,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer ao PL 1950/2026 que Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+          "dataApresentacao": "2026-06-23T11:35"
+        },
+        {
+          "id": 2634760,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2634760",
+          "siglaTipo": "PRL",
+          "codTipo": 190,
+          "numero": 1,
+          "ano": 0,
+          "ementa": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+          "dataApresentacao": "2026-06-22T15:45"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "id": 2618087,
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+          "siglaTipo": "PL",
+          "codTipo": 139,
+          "numero": 1950,
+          "ano": 2026,
+          "ementa": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+          "dataApresentacao": "2026-04-23T13:17"
+        }
+      ]
+    }
+  ]
+}
