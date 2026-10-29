@@ -1,0 +1,4 @@
+services:
+  web:
+    command: pnpm dev --port 5173
+    port: 5173
