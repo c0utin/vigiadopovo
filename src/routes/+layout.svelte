@@ -1,24 +1,25 @@
 <script>
+  import { asset, resolve } from "$app/paths";
   import "../app.css";
   import { page } from "$app/state";
   let { children } = $props();
   const navigation = [
     {
-      href: "/#propostas",
+      href: `${resolve("/")}#propostas`,
       label: "Propostas",
-      section: "/proposta/",
+      section: "/proposta",
       icon: "M7 3h7l4 4v14H6V3h1m7 0v5h4M9 12h6M9 16h6",
     },
     {
-      href: "/dados/",
+      href: resolve("dados/"),
       label: "Dados",
-      section: "/dados/",
+      section: "/dados",
       icon: "M5 20v-7m7 7V4m7 16V9",
     },
     {
-      href: "/sobre/",
+      href: resolve("sobre/"),
       label: "Sobre",
-      section: "/sobre/",
+      section: "/sobre",
       icon: "M12 8h.01M12 11v6M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18",
     },
   ];
@@ -26,7 +27,7 @@
 
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 <header class="site-header wrap">
-  <a class="brand" href="/" aria-label="Vigia do Povo, início"
+  <a class="brand" href={resolve("/")} aria-label="Vigia do Povo, início"
     ><span class="brand-icon" aria-hidden="true">◉</span> vigia<span
       class="brand-light">do</span
     >povo<span class="brand-dot">.</span></a
@@ -35,8 +36,8 @@
     {#each navigation as item}
       <a
         href={item.href}
-        aria-current={page.url.pathname.startsWith(item.section) ||
-        (item.label === "Propostas" && page.url.pathname === "/")
+        aria-current={page.route.id?.startsWith(item.section) ||
+        (item.label === "Propostas" && page.route.id === "/")
           ? "page"
           : undefined}
       >
@@ -60,7 +61,7 @@
 {@render children()}
 <footer class="wrap site-footer">
   <div>
-    <a class="brand" href="/"
+    <a class="brand" href={resolve("/")}
       >vigia<span class="brand-light">do</span>povo<span class="brand-dot"
         >.</span
       ></a
@@ -69,8 +70,8 @@
   </div>
   <div>
     <p>Iniciativa independente, sem vínculo com o governo ou partidos.</p>
-    <a href="/transparencia/">Transparência dos dados</a><span
+    <a href={resolve("transparencia/")}>Transparência dos dados</a><span
       class="footer-separator">·</span
-    ><a href="/dados.json" download>Baixar dados abertos ↗</a>
+    ><a href={asset("dados.json")} download>Baixar dados abertos ↗</a>
   </div>
 </footer>

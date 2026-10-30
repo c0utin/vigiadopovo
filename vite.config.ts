@@ -7,6 +7,8 @@ export default defineConfig({
   plugins: [
     sveltekit({
       adapter: adapter({ precompress: true }),
+      // GitHub Pages serves the site from /<repo>/; local builds use the root.
+      paths: { base: (process.env.BASE_PATH ?? "") as "" | `/${string}` },
       preprocess: vitePreprocess(),
     }),
   ],

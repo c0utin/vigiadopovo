@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { asset, resolve } from "$app/paths";
   import { onMount } from "svelte";
   import type { LegislativeDataset } from "#lib/legislative.ts";
 
@@ -90,7 +91,7 @@
     loading = true;
     error = "";
     try {
-      const response = await fetch("/legislativo.json");
+      const response = await fetch(asset("legislativo.json"));
       if (!response.ok)
         throw new Error("Não foi possível baixar a coleta legislativa.");
       const value: unknown = await response.json();
@@ -269,7 +270,9 @@
       <noscript
         ><p>
           Este explorador precisa de JavaScript. Você pode
-          <a href="/legislativo.json" download>baixar os dados em JSON</a>.
+          <a href={asset("legislativo.json")} download
+            >baixar os dados em JSON</a
+          >.
         </p></noscript
       >
       {#if error}<p role="alert">{error}</p>
@@ -293,7 +296,7 @@
       <details>
         <summary>Cobertura e download</summary>
         <p>{dataset.coverage}</p>
-        <a class="button secondary" href="/legislativo.json" download
+        <a class="button secondary" href={asset("legislativo.json")} download
           >Baixar conjunto normalizado (JSON)</a
         >
       </details>
@@ -362,7 +365,9 @@
         <ul class="sources">
           {#each selectedPropositions as p}
             <li>
-              <a href={`/proposta/${p.id}/`}>{p.label} — página local</a> ·
+              <a href={resolve(`proposta/${p.id}/`)}>{p.label} — página local</a
+              >
+              ·
               <a href={p.url}>Proposição na Câmara</a>
               <p>{p.ementa}</p>
               {#each p.labels as label}<a

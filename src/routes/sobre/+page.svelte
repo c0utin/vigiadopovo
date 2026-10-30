@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { asset, resolve } from "$app/paths";
+</script>
+
 <svelte:head
   ><title>Fontes, método e privacidade — Vigia do Povo</title><meta
     name="description"
@@ -5,7 +9,7 @@
   /></svelte:head
 >
 <main id="conteudo" class="wrap about-page">
-  <a class="back-link" href="/">← Voltar ao início</a>
+  <a class="back-link" href={resolve("/")}>← Voltar ao início</a>
   <p class="eyebrow">NOSSO COMPROMISSO</p>
   <h1>Transparência também<br />sobre o que fazemos.</h1>
   <p class="lead">
@@ -112,7 +116,7 @@
       rel="noreferrer">Fale Conosco da Câmara</a
     >.
   </p>
-  <a class="button primary" href="/dados.json" download
+  <a class="button primary" href={asset("dados.json")} download
     >Baixar a coleta em JSON ↗</a
   >
 </main>

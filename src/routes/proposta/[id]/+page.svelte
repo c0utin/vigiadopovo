@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from "$app/paths";
   import type { PageData } from "./$types";
   import { date } from "#lib/format.ts";
   let { data }: { data: PageData } = $props();
@@ -17,7 +18,7 @@
   /></svelte:head
 >
 <main id="conteudo" class="wrap detail-page">
-  <a class="back-link" href="/#propostas">← Propostas</a>
+  <a class="back-link" href={`${resolve("/")}#propostas`}>← Propostas</a>
   <div class="detail-layout">
     <header class="detail-head">
       <p class="eyebrow">{p.label} · {p.summary?.topic ?? p.type}</p>
@@ -82,7 +83,8 @@
               >
             </li>{/each}
         </ol>
-        <a class="read-link" href="/dados/">Ver como cada deputado votou →</a
+        <a class="read-link" href={resolve("dados/")}
+          >Ver como cada deputado votou →</a
         >{:else}<p class="muted">
           Nenhuma votação registrada nesta coleta. Isso não prevê se haverá
           votação.
@@ -123,8 +125,8 @@
           <a href={p.apiUrl} target="_blank" rel="noreferrer"
             >Dados na API da Câmara ↗</a
           >
-          · <a href="/sobre/">Como os resumos são feitos</a> ·
-          <a href="/transparencia/">Transparência dos dados</a>
+          · <a href={resolve("sobre/")}>Como os resumos são feitos</a> ·
+          <a href={resolve("transparencia/")}>Transparência dos dados</a>
         </p>
       </details>
     </div>

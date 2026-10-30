@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { resolve } from "$app/paths";
   import type { PageData } from "./$types";
   import Congress from "#lib/Congress.svelte";
   import { date } from "#lib/format.ts";
@@ -87,7 +88,9 @@
                   class="proposal-id">{p.label}</span
                 >
               </p>
-              <h4><a href="/proposta/{p.id}/">{p.title}</a></h4>
+              <h4>
+                <a href={resolve(`proposta/${p.id}/`)}>{p.title}</a>
+              </h4>
               <p class="card-description">{p.text}</p>
               <p class="card-meta">
                 <span>{p.stage ?? "Situação não informada"}</span><span
@@ -125,7 +128,9 @@
           link para acompanhar na Câmara.
         </li>
       </ol>
-      <a class="method-link" href="/sobre/">Fontes, método e limites →</a>
+      <a class="method-link" href={resolve("sobre/")}
+        >Fontes, método e limites →</a
+      >
     </div>
   </section>
 </main>

@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { asset, resolve } from "$app/paths";
+  // Provenance stores root-relative URLs; asset() adds the deploy base path.
+  const file = (url: string) => url.slice(1) as Parameters<typeof asset>[0];
   import provenance from "#lib/data/provenance.json";
   import { date } from "#lib/format.ts";
 
@@ -185,8 +188,10 @@
       fonte nem são uma assinatura digital da Câmara. Compare os dados com as
       URLs oficiais indicadas nas capturas.
     </p>
-    <a class="button primary" href={provenance.manifestUrl} download
-      >Baixar manifesto da execução ↗</a
+    <a
+      class="button primary"
+      href={asset(file(provenance.manifestUrl))}
+      download>Baixar manifesto da execução ↗</a
     >
     <p class="hash">
       SHA-256 do manifesto: <code>{provenance.manifestHash}</code>
@@ -212,7 +217,8 @@
                     ? " · contato e foto removidos"
                     : ""}</span
                 >{/if}
-              <a href={entry.url} download>{entry.key.split("/").at(-1)}</a
+              <a href={asset(file(entry.url))} download
+                >{entry.key.split("/").at(-1)}</a
               ><span
                 >{entry.bytes.toLocaleString("pt-BR")} bytes · SHA-256 no nome do
                 arquivo</span
@@ -260,8 +266,8 @@
       </li>
     </ul>
     <p>
-      <a href="/dados/">Explorar votos e temas →</a> ·
-      <a href="/sobre/">Fontes, legislação e privacidade →</a>
+      <a href={resolve("dados/")}>Explorar votos e temas →</a> ·
+      <a href={resolve("sobre/")}>Fontes, legislação e privacidade →</a>
       ·
       <a href="https://dadosabertos.camara.leg.br/">API oficial da Câmara ↗</a>
     </p>
