@@ -1,0 +1,70 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-07-16",
+      "dataHoraRegistro": "2025-07-16T18:22:43",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2025-07-16T10:00",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": "2018-04-16T16:51",
+          "descResultado": "Aprovado o requerimento nº 4248/2023,do Sr. Marcel van Hattem, que solicita urgência (art. 155) para o PL 8262/2017.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do Requerimento de Redistribuição n. 8437/2018, pela Comissão de Direitos Humanos e Minorias, que: \"Requer a inclusão da Comissão de Direitos Humanos e Minorias no despacho inicial aposto ao PL 8.262/2017\".",
+          "tituloProposicao": "PL 8262/2017",
+          "tituloProposicaoCitada": "REQ 8437/2018 => PL 8262/2017",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2147513",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2172109"
+        }
+      ],
+      "id": "2411961-13",
+      "idEvento": 77363,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2023,
+          "codTipo": 392,
+          "dataApresentacao": "2023-12-11T14:02",
+          "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
+          "id": 2411961,
+          "numero": 4248,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2017,
+          "codTipo": 139,
+          "dataApresentacao": "2017-08-11T17:11",
+          "ementa": "Dispõe sobre a retirada de invasores de propriedade privada.",
+          "id": 2147513,
+          "numero": 8262,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2147513"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77363",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:35.908Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13"
+}

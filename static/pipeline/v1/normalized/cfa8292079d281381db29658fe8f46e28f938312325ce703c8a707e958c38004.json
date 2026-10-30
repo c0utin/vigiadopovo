@@ -1,0 +1,1377 @@
+{
+  "collectedAt": "2026-10-30T00:26:20.607Z",
+  "coverage": "Câmara dos Deputados · amostra de proposições e votações",
+  "propositions": [
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
+      "authors": [
+        {
+          "name": "Aline Gurgel",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187754",
+      "ementa": "Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências.",
+      "id": 2649633,
+      "label": "PL 5704/2026",
+      "labels": [],
+      "presentedAt": "2026-10-29T16:27",
+      "sourceHash": "bed2e594931c69ccae4e4d90988cc65fa7bc9e767b77f7f18028a1e429cebd3a",
+      "status": {
+        "dataHora": "2026-10-29T16:27",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5704/2026 (Projeto de Lei), pela Deputada Aline Gurgel (UNIÃO/AP), que \"Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências\".",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "bed2e594931c69ccae4e4d90988cc65fa7bc9e767b77f7f18028a1e429cebd3a",
+        "text": "A proposta cria um programa nacional para prevenir situações de risco com crianças e adolescentes nas escolas e nos arredores. Prevê orientações para cooperação, acompanhamento preventivo e resposta a ocorrências.",
+        "title": "Mais prevenção para proteger crianças nas escolas",
+        "topic": "Educação"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "votes": []
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560",
+      "authors": [
+        {
+          "name": "Reimont",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187573",
+      "ementa": "Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS.",
+      "id": 2649560,
+      "label": "PL 5703/2026",
+      "labels": [],
+      "presentedAt": "2026-10-29T14:28",
+      "sourceHash": "0ec644674f02c343712c812730c1d75f2c280fb942f09679343f01467f59387b",
+      "status": {
+        "dataHora": "2026-10-29T14:28",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5703/2026 (Projeto de Lei), pelo Deputado Reimont (PT/RJ -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS\".",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "0ec644674f02c343712c812730c1d75f2c280fb942f09679343f01467f59387b",
+        "text": "O projeto trata do atendimento pelo SUS a idosos que moram em instituições de longa permanência. Também propõe regras para acolher idosos em situação de risco e aproximar os serviços de saúde, assistência social e cuidados de longa duração.",
+        "title": "Cuidados de saúde para idosos que vivem em instituições",
+        "topic": "Saúde"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "votes": []
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+      "authors": [
+        {
+          "name": "Eros Biondini",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187571",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução.",
+      "id": 2649558,
+      "label": "PL 5702/2026",
+      "labels": [],
+      "presentedAt": "2026-10-29T14:09",
+      "sourceHash": "f1d3c16059c220ddeaede3081f4f207a5bc008b5fa2d03daf810c9a5d061dc3f",
+      "status": {
+        "dataHora": "2026-10-29T14:09",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5702/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução\".",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "f1d3c16059c220ddeaede3081f4f207a5bc008b5fa2d03daf810c9a5d061dc3f",
+        "text": "A proposta muda leis penais e a lei do FGTS para tratar da reparação de prejuízos materiais causados por crimes contra o patrimônio. A ementa não explica como essa reparação funcionaria; é preciso consultar o texto completo para conhecer as regras.",
+        "title": "Regras para reparar prejuízos causados por crimes",
+        "topic": "Justiça"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "votes": []
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+      "authors": [
+        {
+          "name": "Hildo Rocha",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187506",
+      "ementa": "Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes.",
+      "id": 2649535,
+      "label": "PL 5700/2026",
+      "labels": [],
+      "presentedAt": "2026-10-29T12:30",
+      "sourceHash": "247331971efcc390b9aed486a8a6ee19e04d167e9d90054dd0f5023e2e424d70",
+      "status": {
+        "dataHora": "2026-10-29T12:30",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5700/2026 (Projeto de Lei), pelo Deputado Hildo Rocha (MDB/MA), que \"Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes\".",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "247331971efcc390b9aed486a8a6ee19e04d167e9d90054dd0f5023e2e424d70",
+        "text": "O projeto aumenta os percentuais mínimos de votos que um candidato precisa receber para ocupar uma vaga obtida pelo partido e para participar da divisão das vagas restantes. A ementa não informa quais seriam os novos percentuais.",
+        "title": "Mais votos individuais para conquistar uma vaga nas eleições",
+        "topic": "Democracia"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "votes": []
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534",
+      "authors": [
+        {
+          "name": "Emanuel Pinheiro Neto",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187499",
+      "ementa": "Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização.",
+      "id": 2649534,
+      "label": "PL 5699/2026",
+      "labels": [],
+      "presentedAt": "2026-10-29T12:05",
+      "sourceHash": "e7c224e3fe3e1cb1d6b10d0f15896c4116e77efbd7d260860b60c1b3d9395c65",
+      "status": {
+        "dataHora": "2026-10-29T12:05",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5699/2026 (Projeto de Lei), pelo Deputado Emanuel Pinheiro Neto (PSD/MT), que \"Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização. \".",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "e7c224e3fe3e1cb1d6b10d0f15896c4116e77efbd7d260860b60c1b3d9395c65",
+        "text": "A proposta deixa explícita a proibição de discriminar trabalhadores por motivos políticos ou eleitorais. Também prevê medidas para prevenir essas práticas, reparar os danos e responsabilizar quem as cometer.",
+        "title": "Proteção ao emprego e à liberdade de voto",
+        "topic": "Trabalho"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "votes": []
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526",
+      "authors": [
+        {
+          "name": "Dani Cunha",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187481",
+      "ementa": "Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo.",
+      "id": 2649526,
+      "label": "PL 5698/2026",
+      "labels": [],
+      "presentedAt": "2026-10-29T11:34",
+      "sourceHash": "2a79ff462780893df0c180a60be293cb61f004203400a48919c4019ed95167fd",
+      "status": {
+        "dataHora": "2026-10-29T11:34",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5698/2026 (Projeto de Lei), pela Deputada Dani Cunha (PL/RJ), que \"Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo\".",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "2a79ff462780893df0c180a60be293cb61f004203400a48919c4019ed95167fd",
+        "text": "O projeto propõe combinar visitas presenciais, respostas digitais e registros administrativos para ampliar a cobertura do Censo. Também altera as penalidades para quem se recusar, sem justificativa, a fornecer informações domiciliares.",
+        "title": "Cruzar informações para melhorar a contagem da população",
+        "topic": "Sociedade"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "votes": []
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+      "authors": [
+        {
+          "name": "Yury Bruno",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183470",
+      "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
+      "id": 2647427,
+      "label": "PL 5542/2026",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "relevance": 2,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "relevance": 1,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        }
+      ],
+      "presentedAt": "2026-10-13T13:26",
+      "sourceHash": "b2462d89fc4c002797cd3c9aaa4f0f8b77a4663efd5e01345e054b70ef712759",
+      "status": {
+        "dataHora": "2026-10-28T13:55",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Urgência (154, 155 ou 64 CF)",
+        "despacho": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4300/2026.",
+        "siglaOrgao": "PLEN"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "b2462d89fc4c002797cd3c9aaa4f0f8b77a4663efd5e01345e054b70ef712759",
+        "text": "A proposta muda a Lei Maria da Penha para criar garantias no uso de monitoramento eletrônico como medida protetiva. Trata de alertas sonoros e luminosos, proteção da vítima e uso excepcional de mecanismo de contenção física à distância.",
+        "title": "Novas garantias no monitoramento de agressores",
+        "topic": "Direitos"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "votes": [
+        {
+          "date": "2026-10-28",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "id": "2647742-7",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7"
+        }
+      ]
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+      "authors": [
+        {
+          "name": "Representação Brasileira no Parlamento do Mercosul",
+          "type": "COMISSÃO MISTA PERMANENTE"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3122361",
+      "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+      "id": 2620905,
+      "label": "PDL 274/2026",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+        }
+      ],
+      "presentedAt": "2026-05-04T18:00",
+      "sourceHash": "9376f6212773b4c2c2fa4112dbfb73e96a00d315d3ef3707e29c0434122e668b",
+      "status": {
+        "dataHora": "2026-10-29T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 241/2026/SGM-P.",
+        "siglaOrgao": "MESA"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "9376f6212773b4c2c2fa4112dbfb73e96a00d315d3ef3707e29c0434122e668b",
+        "text": "A proposta aprova o texto de um acordo do Mercosul e de países associados sobre o reconhecimento mútuo de medidas de proteção a mulheres em situação de violência de gênero. A ementa não detalha os procedimentos desse reconhecimento.",
+        "title": "Reconhecer medidas de proteção a mulheres entre países",
+        "topic": "Direitos"
+      },
+      "type": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "votes": [
+        {
+          "date": "2026-10-28",
+          "description": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+          "id": "2620905-56",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56"
+        },
+        {
+          "date": "2026-10-28",
+          "description": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+          "id": "2620905-53",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53"
+        },
+        {
+          "date": "2026-10-28",
+          "description": "Rejeitado o Requerimento.",
+          "id": "2620905-48",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48"
+        },
+        {
+          "date": "2026-06-10",
+          "description": "Aprovado o Parecer.",
+          "id": "2620905-21",
+          "organ": "CMULHER",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21"
+        }
+      ]
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+      "authors": [
+        {
+          "name": "Alfredo Gaspar",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3117361",
+      "ementa": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+      "id": 2618087,
+      "label": "PL 1950/2026",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        },
+        {
+          "id": "camara:tema:52",
+          "name": "Previdência e Assistência Social",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        }
+      ],
+      "presentedAt": "2026-04-23T13:17",
+      "sourceHash": "b45203f54534c4f2113cc200db49b7da464bf60668bf00b4b7cb879b8139fc7e",
+      "status": {
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "siglaOrgao": "CIDOSO"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "b45203f54534c4f2113cc200db49b7da464bf60668bf00b4b7cb879b8139fc7e",
+        "text": "O projeto propõe uma forma mais grave do crime de estelionato quando o golpe prejudica ou usa determinadas entidades públicas, de assistência ou beneficentes. Também prevê que, para vítimas com mais de 60 anos, a ação penal não dependa de autorização da vítima.",
+        "title": "Mudanças na punição e na investigação de golpes",
+        "topic": "Justiça"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "votes": [
+        {
+          "date": "2026-10-28",
+          "description": "Aprovado o Parecer.",
+          "id": "2618087-22",
+          "organ": "CIDOSO",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22"
+        }
+      ]
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+      "authors": [
+        {
+          "name": "Nely Aquino",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3109326",
+      "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+      "id": 2613852,
+      "label": "PL 1648/2026",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        }
+      ],
+      "presentedAt": "2026-04-07T16:06",
+      "sourceHash": "1a8523b4c85721cfb3f306836c16761e55506ccbb4bd8e6a71e48f76a20e0989",
+      "status": {
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "siglaOrgao": "CIDOSO"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "1a8523b4c85721cfb3f306836c16761e55506ccbb4bd8e6a71e48f76a20e0989",
+        "text": "O projeto propõe proteger os direitos de língua, identidade e cultura de pessoas surdas e surdocegas. Também prevê acesso a Libras e orientação por profissionais de diferentes áreas antes de um implante coclear em crianças.",
+        "title": "Acesso a Libras e direitos de pessoas surdas e surdocegas",
+        "topic": "Direitos"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "votes": [
+        {
+          "date": "2026-10-28",
+          "description": "Aprovado o Parecer.",
+          "id": "2613852-22",
+          "organ": "CIDOSO",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22"
+        }
+      ]
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+      "authors": [
+        {
+          "name": "Lucas Abrahao",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3106120",
+      "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+      "id": 2612566,
+      "label": "PL 1453/2026",
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        },
+        {
+          "id": "camara:tema:67",
+          "name": "Direito e Defesa do Consumidor",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        }
+      ],
+      "presentedAt": "2026-03-27T11:53",
+      "sourceHash": "d3108609a08ebbc5dd6cd1b33aeb9953e1827d0d7cbdb2150a415e336b5332ea",
+      "status": {
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "siglaOrgao": "CIDOSO"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "d3108609a08ebbc5dd6cd1b33aeb9953e1827d0d7cbdb2150a415e336b5332ea",
+        "text": "O projeto exige que seja oferecido a clientes idosos um mecanismo de autenticação em duas etapas com confirmação por uma pessoa de confiança. A ementa não diz que todos os clientes idosos seriam obrigados a usar essa opção.",
+        "title": "Uma pessoa de confiança na segurança bancária de idosos",
+        "topic": "Economia"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "votes": [
+        {
+          "date": "2026-10-28",
+          "description": "Aprovado o Parecer.",
+          "id": "2612566-22",
+          "organ": "CIDOSO",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22"
+        }
+      ]
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+      "authors": [
+        {
+          "name": "Abilio Brunini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Adilson Barroso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Adolfo Viana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Adriana Ventura",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Afonso Hamm",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alberto Fraga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alceu Moreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Guimarães",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredo Gaspar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Altineu Côrtes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Amália Barros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Amaro Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Paula Leão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "André Fernandes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "André Ferreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Any Ortiz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arnaldo Jardim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arthur Oliveira Maia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benes Leocádio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Beto Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bia Kicis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bibo Nunes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cabo Gilberto Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Alberto Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Alden",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Augusto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carla Zambelli",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Jordy",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Sampaio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Caroline de Toni",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Celso Russomanno",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chris Tonietto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cobalchini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Assis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Chrisóstomo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Fernanda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Meira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Telhada",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Ulysses",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Covatti Filho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cristiane Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Freitas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Trzeciak",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniela Reinehr",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "David Soares",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Defensor Stélio Dener",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Éder Mauro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Fabio Costa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Marcelo Freitas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Palumbo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Paulo Bilynskyj",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Ramagem",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Diego Andrade",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Diego Coronel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Diego Garcia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dilceu Sperafico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dimas Fabiano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Domingos Sávio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Doutor Luizinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Fernando Máximo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Frederico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Jaziel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Luiz Ovando",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Eduardo Bolsonaro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Elmar Nascimento",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Emidinho Madeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Evair Vieira de Melo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Félix Mendonça Júnior",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernanda Pessoa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Filipe Martins",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Franciane Bayer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fred Linhares",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gabriel Mota",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "General Girão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "General Pazuello",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Geraldo Mendes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Giacobo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilberto Abramo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilson Marques",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilvan da Federal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Giovani Cherini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glaustin da Fokus",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Greyce Elias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gustavo Gayer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gustinho Ribeiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gutemberg Reis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helio Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Hercílio Coelho Diniz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ismael",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ismael Alexandrino",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jefferson Campos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Maia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Braz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Medeiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Josivaldo Jp",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juarez Costa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Julia Zanatta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Julio Arcoverde",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Júlio Cesar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Junio Amaral",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kim Kataguiri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lázaro Botelho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lebrão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lêda Borges",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Leur Lomanto Júnior",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lucas Redecker",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lucio Mosquini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luis Carlos Gomes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Nishimori",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Philippe de Orleans e Bragança",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Magda Mofatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcel van Hattem",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcelo Álvaro Antônio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcelo Moraes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Marinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marco Brasil",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcos Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcos Pollon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria Rosas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mario Frias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marussa Boldrin",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marx Beltrão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mauricio do Vôlei",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mauricio Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Meire Serafim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Messias Donato",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Misael Varella",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Neto Carletto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Newton Cardoso Jr",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nicoletti",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nikolas Ferreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Osmar Terra",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padovani",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Diniz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Eurico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Abi-Ackel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Azi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Foletto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Litro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Aihara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Lupion",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Westphalen",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pezenti",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pinheirinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pr. Marco Feliciano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Prof. Paulo Fernando",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professor Alcides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rafael Simoes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Raimundo Costa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Raimundo Santos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reinhold Stephanes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Renata Abreu",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ricardo Salles",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Roberta Roma",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Roberto Duarte",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodolfo Nogueira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodrigo Gambale",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodrigo Valadares",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogéria Santos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rosângela Moro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rosângela Reis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Samuel Viana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sanderson",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Fahur",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Gonçalves",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sergio Souza",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Silas Câmara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Silvia Waiãpi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Simone Marquetto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sóstenes Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Thiago de Joaldo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tião Medeiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Toninho Wandscheer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vermelho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vicentinho Júnior",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vinicius Carvalho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Trovão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Vitor",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zezinho Barbary",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zucco",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2373577",
+      "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
+      "id": 2411961,
+      "label": "REQ 4248/2023",
+      "labels": [],
+      "presentedAt": "2023-12-11T14:02",
+      "sourceHash": "dc8356d7083d27fc06640307e71af73a462fe79812106de7a848d44734a9e464",
+      "status": {
+        "dataHora": "2025-07-16T10:00",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Proposição (Plenário)",
+        "despacho": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+        "siglaOrgao": "PLEN"
+      },
+      "summary": null,
+      "type": "Requerimento de Urgência (Art. 155 do RICD)",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "votes": [
+        {
+          "date": "2025-07-16",
+          "description": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+          "id": "2411961-13",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13"
+        }
+      ]
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "authors": [
+        {
+          "name": "Juninho do Pneu",
+          "type": "Deputado(a)"
+        }
+      ],
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1751589",
+      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+      "id": 2204495,
+      "label": "PL 3099/2019",
+      "labels": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas"
+        }
+      ],
+      "presentedAt": "2019-05-22T19:59",
+      "sourceHash": "0d9358eb1022ec037e01286d47e5f24d2f3b778c6b588368f0d7231a94ac43e8",
+      "status": {
+        "dataHora": "2026-10-28T13:55",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Urgência (154, 155 ou 64 CF)",
+        "despacho": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4194/2026.",
+        "siglaOrgao": "PLEN"
+      },
+      "summary": {
+        "generatedAt": "2026-10-29T23:01:00Z",
+        "method": "Inferência neste chat · sem revisão humana",
+        "scope": "ementa",
+        "sourceHash": "0d9358eb1022ec037e01286d47e5f24d2f3b778c6b588368f0d7231a94ac43e8",
+        "text": "O projeto propõe incluir o Dia Nacional do Autocuidado no calendário do país. A ementa não informa a data escolhida nem prevê detalhes sobre atividades para esse dia.",
+        "title": "Um Dia Nacional do Autocuidado no calendário",
+        "topic": "Saúde"
+      },
+      "type": "Projeto de Lei",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "votes": [
+        {
+          "date": "2026-10-28",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "id": "2645996-7",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7"
+        },
+        {
+          "date": "2025-07-09",
+          "description": "Aprovada a Redação Final.",
+          "id": "2204495-72",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72"
+        },
+        {
+          "date": "2025-05-21",
+          "description": "Aprovado o Parecer.",
+          "id": "2204495-54",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54"
+        },
+        {
+          "date": "2024-06-05",
+          "description": "Aprovado o Parecer.",
+          "id": "2204495-37",
+          "organ": "CSAUDE",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37"
+        }
+      ]
+    }
+  ]
+}

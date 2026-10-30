@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-05-21",
+      "dataHoraRegistro": "2025-05-21T11:32:10",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2204495-54",
+      "idEvento": 76377,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-04-03T15:45",
+          "ementa": "Parecer da Relatora, Dep. Enfermeira Ana Paula (PODE-CE), pela constitucionalidade, juridicidade e técnica legislativa deste, dos Projetos de Lei n°s 939/2024 e 948/2024, apensados, e do Substitutivo da Comissão de Saúde.",
+          "id": 2494531,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2494531"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-10-22T11:47",
+          "ementa": "Parecer do Relator, Dep. Eduardo Bismarck (PDT-CE), pela constitucionalidade, juridicidade e técnica legislativa deste, dos Projetos de Lei nºs 939/2024 e 948/2024, apensados, e do Substitutivo da Comissão de Saúde.",
+          "id": 2463701,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2463701"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-22T19:59",
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "id": 2204495,
+          "numero": 3099,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-04-07T15:25:17",
+        "descricao": "Parecer da Relatora, Dep. Enfermeira Ana Paula (PODE-CE), pela constitucionalidade, juridicidade e técnica legislativa deste, dos Projetos de Lei n°s 939/2024 e 948/2024, apensados, e do Substitutivo da Comissão de Saúde.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2494531"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/76377",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:37.361Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-04-07T16:06",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+      "ementaDetalhada": "",
+      "id": 2613852,
+      "justificativa": null,
+      "keywords": "Alteração, Estatuto da Criança e do Adolescente (ECA) (1990), Estatuto da Pessoa Idosa (2003), direitos, comunicação, Língua Brasileira de Sinais (LIBRAS), Língua Brasileira de Sinais Tátil (LIBRAS Tátil), surdocegueira, surdo, pessoa com altas habilidades, pessoa superdotada, pessoa com deficiência, deficiência auditiva, obrigatoriedade, orientação, assistência psicológica, família, diretrizes, direitos do idoso, direitos do deficiente.",
+      "numero": 1648,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": 910,
+        "codTipoTramitacao": "336",
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 22,
+        "siglaOrgao": "CIDOSO",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220571",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3109326",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:32.391Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852"
+}

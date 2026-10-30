@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-10-29T12:30",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes.",
+      "ementaDetalhada": null,
+      "id": 2649535,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5700,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-10-29T12:30",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5700/2026 (Projeto de Lei), pelo Deputado Hildo Rocha (MDB/MA), que \"Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187506",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:26.991Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535"
+}

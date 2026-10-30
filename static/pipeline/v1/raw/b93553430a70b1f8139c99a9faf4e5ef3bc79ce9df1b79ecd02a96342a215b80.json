@@ -1,0 +1,66 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:09:54",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2645996-7",
+        "proposicaoObjeto": "REQ 4194/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2645996"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-07-09",
+        "dataHoraRegistro": "2025-07-09T14:04:12",
+        "descricao": "Aprovada a Redação Final.",
+        "id": "2204495-72",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/76977",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-05-21",
+        "dataHoraRegistro": "2025-05-21T11:32:10",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2204495-54",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/76377",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2024-06-05",
+        "dataHoraRegistro": "2024-06-05T11:57:23",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2204495-37",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CSAUDE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/73091",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:40.261Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/votacoes"
+}

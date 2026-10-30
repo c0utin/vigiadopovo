@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 55,
+        "relevancia": 0,
+        "tema": "Relações Internacionais e Comércio Exterior"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:31.280Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+}

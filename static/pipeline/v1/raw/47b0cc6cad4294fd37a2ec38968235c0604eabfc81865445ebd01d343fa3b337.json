@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-04-23T13:17",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+      "ementaDetalhada": "",
+      "id": 2618087,
+      "justificativa": null,
+      "keywords": "Alteração, Código Penal (1940), estelionato, Crime contra o patrimônio, Forma qualificada, aumento da pena, reclusão, multa, Circunstância qualificadora, intermediação, entidade pública, benefício, beneficiário, redução, idade, vítima, idoso, inaplicação, exigência, representação.",
+      "numero": 1950,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 910,
+        "codTipoTramitacao": "336",
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 22,
+        "siglaOrgao": "CIDOSO",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220571",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3117361",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:31.496Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087"
+}

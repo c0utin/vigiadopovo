@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-10-13T13:26",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
+      "ementaDetalhada": null,
+      "id": 2647427,
+      "justificativa": null,
+      "keywords": "alteração; Lei Maria da Penha (2006); Monitoração eletrônica; Vítima; Medida protetiva de urgência; descumprimento; Agressor; contenção; acesso remoto; Pessoa monitorada; Decisão judicial; Violência contra a mulher; Violência doméstica; Violência de gênero; enfrentamento; Feminicídio; Sistema de alerta; Tornozeleira eletrônica; Tratamento de dados; diretrizes",
+      "numero": 5542,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 924,
+        "codTipoTramitacao": "196",
+        "dataHora": "2026-10-28T13:55",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Urgência (154, 155 ou 64 CF)",
+        "despacho": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4300/2026.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 7,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183470",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:33.886Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427"
+}

@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 43,
+        "relevancia": 0,
+        "tema": "Direito Penal e Processual Penal"
+      },
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 52,
+        "relevancia": 0,
+        "tema": "Previdência e Assistência Social"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:37.670Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+}

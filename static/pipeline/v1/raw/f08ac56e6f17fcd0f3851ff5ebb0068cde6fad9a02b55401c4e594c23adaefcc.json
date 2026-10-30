@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-10-29T16:27",
+        "ementa": "Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências.",
+        "id": 2649633,
+        "numero": 5704,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-10-29T14:28",
+        "ementa": "Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS.",
+        "id": 2649560,
+        "numero": 5703,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-10-29T14:09",
+        "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução.",
+        "id": 2649558,
+        "numero": 5702,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-10-29T12:30",
+        "ementa": "Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes.",
+        "id": 2649535,
+        "numero": 5700,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-10-29T12:05",
+        "ementa": "Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização.",
+        "id": 2649534,
+        "numero": 5699,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-10-29T11:34",
+        "ementa": "Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo.",
+        "id": 2649526,
+        "numero": 5698,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=867&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:21.911Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

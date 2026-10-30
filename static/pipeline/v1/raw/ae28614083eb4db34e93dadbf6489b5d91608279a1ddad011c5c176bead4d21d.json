@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:06:06",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2613852-22",
+      "idEvento": 83096,
+      "idOrgao": 537871,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-08-31T10:29",
+          "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+          "id": 2644869,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644869"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-08-28T16:57",
+          "ementa": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+          "id": 2644868,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644868"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-04-07T16:06",
+          "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+          "id": 2613852,
+          "numero": 1648,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852"
+        }
+      ],
+      "siglaOrgao": "CIDOSO",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-08-31T10:29:04",
+        "descricao": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644868"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:23.533Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22"
+}

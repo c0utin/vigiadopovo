@@ -1,6 +1,8 @@
 import { error } from "@sveltejs/kit";
 import portal from "#lib/portal.ts";
 
+export const csr = false;
+
 export function entries() {
   return portal.propositions.map((p) => ({ id: String(p.id) }));
 }

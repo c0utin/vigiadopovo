@@ -1,0 +1,27 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:09:36",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2647742-7",
+        "proposicaoObjeto": "REQ 4300/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647742"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:29.974Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/votacoes"
+}

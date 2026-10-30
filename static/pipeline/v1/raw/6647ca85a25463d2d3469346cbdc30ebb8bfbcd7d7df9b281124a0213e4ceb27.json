@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-10-29T16:27",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências.",
+      "ementaDetalhada": null,
+      "id": 2649633,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5704,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-10-29T16:27",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5704/2026 (Projeto de Lei), pela Deputada Aline Gurgel (UNIÃO/AP), que \"Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187754",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:24.187Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633"
+}

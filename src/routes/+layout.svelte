@@ -1,6 +1,33 @@
 <script>
   import "../app.css";
+  import { page } from "$app/state";
   let { children } = $props();
+  const navigation = [
+    {
+      href: "/#propostas",
+      label: "Propostas",
+      section: "/proposta/",
+      icon: "M7 3h7l4 4v14H6V3h1m7 0v5h4M9 12h6M9 16h6",
+    },
+    {
+      href: "/dados/",
+      label: "Dados",
+      section: "/dados/",
+      icon: "M5 20v-7m7 7V4m7 16V9",
+    },
+    {
+      href: "/transparencia/",
+      label: "Pipeline",
+      section: "/transparencia/",
+      icon: "M5 5h14v5H5zM5 15h14v5H5zM12 10v5",
+    },
+    {
+      href: "/sobre/",
+      label: "Sobre",
+      section: "/sobre/",
+      icon: "M12 8h.01M12 11v6M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18",
+    },
+  ];
 </script>
 
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -11,11 +38,30 @@
     >povo<span class="brand-dot">.</span></a
   >
   <nav aria-label="Navegação principal">
-    <a href="/#propostas">Propostas</a><a href="/#como-funciona"
-      >Como funciona</a
-    ><a href="/sobre/">Fontes e método <span aria-hidden="true">↗</span></a>
+    {#each navigation as item}
+      <a
+        href={item.href}
+        aria-current={page.url.pathname.startsWith(item.section) ||
+        (item.label === "Propostas" && page.url.pathname === "/")
+          ? "page"
+          : undefined}
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.7"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"><path d={item.icon} /></svg
+        >
+        {item.label}
+      </a>
+    {/each}
   </nav>
-  <span class="independent"><span></span> Independente. De todos.</span>
+  <span class="independent"
+    >Independente<span class="desktop-note">. De todos.</span></span
+  >
 </header>
 {@render children()}
 <footer class="wrap site-footer">
@@ -29,7 +75,7 @@
   </div>
   <div>
     <p>Iniciativa independente, sem vínculo com o governo ou partidos.</p>
-    <a href="/sobre/">Transparência e privacidade</a><span
+    <a href="/transparencia/">Transparência da pipeline</a><span
       class="footer-separator">·</span
     ><a href="/dados.json" download>Baixar dados abertos ↗</a>
   </div>

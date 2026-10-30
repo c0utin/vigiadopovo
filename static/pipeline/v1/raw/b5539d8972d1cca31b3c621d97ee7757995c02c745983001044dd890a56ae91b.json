@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-10-29T14:09",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução.",
+      "ementaDetalhada": null,
+      "id": 2649558,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5702,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-10-29T14:09",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5702/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187571",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:30.277Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558"
+}

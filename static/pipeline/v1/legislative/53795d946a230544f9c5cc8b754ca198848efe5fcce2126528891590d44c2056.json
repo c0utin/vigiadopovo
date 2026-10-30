@@ -1,0 +1,4513 @@
+{
+  "collectedAt": "2026-10-30T00:26:20.607Z",
+  "coverage": "Câmara dos Deputados · amostra de proposições e votações",
+  "propositions": [
+    {
+      "ementa": "Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências.",
+      "id": 2649633,
+      "label": "PL 5704/2026",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "votingIds": []
+    },
+    {
+      "ementa": "Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS.",
+      "id": 2649560,
+      "label": "PL 5703/2026",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "votingIds": []
+    },
+    {
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução.",
+      "id": 2649558,
+      "label": "PL 5702/2026",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "votingIds": []
+    },
+    {
+      "ementa": "Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes.",
+      "id": 2649535,
+      "label": "PL 5700/2026",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "votingIds": []
+    },
+    {
+      "ementa": "Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização.",
+      "id": 2649534,
+      "label": "PL 5699/2026",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "votingIds": []
+    },
+    {
+      "ementa": "Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo.",
+      "id": 2649526,
+      "label": "PL 5698/2026",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "votingIds": []
+    },
+    {
+      "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
+      "id": 2647427,
+      "label": "PL 5542/2026",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "relevance": 2,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "relevance": 1,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "votingIds": [
+        "2647742-7"
+      ]
+    },
+    {
+      "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+      "id": 2620905,
+      "label": "PDL 274/2026",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "votingIds": [
+        "2620905-56",
+        "2620905-53",
+        "2620905-48",
+        "2620905-21"
+      ]
+    },
+    {
+      "ementa": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+      "id": 2618087,
+      "label": "PL 1950/2026",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        },
+        {
+          "id": "camara:tema:52",
+          "name": "Previdência e Assistência Social",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "votingIds": [
+        "2618087-22"
+      ]
+    },
+    {
+      "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
+      "id": 2613852,
+      "label": "PL 1648/2026",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "votingIds": [
+        "2613852-22"
+      ]
+    },
+    {
+      "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+      "id": 2612566,
+      "label": "PL 1453/2026",
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        },
+        {
+          "id": "camara:tema:67",
+          "name": "Direito e Defesa do Consumidor",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "votingIds": [
+        "2612566-22"
+      ]
+    },
+    {
+      "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
+      "id": 2411961,
+      "label": "REQ 4248/2023",
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "votingIds": [
+        "2411961-13"
+      ]
+    },
+    {
+      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+      "id": 2204495,
+      "label": "PL 3099/2019",
+      "labels": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas"
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "votingIds": [
+        "2645996-7",
+        "2204495-72",
+        "2204495-54",
+        "2204495-37"
+      ]
+    }
+  ],
+  "schemaVersion": 1,
+  "votings": [
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37/votos",
+      "date": "2024-06-05",
+      "description": "Aprovado o Parecer.",
+      "id": "2204495-37",
+      "organ": "CSAUDE",
+      "propositionIds": [
+        2204495
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54/votos",
+      "date": "2025-05-21",
+      "description": "Aprovado o Parecer.",
+      "id": "2204495-54",
+      "organ": "CCJC",
+      "propositionIds": [
+        2204495
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72/votos",
+      "date": "2025-07-09",
+      "description": "Aprovada a Redação Final.",
+      "id": "2204495-72",
+      "organ": "CCJC",
+      "propositionIds": [
+        2204495
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "recorded-votes",
+      "ballots": [
+        {
+          "deputyId": 66385,
+          "legislature": 57,
+          "name": "Julio Arcoverde",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:38",
+          "state": "PI",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 66828,
+          "legislature": 57,
+          "name": "Fausto Pinato",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:19:35",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 69871,
+          "legislature": 57,
+          "name": "Bacelar",
+          "party": "PV",
+          "registeredAt": "2025-07-16T18:11:13",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 73433,
+          "legislature": 57,
+          "name": "Arlindo Chinaglia",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:31",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 73441,
+          "legislature": 57,
+          "name": "Celso Russomanno",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:42",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73486,
+          "legislature": 57,
+          "name": "Pompeo de Mattos",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:15:04",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73531,
+          "legislature": 57,
+          "name": "Ivan Valente",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:11:33",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 73579,
+          "legislature": 57,
+          "name": "Alberto Fraga",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:48",
+          "state": "DF",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73604,
+          "legislature": 57,
+          "name": "Rui Falcão",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 73692,
+          "legislature": 57,
+          "name": "Osmar Terra",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:15:41",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73701,
+          "legislature": 57,
+          "name": "Benedita da Silva",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:47",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 73768,
+          "legislature": 57,
+          "name": "Dilceu Sperafico",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:12:05",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73778,
+          "legislature": 57,
+          "name": "Luiz Carlos Hauly",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:13:10",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73788,
+          "legislature": 57,
+          "name": "Ricardo Barros",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:48",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 73801,
+          "legislature": 57,
+          "name": "Renildo Calheiros",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:10:14",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74041,
+          "legislature": 57,
+          "name": "Luiz Couto",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:41",
+          "state": "PB",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74043,
+          "legislature": 57,
+          "name": "Wellington Roberto",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:20:54",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74044,
+          "legislature": 57,
+          "name": "Wilson Santiago",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:17",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74057,
+          "legislature": 57,
+          "name": "Alice Portugal",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:12:33",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74060,
+          "legislature": 57,
+          "name": "Daniel Almeida",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:14:36",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74075,
+          "legislature": 57,
+          "name": "Elcione Barbalho",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:16:27",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74079,
+          "legislature": 57,
+          "name": "José Priante",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:16:22",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74084,
+          "legislature": 57,
+          "name": "Raimundo Santos",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:36",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74090,
+          "legislature": 57,
+          "name": "Átila Lins",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:42",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74095,
+          "legislature": 57,
+          "name": "Pauderney Avelino",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:38",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74156,
+          "legislature": 57,
+          "name": "Leonardo Monteiro",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74160,
+          "legislature": 57,
+          "name": "Patrus Ananias",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:08",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74161,
+          "legislature": 57,
+          "name": "Reginaldo Lopes",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:43",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74171,
+          "legislature": 57,
+          "name": "Chico Alencar",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:10:13",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74262,
+          "legislature": 57,
+          "name": "Carlos Sampaio",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:44",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74270,
+          "legislature": 57,
+          "name": "Gilberto Nascimento",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:22",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74273,
+          "legislature": 57,
+          "name": "Jefferson Campos",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74283,
+          "legislature": 57,
+          "name": "Vicentinho",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:23",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74299,
+          "legislature": 57,
+          "name": "Leônidas Cristino",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:11:30",
+          "state": "CE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74317,
+          "legislature": 57,
+          "name": "Júlio Cesar",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:14:22",
+          "state": "PI",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74356,
+          "legislature": 57,
+          "name": "Silas Câmara",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:49",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74371,
+          "legislature": 57,
+          "name": "Rubens Otoni",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:16:15",
+          "state": "GO",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74374,
+          "legislature": 57,
+          "name": "Geraldo Resende",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:21:48",
+          "state": "MS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74376,
+          "legislature": 57,
+          "name": "Vander Loubet",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:41",
+          "state": "MS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74383,
+          "legislature": 57,
+          "name": "Giacobo",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:14:34",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74398,
+          "legislature": 57,
+          "name": "Maria do Rosário",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:13:01",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74400,
+          "legislature": 57,
+          "name": "Paulo Pimenta",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:27",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74467,
+          "legislature": 57,
+          "name": "Damião Feliciano",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:56",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74478,
+          "legislature": 57,
+          "name": "Luciano Bivar",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:38",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74537,
+          "legislature": 57,
+          "name": "Claudio Cajado",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74550,
+          "legislature": 57,
+          "name": "João Leão",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:12:17",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74554,
+          "legislature": 57,
+          "name": "José Rocha",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:15:27",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74574,
+          "legislature": 57,
+          "name": "Paulo Magalhães",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:22",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74585,
+          "legislature": 57,
+          "name": "Lincoln Portela",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:44",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74646,
+          "legislature": 57,
+          "name": "Aécio Neves",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:14:23",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 74848,
+          "legislature": 57,
+          "name": "Jandira Feghali",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:10:19",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 74858,
+          "legislature": 57,
+          "name": "Lindbergh Farias",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:21",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 80815,
+          "legislature": 57,
+          "name": "Leo Prates",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:11:14",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 81055,
+          "legislature": 57,
+          "name": "Márcio Jerry",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:10:39",
+          "state": "MA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 88256,
+          "legislature": 57,
+          "name": "Clodoaldo Magalhães",
+          "party": "PV",
+          "registeredAt": "2025-07-16T18:10:24",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 91228,
+          "legislature": 57,
+          "name": "Waldemar Oliveira",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:10:24",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 92102,
+          "legislature": 57,
+          "name": "Leur Lomanto Júnior",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:17:26",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 92699,
+          "legislature": 57,
+          "name": "Fernando Monteiro",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:19",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 92776,
+          "legislature": 57,
+          "name": "Stefano Aguiar",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:17:08",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 98057,
+          "legislature": 57,
+          "name": "Lafayette de Andrada",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:20",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 98148,
+          "legislature": 57,
+          "name": "Cobalchini",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:45",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 104552,
+          "legislature": 57,
+          "name": "Socorro Neri",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:13",
+          "state": "AC",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 107970,
+          "legislature": 57,
+          "name": "Ana Paula Leão",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:08",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 109429,
+          "legislature": 57,
+          "name": "Benes Leocádio",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:13:42",
+          "state": "RN",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 121948,
+          "legislature": 57,
+          "name": "Adriano do Baldy",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:33",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 122158,
+          "legislature": 57,
+          "name": "Pedro Paulo",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:12:54",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 122974,
+          "legislature": 57,
+          "name": "Pedro Lucas Fernandes",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:30",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 123086,
+          "legislature": 57,
+          "name": "Átila Lira",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:13:16",
+          "state": "PI",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 123756,
+          "legislature": 57,
+          "name": "Antônia Lúcia",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:19:05",
+          "state": "AC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 133439,
+          "legislature": 57,
+          "name": "André Figueiredo",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:12:33",
+          "state": "CE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 133810,
+          "legislature": 57,
+          "name": "Marcelo Moraes",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:08",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 136811,
+          "legislature": 57,
+          "name": "Afonso Hamm",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:38",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 137070,
+          "legislature": 57,
+          "name": "Vicentinho Júnior",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:17",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 138286,
+          "legislature": 57,
+          "name": "Luciano Alves",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:15:41",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 139285,
+          "legislature": 57,
+          "name": "Lídice da Mata",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:10:16",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141398,
+          "legislature": 57,
+          "name": "Carlos Zarattini",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:13:13",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141408,
+          "legislature": 57,
+          "name": "Cleber Verde",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141411,
+          "legislature": 57,
+          "name": "Dagoberto Nogueira",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:13:06",
+          "state": "MS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141421,
+          "legislature": 57,
+          "name": "Eduardo da Fonte",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:16",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141431,
+          "legislature": 57,
+          "name": "Fernando Coelho Filho",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:15",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141450,
+          "legislature": 57,
+          "name": "Hugo Leal",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:11",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141456,
+          "legislature": 57,
+          "name": "Jilmar Tatto",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:15:03",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141458,
+          "legislature": 57,
+          "name": "João Carlos Bacelar",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:34",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141459,
+          "legislature": 57,
+          "name": "João Maia",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:30",
+          "state": "RN",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141464,
+          "legislature": 57,
+          "name": "José Airton Félix Cirilo",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:13:52",
+          "state": "CE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141470,
+          "legislature": 57,
+          "name": "José Guimarães",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:22",
+          "state": "CE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 141480,
+          "legislature": 57,
+          "name": "Lázaro Botelho",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:00",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141485,
+          "legislature": 57,
+          "name": "Luiz Carlos Busato",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:48",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141487,
+          "legislature": 57,
+          "name": "Luiz Fernando Faria",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:08",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141516,
+          "legislature": 57,
+          "name": "Paulo Abi-Ackel",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:11:23",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141518,
+          "legislature": 57,
+          "name": "Paulinho da Força",
+          "party": "SOLIDARIEDADE",
+          "registeredAt": "2025-07-16T18:14:01",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141531,
+          "legislature": 57,
+          "name": "Rodrigo de Castro",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:21",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 141555,
+          "legislature": 57,
+          "name": "Vinicius Carvalho",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:02",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 143632,
+          "legislature": 57,
+          "name": "Domingos Neto",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:22",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 150418,
+          "legislature": 57,
+          "name": "Márcio Marinho",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:25",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 152605,
+          "legislature": 57,
+          "name": "Glauber Braga",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:10:08",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 153423,
+          "legislature": 57,
+          "name": "Renilce Nicodemos",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:35",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 156190,
+          "legislature": 57,
+          "name": "Marcel van Hattem",
+          "party": "NOVO",
+          "registeredAt": "2025-07-16T18:10:47",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 157130,
+          "legislature": 57,
+          "name": "Túlio Gadêlha",
+          "party": "REDE",
+          "registeredAt": "2025-07-16T18:13:08",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160161,
+          "legislature": 57,
+          "name": "Marcelo Queiroz",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:17:03",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160510,
+          "legislature": 57,
+          "name": "Luis Tibé",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:11:41",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160512,
+          "legislature": 57,
+          "name": "Aureo Ribeiro",
+          "party": "SOLIDARIEDADE",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160517,
+          "legislature": 57,
+          "name": "Paulo Folletto",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:12:28",
+          "state": "ES",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160535,
+          "legislature": 57,
+          "name": "Marcon",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:54",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160538,
+          "legislature": 57,
+          "name": "Bohn Gass",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:15:02",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160548,
+          "legislature": 57,
+          "name": "Jonas Donizette",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:15:02",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160552,
+          "legislature": 57,
+          "name": "Danrlei de Deus Hinterholz",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:40",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160556,
+          "legislature": 57,
+          "name": "Padre João",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:34",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160558,
+          "legislature": 57,
+          "name": "Paulo Freire Costa",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:37",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160559,
+          "legislature": 57,
+          "name": "Alceu Moreira",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:10:09",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160561,
+          "legislature": 57,
+          "name": "Missionário José Olimpio",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:30",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160569,
+          "legislature": 57,
+          "name": "Waldenor Pereira",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:46",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160575,
+          "legislature": 57,
+          "name": "Erika Kokay",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "DF",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160591,
+          "legislature": 57,
+          "name": "Vinicius Gurgel",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:48",
+          "state": "AP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160592,
+          "legislature": 57,
+          "name": "Zeca Dirceu",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:13:24",
+          "state": "PR",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160599,
+          "legislature": 57,
+          "name": "Dimas Fabiano",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:14:03",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160600,
+          "legislature": 57,
+          "name": "Arthur Oliveira Maia",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:40",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160601,
+          "legislature": 57,
+          "name": "Pr. Marco Feliciano",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:31",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160604,
+          "legislature": 57,
+          "name": "Pedro Uczai",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:21:29",
+          "state": "SC",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160610,
+          "legislature": 57,
+          "name": "Valmir Assunção",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:22:05",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 160629,
+          "legislature": 57,
+          "name": "Romero Rodrigues",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:11:40",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160635,
+          "legislature": 57,
+          "name": "Ruy Carneiro",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:10:21",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160640,
+          "legislature": 57,
+          "name": "Eros Biondini",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:49",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160642,
+          "legislature": 57,
+          "name": "Pastor Eurico",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:44",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160665,
+          "legislature": 57,
+          "name": "Augusto Coutinho",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:13",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160666,
+          "legislature": 57,
+          "name": "Félix Mendonça Júnior",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:14:07",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160673,
+          "legislature": 57,
+          "name": "Giovani Cherini",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:32",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160674,
+          "legislature": 57,
+          "name": "Hugo Motta",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:09:50",
+          "state": "PB",
+          "vote": "Artigo 17"
+        },
+        {
+          "deputyId": 160758,
+          "legislature": 57,
+          "name": "Domingos Sávio",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:16:05",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 160976,
+          "legislature": 57,
+          "name": "Tiririca",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:47",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 161440,
+          "legislature": 57,
+          "name": "Pezenti",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:21",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 161550,
+          "legislature": 57,
+          "name": "Emidinho Madeira",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:17",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 162067,
+          "legislature": 57,
+          "name": "Kiko Celeguim",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:15:17",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 162332,
+          "legislature": 57,
+          "name": "Luiz Nishimori",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:14:03",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 163321,
+          "legislature": 57,
+          "name": "Ronaldo Nogueira",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:48",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 165470,
+          "legislature": 57,
+          "name": "Rodrigo Valadares",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:58",
+          "state": "SE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 166402,
+          "legislature": 57,
+          "name": "Magda Mofatto",
+          "party": "PRD",
+          "registeredAt": "2025-07-16T18:12:00",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 171617,
+          "legislature": 57,
+          "name": "Paulão",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "AL",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 171786,
+          "legislature": 57,
+          "name": "Miguel Ângelo",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:17:39",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 175765,
+          "legislature": 57,
+          "name": "Ribamar Silva",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:16",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178829,
+          "legislature": 57,
+          "name": "Capitão Augusto",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:00",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178835,
+          "legislature": 57,
+          "name": "Afonso Motta",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:10:08",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178843,
+          "legislature": 57,
+          "name": "Marx Beltrão",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:00",
+          "state": "AL",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178854,
+          "legislature": 57,
+          "name": "Elmar Nascimento",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:16:27",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178857,
+          "legislature": 57,
+          "name": "Jorge Solla",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:29",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178858,
+          "legislature": 57,
+          "name": "Mário Negromonte Jr.",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:47",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178860,
+          "legislature": 57,
+          "name": "Paulo Azi",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:44",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178866,
+          "legislature": 57,
+          "name": "Luizianne Lins",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:23",
+          "state": "CE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178871,
+          "legislature": 57,
+          "name": "Evair Vieira de Melo",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:57",
+          "state": "ES",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178873,
+          "legislature": 57,
+          "name": "Helder Salomão",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:41",
+          "state": "ES",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178876,
+          "legislature": 57,
+          "name": "Célio Silveira",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:07",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178881,
+          "legislature": 57,
+          "name": "Aluisio Mendes",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:20:37",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178884,
+          "legislature": 57,
+          "name": "Hildo Rocha",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:14",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178886,
+          "legislature": 57,
+          "name": "Juscelino Filho",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:13:57",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178887,
+          "legislature": 57,
+          "name": "Rubens Pereira Júnior",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:17",
+          "state": "MA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178895,
+          "legislature": 57,
+          "name": "Misael Varella",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:23",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178896,
+          "legislature": 57,
+          "name": "Newton Cardoso Jr",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:15:09",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178908,
+          "legislature": 57,
+          "name": "Delegado Éder Mauro",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:16:00",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178910,
+          "legislature": 57,
+          "name": "Joaquim Passarinho",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178927,
+          "legislature": 57,
+          "name": "Aliel Machado",
+          "party": "PV",
+          "registeredAt": "2025-07-16T18:13:11",
+          "state": "PR",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178929,
+          "legislature": 57,
+          "name": "Diego Garcia",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:13:44",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178931,
+          "legislature": 57,
+          "name": "Luciano Ducci",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:12:08",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178933,
+          "legislature": 57,
+          "name": "Sergio Souza",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:21:22",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178934,
+          "legislature": 57,
+          "name": "Toninho Wandscheer",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:14:17",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178937,
+          "legislature": 57,
+          "name": "Altineu Côrtes",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:17",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178943,
+          "legislature": 57,
+          "name": "Marcos Soares",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:27",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178946,
+          "legislature": 57,
+          "name": "Soraya Santos",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:33",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178947,
+          "legislature": 57,
+          "name": "Sóstenes Cavalcante",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:49",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178954,
+          "legislature": 57,
+          "name": "Lucio Mosquini",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:14:24",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178963,
+          "legislature": 57,
+          "name": "Covatti Filho",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:31",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178966,
+          "legislature": 57,
+          "name": "Geovania de Sá",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:12:20",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178970,
+          "legislature": 57,
+          "name": "João Daniel",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:14:44",
+          "state": "SE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178972,
+          "legislature": 57,
+          "name": "Alex Manente",
+          "party": "CIDADANIA",
+          "registeredAt": "2025-07-16T18:17:16",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178975,
+          "legislature": 57,
+          "name": "Baleia Rossi",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:16:09",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178983,
+          "legislature": 57,
+          "name": "Marcio Alvino",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:15:12",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178985,
+          "legislature": 57,
+          "name": "Miguel Lombardi",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:14:12",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178986,
+          "legislature": 57,
+          "name": "Nilto Tatto",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:13:20",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178987,
+          "legislature": 57,
+          "name": "Orlando Silva",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:11:19",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 178992,
+          "legislature": 57,
+          "name": "Vitor Lippi",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:12:05",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178993,
+          "legislature": 57,
+          "name": "Carlos Henrique Gaguim",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:08",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 178997,
+          "legislature": 57,
+          "name": "Moses Rodrigues",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:26",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 179000,
+          "legislature": 57,
+          "name": "Marcelo Álvaro Antônio",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:15",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 179001,
+          "legislature": 57,
+          "name": "Márcio Biolchi",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:15:31",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 180214,
+          "legislature": 57,
+          "name": "Pastor Diniz",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:37",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 188097,
+          "legislature": 57,
+          "name": "Merlong Solano",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:32",
+          "state": "PI",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 191923,
+          "legislature": 57,
+          "name": "Flávio Nogueira",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:09",
+          "state": "PI",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 198197,
+          "legislature": 57,
+          "name": "Greyce Elias",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:10:36",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204351,
+          "legislature": 57,
+          "name": "Dr. Luiz Ovando",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:15:08",
+          "state": "MS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204355,
+          "legislature": 57,
+          "name": "Da Vitoria",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:38",
+          "state": "ES",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204356,
+          "legislature": 57,
+          "name": "Amaro Neto",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:12",
+          "state": "ES",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204358,
+          "legislature": 57,
+          "name": "Beto Pereira",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:17:32",
+          "state": "MS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204360,
+          "legislature": 57,
+          "name": "Silvia Cristina",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:37",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204362,
+          "legislature": 57,
+          "name": "Ricardo Guidi",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204364,
+          "legislature": 57,
+          "name": "Eli Borges",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:11",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204365,
+          "legislature": 57,
+          "name": "Gilson Marques",
+          "party": "NOVO",
+          "registeredAt": "2025-07-16T18:11:39",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204367,
+          "legislature": 57,
+          "name": "Daniel Freitas",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:19",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204368,
+          "legislature": 57,
+          "name": "Fabio Schiochet",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:51",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204369,
+          "legislature": 57,
+          "name": "Caroline de Toni",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:48",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204372,
+          "legislature": 57,
+          "name": "Julio Cesar Ribeiro",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:24",
+          "state": "DF",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204374,
+          "legislature": 57,
+          "name": "Bia Kicis",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:39",
+          "state": "DF",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204376,
+          "legislature": 57,
+          "name": "Coronel Armando",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:12:05",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204378,
+          "legislature": 57,
+          "name": "Coronel Chrisóstomo",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:14:30",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204379,
+          "legislature": 57,
+          "name": "Acácio Favacho",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:25",
+          "state": "AP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204387,
+          "legislature": 57,
+          "name": "Sargento Fahur",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:32",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204388,
+          "legislature": 57,
+          "name": "Bibo Nunes",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:55",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204390,
+          "legislature": 57,
+          "name": "Professor Alcides",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:43",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204391,
+          "legislature": 57,
+          "name": "José Nelto",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:13",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204394,
+          "legislature": 57,
+          "name": "Gervásio Maia",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:11:15",
+          "state": "PB",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204395,
+          "legislature": 57,
+          "name": "Pedro Lupion",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:02",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204396,
+          "legislature": 57,
+          "name": "Vermelho",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:14:53",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204398,
+          "legislature": 57,
+          "name": "Felipe Francischini",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:48",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204404,
+          "legislature": 57,
+          "name": "Lucas Redecker",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:10:26",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204406,
+          "legislature": 57,
+          "name": "Pedro Westphalen",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204407,
+          "legislature": 57,
+          "name": "Fernanda Melchionna",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:22:17",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204408,
+          "legislature": 57,
+          "name": "Gustinho Ribeiro",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:34",
+          "state": "SE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204409,
+          "legislature": 57,
+          "name": "Daniel Trzeciak",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:12:34",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204411,
+          "legislature": 57,
+          "name": "Filipe Barros",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:03",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204412,
+          "legislature": 57,
+          "name": "Dr. Zacharias Calil",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:28",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204416,
+          "legislature": 57,
+          "name": "Sanderson",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:08",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204419,
+          "legislature": 57,
+          "name": "Glaustin da Fokus",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:11:20",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204422,
+          "legislature": 57,
+          "name": "Ossesio Silva",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204423,
+          "legislature": 57,
+          "name": "André Ferreira",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:22",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204426,
+          "legislature": 57,
+          "name": "Carlos Veras",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:29",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204427,
+          "legislature": 57,
+          "name": "Fernando Rodolfo",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:51",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204431,
+          "legislature": 57,
+          "name": "Marcos Aurélio Sampaio",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:40",
+          "state": "PI",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204436,
+          "legislature": 57,
+          "name": "Isnaldo Bulhões Jr.",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:37",
+          "state": "AL",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204441,
+          "legislature": 57,
+          "name": "Otoni de Paula",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204444,
+          "legislature": 57,
+          "name": "Helio Lopes",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:37",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204445,
+          "legislature": 57,
+          "name": "Fernando Mineiro",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:15",
+          "state": "RN",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204449,
+          "legislature": 57,
+          "name": "Nelson Barbudo",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:57",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204453,
+          "legislature": 57,
+          "name": "Natália Bonavides",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:32",
+          "state": "RN",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204455,
+          "legislature": 57,
+          "name": "Luiz Lima",
+          "party": "NOVO",
+          "registeredAt": "2025-07-16T18:10:15",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204456,
+          "legislature": 57,
+          "name": "Gutemberg Reis",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:14:23",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204457,
+          "legislature": 57,
+          "name": "Juninho do Pneu",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204459,
+          "legislature": 57,
+          "name": "Daniela do Waguinho",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:19:50",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204460,
+          "legislature": 57,
+          "name": "Carlos Jordy",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:13:13",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204462,
+          "legislature": 57,
+          "name": "Chris Tonietto",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:39",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204464,
+          "legislature": 57,
+          "name": "Talíria Petrone",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:11:27",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204472,
+          "legislature": 57,
+          "name": "José Medeiros",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:14:36",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204473,
+          "legislature": 57,
+          "name": "General Girão",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:16",
+          "state": "RN",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204474,
+          "legislature": 57,
+          "name": "Juarez Costa",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:10:54",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204479,
+          "legislature": 57,
+          "name": "Nicoletti",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:19",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204480,
+          "legislature": 57,
+          "name": "Rogério Correia",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:55",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204481,
+          "legislature": 57,
+          "name": "Dr. Jaziel",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:03",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204485,
+          "legislature": 57,
+          "name": "Luiz Carlos Motta",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:31",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204486,
+          "legislature": 57,
+          "name": "Mauro Benevides Filho",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:13:34",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204489,
+          "legislature": 57,
+          "name": "Robério Monteiro",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:17:24",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204491,
+          "legislature": 57,
+          "name": "Gilberto Abramo",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:19:08",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204492,
+          "legislature": 57,
+          "name": "Paulo Guedes",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:36",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204495,
+          "legislature": 57,
+          "name": "Airton Faleiro",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:53",
+          "state": "PA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204497,
+          "legislature": 57,
+          "name": "Júnior Ferrari",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204498,
+          "legislature": 57,
+          "name": "Olival Marques",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:32",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204501,
+          "legislature": 57,
+          "name": "Alencar Santana",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:18:09",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204504,
+          "legislature": 57,
+          "name": "Cezinha de Madureira",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:12",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204506,
+          "legislature": 57,
+          "name": "Marcos Pereira",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:00",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204508,
+          "legislature": 57,
+          "name": "Igor Timo",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:13:09",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204511,
+          "legislature": 57,
+          "name": "David Soares",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:30",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204512,
+          "legislature": 57,
+          "name": "Delegado Marcelo Freitas",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:55",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204514,
+          "legislature": 57,
+          "name": "Coronel Tadeu",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:04",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204517,
+          "legislature": 57,
+          "name": "Zé Vitor",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:17:38",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204518,
+          "legislature": 57,
+          "name": "Dr. Frederico",
+          "party": "PRD",
+          "registeredAt": "2025-07-16T18:12:03",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204520,
+          "legislature": 57,
+          "name": "Junio Amaral",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:13",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204525,
+          "legislature": 57,
+          "name": "Rosana Valle",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:16:07",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204526,
+          "legislature": 57,
+          "name": "Luiz Philippe de Orleans e Bragança",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:47",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204528,
+          "legislature": 57,
+          "name": "Adriana Ventura",
+          "party": "NOVO",
+          "registeredAt": "2025-07-16T18:11:43",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204534,
+          "legislature": 57,
+          "name": "Tabata Amaral",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:13:47",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204535,
+          "legislature": 57,
+          "name": "Sâmia Bomfim",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:11:06",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 204536,
+          "legislature": 57,
+          "name": "Kim Kataguiri",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:47",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204539,
+          "legislature": 57,
+          "name": "Hercílio Coelho Diniz",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204540,
+          "legislature": 57,
+          "name": "Maria Rosas",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:21",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204549,
+          "legislature": 57,
+          "name": "AJ Albuquerque",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:22",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204553,
+          "legislature": 57,
+          "name": "Pastor Sargento Isidório",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:13:19",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204557,
+          "legislature": 57,
+          "name": "Sidney Leite",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:16",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204560,
+          "legislature": 57,
+          "name": "Adolfo Viana",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:10:02",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204563,
+          "legislature": 57,
+          "name": "Josimar Maranhãozinho",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:38",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204566,
+          "legislature": 57,
+          "name": "Marreca Filho",
+          "party": "PRD",
+          "registeredAt": "2025-07-16T18:19:42",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204570,
+          "legislature": 57,
+          "name": "Pastor Gil",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:06",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204572,
+          "legislature": 57,
+          "name": "Capitão Alberto Neto",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:14:09",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204573,
+          "legislature": 57,
+          "name": "Otto Alencar Filho",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:22",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 204574,
+          "legislature": 57,
+          "name": "Junior Lourenço",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:26",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 205476,
+          "legislature": 57,
+          "name": "Charles Fernandes",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:06",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 205550,
+          "legislature": 57,
+          "name": "Jorge Braz",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:14:41",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 205865,
+          "legislature": 57,
+          "name": "Reinhold Stephanes",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:15:49",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 206018,
+          "legislature": 57,
+          "name": "Célia Xakriabá",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:10:46",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 209189,
+          "legislature": 57,
+          "name": "Joseildo Ramos",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:03",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 209787,
+          "legislature": 57,
+          "name": "Nikolas Ferreira",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:24",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 210989,
+          "legislature": 57,
+          "name": "Bruno Farias",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:11:09",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 213762,
+          "legislature": 57,
+          "name": "Carla Dickson",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:13:08",
+          "state": "RN",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 215043,
+          "legislature": 57,
+          "name": "Josivaldo JP",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:53",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 218086,
+          "legislature": 57,
+          "name": "Ely Santos",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:48",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220527,
+          "legislature": 57,
+          "name": "Jack Rocha",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:13",
+          "state": "ES",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220529,
+          "legislature": 57,
+          "name": "Gilson Daniel",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:13:24",
+          "state": "ES",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220530,
+          "legislature": 57,
+          "name": "Messias Donato",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:01",
+          "state": "ES",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220531,
+          "legislature": 57,
+          "name": "Gilvan Maximo",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:01",
+          "state": "DF",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220532,
+          "legislature": 57,
+          "name": "Rafael Prudente",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:13:42",
+          "state": "DF",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220533,
+          "legislature": 57,
+          "name": "Prof. Reginaldo Veras",
+          "party": "PV",
+          "registeredAt": "2025-07-16T18:10:41",
+          "state": "DF",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220534,
+          "legislature": 57,
+          "name": "Fred Linhares",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:42",
+          "state": "DF",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220536,
+          "legislature": 57,
+          "name": "Zé Haroldo Cathedral",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:12:52",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220537,
+          "legislature": 57,
+          "name": "Helena Lima",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:16:36",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220538,
+          "legislature": 57,
+          "name": "Albuquerque",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:03",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220539,
+          "legislature": 57,
+          "name": "Defensor Stélio Dener",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:41",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220540,
+          "legislature": 57,
+          "name": "Duda Ramos",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:20:38",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220542,
+          "legislature": 57,
+          "name": "Alexandre Guimarães",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:22",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220543,
+          "legislature": 57,
+          "name": "Ricardo Ayres",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:17",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220544,
+          "legislature": 57,
+          "name": "Antonio Andrade",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:30",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220545,
+          "legislature": 57,
+          "name": "Filipe Martins",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:40",
+          "state": "TO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220546,
+          "legislature": 57,
+          "name": "Rodolfo Nogueira",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:17",
+          "state": "MS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220547,
+          "legislature": 57,
+          "name": "Marcos Pollon",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:04",
+          "state": "MS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220548,
+          "legislature": 57,
+          "name": "Camila Jara",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:11",
+          "state": "MS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220549,
+          "legislature": 57,
+          "name": "Any Ortiz",
+          "party": "CIDADANIA",
+          "registeredAt": "2025-07-16T18:11:24",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220550,
+          "legislature": 57,
+          "name": "Mauricio Marcon",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:10:47",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220551,
+          "legislature": 57,
+          "name": "Franciane Bayer",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:36",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220552,
+          "legislature": 57,
+          "name": "Zucco",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:02",
+          "state": "RS",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220553,
+          "legislature": 57,
+          "name": "Denise Pessôa",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:31",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220554,
+          "legislature": 57,
+          "name": "Alexandre Lindenmeyer",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:00",
+          "state": "RS",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220556,
+          "legislature": 57,
+          "name": "Ana Paula Lima",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:38",
+          "state": "SC",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220557,
+          "legislature": 57,
+          "name": "Daniela Reinehr",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:13:31",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220561,
+          "legislature": 57,
+          "name": "Delegada Katarina",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:52",
+          "state": "SE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220563,
+          "legislature": 57,
+          "name": "Icaro de Valmir",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:16",
+          "state": "SE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220565,
+          "legislature": 57,
+          "name": "Delegada Adriana Accorsi",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:59",
+          "state": "GO",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220566,
+          "legislature": 57,
+          "name": "Lêda Borges",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:12:14",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220567,
+          "legislature": 57,
+          "name": "Jeferson Rodrigues",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:32",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220568,
+          "legislature": 57,
+          "name": "Gustavo Gayer",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:38",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220569,
+          "legislature": 57,
+          "name": "Silvye Alves",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:28",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220570,
+          "legislature": 57,
+          "name": "Dr. Ismael Alexandrino",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:34",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220571,
+          "legislature": 57,
+          "name": "Daniel Agrobom",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:05",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220572,
+          "legislature": 57,
+          "name": "Marussa Boldrin",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:51",
+          "state": "GO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220573,
+          "legislature": 57,
+          "name": "Dorinaldo Malafaia",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:11:40",
+          "state": "AP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220574,
+          "legislature": 57,
+          "name": "Cabo Gilberto Silva",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:40",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220576,
+          "legislature": 57,
+          "name": "Alfredo Gaspar",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:52",
+          "state": "AL",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220577,
+          "legislature": 57,
+          "name": "Augusto Puppio",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:08",
+          "state": "AP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220578,
+          "legislature": 57,
+          "name": "Josenildo",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:12:44",
+          "state": "AP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220581,
+          "legislature": 57,
+          "name": "Luciano Amaral",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:59",
+          "state": "AL",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220583,
+          "legislature": 57,
+          "name": "Delegado Fabio Costa",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:06",
+          "state": "AL",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220584,
+          "legislature": 57,
+          "name": "Murilo Galdino",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:13:28",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220585,
+          "legislature": 57,
+          "name": "Mersinho Lucena",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:13:13",
+          "state": "PB",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220586,
+          "legislature": 57,
+          "name": "Rafael Brito",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:13:57",
+          "state": "AL",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220588,
+          "legislature": 57,
+          "name": "Roberto Duarte",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:15",
+          "state": "AC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220589,
+          "legislature": 57,
+          "name": "Eduardo Velloso",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:51",
+          "state": "AC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220590,
+          "legislature": 57,
+          "name": "Coronel Ulysses",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:14:32",
+          "state": "AC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220592,
+          "legislature": 57,
+          "name": "Zezinho Barbary",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:18",
+          "state": "AC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220594,
+          "legislature": 57,
+          "name": "Coronel Assis",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:14",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220595,
+          "legislature": 57,
+          "name": "Coronel Fernanda",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:42",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220597,
+          "legislature": 57,
+          "name": "Thiago Flores",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:54",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220598,
+          "legislature": 57,
+          "name": "Tarcísio Motta",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:10:55",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220599,
+          "legislature": 57,
+          "name": "Marcelo Crivella",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:51",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220600,
+          "legislature": 57,
+          "name": "Lebrão",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:26",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220602,
+          "legislature": 57,
+          "name": "Dimas Gadelha",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:16:55",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220603,
+          "legislature": 57,
+          "name": "Dani Cunha",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:55",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220604,
+          "legislature": 57,
+          "name": "Marcos Tavares",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:20:28",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220605,
+          "legislature": 57,
+          "name": "Bandeira de Mello",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:10:26",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220606,
+          "legislature": 57,
+          "name": "Reimont",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:31",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220607,
+          "legislature": 57,
+          "name": "Max Lemos",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:19:05",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220608,
+          "legislature": 57,
+          "name": "Cristiane Lopes",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:22",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220610,
+          "legislature": 57,
+          "name": "Dr. Fernando Máximo",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:50",
+          "state": "RO",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220611,
+          "legislature": 57,
+          "name": "General Pazuello",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:01",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220612,
+          "legislature": 57,
+          "name": "Bebeto",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:07",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220613,
+          "legislature": 57,
+          "name": "Roberto Monteiro Pai",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:17",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220615,
+          "legislature": 57,
+          "name": "Pastor Henrique Vieira",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:11:08",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220616,
+          "legislature": 57,
+          "name": "Luciano Vieira",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:14",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220617,
+          "legislature": 57,
+          "name": "Murillo Gouvea",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:21:32",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220618,
+          "legislature": 57,
+          "name": "Sargento Portugal",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:16:18",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220619,
+          "legislature": 57,
+          "name": "Delegado Ramagem",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:50",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220620,
+          "legislature": 57,
+          "name": "Rosângela Reis",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:43",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220621,
+          "legislature": 57,
+          "name": "Sargento Gonçalves",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:12:34",
+          "state": "RN",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220622,
+          "legislature": 57,
+          "name": "Nely Aquino",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:11:56",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220623,
+          "legislature": 57,
+          "name": "Duda Salabert",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:19:57",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220624,
+          "legislature": 57,
+          "name": "Robinson Faria",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:37",
+          "state": "RN",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220625,
+          "legislature": 57,
+          "name": "Delegada Ione",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:13:47",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220626,
+          "legislature": 57,
+          "name": "Rafael Simoes",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220628,
+          "legislature": 57,
+          "name": "Mauricio do Vôlei",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:16",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220630,
+          "legislature": 57,
+          "name": "Pedro Aihara",
+          "party": "PRD",
+          "registeredAt": "2025-07-16T18:11:10",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220631,
+          "legislature": 57,
+          "name": "Samuel Viana",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:11:20",
+          "state": "MG",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220632,
+          "legislature": 57,
+          "name": "Ana Pimentel",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:34",
+          "state": "MG",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220633,
+          "legislature": 57,
+          "name": "Ricardo Salles",
+          "party": "NOVO",
+          "registeredAt": "2025-07-16T18:10:58",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220638,
+          "legislature": 57,
+          "name": "Antonio Carlos Rodrigues",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:45",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220639,
+          "legislature": 57,
+          "name": "Guilherme Boulos",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:10:35",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220640,
+          "legislature": 57,
+          "name": "Juliana Cardoso",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:17:32",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220641,
+          "legislature": 57,
+          "name": "Rodrigo Gambale",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:10:42",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220642,
+          "legislature": 57,
+          "name": "Delegado Bruno Lima",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:10:14",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220644,
+          "legislature": 57,
+          "name": "Rosangela Moro",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:08",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220645,
+          "legislature": 57,
+          "name": "Erika Hilton",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:10:24",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220646,
+          "legislature": 57,
+          "name": "Felipe Becari",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:17:19",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220647,
+          "legislature": 57,
+          "name": "Mauricio Neves",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:58",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220649,
+          "legislature": 57,
+          "name": "Delegado da Cunha",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:15:13",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220650,
+          "legislature": 57,
+          "name": "Paulo Alexandre Barbosa",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:11:01",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220651,
+          "legislature": 57,
+          "name": "Simone Marquetto",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:10:25",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220652,
+          "legislature": 57,
+          "name": "Delegado Palumbo",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:10:00",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220653,
+          "legislature": 57,
+          "name": "Fábio Teruel",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:30",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220654,
+          "legislature": 57,
+          "name": "Delegado Paulo Bilynskyj",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:14",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220656,
+          "legislature": 57,
+          "name": "Fernanda Pessoa",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:34",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220657,
+          "legislature": 57,
+          "name": "André Fernandes",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:46",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220658,
+          "legislature": 57,
+          "name": "Luiz Gastão",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:33",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220659,
+          "legislature": 57,
+          "name": "Dayany Bittencourt",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220660,
+          "legislature": 57,
+          "name": "Yury Bruno",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:13:48",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220661,
+          "legislature": 57,
+          "name": "Matheus Noronha",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:15:37",
+          "state": "CE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220662,
+          "legislature": 57,
+          "name": "Lucas Ramos",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:10:19",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220664,
+          "legislature": 57,
+          "name": "Guilherme Uchoa",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:12:50",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220665,
+          "legislature": 57,
+          "name": "Clarissa Tércio",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:55",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220666,
+          "legislature": 57,
+          "name": "Coronel Meira",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:55",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220667,
+          "legislature": 57,
+          "name": "Pedro Campos",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:10:59",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220668,
+          "legislature": 57,
+          "name": "Maria Arraes",
+          "party": "SOLIDARIEDADE",
+          "registeredAt": "2025-07-16T18:11:30",
+          "state": "PE",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220669,
+          "legislature": 57,
+          "name": "Lula da Fonte",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:13",
+          "state": "PE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220671,
+          "legislature": 57,
+          "name": "Dilvanda Faro",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:36",
+          "state": "PA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220672,
+          "legislature": 57,
+          "name": "Henderson Pinto",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:21",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220673,
+          "legislature": 57,
+          "name": "Delegado Caveira",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:11:27",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220674,
+          "legislature": 57,
+          "name": "Dra. Alessandra Haber",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:15:16",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220675,
+          "legislature": 57,
+          "name": "Antônio Doido",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:13:52",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220676,
+          "legislature": 57,
+          "name": "Andreia Siqueira",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:13:33",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220677,
+          "legislature": 57,
+          "name": "Keniston Braga",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:14:47",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220681,
+          "legislature": 57,
+          "name": "Fábio Macedo",
+          "party": "PODE",
+          "registeredAt": "2025-07-16T18:13:50",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220682,
+          "legislature": 57,
+          "name": "Tadeu Veneri",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:13",
+          "state": "PR",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220683,
+          "legislature": 57,
+          "name": "Beto Richa",
+          "party": "PSDB",
+          "registeredAt": "2025-07-16T18:10:31",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220684,
+          "legislature": 57,
+          "name": "Tião Medeiros",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:13",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220685,
+          "legislature": 57,
+          "name": "Paulo Litro",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:11:06",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220686,
+          "legislature": 57,
+          "name": "Duarte Jr.",
+          "party": "PSB",
+          "registeredAt": "2025-07-16T18:15:13",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220687,
+          "legislature": 57,
+          "name": "Márcio Honaiser",
+          "party": "PDT",
+          "registeredAt": "2025-07-16T18:12:30",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220688,
+          "legislature": 57,
+          "name": "Dr. Francisco",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:13:10",
+          "state": "PI",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220689,
+          "legislature": 57,
+          "name": "Detinha",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:19",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220690,
+          "legislature": 57,
+          "name": "Capitão Alden",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:44",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220691,
+          "legislature": 57,
+          "name": "Diego Coronel",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:51",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220692,
+          "legislature": 57,
+          "name": "Dal Barreto",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:19:12",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220693,
+          "legislature": 57,
+          "name": "Roberta Roma",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:47",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220694,
+          "legislature": 57,
+          "name": "Ricardo Maia",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:11:26",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220696,
+          "legislature": 57,
+          "name": "Ivoneide Caetano",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:10:40",
+          "state": "BA",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220697,
+          "legislature": 57,
+          "name": "Jadyel Alencar",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:14:21",
+          "state": "PI",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220699,
+          "legislature": 57,
+          "name": "Castro Neto",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:52",
+          "state": "PI",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220700,
+          "legislature": 57,
+          "name": "Florentino Neto",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:13",
+          "state": "PI",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220701,
+          "legislature": 57,
+          "name": "Delegado Matheus Laiola",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:33",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220702,
+          "legislature": 57,
+          "name": "Geraldo Mendes",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:10:36",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220703,
+          "legislature": 57,
+          "name": "Neto Carletto",
+          "party": "AVANTE",
+          "registeredAt": "2025-07-16T18:10:16",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220704,
+          "legislature": 57,
+          "name": "Carol Dartora",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:15",
+          "state": "PR",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 220708,
+          "legislature": 57,
+          "name": "Gabriel Nunes",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:56",
+          "state": "BA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220712,
+          "legislature": 57,
+          "name": "Fausto Jr.",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:09",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 220714,
+          "legislature": 57,
+          "name": "Adail Filho",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "AM",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 221148,
+          "legislature": 57,
+          "name": "Alfredinho",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:12:28",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 221329,
+          "legislature": 57,
+          "name": "Ricardo Abrão",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:48",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 221338,
+          "legislature": 57,
+          "name": "Professora Luciene Cavalcante",
+          "party": "PSOL",
+          "registeredAt": "2025-07-16T18:11:16",
+          "state": "SP",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 222429,
+          "legislature": 57,
+          "name": "Luis Carlos Gomes",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:10:30",
+          "state": "RJ",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 223128,
+          "legislature": 57,
+          "name": "Rodrigo Estacho",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:12:16",
+          "state": "PR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 224117,
+          "legislature": 57,
+          "name": "Gabriel Mota",
+          "party": "REPUBLICANOS",
+          "registeredAt": "2025-07-16T18:12:33",
+          "state": "RR",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 224333,
+          "legislature": 57,
+          "name": "Welter",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:14:57",
+          "state": "PR",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 226179,
+          "legislature": 57,
+          "name": "Gisela Simona",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:52",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 226708,
+          "legislature": 57,
+          "name": "Allan Garcês",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:11:18",
+          "state": "MA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 226837,
+          "legislature": 57,
+          "name": "Saulo Pedroso",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:13:16",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 227433,
+          "legislature": 57,
+          "name": "Douglas Viegas",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:12:11",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 227660,
+          "legislature": 57,
+          "name": "Nitinho",
+          "party": "PSD",
+          "registeredAt": "2025-07-16T18:10:43",
+          "state": "SE",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 229432,
+          "legislature": 57,
+          "name": "Luiz Fernando Vampiro",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:10:58",
+          "state": "SC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 230762,
+          "legislature": 57,
+          "name": "Pastor Claudio Mariano",
+          "party": "UNIÃO",
+          "registeredAt": "2025-07-16T18:11:06",
+          "state": "PA",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 230765,
+          "legislature": 57,
+          "name": "Enfermeira Rejane",
+          "party": "PCdoB",
+          "registeredAt": "2025-07-16T18:11:40",
+          "state": "RJ",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 230767,
+          "legislature": 57,
+          "name": "Rodrigo da Zaeli",
+          "party": "PL",
+          "registeredAt": "2025-07-16T18:10:28",
+          "state": "MT",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 230768,
+          "legislature": 57,
+          "name": "Zé Adriano",
+          "party": "PP",
+          "registeredAt": "2025-07-16T18:17:44",
+          "state": "AC",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 230957,
+          "legislature": 57,
+          "name": "João Cury",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:12:43",
+          "state": "SP",
+          "vote": "Sim"
+        },
+        {
+          "deputyId": 231911,
+          "legislature": 57,
+          "name": "Lenir de Assis",
+          "party": "PT",
+          "registeredAt": "2025-07-16T18:11:09",
+          "state": "PR",
+          "vote": "Não"
+        },
+        {
+          "deputyId": 233218,
+          "legislature": 57,
+          "name": "Nelinho Freitas",
+          "party": "MDB",
+          "registeredAt": "2025-07-16T18:20:54",
+          "state": "CE",
+          "vote": "Sim"
+        }
+      ],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13/votos",
+      "date": "2025-07-16",
+      "description": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+      "id": "2411961-13",
+      "organ": "PLEN",
+      "propositionIds": [
+        2411961
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22/votos",
+      "date": "2026-10-28",
+      "description": "Aprovado o Parecer.",
+      "id": "2612566-22",
+      "organ": "CIDOSO",
+      "propositionIds": [
+        2612566
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22/votos",
+      "date": "2026-10-28",
+      "description": "Aprovado o Parecer.",
+      "id": "2613852-22",
+      "organ": "CIDOSO",
+      "propositionIds": [
+        2613852
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22/votos",
+      "date": "2026-10-28",
+      "description": "Aprovado o Parecer.",
+      "id": "2618087-22",
+      "organ": "CIDOSO",
+      "propositionIds": [
+        2618087
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21/votos",
+      "date": "2026-06-10",
+      "description": "Aprovado o Parecer.",
+      "id": "2620905-21",
+      "organ": "CMULHER",
+      "propositionIds": [
+        2620905
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21"
+    },
+    {
+      "approval": 0,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48/votos",
+      "date": "2026-10-28",
+      "description": "Rejeitado o Requerimento.",
+      "id": "2620905-48",
+      "organ": "PLEN",
+      "propositionIds": [
+        2620905
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53/votos",
+      "date": "2026-10-28",
+      "description": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+      "id": "2620905-53",
+      "organ": "PLEN",
+      "propositionIds": [
+        2620905
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56/votos",
+      "date": "2026-10-28",
+      "description": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+      "id": "2620905-56",
+      "organ": "PLEN",
+      "propositionIds": [
+        2620905
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7/votos",
+      "date": "2026-10-28",
+      "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "id": "2645996-7",
+      "organ": "PLEN",
+      "propositionIds": [
+        2204495
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7"
+    },
+    {
+      "approval": 1,
+      "ballotCoverage": "no-individual-records",
+      "ballots": [],
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7/votos",
+      "date": "2026-10-28",
+      "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "id": "2647742-7",
+      "organ": "PLEN",
+      "propositionIds": [
+        2647427
+      ],
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 67,
+        "relevancia": 0,
+        "tema": "Direito e Defesa do Consumidor"
+      },
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 40,
+        "relevancia": 0,
+        "tema": "Economia"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:33.967Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+}

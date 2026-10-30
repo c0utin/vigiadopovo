@@ -13,10 +13,13 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
+    "perf:check": "node scripts/check-performance.mjs",
     "preview": "vite preview --host 0.0.0.0",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "data:sync": "node scripts/sync.mjs",
-    "test": "node --test tests/*.test.mjs",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.pipeline.json",
+    "data:sync": "node --experimental-strip-types scripts/sync.mjs",
+    "pipeline:prepare": "node --experimental-strip-types --env-file-if-exists=.env scripts/pipeline.ts prepare",
+    "pipeline:generate": "node --experimental-strip-types --env-file-if-exists=.env scripts/pipeline.ts generate",
+    "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
@@ -24,11 +27,17 @@
     "@sveltejs/adapter-static": "^4.0.0",
     "@sveltejs/kit": "^3.1.0",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@types/node": "^22.20.5",
     "prettier": "^3.9.10",
     "prettier-plugin-svelte": "^4.1.1",
     "svelte": "^5.57.3",
     "svelte-check": "^4.3.3",
     "typescript": "^6.0.3",
     "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1159.0",
+    "@effect/platform-node": "^4.1.0",
+    "effect": "^4.1.0"
   }
 }

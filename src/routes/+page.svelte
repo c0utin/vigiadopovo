@@ -1,31 +1,43 @@
 <script lang="ts">
-  import portal from "#lib/portal.ts";
+  import type { PageData } from "./$types";
   import Congress from "#lib/Congress.svelte";
   import { date, normalize } from "#lib/format.ts";
 
+  let { data: portal }: { data: PageData } = $props();
   let query = $state("");
   let topic = $state("Todos os temas");
   let view = $state("Todas");
   let order = $state("recent");
-  const topics = [
+  const topics = $derived([
     "Todos os temas",
     ...new Set(
       portal.propositions
         .map((p) => p.summary?.topic)
         .filter((t): t is string => !!t),
     ),
-  ];
-  const summarized = portal.propositions.filter((p) => p.summary).length;
+  ]);
+  const summarized = $derived(
+    portal.propositions.filter((p) => p.summary).length,
+  );
+  const searchIndex = $derived(
+    new Map(
+      portal.propositions.map((p) => [
+        p.id,
+        normalize(
+          `${p.label} ${p.ementa} ${p.summary?.title ?? ""} ${p.authors}`,
+        ),
+      ]),
+    ),
+  );
+  const normalizedQuery = $derived(normalize(query));
   let filtered = $derived(
     portal.propositions
       .filter((p) => {
-        const matchesQuery = normalize(
-          `${p.label} ${p.ementa} ${p.summary?.title ?? ""} ${p.authors.map((a) => a.name).join(" ")}`,
-        ).includes(normalize(query));
+        const matchesQuery = searchIndex.get(p.id)!.includes(normalizedQuery);
         return (
           matchesQuery &&
           (topic === "Todos os temas" || p.summary?.topic === topic) &&
-          (view !== "Com votação" || p.votes.length > 0) &&
+          (view !== "Com votação" || p.voteCount > 0) &&
           (view !== "Com resumo" || !!p.summary)
         );
       })
@@ -56,14 +68,14 @@
       <p class="eyebrow">
         <span class="tiny-line"></span> POLÍTICA SEM COMPLICAÇÃO
       </p>
-      <h1>É público.<br />É sobre você.<br /><em>É bom entender.</em></h1>
+      <h1>Entenda a política.<br /><em>Sem complicação.</em></h1>
       <p class="hero-description">
-        O que está em discussão na Câmara, explicado sem juridiquês. Informação
-        da fonte para você formar a sua própria opinião.
+        Propostas da Câmara em palavras simples. Informação da fonte para você
+        formar a sua própria opinião.
       </p>
-      <a class="button primary" href="#propostas"
-        >Explore as propostas <span aria-hidden="true">↗</span></a
-      ><span class="hero-note">Sem cadastro. Sem lado. Com fonte.</span>
+      <a class="hero-source" href="https://dadosabertos.camara.leg.br/">
+        <span aria-hidden="true">↗</span> Fonte: Câmara dos Deputados
+      </a>
     </div>
     <div class="hero-art">
       <div class="art-label">
@@ -81,28 +93,15 @@
     </div>
   </section>
 
-  <div class="trust-strip">
-    <div class="wrap trust-items">
-      <span><span aria-hidden="true">✓</span> Fontes oficiais, sempre</span
-      ><span><span aria-hidden="true">≋</span> Linguagem de gente</span><span
-        ><span aria-hidden="true">◈</span> Sem vínculo partidário</span
-      ><a href="/sobre/"
-        >Conheça nosso compromisso <span aria-hidden="true">↗</span></a
-      >
-    </div>
-  </div>
-
   <section id="propostas" class="feed wrap">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">DE OLHO NA CÂMARA</p>
-        <h2>O que pode mudar a sua vida<span class="brand-dot">.</span></h2>
-        <p>Propostas reais. Explicações simples. A fonte a um clique.</p>
+        <h2>Explore as propostas<span class="brand-dot">.</span></h2>
       </div>
       <div class="snapshot">
-        <span class="live-dot"></span> Coleta em {date(
-          portal.collectedAt,
-        )}<small>Uma amostra, não a pauta completa</small>
+        Coleta em {date(portal.collectedAt)}<small>
+          · Amostra, não a pauta completa</small
+        >
       </div>
     </div>
     <div class="search-row">
@@ -112,14 +111,34 @@
         ><input
           type="search"
           bind:value={query}
-          placeholder="Busque por assunto, proposta ou autor..."
+          placeholder="Assunto, proposta ou autor"
         /></label
-      ><label class="topic-select"
-        ><span class="sr-only">Filtrar por tema</span><select bind:value={topic}
-          >{#each topics as t}<option>{t}</option>{/each}</select
-        ></label
       >
     </div>
+    <details class="feed-filters">
+      <summary
+        >Tema e ordenação<span
+          >{topic === "Todos os temas" ? "Todos os temas" : topic} · {order ===
+          "recent"
+            ? "Recentes"
+            : "Antigas"}</span
+        ></summary
+      >
+      <div class="filter-options">
+        <label class="topic-select"
+          >Filtrar por tema<select bind:value={topic}>
+            {#each topics as t}<option>{t}</option>{/each}
+          </select></label
+        >
+        <label class="sort"
+          >Ordenar propostas<select bind:value={order}>
+            <option value="recent">Mais recentes</option><option value="oldest"
+              >Mais antigas</option
+            >
+          </select></label
+        >
+      </div>
+    </details>
     <div class="feed-toolbar">
       <div class="tabs" aria-label="Filtrar propostas">
         {#each ["Todas", "Com votação", "Com resumo"] as tab}<button
@@ -131,13 +150,6 @@
               >{/if}</button
           >{/each}
       </div>
-      <label class="sort"
-        >Ordenar por <select aria-label="Ordenar propostas" bind:value={order}
-          ><option value="recent">Mais recentes</option><option value="oldest"
-            >Mais antigas</option
-          ></select
-        ></label
-      >
     </div>
     <div class="results-info" aria-live="polite">
       {filtered.length}
@@ -160,7 +172,7 @@
             ><span class="proposal-id">{p.label}</span>
           </div>
           <p class="stage">
-            <span></span>{p.votes.length
+            <span></span>{p.voteCount
               ? "Com votação registrada"
               : "Sem votação nesta coleta"}
           </p>
@@ -173,7 +185,7 @@
             <a class="read-link" href="/proposta/{p.id}/"
               >Entender a proposta <span aria-hidden="true">↗</span></a
             ><span class="ai-label"
-              >{p.summary ? "Resumo por IA" : "Ementa oficial"}</span
+              >{p.summary ? "IA · não revisado" : "Ementa oficial"}</span
             >
           </div>
         </article>

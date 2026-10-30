@@ -1,0 +1,107 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2024-06-05",
+      "dataHoraRegistro": "2024-06-05T11:57:23",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2204495-37",
+      "idEvento": 73091,
+      "idOrgao": 2014,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2024-05-14T10:50",
+          "ementa": "",
+          "id": 2433156,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2433156"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-05-14T10:09",
+          "ementa": "Parecer da Relatora, Dep. Silvia Cristina (PL-RO), pela aprovação deste, do PL 939/2024 e do PL 948/2024, apensados, com substitutivo.",
+          "id": 2433155,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2433155"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2022-12-14T08:14",
+          "ementa": "Requerimento de Inversão da Pauta - PL 3099/2019",
+          "id": 2342630,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2342630"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2022-12-14T08:04",
+          "ementa": "Requerimento de Inversão da Pauta - PL 3099/2019",
+          "id": 2342591,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2342591"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2022-12-14T08:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 3099/2019",
+          "id": 2342427,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2342427"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2021-11-04T17:17",
+          "ementa": "Parecer da Relatora, Dep. Carmen Zanotto (CIDADANIA-SC), pela aprovação.",
+          "id": 2305784,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2305784"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-22T19:59",
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "id": 2204495,
+          "numero": 3099,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+        }
+      ],
+      "siglaOrgao": "CSAUDE",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2024-05-14T10:51:06",
+        "descricao": "Parecer da Relatora, Dep. Silvia Cristina (PL-RO), pela aprovação deste, do PL 939/2024 e do PL 948/2024, apensados, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2433155"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/73091",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:37.598Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37"
+}

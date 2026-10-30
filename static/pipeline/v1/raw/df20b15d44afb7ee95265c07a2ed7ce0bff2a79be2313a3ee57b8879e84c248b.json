@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:54:09",
+        "descricao": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+        "id": "2620905-56",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:52:36",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+        "id": "2620905-53",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:24:51",
+        "descricao": "Rejeitado o Requerimento.",
+        "id": "2620905-48",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:09:54",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2645996-7",
+        "proposicaoObjeto": "REQ 4194/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2645996"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:09:36",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2647742-7",
+        "proposicaoObjeto": "REQ 4300/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647742"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:06:06",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2613852-22",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CIDOSO",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:04:38",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2612566-22",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CIDOSO",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:03:30",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2618087-22",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CIDOSO",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-10-01&dataFim=2026-10-29&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-10-01&dataFim=2026-10-29&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-10-01&dataFim=2026-10-29&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-10-01&dataFim=2026-10-29&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=28&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:22.321Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-10-01&dataFim=2026-10-29&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}

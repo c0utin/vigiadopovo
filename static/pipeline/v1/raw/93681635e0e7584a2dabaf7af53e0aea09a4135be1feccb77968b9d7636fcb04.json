@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Juninho do Pneu",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204457"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:36.534Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores"
+}

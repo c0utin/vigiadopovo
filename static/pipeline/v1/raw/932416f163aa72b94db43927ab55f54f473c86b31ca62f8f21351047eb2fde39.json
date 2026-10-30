@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2023,
+      "codTipo": 392,
+      "dataApresentacao": "2023-12-11T14:02",
+      "descricaoTipo": "Requerimento de Urgência (Art. 155 do RICD)",
+      "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
+      "ementaDetalhada": null,
+      "id": 2411961,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 4248,
+      "siglaTipo": "REQ",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 924,
+        "codTipoTramitacao": "1235",
+        "dataHora": "2025-07-16T10:00",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Proposição (Plenário)",
+        "despacho": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+        "regime": ".",
+        "sequencia": 13,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2373577",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:34.174Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961"
+}

@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Lucas Abrahao",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/234253"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:38.990Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/autores"
+}

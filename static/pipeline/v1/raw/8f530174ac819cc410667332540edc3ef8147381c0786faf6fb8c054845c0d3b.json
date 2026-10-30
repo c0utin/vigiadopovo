@@ -1,0 +1,77 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-06-10",
+      "dataHoraRegistro": "2026-06-10T14:07:08",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2620905-21",
+      "idEvento": 82239,
+      "idOrgao": 537870,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-06-10T12:39",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "id": 2631216,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631216"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-06-10T12:39",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 274/2026-Requerimento de Retirada de Matéria da Pauta - PDL 274/2026",
+          "id": 2631217,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631217"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-06-08T19:16",
+          "ementa": "Parecer da Relatora, Dep. Erika Hilton (PSOL-SP), pela aprovação.",
+          "id": 2630372,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630372"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 554,
+          "dataApresentacao": "2026-05-04T18:00",
+          "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+          "id": 2620905,
+          "numero": 274,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905"
+        }
+      ],
+      "siglaOrgao": "CMULHER",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-06-08T20:18:54",
+        "descricao": "Parecer da Relatora, Dep. Erika Hilton (PSOL-SP), pela aprovação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630372"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82239",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537870"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:31.080Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21"
+}

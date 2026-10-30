@@ -5,6 +5,8 @@ build/
 .amp/portals/
 .env
 .env.*
+!.env.example
+.pipeline/
 *.log
 *.tmp
 .DS_Store

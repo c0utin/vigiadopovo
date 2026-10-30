@@ -1,0 +1,137 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:03:30",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2618087-22",
+      "idEvento": 83096,
+      "idOrgao": 537871,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-08-12T12:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 1950/2026",
+          "id": 2642894,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642894"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-07-07T15:06",
+          "ementa": "PARECER AO PL 1950/2026 que Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+          "id": 2637653,
+          "numero": 2,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637653"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-07-07T14:55",
+          "ementa": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+          "id": 2637652,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637652"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-07-01T12:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 1950/2026",
+          "id": 2636103,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636103"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-07-01T12:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2636104,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636104"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-07-01T12:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2636105,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636105"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-07-01T12:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2636106,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636106"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-06-23T11:35",
+          "ementa": "Parecer ao PL 1950/2026 que Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+          "id": 2634761,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2634761"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-06-22T15:45",
+          "ementa": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+          "id": 2634760,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2634760"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-04-23T13:17",
+          "ementa": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
+          "id": 2618087,
+          "numero": 1950,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087"
+        }
+      ],
+      "siglaOrgao": "CIDOSO",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-07-07T15:06:42",
+        "descricao": "Parecer do Relator, Dep. Daniel Agrobom (PSD-GO), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637652"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:23.959Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22"
+}

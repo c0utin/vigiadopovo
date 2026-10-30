@@ -1,0 +1,2445 @@
+{
+  "asOf": "2026-10-30T00:13:23.620Z",
+  "contextId": "8c369f1a8256419b92bbe30df25ce8c7ba4475b96aa606f99fe86801369444f0",
+  "coverage": "Câmara dos Deputados · amostra de proposições e votações",
+  "facts": [
+    {
+      "id": "camara:2649633:identity",
+      "propositionId": 2649633,
+      "scope": "identificação",
+      "sourceId": "camara:2649633:identity",
+      "value": {
+        "label": "PL 5704/2026",
+        "presentedAt": "2026-10-29T16:27",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2649633:ementa",
+      "propositionId": 2649633,
+      "scope": "ementa",
+      "sourceId": "camara:2649633:ementa",
+      "value": "Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências."
+    },
+    {
+      "id": "camara:2649633:authors",
+      "propositionId": 2649633,
+      "scope": "autoria",
+      "sourceId": "camara:2649633:authors",
+      "value": [
+        {
+          "name": "Aline Gurgel",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2649633:status",
+      "propositionId": 2649633,
+      "scope": "situação registrada",
+      "sourceId": "camara:2649633:status",
+      "value": {
+        "dataHora": "2026-10-29T16:27",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5704/2026 (Projeto de Lei), pela Deputada Aline Gurgel (UNIÃO/AP), que \"Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências\".",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2649633:themes",
+      "propositionId": 2649633,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2649633:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2649560:identity",
+      "propositionId": 2649560,
+      "scope": "identificação",
+      "sourceId": "camara:2649560:identity",
+      "value": {
+        "label": "PL 5703/2026",
+        "presentedAt": "2026-10-29T14:28",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2649560:ementa",
+      "propositionId": 2649560,
+      "scope": "ementa",
+      "sourceId": "camara:2649560:ementa",
+      "value": "Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS."
+    },
+    {
+      "id": "camara:2649560:authors",
+      "propositionId": 2649560,
+      "scope": "autoria",
+      "sourceId": "camara:2649560:authors",
+      "value": [
+        {
+          "name": "Reimont",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2649560:status",
+      "propositionId": 2649560,
+      "scope": "situação registrada",
+      "sourceId": "camara:2649560:status",
+      "value": {
+        "dataHora": "2026-10-29T14:28",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5703/2026 (Projeto de Lei), pelo Deputado Reimont (PT/RJ -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS\".",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2649560:themes",
+      "propositionId": 2649560,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2649560:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2649558:identity",
+      "propositionId": 2649558,
+      "scope": "identificação",
+      "sourceId": "camara:2649558:identity",
+      "value": {
+        "label": "PL 5702/2026",
+        "presentedAt": "2026-10-29T14:09",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2649558:ementa",
+      "propositionId": 2649558,
+      "scope": "ementa",
+      "sourceId": "camara:2649558:ementa",
+      "value": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução."
+    },
+    {
+      "id": "camara:2649558:authors",
+      "propositionId": 2649558,
+      "scope": "autoria",
+      "sourceId": "camara:2649558:authors",
+      "value": [
+        {
+          "name": "Eros Biondini",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2649558:status",
+      "propositionId": 2649558,
+      "scope": "situação registrada",
+      "sourceId": "camara:2649558:status",
+      "value": {
+        "dataHora": "2026-10-29T14:09",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5702/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução\".",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2649558:themes",
+      "propositionId": 2649558,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2649558:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2649535:identity",
+      "propositionId": 2649535,
+      "scope": "identificação",
+      "sourceId": "camara:2649535:identity",
+      "value": {
+        "label": "PL 5700/2026",
+        "presentedAt": "2026-10-29T12:30",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2649535:ementa",
+      "propositionId": 2649535,
+      "scope": "ementa",
+      "sourceId": "camara:2649535:ementa",
+      "value": "Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes."
+    },
+    {
+      "id": "camara:2649535:authors",
+      "propositionId": 2649535,
+      "scope": "autoria",
+      "sourceId": "camara:2649535:authors",
+      "value": [
+        {
+          "name": "Hildo Rocha",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2649535:status",
+      "propositionId": 2649535,
+      "scope": "situação registrada",
+      "sourceId": "camara:2649535:status",
+      "value": {
+        "dataHora": "2026-10-29T12:30",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5700/2026 (Projeto de Lei), pelo Deputado Hildo Rocha (MDB/MA), que \"Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes\".",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2649535:themes",
+      "propositionId": 2649535,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2649535:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2649534:identity",
+      "propositionId": 2649534,
+      "scope": "identificação",
+      "sourceId": "camara:2649534:identity",
+      "value": {
+        "label": "PL 5699/2026",
+        "presentedAt": "2026-10-29T12:05",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2649534:ementa",
+      "propositionId": 2649534,
+      "scope": "ementa",
+      "sourceId": "camara:2649534:ementa",
+      "value": "Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização."
+    },
+    {
+      "id": "camara:2649534:authors",
+      "propositionId": 2649534,
+      "scope": "autoria",
+      "sourceId": "camara:2649534:authors",
+      "value": [
+        {
+          "name": "Emanuel Pinheiro Neto",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2649534:status",
+      "propositionId": 2649534,
+      "scope": "situação registrada",
+      "sourceId": "camara:2649534:status",
+      "value": {
+        "dataHora": "2026-10-29T12:05",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5699/2026 (Projeto de Lei), pelo Deputado Emanuel Pinheiro Neto (PSD/MT), que \"Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização. \".",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2649534:themes",
+      "propositionId": 2649534,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2649534:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2649526:identity",
+      "propositionId": 2649526,
+      "scope": "identificação",
+      "sourceId": "camara:2649526:identity",
+      "value": {
+        "label": "PL 5698/2026",
+        "presentedAt": "2026-10-29T11:34",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2649526:ementa",
+      "propositionId": 2649526,
+      "scope": "ementa",
+      "sourceId": "camara:2649526:ementa",
+      "value": "Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo."
+    },
+    {
+      "id": "camara:2649526:authors",
+      "propositionId": 2649526,
+      "scope": "autoria",
+      "sourceId": "camara:2649526:authors",
+      "value": [
+        {
+          "name": "Dani Cunha",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2649526:status",
+      "propositionId": 2649526,
+      "scope": "situação registrada",
+      "sourceId": "camara:2649526:status",
+      "value": {
+        "dataHora": "2026-10-29T11:34",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5698/2026 (Projeto de Lei), pela Deputada Dani Cunha (PL/RJ), que \"Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo\".",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2649526:themes",
+      "propositionId": 2649526,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2649526:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2647427:identity",
+      "propositionId": 2647427,
+      "scope": "identificação",
+      "sourceId": "camara:2647427:identity",
+      "value": {
+        "label": "PL 5542/2026",
+        "presentedAt": "2026-10-13T13:26",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2647427:ementa",
+      "propositionId": 2647427,
+      "scope": "ementa",
+      "sourceId": "camara:2647427:ementa",
+      "value": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima."
+    },
+    {
+      "id": "camara:2647427:authors",
+      "propositionId": 2647427,
+      "scope": "autoria",
+      "sourceId": "camara:2647427:authors",
+      "value": [
+        {
+          "name": "Yury Bruno",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2647427:status",
+      "propositionId": 2647427,
+      "scope": "situação registrada",
+      "sourceId": "camara:2647427:status",
+      "value": {
+        "dataHora": "2026-10-28T13:55",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Urgência (154, 155 ou 64 CF)",
+        "despacho": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4300/2026.",
+        "siglaOrgao": "PLEN"
+      }
+    },
+    {
+      "id": "camara:2647427:themes",
+      "propositionId": 2647427,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2647427:themes",
+      "value": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "relevance": 2,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "relevance": 1,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+        }
+      ]
+    },
+    {
+      "id": "camara:2647427:vote:2647742-7",
+      "propositionId": 2647427,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2647427:vote:2647742-7",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2647742-7",
+        "organ": "PLEN",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7"
+      }
+    },
+    {
+      "id": "camara:2620905:identity",
+      "propositionId": 2620905,
+      "scope": "identificação",
+      "sourceId": "camara:2620905:identity",
+      "value": {
+        "label": "PDL 274/2026",
+        "presentedAt": "2026-05-04T18:00",
+        "type": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais"
+      }
+    },
+    {
+      "id": "camara:2620905:ementa",
+      "propositionId": 2620905,
+      "scope": "ementa",
+      "sourceId": "camara:2620905:ementa",
+      "value": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022"
+    },
+    {
+      "id": "camara:2620905:authors",
+      "propositionId": 2620905,
+      "scope": "autoria",
+      "sourceId": "camara:2620905:authors",
+      "value": [
+        {
+          "name": "Representação Brasileira no Parlamento do Mercosul",
+          "type": "COMISSÃO MISTA PERMANENTE"
+        }
+      ]
+    },
+    {
+      "id": "camara:2620905:status",
+      "propositionId": 2620905,
+      "scope": "situação registrada",
+      "sourceId": "camara:2620905:status",
+      "value": {
+        "dataHora": "2026-10-29T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 241/2026/SGM-P.",
+        "siglaOrgao": "MESA"
+      }
+    },
+    {
+      "id": "camara:2620905:themes",
+      "propositionId": 2620905,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2620905:themes",
+      "value": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas"
+        }
+      ]
+    },
+    {
+      "id": "camara:2620905:vote:2620905-56",
+      "propositionId": 2620905,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2620905:vote:2620905-56",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+        "id": "2620905-56",
+        "organ": "PLEN",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56"
+      }
+    },
+    {
+      "id": "camara:2620905:vote:2620905-53",
+      "propositionId": 2620905,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2620905:vote:2620905-53",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+        "id": "2620905-53",
+        "organ": "PLEN",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53"
+      }
+    },
+    {
+      "id": "camara:2620905:vote:2620905-48",
+      "propositionId": 2620905,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2620905:vote:2620905-48",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Rejeitado o Requerimento.",
+        "id": "2620905-48",
+        "organ": "PLEN",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48"
+      }
+    },
+    {
+      "id": "camara:2620905:vote:2620905-21",
+      "propositionId": 2620905,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2620905:vote:2620905-21",
+      "value": {
+        "date": "2026-06-10",
+        "description": "Aprovado o Parecer.",
+        "id": "2620905-21",
+        "organ": "CMULHER",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21"
+      }
+    },
+    {
+      "id": "camara:2618087:identity",
+      "propositionId": 2618087,
+      "scope": "identificação",
+      "sourceId": "camara:2618087:identity",
+      "value": {
+        "label": "PL 1950/2026",
+        "presentedAt": "2026-04-23T13:17",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2618087:ementa",
+      "propositionId": 2618087,
+      "scope": "ementa",
+      "sourceId": "camara:2618087:ementa",
+      "value": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos."
+    },
+    {
+      "id": "camara:2618087:authors",
+      "propositionId": 2618087,
+      "scope": "autoria",
+      "sourceId": "camara:2618087:authors",
+      "value": [
+        {
+          "name": "Alfredo Gaspar",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2618087:status",
+      "propositionId": 2618087,
+      "scope": "situação registrada",
+      "sourceId": "camara:2618087:status",
+      "value": {
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "siglaOrgao": "CIDOSO"
+      }
+    },
+    {
+      "id": "camara:2618087:themes",
+      "propositionId": 2618087,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2618087:themes",
+      "value": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        },
+        {
+          "id": "camara:tema:52",
+          "name": "Previdência e Assistência Social",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas"
+        }
+      ]
+    },
+    {
+      "id": "camara:2618087:vote:2618087-22",
+      "propositionId": 2618087,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2618087:vote:2618087-22",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovado o Parecer.",
+        "id": "2618087-22",
+        "organ": "CIDOSO",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22"
+      }
+    },
+    {
+      "id": "camara:2613852:identity",
+      "propositionId": 2613852,
+      "scope": "identificação",
+      "sourceId": "camara:2613852:identity",
+      "value": {
+        "label": "PL 1648/2026",
+        "presentedAt": "2026-04-07T16:06",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2613852:ementa",
+      "propositionId": 2613852,
+      "scope": "ementa",
+      "sourceId": "camara:2613852:ementa",
+      "value": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças."
+    },
+    {
+      "id": "camara:2613852:authors",
+      "propositionId": 2613852,
+      "scope": "autoria",
+      "sourceId": "camara:2613852:authors",
+      "value": [
+        {
+          "name": "Nely Aquino",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2613852:status",
+      "propositionId": 2613852,
+      "scope": "situação registrada",
+      "sourceId": "camara:2613852:status",
+      "value": {
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "siglaOrgao": "CIDOSO"
+      }
+    },
+    {
+      "id": "camara:2613852:themes",
+      "propositionId": 2613852,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2613852:themes",
+      "value": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+        }
+      ]
+    },
+    {
+      "id": "camara:2613852:vote:2613852-22",
+      "propositionId": 2613852,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2613852:vote:2613852-22",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovado o Parecer.",
+        "id": "2613852-22",
+        "organ": "CIDOSO",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22"
+      }
+    },
+    {
+      "id": "camara:2612566:identity",
+      "propositionId": 2612566,
+      "scope": "identificação",
+      "sourceId": "camara:2612566:identity",
+      "value": {
+        "label": "PL 1453/2026",
+        "presentedAt": "2026-03-27T11:53",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2612566:ementa",
+      "propositionId": 2612566,
+      "scope": "ementa",
+      "sourceId": "camara:2612566:ementa",
+      "value": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos."
+    },
+    {
+      "id": "camara:2612566:authors",
+      "propositionId": 2612566,
+      "scope": "autoria",
+      "sourceId": "camara:2612566:authors",
+      "value": [
+        {
+          "name": "Lucas Abrahao",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2612566:status",
+      "propositionId": 2612566,
+      "scope": "situação registrada",
+      "sourceId": "camara:2612566:status",
+      "value": {
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "siglaOrgao": "CIDOSO"
+      }
+    },
+    {
+      "id": "camara:2612566:themes",
+      "propositionId": 2612566,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2612566:themes",
+      "value": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        },
+        {
+          "id": "camara:tema:67",
+          "name": "Direito e Defesa do Consumidor",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas"
+        }
+      ]
+    },
+    {
+      "id": "camara:2612566:vote:2612566-22",
+      "propositionId": 2612566,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2612566:vote:2612566-22",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovado o Parecer.",
+        "id": "2612566-22",
+        "organ": "CIDOSO",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22"
+      }
+    },
+    {
+      "id": "camara:2411961:identity",
+      "propositionId": 2411961,
+      "scope": "identificação",
+      "sourceId": "camara:2411961:identity",
+      "value": {
+        "label": "REQ 4248/2023",
+        "presentedAt": "2023-12-11T14:02",
+        "type": "Requerimento de Urgência (Art. 155 do RICD)"
+      }
+    },
+    {
+      "id": "camara:2411961:ementa",
+      "propositionId": 2411961,
+      "scope": "ementa",
+      "sourceId": "camara:2411961:ementa",
+      "value": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada."
+    },
+    {
+      "id": "camara:2411961:authors",
+      "propositionId": 2411961,
+      "scope": "autoria",
+      "sourceId": "camara:2411961:authors",
+      "value": [
+        {
+          "name": "Abilio Brunini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Adilson Barroso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Adolfo Viana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Adriana Ventura",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Afonso Hamm",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alberto Fraga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alceu Moreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Guimarães",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredo Gaspar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Altineu Côrtes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Amália Barros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Amaro Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Paula Leão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "André Fernandes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "André Ferreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Any Ortiz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arnaldo Jardim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arthur Oliveira Maia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benes Leocádio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Beto Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bia Kicis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bibo Nunes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cabo Gilberto Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Alberto Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Alden",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Augusto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carla Zambelli",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Jordy",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Sampaio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Caroline de Toni",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Celso Russomanno",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chris Tonietto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cobalchini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Assis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Chrisóstomo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Fernanda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Meira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Telhada",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Ulysses",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Covatti Filho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cristiane Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Freitas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Trzeciak",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniela Reinehr",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "David Soares",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Defensor Stélio Dener",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Éder Mauro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Fabio Costa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Marcelo Freitas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Palumbo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Paulo Bilynskyj",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Ramagem",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Diego Andrade",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Diego Coronel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Diego Garcia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dilceu Sperafico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dimas Fabiano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Domingos Sávio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Doutor Luizinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Fernando Máximo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Frederico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Jaziel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Luiz Ovando",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Eduardo Bolsonaro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Elmar Nascimento",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Emidinho Madeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Evair Vieira de Melo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Félix Mendonça Júnior",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernanda Pessoa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Filipe Martins",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Franciane Bayer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fred Linhares",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gabriel Mota",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "General Girão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "General Pazuello",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Geraldo Mendes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Giacobo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilberto Abramo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilson Marques",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilvan da Federal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Giovani Cherini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glaustin da Fokus",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Greyce Elias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gustavo Gayer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gustinho Ribeiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gutemberg Reis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helio Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Hercílio Coelho Diniz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ismael",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ismael Alexandrino",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jefferson Campos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Maia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Braz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Medeiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Josivaldo Jp",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juarez Costa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Julia Zanatta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Julio Arcoverde",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Júlio Cesar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Junio Amaral",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kim Kataguiri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lázaro Botelho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lebrão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lêda Borges",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Leur Lomanto Júnior",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lucas Redecker",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lucio Mosquini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luis Carlos Gomes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Nishimori",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Philippe de Orleans e Bragança",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Magda Mofatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcel van Hattem",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcelo Álvaro Antônio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcelo Moraes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Marinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marco Brasil",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcos Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcos Pollon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria Rosas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mario Frias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marussa Boldrin",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marx Beltrão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mauricio do Vôlei",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mauricio Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Meire Serafim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Messias Donato",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Misael Varella",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Neto Carletto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Newton Cardoso Jr",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nicoletti",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nikolas Ferreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Osmar Terra",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padovani",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Diniz",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Eurico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Abi-Ackel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Azi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Foletto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Litro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Aihara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Lupion",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Westphalen",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pezenti",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pinheirinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pr. Marco Feliciano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Prof. Paulo Fernando",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professor Alcides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rafael Simoes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Raimundo Costa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Raimundo Santos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reinhold Stephanes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Renata Abreu",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ricardo Salles",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Roberta Roma",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Roberto Duarte",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodolfo Nogueira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodrigo Gambale",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodrigo Valadares",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogéria Santos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rosângela Moro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rosângela Reis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Samuel Viana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sanderson",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Fahur",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Gonçalves",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sergio Souza",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Silas Câmara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Silvia Waiãpi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Simone Marquetto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sóstenes Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Thiago de Joaldo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tião Medeiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Toninho Wandscheer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vermelho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vicentinho Júnior",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vinicius Carvalho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Trovão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Vitor",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zezinho Barbary",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zucco",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2411961:status",
+      "propositionId": 2411961,
+      "scope": "situação registrada",
+      "sourceId": "camara:2411961:status",
+      "value": {
+        "dataHora": "2025-07-16T10:00",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Proposição (Plenário)",
+        "despacho": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+        "siglaOrgao": "PLEN"
+      }
+    },
+    {
+      "id": "camara:2411961:themes",
+      "propositionId": 2411961,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2411961:themes",
+      "value": []
+    },
+    {
+      "id": "camara:2411961:vote:2411961-13",
+      "propositionId": 2411961,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2411961:vote:2411961-13",
+      "value": {
+        "date": "2025-07-16",
+        "description": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+        "id": "2411961-13",
+        "organ": "PLEN",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13"
+      }
+    },
+    {
+      "id": "camara:2204495:identity",
+      "propositionId": 2204495,
+      "scope": "identificação",
+      "sourceId": "camara:2204495:identity",
+      "value": {
+        "label": "PL 3099/2019",
+        "presentedAt": "2019-05-22T19:59",
+        "type": "Projeto de Lei"
+      }
+    },
+    {
+      "id": "camara:2204495:ementa",
+      "propositionId": 2204495,
+      "scope": "ementa",
+      "sourceId": "camara:2204495:ementa",
+      "value": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\"."
+    },
+    {
+      "id": "camara:2204495:authors",
+      "propositionId": 2204495,
+      "scope": "autoria",
+      "sourceId": "camara:2204495:authors",
+      "value": [
+        {
+          "name": "Juninho do Pneu",
+          "type": "Deputado(a)"
+        }
+      ]
+    },
+    {
+      "id": "camara:2204495:status",
+      "propositionId": 2204495,
+      "scope": "situação registrada",
+      "sourceId": "camara:2204495:status",
+      "value": {
+        "dataHora": "2026-10-28T13:55",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Urgência (154, 155 ou 64 CF)",
+        "despacho": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4194/2026.",
+        "siglaOrgao": "PLEN"
+      }
+    },
+    {
+      "id": "camara:2204495:themes",
+      "propositionId": 2204495,
+      "scope": "classificação temática oficial da Câmara, não classificação de IA",
+      "sourceId": "camara:2204495:themes",
+      "value": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "relevance": 0,
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas"
+        }
+      ]
+    },
+    {
+      "id": "camara:2204495:vote:2645996-7",
+      "propositionId": 2204495,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2204495:vote:2645996-7",
+      "value": {
+        "date": "2026-10-28",
+        "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2645996-7",
+        "organ": "PLEN",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7"
+      }
+    },
+    {
+      "id": "camara:2204495:vote:2204495-72",
+      "propositionId": 2204495,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2204495:vote:2204495-72",
+      "value": {
+        "date": "2025-07-09",
+        "description": "Aprovada a Redação Final.",
+        "id": "2204495-72",
+        "organ": "CCJC",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72"
+      }
+    },
+    {
+      "id": "camara:2204495:vote:2204495-54",
+      "propositionId": 2204495,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2204495:vote:2204495-54",
+      "value": {
+        "date": "2025-05-21",
+        "description": "Aprovado o Parecer.",
+        "id": "2204495-54",
+        "organ": "CCJC",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54"
+      }
+    },
+    {
+      "id": "camara:2204495:vote:2204495-37",
+      "propositionId": 2204495,
+      "scope": "votação relacionada, não necessariamente votação do mérito",
+      "sourceId": "camara:2204495:vote:2204495-37",
+      "value": {
+        "date": "2024-06-05",
+        "description": "Aprovado o Parecer.",
+        "id": "2204495-37",
+        "organ": "CSAUDE",
+        "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37"
+      }
+    }
+  ],
+  "institution": "Câmara dos Deputados",
+  "language": "pt-BR",
+  "limitations": [
+    "Amostra da Câmara dos Deputados, não cobertura integral do Congresso.",
+    "Conteúdo limitado à ementa e aos metadados oficiais coletados; PDFs, emendas e substitutivos não foram lidos.",
+    "Situação e votações são registros da coleta, não informação em tempo real. Aprovação de urgência não é aprovação do projeto nem lei vigente.",
+    "Links para inteiro teor são referências de leitura, não prova de análise do documento."
+  ],
+  "propositions": [
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187754",
+      "id": 2649633,
+      "label": "PL 5704/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187573",
+      "id": 2649560,
+      "label": "PL 5703/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187571",
+      "id": 2649558,
+      "label": "PL 5702/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187506",
+      "id": 2649535,
+      "label": "PL 5700/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187499",
+      "id": 2649534,
+      "label": "PL 5699/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187481",
+      "id": 2649526,
+      "label": "PL 5698/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3183470",
+      "id": 2647427,
+      "label": "PL 5542/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3122361",
+      "id": 2620905,
+      "label": "PDL 274/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3117361",
+      "id": 2618087,
+      "label": "PL 1950/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3109326",
+      "id": 2613852,
+      "label": "PL 1648/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3106120",
+      "id": 2612566,
+      "label": "PL 1453/2026",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2373577",
+      "id": 2411961,
+      "label": "REQ 4248/2023",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961"
+    },
+    {
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1751589",
+      "id": 2204495,
+      "label": "PL 3099/2019",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495"
+    }
+  ],
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "fa7bc3e23d6722f147ced2c099871ad618ee658e55176a7fd8060b4030de01cb",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649633:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "ba2bbf695d4979360c572c61f2ee2d725c85738d31a90f0949c7335057524a5a",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649633:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "fcb632118e315e0573c4ea6d18b0dff1afa29c5348e2ca2191b681eb9115aac0",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649633:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "f1a6a6931d45f49ed7700b6c1810330f448b1c3f8bae56f89fc9c8e7dfa37100",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649633:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649633:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649633",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "358800b946f087e3ebce7b38ed041625fc92221ab6115b911f1ad9a4153d2944",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649560:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "4b1d97778e0bcd1f6a4470307d6fe52ebea81160d3a92eec9c611e68e83887c5",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649560:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "b5810315058cf0c4e9c9236a9661835bed0f07fa488d36aa386cea3f87faa5df",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649560:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "af685730abb726daf04f8795850e80cc32a2ced859a3306fa415a505efc12779",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649560:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649560:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649560",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "f756d7062ac4c0503177a5b2ba386a824c4bb9ba07691d4d22dcea16eba0f494",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649558:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "27d946ba56096ae33017d651e1ef80ed11093f6048ccd75636692958353f9584",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649558:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "35b5975fc0272ac39cec973bfdddba2b9100040665274d30fc501459bc146d2c",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649558:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "dcb8e8e37111c3952b4cc2cfc9ec3036299d06e6946fadfc1eca7a1615c9a3ca",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649558:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649558:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649558",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "849fcfd117b8a4b9172a898dddb43d747a4cf34e2c98931bb11280d04b01616b",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649535:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "509dc50ad046d97fa19b61d42af42eedc3643e654693cc1ac47024eb6c779e4e",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649535:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "0654b7aae556e6958e3e349b49658df213f2dd039b225ef42cf0c6fd67acc20d",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649535:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "39fa64e7143dacb7019a020fa5e94e2888eedc73125717de4273ceef0fbf7f71",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649535:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649535:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649535",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "1a5c475c38d3cb235a7d0463fcc85d7c68f14ddc1b84119f7d9ba3c15b6538b8",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649534:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "f7a01922c993336fb3b1a44eeed6f6e3638a100e199fc495efd0b452913ca76f",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649534:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "233a22885b48098faaa3077122ff52d575f53b066b1e4abb7985c0ca63c75403",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649534:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "a96294a5fe076a733ff5b760a9f5787f33508feeb84c3ca724af0fdcbc46458d",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649534:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649534:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649534",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "824e6bcce4a52eae39335b976c8ac3a6d0366540dcc7bcac3270b1071e9b83da",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649526:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "aa66efe7beff3eae0b4be418d8f2a95bf481c493da8db5a4c5377c4f524e53a9",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649526:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "dfef67fe553d2ccb282f7a39415438157c71749e5869343bd86f7807a4834803",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649526:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "3a21513c183803fbabdf952a39da49676ee38b3e1ff37afa61be748b713bd240",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649526:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2649526:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2649526",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "209470135f5719bf1e43ace3b0e8578f262b33dce4f6d6aff1c0bc9290e168fc",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2647427:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "6c77ba7684cb8522e84b323fcaf694684bc9dc6b7721ea8aca3410f1f5521706",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2647427:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "865e5fa525cd9394f0c971c0e5c5fed1bcb4b8a09c6c06054cf3448d20db018a",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2647427:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "146669cb01ebb996be728d41344cf9e1fd1dbfae9c97b2aac8eab191616ce0a0",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2647427:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "67532fde5d11824df0aeb94487cf0dbc169ee1ebedc9bec4b519c2c1709f9698",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2647427:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "e4f37ee9096ff02e948836d443f472b34f5cb8005deb63ac0dfebdb8a204a6d2",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2647427:vote:2647742-7",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2647427",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "f23d0dac9ddbc820471596c15dd9f5820530d4388b139175f0b6b892e8f4c15f",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "a01d6cc2367352b7f7ef7fbc261a407fac51cd0f55c3b50ee7ca82b2772b0e7f",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "ddc373d7920e37606e7f8b9ddb73d8a9e81e460449285b8b5e233e224a3acdc0",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "5448f6e983edeef96b8cb017404f4c9f3ac253c5c02dd91b02049743b2c02be1",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "b1f96e9114bc75430119c6fa27296cf87af221302d0be4163869a676bdc4139e",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "54ee1bfa16dcfe6c6a660ac69e1490ee698c9c4c50915c991ad9b468b0934cb8",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:vote:2620905-56",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "e66e7f7fa68ced792f43a5ab773e0e189d304deddad3f9b3364169ea14a7b546",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:vote:2620905-53",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "1527ba93346b88833c39ac770e45311097f0a82603ccd31808f1041dce7ec8ea",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:vote:2620905-48",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "db1a174c4b61bfd3601f76143e8ad80f1e56ba0f4ac69da1aec1edc725da1b08",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2620905:vote:2620905-21",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2620905",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "bf1da8e6d72e568fa157f533aa66c021ce0696423a7c605592146ba1583b3d10",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2618087:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "837f963694c8c915de7a196df2866464f16b4c85f9a1f0901990b8ed68bbe361",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2618087:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "92e1a0e4b0b595e90ad88af60fecffec70e2ea64a203621e42b1a153ea9b2d56",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2618087:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "a1f5ac8d17518f2c08f74a5fe9d6e2de777f176bc15fb77522320805a86e465b",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2618087:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "d4f66549f61a11f99831cd39c4c15607516d60c87af0f0fe15437b94259292d5",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2618087:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "d23b8129142e96d285712aead249085fb1b17cce690740836307513863c97630",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2618087:vote:2618087-22",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2618087",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "ca6e81414a7eb27d9a3abdbf32bf18570173f274ee6bf05607283be68ca0584b",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2613852:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "c54ded7a9088b680d288d0959788bbcd0399c9a23e56df2163c23acb3e07556f",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2613852:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "bbfcc2547d26c9f1b55c3b9d11fda4763bd05db00c9e1ca4e32c4ef9726aa054",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2613852:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "a1f5ac8d17518f2c08f74a5fe9d6e2de777f176bc15fb77522320805a86e465b",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2613852:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "62196e8e7cf32d74c8adfcb79b72debc590c5304522efb33b9123b4c494f7063",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2613852:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "ba87b25580f59531d1f97ebb845c12a8cbf952fb315b2e9f4e91096588f0e8d9",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2613852:vote:2613852-22",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2613852",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "e63b34b22777396795fc28eabce2d2acb7ad2b4ec43d732cdec59b4c093e9163",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2612566:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "02c678873b31fd76e4319d771f62337544ac632a910d58cdb4d6edf9312d0562",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2612566:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "3bb5f740b59533127f62a844a5bc4f3bd99c4cc3e04000f7ad6fb283f3dcfa0d",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2612566:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "a1f5ac8d17518f2c08f74a5fe9d6e2de777f176bc15fb77522320805a86e465b",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2612566:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "0fd770a72deb7977036c08c7eda62fb98013e7b01fc3b23f99af7c4872e88aa1",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2612566:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "512ac29d9e6d5130f859939a599dcc6d7932e02e9d164b040ec73de242638ab8",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2612566:vote:2612566-22",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2612566",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "48431228437fedb565b4b0111f8329709579ba44f1c9c018932b0f2e03fbcccb",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2411961:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "c1e87d51f4c497b40d0db6eb0f6187c6c4e769e1346225f3efa90cf20f29a704",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2411961:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "0612111f1b11e97f7338c645eb53f7d20ecdf8a556be7d8f4fd70cf0b667f436",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2411961:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "73036ed08c09875a7b3e3b962be57ac059a3cf663f02e2552b406785877950e9",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2411961:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2411961:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "81a8828f8f9a76a9be76d111e378ccc8015f92a5c2dc59e55f6d9de077bbd3b7",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2411961:vote:2411961-13",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "e3d241d83fa0aaa04fdf30f49c4d8ac450bfb3b943554a2ebdf88c1a4776bf0d",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:identity",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "identificação"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "ccc6f9fa4c1e7f2b7cb30ca9696a43dcec1927e379c22ba6bef9351075d1b46a",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:ementa",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "ementa"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "b4407f3b93ef62dca51254513e169dfa99cb58e302d8cd4ef2419537be06531d",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:authors",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "autoria"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "298598f8837b02a0a40986db092f95555cd2dd091398aeca5154feda49d1715a",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:status",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "situação registrada"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "7f54b5304cd3442b8cc2c565cce2ad71e11d4040a89087ed130a3e119aac7cba",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:themes",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "classificação temática oficial da Câmara, não classificação de IA"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "329eb3c9b336f77f0c4f70a50ca2364058edeae4aecfeb8dfb88a6f844f0e0ea",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:vote:2645996-7",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "ec389c83ddd1e0c9caa82e0f63c8df33865939b3d74a07578a0e3ecea7415fff",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:vote:2204495-72",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "092698a3ad03340df60b813a5194f6649c5c0a2099d8c0f6a1497f882106be4c",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:vote:2204495-54",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    },
+    {
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37",
+      "collectedAt": "2026-10-30T00:13:23.620Z",
+      "contentHash": "f636f8b6475328b7df8bc09f85208c8e08b66a0ae15f217e38615b6c4651e12c",
+      "contentScope": "normalized-excerpt",
+      "id": "camara:2204495:vote:2204495-37",
+      "readerUrl": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
+      "scope": "votação relacionada, não necessariamente votação do mérito"
+    }
+  ]
+}

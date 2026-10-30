@@ -1,0 +1,66 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:54:09",
+        "descricao": "Aprovada a Redação Final, assinada pela relatora, Dep. Benedita da Silva (PT/RJ).",
+        "id": "2620905-56",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:52:36",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Decreto Legislativo nº 274, de 2026, adotado pela relatora da Comissão de Relações Exteriores e de Defesa Nacional.",
+        "id": "2620905-53",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:24:51",
+        "descricao": "Rejeitado o Requerimento.",
+        "id": "2620905-48",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-10",
+        "dataHoraRegistro": "2026-06-10T14:07:08",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2620905-21",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CMULHER",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82239",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537870",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:35.268Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/votacoes"
+}

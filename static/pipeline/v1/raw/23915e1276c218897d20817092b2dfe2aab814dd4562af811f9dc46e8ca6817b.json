@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-07-09",
+      "dataHoraRegistro": "2025-07-09T14:04:12",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Redação Final.",
+      "efeitosRegistrados": [],
+      "id": "2204495-72",
+      "idEvento": 76977,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2025-06-30T15:58",
+          "ementa": "Redação Final  do PL 3099/2019",
+          "id": 2529272,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2529272"
+        },
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2025-05-21T18:55",
+          "ementa": "Parecer da Comissão (CCJC) ao PL 3099/2019",
+          "id": 2515187,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515187"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-04-03T15:45",
+          "ementa": "Parecer da Relatora, Dep. Enfermeira Ana Paula (PODE-CE), pela constitucionalidade, juridicidade e técnica legislativa deste, dos Projetos de Lei n°s 939/2024 e 948/2024, apensados, e do Substitutivo da Comissão de Saúde.",
+          "id": 2494531,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2494531"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-10-22T11:47",
+          "ementa": "Parecer do Relator, Dep. Eduardo Bismarck (PDT-CE), pela constitucionalidade, juridicidade e técnica legislativa deste, dos Projetos de Lei nºs 939/2024 e 948/2024, apensados, e do Substitutivo da Comissão de Saúde.",
+          "id": 2463701,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2463701"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-22T19:59",
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "id": 2204495,
+          "numero": 3099,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-04-07T15:25:17",
+        "descricao": "Parecer da Relatora, Dep. Enfermeira Ana Paula (PODE-CE), pela constitucionalidade, juridicidade e técnica legislativa deste, dos Projetos de Lei n°s 939/2024 e 948/2024, apensados, e do Substitutivo da Comissão de Saúde.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2494531"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/76977",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:40.542Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72"
+}

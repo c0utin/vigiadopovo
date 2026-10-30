@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 554,
+      "dataApresentacao": "2026-05-04T18:00",
+      "descricaoTipo": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "ementa": "Aprova o texto do Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre os Estados Partes do MERCOSUL e Estados Associados, assinado na cidade de Assunção, República do Paraguai, em 20 de julho de 2022",
+      "ementaDetalhada": "",
+      "id": 2620905,
+      "justificativa": null,
+      "keywords": "Aprovação, ato internacional, Acordo sobre o Reconhecimento Mútuo de Medidas de Proteção às Mulheres em Situações de Violência de Gênero entre Estados Partes do MERCOSUL e Estados Associados (2022), Brasil, estado parte, Mercado Comum do Sul (Mercosul), Bolívia, Chile, Equador, cooperação jurídica internacional, violência de gênero, violência contra a mulher, proteção, mulher.",
+      "numero": 274,
+      "siglaTipo": "PDL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-10-29T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 241/2026/SGM-P.",
+        "regime": "Urgência (Art. 151, I \"j\", RICD)",
+        "sequencia": 64,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/73701",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3187471"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537870",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3122361",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:30.373Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905"
+}

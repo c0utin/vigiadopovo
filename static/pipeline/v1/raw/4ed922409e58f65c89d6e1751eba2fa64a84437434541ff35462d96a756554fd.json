@@ -1,0 +1,13 @@
+{
+  "body": {
+    "dados": [],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:26.792Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/temas"
+}

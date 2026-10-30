@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:09:54",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-10-28T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 4194/2026,da Sra. Flávia Morais e outros, que solicita urgência (art. 155) para o PL 3099/2019.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3099/2019",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-10-28T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4194/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3099/2019",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2645996-7",
+      "idEvento": 83108,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-09-04T12:46",
+          "ementa": "Requer regime de urgência urgentíssima para a apreciação do Substitutivo do Senado Federal ao Projeto de Lei nº 3.099, de 2019, que institui o Dia Nacional do Autocuidado e altera a Lei nº 8.080, de 19 de setembro de 1990, para prever o estímulo ao autocuidado responsável no âmbito do Sistema Único de Saúde – SUS.",
+          "id": 2645996,
+          "numero": 4194,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2645996"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-22T19:59",
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "id": 2204495,
+          "numero": 3099,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:26.666Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7"
+}

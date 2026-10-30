@@ -1,4 +1,5 @@
 import snapshot from "./data/portal.json";
+import type { ThemeLabel } from "./legislative.ts";
 
 // The contract remains stable even when a snapshot contains no summaries or votes.
 export interface Proposition {
@@ -15,6 +16,7 @@ export interface Proposition {
     despacho: string | null;
   } | null;
   authors: { name: string; type: string }[];
+  labels?: readonly ThemeLabel[];
   url: string;
   apiUrl: string;
   documentUrl: string | null;

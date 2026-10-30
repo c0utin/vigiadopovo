@@ -1,0 +1,34 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 34,
+        "relevancia": 0,
+        "tema": "Administração Pública"
+      },
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 46,
+        "relevancia": 0,
+        "tema": "Educação"
+      },
+      {
+        "codTema": 56,
+        "relevancia": 0,
+        "tema": "Saúde"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:38.564Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas"
+}

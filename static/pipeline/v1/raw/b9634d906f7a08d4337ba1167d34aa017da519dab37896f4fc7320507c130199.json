@@ -1,0 +1,77 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:04:38",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2612566-22",
+      "idEvento": 83096,
+      "idOrgao": 537871,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-07-09T10:26",
+          "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+          "id": 2638480,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638480"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-07-09T10:23",
+          "ementa": "Parecer do Relator, Dep. Castro Neto (MDB-PI), pela aprovação do PL 1453/26 e da Emenda 1/26 da CIDOSO, com substitutivo, .",
+          "id": 2638478,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638478"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-05-11T13:00",
+          "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+          "id": 2623365,
+          "numero": 1,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2623365"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-03-27T11:53",
+          "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+          "id": 2612566,
+          "numero": 1453,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566"
+        }
+      ],
+      "siglaOrgao": "CIDOSO",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-07-09T10:26:11",
+        "descricao": "Parecer do Relator, Dep. Castro Neto (MDB-PI), pela aprovação do PL 1453/26 e da Emenda 1/26 da CIDOSO, com substitutivo, .",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638478"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:27.299Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22"
+}

@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-28",
+      "dataHoraRegistro": "2026-10-28T16:09:36",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-10-28T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 4300/2026,do Sr. Isnaldo Bulhões Jr., que solicita urgência (art. 155) para o PL 5542/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 5542/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-10-28T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4300/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 5542/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2647742-7",
+      "idEvento": 83108,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-10-14T20:46",
+          "ementa": "Requer, nos termos do art. 155 do RICD, urgência para o Projeto de Lei nº 5.542, de 2026, que altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de\ncontenção física remota e à proteção da vítima.",
+          "id": 2647742,
+          "numero": 4300,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647742"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-10-13T13:26",
+          "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
+          "id": 2647427,
+          "numero": 5542,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:23.328Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7"
+}

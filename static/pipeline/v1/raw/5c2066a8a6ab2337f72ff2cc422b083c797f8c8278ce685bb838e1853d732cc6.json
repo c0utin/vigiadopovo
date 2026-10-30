@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-03-27T11:53",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
+      "ementaDetalhada": "",
+      "id": 2612566,
+      "justificativa": null,
+      "keywords": "Obrigatoriedade, Instituição financeira, Autenticação de múltiplos fatores (MFA), pessoa, indicação, cliente, idoso, cadastro, contratação, ambiente virtual, internet, meio eletrônico, enfrentamento, fraude, golpe financeiro, prática abusiva.",
+      "numero": 1453,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": 910,
+        "codTipoTramitacao": "336",
+        "dataHora": "2026-10-28T13:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "despacho": "Aprovado o Parecer.",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 22,
+        "siglaOrgao": "CIDOSO",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220699",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3106120",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:38.763Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566"
+}

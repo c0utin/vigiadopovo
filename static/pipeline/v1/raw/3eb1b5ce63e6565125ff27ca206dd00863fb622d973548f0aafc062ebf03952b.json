@@ -1,0 +1,27 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2025-07-16",
+        "dataHoraRegistro": "2025-07-16T18:22:43",
+        "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 347; Não: 107; Total: 454.",
+        "id": "2411961-13",
+        "proposicaoObjeto": "REQ 4248/2023",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:35.690Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/votacoes"
+}

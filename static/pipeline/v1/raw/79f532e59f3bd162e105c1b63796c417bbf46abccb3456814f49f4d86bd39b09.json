@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Alfredo Gaspar",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220576"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:26:31.706Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/autores"
+}

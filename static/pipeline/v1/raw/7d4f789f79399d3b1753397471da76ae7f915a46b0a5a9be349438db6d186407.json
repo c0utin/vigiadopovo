@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Yury Bruno",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220660"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:34.148Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/autores"
+}

@@ -1,0 +1,19 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 72,
+        "relevancia": 0,
+        "tema": "Homenagens e Datas Comemorativas"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:41.310Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas"
+}

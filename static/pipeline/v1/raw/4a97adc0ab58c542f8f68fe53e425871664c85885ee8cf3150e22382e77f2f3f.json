@@ -1,0 +1,27 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:04:38",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2612566-22",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CIDOSO",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83096",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:39.324Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/votacoes"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2019,
+      "codTipo": 139,
+      "dataApresentacao": "2019-05-22T19:59",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+      "ementaDetalhada": "",
+      "id": 2204495,
+      "justificativa": null,
+      "keywords": "Criação, Dia Nacional do Autocuidado, data comemorativa, julho, ações.",
+      "numero": 3099,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 924,
+        "codTipoTramitacao": "196",
+        "dataHora": "2026-10-28T13:55",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Aprovação de Urgência (154, 155 ou 64 CF)",
+        "despacho": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4194/2026.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 85,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/225730",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1751589",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:39.740Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+}

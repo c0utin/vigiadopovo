@@ -15,6 +15,14 @@ pnpm build
 
 Use `pnpm format` para formatar os arquivos. Evite dependências e abstrações que não sejam necessárias. Mudanças visuais devem ser conferidas no navegador em larguras amplas e estreitas; alterações no pipeline devem preservar os testes de fonte, atualização e falha de rede.
 
+### Pipeline em TypeScript e Effect v4
+
+- Preserve as transformações puras de dados e contextos; mantenha rede, arquivos e armazenamento nas bordas.
+- Use `Schema` para entradas externas, `Effect.fn` para operações rastreáveis e serviços com `Layer` para dependências substituíveis. Não acrescente outra biblioteca de validação ou wrappers sem necessidade.
+- Trate falhas esperadas no canal de erro com mensagens seguras. Não registre configurações completas, cabeçalhos ou corpos privados de provedores. Respeite cancelamento e libere recursos com escopo.
+- Consulte os exemplos e tipos da versão instalada do Effect; APIs da v3 não são intercambiáveis com a v4. Use nomes do domínio, módulos pequenos por responsabilidade e comentários que expliquem decisões, não cada linha.
+- Os testes devem validar resultados observáveis e falhas, sem depender de credenciais ou serviços pagos. `pnpm check` inclui a verificação estrita de tipos da pipeline.
+
 ## Dados e resumos
 
 - Use apenas fontes oficiais. Não inclua notícias, posições partidárias ou conteúdo inventado como evidência.

@@ -45,6 +45,21 @@
       <a class="read-link" href={p.apiUrl} target="_blank" rel="noreferrer"
         >Conferir ementa na API da Câmara ↗</a
       >
+      <h2>Classificação temática oficial</h2>
+      <p class="muted">
+        Rótulos da Câmara para agrupamento de propostas, não classificação
+        gerada por IA.
+      </p>
+      <ul>
+        {#each p.labels ?? [] as label}<li>
+            <a href={label.sourceUrl}>{label.name}</a> · <code>{label.id}</code>
+          </li>{:else}<li>
+            Sem classificação temática oficial nesta coleta.
+          </li>{/each}
+      </ul>
+      <a class="read-link" href="/dados/"
+        >Explorar temas e votos individuais →</a
+      >
       <h2>Situação e último andamento</h2>
       <dl class="status-list">
         <div>
@@ -128,6 +143,9 @@
         <summary>Identificação da versão</summary>
         <p class="hash">SHA-256 da ementa e do ID:<br />{p.sourceHash}</p>
       </details>
+      <a class="panel-method" href="/transparencia/"
+        >Conferir as transformações e os arquivos da coleta →</a
+      >
     </aside>
   </div>
 </main>

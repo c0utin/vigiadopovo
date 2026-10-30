@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 57,
+        "relevancia": 1,
+        "tema": "Defesa e Segurança"
+      },
+      {
+        "codTema": 43,
+        "relevancia": 2,
+        "tema": "Direito Penal e Processual Penal"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:34.598Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas"
+}

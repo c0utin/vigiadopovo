@@ -1,0 +1,12 @@
+# Supported by Cloudflare Pages / Netlify; other hosts need equivalent rules.
+/_app/immutable/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/pipeline/v1/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/legislativo.json
+  Cache-Control: public, max-age=0, must-revalidate
+
+/dados.json
+  Cache-Control: public, max-age=0, must-revalidate

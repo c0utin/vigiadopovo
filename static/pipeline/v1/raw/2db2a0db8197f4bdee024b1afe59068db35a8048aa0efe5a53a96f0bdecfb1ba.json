@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 6,
+        "nome": "Representação Brasileira no Parlamento do Mercosul",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "COMISSÃO MISTA PERMANENTE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/5973"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-10-30T00:13:35.019Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/autores"
+}
