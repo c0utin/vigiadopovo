@@ -16,12 +16,6 @@
       icon: "M5 20v-7m7 7V4m7 16V9",
     },
     {
-      href: "/transparencia/",
-      label: "Pipeline",
-      section: "/transparencia/",
-      icon: "M5 5h14v5H5zM5 15h14v5H5zM12 10v5",
-    },
-    {
       href: "/sobre/",
       label: "Sobre",
       section: "/sobre/",
@@ -75,7 +69,7 @@
   </div>
   <div>
     <p>Iniciativa independente, sem vínculo com o governo ou partidos.</p>
-    <a href="/transparencia/">Transparência da pipeline</a><span
+    <a href="/transparencia/">Transparência dos dados</a><span
       class="footer-separator">·</span
     ><a href="/dados.json" download>Baixar dados abertos ↗</a>
   </div>

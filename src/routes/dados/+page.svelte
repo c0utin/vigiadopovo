@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from "svelte";
   import type { LegislativeDataset } from "#lib/legislative.ts";
 
   type Voting = LegislativeDataset["votings"][number];
@@ -105,6 +106,9 @@
       loading = false;
     }
   }
+
+  // The collection is ~14 KB gzip, so load it right away instead of asking first.
+  onMount(loadData);
 
   const topics = $derived.by(() => {
     const counts = new Map<
@@ -240,8 +244,8 @@
   </p>
   <h1>Explore os <em>dados.</em></h1>
   <p class="intro">
-    Explore propostas e votos da Câmara. Baixe a coleta para começar; suas
-    buscas e filtros não são salvos.
+    Veja os temas, as votações e como cada deputado votou. Suas buscas e filtros
+    não são salvos.
   </p>
   <details class="notice">
     <summary>Como interpretar um voto</summary>
@@ -259,17 +263,19 @@
       aria-busy={loading}
       aria-label="Carregar coleta"
     >
-      <h2>Comece pela fonte.</h2>
-      <p>Esta coleta é uma amostra, não todo o histórico legislativo.</p>
-      <button class="button primary" onclick={loadData} disabled={loading}
-        >{loading ? "Carregando dados…" : "Carregar dados legislativos"}</button
-      >
       <p role="status">
-        {loading ? "Baixando e validando a coleta legislativa…" : ""}
+        {loading || !error ? "Carregando dados da Câmara…" : ""}
       </p>
-      {#if error}<p role="alert">
-          {error} Tente novamente pelo botão acima.
-        </p>{/if}
+      <noscript
+        ><p>
+          Este explorador precisa de JavaScript. Você pode
+          <a href="/legislativo.json" download>baixar os dados em JSON</a>.
+        </p></noscript
+      >
+      {#if error}<p role="alert">{error}</p>
+        <button class="button primary" onclick={loadData}
+          >Tentar novamente</button
+        >{/if}
     </section>
   {:else}
     <section class="collection" aria-label="Sobre a coleta">

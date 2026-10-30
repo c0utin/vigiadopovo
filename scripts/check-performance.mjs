@@ -7,10 +7,30 @@ const manifest = JSON.parse(
   await readFile(".svelte-kit/output/client/.vite/manifest.json", "utf8"),
 );
 const home = await readFile("build/index.html", "utf8");
-const nodes = JSON.parse(home.match(/node_ids:\s*(\[[^\]]+\])/)?.[1] ?? "null");
+
+// The homepage ships no framework JavaScript: only a small inline enhancement.
+assert.doesNotMatch(
+  home,
+  /<script\b[^>]*\bsrc=|rel="modulepreload"|type="module"/,
+  "Homepage must not download JavaScript modules",
+);
+const inline = [...home.matchAll(/<script>([\s\S]*?)<\/script>/g)]
+  .map((match) => match[1])
+  .join("");
+const homeJs = gzipSync(inline).length;
+assert.ok(
+  homeJs <= 2 * 1024,
+  `Homepage inline JS exceeds 2 KiB gzip: ${homeJs}`,
+);
+
+// The data explorer is the only hydrated page; it keeps the 45 KiB budget.
+const dataPage = await readFile("build/dados/index.html", "utf8");
+const nodes = JSON.parse(
+  dataPage.match(/node_ids:\s*(\[[^\]]+\])/)?.[1] ?? "null",
+);
 assert.ok(
   Array.isArray(nodes),
-  "Homepage must expose its hydrated route nodes",
+  "Data page must expose its hydrated route nodes",
 );
 const roots = new Set([
   "entry/app",
@@ -37,12 +57,12 @@ for (const file of files) {
   assert.doesNotMatch(
     bytes.toString(),
     /S3Client|AWS_SECRET_ACCESS_KEY|chat\/completions|siglaPartido/,
-    "Bulk legislative data and server SDKs must stay out of initial JS",
+    "Bulk legislative data and server SDKs must stay out of page JS",
   );
 }
 assert.ok(
   javascriptGzip <= 45 * 1024,
-  `Initial JS exceeds 45 KiB gzip: ${javascriptGzip}`,
+  `Data page JS exceeds 45 KiB gzip: ${javascriptGzip}`,
 );
 assert.ok(
   gzipSync(home).length <= 14 * 1024,
@@ -69,5 +89,5 @@ for (const page of staticPages) {
   );
 }
 console.log(
-  `Performance budgets OK: homepage JS ${javascriptGzip} bytes gzip; HTML ${gzipSync(home).length} bytes gzip; ${staticPages.length} informational pages with zero JS.`,
+  `Performance budgets OK: homepage inline JS ${homeJs} bytes gzip, no modules; HTML ${gzipSync(home).length} bytes gzip; data page JS ${javascriptGzip} bytes gzip; ${staticPages.length} informational pages with zero JS.`,
 );
