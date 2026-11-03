@@ -69,6 +69,15 @@ export async function sync({ ids = [] } = {}) {
     inferenceInThisRun: false,
     humanReview: "not-performed",
     remoteStorage: "disabled",
+    // Only GitHub Actions runs carry attestations; local runs record null.
+    collector:
+      process.env.GITHUB_ACTIONS === "true"
+        ? {
+            repository: process.env.GITHUB_REPOSITORY,
+            commit: process.env.GITHUB_SHA,
+            workflowRun: `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`,
+          }
+        : null,
   };
   await mkdir("src/lib/data", { recursive: true });
   await mkdir("static", { recursive: true });

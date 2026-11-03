@@ -5,6 +5,13 @@
 /pipeline/v1/*
   Cache-Control: public, max-age=31536000, immutable
 
+# `ots upgrade` rewrites pending proofs; each deploy rewrites the checksum list.
+/pipeline/timestamps/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/SHA256SUMS
+  Cache-Control: public, max-age=0, must-revalidate
+
 /legislativo.json
   Cache-Control: public, max-age=0, must-revalidate
 

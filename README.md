@@ -20,7 +20,17 @@ pnpm check
 pnpm build
 ```
 
-Publique a pasta `build/` em hospedagem estática com suporte a `index.html` de diretórios. Não precisa de backend, banco ou chaves de IA para servir o site. Não há publicação remota ou atualização agendada configurada.
+Publique a pasta `build/` em hospedagem estática com suporte a `index.html` de diretórios. Não precisa de backend, banco ou chaves de IA para servir o site. No GitHub, `deploy.yml` publica no GitHub Pages a cada push em `main`, e `collect.yml` coleta os dados diariamente (veja abaixo).
+
+## Prova de origem sem custo
+
+`.github/workflows/collect.yml` roda `pnpm data:sync` todo dia às 06:00 (Brasília) em runners do GitHub, a partir do código público, e só grava a coleta depois de testes, tipos e formatação passarem. Em seguida:
+
+1. **Atestação do GitHub (Sigstore):** assina o manifesto da execução, `static/legislativo.json` e `static/dados.json` com o repositório, o commit, o workflow e a execução que os produziram. O manifesto cobre, por hash, todas as capturas da API. Cada deploy também assina `SHA256SUMS`, a lista de hashes de todos os arquivos publicados.
+2. **OpenTimestamps:** carimba o hash do manifesto em `static/pipeline/timestamps/<hash>.json.ots`, ancorado no Bitcoin por calendários públicos, sem carteira ou taxa. Execuções seguintes rodam `ots upgrade` até a prova ficar completa.
+3. **Commit e deploy:** o bot commita a coleta em `main` e dispara `deploy.yml`. `provenance.json` registra a execução em `collector`; coletas locais ficam com `collector: null` e o portal avisa que não têm atestação.
+
+Isso prova que os arquivos saíram do código público, sem edição manual, no instante registrado. Continua sendo preciso confiar nos runners do GitHub e na própria API da Câmara, que não assina suas respostas. Qualquer pessoa pode fazer fork e rodar o mesmo workflow como testemunha independente. Como o bot commita no GitHub, faça `git pull` de lá antes de enviar mudanças de outro remoto. Para verificar um arquivo publicado, veja [VERIFY.md](VERIFY.md).
 
 ## Pipeline de coleta para o site
 

@@ -5,6 +5,14 @@
   import provenance from "#lib/data/provenance.json";
   import { date } from "#lib/format.ts";
 
+  let { data } = $props();
+  const github = $derived(`https://github.com/${data.repository}`);
+  // The versioned snapshot may record null; widen so the attested shape types.
+  const collector = provenance.collector as {
+    commit: string;
+    workflowRun: string;
+  } | null;
+
   const stages = [
     {
       title: "Coleta na fonte oficial",
@@ -58,7 +66,7 @@
         "Cada artefato tem chave SHA-256, tamanho e tipo. O manifesto é gravado após os artefatos. O site é reconstruído a partir do snapshot, sem IA ou coleta enquanto você navega.",
       kind: null,
       change:
-        "Artefatos → manifesto → páginas pré-renderizadas. S3 e publicação em redes sociais continuam desativados; não há atualização agendada.",
+        "Artefatos → manifesto → páginas pré-renderizadas. A coleta diária roda no GitHub Actions, com atestações assinadas e carimbo OpenTimestamps. S3 e publicação em redes sociais continuam desativados.",
     },
   ];
   const kinds: Record<string, string> = {
@@ -196,6 +204,46 @@
     <p class="hash">
       SHA-256 do manifesto: <code>{provenance.manifestHash}</code>
     </p>
+    <h3>Como provar a origem</h3>
+    <p>
+      A coleta roda no GitHub Actions, a partir do código público. O GitHub
+      assina o manifesto, <code>legislativo.json</code> e
+      <code>dados.json</code>
+      com o workflow, o commit e a execução que os produziram, e a publicação do site
+      assina <code>SHA256SUMS</code>, a lista de hashes de todos os arquivos
+      publicados. O OpenTimestamps registra no Bitcoin, sem custo, que o
+      manifesto já existia naquela data. Isso prova que os arquivos saíram do
+      código público sem edição manual, desde que você confie no GitHub e na API
+      da Câmara; não é uma assinatura da Câmara.
+    </p>
+    {#if collector}<p>
+        Esta coleta foi feita pela
+        <a href={collector.workflowRun}>execução do GitHub Actions</a>
+        no commit <code>{collector.commit.slice(0, 7)}</code>.
+      </p>{:else}<p>
+        <strong
+          >Esta coleta foi feita fora do GitHub Actions e não tem atestação de
+          origem.</strong
+        > A próxima coleta agendada substituirá este snapshot.
+      </p>{/if}
+    <ul class="proofs">
+      <li>
+        <a href={`${github}/attestations`}>Atestações assinadas no GitHub ↗</a>
+      </li>
+      {#if data.timestamp}<li>
+          <a
+            href={asset(
+              file(`/pipeline/timestamps/${provenance.manifestHash}.json.ots`),
+            )}
+            download>Prova OpenTimestamps do manifesto (.ots) ↗</a
+          >
+        </li>{/if}
+      <li>
+        <a href={`${github}/blob/main/VERIFY.md`}
+          >Passo a passo da verificação ↗</a
+        >
+      </li>
+    </ul>
     {#each ["raw", "normalized", "legislative", "context"] as kind}
       {@const entries = provenance.artifacts.filter(
         (entry) => entry.kind === kind,
@@ -386,6 +434,11 @@
   }
   .audit {
     padding-block: 8px;
+  }
+  .proofs a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
   }
   .hash {
     overflow-wrap: anywhere;

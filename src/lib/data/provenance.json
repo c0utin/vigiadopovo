@@ -884,5 +884,6 @@
   },
   "inferenceInThisRun": false,
   "humanReview": "not-performed",
-  "remoteStorage": "disabled"
+  "remoteStorage": "disabled",
+  "collector": null
 }
