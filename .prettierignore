@@ -9,4 +9,5 @@ data/*.json
 src/lib/data/*.json
 static/dados.json
 static/legislativo.json
+static/deputados.json
 static/pipeline/

@@ -17,6 +17,7 @@
     "preview": "vite preview --host 0.0.0.0",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.pipeline.json",
     "data:sync": "node --experimental-strip-types scripts/sync.mjs",
+    "data:deputies": "node --experimental-strip-types scripts/deputies.mjs",
     "pipeline:prepare": "node --experimental-strip-types --env-file-if-exists=.env scripts/pipeline.ts prepare",
     "pipeline:generate": "node --experimental-strip-types --env-file-if-exists=.env scripts/pipeline.ts generate",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",

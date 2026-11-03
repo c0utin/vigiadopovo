@@ -65,6 +65,29 @@ As capturas de votos removem `deputado_.email` e `deputado_.urlFoto` antes de qu
 
 O publicador **não chama IA** nem gera briefings: coleta e persistência dos votos não dependem do orçamento de contexto editorial. O contexto padrão inclui temas, ementa e metadados de votação, mas não todos os votos individuais; o artefato legislativo conserva esses registros para consultas e futuras seleções de contexto. A página de transparência distingue essa execução dos resumos de ementas já gerados anteriormente no chat, sem alegar que há revisão humana ou reprodução exata da inferência antiga.
 
+## Perfis dos deputados
+
+```sh
+pnpm data:deputies
+```
+
+Gera `/deputados/` (lista com busca por nome, partido e UF) e uma página por deputado em exercício, `/deputados/<id>/`, sem JavaScript. Cerca de 1.030 pedidos à API e cinco arquivos diários de dados abertos; leva uns 4 minutos. Os perfis e as fotos não são versionados (estão no `.gitignore`): o `deploy.yml` executa `pnpm data:deputies` antes de cada build, e sem o arquivo o site é gerado com a lista vazia.
+
+| Informação                                                     | Fonte oficial                                                                               |
+| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Lista em exercício, legislatura                                | `/deputados`                                                                                |
+| Nome civil, partido, UF, situação, condição, naturalidade etc. | `/deputados/{id}`                                                                           |
+| Discursos no ano                                               | `/deputados/{id}/discursos` (com `itens=1`, o número da última página é o total)            |
+| Votos individuais e órgão de cada votação                      | `arquivos/votacoesVotos/json/votacoesVotos-<ano>.json`, `votacoes-<ano>.json`               |
+| Proposições afetadas por cada votação                          | `arquivos/votacoesProposicoes/json/votacoesProposicoes-<ano>.json`                          |
+| Autoria de proposições (`proponente = 1`; apoiamentos não)     | `arquivos/proposicoesAutores/json/proposicoesAutores-<ano>.json`                            |
+| Comissões e cargos vigentes                                    | `arquivos/orgaosDeputados/json/orgaosDeputados-L<legislatura>.json`                         |
+| Foto oficial                                                   | `https://www.camara.leg.br/internet/deputado/bandep/<id>.jpg`, baixada só para quem não tem |
+
+O gráfico radar mostra, para o ano corrente, o percentil (posição relativa com empates divididos) de cada deputado entre os que estão em exercício em cinco volumes: votos no Plenário, votos em comissões, proposições, discursos e órgãos. Mede quantidade de registros, não qualidade, mérito ou posição; quem assumiu durante o ano tem menos tempo para acumular registros; ausência em votação não é inferida. O partido dos votos é o registrado em cada voto, o que mostra trocas no ano.
+
+Não publicamos CPF, data de nascimento, gabinete, telefone nem e-mail. As fotos seguem os termos de uso do portal da Câmara (reprodução livre citando "Câmara dos Deputados"); são servidas pelo próprio site, sem pedidos de terceiros na leitura, e removidas quando o deputado deixa o exercício. Os arquivos diários são grandes demais para arquivar a cada coleta: `deputados.json` registra URL, data, tamanho e SHA-256 de cada um, e o deploy atesta o arquivo e as fotos publicadas por meio de `SHA256SUMS`. Duplicidade de voto do mesmo deputado na mesma votação interrompe a coleta. No começo de janeiro, os arquivos do novo ano podem ainda não existir, e a coleta falha até a Câmara publicá-los.
+
 ## Pipeline genérica de contexto e conteúdo
 
 A coleta agora também pode alimentar outras tarefas de IA sem depender da interface Svelte. A preparação **não faz inferência, não escreve no S3 e não altera o snapshot do portal**. O armazenamento padrão é em memória e desaparece ao terminar o processo.
@@ -159,7 +182,7 @@ Documentação: https://dadosabertos.camara.leg.br/swagger/api.html
 | Temas oficiais para agrupamentos                   | `/proposicoes/{id}/temas`         |
 | Eventos e pauta prevista (expansão futura)         | `/eventos`, `/eventos/{id}/pauta` |
 
-Voto nominal não secreto pode ter registro individual; votação simbólica pode retornar lista vazia, mas também pode ter manifestações individuais. Ausentes não são listados no endpoint de votos. Não interprete aprovação de urgência ou de outra etapa como sanção. A pauta pode mudar e não garante que haverá votação. O portal permite consultar registros individuais na amostra, não oferece perfis completos, pautas futuras ou cobertura do Senado.
+Voto nominal não secreto pode ter registro individual; votação simbólica pode retornar lista vazia, mas também pode ter manifestações individuais. Ausentes não são listados no endpoint de votos. Não interprete aprovação de urgência ou de outra etapa como sanção. A pauta pode mudar e não garante que haverá votação. O portal permite consultar registros individuais na amostra e perfis dos deputados em exercício (veja abaixo), mas não pautas futuras ou cobertura do Senado.
 
 ## Referências legais e privacidade
 
@@ -173,7 +196,7 @@ Essas referências não constituem parecer jurídico nem certificação de confo
 
 ## Desempenho
 
-HTML pré-renderizado e CSS local; sem biblioteca de UI, imagens externas, fontes remotas, API no carregamento ou inferência em tempo de navegação. Propostas, metodologia e transparência têm **CSR desativado: nenhum JavaScript para leitura ou abertura dos detalhes nativos**. A página inicial recebe somente os campos de cards/busca, não o snapshot completo; o índice de busca é normalizado uma vez. Sem JavaScript, a lista completa e os links continuam legíveis.
+HTML pré-renderizado e CSS local; sem biblioteca de UI, imagens de terceiros (as fotos oficiais são servidas pelo próprio site), fontes remotas, API no carregamento ou inferência em tempo de navegação. Propostas, metodologia e transparência têm **CSR desativado: nenhum JavaScript para leitura ou abertura dos detalhes nativos**. A página inicial recebe somente os campos de cards/busca, não o snapshot completo; o índice de busca é normalizado uma vez. Sem JavaScript, a lista completa e os links continuam legíveis.
 
 O explorador baixa os votos só após ação explícita, mantém o conjunto imutável com `$state.raw` (sem proxies em cada voto), indexa a busca e renderiza no máximo 20 registros por página. O layout dos votos parte de cartões de uma coluna em telas estreitas e se expande para tabela no desktop; controles usam fonte de 16 px e navegação com alvos de 44 px. Prefetch por hover/touch está desativado para evitar transferências especulativas.
 

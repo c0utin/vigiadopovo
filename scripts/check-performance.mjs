@@ -73,12 +73,26 @@ assert.doesNotMatch(
   /descricaoTramitacao|ballotsUrl|sourceHash/,
   "Do not serialize full source histories on the homepage",
 );
+// The deputies list, like the homepage, may only carry a small inline script.
+const deputies = await readFile("build/deputados/index.html", "utf8");
+assert.doesNotMatch(
+  deputies,
+  /<script\b[^>]*\bsrc=|rel="modulepreload"|type="module"/,
+  "Deputies list must not download JavaScript modules",
+);
+assert.ok(
+  gzipSync(deputies).length <= 40 * 1024,
+  `Deputies list HTML exceeds 40 KiB gzip: ${gzipSync(deputies).length}`,
+);
 const staticPages = [
   "sobre",
   "transparencia",
   ...(await readdir("build/proposta"))
     .filter((name) => /^\d+$/.test(name))
     .map((id) => `proposta/${id}`),
+  ...(await readdir("build/deputados"))
+    .filter((name) => /^\d+$/.test(name))
+    .map((id) => `deputados/${id}`),
 ];
 for (const page of staticPages) {
   const html = await readFile(`build/${page}/index.html`, "utf8");

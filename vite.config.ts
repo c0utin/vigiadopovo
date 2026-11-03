@@ -9,6 +9,14 @@ export default defineConfig({
       adapter: adapter({ precompress: true }),
       // GitHub Pages serves the site from /<repo>/; local builds use the root.
       paths: { base: (process.env.BASE_PATH ?? "") as "" | `/${string}` },
+      prerender: {
+        // Profiles come from the unversioned deputies file; without it the
+        // route has no pages. Any other unrendered route still fails.
+        handleUnseenRoutes: ({ routes, message }) => {
+          if (routes.some((route) => route !== "/deputados/[id]"))
+            throw new Error(message);
+        },
+      },
       preprocess: vitePreprocess(),
     }),
   ],

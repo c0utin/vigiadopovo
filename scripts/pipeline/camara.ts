@@ -10,6 +10,7 @@ import {
   Stream,
 } from "effect";
 import { FetchHttpClient, HttpClient } from "effect/http";
+import { createHash } from "node:crypto";
 import { SourceError } from "./errors.ts";
 
 const OfficialUrl = Schema.URLFromString.check(
@@ -47,6 +48,23 @@ const ApiUrl = OfficialUrl.check(
       : "URL fora da API da Câmara",
   ),
 );
+const BulkUrl = OfficialUrl.check(
+  Schema.makeFilter((url) =>
+    url.origin === "https://dadosabertos.camara.leg.br" &&
+    /^\/arquivos\/[A-Za-z]+\/json\/[A-Za-z0-9-]+\.json$/.test(url.pathname) &&
+    !url.search
+      ? true
+      : "URL fora dos arquivos de dados abertos da Câmara",
+  ),
+);
+const PhotoUrl = OfficialUrl.check(
+  Schema.makeFilter((url) =>
+    url.origin === "https://www.camara.leg.br" &&
+    /^\/internet\/deputado\/bandep\/\d+\.jpg$/.test(url.pathname)
+      ? true
+      : "URL fora das fotos oficiais",
+  ),
+);
 const Envelope = Schema.Struct({
   dados: Schema.Unknown,
   links: Schema.optionalKey(
@@ -60,11 +78,21 @@ export type RawResponse = {
   redactions?: readonly string[];
 };
 
+export type BulkFile = {
+  url: string;
+  collectedAt: string;
+  sha256: string;
+  bytes: number;
+  dados: unknown;
+};
+
 export class Camara extends Context.Service<
   Camara,
   {
     get(url: string): Effect.Effect<typeof Envelope.Type, SourceError>;
     all(url: string): Effect.Effect<readonly unknown[], SourceError>;
+    file(url: string): Effect.Effect<BulkFile, SourceError>;
+    photo(id: number): Effect.Effect<Buffer, SourceError>;
     raw: Effect.Effect<readonly RawResponse[]>;
   }
 >()("vigia/pipeline/Camara") {}
@@ -94,20 +122,18 @@ export function makeCamaraLayer({
         Schedule.upTo({ times: 2 }),
         Schedule.while(({ input }) => input.retryable),
       );
-      const get = Effect.fn("Camara.get")(function* (input: string) {
-        const url = yield* Schema.decodeUnknownEffect(ApiUrl)(input).pipe(
-          Effect.mapError(
-            () =>
-              new SourceError({
-                message: "URL fora das fontes oficiais da API",
-                retryable: false,
-                retryAfterMillis: null,
-              }),
-          ),
-        );
-        const attempt = Effect.gen(function* () {
+      // One bounded, retried and cancellable download path for every source.
+      const download = (
+        url: URL,
+        {
+          accept,
+          maxBytes,
+          timeout,
+        }: { accept: string; maxBytes: number; timeout: number },
+      ) =>
+        Effect.gen(function* () {
           const response = yield* http.get(url.href, {
-            headers: { Accept: "application/json" },
+            headers: { Accept: accept },
           });
           if (response.status < 200 || response.status >= 300) {
             const header = response.headers["retry-after"];
@@ -150,30 +176,25 @@ export function makeCamaraLayer({
             () => ({ size: 0, chunks: [] as Uint8Array[] }),
             (state, chunk) => {
               const size = state.size + chunk.byteLength;
-              return size > 10 * 1024 * 1024
-                ? Effect.fail(
-                    new SourceError({
-                      message: "Resposta da Câmara excedeu 10 MiB",
-                      retryable: false,
-                      retryAfterMillis: null,
-                    }),
-                  )
-                : Effect.succeed({ size, chunks: [...state.chunks, chunk] });
+              if (size > maxBytes)
+                return Effect.fail(
+                  new SourceError({
+                    message: `Resposta da Câmara excedeu ${maxBytes / 1024 / 1024} MiB`,
+                    retryable: false,
+                    retryAfterMillis: null,
+                  }),
+                );
+              state.chunks.push(chunk);
+              return Effect.succeed({ size, chunks: state.chunks });
             },
           );
-          const body = yield* Schema.decodeUnknownEffect(
-            Schema.fromJsonString(Schema.Unknown),
-          )(Buffer.concat(bytes.chunks).toString("utf8"));
-          const envelope = yield* Schema.decodeUnknownEffect(Envelope)(body);
-          const collectedAt = DateTime.formatIso(yield* DateTime.now);
-          yield* Ref.update(raw, (responses) => [
-            ...responses,
-            { url: url.href, collectedAt, body },
-          ]);
-          return envelope;
+          return {
+            contentType: response.headers["content-type"] ?? "",
+            body: Buffer.concat(bytes.chunks),
+          };
         }).pipe(
           Effect.timeoutOrElse({
-            duration: timeoutMs,
+            duration: timeout,
             orElse: () =>
               Effect.fail(
                 new SourceError({
@@ -192,18 +213,93 @@ export function makeCamaraLayer({
               }),
             ),
           ),
-          Effect.catchTag("SchemaError", () =>
-            Effect.fail(
+          Effect.scoped,
+          Effect.retry(retry),
+        );
+      const decodeEnvelope = (body: Buffer) =>
+        Schema.decodeUnknownEffect(Schema.fromJsonString(Envelope))(
+          body.toString("utf8"),
+        ).pipe(
+          Effect.mapError(
+            () =>
               new SourceError({
                 message: "Resposta da Câmara inválida",
                 retryable: false,
                 retryAfterMillis: null,
               }),
-            ),
           ),
-          Effect.scoped,
         );
-        return yield* attempt.pipe(Effect.retry(retry));
+      const parse = <S extends Schema.Top>(schema: S, input: string) =>
+        Schema.decodeUnknownEffect(schema)(input).pipe(
+          Effect.mapError(
+            () =>
+              new SourceError({
+                message: "URL fora das fontes oficiais da API",
+                retryable: false,
+                retryAfterMillis: null,
+              }),
+          ),
+        );
+      const get = Effect.fn("Camara.get")(function* (input: string) {
+        const url = yield* parse(ApiUrl, input);
+        const { body } = yield* download(url, {
+          accept: "application/json",
+          maxBytes: 10 * 1024 * 1024,
+          timeout: timeoutMs,
+        });
+        const envelope = yield* decodeEnvelope(body);
+        const collectedAt = DateTime.formatIso(yield* DateTime.now);
+        yield* Ref.update(raw, (responses) => [
+          ...responses,
+          {
+            url: url.href,
+            collectedAt,
+            body: JSON.parse(body.toString("utf8")),
+          },
+        ]);
+        return envelope;
+      });
+      // Daily bulk exports: too large to archive per request, so callers get
+      // the digest of the exact bytes instead of a raw capture.
+      const file = Effect.fn("Camara.file")(function* (input: string) {
+        const url = yield* parse(BulkUrl, input);
+        const { body } = yield* download(url, {
+          accept: "application/json",
+          maxBytes: 128 * 1024 * 1024,
+          timeout: Math.max(timeoutMs, 120000),
+        });
+        const envelope = yield* decodeEnvelope(body);
+        return {
+          url: url.href,
+          collectedAt: DateTime.formatIso(yield* DateTime.now),
+          sha256: createHash("sha256").update(body).digest("hex"),
+          bytes: body.byteLength,
+          dados: envelope.dados,
+        };
+      });
+      const photo = Effect.fn("Camara.photo")(function* (id: number) {
+        const url = yield* parse(
+          PhotoUrl,
+          `https://www.camara.leg.br/internet/deputado/bandep/${id}.jpg`,
+        );
+        const { body, contentType } = yield* download(url, {
+          accept: "image/jpeg",
+          maxBytes: 1024 * 1024,
+          timeout: timeoutMs,
+        });
+        // Only real JPEGs are republished; anything else is rejected.
+        if (
+          !contentType.startsWith("image/jpeg") ||
+          body[0] !== 0xff ||
+          body[1] !== 0xd8 ||
+          body[2] !== 0xff
+        )
+          return yield* new SourceError({
+            message: "Foto oficial em formato inesperado",
+            retryable: false,
+            retryAfterMillis: null,
+          });
+        return body;
       });
       const all = Effect.fn("Camara.all")(function* (input: string) {
         const items: unknown[] = [];
@@ -235,7 +331,7 @@ export function makeCamaraLayer({
         }
         return items;
       });
-      return Camara.of({ get, all, raw: Ref.get(raw) });
+      return Camara.of({ get, all, file, photo, raw: Ref.get(raw) });
     }),
   ).pipe(
     Layer.provide(FetchHttpClient.layer),

@@ -93,7 +93,11 @@ grep " proposta/<id>/index.html$" SHA256SUMS | awk '{print $1"  page.html"}' | s
 
 `SHA256SUMS` lists paths relative to the site root. The host may serve a compressed copy; `curl` without `--compressed` receives the original bytes, which is what the list covers.
 
-## 6. Compare with the official source
+## 6. Deputy profiles
+
+`deputados.json` is built at deploy time from the Câmara API and five daily bulk files, so it is covered by the deploy's `SHA256SUMS` attestation (step 5), not by the collection attestations in step 2. Its `sources` list gives each file's URL, download time, size and SHA-256. The Câmara republishes those files every day, so a fresh download usually has a different hash; that is expected. To check a profile number, recount it from the current bulk file and the rules in `activity[].description`, and report differences as possible later updates. Photos under `/fotos/deputados/` are official Câmara photos (credit "Câmara dos Deputados"); they are covered the same way.
+
+## 7. Compare with the official source
 
 Origin cannot be proven cryptographically, but it can be cross-checked. Pick a raw capture, read its `url`, and fetch the same URL now:
 

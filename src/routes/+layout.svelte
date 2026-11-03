@@ -11,6 +11,12 @@
       icon: "M7 3h7l4 4v14H6V3h1m7 0v5h4M9 12h6M9 16h6",
     },
     {
+      href: resolve("deputados/"),
+      label: "Deputados",
+      section: "/deputados",
+      icon: "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8m-7 9a7 7 0 0 1 14 0",
+    },
+    {
       href: resolve("dados/"),
       label: "Dados",
       section: "/dados",
