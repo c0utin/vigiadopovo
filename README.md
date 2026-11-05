@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/readme/banner.jpg" alt="Vigia do Povo: transparência legislativa independente e aberta" width="100%">
+  <img src="docs/readme/banner.jpg" alt="vigia do povo: transparência legislativa independente e aberta" width="100%">
 </p>
 
 <p align="center">
@@ -16,86 +16,96 @@
   <a href="CONTRIBUTING.md">Contribuir</a>
 </p>
 
-> [!NOTE]
-> **Projeto independente e aberto.** Não tem vínculo com a Câmara dos Deputados, partidos, governos ou empresas. Todo o código é público sob licença MIT, os dados vêm só de fontes oficiais, e cada número publicado pode ser conferido por qualquer pessoa.
+O **Vigia do Povo** mostra o que a Câmara dos Deputados vota, quem votou e como, em linguagem simples, a partir só de dados oficiais. Cada número do site pode ser recalculado e conferido por qualquer pessoa.
 
-## O que você encontra
+## Por que existe
 
-|                      |                                                                                                  |
-| -------------------- | ------------------------------------------------------------------------------------------------ |
-| 📜 **Propostas**     | Projetos de lei recentes, com a ementa oficial explicada em linguagem simples.                   |
-| 🗳️ **Votos**         | Cada voto registrado, com filtros por tema, partido, UF, deputado e posição.                     |
-| 👤 **Deputados**     | Perfil de quem está em exercício e de quem já exerceu mandato, em cada legislatura desde 1826.   |
-| 📊 **Métricas**      | Alinhamento com Governo e Oposição, votações por mês e votos por deputado, de 2003 até hoje.     |
-| 🔍 **Transparência** | A página `/transparencia/` mostra a coleta que gerou cada número, com hashes e links das provas. |
+Os dados da Câmara são públicos, mas estão espalhados em arquivos enormes e APIs que pouca gente consegue ler. Quem resume esses dados costuma ter um lado. O Vigia do Povo existe para que qualquer cidadão veja **o que aconteceu de fato**, sem opinião no meio, e para que ninguém precise acreditar no projeto: **a prova vem junto com o número.**
 
-## Do dado oficial até você
+## Independente e aberto
+
+- **Sem vínculo** com a Câmara, partidos, governos ou empresas, e sem anúncios.
+- **Código aberto** sob licença [MIT](LICENSE.md): qualquer pessoa pode ler, copiar, rodar e auditar.
+- **Só fontes oficiais.** Nada é digitado à mão e nenhuma IA gera números; resumos de ementa feitos por IA são marcados e nunca substituem o texto oficial.
+- **Verificável.** Cada coleta tem hash, assinatura pública e carimbo no Bitcoin; cada métrica tem fórmula pública.
+- **Custo zero.** Roda na franquia grátis do GitHub e da Cloudflare, com trava automática antes do limite.
+
+## O que tem no site
+
+|                      |                                                                                          |
+| -------------------- | ---------------------------------------------------------------------------------------- |
+| 📜 **Propostas**     | Projetos de lei recentes, com a ementa oficial explicada em linguagem simples.           |
+| 🗳️ **Votos**         | Cada voto registrado, com filtros por tema, partido, UF, deputado e posição.             |
+| 👤 **Deputados**     | Quem está em exercício e quem já exerceu mandato, com filtro por legislatura desde 1826. |
+| 📊 **Métricas**      | Alinhamento com Governo e Oposição, votações por mês e votos por deputado, desde 2003.   |
+| 🔍 **Transparência** | A coleta que gerou cada número, com hashes e links das provas.                           |
+
+## Por que dá para confiar
+
+| Pergunta                                 | Prova pública                                                                                 |
+| ---------------------------------------- | --------------------------------------------------------------------------------------------- |
+| O dado mudou depois da coleta?           | SHA-256 de cada arquivo no manifesto da coleta.                                               |
+| Quem gerou o arquivo?                    | Atestação Sigstore do workflow público, ligada ao commit e à execução.                        |
+| Quando foi coletado?                     | Hash do manifesto carimbado num bloco do Bitcoin (OpenTimestamps).                            |
+| A métrica está certa?                    | Fórmula pública ([`lake/src/ouro.rs`](lake/src/ouro.rs)), recalculável dos arquivos oficiais. |
+| O site publicado é o que foi verificado? | `SHA256SUMS` com o hash de cada arquivo do site, atestado em cada deploy.                     |
+
+<details>
+<summary><b>Mostrar o pipeline de dados</b></summary>
 
 <p align="center">
   <img src="docs/readme/pipeline.svg" alt="Animação do pipeline: Câmara, coleta por código aberto, SHA-256, assinatura e carimbo, cálculo por regras fixas, verificação" width="100%">
 </p>
 
-Nada é digitado à mão e nenhuma IA gera números. Os resumos de ementa são marcados como texto de IA e nunca substituem a ementa oficial.
+1. **Coleta** (GitHub Actions, todo dia às 06:00 de Brasília): baixa a API e os arquivos oficiais da Câmara, testa, gera o manifesto com o SHA-256 de tudo, assina (Sigstore) e carimba (OpenTimestamps).
+2. **Lake** (Rust + Polars, Iceberg no Cloudflare R2), em arquitetura medalhão e **só com acréscimos**:
+   - **bronze:** cada versão de cada arquivo oficial, exatamente como publicada, guardada pelo seu SHA-256, com a lista de campos que a API publicou;
+   - **prata:** cada registro com todas as suas versões (SCD tipo 2): novo, alterado ou removido, nunca sobrescrito;
+   - **ouro:** as métricas, cada uma ligada ao lote de arquivos de que saiu.
+3. **Publicação:** um job lê a camada ouro com R2 SQL e grava JSON. O site é estático (Cloudflare Workers); fotos e métricas saem do R2 com cache (Cache API + Workers KV de 12 horas). Visitantes nunca disparam consultas.
 
-## Por que dá para confiar sem precisar confiar
+| Peça     | Onde                                          | Custo                             |
+| -------- | --------------------------------------------- | --------------------------------- |
+| Coleta   | GitHub Actions                                | grátis                            |
+| Site     | Cloudflare Workers (páginas pré-renderizadas) | plano grátis                      |
+| Fotos    | Cloudflare R2 + KV                            | franquia grátis                   |
+| Métricas | Lake Iceberg no R2, lido com R2 SQL           | franquia grátis, com trava em 80% |
 
-| Pergunta                                 | Resposta                                                                       | Prova pública                                |
-| ---------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------- |
-| O arquivo foi alterado depois da coleta? | Cada arquivo tem SHA-256 no manifesto da coleta.                               | `pipeline/v1/manifests/<hash>.json`          |
-| Quem gerou o arquivo?                    | O workflow público `collect.yml`, num runner do GitHub, a partir de um commit. | Atestação Sigstore (`gh attestation verify`) |
-| Quando?                                  | O hash do manifesto é carimbado num bloco do Bitcoin.                          | `pipeline/timestamps/<hash>.json.ots`        |
-| As métricas seguem regras fixas?         | SQL público, recalculável a partir dos arquivos oficiais.                      | [`scripts/metrics.ts`](scripts/metrics.ts)   |
-| O site publicado é o build atestado?     | `SHA256SUMS` lista o hash de cada arquivo do site e é atestado no deploy.      | `/SHA256SUMS`                                |
+Detalhes, limites e configuração em [docs/tecnico.md](docs/tecnico.md).
+
+</details>
 
 <details>
 <summary><b>Mostrar a matemática</b></summary>
 
-### Integridade: SHA-256
+**Integridade (SHA-256).** O manifesto $M$ lista o hash $H(x)$ de cada artefato. Verificar é recalcular: $\text{válido}(x) \iff H(x) = h_x$. Forjar outro arquivo com o mesmo hash exige cerca de $2^{128}$ operações; mudar um byte muda o hash inteiro.
 
-Cada artefato $x$ é guardado com a chave $H(x)$, em que $H$ é SHA-256. O manifesto $M$ lista $(\text{chave}, \text{tamanho}, H(x))$ de cada artefato e só é gravado depois de todos eles. Verificar é recalcular:
+**Origem (Sigstore).** O GitHub assina $H(\text{arquivo})$ com a identidade do workflow, do commit e da execução, num log público (Rekor). Prova **qual código** gerou o arquivo, não que a Câmara está certa.
 
-$$\text{válido}(x) \iff H(x) = h_x \text{ listado em } M$$
+**Tempo (OpenTimestamps).** O hash entra numa árvore de Merkle cuja raiz vai para uma transação do Bitcoin; a prova `.ots` é o caminho $h \to \dots \to \text{raiz}$.
 
-Encontrar $x' \neq x$ com $H(x') = H(x)$ exige cerca de $2^{128}$ operações (colisão) e não é viável. Mudar **um** byte muda o hash por completo.
-
-### Origem: Sigstore
-
-O GitHub assina $H(\text{arquivo})$ junto com a identidade do workflow, o repositório, o commit e a execução. A assinatura fica no log público de transparência (Rekor). Ela prova **qual código** gerou o arquivo, não que a Câmara está certa.
-
-### Tempo: OpenTimestamps
-
-O hash do manifesto entra numa árvore de Merkle cuja raiz vai para uma transação do Bitcoin. A prova `.ots` é o caminho $h \to \dots \to \text{raiz}$. Ela mostra que o manifesto já existia antes daquele bloco, sem carteira nem taxa.
-
-### Métricas
-
-Alinhamento do partido $p$ com a bancada $b$ (Governo, Oposição, Maioria ou Minoria) no ano $a$, contando só votações em que $b$ orientou Sim ou Não:
+**Alinhamento** do partido $p$ com a bancada $b$ no ano $a$, só em votações em que $b$ orientou Sim ou Não, com $V$ = Sim, Não, Abstenção ou Obstrução:
 
 $$
 \text{alinhamento}(p,b,a) = \frac{\left\lvert \lbrace v : \text{partido}(v)=p,\ \text{voto}(v)=\text{orientação}_b(v) \rbrace \right\rvert}{\left\lvert \lbrace v : \text{partido}(v)=p,\ \text{voto}(v) \in V \rbrace \right\rvert}
 $$
 
-em que $V$ = Sim, Não, Abstenção ou Obstrução. O partido é o registrado em cada voto, não o atual. Ausência nunca é contada como voto. Coincidir com uma orientação não significa apoiar o mérito.
+O partido é o registrado em cada voto. Ausência nunca conta como voto, e coincidir com uma orientação não significa apoiar o mérito.
 
-Percentil do radar dos deputados (posição média em empates), entre os $n$ deputados em exercício:
+**Percentil do radar** entre os $n$ deputados em exercício (empates na posição média):
 
 $$
 P(x) = \operatorname{round}\left(100 \cdot \frac{\left\lvert \lbrace y : y < x \rbrace \right\rvert + \tfrac{1}{2} \left\lvert \lbrace y : y = x \rbrace \right\rvert}{n}\right)
 $$
 
-Votação **nominal** é a que tem ao menos um registro individual de voto no arquivo oficial. Votações simbólicas contam só no total.
-
-### O que isso não prova
-
-- A API da Câmara não assina suas respostas: o hash prova que o arquivo não mudou depois da coleta, não que a fonte está correta.
-- É preciso confiar nos runners do GitHub. Qualquer pessoa pode fazer um fork e rodar o mesmo workflow como testemunha independente.
-- Registros inconsistentes da fonte (por exemplo, 23 linhas de mandatos sem nome e com outra legislatura) ficam de fora e são contados no arquivo, nunca adivinhados.
+**O que isso não prova:** a API da Câmara não assina suas respostas, e é preciso confiar nos runners do GitHub (qualquer fork pode rodar o mesmo workflow como testemunha). Registros inconsistentes da fonte ficam de fora e são contados, nunca adivinhados.
 
 </details>
 
 <details id="como-verificar">
-<summary><b>Como verificar, passo a passo</b></summary>
+<summary><b>Mostrar como verificar</b></summary>
 
-**1. Recalcule uma métrica sem usar nada deste projeto.** Com [DuckDB](https://duckdb.org), direto nos arquivos oficiais:
+**1. Recalcule uma métrica sem usar nada deste projeto**, com qualquer ferramenta SQL que leia JSON (aqui, [DuckDB](https://duckdb.org)), direto nos arquivos oficiais:
 
 ```sql
 WITH votos AS (
@@ -113,8 +123,6 @@ WHERE upper(o.siglaBancada) IN ('GOV.', 'GOVERNO')   -- a Câmara usou "GOV." at
   AND v.voto IN ('Sim', 'Não', 'Abstenção', 'Obstrução')
 GROUP BY partido ORDER BY votos DESC LIMIT 3;
 ```
-
-E compare com o site:
 
 ```sh
 curl -s "https://vigiadopovo.rafaelcouto111.workers.dev/api/metricas/alinhamento?ano=2019&bancada=Governo" | jq '.linhas[:3]'
@@ -143,31 +151,41 @@ gh attestation verify "$HASH.json" -R "$REPO" --signer-workflow "$REPO/.github/w
 curl -fsSLO "$SITE/pipeline/timestamps/$HASH.json.ots" && npx -y -p opentimestamps@0.4.9 ots-cli.js verify -f "$HASH.json" "$HASH.json.ots"
 ```
 
-O guia completo, com a conferência de cada artefato do manifesto, está em [VERIFY.md](VERIFY.md).
+O guia completo está em [VERIFY.md](VERIFY.md).
 
 </details>
 
-## Como funciona
+<details>
+<summary><b>Mostrar como executar</b></summary>
 
-| Peça     | Onde                                                                                            | Custo                                        |
-| -------- | ----------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| Coleta   | GitHub Actions, todo dia às 06:00 (Brasília)                                                    | grátis                                       |
-| Site     | Cloudflare Workers, páginas estáticas pré-renderizadas                                          | plano grátis                                 |
-| Fotos    | Cloudflare R2                                                                                   | franquia grátis                              |
-| Métricas | Lake medalhão (bronze, prata, ouro) em Iceberg no R2, escrito em Rust + Polars, lido com R2 SQL | franquia grátis, com trava automática em 80% |
-
-O lake só acrescenta dados: cada arquivo oficial fica guardado como foi publicado (bronze), cada registro guarda todas as suas versões (prata) e cada métrica guarda o lote de arquivos de que saiu (ouro). Visitantes nunca disparam consultas ao banco: as métricas são calculadas uma vez por dia e servidas em cache. Detalhes, limites e configuração em [docs/tecnico.md](docs/tecnico.md).
-
-## Rodar localmente
-
-Node.js 22.17+ e pnpm 12.
+**Site** (Node.js 22.17+ e pnpm 12):
 
 ```sh
 pnpm install
-pnpm dev          # site em modo de desenvolvimento
+pnpm dev                          # site em modo de desenvolvimento
 pnpm test && pnpm check && pnpm build
 ```
 
-## Licença e créditos
+**Dados:**
 
-Código sob [licença MIT](LICENSE.md): use, copie e modifique à vontade. Dados e documentos legislativos são da Câmara dos Deputados e mantêm seu regime jurídico. Fotos oficiais: Câmara dos Deputados. Veja [como contribuir](CONTRIBUTING.md) e a [política de segurança](SECURITY.md).
+```sh
+pnpm data:sync                    # coleta da API da Câmara (propostas, votos)
+pnpm data:deputies                # deputados e mandatos de todas as legislaturas
+```
+
+**Lake** (Rust; a versão vem de `lake/rust-toolchain.toml` e o `rustup` instala sozinho):
+
+```sh
+pnpm data:lake --out .lake 2026   # Parquet local em lake/.lake, sem Cloudflare
+pnpm data:lake                    # grava no R2 (ano atual)
+pnpm data:metrics                 # publica as métricas da camada ouro
+cd lake && cargo test             # testes do pipeline
+```
+
+Gravar na Cloudflare exige as variáveis de [`.env.example`](.env.example). A configuração completa (buckets, catálogo, tokens e limites do plano grátis) está em [docs/tecnico.md](docs/tecnico.md).
+
+</details>
+
+## Licença
+
+Código sob [licença MIT](LICENSE.md). Dados e documentos legislativos são da Câmara dos Deputados e mantêm seu regime jurídico; fotos oficiais: Câmara dos Deputados. Veja [como contribuir](CONTRIBUTING.md) e a [política de segurança](SECURITY.md).
