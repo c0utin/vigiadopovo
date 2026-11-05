@@ -50,8 +50,6 @@ jobs:
         with:
           subject-path: build/SHA256SUMS
       - run: rm -rf build/fotos
-      # Creates the D1 cache table; already applied migrations are skipped.
-      - run: pnpm exec wrangler d1 migrations apply vigia-cache --remote
       - run: pnpm exec wrangler deploy
       # Only now that the new build is live: the old one still linked them.
       - run: pnpm media:prune

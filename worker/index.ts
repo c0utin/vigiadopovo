@@ -1,15 +1,12 @@
 // The site stays a prerendered static build served from Workers assets. This
 // Worker only runs for /api/* (precomputed metrics in R2) and /fotos/* (deputy
 // photos in R2); see run_worker_first in wrangler.jsonc. Reads go through the
-// Cache API of the data center, then the D1 cache (global, 12 hours, db.ts),
-// and only then R2.
-import { throughDb } from "./db.ts";
+// Cache API of the data center, and only then R2.
 import { metrics } from "./metrics.ts";
 
 interface Env {
   ASSETS: Fetcher;
   MEDIA: R2Bucket;
-  CACHE: D1Database;
 }
 
 const PHOTO = /^\/fotos\/deputados\/(\d{1,9})\.jpg$/;
@@ -29,15 +26,7 @@ async function photo(request: Request, env: Env, ctx: ExecutionContext) {
       : key,
   );
   if (hit) return hit;
-  const object = await throughDb<ArrayBuffer>(
-    env.CACHE,
-    `fotos/deputados/${match[1]}.jpg`,
-    async () => {
-      const r2 = await env.MEDIA.get(`fotos/deputados/${match[1]}.jpg`);
-      return r2 && { value: await r2.arrayBuffer(), etag: r2.httpEtag };
-    },
-    (p) => ctx.waitUntil(p),
-  );
+  const object = await env.MEDIA.get(`fotos/deputados/${match[1]}.jpg`);
   const headers = new Headers({
     "cache-control": `public, max-age=${PHOTO_TTL}`,
   });
@@ -48,11 +37,11 @@ async function photo(request: Request, env: Env, ctx: ExecutionContext) {
     response = new Response("Foto não encontrada", { status: 404, headers });
   } else {
     headers.set("content-type", "image/jpeg");
-    headers.set("etag", object.etag);
-    response = new Response(object.value, { headers });
+    headers.set("etag", object.httpEtag);
+    response = new Response(object.body, { headers });
   }
   ctx.waitUntil(caches.default.put(key, response.clone()));
-  if (object && conditional === object.etag)
+  if (object && conditional === object.httpEtag)
     return new Response(null, { status: 304, headers });
   return response;
 }
@@ -62,24 +51,8 @@ export default {
     const { pathname } = new URL(request.url);
     if (pathname.startsWith("/fotos/")) return photo(request, env, ctx);
     if (pathname === "/api/metricas" || pathname.startsWith("/api/metricas/"))
-      return metrics(
-        request,
-        {
-          get: async (key) => {
-            const entry = await throughDb<string>(
-              env.CACHE,
-              key,
-              async () => {
-                const r2 = await env.MEDIA.get(key);
-                return r2 && { value: await r2.text(), etag: r2.etag };
-              },
-              (p) => ctx.waitUntil(p),
-            );
-            return entry && { text: async () => entry.value, etag: entry.etag };
-          },
-        },
-        caches.default,
-        (p) => ctx.waitUntil(p),
+      return metrics(request, env.MEDIA, caches.default, (p) =>
+        ctx.waitUntil(p),
       );
     return env.ASSETS.fetch(request);
   },
