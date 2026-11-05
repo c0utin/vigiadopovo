@@ -13,11 +13,11 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "perf:check": "node scripts/check-performance.mjs",
+    "perf:check": "node --experimental-strip-types scripts/check-performance.ts",
     "preview": "vite preview --host 0.0.0.0",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.pipeline.json && tsc -p worker/tsconfig.json",
     "data:sync": "node --experimental-strip-types scripts/sync.ts",
-    "data:deputies": "node --experimental-strip-types scripts/deputies.mjs",
+    "data:deputies": "node --experimental-strip-types scripts/deputies.ts",
     "data:lake": "cd lake && cargo run --release --locked --",
     "data:metrics": "node --experimental-strip-types scripts/metrics.ts",
     "budget": "node --experimental-strip-types scripts/budget.ts",

@@ -84,7 +84,7 @@ const Member = Schema.Struct({
   idLegislatura: Id,
 });
 
-export const ACTIVITY: DeputiesDataset["activity"] = [
+const ACTIVITY: DeputiesDataset["activity"] = [
   {
     key: "plenaryVotes",
     short: "Plenário",
@@ -121,12 +121,9 @@ export const ACTIVITY: DeputiesDataset["activity"] = [
   },
 ];
 
-const tally = (map: Map<number, number>, id: number) =>
-  map.set(id, (map.get(id) ?? 0) + 1);
-
 // Midrank percentile: ties share a position, so a zero shared by most
 // deputies is not reported as the very bottom.
-export function percentiles(values: readonly number[]) {
+function percentiles(values: readonly number[]) {
   const sorted = values.toSorted((a, b) => a - b);
   return values.map((value) => {
     let less = 0;
@@ -168,12 +165,12 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         message: "Deputado repetido na lista oficial",
       });
 
-    const files: BulkFile[] = [];
+    const files: Omit<BulkFile, "dados">[] = [];
     const bulk = <S extends Schema.Top>(schema: S, name: string) =>
       client.file(`${FILES}/${name}`).pipe(
         // Keep only the digest; the parsed export is large.
-        Effect.tap((file) =>
-          Effect.sync(() => files.push({ ...file, dados: null })),
+        Effect.tap(({ dados: _, ...source }) =>
+          Effect.sync(() => files.push(source)),
         ),
         Effect.flatMap((file) => decode(schema, file.dados)),
       );
@@ -234,7 +231,8 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         });
       seen.add(key);
       const isPlenary = voting.siglaOrgao === "PLEN";
-      tally(isPlenary ? plenary : committee, vote.deputado_.id);
+      const bucket = isPlenary ? plenary : committee;
+      bucket.set(vote.deputado_.id, (bucket.get(vote.deputado_.id) ?? 0) + 1);
       (isPlenary ? nominal.plenary : nominal.committee).add(vote.idVotacao);
       const list = byDeputy.get(vote.deputado_.id) ?? [];
       list.push(vote);
@@ -355,11 +353,13 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         ),
         parties,
         recentVotes: own
-          .filter((v) => votingById.get(v.idVotacao)?.siglaOrgao === "PLEN")
+          .flatMap((vote) => {
+            const voting = votingById.get(vote.idVotacao);
+            return voting?.siglaOrgao === "PLEN" ? [{ vote, voting }] : [];
+          })
           .slice(-10)
           .reverse()
-          .map((vote) => {
-            const voting = votingById.get(vote.idVotacao)!;
+          .map(({ vote, voting }) => {
             return {
               id: vote.idVotacao,
               date: vote.dataHoraVoto ?? voting.data,
@@ -385,7 +385,7 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         committee: nominal.committee.size,
       },
       activity: ACTIVITY,
-      sources: files.map(({ dados: _, ...file }) => file),
+      sources: files,
       deputies,
     } satisfies DeputiesDataset;
   },

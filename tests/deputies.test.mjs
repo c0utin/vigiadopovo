@@ -10,8 +10,18 @@ import {
 } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { NodeServices } from "@effect/platform-node";
+import { Effect } from "effect";
 import { makeCamaraLayer } from "../scripts/pipeline/camara.ts";
-import { syncDeputies } from "../scripts/deputies.mjs";
+import { syncDeputies } from "../scripts/deputies.ts";
+
+// Runs the collection against the fixture API, with the real file system.
+const sync = (fetcher) =>
+  syncDeputies.pipe(
+    Effect.provide(makeCamaraLayer({ fetcher, baseDelayMs: 0 })),
+    Effect.provide(NodeServices.layer),
+    Effect.runPromise,
+  );
 
 const API = "https://dadosabertos.camara.leg.br/api/v2";
 const JPEG = Buffer.from([0xff, 0xd8, 0xff, 0xe0, 1, 2, 3]);
@@ -205,11 +215,8 @@ test("Deputy profiles count official records per deputy, rank them and publish o
     // A photo of a deputy who left office must be removed.
     await mkdir("static/fotos/deputados", { recursive: true });
     await writeFile("static/fotos/deputados/99.jpg", JPEG);
-    await syncDeputies({
-      layer: makeCamaraLayer({ fetcher: fixture(), baseDelayMs: 0 }),
-    });
+    await sync(fixture());
     const body = await readFile("static/deputados.json", "utf8");
-    assert.equal(body, await readFile("src/lib/data/deputies.json", "utf8"));
     for (const secret of [
       "12345678900",
       "1970-01-01",
@@ -284,10 +291,6 @@ test("Deputy profiles count official records per deputy, rank them and publish o
     const mandates = JSON.parse(
       await readFile("static/deputados-mandatos.json", "utf8"),
     );
-    assert.equal(
-      JSON.stringify(mandates) + "\n",
-      await readFile("src/lib/data/deputies-mandates.json", "utf8"),
-    );
     assert.deepEqual(
       mandates.legislatures.map((l) => [l.id, l.start, l.end]),
       [
@@ -322,14 +325,6 @@ test("Repeated ballots stop the deputy collection and keep the previous files", 
   inTemp(async () => {
     await mkdir("static", { recursive: true });
     await writeFile("static/deputados.json", "previous");
-    await assert.rejects(
-      syncDeputies({
-        layer: makeCamaraLayer({
-          fetcher: fixture({ duplicateVote: true }),
-          baseDelayMs: 0,
-        }),
-      }),
-      /repetido/,
-    );
+    await assert.rejects(sync(fixture({ duplicateVote: true })), /repetido/);
     assert.equal(await readFile("static/deputados.json", "utf8"), "previous");
   }));

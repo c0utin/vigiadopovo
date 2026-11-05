@@ -1,233 +1,237 @@
-// Publishes the Worker's metrics: reads the gold layer of the lake (ouro.*,
-// written by lake/) with R2 SQL and stores it as JSON in the media bucket, so
-// visitors never trigger a query.
+// Publishes the Worker's metrics as JSON in the media bucket, so visitors never
+// trigger a query. The input is one file per year written by lake/ once that
+// year's batch is complete: `lake/.lake/metricas/<ano>.json` (`pnpm data:lake` runs in lake/), relative to the
+// repository root, with this contract:
 //
-//   pnpm data:metrics             # years whose latest batch changed
-//   pnpm data:metrics 2019 2020   # also force these years
+//   {
+//     "lote": "<sha256 hex of the batch>",
+//     "alinhamento": [row, ...],
+//     "deputados": [row, ...],
+//     "votacoes": [row, ...],
+//     "fontes": [row, ...]   // the four bronze.arquivos rows of the batch
+//   }
 //
-// A year's fingerprint is its latest complete batch (`lote` in
-// bronze.arquivos, the SHA-256 of its four official files). Only years whose
-// batch differs from the published index are read again: normally the current
-// year, at 1 + 3 small queries a day. Every query is checked against the
-// monthly free-tier budget (scripts/budget.ts) before it runs. Files are
-// written before metricas/v1/indice.json.
+// A row is a flat object of JSON scalars (string, number, boolean or null) with
+// the columns of the ouro and bronze queries. A year is published again only
+// when its `lote` differs from indice.json. Files are written before
+// indice.json, which is written last. Run `pnpm budget` first: this step only
+// writes.
 //
-// Env: CLOUDFLARE_ACCOUNT_ID, LAKE_TOKEN (R2 SQL read), CLOUDFLARE_API_TOKEN
-// (analytics, and media bucket read/write through wrangler), optional
-// MEDIA_BUCKET and LAKE_BUCKET.
-import { execFile } from "node:child_process";
-import { createHash } from "node:crypto";
-import { promisify } from "node:util";
-import { SQL_MINIMUM, report, usage, violations } from "./budget.ts";
+//   pnpm data:metrics
+//
+// Env: CLOUDFLARE_API_TOKEN (wrangler writes to the media bucket).
+import { ChildProcess, ChildProcessSpawner } from "effect/process";
+import { NodeRuntime, NodeServices } from "@effect/platform-node";
 import {
-  BLOCS,
-  FIRST_YEAR,
-  PREFIX,
-  currentYear,
-} from "../worker/definitions.ts";
+  Console,
+  DateTime,
+  Effect,
+  Exit,
+  FileSystem,
+  Path,
+  Schema,
+  Stream,
+} from "effect";
+import { createHash } from "node:crypto";
+import { pathToFileURL } from "node:url";
+import { BLOCS, PREFIX } from "../worker/definitions.ts";
 
-type Row = Record<string, string | number | null>;
+const INPUT = "lake/.lake/metricas";
+const INDEX = `${PREFIX}/indice.json`;
+const MEDIA = "vigia-media";
 
-const env = process.env;
-const lake = env.LAKE_BUCKET || "vigia-lake";
-const media = env.MEDIA_BUCKET || "vigia-media";
-for (const name of [
-  "CLOUDFLARE_ACCOUNT_ID",
-  "LAKE_TOKEN",
-  "CLOUDFLARE_API_TOKEN",
-])
-  if (!env[name]) throw new Error(`${name} não configurado`);
+class MetricsError extends Schema.TaggedError<MetricsError>()("MetricsError", {
+  message: Schema.String,
+}) {}
 
-// The media bucket is read and written with wrangler (`pnpm data:metrics`
-// puts node_modules/.bin on PATH).
-const run = promisify(execFile);
-const r2 = (args: string[], input?: string) => {
-  const child = run("wrangler", ["r2", "object", ...args, "--remote"], {
-    maxBuffer: 64 * 1024 * 1024,
-  });
-  if (input !== undefined) child.child.stdin!.end(input);
-  return child;
-};
+const Row = Schema.Record(
+  Schema.String,
+  Schema.Union([Schema.String, Schema.Number, Schema.Boolean, Schema.Null]),
+);
+type Row = typeof Row.Type;
 
-// Bytes billed by this run so far, on top of the month's usage.
-let spent = 0;
-const month = await usage();
-console.log(report(month));
+const LakeYear = Schema.Struct({
+  lote: Schema.String,
+  alinhamento: Schema.Array(Row),
+  deputados: Schema.Array(Row),
+  votacoes: Schema.Array(Row),
+  fontes: Schema.Array(Row),
+});
+type LakeYear = typeof LakeYear.Type;
 
-async function sql(query: string) {
-  const over = violations(month, { sqlScanned: spent + SQL_MINIMUM });
-  if (over.length) throw new Error(`Consulta recusada:\n${over.join("\n")}`);
-  const response = await fetch(
-    `https://api.sql.cloudflarestorage.com/api/v1/accounts/${env.CLOUDFLARE_ACCOUNT_ID}/basin-sql/query/${lake}`,
-    {
-      method: "POST",
-      headers: {
-        authorization: `Bearer ${env.LAKE_TOKEN}`,
-        "content-type": "application/json",
-      },
-      body: JSON.stringify({ query }),
-    },
+const Index = Schema.Struct({
+  anos: Schema.Record(
+    Schema.String,
+    Schema.Struct({ fingerprint: Schema.String, calculado_em: Schema.String }),
+  ),
+  atualizado_em: Schema.optionalKey(Schema.String),
+});
+type Index = typeof Index.Type;
+
+// The batch hashes the same "arquivo:sha256" lines: recomputing it checks that
+// the four rows are the batch they claim to be.
+const fingerprint = (fontes: readonly Row[]) =>
+  createHash("sha256")
+    .update(
+      fontes
+        .map((r) => `${r.arquivo}:${r.sha256}`)
+        .sort()
+        .join("\n"),
+    )
+    .digest("hex");
+
+// The four published files of one year, with the same keys as before.
+export const publishedYear = Effect.fn("publishedYear")(function* (
+  ano: number,
+  lake: LakeYear,
+  calculado_em: string,
+) {
+  if (lake.fontes.length !== 4 || fingerprint(lake.fontes) !== lake.lote)
+    return yield* new MetricsError({
+      message: `Lote de ${ano} não confere com as fontes`,
+    });
+  const bancadas: Record<string, Row[]> = Object.fromEntries(
+    BLOCS.map((b) => [b, []]),
   );
-  const body: any = await response.json().catch(() => null);
-  // A failed query may still have scanned data: count the minimum.
-  spent += Math.max(SQL_MINIMUM, body?.result?.metrics?.bytes_scanned ?? 0);
-  if (!response.ok || !body?.success)
-    throw new Error(
-      `R2 SQL ${response.status}: ${(body?.errors ?? []).map((e: any) => `[${e.code}] ${e.message}`).join("; ")}`,
-    );
-  return body.result.rows as Row[];
-}
+  // A bloco outside BLOCS is not published.
+  for (const { bloco, ...row } of lake.alinhamento)
+    if (
+      typeof bloco === "string" &&
+      (BLOCS as readonly string[]).includes(bloco)
+    )
+      bancadas[bloco]?.push(row);
+  const byDeputy: Record<string, Row[]> = {};
+  for (const { deputado, ...row } of lake.deputados)
+    (byDeputy[String(deputado)] ??= []).push(row);
+  return {
+    alinhamento: { ano, calculado_em, bancadas },
+    deputados: { ano, calculado_em, deputados: byDeputy },
+    votacoes: { ano, calculado_em, linhas: lake.votacoes },
+    fontes: { ano, calculado_em, linhas: lake.fontes },
+  };
+});
 
-async function read(key: string) {
-  try {
-    const { stdout } = await r2(["get", `${media}/${key}`, "--pipe"]);
-    return JSON.parse(stdout);
-  } catch (error: any) {
-    if (/specified key does not exist/.test(error?.stderr ?? "")) return null;
-    throw error;
-  }
-}
+// Years whose batch differs from the published index, newest first, so a
+// partial run still updates the current year.
+export const pendingYears = <Y extends { ano: number; lote: string }>(
+  index: Index,
+  years: readonly Y[],
+): Y[] =>
+  years
+    .filter((y) => index.anos[y.ano]?.fingerprint !== y.lote)
+    .sort((a, b) => b.ano - a.ano);
 
-const write = (key: string, value: unknown) =>
-  r2(
+// Runs wrangler against the media bucket and returns its exit code and output.
+const wrangler = Effect.fn("wrangler")(function* (
+  args: readonly string[],
+  stdin?: string,
+) {
+  const spawner = yield* ChildProcessSpawner.ChildProcessSpawner;
+  const handle = yield* spawner.spawn(
+    ChildProcess.make(
+      "wrangler",
+      ["r2", "object", ...args, "--remote"],
+      stdin === undefined
+        ? {}
+        : { stdin: Stream.make(new TextEncoder().encode(stdin)) },
+    ),
+  );
+  const [stdout, stderr, code] = yield* Effect.all(
+    [
+      Stream.mkString(Stream.decodeText(handle.stdout)),
+      Stream.mkString(Stream.decodeText(handle.stderr)),
+      handle.exitCode,
+    ],
+    { concurrency: "unbounded" },
+  );
+  return { code, stdout, stderr };
+}, Effect.scoped);
+
+// Missing keys are null; any other failure stops the run.
+const read = Effect.fn("read")(function* (key: string) {
+  const { code, stdout, stderr } = yield* wrangler([
+    "get",
+    `${MEDIA}/${key}`,
+    "--pipe",
+  ]);
+  if (code === 0) return stdout;
+  if (/specified key does not exist/.test(stderr)) return null;
+  return yield* new MetricsError({ message: `wrangler get ${key}: ${stderr}` });
+});
+
+const write = Effect.fn("write")(function* (key: string, value: unknown) {
+  const { code, stderr } = yield* wrangler(
     [
       "put",
-      `${media}/${key}`,
+      `${MEDIA}/${key}`,
       "--pipe",
       "--content-type",
       "application/json; charset=utf-8",
     ],
     JSON.stringify(value),
   );
+  if (code !== 0)
+    return yield* new MetricsError({
+      message: `wrangler put ${key}: ${stderr}`,
+    });
+});
 
-async function compute(
-  ano: number,
-  lote: string,
-  sources: Row[],
-  calculado_em: string,
-) {
-  // lote comes from the lake; only a SHA-256 hex string is put in SQL.
-  if (!/^[0-9a-f]{64}$/.test(lote)) throw new Error(`Lote inválido em ${ano}`);
-  const where = `WHERE ano = ${ano} AND lote = '${lote}'`;
-  const [alignment, deputies, votings] = [
-    await sql(`SELECT bloco, partido, votos, alinhados
-FROM ouro.alinhamento_bancada ${where}
-ORDER BY bloco, votos DESC, partido
-LIMIT 2000`),
-    await sql(`SELECT deputado_id AS deputado, orgao, voto, votos, com_orientacao_governo, alinhados_governo
-FROM ouro.deputado_votos ${where}
-ORDER BY deputado, votos DESC, orgao, voto
-LIMIT 50000`),
-    await sql(`SELECT mes, votacoes, nominais, plenario
-FROM ouro.votacoes_mes ${where}
-ORDER BY mes
-LIMIT 13`),
-  ];
-  // LIMITs are far above real sizes; reaching one means silently cut data.
-  if (alignment.length >= 2000 || deputies.length >= 50000)
-    throw new Error(`Resultado truncado em ${ano}`);
-
-  const bancadas = Object.fromEntries(BLOCS.map((b) => [b, [] as Row[]]));
-  for (const { bloco, ...row } of alignment)
-    bancadas[bloco as string]?.push(row);
-  const byDeputy: Record<string, Row[]> = {};
-  for (const { deputado, ...row } of deputies)
-    (byDeputy[deputado as number] ??= []).push(row);
-
-  const base = `${PREFIX}/${ano}`;
-  await write(`${base}/alinhamento.json`, { ano, calculado_em, bancadas });
-  await write(`${base}/deputados.json`, {
-    ano,
-    calculado_em,
-    deputados: byDeputy,
-  });
-  await write(`${base}/votacoes.json`, { ano, calculado_em, linhas: votings });
-  await write(`${base}/fontes.json`, { ano, calculado_em, linhas: sources });
-  console.log(
-    `${ano}: ${Object.keys(byDeputy).length} deputados, ${alignment.length} linhas de alinhamento, ${votings.length} meses`,
+const readLake = Effect.fn("readLake")(function* () {
+  const fs = yield* FileSystem.FileSystem;
+  const path = yield* Path.Path;
+  const names = (yield* fs.readDirectory(INPUT))
+    .filter((name) => /^\d{4}\.json$/.test(name))
+    .sort();
+  return yield* Effect.forEach(names, (name) =>
+    fs.readFileString(path.join(INPUT, name)).pipe(
+      Effect.flatMap(
+        Schema.decodeUnknownEffect(Schema.fromJsonString(LakeYear)),
+      ),
+      Effect.map((lake) => ({ ano: Number(name.slice(0, 4)), lake })),
+    ),
   );
-}
+});
 
-const last = currentYear();
-const forced = process.argv
-  .slice(2)
-  .map(Number)
-  .filter((y) => Number.isInteger(y) && y >= FIRST_YEAR && y <= last);
+const publish = Effect.gen(function* () {
+  const calculado_em = DateTime.formatIso(yield* DateTime.now);
+  // Every year is shaped before anything is uploaded, so a bad input file
+  // stops the run with nothing published.
+  const years = yield* Effect.forEach(yield* readLake(), ({ ano, lake }) =>
+    publishedYear(ano, lake, calculado_em).pipe(
+      Effect.map((files) => ({ ano, lote: lake.lote, lake, files })),
+    ),
+  );
+  const raw = yield* read(INDEX);
+  const index: Index =
+    raw === null
+      ? { anos: {} }
+      : yield* Schema.decodeUnknownEffect(Schema.fromJsonString(Index))(raw);
+  const pending = pendingYears(index, years);
+  yield* Console.log(
+    pending.length
+      ? `Recalculando: ${pending.map((y) => y.ano).join(", ")}`
+      : "Nenhum ano com fontes novas; nada a recalcular.",
+  );
 
-// One row per file per batch; the lake writes bronze.arquivos last, so a
-// batch listed there is complete. A year's current batch is its latest one.
-const files =
-  await sql(`SELECT ano, lote, arquivo, url, sha256, bytes, objeto, coletado_em
-FROM bronze.arquivos
-ORDER BY ano, coletado_em, arquivo
-LIMIT 100000`);
-if (files.length >= 100000) throw new Error("bronze.arquivos truncado");
-const byYear = new Map<number, Row[]>();
-for (const row of files) {
-  const ano = row.ano as number;
-  const latest = byYear.get(ano)?.[0]?.coletado_em;
-  if (latest !== row.coletado_em) byYear.set(ano, []);
-  byYear.get(ano)!.push(row);
-}
-// The batch hashes the same "arquivo:sha256" lines: recomputing it checks
-// that the four rows are the batch they claim to be.
-const fingerprint = (rows: Row[]) => {
-  const print = createHash("sha256")
-    .update(
-      rows
-        .map((r) => `${r.arquivo}:${r.sha256}`)
-        .sort()
-        .join("\n"),
-    )
-    .digest("hex");
-  return rows.length === 4 && print === rows[0].lote ? print : null;
-};
+  const anos = { ...index.anos };
+  // Stops at the first failure but keeps the years already published.
+  const outcome = yield* Effect.forEach(
+    pending,
+    (year) =>
+      Effect.gen(function* () {
+        for (const [name, body] of Object.entries(year.files))
+          yield* write(`${PREFIX}/${year.ano}/${name}.json`, body);
+        anos[year.ano] = { fingerprint: year.lote, calculado_em };
+        yield* Console.log(
+          `${year.ano}: ${Object.keys(year.files.deputados.deputados).length} deputados, ${year.lake.alinhamento.length} linhas de alinhamento, ${year.lake.votacoes.length} meses`,
+        );
+      }),
+    { discard: true },
+  ).pipe(Effect.exit);
+  if (pending.length)
+    yield* write(INDEX, { anos, atualizado_em: calculado_em });
+  if (Exit.isFailure(outcome)) return yield* Effect.failCause(outcome.cause);
+});
 
-const index = (await read(`${PREFIX}/indice.json`)) ?? { anos: {} };
-// Newest first, so a tight budget still updates the current year.
-const pending = [...byYear.keys()]
-  .sort((a, b) => b - a)
-  .filter((ano) => {
-    const print = fingerprint(byYear.get(ano)!);
-    return (
-      print && (forced.includes(ano) || index.anos[ano]?.fingerprint !== print)
-    );
-  });
-console.log(
-  pending.length
-    ? `Recalculando: ${pending.join(", ")}`
-    : "Nenhum ano com fontes novas; nada a recalcular.",
-);
-
-const calculado_em = new Date().toISOString();
-let failure;
-for (const ano of pending) {
-  try {
-    const rows = byYear.get(ano)!;
-    await compute(
-      ano,
-      fingerprint(rows)!,
-      rows.map(({ lote, ...row }) => row),
-      calculado_em,
-    );
-    index.anos[ano] = {
-      fingerprint: fingerprint(byYear.get(ano)!),
-      calculado_em,
-    };
-  } catch (error) {
-    // Stop at the first failure (budget or query) but keep finished years.
-    failure = error;
-    break;
-  }
-}
-if (pending.length) {
-  index.atualizado_em = calculado_em;
-  await write(`${PREFIX}/indice.json`, index);
-}
-console.log(
-  `R2 SQL nesta execução: ${(spent / 1e6).toFixed(0)} MB cobráveis (mínimo de 10 MB por consulta).`,
-);
-if (failure) {
-  console.error(String((failure as Error).message ?? failure));
-  process.exitCode = 1;
-}
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href)
+  publish.pipe(Effect.provide(NodeServices.layer), NodeRuntime.runMain);

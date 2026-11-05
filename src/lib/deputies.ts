@@ -1,4 +1,4 @@
-// Public contract of static/deputados.json; built by scripts/deputies.mjs.
+// Public contract of static/deputados.json; built by scripts/deputies.ts.
 export type ActivityKey =
   "plenaryVotes" | "committeeVotes" | "propositions" | "speeches" | "organs";
 

@@ -6,17 +6,13 @@ build/
 .env
 .env.*
 !.env.example
-.pipeline/
 *.log
 *.tmp
 .DS_Store
-coverage/
 *.pem
 *.key
 # Deputy profiles are generated at deploy time (`pnpm data:deputies`).
-src/lib/data/deputies.json
 static/deputados.json
-src/lib/data/deputies-mandates.json
 static/deputados-mandatos.json
 
 # Wrangler local state and local Worker secrets.

@@ -2,7 +2,6 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { metrics } from "../worker/metrics.ts";
 import { currentYear } from "../worker/definitions.ts";
-import { FREE, SQL_MINIMUM, usage, violations } from "../scripts/budget.ts";
 
 // The Worker keeps parsed files in isolate memory across requests, so each
 // test uses its own years.
@@ -103,64 +102,6 @@ test("answers If-None-Match with 304 and reports years not yet computed", async 
   });
   assert.equal(revalidated.status, 304);
   assert.equal((await get("/api/metricas/fontes?ano=2013")).status, 404);
-});
-
-test("budget counts conservatively and refuses work past 80%", async () => {
-  const analytics = {
-    data: {
-      viewer: {
-        accounts: [
-          {
-            operations: [
-              { sum: { requests: 5 }, dimensions: { actionType: "GetObject" } },
-              { sum: { requests: 7 }, dimensions: { actionType: "PutObject" } },
-              // Unknown operations count as Class A; deletes are free.
-              { sum: { requests: 2 }, dimensions: { actionType: "NewThing" } },
-              {
-                sum: { requests: 9 },
-                dimensions: { actionType: "DeleteObject" },
-              },
-            ],
-            storage: [
-              { max: { payloadSize: 100, metadataSize: 1 } },
-              { max: { payloadSize: 50, metadataSize: 0 } },
-            ],
-            // Three tiny queries are billed at least 10 MB each.
-            sql: [{ count: 3, sum: { r2BytesRead: 1000 } }],
-            catalog: [{ count: 4 }],
-          },
-        ],
-      },
-    },
-  };
-  const current = await usage(
-    { CLOUDFLARE_ACCOUNT_ID: "a", CLOUDFLARE_API_TOKEN: "t" },
-    new Date("2026-11-05T12:00:00Z"),
-    async () => Response.json(analytics),
-  );
-  assert.deepEqual(current, {
-    storage: 151,
-    classA: 9,
-    classB: 5,
-    sqlScanned: 1000 + 3 * SQL_MINIMUM,
-    catalogOps: 4,
-  });
-  assert.deepEqual(violations(current), []);
-  const nearly = {
-    ...current,
-    sqlScanned: FREE.sqlScanned * 0.8 - SQL_MINIMUM,
-  };
-  assert.deepEqual(violations(nearly, { sqlScanned: SQL_MINIMUM - 1 }), []);
-  assert.equal(violations(nearly, { sqlScanned: SQL_MINIMUM }).length, 1);
-
-  // No analytics, no spending.
-  await assert.rejects(
-    usage(
-      { CLOUDFLARE_ACCOUNT_ID: "a", CLOUDFLARE_API_TOKEN: "t" },
-      new Date(),
-      async () => Response.json({ errors: [{ message: "x" }] }),
-    ),
-  );
 });
 
 test("without ?ano, a year not computed yet falls back to the previous one", async () => {

@@ -133,7 +133,7 @@ jobs:
           workspaces: lake
           shared-key: lake
           save-if: false
-      # Stops before any write or query once a free allowance reaches 80%.
+      # Stops before any write once a free allowance reaches 80%.
       - run: pnpm budget
       - run: pnpm data:lake
       # Publishes the Worker's metrics; visitors never run queries.
