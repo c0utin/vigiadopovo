@@ -18,7 +18,6 @@ src/lib/data/deputies.json
 static/deputados.json
 src/lib/data/deputies-mandates.json
 static/deputados-mandatos.json
-static/fotos/
 
 # Wrangler local state and local Worker secrets.
 .wrangler/

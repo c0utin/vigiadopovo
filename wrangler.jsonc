@@ -10,9 +10,9 @@
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "none",
     // Everything else is served as static files without invoking the Worker.
-    "run_worker_first": ["/api/*", "/fotos/*"],
+    "run_worker_first": ["/api/*"],
   },
-  // Photos and precomputed metrics (scripts/metrics.ts). The Worker has no
+  // Precomputed metrics (scripts/metrics.ts). The Worker has no
   // secrets and never queries the lake.
   "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "vigia-media" }],
   "observability": { "enabled": true },

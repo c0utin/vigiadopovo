@@ -73,7 +73,7 @@ O publicador **não chama IA** nem gera briefings: coleta e persistência dos vo
 pnpm data:deputies
 ```
 
-Gera `/deputados/` (lista com busca por nome, partido e UF) e uma página por deputado em exercício, `/deputados/<id>/`, sem JavaScript. Cerca de 1.030 pedidos à API e cinco arquivos diários de dados abertos; leva uns 4 minutos. Os perfis e as fotos não são versionados (estão no `.gitignore`): o `deploy.yml` executa `pnpm data:deputies` antes de cada build, e sem o arquivo o site é gerado com a lista vazia. As fotos ficam no bucket R2 `vigia-media`: o deploy baixa as já publicadas (`pnpm media:pull`), busca na Câmara só as que faltam e espelha o resultado de volta (`pnpm media:push`).
+Gera `/deputados/` (lista com busca por nome, partido e UF) e uma página por deputado em exercício, `/deputados/<id>/`, sem JavaScript. Cerca de 1.030 pedidos à API e cinco arquivos diários de dados abertos; leva uns 4 minutos. Os perfis não são versionados (estão no `.gitignore`): o `deploy.yml` executa `pnpm data:deputies` antes de cada build, e sem o arquivo o site é gerado com a lista vazia. As fotos ficam versionadas em `static/fotos/deputados/` e são publicadas como assets estáticos, com cache de 1 ano (`static/_headers`): mudam cerca de uma vez por ano, e a coleta busca na Câmara só as que faltam. Commite as fotos novas de quem tomou posse.
 
 | Informação                                                     | Fonte oficial                                                                               |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
@@ -174,12 +174,12 @@ Os primeiros 12 resumos foram gerados neste chat a partir da coleta oficial em 2
 
 Tudo roda na Cloudflare, sem servidor ou banco ligado o tempo todo:
 
-| Peça      | Onde                                                       | O que guarda/faz                                                                                          |
-| --------- | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Site      | Worker `vigiadopovo` com assets estáticos (`build/`)       | HTML pré-renderizado. O Worker só roda em `/api/*` e `/fotos/*` (`run_worker_first` em `wrangler.jsonc`). |
-| Fotos     | Bucket R2 `vigia-media`, chaves `fotos/deputados/<id>.jpg` | Servidas pelo Worker nas mesmas URLs de antes, com ETag e `304`.                                          |
-| Lake OLAP | Bucket R2 `vigia-lake` com Basin Catalog (Iceberg)         | Arquivos brutos e tabelas Parquet `bronze.*`, `prata.*` e `ouro.*`, particionadas por `ano`.              |
-| Consultas | Basin SQL (antigo R2 SQL)                                  | SQL só de leitura sobre o lake, cobrado por dado lido; só o job diário consulta.                          |
+| Peça      | Onde                                                 | O que guarda/faz                                                                             |
+| --------- | ---------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| Site      | Worker `vigiadopovo` com assets estáticos (`build/`) | HTML pré-renderizado. O Worker só roda em `/api/*` (`run_worker_first` em `wrangler.jsonc`). |
+| Fotos     | Assets estáticos (`static/fotos/deputados/`)         | Servidas pela CDN sem acionar o Worker, com cache de 1 ano.                                  |
+| Lake OLAP | Bucket R2 `vigia-lake` com Basin Catalog (Iceberg)   | Arquivos brutos e tabelas Parquet `bronze.*`, `prata.*` e `ouro.*`, particionadas por `ano`. |
+| Consultas | Basin SQL (antigo R2 SQL)                            | SQL só de leitura sobre o lake, cobrado por dado lido; só o job diário consulta.             |
 
 `pnpm data:lake` roda o programa Rust em `lake/` (Polars para transformar, `iceberg-rust` para gravar no catálogo). Ele baixa os arquivos anuais oficiais `votacoes`, `votacoesVotos`, `votacoesOrientacoes` e `votacoesProposicoes` e grava um lake em arquitetura medalhão. **Nada é atualizado ou apagado: toda gravação é um acréscimo.**
 
@@ -216,7 +216,7 @@ O job `lake` de `collect.yml` roda depois da coleta diária e não a bloqueia se
 
 `pnpm data:metrics` (`scripts/metrics.ts`, também no job `lake`) lê a camada ouro com R2 SQL e publica JSON em `vigia-media/metricas/v1/<ano>/`, com `indice.json` gravado por último. A impressão digital de cada ano é o seu último lote completo; só anos com lote novo são lidos de novo, normalmente apenas o ano corrente: 1 + 3 consultas pequenas por dia. O catálogo expira snapshots com mais de 7 dias (mantendo 3); como toda gravação é acréscimo, isso não apaga histórico, que fica nas próprias linhas.
 
-O Worker **não executa SQL e não tem segredos**: valida ano, ID e bancada (lista fechada) e devolve uma fatia do JSON. Cada requisição lê o R2 no máximo uma vez, e quase nunca: antes passam o Cache API de cada data center (chave normalizada, sem depender da ordem dos parâmetros) e um cache em memória do isolate com o arquivo do ano já interpretado. Fotos passam pelo mesmo Cache API. Uma métrica recalculada pode levar até 1 hora (ano corrente) para aparecer; cada resposta traz `calculado_em`. Respostas trazem `ETag` e respondem `304`; o ano corrente fica 1 hora em cache, anos anteriores 1 dia. IDs desconhecidos também são guardados em cache como `404`.
+O Worker **não executa SQL e não tem segredos**: valida ano, ID e bancada (lista fechada) e devolve uma fatia do JSON. Cada requisição lê o R2 no máximo uma vez, e quase nunca: antes passam o Cache API de cada data center (chave normalizada, sem depender da ordem dos parâmetros) e um cache em memória do isolate com o arquivo do ano já interpretado. Uma métrica recalculada pode levar até 1 hora (ano corrente) para aparecer; cada resposta traz `calculado_em`. Respostas trazem `ETag` e respondem `304`; o ano corrente fica 1 hora em cache, anos anteriores 1 dia. IDs desconhecidos também são guardados em cache como `404`.
 
 | Rota                                             | Resposta                                                                                                     |
 | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
@@ -252,10 +252,10 @@ Coincidência com uma orientação não é apoio ao mérito, e ausência não é
    pnpm exec wrangler basin catalog enable vigia-lake
    ```
 2. Ligue a expiração de snapshots do catálogo (7 dias, mantendo 3). Ela usa uma credencial guardada no catálogo; use um token só com Basin Catalog Write e R2 Storage Write em `vigia-lake`, enviado pela API (`POST /accounts/<conta>/r2-catalog/vigia-lake/credential` e `.../maintenance-configs`), não como argumento de linha de comando.
-3. Crie os tokens. `LAKE_TOKEN`: gravação no Basin Catalog e no R2 `vigia-lake`, mais leitura no Basin SQL (`lake/` e `metrics.ts`). `CLOUDFLARE_API_TOKEN`: deploy de Workers e Account Analytics read (`budget.ts`). Chave S3 do R2 com leitura e gravação em `vigia-media` e `vigia-lake` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). O Worker não precisa de segredos.
+3. Crie os tokens. `LAKE_TOKEN`: gravação no Basin Catalog e no R2 `vigia-lake`, mais leitura no Basin SQL (`lake/` e `metrics.ts`). `CLOUDFLARE_API_TOKEN`: deploy de Workers e Account Analytics read (`budget.ts`). Chave S3 do R2 com leitura e gravação em `vigia-media` (métricas) e `vigia-lake` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). O Worker não precisa de segredos.
 4. Cadastre os segredos do GitHub Actions: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `LAKE_TOKEN`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID` e `R2_SECRET_ACCESS_KEY`.
 
-Localmente, `pnpm build && pnpm exec wrangler dev` serve o site, as fotos e as métricas a partir de um R2 simulado (vazio até você gravar objetos com `wrangler r2 object put --local`).
+Localmente, `pnpm build && pnpm exec wrangler dev` serve o site e as fotos, e as métricas a partir de um R2 simulado (vazio até você gravar objetos com `wrangler r2 object put --local`).
 
 ## Recursos oficiais úteis
 
