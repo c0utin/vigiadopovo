@@ -1,0 +1,28 @@
+[package]
+name = "vigia-lake"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+anyhow = "1.0.104"
+arrow-array = "58"
+arrow-cast = "58"
+arrow-ipc = "58"
+chrono = "0.4.45"
+flate2 = "1.1.10"
+futures = "0.3.34"
+hex = "0.4.3"
+iceberg = "0.11"
+iceberg-catalog-rest = "0.11"
+iceberg-storage-opendal = "0.11"
+parquet = "58"
+polars = { version = "0.55.2", default-features = false, features = ["lazy", "ipc", "parquet", "dtype-date", "dtype-datetime", "dtype-i8", "dtype-i16", "temporal", "strings", "semi_anti_join", "fmt"] }
+reqwest = { version = "0.13.5", default-features = false, features = ["rustls"] }
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+sha2 = "0.11.1"
+tokio = { version = "1.54.1", features = ["macros", "rt-multi-thread"] }
+
+[dev-dependencies]
+arrow-schema = "58"

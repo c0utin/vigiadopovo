@@ -1,0 +1,44 @@
+name: Lake (Rust)
+
+# Only when the Rust pipeline changes; the rest of the repository is checked
+# by ci.yml.
+on:
+  push:
+    branches: [main]
+    paths: ["lake/**", ".github/workflows/lake.yml"]
+  pull_request:
+    paths: ["lake/**", ".github/workflows/lake.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lake-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: lake
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      # Compiler pinned in lake/rust-toolchain.toml (with clippy and rustfmt).
+      - run: rustup toolchain install
+      # Caches ~/.cargo and lake/target keyed by Cargo.lock and the compiler:
+      # Polars and Iceberg compile once. Saved only from main (the cache
+      # collect.yml restores); pull requests reuse it without writing.
+      - uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
+        with:
+          workspaces: lake
+          shared-key: lake
+          save-if: ${{ github.ref == 'refs/heads/main' }}
+      - run: cargo fmt --check
+      # Release profile, like collect.yml, so its dependencies are cached.
+      - run: cargo clippy --release --locked --all-targets -- -D warnings
+      - run: cargo test --release --locked
