@@ -13,15 +13,11 @@
 // written before metricas/v1/indice.json.
 //
 // Env: CLOUDFLARE_ACCOUNT_ID, LAKE_TOKEN (R2 SQL read), CLOUDFLARE_API_TOKEN
-// (analytics), R2_ENDPOINT/R2_ACCESS_KEY_ID/R2_SECRET_ACCESS_KEY (media
-// bucket write), optional MEDIA_BUCKET and LAKE_BUCKET.
+// (analytics, and media bucket read/write through wrangler), optional
+// MEDIA_BUCKET and LAKE_BUCKET.
+import { execFile } from "node:child_process";
 import { createHash } from "node:crypto";
-import {
-  GetObjectCommand,
-  NoSuchKey,
-  PutObjectCommand,
-  S3Client,
-} from "@aws-sdk/client-s3";
+import { promisify } from "node:util";
 import { SQL_MINIMUM, report, usage, violations } from "./budget.ts";
 import {
   BLOCS,
@@ -39,21 +35,19 @@ for (const name of [
   "CLOUDFLARE_ACCOUNT_ID",
   "LAKE_TOKEN",
   "CLOUDFLARE_API_TOKEN",
-  "R2_ENDPOINT",
-  "R2_ACCESS_KEY_ID",
-  "R2_SECRET_ACCESS_KEY",
 ])
   if (!env[name]) throw new Error(`${name} não configurado`);
 
-const s3 = new S3Client({
-  region: "auto",
-  endpoint: env.R2_ENDPOINT,
-  maxAttempts: 3,
-  credentials: {
-    accessKeyId: env.R2_ACCESS_KEY_ID!,
-    secretAccessKey: env.R2_SECRET_ACCESS_KEY!,
-  },
-});
+// The media bucket is read and written with wrangler (`pnpm data:metrics`
+// puts node_modules/.bin on PATH).
+const run = promisify(execFile);
+const r2 = (args: string[], input?: string) => {
+  const child = run("wrangler", ["r2", "object", ...args, "--remote"], {
+    maxBuffer: 64 * 1024 * 1024,
+  });
+  if (input !== undefined) child.child.stdin!.end(input);
+  return child;
+};
 
 // Bytes billed by this run so far, on top of the month's usage.
 let spent = 0;
@@ -86,24 +80,24 @@ async function sql(query: string) {
 
 async function read(key: string) {
   try {
-    const object = await s3.send(
-      new GetObjectCommand({ Bucket: media, Key: key }),
-    );
-    return JSON.parse(await object.Body!.transformToString());
-  } catch (error) {
-    if (error instanceof NoSuchKey) return null;
+    const { stdout } = await r2(["get", `${media}/${key}`, "--pipe"]);
+    return JSON.parse(stdout);
+  } catch (error: any) {
+    if (/specified key does not exist/.test(error?.stderr ?? "")) return null;
     throw error;
   }
 }
 
 const write = (key: string, value: unknown) =>
-  s3.send(
-    new PutObjectCommand({
-      Bucket: media,
-      Key: key,
-      Body: JSON.stringify(value),
-      ContentType: "application/json; charset=utf-8",
-    }),
+  r2(
+    [
+      "put",
+      `${media}/${key}`,
+      "--pipe",
+      "--content-type",
+      "application/json; charset=utf-8",
+    ],
+    JSON.stringify(value),
   );
 
 async function compute(
@@ -233,7 +227,6 @@ if (pending.length) {
 console.log(
   `R2 SQL nesta execução: ${(spent / 1e6).toFixed(0)} MB cobráveis (mínimo de 10 MB por consulta).`,
 );
-s3.destroy();
 if (failure) {
   console.error(String((failure as Error).message ?? failure));
   process.exitCode = 1;

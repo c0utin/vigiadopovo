@@ -94,7 +94,7 @@ Não publicamos CPF, data de nascimento, gabinete, telefone nem e-mail. As fotos
 
 ## Pipeline genérica de contexto e conteúdo
 
-A coleta agora também pode alimentar outras tarefas de IA sem depender da interface Svelte. A preparação **não faz inferência, não escreve no S3 e não altera o snapshot do portal**. O armazenamento padrão é em memória e desaparece ao terminar o processo.
+A coleta agora também pode alimentar outras tarefas de IA sem depender da interface Svelte. A preparação **não faz inferência, não grava em armazenamento remoto e não altera o snapshot do portal**. O armazenamento padrão é em memória e desaparece ao terminar o processo.
 
 ```sh
 # Offline: usa a coleta versionada e prepara os quatro briefings
@@ -124,7 +124,7 @@ Contexto e briefing têm IDs SHA-256. Alterações em situação, votação, eme
 
 O núcleo em TypeScript usa **Effect 4.1**. `content.ts` concentra as transformações puras e os contratos `Schema`; `collect.ts` coordena a coleta oficial; `legislative.ts` valida e normaliza temas e votos; `camara.ts` fornece o serviço `Camara` com HTTP, timeout e `Schedule` de retry. `storage.ts` implementa o serviço `ObjectStore`, e `inference.ts` implementa o protocolo opcional de inferência. `scripts/pipeline.ts` compõe as etapas e a CLI de `effect/cli`.
 
-As funções de I/O retornam `Effect`; o ambiente é fornecido por `Layer`/`Context.Service`. Os erros esperados têm tags e mensagens seguras; credenciais de IA usam `Config.Redacted`. O cliente S3 é adquirido com `Effect.acquireRelease`, e o transporte HTTP é cancelável. Datas da execução usam `DateTime` e o relógio do Effect. O adaptador legado `sync.mjs` mantém a interface Promise para quem atualiza o site. `pnpm check` valida os tipos do frontend **e da pipeline**; não é preciso compilar os scripts para executá-los, pois os comandos habilitam o suporte nativo de TypeScript do Node.
+As funções de I/O retornam `Effect`; o ambiente é fornecido por `Layer`/`Context.Service`. Os erros esperados têm tags e mensagens seguras; credenciais de IA usam `Config.Redacted`. O transporte HTTP é cancelável. Datas da execução usam `DateTime` e o relógio do Effect. O adaptador legado `sync.mjs` mantém a interface Promise para quem atualiza o site. `pnpm check` valida os tipos do frontend **e da pipeline**; não é preciso compilar os scripts para executá-los, pois os comandos habilitam o suporte nativo de TypeScript do Node.
 
 ### WhatsApp primeiro; X, Instagram e portal também
 
@@ -152,15 +152,13 @@ pnpm pipeline:generate --id 2649633 --channel whatsapp-channel --out rascunhos
 
 Geração exige uma proposta, um canal e exportação local explícitos, limita o pedido a 120 kB e a resposta a 2400 tokens. Não faz retry automático de inferência: um erro de conexão pode ocorrer depois de uma cobrança. Saídas truncadas, recusadas, fora do schema, com IDs de evidência inexistentes ou URLs inventadas são rejeitadas. O adaptador não persiste cabeçalhos/credenciais nem imprime corpos privados de erro. Sem configuração, use os requests exportados neste chat; **este chat não vira um serviço de inferência permanente**.
 
-### Object storage compatível com S3 — preparado, desativado
+### Armazenamento de execuções
 
-`scripts/pipeline/storage.ts` oferece `ObjectStore`, `createMemoryStore()`, `createS3Store(env)`, `archiveRun({ artifacts })` e `loadRun(manifestKey)`. Não há seleção automática de S3 por variável de ambiente: **os comandos usam apenas memória**, mesmo quando houver credenciais. `createS3Store` retorna um Effect de aquisição com escopo: não cria bucket nem faz rede até uma leitura/gravação explícita. `archiveRun` e `loadRun` recebem o armazenamento por meio do serviço `ObjectStore`.
+`scripts/pipeline/storage.ts` oferece `ObjectStore`, `createMemoryStore()`, `archiveRun({ artifacts })` e `loadRun(manifestKey)`. **Os comandos usam apenas memória.** `archiveRun` e `loadRun` recebem o armazenamento por meio do serviço `ObjectStore`, então um armazenamento remoto pode ser fornecido depois sem mudar o resto.
 
 Cada artefato JSON tem chave por conteúdo (`v1/raw/<sha256>.json`, `normalized/`, `context/`, `brief/`, `request/`, `draft/`). O manifesto `v1/manifests/<sha256>.json` é escrito **por último**, só depois de todos os artefatos. Consumidores devem carregar o manifesto com `loadRun`, que confere presença, tamanho e hash, em vez de considerar um prefixo parcialmente gravado como uma execução completa. Repetir a gravação dos mesmos objetos é idempotente; objetos parciais sem manifesto podem existir após uma falha remota e exigiriam política de retenção futura.
 
-O adaptador usa o SDK oficial da AWS, credenciais do ambiente/identidade de workload, até três tentativas, gravação condicional sem sobrescrita e nenhum ACL público. O endpoint é configurável para S3 compatível (por exemplo, R2 ou MinIO); a compatibilidade precisa ser validada no fornecedor escolhido. HTTPS obrigatório, exceto MinIO em loopback. Não há bucket, credencial, retenção, criptografia gerenciada ou política de acesso provisionada. Para ativar depois, configurar bucket privado, permissões mínimas `GetObject`/`PutObject` no prefixo e política de retenção/criptografia, revisar custos e fornecer `Layer.effect(ObjectStore, createS3Store(process.env))` ao job com `Effect.provide`. **Executar um job de arquivamento com essa layer faz upload**; os comandos atuais não a utilizam. Nos testes, o SDK faz uma leitura/gravação real em um servidor HTTP local de teste; isso não valida credenciais, assinatura no servidor ou compatibilidade de um bucket real.
-
-Effect e o SDK S3 ficam nos scripts e não são importados pelo frontend. O site continua estático e sem inferência durante a leitura. Não há scheduler, fila distribuída, revisão editorial automática ou promessa de cobertura nacional completa nesta etapa.
+Effect fica nos scripts e não são importados pelo frontend. O site continua estático e sem inferência durante a leitura. Não há scheduler, fila distribuída, revisão editorial automática ou promessa de cobertura nacional completa nesta etapa.
 
 ### Gerar novos resumos do portal usando este chat
 
@@ -252,7 +250,7 @@ Coincidência com uma orientação não é apoio ao mérito, e ausência não é
    pnpm exec wrangler basin catalog enable vigia-lake
    ```
 2. Ligue a expiração de snapshots do catálogo (7 dias, mantendo 3). Ela usa uma credencial guardada no catálogo; use um token só com Basin Catalog Write e R2 Storage Write em `vigia-lake`, enviado pela API (`POST /accounts/<conta>/r2-catalog/vigia-lake/credential` e `.../maintenance-configs`), não como argumento de linha de comando.
-3. Crie os tokens. `LAKE_TOKEN`: gravação no Basin Catalog e no R2 `vigia-lake`, mais leitura no Basin SQL (`lake/` e `metrics.ts`). `CLOUDFLARE_API_TOKEN`: deploy de Workers e Account Analytics read (`budget.ts`). Chave S3 do R2 com leitura e gravação em `vigia-media` (métricas) e `vigia-lake` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). O Worker não precisa de segredos.
+3. Crie os tokens. `LAKE_TOKEN`: gravação no Basin Catalog e no R2 `vigia-lake`, mais leitura no Basin SQL (`lake/` e `metrics.ts`). `CLOUDFLARE_API_TOKEN`: deploy de Workers, Account Analytics read (`budget.ts`) e R2 edit em `vigia-media` (`metrics.ts` grava com `wrangler`). Chave S3 do R2 com leitura e gravação em `vigia-lake` para `lake/` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). O Worker não precisa de segredos.
 4. Cadastre os segredos do GitHub Actions: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `LAKE_TOKEN`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID` e `R2_SECRET_ACCESS_KEY`.
 
 Localmente, `pnpm build && pnpm exec wrangler dev` serve o site e as fotos, e as métricas a partir de um R2 simulado (vazio até você gravar objetos com `wrangler r2 object put --local`).

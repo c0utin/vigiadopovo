@@ -1,15 +1,9 @@
-import {
-  S3Client,
-  PutObjectCommand,
-  GetObjectCommand,
-  S3ServiceException,
-} from "@aws-sdk/client-s3";
 import { Context, DateTime, Effect, Layer, Schema } from "effect";
 import { hash, encode } from "./content.ts";
 import { PipelineError } from "./errors.ts";
 
 type Store = {
-  readonly kind: "memory" | "s3";
+  readonly kind: "memory";
   put(key: string, body: string): Effect.Effect<void, PipelineError>;
   get(key: string): Effect.Effect<string | null, PipelineError>;
 };
@@ -31,143 +25,6 @@ export function createMemoryStore() {
     get: (key: string) => Effect.sync(() => objects.get(key) ?? null),
   };
 }
-
-const S3Config = Schema.Struct({
-  S3_BUCKET: Schema.String.check(
-    Schema.isPattern(/^[a-z0-9][a-z0-9.-]{1,61}[a-z0-9]$/),
-  ),
-  S3_ENDPOINT: Schema.optionalKey(Schema.String),
-  S3_REGION: Schema.optionalKey(Schema.String),
-  S3_FORCE_PATH_STYLE: Schema.optionalKey(
-    Schema.Literals(["true", "false", ""]),
-  ),
-  AWS_ACCESS_KEY_ID: Schema.optionalKey(Schema.String),
-  AWS_SECRET_ACCESS_KEY: Schema.optionalKey(Schema.String),
-  AWS_SESSION_TOKEN: Schema.optionalKey(Schema.String),
-});
-const Endpoint = Schema.URLFromString.check(
-  Schema.makeFilter((url) =>
-    !url.username &&
-    !url.password &&
-    !url.search &&
-    !url.hash &&
-    (url.protocol === "https:" ||
-      (url.protocol === "http:" &&
-        ["localhost", "127.0.0.1", "[::1]"].includes(url.hostname)))
-      ? true
-      : "S3_ENDPOINT deve usar HTTPS sem credenciais (HTTP apenas em loopback)",
-  ),
-);
-
-// Acquisition is lazy and scoped. No bucket creation, ACL changes or network
-// requests occur here; the SDK is closed on success, failure or interruption.
-export const createS3Store = Effect.fn("createS3Store")(function* (
-  env: Readonly<Record<string, string | undefined>> = process.env,
-) {
-  const config = yield* Schema.decodeUnknownEffect(S3Config)(env).pipe(
-    Effect.mapError(
-      () =>
-        new PipelineError({
-          stage: "storage",
-          message: "Configuração S3 inválida; confira .env.example",
-        }),
-    ),
-  );
-  const endpoint = config.S3_ENDPOINT
-    ? yield* Schema.decodeUnknownEffect(Endpoint)(config.S3_ENDPOINT).pipe(
-        Effect.mapError(
-          () =>
-            new PipelineError({
-              stage: "storage",
-              message:
-                "S3_ENDPOINT deve usar HTTPS sem credenciais (HTTP apenas em loopback)",
-            }),
-        ),
-      )
-    : undefined;
-  if (
-    Boolean(config.AWS_ACCESS_KEY_ID) !== Boolean(config.AWS_SECRET_ACCESS_KEY)
-  )
-    return yield* new PipelineError({
-      stage: "storage",
-      message: "Forneça ambas as credenciais S3 ou use identidade de workload",
-    });
-  const client = yield* Effect.acquireRelease(
-    Effect.sync(
-      () =>
-        new S3Client({
-          region: config.S3_REGION || "us-east-1",
-          endpoint: endpoint?.href,
-          forcePathStyle: config.S3_FORCE_PATH_STYLE === "true",
-          maxAttempts: 3,
-          credentials: config.AWS_ACCESS_KEY_ID
-            ? {
-                accessKeyId: config.AWS_ACCESS_KEY_ID,
-                secretAccessKey: config.AWS_SECRET_ACCESS_KEY!,
-                ...(config.AWS_SESSION_TOKEN
-                  ? { sessionToken: config.AWS_SESSION_TOKEN }
-                  : {}),
-              }
-            : undefined,
-        }),
-    ),
-    (client) => Effect.sync(() => client.destroy()),
-  );
-  const put = Effect.fn("ObjectStore.put")(function* (
-    key: string,
-    body: string,
-  ) {
-    yield* Effect.tryPromise({
-      try: (signal) =>
-        client.send(
-          new PutObjectCommand({
-            Bucket: config.S3_BUCKET,
-            Key: key,
-            Body: body,
-            ContentType: "application/json; charset=utf-8",
-            IfNoneMatch: "*",
-          }),
-          { abortSignal: signal },
-        ),
-      catch: (error) =>
-        error instanceof S3ServiceException &&
-        error.$metadata.httpStatusCode === 412
-          ? null
-          : new PipelineError({
-              stage: "storage",
-              message: "Falha na gravação S3; detalhes privados omitidos",
-            }),
-    }).pipe(
-      Effect.catch((error) =>
-        error === null ? Effect.void : Effect.fail(error),
-      ),
-    );
-  });
-  const get = Effect.fn("ObjectStore.get")(function* (key: string) {
-    return yield* Effect.tryPromise({
-      try: async (signal) => {
-        const result = await client.send(
-          new GetObjectCommand({ Bucket: config.S3_BUCKET, Key: key }),
-          { abortSignal: signal },
-        );
-        return await result.Body!.transformToString();
-      },
-      catch: (error) =>
-        error instanceof S3ServiceException &&
-        error.$metadata.httpStatusCode === 404
-          ? null
-          : new PipelineError({
-              stage: "storage",
-              message: "Falha na leitura S3; detalhes privados omitidos",
-            }),
-    }).pipe(
-      Effect.catch((error) =>
-        error === null ? Effect.succeed(null) : Effect.fail(error),
-      ),
-    );
-  });
-  return ObjectStore.of({ kind: "s3", put, get });
-});
 
 const Kind = Schema.Literals([
   "raw",

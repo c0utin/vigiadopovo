@@ -1,7 +1,5 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { createServer } from "node:http";
-import { once } from "node:events";
 import { createHash } from "node:crypto";
 import { Effect, Redacted } from "effect";
 import { FetchHttpClient } from "effect/http";
@@ -16,7 +14,6 @@ import { createChatInference } from "../scripts/pipeline/inference.ts";
 import {
   ObjectStore,
   createMemoryStore,
-  createS3Store,
   archiveRun,
   loadRun,
 } from "../scripts/pipeline/storage.ts";
@@ -463,66 +460,4 @@ test("Provider-independent generation works through the optional chat adapter; c
       (error) => !error.message.includes(privateMarker),
     );
   }
-});
-
-test("S3 SDK adapter round-trips content-addressed runs through a local HTTP protocol fixture, including retries of existing objects and missing keys", async () => {
-  // This fixture tests the adapter contract, not a real cloud provider or SigV4 server verification.
-  const objects = new Map();
-  const server = createServer(async (request, response) => {
-    const key = new URL(request.url, "http://localhost").pathname;
-    if (request.method === "PUT") {
-      if (objects.has(key) && request.headers["if-none-match"] === "*") {
-        response.writeHead(412).end();
-        return;
-      }
-      const chunks = [];
-      for await (const chunk of request) chunks.push(chunk);
-      objects.set(key, Buffer.concat(chunks).toString());
-      response.writeHead(200).end();
-    } else if (objects.has(key)) response.writeHead(200).end(objects.get(key));
-    else response.writeHead(404).end();
-  });
-  server.listen(0, "127.0.0.1");
-  await once(server, "listening");
-  try {
-    await run(
-      Effect.gen(function* () {
-        const store = yield* createS3Store({
-          S3_BUCKET: "vigia-test-only",
-          S3_ENDPOINT: `http://127.0.0.1:${server.address().port}`,
-          S3_FORCE_PATH_STYLE: "true",
-          AWS_ACCESS_KEY_ID: "test-only-id",
-          AWS_SECRET_ACCESS_KEY: "test-only-secret",
-        });
-        yield* Effect.gen(function* () {
-          const options = {
-            artifacts: [
-              { kind: "raw", value: { text: "ação pública", value: 17 } },
-            ],
-            createdAt: "2026-10-29T12:00:00.000Z",
-          };
-          const prepared = yield* archiveRun(options);
-          assert.deepEqual(
-            (yield* loadRun(prepared.key)).artifacts,
-            options.artifacts,
-          );
-          const repeated = yield* archiveRun(options);
-          assert.equal(repeated.key, prepared.key);
-          assert.equal(yield* store.get("v1/raw/missing.json"), null);
-        }).pipe(Effect.provideService(ObjectStore, store));
-      }),
-    );
-  } finally {
-    server.close();
-    await once(server, "close");
-  }
-  await assert.rejects(
-    run(
-      createS3Store({
-        S3_BUCKET: "vigia-test-only",
-        S3_ENDPOINT: "http://external.example.invalid",
-      }),
-    ),
-    /HTTPS/,
-  );
 });

@@ -42,7 +42,6 @@
     "wrangler": "^4.157.0"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.1159.0",
     "@effect/platform-node": "^4.1.0",
     "effect": "^4.1.0"
   }
