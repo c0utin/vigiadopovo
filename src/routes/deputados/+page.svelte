@@ -5,9 +5,6 @@
   import script from "./deputados.js?raw";
 
   let { data }: { data: PageData } = $props();
-  // Photo paths are root-relative; asset() adds the deploy base path.
-  const photo = (path: string) =>
-    asset(path.slice(1) as Parameters<typeof asset>[0]);
   // Same wording as deputados.js uses for former deputies' cards.
   const served = (list: number[]) =>
     list.length
@@ -16,8 +13,6 @@
           .map((l) => `${l}ª`)
           .join(", ")}${list.length > 4 ? ` +${list.length - 4}` : ""}`
       : "";
-  const period = (l: { start: string; end: string | null }) =>
-    `${l.start.slice(0, 4)}–${l.end?.slice(0, 4) ?? "atual"}`;
 </script>
 
 <svelte:head
@@ -63,7 +58,7 @@
               "pt-BR",
             )})</option
           >{/if}{#each data.legislatures as l}<option value={l.id}
-            >{l.id}ª · {period(l)} ({l.deputies})</option
+            >{l.id}ª · {l.start.slice(0, 4)}–{l.end?.slice(0, 4) ?? "atual"} ({l.deputies})</option
           >{/each}</select
       ></label
     >
@@ -103,8 +98,9 @@
         data-current
       >
         <a href={resolve(`deputados/${d.id}/`)}>
+          <!-- Photo paths are root-relative; asset() adds the deploy base path. -->
           {#if d.photo}<img
-              src={photo(d.photo)}
+              src={asset(d.photo.slice(1) as Parameters<typeof asset>[0])}
               alt=""
               width="72"
               height="96"

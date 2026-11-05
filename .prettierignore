@@ -1,13 +1,6 @@
-node_modules/
-.svelte-kit/
-build/
-.amp/in/
-.amp/portals/
-.pipeline/
 pnpm-lock.yaml
 data/*.json
 src/lib/data/*.json
 static/dados.json
 static/legislativo.json
-static/deputados.json
 static/pipeline/

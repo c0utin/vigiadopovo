@@ -5,9 +5,7 @@
   let { data }: { data: PageData } = $props();
   let p = $derived(data.proposal);
   const votes = $derived(
-    p.votes.toSorted((a: { date: string }, b: { date: string }) =>
-      b.date.localeCompare(a.date),
-    ),
+    p.votes.toSorted((a, b) => b.date.localeCompare(a.date)),
   );
 </script>
 
@@ -51,8 +49,7 @@
         <dd>{date(p.presentedAt)}</dd>
         <dt>Autoria</dt>
         <dd>
-          {p.authors.map((a: { name: string }) => a.name).join("; ") ||
-            "Não informada"}
+          {p.authors.map((a) => a.name).join("; ") || "Não informada"}
         </dd>
       </dl>
       <a class="button primary" href={p.url} target="_blank" rel="noreferrer"

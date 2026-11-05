@@ -2,6 +2,7 @@
   import { asset, resolve } from "$app/paths";
   import { onMount } from "svelte";
   import type { LegislativeDataset } from "#lib/legislative.ts";
+  import { normalize } from "#lib/format.ts";
 
   type Voting = LegislativeDataset["votings"][number];
   let dataset = $state.raw<LegislativeDataset | null>(null);
@@ -18,73 +19,15 @@
   let page = $state(1);
   const pageSize = 20;
   const missing = "__missing__";
-  const normalize = (text: string) =>
-    text
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .toLocaleLowerCase("pt-BR");
-  const record = (value: unknown): value is Record<string, unknown> =>
-    typeof value === "object" && value !== null;
-  const nullableString = (value: unknown) =>
-    value === null || typeof value === "string";
-
-  function isDataset(value: unknown): value is LegislativeDataset {
-    if (
-      !record(value) ||
-      value.schemaVersion !== 1 ||
-      typeof value.collectedAt !== "string" ||
-      typeof value.coverage !== "string" ||
-      !Array.isArray(value.propositions) ||
-      !Array.isArray(value.votings)
-    )
-      return false;
+  // Shape check only: the pipeline validates the full schema when it writes the file.
+  const isDataset = (value: unknown): value is LegislativeDataset => {
+    const data = value as Partial<LegislativeDataset> | null;
     return (
-      value.propositions.every(
-        (p: unknown) =>
-          record(p) &&
-          typeof p.id === "number" &&
-          typeof p.label === "string" &&
-          typeof p.ementa === "string" &&
-          typeof p.url === "string" &&
-          Array.isArray(p.votingIds) &&
-          p.votingIds.every((id: unknown) => typeof id === "string") &&
-          Array.isArray(p.labels) &&
-          p.labels.every(
-            (label: unknown) =>
-              record(label) &&
-              typeof label.id === "string" &&
-              typeof label.name === "string" &&
-              typeof label.sourceUrl === "string" &&
-              typeof label.relevance === "number",
-          ),
-      ) &&
-      value.votings.every(
-        (v: unknown) =>
-          record(v) &&
-          typeof v.id === "string" &&
-          typeof v.date === "string" &&
-          typeof v.description === "string" &&
-          typeof v.organ === "string" &&
-          typeof v.url === "string" &&
-          typeof v.ballotsUrl === "string" &&
-          Array.isArray(v.propositionIds) &&
-          v.propositionIds.every((id: unknown) => typeof id === "number") &&
-          (v.ballotCoverage === "recorded-votes" ||
-            v.ballotCoverage === "no-individual-records") &&
-          Array.isArray(v.ballots) &&
-          v.ballots.every(
-            (b: unknown) =>
-              record(b) &&
-              typeof b.deputyId === "number" &&
-              typeof b.name === "string" &&
-              nullableString(b.party) &&
-              nullableString(b.state) &&
-              typeof b.vote === "string" &&
-              nullableString(b.registeredAt),
-          ),
-      )
+      data?.schemaVersion === 1 &&
+      Array.isArray(data.propositions) &&
+      Array.isArray(data.votings)
     );
-  }
+  };
 
   async function loadData() {
     if (loading || dataset) return;
@@ -734,7 +677,6 @@
   }
   button:disabled {
     opacity: 0.5;
-    cursor: default;
   }
   @media (min-width: 501px) {
     .filters,
@@ -795,9 +737,6 @@
     }
   }
   @media (max-width: 500px) {
-    .filters:not(.ballot-filters) {
-      grid-template-columns: minmax(0, 1fr);
-    }
     .collection,
     .load-panel {
       padding: 20px;

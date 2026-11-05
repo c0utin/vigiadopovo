@@ -445,10 +445,6 @@ h2 em {
   font-size: 14px;
   font-weight: 600;
 }
-.ai-label {
-  font-size: 13px;
-  color: var(--muted);
-}
 .method-section {
   background: #edf0e5;
   border-top: 1px solid var(--line);

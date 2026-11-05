@@ -322,7 +322,6 @@
   }
   .sources a {
     min-height: 32px;
-    align-content: center;
   }
   .sources .hash {
     font-size: 11px;

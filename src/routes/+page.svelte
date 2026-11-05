@@ -24,7 +24,7 @@
 
 <main id="conteudo">
   <section class="hero wrap">
-    <div class="hero-copy">
+    <div>
       <h1>Entenda a política.<br /><em>Sem complicação.</em></h1>
       <p class="hero-description">
         Propostas da Câmara dos Deputados em palavras simples, com link para a

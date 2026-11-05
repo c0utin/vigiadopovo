@@ -23,11 +23,11 @@ export const DEFINITIONS = {
 export const SOURCE =
   "Arquivos anuais de dados abertos da Câmara dos Deputados (votacoes, votacoesVotos, votacoesOrientacoes, votacoesProposicoes)";
 
-export function currentYear(now = new Date()) {
+export function currentYear() {
   return Number(
     new Intl.DateTimeFormat("en", {
       timeZone: "America/Sao_Paulo",
       year: "numeric",
-    }).format(now),
+    }).format(new Date()),
   );
 }

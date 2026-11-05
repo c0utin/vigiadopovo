@@ -100,14 +100,11 @@
     const former = archive.deputies
       .filter((d) => !current.has(String(d.id)))
       .map(card);
-    const names = new Map(
-      [...cards, ...former].map((c) => [
-        c,
-        c.querySelector("strong").textContent,
-      ]),
-    );
-    cards = [...names.keys()].sort((a, b) =>
-      byName(names.get(a), names.get(b)),
+    cards = [...cards, ...former].sort((a, b) =>
+      byName(
+        a.querySelector("strong").textContent,
+        b.querySelector("strong").textContent,
+      ),
     );
     grid.append(...cards);
     return true;

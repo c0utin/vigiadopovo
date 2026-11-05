@@ -1,5 +1,4 @@
-export function date(value: string | null | undefined) {
-  if (!value) return "Não informada";
+export function date(value: string) {
   if (value.endsWith("Z"))
     return new Intl.DateTimeFormat("pt-BR", {
       timeZone: "America/Sao_Paulo",

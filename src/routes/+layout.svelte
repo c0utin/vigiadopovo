@@ -29,6 +29,8 @@
       icon: "M12 8h.01M12 11v6M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18",
     },
   ];
+  // The home page lists the propositions, so it belongs to the Propostas section.
+  const section = $derived(page.route.id === "/" ? "/proposta" : page.route.id);
 </script>
 
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -42,10 +44,7 @@
     {#each navigation as item}
       <a
         href={item.href}
-        aria-current={page.route.id?.startsWith(item.section) ||
-        (item.label === "Propostas" && page.route.id === "/")
-          ? "page"
-          : undefined}
+        aria-current={section?.startsWith(item.section) ? "page" : undefined}
       >
         <svg
           viewBox="0 0 24 24"
