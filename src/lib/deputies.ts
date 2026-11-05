@@ -60,3 +60,25 @@ export interface DeputiesDataset {
   }[];
   deputies: Deputy[];
 }
+
+/** Public contract of static/deputados-mandatos.json. */
+export interface MandatesDataset {
+  schemaVersion: 1;
+  collectedAt: string;
+  /** Newest first. */
+  legislatures: { id: number; start: string; end: string | null }[];
+  /** Inconsistent official rows left out instead of guessed. */
+  excluded: { rows: number; reason: string };
+  deputies: {
+    id: number;
+    /** Name and state from the most recent mandate. */
+    name: string;
+    state: string | null;
+    /** Newest first; parties as listed by the Câmara for that legislature. */
+    mandates: {
+      legislature: number;
+      state: string | null;
+      parties: string[];
+    }[];
+  }[];
+}

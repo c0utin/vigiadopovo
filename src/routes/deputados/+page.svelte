@@ -8,6 +8,16 @@
   // Photo paths are root-relative; asset() adds the deploy base path.
   const photo = (path: string) =>
     asset(path.slice(1) as Parameters<typeof asset>[0]);
+  // Same wording as deputados.js uses for former deputies' cards.
+  const served = (list: number[]) =>
+    list.length
+      ? `Legislaturas: ${list
+          .slice(0, 4)
+          .map((l) => `${l}ª`)
+          .join(", ")}${list.length > 4 ? ` +${list.length - 4}` : ""}`
+      : "";
+  const period = (l: { start: string; end: string | null }) =>
+    `${l.start.slice(0, 4)}–${l.end?.slice(0, 4) ?? "atual"}`;
 </script>
 
 <svelte:head
@@ -33,10 +43,30 @@
     Perfil de cada deputado federal em exercício, com situação, partido,
     comissões e a atividade registrada pela Câmara no ano{data.year
       ? ` (${data.year})`
-      : ""}.
+      : ""}. No filtro de mandato, veja também quem já foi deputado em cada
+    legislatura desde 1826.
   </p>
 
-  <div class="filters" data-filters hidden>
+  <div
+    class="filters"
+    data-filters
+    data-history={asset(
+      "deputados-mandatos.json" as Parameters<typeof asset>[0],
+    )}
+    hidden
+  >
+    <label
+      ><span class="sr-only">Mandato</span><select id="mandato"
+        ><option value="atual">Em exercício agora</option
+        >{#if data.everyone}<option value="todos"
+            >Todos que já exerceram ({data.everyone.toLocaleString(
+              "pt-BR",
+            )})</option
+          >{/if}{#each data.legislatures as l}<option value={l.id}
+            >{l.id}ª · {period(l)} ({l.deputies})</option
+          >{/each}</select
+      ></label
+    >
     <label class="search-field"
       ><span aria-hidden="true">⌕</span><span class="sr-only"
         >Buscar deputado pelo nome</span
@@ -68,6 +98,9 @@
         data-search={d.search}
         data-party={d.party ?? ""}
         data-state={d.state ?? ""}
+        data-legislatures={d.legislatures.join(" ")}
+        data-parties={d.parties}
+        data-current
       >
         <a href={resolve(`deputados/${d.id}/`)}>
           {#if d.photo}<img
@@ -81,6 +114,9 @@
           <span class="info">
             <strong>{d.name}</strong>
             <span>{d.party ?? "Sem partido"} · {d.state ?? "—"}</span>
+            {#if d.legislatures.length}<span class="served"
+                >{served(d.legislatures)}</span
+              >{/if}
             {#if d.condition && d.condition !== "Titular"}<span class="tag"
                 >{d.condition}</span
               >{/if}
@@ -88,12 +124,19 @@
         </a>
       </li>{/each}
   </ul>
+  <p class="muted" data-status hidden></p>
+  <button type="button" class="more" data-more hidden>Mostrar mais</button>
   <p class="muted" data-empty hidden>Nenhum deputado com esses filtros.</p>
   {#if data.collectedAt}<p class="muted credit">
       Fotos oficiais: Câmara dos Deputados. Dados:
       <a href={asset("deputados.json" as Parameters<typeof asset>[0])} download
         >deputados.json ↗</a
-      >
+      >{#if data.everyone}
+        · mandatos desde 1826:
+        <a
+          href={asset("deputados-mandatos.json" as Parameters<typeof asset>[0])}
+          download>deputados-mandatos.json ↗</a
+        >{/if}
     </p>{/if}
 </main>
 {@html `<script>${script}<\/script>`}
@@ -140,7 +183,8 @@
     padding: 0;
     list-style: none;
   }
-  .deputy-grid a {
+  /* :global: deputados.js also builds cards for former deputies. */
+  .deputy-grid :global(a) {
     display: flex;
     align-items: center;
     gap: 14px;
@@ -151,11 +195,11 @@
     border-radius: 12px;
     text-decoration: none;
   }
-  .deputy-grid a:hover {
+  .deputy-grid :global(a:hover) {
     border-color: #849773;
   }
-  img,
-  .no-photo {
+  .deputy-grid :global(img),
+  .deputy-grid :global(.no-photo) {
     flex: none;
     width: 54px;
     height: 72px;
@@ -163,24 +207,27 @@
     object-fit: cover;
     background: #e5e8d9;
   }
-  .no-photo {
+  .deputy-grid :global(.no-photo) {
     display: grid;
     place-items: center;
     color: #8a9a86;
   }
-  .info {
+  .deputy-grid :global(.info) {
     display: grid;
     gap: 3px;
     min-width: 0;
   }
-  .info strong {
+  .deputy-grid :global(.info strong) {
     font-size: 16px;
   }
-  .info span {
+  .deputy-grid :global(.info span) {
     font-size: 14px;
     color: var(--muted);
   }
-  .info .tag {
+  .deputy-grid :global(.info .served) {
+    font-size: 13px;
+  }
+  .deputy-grid :global(.info .tag) {
     justify-self: start;
     font-size: 12px;
     padding: 1px 8px;
@@ -188,13 +235,33 @@
     background: #eaf0df;
     color: var(--green);
   }
+  .deputy-grid :global(.info .tag.former) {
+    background: #efe9dc;
+    color: #6b5a3a;
+  }
+  .more {
+    display: block;
+    margin: 16px auto 0;
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1px solid #8a9a86;
+    border-radius: 10px;
+    background: #fff;
+    color: var(--green);
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .more:hover {
+    border-color: var(--green);
+  }
   .credit {
     margin-top: 20px;
     font-size: 13px;
   }
   @media (min-width: 600px) {
     .filters {
-      grid-template-columns: 2fr 1fr 1fr;
+      grid-template-columns: 1.4fr 2fr 1fr 1fr;
       align-items: center;
     }
     .count {

@@ -5,6 +5,7 @@ import type {
   ActivityKey,
   DeputiesDataset,
   Deputy,
+  MandatesDataset,
 } from "../../src/lib/deputies.ts";
 
 const API = "https://dadosabertos.camara.leg.br/api/v2";
@@ -65,6 +66,22 @@ const BulkMembership = Schema.Struct({
   cargo: Schema.NonEmptyString,
   dataInicio: Schema.String,
   dataFim: Schema.String,
+});
+
+const Legislature = Schema.Struct({
+  id: Id,
+  dataInicio: Schema.NonEmptyString,
+  dataFim: Text,
+});
+// One row per deputy and party in the legislature: a party change in the
+// middle of a mandate lists the deputy twice. A few rows come back under a
+// legislature other than their own idLegislatura, always without a name.
+const Member = Schema.Struct({
+  id: Id,
+  nome: Text,
+  siglaPartido: Text,
+  siglaUf: Text,
+  idLegislatura: Id,
 });
 
 export const ACTIVITY: DeputiesDataset["activity"] = [
@@ -378,6 +395,101 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         stage: "validation",
         message:
           "Dados oficiais de deputados incompatíveis com o contrato esperado",
+      }),
+    ),
+  ),
+);
+
+// Every deputy who served in any legislature since 1826, from the
+// per-legislature lists of /deputados. Only name, state and the parties the
+// Câmara lists for each mandate; no personal data.
+export const collectMandates = Effect.fn("collectMandates")(
+  function* () {
+    const client = yield* Camara;
+    const collectedAt = DateTime.formatIso(yield* DateTime.now);
+    const legislatures = yield* client
+      .all(`${API}/legislaturas?itens=100&ordem=DESC&ordenarPor=id`)
+      .pipe(Effect.flatMap((items) => decode(Legislature, items)));
+    if (
+      !legislatures.length ||
+      new Set(legislatures.map((l) => l.id)).size !== legislatures.length
+    )
+      return yield* new PipelineError({
+        stage: "validation",
+        message: "Lista de legislaturas vazia ou repetida",
+      });
+    const lists = yield* Effect.forEach(
+      legislatures,
+      ({ id }) =>
+        client
+          .all(
+            `${API}/deputados?idLegislatura=${id}&itens=100&ordem=ASC&ordenarPor=nome`,
+          )
+          .pipe(Effect.flatMap((items) => decode(Member, items))),
+      { concurrency: 4 },
+    );
+    const byId = new Map<number, MandatesDataset["deputies"][number]>();
+    let excluded = 0;
+    // Newest legislature first, so name and state are the latest ones.
+    for (const [index, members] of lists.entries()) {
+      const legislature = legislatures[index].id;
+      for (const member of members) {
+        // Which mandate such a row belongs to is unknowable: it is counted
+        // in `excluded`, never assigned to either legislature.
+        if (member.idLegislatura !== legislature) {
+          excluded++;
+          continue;
+        }
+        if (!member.nome)
+          return yield* new PipelineError({
+            stage: "validation",
+            message: "Deputado sem nome na lista da própria legislatura",
+          });
+        const deputy = byId.get(member.id) ?? {
+          id: member.id,
+          name: member.nome,
+          state: member.siglaUf,
+          mandates: [],
+        };
+        let mandate = deputy.mandates.find(
+          (m) => m.legislature === legislature,
+        );
+        if (!mandate) {
+          mandate = { legislature, state: member.siglaUf, parties: [] };
+          deputy.mandates.push(mandate);
+        }
+        if (
+          member.siglaPartido &&
+          !mandate.parties.includes(member.siglaPartido)
+        )
+          mandate.parties.push(member.siglaPartido);
+        byId.set(member.id, deputy);
+      }
+    }
+    return {
+      schemaVersion: 1,
+      collectedAt,
+      legislatures: legislatures.map((l) => ({
+        id: l.id,
+        start: l.dataInicio.slice(0, 10),
+        end: l.dataFim?.slice(0, 10) || null,
+      })),
+      excluded: {
+        rows: excluded,
+        reason:
+          "Linhas devolvidas na lista de uma legislatura com outra idLegislatura e sem nome; não atribuídas a nenhum mandato.",
+      },
+      deputies: [...byId.values()].sort((a, b) =>
+        a.name.localeCompare(b.name, "pt-BR"),
+      ),
+    } satisfies MandatesDataset;
+  },
+  Effect.catchTag("SchemaError", () =>
+    Effect.fail(
+      new PipelineError({
+        stage: "validation",
+        message:
+          "Lista oficial de mandatos incompatível com o contrato esperado",
       }),
     ),
   ),

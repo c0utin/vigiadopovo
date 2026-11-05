@@ -64,7 +64,42 @@ function fixture({ duplicateVote = false } = {}) {
     dataInicio,
     dataFim,
   });
+  const member = (id, nome, siglaPartido, idLegislatura, siglaUf = "PE") => ({
+    id,
+    nome,
+    siglaPartido,
+    siglaUf,
+    idLegislatura,
+  });
   const routes = {
+    "/api/v2/legislaturas": {
+      dados: [
+        { id: 57, dataInicio: "2023-02-01", dataFim: "2027-01-31" },
+        { id: 56, dataInicio: "2019-02-01", dataFim: "2023-01-31" },
+      ],
+      links: [],
+    },
+    "mandatos:57": {
+      dados: [
+        member(1, "Ana", "AAA", 57),
+        // A party change lists the deputy twice in the same legislature.
+        member(1, "Ana", "BBB", 57),
+        member(2, "Bruno", "AAA", 57),
+        member(3, "Carla", "AAA", 57),
+        // Left office during the legislature.
+        member(7, "Davi", "CCC", 57, "SP"),
+      ],
+      links: [],
+    },
+    "mandatos:56": {
+      dados: [
+        member(1, "ANA", "OLD", 56),
+        member(8, "ELISA", null, 56, "GB"),
+        // Official inconsistency: another legislature, no name. Left out.
+        member(9, null, null, 55),
+      ],
+      links: [],
+    },
     "/api/v2/deputados": {
       dados: [3, 1, 2].map((id) => ({ id, idLegislatura: 57 })),
       links: [],
@@ -143,7 +178,11 @@ function fixture({ duplicateVote = false } = {}) {
         },
       });
     const bulk = url.pathname.match(/^\/arquivos\/(\w+)\/json\//);
-    const body = routes[bulk ? bulk[1] : url.pathname];
+    const legislature = url.searchParams.get("idLegislatura");
+    const body =
+      routes[
+        bulk ? bulk[1] : legislature ? `mandatos:${legislature}` : url.pathname
+      ];
     if (!body) throw new Error(`Unexpected request: ${url.href}`);
     return Response.json(body);
   };
@@ -241,6 +280,42 @@ test("Deputy profiles count official records per deputy, rank them and publish o
       "3.jpg",
     ]);
     assert.deepEqual(await readFile("static/fotos/deputados/1.jpg"), JPEG);
+
+    const mandates = JSON.parse(
+      await readFile("static/deputados-mandatos.json", "utf8"),
+    );
+    assert.equal(
+      JSON.stringify(mandates) + "\n",
+      await readFile("src/lib/data/deputies-mandates.json", "utf8"),
+    );
+    assert.deepEqual(
+      mandates.legislatures.map((l) => [l.id, l.start, l.end]),
+      [
+        [57, "2023-02-01", "2027-01-31"],
+        [56, "2019-02-01", "2023-01-31"],
+      ],
+    );
+    const served = Object.fromEntries(mandates.deputies.map((d) => [d.id, d]));
+    // Name and state from the newest mandate; parties per mandate.
+    assert.deepEqual(served[1], {
+      id: 1,
+      name: "Ana",
+      state: "PE",
+      mandates: [
+        { legislature: 57, state: "PE", parties: ["AAA", "BBB"] },
+        { legislature: 56, state: "PE", parties: ["OLD"] },
+      ],
+    });
+    assert.deepEqual(served[8].mandates, [
+      { legislature: 56, state: "GB", parties: [] },
+    ]);
+    assert.ok(served[7], "former deputies of the current legislature are kept");
+    assert.equal(served[9], undefined);
+    assert.equal(mandates.excluded.rows, 1);
+    assert.deepEqual(
+      mandates.deputies.map((d) => d.name),
+      ["Ana", "Bruno", "Carla", "Davi", "ELISA"],
+    );
   }));
 
 test("Repeated ballots stop the deputy collection and keep the previous files", () =>
