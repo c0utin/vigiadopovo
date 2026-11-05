@@ -111,49 +111,6 @@ export const collectBallots = Effect.fn("collectBallots")(function* (
   };
 });
 
-export const LegislativeData = Schema.Struct({
-  schemaVersion: Schema.Literal(1),
-  collectedAt: Schema.NonEmptyString,
-  coverage: Schema.NonEmptyString,
-  propositions: Schema.Array(
-    Schema.Struct({
-      id: Id,
-      label: Schema.NonEmptyString,
-      ementa: Schema.NonEmptyString,
-      url: OfficialUrlString,
-      labels: Schema.Array(ThemeLabel),
-      votingIds: Schema.Array(Schema.NonEmptyString),
-    }),
-  ),
-  votings: Schema.Array(
-    Schema.Struct({
-      id: Schema.NonEmptyString,
-      date: Schema.NonEmptyString,
-      description: Schema.NonEmptyString,
-      organ: Schema.NonEmptyString,
-      url: OfficialUrlString,
-      ballotsUrl: OfficialUrlString,
-      approval: Schema.NullOr(Schema.Int),
-      propositionIds: Schema.Array(Id),
-      ballotCoverage: Schema.Literals([
-        "recorded-votes",
-        "no-individual-records",
-      ]),
-      ballots: Schema.Array(
-        Schema.Struct({
-          deputyId: Id,
-          name: Schema.NonEmptyString,
-          party: Schema.NullOr(Schema.String),
-          state: Schema.NullOr(Schema.String),
-          legislature: Schema.NullOr(Id),
-          vote: Schema.NonEmptyString,
-          registeredAt: Schema.NullOr(Schema.String),
-        }),
-      ),
-    }),
-  ),
-});
-
 // The public source capture retains legislative fields, not contact details or photos.
 // The omission is recorded alongside the response instead of pretending it is byte-exact raw HTTP.
 export function redactBallotContacts(response: RawResponse): RawResponse {

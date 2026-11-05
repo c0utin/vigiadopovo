@@ -3,13 +3,7 @@ import { Schema } from "effect";
 export class PipelineError extends Schema.TaggedError<PipelineError>()(
   "PipelineError",
   {
-    stage: Schema.Literals([
-      "collection",
-      "validation",
-      "inference",
-      "storage",
-      "cli",
-    ]),
+    stage: Schema.Literals(["collection", "validation"]),
     message: Schema.String,
   },
 ) {}

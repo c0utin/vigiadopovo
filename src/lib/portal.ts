@@ -1,4 +1,4 @@
-import snapshot from "./data/portal.json";
+import snapshot from "../../static/dados.json";
 import type { ThemeLabel } from "./legislative.ts";
 
 // The contract remains stable even when a snapshot contains no summaries or votes.
@@ -15,7 +15,7 @@ export interface Proposition {
     siglaOrgao: string | null;
     despacho: string | null;
   } | null;
-  authors: { name: string; type: string }[];
+  authors: { name: string }[];
   labels?: readonly ThemeLabel[];
   url: string;
   apiUrl: string;
@@ -34,8 +34,6 @@ export interface Proposition {
     topic: string;
     generatedAt: string;
     method: string;
-    sourceHash: string;
-    scope: string;
   } | null;
 }
 

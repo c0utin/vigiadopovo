@@ -42,41 +42,19 @@
         "Código temático da Câmara → rótulo estável camara:tema:ID. Sem tema oficial, o projeto permanece sem classificação. Uma lista vazia de votos não vira ausência ou abstenção.",
     },
     {
-      title: "Contexto rastreável para IA",
-      status: "Preparado, sem inferência nesta coleta",
-      description:
-        "Fatos oficiais recebem IDs de evidência, fontes, data, escopo e hashes. Resumos de IA não são reutilizados como fatos. Os votos individuais completos ficam no artefato legislativo, não no contexto editorial padrão.",
-      kind: "context",
-      change:
-        "Dados normalizados → contexto com evidências. Mudanças nos fatos ou na data alteram o identificador do contexto.",
-    },
-    {
-      title: "Resumo e formatos editoriais",
-      status: "Sem nova geração nesta coleta",
-      description:
-        "A pipeline opcional prepara briefing, prompt e contrato JSON para WhatsApp, X, storyboard de Instagram e resumo do portal. Esta coleta não executou essa geração. Os resumos já exibidos foram feitos neste chat, apenas com as ementas, e não tiveram revisão humana.",
-      kind: null,
-      change:
-        "Contexto + briefing → rascunho identificado como IA. Schema verifica formato e referências, mas não comprova a interpretação do modelo. Rascunhos não são publicados automaticamente.",
-    },
-    {
       title: "Arquivo público e site estático",
       status: "Arquivado localmente",
       description:
         "Cada artefato tem chave SHA-256, tamanho e tipo. O manifesto é gravado após os artefatos. O site é reconstruído a partir do snapshot, sem IA ou coleta enquanto você navega.",
       kind: null,
       change:
-        "Artefatos → manifesto → páginas pré-renderizadas. A coleta diária roda no GitHub Actions, com atestações assinadas e carimbo OpenTimestamps. S3 e publicação em redes sociais continuam desativados.",
+        "Artefatos → manifesto → páginas pré-renderizadas. A coleta diária roda no GitHub Actions, com atestações assinadas e carimbo OpenTimestamps.",
     },
   ];
   const kinds: Record<string, string> = {
     raw: "Capturas da fonte (com remoções indicadas)",
     normalized: "Snapshot normalizado do portal",
     legislative: "Proposições, temas e votos individuais",
-    context: "Contexto de evidências para IA",
-    brief: "Briefing editorial",
-    request: "Pedido de inferência e contrato da resposta",
-    draft: "Rascunho de IA, sem revisão",
   };
 </script>
 
@@ -244,7 +222,7 @@
         >
       </li>
     </ul>
-    {#each ["raw", "normalized", "legislative", "context"] as kind}
+    {#each ["raw", "normalized", "legislative"] as kind}
       {@const entries = provenance.artifacts.filter(
         (entry) => entry.kind === kind,
       )}
@@ -253,8 +231,8 @@
         <p class="help">
           Cada link abre o JSON daquela etapa. Capturas incluem URL e horário da
           consulta; as remoções de contato e foto estão indicadas no próprio
-          arquivo. A saída normalizada e o contexto são seleções, não todo o
-          conteúdo da API.
+          arquivo. A saída normalizada é uma seleção, não todo o conteúdo da
+          API.
         </p>
         <ul class="artifacts">
           {#each entries as entry}<li>
@@ -441,7 +419,6 @@
     min-height: 44px;
   }
   .hash {
-    overflow-wrap: anywhere;
     font-size: 11px;
   }
   details {

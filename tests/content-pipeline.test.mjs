@@ -1,327 +1,13 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { Effect, Redacted } from "effect";
-import { FetchHttpClient } from "effect/http";
-import {
-  buildContext,
-  createBrief,
-  buildInferenceRequest,
-  generateDraft,
-} from "../scripts/pipeline/content.ts";
+import { Effect } from "effect";
 import { Camara, makeCamaraLayer } from "../scripts/pipeline/camara.ts";
-import { createChatInference } from "../scripts/pipeline/inference.ts";
-import {
-  ObjectStore,
-  createMemoryStore,
-  archiveRun,
-  loadRun,
-} from "../scripts/pipeline/storage.ts";
-import { runPipeline } from "../scripts/pipeline.ts";
+import { archiveRun } from "../scripts/pipeline/storage.ts";
 
-const run = (program, store = createMemoryStore()) =>
-  Effect.runPromise(
-    program.pipe(Effect.provideService(ObjectStore, store), Effect.scoped),
-  );
+const run = (program) => Effect.runPromise(program.pipe(Effect.scoped));
 
 const API = "https://dadosabertos.camara.leg.br/api/v2";
-function snapshot() {
-  return {
-    collectedAt: "2026-10-29T12:00:00.000Z",
-    coverage: "Amostra da Câmara",
-    propositions: [
-      {
-        id: 123,
-        label: "PL 43/2026",
-        type: "Projeto de Lei",
-        ementa: "Institui atendimento público em escolas.",
-        presentedAt: "2026-02-03T10:30",
-        apiUrl: `${API}/proposicoes/123`,
-        url: "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=123",
-        documentUrl: null,
-        authors: [{ name: "Autora oficial", type: "Deputado(a)" }],
-        status: { descricaoTramitacao: "Urgência aprovada" },
-        votes: [
-          {
-            id: "v1",
-            date: "2026-02-04",
-            description: "Requerimento de urgência aprovado",
-            organ: "PLEN",
-            url: `${API}/votacoes/v1`,
-          },
-        ],
-        summary: { text: "TEXTO DE IA QUE NÃO PODE VIRAR EVIDÊNCIA" },
-      },
-    ],
-  };
-}
-const evidenceIds = ["camara:123:ementa"];
-function whatsapp() {
-  return {
-    headline: "Atendimento público em escolas",
-    intro: "Conheça o que a proposta diz.",
-    bullets: [
-      { text: "O projeto propõe atendimento público em escolas.", evidenceIds },
-      { text: "A ementa não detalha como será o atendimento.", evidenceIds },
-    ],
-    caveat:
-      "É uma proposta, não uma lei vigente. O inteiro teor não foi analisado.",
-  };
-}
-const inferenceResult = (output) => ({
-  output,
-  provider: "test-local",
-  model: "fixture-not-real-inference",
-});
-
-test("Contexts contain official facts, not AI text; changes to status/votes invalidate briefs, not only ementas", () => {
-  const input = snapshot();
-  const context = buildContext(input);
-  assert.equal(
-    context.facts.find((fact) => fact.id === "camara:123:ementa").value,
-    "Institui atendimento público em escolas.",
-  );
-  assert.equal(
-    context.sources.find((source) => source.id === "camara:123:authors").apiUrl,
-    `${API}/proposicoes/123/autores`,
-  );
-  assert.equal(JSON.stringify(context).includes("TEXTO DE IA"), false);
-  const brief = createBrief(context);
-  assert.equal(brief.channel, "whatsapp-channel");
-  const request = buildInferenceRequest(context, brief);
-  assert.match(request.messages[0].content, /apenas como dados/);
-  assert.equal(request.schema.additionalProperties, false);
-  assert.equal(
-    buildContext(JSON.parse(JSON.stringify(input))).contextId,
-    context.contextId,
-  );
-  for (const change of [
-    (data) => {
-      data.propositions[0].status.descricaoTramitacao = "Retirado de pauta";
-    },
-    (data) => {
-      data.propositions[0].votes[0].description = "Requerimento rejeitado";
-    },
-  ]) {
-    const changed = structuredClone(input);
-    change(changed);
-    const updated = buildContext(changed);
-    assert.notEqual(updated.contextId, context.contextId);
-    assert.throws(() => buildInferenceRequest(updated, brief), /desatualizado/);
-  }
-  const tampered = structuredClone(context);
-  tampered.facts[0].value.label = "Lei vigente";
-  assert.throws(() => buildInferenceRequest(tampered, brief), /alterado/);
-  assert.throws(() => buildContext(input, { ids: [999] }), /não encontrada/);
-});
-
-test("Prepared runs preserve raw responses and reusable requests in memory; manifests verify exact stored bytes", async () => {
-  const raw = [
-    {
-      url: `${API}/proposicoes/123`,
-      collectedAt: snapshot().collectedAt,
-      body: { dados: { original: "Texto oficial bruto" }, links: [] },
-    },
-  ];
-  const store = createMemoryStore();
-  const prepared = await run(runPipeline({ snapshot: snapshot(), raw }), store);
-  assert.equal(store.kind, "memory");
-  assert.equal(prepared.manifest.artifacts.length, 11);
-  const loaded = await run(loadRun(prepared.key), store);
-  assert.deepEqual(
-    loaded.artifacts.find((item) => item.kind === "raw").value,
-    raw[0],
-  );
-  assert.equal(
-    loaded.artifacts.some((item) => item.kind === "draft"),
-    false,
-  );
-  for (const entry of prepared.manifest.artifacts) {
-    const body = await run(store.get(entry.key));
-    assert.equal(createHash("sha256").update(body).digest("hex"), entry.sha256);
-  }
-  const first = prepared.manifest.artifacts[0];
-  await run(store.put(first.key, "{}"));
-  await assert.rejects(run(loadRun(prepared.key), store), /corrompido/);
-  const partial = createMemoryStore();
-  await assert.rejects(
-    run(
-      archiveRun({
-        artifacts: [
-          { kind: "raw", value: raw[0] },
-          { kind: "invalid", value: {} },
-        ],
-      }),
-      partial,
-    ),
-    /inválido/,
-  );
-  assert.equal(
-    [...partial.objects.keys()].some((key) => key.includes("/manifests/")),
-    false,
-  );
-  await assert.rejects(
-    run(
-      runPipeline({
-        snapshot: snapshot(),
-        infer: () => Effect.succeed(inferenceResult(whatsapp())),
-      }),
-    ),
-    /uma proposição/,
-  );
-});
-
-test("WhatsApp draft is usable plain text with official source/date and no false human review; invalid evidence/overlong messages fail closed", async () => {
-  const context = buildContext(snapshot());
-  const brief = createBrief(context);
-  const draft = await run(
-    generateDraft({
-      context,
-      brief,
-      infer: () => Effect.succeed(inferenceResult(whatsapp())),
-    }),
-  );
-  assert.equal(draft.status, "needs-human-review");
-  assert.match(draft.rendered, /\*Atendimento público em escolas\*/);
-  assert.match(draft.rendered, /• O projeto propõe atendimento/);
-  assert.match(
-    draft.rendered,
-    /https:\/\/www.camara.leg.br\/proposicoesWeb\/fichadetramitacao\?idProposicao=123/,
-  );
-  assert.match(draft.rendered, /sem revisão humana/);
-  assert.match(draft.rendered, /2026-10-29T12:00:00.000Z/);
-  assert.deepEqual(draft.evidenceIds, evidenceIds);
-  const bad = whatsapp();
-  bad.bullets[1].evidenceIds = ["camara:999:ementa"];
-  await assert.rejects(
-    run(
-      generateDraft({
-        context,
-        brief,
-        infer: () => Effect.succeed(inferenceResult(bad)),
-      }),
-    ),
-    /inexistente/,
-  );
-  const long = {
-    headline: "a".repeat(90),
-    intro: "a".repeat(300),
-    caveat: "a".repeat(260),
-    bullets: Array.from({ length: 4 }, () => ({
-      text: "a".repeat(220),
-      evidenceIds,
-    })),
-  };
-  await assert.rejects(
-    run(
-      generateDraft({
-        context,
-        brief,
-        infer: () => Effect.succeed(inferenceResult(long)),
-      }),
-    ),
-    /1600/,
-  );
-  const injected = whatsapp();
-  injected.intro = "Leia https://evil.test/";
-  await assert.rejects(
-    run(
-      generateDraft({
-        context,
-        brief,
-        infer: () => Effect.succeed(inferenceResult(injected)),
-      }),
-    ),
-    /URLs/,
-  );
-});
-
-test("X and Instagram retain citations and review labels; storyboard duration and reading pace have enforced boundaries", async () => {
-  const context = buildContext(snapshot());
-  const x = await run(
-    generateDraft({
-      context,
-      brief: createBrief(context, "x"),
-      infer: () =>
-        Effect.succeed(
-          inferenceResult({
-            posts: [
-              {
-                text: "O projeto propõe atendimento público em escolas.",
-                evidenceIds,
-              },
-            ],
-          }),
-        ),
-    }),
-  );
-  assert.match(x.rendered[0].text, /1\/1 · IA sem revisão · 2026-10-29/);
-  assert.match(x.rendered[0].text, /idProposicao=123/);
-  const brief = createBrief(context, "instagram-video");
-  const scene = {
-    durationSeconds: 10,
-    voiceover: "A proposta trata de atendimento público nas escolas.",
-    onScreenText: "Uma proposta em discussão",
-    animation: "Cartão com texto e ícone escolar local.",
-    evidenceIds,
-  };
-  const output = {
-    headline: "Atendimento nas escolas",
-    caption: "Conheça a proposta e confira a fonte.",
-    scenes: [scene, scene, scene],
-  };
-  const draft = await run(
-    generateDraft({
-      context,
-      brief,
-      infer: () => Effect.succeed(inferenceResult(output)),
-    }),
-  );
-  assert.equal(draft.rendered.aspectRatio, "9:16");
-  assert.equal(draft.rendered.durationSeconds, 30);
-  assert.match(draft.rendered.persistentOverlay, /base: ementa e metadados/);
-  assert.match(draft.rendered.caption, /sem revisão humana/);
-  for (const durations of [
-    [9, 10, 10],
-    [15, 15, 15, 15, 3],
-  ]) {
-    const invalid = {
-      ...output,
-      scenes: durations.map((durationSeconds) => ({
-        ...scene,
-        durationSeconds,
-      })),
-    };
-    await assert.rejects(
-      run(
-        generateDraft({
-          context,
-          brief,
-          infer: () => Effect.succeed(inferenceResult(invalid)),
-        }),
-      ),
-      /30–60/,
-    );
-  }
-  const rushed = {
-    ...output,
-    scenes: [
-      { ...scene, voiceover: "palavra ".repeat(31).trim() },
-      scene,
-      scene,
-    ],
-  };
-  await assert.rejects(
-    run(
-      generateDraft({
-        context,
-        brief,
-        infer: () => Effect.succeed(inferenceResult(rushed)),
-      }),
-    ),
-    /3 palavras/,
-  );
-});
 
 test("Official client recovers transient errors, retains pages, rejects malicious/circular/unbounded pagination and non-retryable errors", async () => {
   const url = `${API}/proposicoes/123/votacoes`;
@@ -399,65 +85,41 @@ test("Official client recovers transient errors, retains pages, rejects maliciou
   );
 });
 
-test("Provider-independent generation works through the optional chat adapter; credentials and private provider errors are not archived", async () => {
-  const privateMarker = "TEST_ONLY_DO_NOT_ARCHIVE";
-  const config = {
-    baseUrl: "https://inference.example.invalid/v1",
-    apiKey: Redacted.make(privateMarker),
-    model: "fixture",
+test("Archive stores each artifact under its content hash; the manifest lists every key and sha256 that the stored bytes produce", async () => {
+  const raw = {
+    url: `${API}/proposicoes/123`,
+    collectedAt: "2026-10-29T12:00:00.000Z",
+    body: { dados: { original: "Texto oficial bruto" }, links: [] },
   };
-  const withProvider = (program, response) =>
-    program.pipe(
-      Effect.provide(FetchHttpClient.layer),
-      Effect.provideService(FetchHttpClient.Fetch, async () => response),
-      Effect.provideService(FetchHttpClient.RequestInit, { redirect: "error" }),
-    );
-  const loaded = await run(
-    withProvider(
-      Effect.gen(function* () {
-        const infer = yield* createChatInference(config);
-        const prepared = yield* runPipeline({
-          snapshot: snapshot(),
-          ids: [123],
-          channels: ["whatsapp-channel"],
-          infer,
-        });
-        return yield* loadRun(prepared.key);
-      }),
-      Response.json({
-        choices: [
-          {
-            finish_reason: "stop",
-            message: { content: JSON.stringify(whatsapp()) },
-          },
-        ],
-      }),
-    ),
+  const normalized = { b: 1, a: [{ d: "é", c: null }] };
+  const { key, manifest, objects } = await run(
+    archiveRun([
+      { kind: "raw", value: raw },
+      { kind: "normalized", value: normalized },
+    ]),
   );
-  assert.equal(
-    loaded.artifacts.find((item) => item.kind === "draft").value.payload
-      .headline,
-    "Atendimento público em escolas",
-  );
-  assert.equal(JSON.stringify(loaded).includes(privateMarker), false);
-  for (const response of [
-    new Response(privateMarker, { status: 401 }),
-    Response.json({
-      choices: [
-        { finish_reason: "length", message: { content: privateMarker } },
-      ],
-    }),
-    Response.json({
-      choices: [{ finish_reason: "stop", message: { content: privateMarker } }],
-    }),
-  ]) {
-    const failing = Effect.gen(function* () {
-      const infer = yield* createChatInference(config);
-      return yield* infer({ messages: [], schema: {} });
-    });
-    await assert.rejects(
-      run(withProvider(failing, response)),
-      (error) => !error.message.includes(privateMarker),
-    );
+  assert.equal(manifest.artifacts.length, 2);
+  for (const entry of manifest.artifacts) {
+    const body = objects.get(entry.key);
+    assert.equal(entry.key, `v1/${entry.kind}/${entry.sha256}.json`);
+    assert.equal(createHash("sha256").update(body).digest("hex"), entry.sha256);
+    assert.equal(Buffer.byteLength(body), entry.bytes);
   }
+  assert.equal(
+    objects.get(manifest.artifacts[1].key),
+    '{\n  "a": [\n    {\n      "c": null,\n      "d": "é"\n    }\n  ],\n  "b": 1\n}\n',
+  );
+  const stored = objects.get(key);
+  assert.equal(
+    key,
+    `v1/manifests/${createHash("sha256").update(stored).digest("hex")}.json`,
+  );
+  assert.deepEqual(
+    JSON.parse(stored).artifacts.map(({ kind, key, sha256 }) => ({
+      kind,
+      key,
+      sha256,
+    })),
+    manifest.artifacts.map(({ kind, key, sha256 }) => ({ kind, key, sha256 })),
+  );
 });

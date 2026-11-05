@@ -101,35 +101,32 @@ export const collect = Effect.fn("collect")(
     const voteRefs = yield* Schema.decodeUnknownEffect(
       Schema.Array(VoteReference),
     )(voteList.dados);
-    const recentVotes = yield* Effect.forEach(
-      voteRefs,
-      Effect.fnUntraced(function* (vote) {
-        const response = yield* client.get(`${API}/votacoes/${vote.id}`);
-        const detail = yield* Schema.decodeUnknownEffect(VotingDetail)(
-          response.dados,
-        );
-        if (detail.id !== vote.id)
-          return yield* new PipelineError({
-            stage: "validation",
-            message: "Identificador de votação incompatível com a requisição",
-          });
-        return { raw: response.dados, detail };
-      }),
-      { concurrency: 1 },
+    const fetchVoting = Effect.fnUntraced(function* (id: string) {
+      const response = yield* client.get(`${API}/votacoes/${id}`);
+      const detail = yield* Schema.decodeUnknownEffect(VotingDetail)(
+        response.dados,
+      );
+      if (detail.id !== id)
+        return yield* new PipelineError({
+          stage: "validation",
+          message: "Identificador de votação incompatível com a requisição",
+        });
+      return detail;
+    });
+    const recentVotes = yield* Effect.forEach(voteRefs, (vote) =>
+      fetchVoting(vote.id),
     );
     const ids = [
       ...new Set([
         ...previous.propositions.map((p) => p.id),
         ...requestedIds,
         ...references.map((p) => p.id),
-        ...recentVotes.flatMap((vote) =>
-          (vote.detail.proposicoesAfetadas ?? []).map((p) => p.id),
+        ...recentVotes.flatMap((detail) =>
+          (detail.proposicoesAfetadas ?? []).map((p) => p.id),
         ),
       ]),
     ];
-    const votingDetails = new Map(
-      recentVotes.map(({ detail }) => [detail.id, detail]),
-    );
+    const votingDetails = new Map(recentVotes.map((d) => [d.id, d]));
     const propositions = yield* Effect.forEach(
       ids,
       Effect.fnUntraced(function* (id) {
@@ -149,21 +146,9 @@ export const collect = Effect.fn("collect")(
         const votes = yield* client
           .all(`${API}/proposicoes/${id}/votacoes`)
           .pipe(Effect.flatMap(Schema.decodeUnknownEffect(Schema.Array(Vote))));
-        for (const vote of votes) {
-          if (!votingDetails.has(vote.id)) {
-            const response = yield* client.get(`${API}/votacoes/${vote.id}`);
-            const detail = yield* Schema.decodeUnknownEffect(VotingDetail)(
-              response.dados,
-            );
-            if (detail.id !== vote.id)
-              return yield* new PipelineError({
-                stage: "validation",
-                message:
-                  "Identificador de votação incompatível com a requisição",
-              });
-            votingDetails.set(vote.id, detail);
-          }
-        }
+        for (const vote of votes)
+          if (!votingDetails.has(vote.id))
+            votingDetails.set(vote.id, yield* fetchVoting(vote.id));
         const labels = yield* collectLabels(id);
         const summary = yield* Effect.try({
           try: () => attachSummary(p, summaries),
@@ -196,7 +181,6 @@ export const collect = Effect.fn("collect")(
           summary,
         };
       }),
-      { concurrency: 1 },
     );
     const snapshot = {
       collectedAt,
@@ -209,7 +193,6 @@ export const collect = Effect.fn("collect")(
     const votings = yield* Effect.forEach(
       [...votingDetails.values()].toSorted((a, b) => a.id.localeCompare(b.id)),
       collectBallots,
-      { concurrency: 1 },
     );
     const legislative: LegislativeDataset = {
       schemaVersion: 1,
@@ -247,7 +230,6 @@ export const collect = Effect.fn("collect")(
       snapshot,
       legislative,
       pending,
-      recentVotes: recentVotes.map((vote) => vote.raw),
       raw: (yield* client.raw).map(redactBallotContacts),
     };
   },

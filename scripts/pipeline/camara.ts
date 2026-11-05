@@ -97,15 +97,16 @@ export class Camara extends Context.Service<
   }
 >()("vigia/pipeline/Camara") {}
 
+const TIMEOUT_MS = 30000;
+const BULK_TIMEOUT_MS = 120000;
+
 export function makeCamaraLayer({
   fetcher = globalThis.fetch,
   maxPages = 100,
-  timeoutMs = 30000,
   baseDelayMs = 500,
 }: {
   fetcher?: typeof fetch;
   maxPages?: number;
-  timeoutMs?: number;
   baseDelayMs?: number;
 } = {}) {
   return Layer.effect(
@@ -245,7 +246,7 @@ export function makeCamaraLayer({
         const { body } = yield* download(url, {
           accept: "application/json",
           maxBytes: 10 * 1024 * 1024,
-          timeout: timeoutMs,
+          timeout: TIMEOUT_MS,
         });
         const envelope = yield* decodeEnvelope(body);
         const collectedAt = DateTime.formatIso(yield* DateTime.now);
@@ -266,7 +267,7 @@ export function makeCamaraLayer({
         const { body } = yield* download(url, {
           accept: "application/json",
           maxBytes: 128 * 1024 * 1024,
-          timeout: Math.max(timeoutMs, 120000),
+          timeout: BULK_TIMEOUT_MS,
         });
         const envelope = yield* decodeEnvelope(body);
         return {
@@ -285,7 +286,7 @@ export function makeCamaraLayer({
         const { body, contentType } = yield* download(url, {
           accept: "image/jpeg",
           maxBytes: 1024 * 1024,
-          timeout: timeoutMs,
+          timeout: TIMEOUT_MS,
         });
         // Only real JPEGs are republished; anything else is rejected.
         if (

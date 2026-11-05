@@ -4,7 +4,11 @@ import { mkdtemp, mkdir, readFile, writeFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
-import { sync, officialUrl, sourceHash } from "../scripts/sync.mjs";
+import { Effect } from "effect";
+import { NodeServices } from "@effect/platform-node";
+import { sync } from "../scripts/sync.ts";
+import { officialUrl } from "../scripts/pipeline/camara.ts";
+import { sourceHash } from "../scripts/pipeline/collect.ts";
 
 test("Only HTTPS Câmara sources are accepted, including against lookalike hosts", () => {
   assert.equal(
@@ -20,6 +24,9 @@ test("Only HTTPS Câmara sources are accepted, including against lookalike hosts
   ])
     assert.throws(() => officialUrl(value));
 });
+
+const run = (program) =>
+  Effect.runPromise(program.pipe(Effect.provide(NodeServices.layer)));
 
 test("Sync publishes source-backed summaries, paginated votes and removes stale summaries; API failures preserve the snapshot", async () => {
   const directory = await mkdtemp(join(tmpdir(), "vigia-test-"));
@@ -121,7 +128,7 @@ test("Sync publishes source-backed summaries, paginated votes and removes stale 
         },
       }),
     );
-    await sync();
+    await run(sync());
     let snapshot = JSON.parse(await readFile("static/dados.json", "utf8"));
     assert.equal(
       snapshot.propositions[0].summary.text,
@@ -134,10 +141,6 @@ test("Sync publishes source-backed summaries, paginated votes and removes stale 
     );
     const legislative = JSON.parse(
       await readFile("static/legislativo.json", "utf8"),
-    );
-    assert.deepEqual(
-      legislative,
-      JSON.parse(await readFile("data/legislative.json", "utf8")),
     );
     assert.deepEqual(
       legislative.votings[0].ballots.map((ballot) => [
@@ -161,7 +164,6 @@ test("Sync publishes source-backed summaries, paginated votes and removes stale 
       await readFile("src/lib/data/provenance.json", "utf8"),
     );
     assert.equal(provenance.counts.ballots, 2);
-    assert.equal(provenance.inferenceInThisRun, false);
     for (const entry of provenance.artifacts) {
       const body = await readFile(`static${entry.url}`, "utf8");
       assert.equal(Buffer.byteLength(body), entry.bytes);
@@ -190,7 +192,7 @@ test("Sync publishes source-backed summaries, paginated votes and removes stale 
       [124],
     );
     p.ementa = "Propõe outra regra, diferente da original.";
-    await sync();
+    await run(sync());
     snapshot = JSON.parse(await readFile("static/dados.json", "utf8"));
     assert.equal(snapshot.propositions[0].summary, null);
     assert.equal(snapshot.propositions[0].ementa, p.ementa);
@@ -201,16 +203,15 @@ test("Sync publishes source-backed summaries, paginated votes and removes stale 
     const before = await readFile("static/dados.json", "utf8");
     const ledgerBefore = await readFile("static/legislativo.json", "utf8");
     duplicate = true;
-    await assert.rejects(sync(), /duplicados/);
+    await assert.rejects(run(sync()), /duplicados/);
     assert.equal(
       await readFile("static/legislativo.json", "utf8"),
       ledgerBefore,
     );
     duplicate = false;
     fail = true;
-    await assert.rejects(sync(), /HTTP 503/);
+    await assert.rejects(run(sync()), /HTTP 503/);
     assert.equal(await readFile("static/dados.json", "utf8"), before);
-    assert.equal(await readFile("src/lib/data/portal.json", "utf8"), before);
   } finally {
     process.chdir(cwd);
     globalThis.fetch = originalFetch;
