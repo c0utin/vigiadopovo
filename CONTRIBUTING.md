@@ -38,4 +38,4 @@ Explique o problema, a alteração e como ela foi verificada. Não faça refator
 
 ## Licença
 
-O código e as contribuições de software são disponibilizados sob [MIT](LICENSE). Os documentos e dados legislativos mantêm sua origem e seu regime jurídico; a licença do código não atribui propriedade sobre documentos oficiais ou conteúdo de terceiros.
+O código e as contribuições de software são disponibilizados sob [MIT](LICENSE.md). Os documentos e dados legislativos mantêm sua origem e seu regime jurídico; a licença do código não atribui propriedade sobre documentos oficiais ou conteúdo de terceiros.

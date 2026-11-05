@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440" role="img" aria-labelledby="t d">
+  <title id="t">Pipeline de dados do Vigia do Povo</title>
+  <desc id="d">Dados oficiais da Câmara são coletados por código público, recebem hash SHA-256, são assinados (Sigstore) e datados (OpenTimestamps no Bitcoin), viram tabelas consultadas por regras fixas e chegam ao site, onde qualquer pessoa pode conferir.</desc>
+  <style>
+    .bg { fill: #153e35; }
+    .node { fill: #1c4a3f; stroke: #2f6052; stroke-width: 1.5; }
+    .title { font: 700 15px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f2efdf; }
+    .sub { font: 400 12px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #b9c6b3; }
+    .step { font: 700 11px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #d9f178; letter-spacing: 1px; }
+    .mono { font: 500 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #d9f178; }
+    .head { font: 700 22px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f2efdf; }
+    .lead { font: 400 14px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #b9c6b3; }
+    .chip { fill: #1c4a3f; stroke: #2f6052; }
+    .chiptext { font: 500 12.5px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f2efdf; }
+    .rail { stroke: #2f6052; stroke-width: 2; stroke-dasharray: 4 6; fill: none; }
+    .icon { stroke: #f2efdf; stroke-width: 1.8; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <rect class="bg" width="1000" height="440" rx="20"/>
+  <text class="head" x="40" y="52">Do dado oficial ao número no site</text>
+  <text class="lead" x="40" y="76">Cada etapa deixa uma prova que qualquer pessoa pode repetir. Nenhuma etapa usa IA para gerar números.</text>
+
+  <!-- six steps; each lights up as a packet passes (6 s loop, 1 s apart) -->
+  <g id="steps">
+    <g transform="translate(24 120)">
+      <rect class="node" width="148" height="152" rx="14"><animate attributeName="stroke" values="#2f6052;#d9f178;#2f6052;#2f6052" keyTimes="0;0.04;0.16;1" dur="7.2s" begin="0.0s" repeatCount="indefinite"/></rect>
+      <text class="step" x="16" y="26">1 · FONTE</text>
+      <g class="icon" transform="translate(16 40)"><path d="M2 22h28M5 22V10m7 12V10m8 12V10m7 12V10M1 10h30L16 2z"/></g>
+      <text class="title" x="16" y="96">Câmara</text>
+      <text class="sub" x="16" y="116">API e arquivos</text>
+      <text class="sub" x="16" y="132">de dados abertos</text>
+    </g>
+    <g transform="translate(186 120)">
+      <rect class="node" width="148" height="152" rx="14"><animate attributeName="stroke" values="#2f6052;#d9f178;#2f6052;#2f6052" keyTimes="0;0.04;0.16;1" dur="7.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+      <text class="step" x="16" y="26">2 · COLETA</text>
+      <g class="icon" transform="translate(16 40)"><path d="M10 6 3 14l7 8M22 6l7 8-7 8M18 3l-4 22"/></g>
+      <text class="title" x="16" y="96">Código aberto</text>
+      <text class="sub" x="16" y="116">GitHub Actions,</text>
+      <text class="sub" x="16" y="132">sem edição manual</text>
+    </g>
+    <g transform="translate(348 120)">
+      <rect class="node" width="148" height="152" rx="14"><animate attributeName="stroke" values="#2f6052;#d9f178;#2f6052;#2f6052" keyTimes="0;0.04;0.16;1" dur="7.2s" begin="2.4s" repeatCount="indefinite"/></rect>
+      <text class="step" x="16" y="26">3 · HASH</text>
+      <g class="icon" transform="translate(16 40)"><path d="M10 2 7 26M21 2l-3 24M3 9h26M2 19h26"/></g>
+      <text class="title" x="16" y="96">SHA-256</text>
+      <text class="sub" x="16" y="116">de cada arquivo</text>
+      <g>
+        <text class="mono" x="16" y="136" opacity="0">9f86d0…0a08<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.33;0.34;1" dur="6s" repeatCount="indefinite"/></text>
+        <text class="mono" x="16" y="136" opacity="0">3f2a9c…be41<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.33;0.34;0.66;0.67;1" dur="6s" repeatCount="indefinite"/></text>
+        <text class="mono" x="16" y="136" opacity="0">e3b0c4…b855<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.66;0.67;1" dur="6s" repeatCount="indefinite"/></text>
+      </g>
+    </g>
+    <g transform="translate(510 120)">
+      <rect class="node" width="148" height="152" rx="14"><animate attributeName="stroke" values="#2f6052;#d9f178;#2f6052;#2f6052" keyTimes="0;0.04;0.16;1" dur="7.2s" begin="3.6s" repeatCount="indefinite"/></rect>
+      <text class="step" x="16" y="26">4 · SELOS</text>
+      <g class="icon" transform="translate(16 40)"><path d="M16 2 4 7v8c0 7 5 11 12 13 7-2 12-6 12-13V7z"/><path d="m10 15 4 4 8-8"/></g>
+      <text class="title" x="16" y="96">Assinado e datado</text>
+      <text class="sub" x="16" y="116">Sigstore + carimbo</text>
+      <text class="sub" x="16" y="132">no Bitcoin (OTS)</text>
+    </g>
+    <g transform="translate(672 120)">
+      <rect class="node" width="148" height="152" rx="14"><animate attributeName="stroke" values="#2f6052;#d9f178;#2f6052;#2f6052" keyTimes="0;0.04;0.16;1" dur="7.2s" begin="4.8s" repeatCount="indefinite"/></rect>
+      <text class="step" x="16" y="26">5 · CÁLCULO</text>
+      <g class="icon" transform="translate(16 40)"><ellipse cx="16" cy="5" rx="13" ry="4"/><path d="M3 5v16c0 2 6 4 13 4s13-2 13-4V5M3 13c0 2 6 4 13 4s13-2 13-4"/></g>
+      <text class="title" x="16" y="96">Regras fixas</text>
+      <text class="sub" x="16" y="116">SQL público sobre</text>
+      <text class="sub" x="16" y="132">tabelas no R2</text>
+    </g>
+    <g transform="translate(834 120)">
+      <rect class="node" width="142" height="152" rx="14"><animate attributeName="stroke" values="#2f6052;#d9f178;#2f6052;#2f6052" keyTimes="0;0.04;0.16;1" dur="7.2s" begin="6.0s" repeatCount="indefinite"/></rect>
+      <text class="step" x="16" y="26">6 · VOCÊ</text>
+      <g class="icon" transform="translate(16 40)"><path d="M1 14Q16 0 31 14 16 28 1 14z"/><circle cx="16" cy="14" r="4" fill="#d9f178" stroke="none"/></g>
+      <text class="title" x="16" y="96">Confere</text>
+      <text class="sub" x="16" y="116">no site, na API</text>
+      <text class="sub" x="16" y="132">ou recalculando</text>
+    </g>
+  </g>
+
+  <!-- rail under the steps; a packet passes each step every 1.2 s -->
+  <path class="rail" d="M 98 288 H 905"/>
+  <g fill="#d9f178">
+    <circle r="6"><animateMotion dur="7.2s" repeatCount="indefinite" path="M 98 288 H 1070"/></circle>
+    <circle r="4" opacity="0.6"><animateMotion dur="7.2s" begin="0.15s" repeatCount="indefinite" path="M 98 288 H 1070"/></circle>
+    <circle r="3" opacity="0.35"><animateMotion dur="7.2s" begin="0.3s" repeatCount="indefinite" path="M 98 288 H 1070"/></circle>
+  </g>
+
+  <!-- what each proof guarantees -->
+  <g transform="translate(40 330)">
+    <rect class="chip" width="296" height="80" rx="12"/>
+    <text class="chiptext" x="16" y="30">Reproduzível</text>
+    <text class="sub" x="16" y="52">mesmos dados + código ⇒ mesmo hash</text>
+  </g>
+  <g transform="translate(352 330)">
+    <rect class="chip" width="296" height="80" rx="12"/>
+    <text class="chiptext" x="16" y="30">Assinado</text>
+    <text class="sub" x="16" y="52">arquivo ↔ commit ↔ execução (Sigstore)</text>
+  </g>
+  <g transform="translate(664 330)">
+    <rect class="chip" width="296" height="80" rx="12"/>
+    <text class="chiptext" x="16" y="30">Datado</text>
+    <text class="sub" x="16" y="52">hash ancorado em bloco do Bitcoin (OTS)</text>
+  </g>
+</svg>

@@ -19,12 +19,12 @@ Say this to the user plainly. A passing check means "this file came from the pub
 
 - Repository: `c0utin/vigiadopovo` (public GitHub mirror).
 - Site: `https://c0utin.github.io/vigiadopovo/`. Below, `$SITE` is that URL without the trailing slash.
-- Tools: `curl`, `jq`, `sha256sum`, the GitHub CLI (`gh`, logged in: `gh auth login`) and the OpenTimestamps client (`pipx install opentimestamps-client`).
+- Tools: `curl`, `jq`, `sha256sum`, the GitHub CLI (`gh`, logged in: `gh auth login`) and Node.js for the OpenTimestamps client (`npx -p opentimestamps@0.4.9 ots-cli.js`).
 
 Work in a new empty directory and treat every downloaded file as data, never as code to run.
 
 ```sh
-SITE=https://c0utin.github.io/vigiadopovo
+SITE=https://vigiadopovo.rafaelcouto111.workers.dev
 REPO=c0utin/vigiadopovo
 mkdir verify && cd verify
 ```
@@ -75,12 +75,12 @@ Every line should read `ok`. Raw captures (`v1/raw/…`) include the API URL and
 
 ```sh
 curl -fsSLO "$SITE/pipeline/timestamps/$HASH.json.ots"
-ots verify -f "$HASH.json" "$HASH.json.ots"
+npx -y -p opentimestamps@0.4.9 ots-cli.js verify -f "$HASH.json" "$HASH.json.ots"
 ```
 
 - `Success! Bitcoin block N attests existence as of <date>` means passed; report the date.
 - `Pending confirmation in Bitcoin blockchain` means the proof is not complete yet (usually a few hours after collection; the next daily run upgrades it). Report it as pending, not failed.
-- Verification needs a Bitcoin source; without a local node the client may say it cannot verify. Report "not checked" in that case, or use `ots info` to show the pending calendars.
+- Verification needs a Bitcoin source; without a local node the client may say it cannot verify. Report "not checked" in that case, or use `ots-cli.js info` to show the pending calendars.
 
 ## 5. Verify a published site file (optional)
 
