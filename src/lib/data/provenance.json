@@ -1,688 +1,1288 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-10-30T00:26:20.607Z",
+  "collectedAt": "2026-11-05T17:15:48.598Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
-  "manifestUrl": "/pipeline/v1/manifests/bafb55d22ce811ec3980a3069c03d7beb327a7987c5f409a4752f552bc6cfa95.json",
-  "manifestHash": "bafb55d22ce811ec3980a3069c03d7beb327a7987c5f409a4752f552bc6cfa95",
+  "manifestUrl": "/pipeline/v1/manifests/218fd2c58d3e78edc407fedeb33ad90b1f6d575bfa7bbee804de4fe9118e7411.json",
+  "manifestHash": "218fd2c58d3e78edc407fedeb33ad90b1f6d575bfa7bbee804de4fe9118e7411",
   "artifacts": [
     {
       "kind": "raw",
-      "key": "v1/raw/f08ac56e6f17fcd0f3851ff5ebb0068cde6fad9a02b55401c4e594c23adaefcc.json",
-      "sha256": "f08ac56e6f17fcd0f3851ff5ebb0068cde6fad9a02b55401c4e594c23adaefcc",
-      "bytes": 4973,
-      "url": "/pipeline/v1/raw/f08ac56e6f17fcd0f3851ff5ebb0068cde6fad9a02b55401c4e594c23adaefcc.json",
+      "key": "v1/raw/3151235cf5fba9ca7aeec8eb47b91580de394e44805d09d56a5af2aea1ae5989.json",
+      "sha256": "3151235cf5fba9ca7aeec8eb47b91580de394e44805d09d56a5af2aea1ae5989",
+      "bytes": 3913,
+      "url": "/pipeline/v1/raw/3151235cf5fba9ca7aeec8eb47b91580de394e44805d09d56a5af2aea1ae5989.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
-      "capturedAt": "2026-10-30T00:26:21.911Z",
+      "capturedAt": "2026-11-05T17:15:50.805Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/df20b15d44afb7ee95265c07a2ed7ce0bff2a79be2313a3ee57b8879e84c248b.json",
-      "sha256": "df20b15d44afb7ee95265c07a2ed7ce0bff2a79be2313a3ee57b8879e84c248b",
-      "bytes": 5783,
-      "url": "/pipeline/v1/raw/df20b15d44afb7ee95265c07a2ed7ce0bff2a79be2313a3ee57b8879e84c248b.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-10-01&dataFim=2026-10-29&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
-      "capturedAt": "2026-10-30T00:26:22.321Z",
+      "key": "v1/raw/835f3b6dcd9ccd348ddd89449e8736ec85694bbe2276e267b4dbc3545e9e43f3.json",
+      "sha256": "835f3b6dcd9ccd348ddd89449e8736ec85694bbe2276e267b4dbc3545e9e43f3",
+      "bytes": 5785,
+      "url": "/pipeline/v1/raw/835f3b6dcd9ccd348ddd89449e8736ec85694bbe2276e267b4dbc3545e9e43f3.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-05&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+      "capturedAt": "2026-11-05T17:15:54.906Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/780e2aafdad2e5758902dc7c7c9369f5ea493ade904142a6be4b111d08d4e1e5.json",
-      "sha256": "780e2aafdad2e5758902dc7c7c9369f5ea493ade904142a6be4b111d08d4e1e5",
-      "bytes": 10409,
-      "url": "/pipeline/v1/raw/780e2aafdad2e5758902dc7c7c9369f5ea493ade904142a6be4b111d08d4e1e5.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
-      "capturedAt": "2026-10-30T00:26:22.524Z",
+      "key": "v1/raw/4463d619b264b7dbb5ee1484fe7bb2c5a78b8ad43a6625ba4b6ebd3bb0664b7d.json",
+      "sha256": "4463d619b264b7dbb5ee1484fe7bb2c5a78b8ad43a6625ba4b6ebd3bb0664b7d",
+      "bytes": 9021,
+      "url": "/pipeline/v1/raw/4463d619b264b7dbb5ee1484fe7bb2c5a78b8ad43a6625ba4b6ebd3bb0664b7d.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-53",
+      "capturedAt": "2026-11-05T17:15:55.083Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/3f3966f1ecb8b5ee9add121d05c9d6b52f488f8e6bc02cc2a892d93e6b41fd74.json",
-      "sha256": "3f3966f1ecb8b5ee9add121d05c9d6b52f488f8e6bc02cc2a892d93e6b41fd74",
-      "bytes": 10480,
-      "url": "/pipeline/v1/raw/3f3966f1ecb8b5ee9add121d05c9d6b52f488f8e6bc02cc2a892d93e6b41fd74.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
-      "capturedAt": "2026-10-30T00:26:22.728Z",
+      "key": "v1/raw/3bdf100a4591c2f26d0a1e480e04d9f6495e5b011fc3128ee910902d6b5d0908.json",
+      "sha256": "3bdf100a4591c2f26d0a1e480e04d9f6495e5b011fc3128ee910902d6b5d0908",
+      "bytes": 9039,
+      "url": "/pipeline/v1/raw/3bdf100a4591c2f26d0a1e480e04d9f6495e5b011fc3128ee910902d6b5d0908.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50",
+      "capturedAt": "2026-11-05T17:15:55.262Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/91b88649c561488d21d1fdffe4410b150fa1fef8c94073872e1b59f61ff997b0.json",
-      "sha256": "91b88649c561488d21d1fdffe4410b150fa1fef8c94073872e1b59f61ff997b0",
-      "bytes": 9740,
-      "url": "/pipeline/v1/raw/91b88649c561488d21d1fdffe4410b150fa1fef8c94073872e1b59f61ff997b0.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
-      "capturedAt": "2026-10-30T00:26:22.925Z",
+      "key": "v1/raw/83769bae2cf654fd55565604c270907c63ec683e49580e49b5214fc37c1384a2.json",
+      "sha256": "83769bae2cf654fd55565604c270907c63ec683e49580e49b5214fc37c1384a2",
+      "bytes": 3941,
+      "url": "/pipeline/v1/raw/83769bae2cf654fd55565604c270907c63ec683e49580e49b5214fc37c1384a2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-30",
+      "capturedAt": "2026-11-05T17:15:55.438Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/99606a3a24e6c00dc987eb2d2542d5596d22034c5da9924b8ce04d760aed0f84.json",
-      "sha256": "99606a3a24e6c00dc987eb2d2542d5596d22034c5da9924b8ce04d760aed0f84",
-      "bytes": 3445,
-      "url": "/pipeline/v1/raw/99606a3a24e6c00dc987eb2d2542d5596d22034c5da9924b8ce04d760aed0f84.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
-      "capturedAt": "2026-10-30T00:26:23.125Z",
+      "key": "v1/raw/b17659fb0857937a9f487dc565464995b78f5f93604c0c522253c10d709fc97f.json",
+      "sha256": "b17659fb0857937a9f487dc565464995b78f5f93604c0c522253c10d709fc97f",
+      "bytes": 3902,
+      "url": "/pipeline/v1/raw/b17659fb0857937a9f487dc565464995b78f5f93604c0c522253c10d709fc97f.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-28",
+      "capturedAt": "2026-11-05T17:15:56.634Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/0d0b7bdf5ee64c2cdb6f1d38da700d8b53f03e09b810bf951ba0471c807a13ef.json",
-      "sha256": "0d0b7bdf5ee64c2cdb6f1d38da700d8b53f03e09b810bf951ba0471c807a13ef",
-      "bytes": 3851,
-      "url": "/pipeline/v1/raw/0d0b7bdf5ee64c2cdb6f1d38da700d8b53f03e09b810bf951ba0471c807a13ef.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
-      "capturedAt": "2026-10-30T00:26:23.328Z",
+      "key": "v1/raw/9628af714ca83dca64e8ab39f53b4044853daf1c659f84d51120ed3d990199c1.json",
+      "sha256": "9628af714ca83dca64e8ab39f53b4044853daf1c659f84d51120ed3d990199c1",
+      "bytes": 9801,
+      "url": "/pipeline/v1/raw/9628af714ca83dca64e8ab39f53b4044853daf1c659f84d51120ed3d990199c1.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-37",
+      "capturedAt": "2026-11-05T17:15:56.819Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/ae28614083eb4db34e93dadbf6489b5d91608279a1ddad011c5c176bead4d21d.json",
-      "sha256": "ae28614083eb4db34e93dadbf6489b5d91608279a1ddad011c5c176bead4d21d",
-      "bytes": 3155,
-      "url": "/pipeline/v1/raw/ae28614083eb4db34e93dadbf6489b5d91608279a1ddad011c5c176bead4d21d.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
-      "capturedAt": "2026-10-30T00:26:23.533Z",
+      "key": "v1/raw/5928c8cee8e3aacc8ef7cb98ed491b11e54a38c6057590299adc7de2f79e8158.json",
+      "sha256": "5928c8cee8e3aacc8ef7cb98ed491b11e54a38c6057590299adc7de2f79e8158",
+      "bytes": 9785,
+      "url": "/pipeline/v1/raw/5928c8cee8e3aacc8ef7cb98ed491b11e54a38c6057590299adc7de2f79e8158.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-35",
+      "capturedAt": "2026-11-05T17:15:57.020Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/3f771d1b64c4cc26ec3fd766845a2bf73318761373e3c215ecc4bfb147ad668e.json",
-      "sha256": "3f771d1b64c4cc26ec3fd766845a2bf73318761373e3c215ecc4bfb147ad668e",
-      "bytes": 3302,
-      "url": "/pipeline/v1/raw/3f771d1b64c4cc26ec3fd766845a2bf73318761373e3c215ecc4bfb147ad668e.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
-      "capturedAt": "2026-10-30T00:26:23.740Z",
+      "key": "v1/raw/6a7ec5f9e7ab1036ece12a6ae332cbc773513608d1f7fb306764bc034a8bb374.json",
+      "sha256": "6a7ec5f9e7ab1036ece12a6ae332cbc773513608d1f7fb306764bc034a8bb374",
+      "bytes": 9830,
+      "url": "/pipeline/v1/raw/6a7ec5f9e7ab1036ece12a6ae332cbc773513608d1f7fb306764bc034a8bb374.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32",
+      "capturedAt": "2026-11-05T17:15:57.242Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/8eeaf036e9989505905eca4f741bc30c99149c9d6c4444bc17e6c8c6c5ba7c4c.json",
-      "sha256": "8eeaf036e9989505905eca4f741bc30c99149c9d6c4444bc17e6c8c6c5ba7c4c",
-      "bytes": 5910,
-      "url": "/pipeline/v1/raw/8eeaf036e9989505905eca4f741bc30c99149c9d6c4444bc17e6c8c6c5ba7c4c.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
-      "capturedAt": "2026-10-30T00:26:23.959Z",
+      "key": "v1/raw/5cbfc23abd361059a9a0ac90d8b9a349100a07dff65d907191513d73b304b935.json",
+      "sha256": "5cbfc23abd361059a9a0ac90d8b9a349100a07dff65d907191513d73b304b935",
+      "bytes": 5628,
+      "url": "/pipeline/v1/raw/5cbfc23abd361059a9a0ac90d8b9a349100a07dff65d907191513d73b304b935.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48",
+      "capturedAt": "2026-11-05T17:15:57.425Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/6647ca85a25463d2d3469346cbdc30ebb8bfbcd7d7df9b281124a0213e4ceb27.json",
-      "sha256": "6647ca85a25463d2d3469346cbdc30ebb8bfbcd7d7df9b281124a0213e4ceb27",
-      "bytes": 2257,
-      "url": "/pipeline/v1/raw/6647ca85a25463d2d3469346cbdc30ebb8bfbcd7d7df9b281124a0213e4ceb27.json",
+      "key": "v1/raw/7b3032c5e3bdb829b655abd237166081a73a287f8eb8a7013d4282815ca57508.json",
+      "sha256": "7b3032c5e3bdb829b655abd237166081a73a287f8eb8a7013d4282815ca57508",
+      "bytes": 2520,
+      "url": "/pipeline/v1/raw/7b3032c5e3bdb829b655abd237166081a73a287f8eb8a7013d4282815ca57508.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633",
-      "capturedAt": "2026-10-30T00:26:24.187Z",
+      "capturedAt": "2026-11-05T17:15:57.656Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/1d345462f0e670665c9514abb9a0fdc0ed4a5fa06b025ac3d6ac3f0033facfa0.json",
-      "sha256": "1d345462f0e670665c9514abb9a0fdc0ed4a5fa06b025ac3d6ac3f0033facfa0",
+      "key": "v1/raw/24a7c33874550e8e5e74bc15bc749905fbe048575137e4dec1dcaa2985ae9708.json",
+      "sha256": "24a7c33874550e8e5e74bc15bc749905fbe048575137e4dec1dcaa2985ae9708",
       "bytes": 553,
-      "url": "/pipeline/v1/raw/1d345462f0e670665c9514abb9a0fdc0ed4a5fa06b025ac3d6ac3f0033facfa0.json",
+      "url": "/pipeline/v1/raw/24a7c33874550e8e5e74bc15bc749905fbe048575137e4dec1dcaa2985ae9708.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633/autores",
-      "capturedAt": "2026-10-30T00:26:24.447Z",
+      "capturedAt": "2026-11-05T17:15:57.947Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/e7b69884f31f3f03cb791d85b9aa343e977565cf835d44eb5ffebb2c653e3f48.json",
-      "sha256": "e7b69884f31f3f03cb791d85b9aa343e977565cf835d44eb5ffebb2c653e3f48",
+      "key": "v1/raw/f6b630ef12f5092676caa5ff7cc282612eafebc06bb9ad43295c8a7dc4df847c.json",
+      "sha256": "f6b630ef12f5092676caa5ff7cc282612eafebc06bb9ad43295c8a7dc4df847c",
       "bytes": 314,
-      "url": "/pipeline/v1/raw/e7b69884f31f3f03cb791d85b9aa343e977565cf835d44eb5ffebb2c653e3f48.json",
+      "url": "/pipeline/v1/raw/f6b630ef12f5092676caa5ff7cc282612eafebc06bb9ad43295c8a7dc4df847c.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633/votacoes",
-      "capturedAt": "2026-10-30T00:26:24.671Z",
+      "capturedAt": "2026-11-05T17:15:58.272Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/10f9868cb860fb610345a7f932ca824ad14908461ad62d9c012da01e8d3b5369.json",
-      "sha256": "10f9868cb860fb610345a7f932ca824ad14908461ad62d9c012da01e8d3b5369",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/10f9868cb860fb610345a7f932ca824ad14908461ad62d9c012da01e8d3b5369.json",
+      "key": "v1/raw/38b0ca2212b4a462b53acbe15e86843b00e3ef9cf468a404462a5a4b9db5c5bb.json",
+      "sha256": "38b0ca2212b4a462b53acbe15e86843b00e3ef9cf468a404462a5a4b9db5c5bb",
+      "bytes": 526,
+      "url": "/pipeline/v1/raw/38b0ca2212b4a462b53acbe15e86843b00e3ef9cf468a404462a5a4b9db5c5bb.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649633/temas",
-      "capturedAt": "2026-10-30T00:26:24.923Z",
+      "capturedAt": "2026-11-05T17:15:58.463Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/ea08bc59a733ea592ce87c72a72d0246f60b8d48f1c9388774122abcb0e44ee3.json",
-      "sha256": "ea08bc59a733ea592ce87c72a72d0246f60b8d48f1c9388774122abcb0e44ee3",
-      "bytes": 3365,
-      "url": "/pipeline/v1/raw/ea08bc59a733ea592ce87c72a72d0246f60b8d48f1c9388774122abcb0e44ee3.json",
+      "key": "v1/raw/09ada9657e7d865a73dcabad525b7652131c00f4b5d9c6a19941a39b348e3f8a.json",
+      "sha256": "09ada9657e7d865a73dcabad525b7652131c00f4b5d9c6a19941a39b348e3f8a",
+      "bytes": 3796,
+      "url": "/pipeline/v1/raw/09ada9657e7d865a73dcabad525b7652131c00f4b5d9c6a19941a39b348e3f8a.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560",
-      "capturedAt": "2026-10-30T00:26:25.129Z",
+      "capturedAt": "2026-11-05T17:15:58.662Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/b6e30e9b8ce1b544a85a22d719c138629ea15d21caf0ff742c430a7c63055419.json",
-      "sha256": "b6e30e9b8ce1b544a85a22d719c138629ea15d21caf0ff742c430a7c63055419",
+      "key": "v1/raw/8df5c770837a329d4fb12cd56622d212a9d6ffae57d37f951c88ae0154f31b5c.json",
+      "sha256": "8df5c770837a329d4fb12cd56622d212a9d6ffae57d37f951c88ae0154f31b5c",
       "bytes": 548,
-      "url": "/pipeline/v1/raw/b6e30e9b8ce1b544a85a22d719c138629ea15d21caf0ff742c430a7c63055419.json",
+      "url": "/pipeline/v1/raw/8df5c770837a329d4fb12cd56622d212a9d6ffae57d37f951c88ae0154f31b5c.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560/autores",
-      "capturedAt": "2026-10-30T00:26:25.356Z",
+      "capturedAt": "2026-11-05T17:15:58.851Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/725bdd1240a65729b0c5a1f466ad866cf7610d444704fc58bd549f603d3d5b15.json",
-      "sha256": "725bdd1240a65729b0c5a1f466ad866cf7610d444704fc58bd549f603d3d5b15",
+      "key": "v1/raw/5731e901bc52472dcdc1010f08469b26d553b109895893c4ca3bcd52f59aff86.json",
+      "sha256": "5731e901bc52472dcdc1010f08469b26d553b109895893c4ca3bcd52f59aff86",
       "bytes": 314,
-      "url": "/pipeline/v1/raw/725bdd1240a65729b0c5a1f466ad866cf7610d444704fc58bd549f603d3d5b15.json",
+      "url": "/pipeline/v1/raw/5731e901bc52472dcdc1010f08469b26d553b109895893c4ca3bcd52f59aff86.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560/votacoes",
-      "capturedAt": "2026-10-30T00:26:25.675Z",
+      "capturedAt": "2026-11-05T17:15:59.063Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/566d21485461341af63b6f8e6c0b648e21e89125ef672204853c92891bea8a23.json",
-      "sha256": "566d21485461341af63b6f8e6c0b648e21e89125ef672204853c92891bea8a23",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/566d21485461341af63b6f8e6c0b648e21e89125ef672204853c92891bea8a23.json",
+      "key": "v1/raw/1e4228c0b3df3b1191a95921773fa7ce8961fc453d16dd16bca7d0e8ccca1021.json",
+      "sha256": "1e4228c0b3df3b1191a95921773fa7ce8961fc453d16dd16bca7d0e8ccca1021",
+      "bytes": 513,
+      "url": "/pipeline/v1/raw/1e4228c0b3df3b1191a95921773fa7ce8961fc453d16dd16bca7d0e8ccca1021.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649560/temas",
-      "capturedAt": "2026-10-30T00:26:25.926Z",
+      "capturedAt": "2026-11-05T17:15:59.279Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/5e7418381f52a9b13a6ae6de879b7efec26066eeb0747d4e73c7fd745dccb8f8.json",
-      "sha256": "5e7418381f52a9b13a6ae6de879b7efec26066eeb0747d4e73c7fd745dccb8f8",
-      "bytes": 2316,
-      "url": "/pipeline/v1/raw/5e7418381f52a9b13a6ae6de879b7efec26066eeb0747d4e73c7fd745dccb8f8.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
-      "capturedAt": "2026-10-30T00:26:26.129Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/fc1ee854a2bfd6de57c708d9a97d4f666d5184a2e714b5f47ecab13a93d01550.json",
-      "sha256": "fc1ee854a2bfd6de57c708d9a97d4f666d5184a2e714b5f47ecab13a93d01550",
-      "bytes": 554,
-      "url": "/pipeline/v1/raw/fc1ee854a2bfd6de57c708d9a97d4f666d5184a2e714b5f47ecab13a93d01550.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/autores",
-      "capturedAt": "2026-10-30T00:26:26.368Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/7f95df73887ffffcb6b5be6024172905112485db37b7e1697bc9d10db5c4872a.json",
-      "sha256": "7f95df73887ffffcb6b5be6024172905112485db37b7e1697bc9d10db5c4872a",
-      "bytes": 314,
-      "url": "/pipeline/v1/raw/7f95df73887ffffcb6b5be6024172905112485db37b7e1697bc9d10db5c4872a.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/votacoes",
-      "capturedAt": "2026-10-30T00:26:26.588Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/4ed922409e58f65c89d6e1751eba2fa64a84437434541ff35462d96a756554fd.json",
-      "sha256": "4ed922409e58f65c89d6e1751eba2fa64a84437434541ff35462d96a756554fd",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/4ed922409e58f65c89d6e1751eba2fa64a84437434541ff35462d96a756554fd.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/temas",
-      "capturedAt": "2026-10-30T00:26:26.792Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/509aca57a67c977464277aaa3965537b3fff13112e814f739ddc80377d78eca9.json",
-      "sha256": "509aca57a67c977464277aaa3965537b3fff13112e814f739ddc80377d78eca9",
-      "bytes": 2233,
-      "url": "/pipeline/v1/raw/509aca57a67c977464277aaa3965537b3fff13112e814f739ddc80377d78eca9.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
-      "capturedAt": "2026-10-30T00:26:26.991Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/ce520eb045799cdad319843dea9f625d9cfb313555d49ef55413cf9abc7d36cd.json",
-      "sha256": "ce520eb045799cdad319843dea9f625d9cfb313555d49ef55413cf9abc7d36cd",
-      "bytes": 552,
-      "url": "/pipeline/v1/raw/ce520eb045799cdad319843dea9f625d9cfb313555d49ef55413cf9abc7d36cd.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/autores",
-      "capturedAt": "2026-10-30T00:26:27.205Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/668222a1765ea0535d6dcaacc7cae670a8759dfc197696ee8c55777b93a7efe5.json",
-      "sha256": "668222a1765ea0535d6dcaacc7cae670a8759dfc197696ee8c55777b93a7efe5",
-      "bytes": 314,
-      "url": "/pipeline/v1/raw/668222a1765ea0535d6dcaacc7cae670a8759dfc197696ee8c55777b93a7efe5.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/votacoes",
-      "capturedAt": "2026-10-30T00:26:27.432Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/d171153c10a722547b6943ccbde3b3193f3ff7fddefc894063903fe630d1af4a.json",
-      "sha256": "d171153c10a722547b6943ccbde3b3193f3ff7fddefc894063903fe630d1af4a",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/d171153c10a722547b6943ccbde3b3193f3ff7fddefc894063903fe630d1af4a.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/temas",
-      "capturedAt": "2026-10-30T00:26:27.637Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/76c86b3d831e010ff5382654a497af46442abcf6fec18732bbb7c9063f08d5aa.json",
-      "sha256": "76c86b3d831e010ff5382654a497af46442abcf6fec18732bbb7c9063f08d5aa",
-      "bytes": 2243,
-      "url": "/pipeline/v1/raw/76c86b3d831e010ff5382654a497af46442abcf6fec18732bbb7c9063f08d5aa.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534",
-      "capturedAt": "2026-10-30T00:26:27.840Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/aeb0ef43fbf0908cc0be35d5e1ce2c6b62a7b2f13b1510d86c2d7254865c6a95.json",
-      "sha256": "aeb0ef43fbf0908cc0be35d5e1ce2c6b62a7b2f13b1510d86c2d7254865c6a95",
-      "bytes": 562,
-      "url": "/pipeline/v1/raw/aeb0ef43fbf0908cc0be35d5e1ce2c6b62a7b2f13b1510d86c2d7254865c6a95.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/autores",
-      "capturedAt": "2026-10-30T00:26:28.063Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/95d9366f81ac1757f174b1130fdb3f5ee9b8793fa41d926e31b150dedfb5831e.json",
-      "sha256": "95d9366f81ac1757f174b1130fdb3f5ee9b8793fa41d926e31b150dedfb5831e",
-      "bytes": 314,
-      "url": "/pipeline/v1/raw/95d9366f81ac1757f174b1130fdb3f5ee9b8793fa41d926e31b150dedfb5831e.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/votacoes",
-      "capturedAt": "2026-10-30T00:26:28.284Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/cf4c4752e8876ef9b3372377bc292a1570925dbaf14eab04c7da09ccef61b357.json",
-      "sha256": "cf4c4752e8876ef9b3372377bc292a1570925dbaf14eab04c7da09ccef61b357",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/cf4c4752e8876ef9b3372377bc292a1570925dbaf14eab04c7da09ccef61b357.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/temas",
-      "capturedAt": "2026-10-30T00:26:28.489Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/cd70f5e223fb7e5e53d372e4e7cd72c7b109c7d3a7336358f1cfa8b14a428726.json",
-      "sha256": "cd70f5e223fb7e5e53d372e4e7cd72c7b109c7d3a7336358f1cfa8b14a428726",
-      "bytes": 2387,
-      "url": "/pipeline/v1/raw/cd70f5e223fb7e5e53d372e4e7cd72c7b109c7d3a7336358f1cfa8b14a428726.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526",
-      "capturedAt": "2026-10-30T00:26:28.692Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/9babae60cd03b22211b03b19594faa5c5a3c9fa7d40898767bd853d3bd04a758.json",
-      "sha256": "9babae60cd03b22211b03b19594faa5c5a3c9fa7d40898767bd853d3bd04a758",
-      "bytes": 551,
-      "url": "/pipeline/v1/raw/9babae60cd03b22211b03b19594faa5c5a3c9fa7d40898767bd853d3bd04a758.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/autores",
-      "capturedAt": "2026-10-30T00:26:28.894Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/9886d7dd5ddbaec768adbe07556a9b0a9230a8d556c2846be1bc8e563991c82e.json",
-      "sha256": "9886d7dd5ddbaec768adbe07556a9b0a9230a8d556c2846be1bc8e563991c82e",
-      "bytes": 314,
-      "url": "/pipeline/v1/raw/9886d7dd5ddbaec768adbe07556a9b0a9230a8d556c2846be1bc8e563991c82e.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/votacoes",
-      "capturedAt": "2026-10-30T00:26:29.111Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/97ce3d1e6d48f4f74c8d97e55611eb651947897bb4827ae981fdc808f57b33e9.json",
-      "sha256": "97ce3d1e6d48f4f74c8d97e55611eb651947897bb4827ae981fdc808f57b33e9",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/97ce3d1e6d48f4f74c8d97e55611eb651947897bb4827ae981fdc808f57b33e9.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/temas",
-      "capturedAt": "2026-10-30T00:26:29.316Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/2bf4ae6381d48952bb5da27d8bc177245506e6337baf29eb466ed5739b8c9078.json",
-      "sha256": "2bf4ae6381d48952bb5da27d8bc177245506e6337baf29eb466ed5739b8c9078",
+      "key": "v1/raw/20320cbbabd867d94f4544229c50fa68d072787b7389512819594d76dfa5ab0e.json",
+      "sha256": "20320cbbabd867d94f4544229c50fa68d072787b7389512819594d76dfa5ab0e",
       "bytes": 2559,
-      "url": "/pipeline/v1/raw/2bf4ae6381d48952bb5da27d8bc177245506e6337baf29eb466ed5739b8c9078.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
-      "capturedAt": "2026-10-30T00:26:29.523Z",
+      "url": "/pipeline/v1/raw/20320cbbabd867d94f4544229c50fa68d072787b7389512819594d76dfa5ab0e.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558",
+      "capturedAt": "2026-11-05T17:15:59.475Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/d1d51002b28a308a39a2e782d33bcd061bacba88812c32e87c21527977757ced.json",
-      "sha256": "d1d51002b28a308a39a2e782d33bcd061bacba88812c32e87c21527977757ced",
-      "bytes": 551,
-      "url": "/pipeline/v1/raw/d1d51002b28a308a39a2e782d33bcd061bacba88812c32e87c21527977757ced.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/autores",
-      "capturedAt": "2026-10-30T00:26:29.732Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/8d81fb9043ca75206be84301fc423a5236a1023ee434abf8a23e1517edc62cce.json",
-      "sha256": "8d81fb9043ca75206be84301fc423a5236a1023ee434abf8a23e1517edc62cce",
-      "bytes": 971,
-      "url": "/pipeline/v1/raw/8d81fb9043ca75206be84301fc423a5236a1023ee434abf8a23e1517edc62cce.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/votacoes",
-      "capturedAt": "2026-10-30T00:26:29.974Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/d1a2a26b9b715112fd6d49cdbeae91c10d1e8d703e9e7a98a3f18fcd272e4004.json",
-      "sha256": "d1a2a26b9b715112fd6d49cdbeae91c10d1e8d703e9e7a98a3f18fcd272e4004",
-      "bytes": 642,
-      "url": "/pipeline/v1/raw/d1a2a26b9b715112fd6d49cdbeae91c10d1e8d703e9e7a98a3f18fcd272e4004.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas",
-      "capturedAt": "2026-10-30T00:26:30.171Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/6d44709ade90bd0b9f3994b4c689d0cd7d758c1edce5f331c9ab2147aca20f9c.json",
-      "sha256": "6d44709ade90bd0b9f3994b4c689d0cd7d758c1edce5f331c9ab2147aca20f9c",
-      "bytes": 2663,
-      "url": "/pipeline/v1/raw/6d44709ade90bd0b9f3994b4c689d0cd7d758c1edce5f331c9ab2147aca20f9c.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
-      "capturedAt": "2026-10-30T00:26:30.373Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/201e598ef5d775d6c840ea5caa14b1cc277bc905eafb951e6fb1933389c5d6d0.json",
-      "sha256": "201e598ef5d775d6c840ea5caa14b1cc277bc905eafb951e6fb1933389c5d6d0",
-      "bytes": 599,
-      "url": "/pipeline/v1/raw/201e598ef5d775d6c840ea5caa14b1cc277bc905eafb951e6fb1933389c5d6d0.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/autores",
-      "capturedAt": "2026-10-30T00:26:30.575Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/a411e6efd0a7dc3b64d5c012c881bfca44f58508b39e49a61c56d1e9b152cfe3.json",
-      "sha256": "a411e6efd0a7dc3b64d5c012c881bfca44f58508b39e49a61c56d1e9b152cfe3",
-      "bytes": 2652,
-      "url": "/pipeline/v1/raw/a411e6efd0a7dc3b64d5c012c881bfca44f58508b39e49a61c56d1e9b152cfe3.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/votacoes",
-      "capturedAt": "2026-10-30T00:26:30.845Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/8f530174ac819cc410667332540edc3ef8147381c0786faf6fb8c054845c0d3b.json",
-      "sha256": "8f530174ac819cc410667332540edc3ef8147381c0786faf6fb8c054845c0d3b",
-      "bytes": 2995,
-      "url": "/pipeline/v1/raw/8f530174ac819cc410667332540edc3ef8147381c0786faf6fb8c054845c0d3b.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21",
-      "capturedAt": "2026-10-30T00:26:31.080Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/50634ff9db8de5b99aa007072f7d155f451a113e38538ea49552e0378b07d232.json",
-      "sha256": "50634ff9db8de5b99aa007072f7d155f451a113e38538ea49552e0378b07d232",
-      "bytes": 553,
-      "url": "/pipeline/v1/raw/50634ff9db8de5b99aa007072f7d155f451a113e38538ea49552e0378b07d232.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas",
-      "capturedAt": "2026-10-30T00:26:31.280Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/47b0cc6cad4294fd37a2ec38968235c0604eabfc81865445ebd01d343fa3b337.json",
-      "sha256": "47b0cc6cad4294fd37a2ec38968235c0604eabfc81865445ebd01d343fa3b337",
-      "bytes": 2485,
-      "url": "/pipeline/v1/raw/47b0cc6cad4294fd37a2ec38968235c0604eabfc81865445ebd01d343fa3b337.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
-      "capturedAt": "2026-10-30T00:26:31.496Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/79f532e59f3bd162e105c1b63796c417bbf46abccb3456814f49f4d86bd39b09.json",
-      "sha256": "79f532e59f3bd162e105c1b63796c417bbf46abccb3456814f49f4d86bd39b09",
-      "bytes": 555,
-      "url": "/pipeline/v1/raw/79f532e59f3bd162e105c1b63796c417bbf46abccb3456814f49f4d86bd39b09.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/autores",
-      "capturedAt": "2026-10-30T00:26:31.706Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/3db096dc7389272ee6ee63abebb297f6ad2ae832473aa1c022dbf97b4ed5b957.json",
-      "sha256": "3db096dc7389272ee6ee63abebb297f6ad2ae832473aa1c022dbf97b4ed5b957",
-      "bytes": 853,
-      "url": "/pipeline/v1/raw/3db096dc7389272ee6ee63abebb297f6ad2ae832473aa1c022dbf97b4ed5b957.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/votacoes",
-      "capturedAt": "2026-10-30T00:26:31.951Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/f24b09ae14089efb11f83ddcac4be1d11cb93bf40d906caef57592694bd14cab.json",
-      "sha256": "f24b09ae14089efb11f83ddcac4be1d11cb93bf40d906caef57592694bd14cab",
-      "bytes": 657,
-      "url": "/pipeline/v1/raw/f24b09ae14089efb11f83ddcac4be1d11cb93bf40d906caef57592694bd14cab.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas",
-      "capturedAt": "2026-10-30T00:26:32.184Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/91a223a58d141b672e43b4c10d2a9274b92ccb182d56668e5b95bb127e365a3c.json",
-      "sha256": "91a223a58d141b672e43b4c10d2a9274b92ccb182d56668e5b95bb127e365a3c",
-      "bytes": 2738,
-      "url": "/pipeline/v1/raw/91a223a58d141b672e43b4c10d2a9274b92ccb182d56668e5b95bb127e365a3c.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
-      "capturedAt": "2026-10-30T00:26:32.391Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/83d06c1f3c61b15bc5adc3352deaa381b91226155f2ddf714db0e3bce8c8f4c0.json",
-      "sha256": "83d06c1f3c61b15bc5adc3352deaa381b91226155f2ddf714db0e3bce8c8f4c0",
-      "bytes": 552,
-      "url": "/pipeline/v1/raw/83d06c1f3c61b15bc5adc3352deaa381b91226155f2ddf714db0e3bce8c8f4c0.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/autores",
-      "capturedAt": "2026-10-30T00:26:32.601Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/95c8c52b432875c6e3308fa520510f82856a4b3355fd26bf6b26398268c01450.json",
-      "sha256": "95c8c52b432875c6e3308fa520510f82856a4b3355fd26bf6b26398268c01450",
-      "bytes": 853,
-      "url": "/pipeline/v1/raw/95c8c52b432875c6e3308fa520510f82856a4b3355fd26bf6b26398268c01450.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/votacoes",
-      "capturedAt": "2026-10-30T00:26:32.858Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/4aeaec37ffd56fdbf025c14f5c6dc60f5b57f836dbc819e8e3aa323252b5e93c.json",
-      "sha256": "4aeaec37ffd56fdbf025c14f5c6dc60f5b57f836dbc819e8e3aa323252b5e93c",
-      "bytes": 715,
-      "url": "/pipeline/v1/raw/4aeaec37ffd56fdbf025c14f5c6dc60f5b57f836dbc819e8e3aa323252b5e93c.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas",
-      "capturedAt": "2026-10-30T00:26:33.060Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/c9669f0fff7a72c83cd8d71c5b33926df06d5d07207e6b1e0a576781def30fe0.json",
-      "sha256": "c9669f0fff7a72c83cd8d71c5b33926df06d5d07207e6b1e0a576781def30fe0",
-      "bytes": 2301,
-      "url": "/pipeline/v1/raw/c9669f0fff7a72c83cd8d71c5b33926df06d5d07207e6b1e0a576781def30fe0.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
-      "capturedAt": "2026-10-30T00:26:33.269Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/6f8cd8277766608f9caa26d44f1e4fb4bfca9abbfaa4d7d7d063b1b27d3bd1cd.json",
-      "sha256": "6f8cd8277766608f9caa26d44f1e4fb4bfca9abbfaa4d7d7d063b1b27d3bd1cd",
+      "key": "v1/raw/370436fe6ee2ae65ae6c90f7400a835e2598d7a5b73a6fd948698ccbd8d3f4c5.json",
+      "sha256": "370436fe6ee2ae65ae6c90f7400a835e2598d7a5b73a6fd948698ccbd8d3f4c5",
       "bytes": 554,
-      "url": "/pipeline/v1/raw/6f8cd8277766608f9caa26d44f1e4fb4bfca9abbfaa4d7d7d063b1b27d3bd1cd.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/autores",
-      "capturedAt": "2026-10-30T00:26:33.516Z",
+      "url": "/pipeline/v1/raw/370436fe6ee2ae65ae6c90f7400a835e2598d7a5b73a6fd948698ccbd8d3f4c5.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/autores",
+      "capturedAt": "2026-11-05T17:15:59.661Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/b5cff9e8d6a93f6972a4836f737810d5aa5efb23b79f6d2f6d371125f15e8960.json",
-      "sha256": "b5cff9e8d6a93f6972a4836f737810d5aa5efb23b79f6d2f6d371125f15e8960",
-      "bytes": 853,
-      "url": "/pipeline/v1/raw/b5cff9e8d6a93f6972a4836f737810d5aa5efb23b79f6d2f6d371125f15e8960.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/votacoes",
-      "capturedAt": "2026-10-30T00:26:33.764Z",
+      "key": "v1/raw/af94a516452ac4fd217c287755f541cc2074c6cde63926c3c20309f7072305f1.json",
+      "sha256": "af94a516452ac4fd217c287755f541cc2074c6cde63926c3c20309f7072305f1",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/af94a516452ac4fd217c287755f541cc2074c6cde63926c3c20309f7072305f1.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/votacoes",
+      "capturedAt": "2026-11-05T17:15:59.875Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/2033473f15d2928e60c0f23e19d124173cf609735ebe0065f626a78c4cef35a8.json",
-      "sha256": "2033473f15d2928e60c0f23e19d124173cf609735ebe0065f626a78c4cef35a8",
-      "bytes": 629,
-      "url": "/pipeline/v1/raw/2033473f15d2928e60c0f23e19d124173cf609735ebe0065f626a78c4cef35a8.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas",
-      "capturedAt": "2026-10-30T00:26:33.967Z",
+      "key": "v1/raw/22e59d5be3c9d024d53c6fe05010f536ba18d29a6276bd4e45db9dd5f97f8335.json",
+      "sha256": "22e59d5be3c9d024d53c6fe05010f536ba18d29a6276bd4e45db9dd5f97f8335",
+      "bytes": 530,
+      "url": "/pipeline/v1/raw/22e59d5be3c9d024d53c6fe05010f536ba18d29a6276bd4e45db9dd5f97f8335.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649558/temas",
+      "capturedAt": "2026-11-05T17:16:00.068Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/932416f163aa72b94db43927ab55f54f473c86b31ca62f8f21351047eb2fde39.json",
-      "sha256": "932416f163aa72b94db43927ab55f54f473c86b31ca62f8f21351047eb2fde39",
-      "bytes": 1929,
-      "url": "/pipeline/v1/raw/932416f163aa72b94db43927ab55f54f473c86b31ca62f8f21351047eb2fde39.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
-      "capturedAt": "2026-10-30T00:26:34.174Z",
+      "key": "v1/raw/4cab112329ef600a465238a5623d0e74e33c521af3dd149ddc44f2fc3b6d7f51.json",
+      "sha256": "4cab112329ef600a465238a5623d0e74e33c521af3dd149ddc44f2fc3b6d7f51",
+      "bytes": 2382,
+      "url": "/pipeline/v1/raw/4cab112329ef600a465238a5623d0e74e33c521af3dd149ddc44f2fc3b6d7f51.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535",
+      "capturedAt": "2026-11-05T17:16:00.255Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/0eadc3e17e7d1e858b1db4775e24f92d087c395b4b37a72ac647faffbd9f06f5.json",
-      "sha256": "0eadc3e17e7d1e858b1db4775e24f92d087c395b4b37a72ac647faffbd9f06f5",
-      "bytes": 44135,
-      "url": "/pipeline/v1/raw/0eadc3e17e7d1e858b1db4775e24f92d087c395b4b37a72ac647faffbd9f06f5.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/autores",
-      "capturedAt": "2026-10-30T00:26:35.462Z",
+      "key": "v1/raw/323714188c9a71d02e97c58f6b03bed4ce01d044c2df89d00706f54963143e4f.json",
+      "sha256": "323714188c9a71d02e97c58f6b03bed4ce01d044c2df89d00706f54963143e4f",
+      "bytes": 552,
+      "url": "/pipeline/v1/raw/323714188c9a71d02e97c58f6b03bed4ce01d044c2df89d00706f54963143e4f.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/autores",
+      "capturedAt": "2026-11-05T17:16:00.439Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/3eb1b5ce63e6565125ff27ca206dd00863fb622d973548f0aafc062ebf03952b.json",
-      "sha256": "3eb1b5ce63e6565125ff27ca206dd00863fb622d973548f0aafc062ebf03952b",
-      "bytes": 988,
-      "url": "/pipeline/v1/raw/3eb1b5ce63e6565125ff27ca206dd00863fb622d973548f0aafc062ebf03952b.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/votacoes",
-      "capturedAt": "2026-10-30T00:26:35.690Z",
+      "key": "v1/raw/3b846c83b94e49ac0df79099c8d897b08d06fec444748e99ee9e9361f8249e82.json",
+      "sha256": "3b846c83b94e49ac0df79099c8d897b08d06fec444748e99ee9e9361f8249e82",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/3b846c83b94e49ac0df79099c8d897b08d06fec444748e99ee9e9361f8249e82.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/votacoes",
+      "capturedAt": "2026-11-05T17:16:00.814Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/a11677aa19438705f731d60bd8849a615796ad850ecbb43f6a0010665544021a.json",
-      "sha256": "a11677aa19438705f731d60bd8849a615796ad850ecbb43f6a0010665544021a",
-      "bytes": 2971,
-      "url": "/pipeline/v1/raw/a11677aa19438705f731d60bd8849a615796ad850ecbb43f6a0010665544021a.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13",
-      "capturedAt": "2026-10-30T00:26:35.908Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/aaf704baf9d45c779896c762549f4f1ae3d31a532a9fa31fb41fb83173cc0d17.json",
-      "sha256": "aaf704baf9d45c779896c762549f4f1ae3d31a532a9fa31fb41fb83173cc0d17",
-      "bytes": 308,
-      "url": "/pipeline/v1/raw/aaf704baf9d45c779896c762549f4f1ae3d31a532a9fa31fb41fb83173cc0d17.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/temas",
-      "capturedAt": "2026-10-30T00:26:36.114Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/896c7d22bb5500f584198ce74fcb2e7d5b8024f55a457f1a3d0a6e59a7b9fdf3.json",
-      "sha256": "896c7d22bb5500f584198ce74fcb2e7d5b8024f55a457f1a3d0a6e59a7b9fdf3",
-      "bytes": 2026,
-      "url": "/pipeline/v1/raw/896c7d22bb5500f584198ce74fcb2e7d5b8024f55a457f1a3d0a6e59a7b9fdf3.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
-      "capturedAt": "2026-10-30T00:26:36.320Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/93681635e0e7584a2dabaf7af53e0aea09a4135be1feccb77968b9d7636fcb04.json",
-      "sha256": "93681635e0e7584a2dabaf7af53e0aea09a4135be1feccb77968b9d7636fcb04",
-      "bytes": 556,
-      "url": "/pipeline/v1/raw/93681635e0e7584a2dabaf7af53e0aea09a4135be1feccb77968b9d7636fcb04.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores",
-      "capturedAt": "2026-10-30T00:26:36.534Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/173ffc8c8a1671f74d935b8f67b0c166ca97f75544db96aa414ea4ada63b2257.json",
-      "sha256": "173ffc8c8a1671f74d935b8f67b0c166ca97f75544db96aa414ea4ada63b2257",
-      "bytes": 2574,
-      "url": "/pipeline/v1/raw/173ffc8c8a1671f74d935b8f67b0c166ca97f75544db96aa414ea4ada63b2257.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/votacoes",
-      "capturedAt": "2026-10-30T00:26:36.869Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/0579798d95e6adf5e56ddabed1af7ea4f73c46ad2e3d037a9633db1cb67c4f37.json",
-      "sha256": "0579798d95e6adf5e56ddabed1af7ea4f73c46ad2e3d037a9633db1cb67c4f37",
-      "bytes": 3511,
-      "url": "/pipeline/v1/raw/0579798d95e6adf5e56ddabed1af7ea4f73c46ad2e3d037a9633db1cb67c4f37.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72",
-      "capturedAt": "2026-10-30T00:26:37.116Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/b5e3751459f0813cffc62b07edd8f0b2377f7db31955278f92064633de73c980.json",
-      "sha256": "b5e3751459f0813cffc62b07edd8f0b2377f7db31955278f92064633de73c980",
-      "bytes": 2828,
-      "url": "/pipeline/v1/raw/b5e3751459f0813cffc62b07edd8f0b2377f7db31955278f92064633de73c980.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54",
-      "capturedAt": "2026-10-30T00:26:37.361Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/d8a813b06aa821d35428cf698f99aec9cb2fbd078dc73ae5c584fce554defbdf.json",
-      "sha256": "d8a813b06aa821d35428cf698f99aec9cb2fbd078dc73ae5c584fce554defbdf",
-      "bytes": 3854,
-      "url": "/pipeline/v1/raw/d8a813b06aa821d35428cf698f99aec9cb2fbd078dc73ae5c584fce554defbdf.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37",
-      "capturedAt": "2026-10-30T00:26:37.598Z",
-      "redactions": []
-    },
-    {
-      "kind": "raw",
-      "key": "v1/raw/b2d41d34456c39ebb4e55a30646b8505e37798e1bcaa5050985c7c616144e3da.json",
-      "sha256": "b2d41d34456c39ebb4e55a30646b8505e37798e1bcaa5050985c7c616144e3da",
+      "key": "v1/raw/5eff697a0fbf16fddd3fa25aaccddf213bec65c14b835db51d30f4003010028d.json",
+      "sha256": "5eff697a0fbf16fddd3fa25aaccddf213bec65c14b835db51d30f4003010028d",
       "bytes": 428,
-      "url": "/pipeline/v1/raw/b2d41d34456c39ebb4e55a30646b8505e37798e1bcaa5050985c7c616144e3da.json",
-      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas",
-      "capturedAt": "2026-10-30T00:26:37.804Z",
+      "url": "/pipeline/v1/raw/5eff697a0fbf16fddd3fa25aaccddf213bec65c14b835db51d30f4003010028d.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649535/temas",
+      "capturedAt": "2026-11-05T17:16:00.996Z",
       "redactions": []
     },
     {
       "kind": "raw",
-      "key": "v1/raw/562dc6cf31c048f941c3a7be860b4350a4e7245756a2807b4d80107a2b2c64d1.json",
-      "sha256": "562dc6cf31c048f941c3a7be860b4350a4e7245756a2807b4d80107a2b2c64d1",
+      "key": "v1/raw/9fb72f58e54f41831762b7b1e4f281729dcb77f80202409ed9e7e7cc996504d6.json",
+      "sha256": "9fb72f58e54f41831762b7b1e4f281729dcb77f80202409ed9e7e7cc996504d6",
+      "bytes": 2476,
+      "url": "/pipeline/v1/raw/9fb72f58e54f41831762b7b1e4f281729dcb77f80202409ed9e7e7cc996504d6.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534",
+      "capturedAt": "2026-11-05T17:16:01.186Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/afe4ec7277f4a1e698971f41481db5d2e01f82ec1c5d2085daeb2cd3e59806f0.json",
+      "sha256": "afe4ec7277f4a1e698971f41481db5d2e01f82ec1c5d2085daeb2cd3e59806f0",
+      "bytes": 562,
+      "url": "/pipeline/v1/raw/afe4ec7277f4a1e698971f41481db5d2e01f82ec1c5d2085daeb2cd3e59806f0.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/autores",
+      "capturedAt": "2026-11-05T17:16:01.367Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/d934d99c5583828c0181d2e27c3f86bb791e0925c59d2658559660ec1c5651bd.json",
+      "sha256": "d934d99c5583828c0181d2e27c3f86bb791e0925c59d2658559660ec1c5651bd",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/d934d99c5583828c0181d2e27c3f86bb791e0925c59d2658559660ec1c5651bd.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/votacoes",
+      "capturedAt": "2026-11-05T17:16:01.657Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/43d071158297ac36e4c97ffab57354b4fdeb1c0cffaa607265b655e1ba3230c5.json",
+      "sha256": "43d071158297ac36e4c97ffab57354b4fdeb1c0cffaa607265b655e1ba3230c5",
+      "bytes": 641,
+      "url": "/pipeline/v1/raw/43d071158297ac36e4c97ffab57354b4fdeb1c0cffaa607265b655e1ba3230c5.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649534/temas",
+      "capturedAt": "2026-11-05T17:16:01.897Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/39a17fc8ef90275b45fdd59d563e3b4d3a3f5908c1f3154175f42ab274e3bea7.json",
+      "sha256": "39a17fc8ef90275b45fdd59d563e3b4d3a3f5908c1f3154175f42ab274e3bea7",
+      "bytes": 2646,
+      "url": "/pipeline/v1/raw/39a17fc8ef90275b45fdd59d563e3b4d3a3f5908c1f3154175f42ab274e3bea7.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526",
+      "capturedAt": "2026-11-05T17:16:02.099Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/f2c1ee996dde1f3299f1978a7e3591a26188cb2c7b58ac84559dffc6975473f5.json",
+      "sha256": "f2c1ee996dde1f3299f1978a7e3591a26188cb2c7b58ac84559dffc6975473f5",
+      "bytes": 551,
+      "url": "/pipeline/v1/raw/f2c1ee996dde1f3299f1978a7e3591a26188cb2c7b58ac84559dffc6975473f5.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/autores",
+      "capturedAt": "2026-11-05T17:16:02.332Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/a12b027cb297099bf1e044ce557bff7a77eb8b7df3ece9ea7f4b295674e8a372.json",
+      "sha256": "a12b027cb297099bf1e044ce557bff7a77eb8b7df3ece9ea7f4b295674e8a372",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/a12b027cb297099bf1e044ce557bff7a77eb8b7df3ece9ea7f4b295674e8a372.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/votacoes",
+      "capturedAt": "2026-11-05T17:16:02.564Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4b0ba8ea3f084541b00a27ee1c67d3a7fe64ceb0894376fbc987a2085e0e4cfa.json",
+      "sha256": "4b0ba8ea3f084541b00a27ee1c67d3a7fe64ceb0894376fbc987a2085e0e4cfa",
+      "bytes": 420,
+      "url": "/pipeline/v1/raw/4b0ba8ea3f084541b00a27ee1c67d3a7fe64ceb0894376fbc987a2085e0e4cfa.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649526/temas",
+      "capturedAt": "2026-11-05T17:16:02.764Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/9cd40fc7c58220c84a4fb321e1179dc6aba50e558ebdcfdd1919f9f1002b6647.json",
+      "sha256": "9cd40fc7c58220c84a4fb321e1179dc6aba50e558ebdcfdd1919f9f1002b6647",
+      "bytes": 2481,
+      "url": "/pipeline/v1/raw/9cd40fc7c58220c84a4fb321e1179dc6aba50e558ebdcfdd1919f9f1002b6647.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427",
+      "capturedAt": "2026-11-05T17:16:03.042Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/f45dec0a52a3046fb0258729384f4fb3ee8caac9c4de8ee6017234bdcea44cad.json",
+      "sha256": "f45dec0a52a3046fb0258729384f4fb3ee8caac9c4de8ee6017234bdcea44cad",
+      "bytes": 551,
+      "url": "/pipeline/v1/raw/f45dec0a52a3046fb0258729384f4fb3ee8caac9c4de8ee6017234bdcea44cad.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/autores",
+      "capturedAt": "2026-11-05T17:16:03.231Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/2c126e918388a4b15aaef55422631bae1b5a043801d8454195aeb21b761439fb.json",
+      "sha256": "2c126e918388a4b15aaef55422631bae1b5a043801d8454195aeb21b761439fb",
+      "bytes": 971,
+      "url": "/pipeline/v1/raw/2c126e918388a4b15aaef55422631bae1b5a043801d8454195aeb21b761439fb.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/votacoes",
+      "capturedAt": "2026-11-05T17:16:03.494Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/6e8345d52c86d56f0af1a7a46cb8d21110dfc4f9fdd64d0b4d225caa088cb0c7.json",
+      "sha256": "6e8345d52c86d56f0af1a7a46cb8d21110dfc4f9fdd64d0b4d225caa088cb0c7",
+      "bytes": 3851,
+      "url": "/pipeline/v1/raw/6e8345d52c86d56f0af1a7a46cb8d21110dfc4f9fdd64d0b4d225caa088cb0c7.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+      "capturedAt": "2026-11-05T17:16:03.672Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/88fc89181dee3c695cda18e8657e5a15f43deeb223d6d3f13f4b57858cb2ee19.json",
+      "sha256": "88fc89181dee3c695cda18e8657e5a15f43deeb223d6d3f13f4b57858cb2ee19",
+      "bytes": 642,
+      "url": "/pipeline/v1/raw/88fc89181dee3c695cda18e8657e5a15f43deeb223d6d3f13f4b57858cb2ee19.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/temas",
+      "capturedAt": "2026-11-05T17:16:03.874Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/c73731a964aa9f47ddf74303fe1ef20d6057016c92eaf387c217d65fcbae4cac.json",
+      "sha256": "c73731a964aa9f47ddf74303fe1ef20d6057016c92eaf387c217d65fcbae4cac",
+      "bytes": 2663,
+      "url": "/pipeline/v1/raw/c73731a964aa9f47ddf74303fe1ef20d6057016c92eaf387c217d65fcbae4cac.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905",
+      "capturedAt": "2026-11-05T17:16:04.079Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/d7e690f359228075ef7bbd159c05b883268cc0f76420ccabf4bdf63783aadb03.json",
+      "sha256": "d7e690f359228075ef7bbd159c05b883268cc0f76420ccabf4bdf63783aadb03",
+      "bytes": 599,
+      "url": "/pipeline/v1/raw/d7e690f359228075ef7bbd159c05b883268cc0f76420ccabf4bdf63783aadb03.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/autores",
+      "capturedAt": "2026-11-05T17:16:04.260Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/9143473751c1720c3d9547d9d6825340fad3df73f3602f8a3a31ef829a33040a.json",
+      "sha256": "9143473751c1720c3d9547d9d6825340fad3df73f3602f8a3a31ef829a33040a",
+      "bytes": 2652,
+      "url": "/pipeline/v1/raw/9143473751c1720c3d9547d9d6825340fad3df73f3602f8a3a31ef829a33040a.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/votacoes",
+      "capturedAt": "2026-11-05T17:16:04.539Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/6c8628a09042c548c45af0660103d8d2a1792ee3978b4843281507c98ac5efb8.json",
+      "sha256": "6c8628a09042c548c45af0660103d8d2a1792ee3978b4843281507c98ac5efb8",
+      "bytes": 10409,
+      "url": "/pipeline/v1/raw/6c8628a09042c548c45af0660103d8d2a1792ee3978b4843281507c98ac5efb8.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56",
+      "capturedAt": "2026-11-05T17:16:04.760Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/2cfe73d375fda055be7d5620eced36f50d13e623155a77739ba0c81b413a3a5f.json",
+      "sha256": "2cfe73d375fda055be7d5620eced36f50d13e623155a77739ba0c81b413a3a5f",
+      "bytes": 10480,
+      "url": "/pipeline/v1/raw/2cfe73d375fda055be7d5620eced36f50d13e623155a77739ba0c81b413a3a5f.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53",
+      "capturedAt": "2026-11-05T17:16:04.996Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/9b2dfbc48c6f10a52c0de8a87085264d6f991f138afc9049002afa165121b12b.json",
+      "sha256": "9b2dfbc48c6f10a52c0de8a87085264d6f991f138afc9049002afa165121b12b",
+      "bytes": 9740,
+      "url": "/pipeline/v1/raw/9b2dfbc48c6f10a52c0de8a87085264d6f991f138afc9049002afa165121b12b.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48",
+      "capturedAt": "2026-11-05T17:16:05.252Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/bd05e1eb66d35f87564396512b71c1883e7e8fb27f9eb242b5b186fdd1d658d9.json",
+      "sha256": "bd05e1eb66d35f87564396512b71c1883e7e8fb27f9eb242b5b186fdd1d658d9",
+      "bytes": 2995,
+      "url": "/pipeline/v1/raw/bd05e1eb66d35f87564396512b71c1883e7e8fb27f9eb242b5b186fdd1d658d9.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21",
+      "capturedAt": "2026-11-05T17:16:05.668Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4d8a3cc13e5a524b6e288bd82c8aba2e3a9ae7c1002a651486bd276100dfab11.json",
+      "sha256": "4d8a3cc13e5a524b6e288bd82c8aba2e3a9ae7c1002a651486bd276100dfab11",
+      "bytes": 553,
+      "url": "/pipeline/v1/raw/4d8a3cc13e5a524b6e288bd82c8aba2e3a9ae7c1002a651486bd276100dfab11.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2620905/temas",
+      "capturedAt": "2026-11-05T17:16:05.867Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/ff35294265cbc35367c2c474f5e19332f560a1081ee7cc7c763be745af24f386.json",
+      "sha256": "ff35294265cbc35367c2c474f5e19332f560a1081ee7cc7c763be745af24f386",
+      "bytes": 2479,
+      "url": "/pipeline/v1/raw/ff35294265cbc35367c2c474f5e19332f560a1081ee7cc7c763be745af24f386.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087",
+      "capturedAt": "2026-11-05T17:16:06.047Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/c41f6b99fb134d951e85902a5742339a18d0b957adb4e81d7edb6bc2446df335.json",
+      "sha256": "c41f6b99fb134d951e85902a5742339a18d0b957adb4e81d7edb6bc2446df335",
+      "bytes": 555,
+      "url": "/pipeline/v1/raw/c41f6b99fb134d951e85902a5742339a18d0b957adb4e81d7edb6bc2446df335.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/autores",
+      "capturedAt": "2026-11-05T17:16:06.259Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/e170af5114f0978ae8bd851d13b2a6afe0a1c5086a73b3aabd97ab1cd12b8dde.json",
+      "sha256": "e170af5114f0978ae8bd851d13b2a6afe0a1c5086a73b3aabd97ab1cd12b8dde",
+      "bytes": 853,
+      "url": "/pipeline/v1/raw/e170af5114f0978ae8bd851d13b2a6afe0a1c5086a73b3aabd97ab1cd12b8dde.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/votacoes",
+      "capturedAt": "2026-11-05T17:16:06.557Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/8d3c5ae3b37adbfdf1424d15e13fac6f00e652ac14dd2c68faed59e469ddfcf0.json",
+      "sha256": "8d3c5ae3b37adbfdf1424d15e13fac6f00e652ac14dd2c68faed59e469ddfcf0",
+      "bytes": 5910,
+      "url": "/pipeline/v1/raw/8d3c5ae3b37adbfdf1424d15e13fac6f00e652ac14dd2c68faed59e469ddfcf0.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22",
+      "capturedAt": "2026-11-05T17:16:06.754Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/03b9015507074df4359a4e35ffca3db26327adc75318c1d83b4ee0387c17dd9a.json",
+      "sha256": "03b9015507074df4359a4e35ffca3db26327adc75318c1d83b4ee0387c17dd9a",
+      "bytes": 657,
+      "url": "/pipeline/v1/raw/03b9015507074df4359a4e35ffca3db26327adc75318c1d83b4ee0387c17dd9a.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2618087/temas",
+      "capturedAt": "2026-11-05T17:16:06.935Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/20cfa3cf83e3ce9997635ba9c1d395df50dba8954b588a915349731eb0d0826d.json",
+      "sha256": "20cfa3cf83e3ce9997635ba9c1d395df50dba8954b588a915349731eb0d0826d",
+      "bytes": 2766,
+      "url": "/pipeline/v1/raw/20cfa3cf83e3ce9997635ba9c1d395df50dba8954b588a915349731eb0d0826d.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852",
+      "capturedAt": "2026-11-05T17:16:07.129Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/00ac06de3b7a246dc5a37e1c7e49d92a34f4989be2c4a7736b34909e5db624ca.json",
+      "sha256": "00ac06de3b7a246dc5a37e1c7e49d92a34f4989be2c4a7736b34909e5db624ca",
+      "bytes": 552,
+      "url": "/pipeline/v1/raw/00ac06de3b7a246dc5a37e1c7e49d92a34f4989be2c4a7736b34909e5db624ca.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/autores",
+      "capturedAt": "2026-11-05T17:16:07.311Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/8e1bcf86f4ddfdcad2276a68a4ea2688bbce05f22510f6a7fc182ba4098c69fb.json",
+      "sha256": "8e1bcf86f4ddfdcad2276a68a4ea2688bbce05f22510f6a7fc182ba4098c69fb",
+      "bytes": 853,
+      "url": "/pipeline/v1/raw/8e1bcf86f4ddfdcad2276a68a4ea2688bbce05f22510f6a7fc182ba4098c69fb.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/votacoes",
+      "capturedAt": "2026-11-05T17:16:07.515Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/2b9ac0e5d5c14bd91f9019510aaac809ececbb13b2763b73685643324f259fa4.json",
+      "sha256": "2b9ac0e5d5c14bd91f9019510aaac809ececbb13b2763b73685643324f259fa4",
+      "bytes": 3155,
+      "url": "/pipeline/v1/raw/2b9ac0e5d5c14bd91f9019510aaac809ececbb13b2763b73685643324f259fa4.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22",
+      "capturedAt": "2026-11-05T17:16:07.724Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/e40f81c69447d7b283b687eee02e1613ac8936adc384bbe6ccd3552e577b8587.json",
+      "sha256": "e40f81c69447d7b283b687eee02e1613ac8936adc384bbe6ccd3552e577b8587",
+      "bytes": 715,
+      "url": "/pipeline/v1/raw/e40f81c69447d7b283b687eee02e1613ac8936adc384bbe6ccd3552e577b8587.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2613852/temas",
+      "capturedAt": "2026-11-05T17:16:07.928Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/24d0cad7c3edf27829997aa0c2afd2a33e1449b943a0fc37e8779f7ebeb1eafb.json",
+      "sha256": "24d0cad7c3edf27829997aa0c2afd2a33e1449b943a0fc37e8779f7ebeb1eafb",
+      "bytes": 2329,
+      "url": "/pipeline/v1/raw/24d0cad7c3edf27829997aa0c2afd2a33e1449b943a0fc37e8779f7ebeb1eafb.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566",
+      "capturedAt": "2026-11-05T17:16:08.105Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/39120ba67b96729b73f697d9e8912c666573bb1b5d06873ba0c796ebe9f5c083.json",
+      "sha256": "39120ba67b96729b73f697d9e8912c666573bb1b5d06873ba0c796ebe9f5c083",
+      "bytes": 554,
+      "url": "/pipeline/v1/raw/39120ba67b96729b73f697d9e8912c666573bb1b5d06873ba0c796ebe9f5c083.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/autores",
+      "capturedAt": "2026-11-05T17:16:08.304Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/5dc07eae13ad69991ae94cf1ea73dd792b51ca95ec59db1b9c9b2f4ddab0ae99.json",
+      "sha256": "5dc07eae13ad69991ae94cf1ea73dd792b51ca95ec59db1b9c9b2f4ddab0ae99",
+      "bytes": 853,
+      "url": "/pipeline/v1/raw/5dc07eae13ad69991ae94cf1ea73dd792b51ca95ec59db1b9c9b2f4ddab0ae99.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/votacoes",
+      "capturedAt": "2026-11-05T17:16:08.610Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/f09f60b5da32a2503d994bfbbbfac1efc01ce62cd8114f15cc674b80cf6bd715.json",
+      "sha256": "f09f60b5da32a2503d994bfbbbfac1efc01ce62cd8114f15cc674b80cf6bd715",
+      "bytes": 3302,
+      "url": "/pipeline/v1/raw/f09f60b5da32a2503d994bfbbbfac1efc01ce62cd8114f15cc674b80cf6bd715.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22",
+      "capturedAt": "2026-11-05T17:16:08.968Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/88306aee9bef7a43cb9b669b6ec0b5d5db49ba9852bc714041b604bbc89273cb.json",
+      "sha256": "88306aee9bef7a43cb9b669b6ec0b5d5db49ba9852bc714041b604bbc89273cb",
+      "bytes": 629,
+      "url": "/pipeline/v1/raw/88306aee9bef7a43cb9b669b6ec0b5d5db49ba9852bc714041b604bbc89273cb.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612566/temas",
+      "capturedAt": "2026-11-05T17:16:09.212Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/393acec44c2650921e655cfdab6696423cb36eee2ae834e4f6e6470e2ad61715.json",
+      "sha256": "393acec44c2650921e655cfdab6696423cb36eee2ae834e4f6e6470e2ad61715",
+      "bytes": 1929,
+      "url": "/pipeline/v1/raw/393acec44c2650921e655cfdab6696423cb36eee2ae834e4f6e6470e2ad61715.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961",
+      "capturedAt": "2026-11-05T17:16:09.450Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/eb771783e6b11a15b1ed77f5490655c65869b184ac1ef048db7f5c22e6777a60.json",
+      "sha256": "eb771783e6b11a15b1ed77f5490655c65869b184ac1ef048db7f5c22e6777a60",
+      "bytes": 44135,
+      "url": "/pipeline/v1/raw/eb771783e6b11a15b1ed77f5490655c65869b184ac1ef048db7f5c22e6777a60.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/autores",
+      "capturedAt": "2026-11-05T17:16:12.000Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/ab976b2669092d3a91a5e8de21ebbe5bdb56419566a931c30cbfa4af365d2bb9.json",
+      "sha256": "ab976b2669092d3a91a5e8de21ebbe5bdb56419566a931c30cbfa4af365d2bb9",
+      "bytes": 988,
+      "url": "/pipeline/v1/raw/ab976b2669092d3a91a5e8de21ebbe5bdb56419566a931c30cbfa4af365d2bb9.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/votacoes",
+      "capturedAt": "2026-11-05T17:16:12.254Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/71dcc3aa467b33726ce49a430acb7e2cce123e5a32f636d36f2aba800c2ca6ee.json",
+      "sha256": "71dcc3aa467b33726ce49a430acb7e2cce123e5a32f636d36f2aba800c2ca6ee",
+      "bytes": 2971,
+      "url": "/pipeline/v1/raw/71dcc3aa467b33726ce49a430acb7e2cce123e5a32f636d36f2aba800c2ca6ee.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13",
+      "capturedAt": "2026-11-05T17:16:12.495Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/7bf483ef51ceb2ec46100ef854db666aed6d0b28c52a1a92fc1743e7e2c22fe7.json",
+      "sha256": "7bf483ef51ceb2ec46100ef854db666aed6d0b28c52a1a92fc1743e7e2c22fe7",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/7bf483ef51ceb2ec46100ef854db666aed6d0b28c52a1a92fc1743e7e2c22fe7.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961/temas",
+      "capturedAt": "2026-11-05T17:16:12.687Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/e14524b6d3595e900352dc823f46abff4942313664eefab3cd1536785ba7be71.json",
+      "sha256": "e14524b6d3595e900352dc823f46abff4942313664eefab3cd1536785ba7be71",
+      "bytes": 1967,
+      "url": "/pipeline/v1/raw/e14524b6d3595e900352dc823f46abff4942313664eefab3cd1536785ba7be71.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "capturedAt": "2026-11-05T17:16:12.869Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/234d28b808efeb37bffbc00ba5db346a7f239edde0702aa5d856800ebfb08440.json",
+      "sha256": "234d28b808efeb37bffbc00ba5db346a7f239edde0702aa5d856800ebfb08440",
+      "bytes": 556,
+      "url": "/pipeline/v1/raw/234d28b808efeb37bffbc00ba5db346a7f239edde0702aa5d856800ebfb08440.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores",
+      "capturedAt": "2026-11-05T17:16:13.065Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/51ca40964abe98641e6240afcc1643619a0bd080d7c77ac85a470411803f44b9.json",
+      "sha256": "51ca40964abe98641e6240afcc1643619a0bd080d7c77ac85a470411803f44b9",
+      "bytes": 2574,
+      "url": "/pipeline/v1/raw/51ca40964abe98641e6240afcc1643619a0bd080d7c77ac85a470411803f44b9.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/votacoes",
+      "capturedAt": "2026-11-05T17:16:13.276Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/580892050a1a45e4d8bace3be949a3b2955acdf47f8901d1b7884c11d7e8d4f2.json",
+      "sha256": "580892050a1a45e4d8bace3be949a3b2955acdf47f8901d1b7884c11d7e8d4f2",
+      "bytes": 3445,
+      "url": "/pipeline/v1/raw/580892050a1a45e4d8bace3be949a3b2955acdf47f8901d1b7884c11d7e8d4f2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7",
+      "capturedAt": "2026-11-05T17:16:13.457Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/01f056ec864875503b489925ffccf3afd3736f68d2fd92a05c7b2afdb13f35d0.json",
+      "sha256": "01f056ec864875503b489925ffccf3afd3736f68d2fd92a05c7b2afdb13f35d0",
+      "bytes": 3511,
+      "url": "/pipeline/v1/raw/01f056ec864875503b489925ffccf3afd3736f68d2fd92a05c7b2afdb13f35d0.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72",
+      "capturedAt": "2026-11-05T17:16:13.731Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/24027d186f820a012cc73245784283bc5bb8852aea10f3f3403e58697ecc640d.json",
+      "sha256": "24027d186f820a012cc73245784283bc5bb8852aea10f3f3403e58697ecc640d",
+      "bytes": 2828,
+      "url": "/pipeline/v1/raw/24027d186f820a012cc73245784283bc5bb8852aea10f3f3403e58697ecc640d.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54",
+      "capturedAt": "2026-11-05T17:16:13.976Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/10cc60abb991f3f8dc1403d5f762b572ac946faa79ba7e2d86d50e061946bc70.json",
+      "sha256": "10cc60abb991f3f8dc1403d5f762b572ac946faa79ba7e2d86d50e061946bc70",
+      "bytes": 3854,
+      "url": "/pipeline/v1/raw/10cc60abb991f3f8dc1403d5f762b572ac946faa79ba7e2d86d50e061946bc70.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37",
+      "capturedAt": "2026-11-05T17:16:14.172Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/ce8a276141d5f0df49b596d21ae8a3bf00c12aa669e431957e21e3c66c328c73.json",
+      "sha256": "ce8a276141d5f0df49b596d21ae8a3bf00c12aa669e431957e21e3c66c328c73",
+      "bytes": 428,
+      "url": "/pipeline/v1/raw/ce8a276141d5f0df49b596d21ae8a3bf00c12aa669e431957e21e3c66c328c73.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas",
+      "capturedAt": "2026-11-05T17:16:14.369Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/7e89cbdb3496b3b09048713c64bef71d058354ce71bc0bf696a7d70f63ad6216.json",
+      "sha256": "7e89cbdb3496b3b09048713c64bef71d058354ce71bc0bf696a7d70f63ad6216",
+      "bytes": 2111,
+      "url": "/pipeline/v1/raw/7e89cbdb3496b3b09048713c64bef71d058354ce71bc0bf696a7d70f63ad6216.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186",
+      "capturedAt": "2026-11-05T17:16:14.564Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/359125557de0b8c572149edf3093c176aec4eaa3e2562753e5db19e696282906.json",
+      "sha256": "359125557de0b8c572149edf3093c176aec4eaa3e2562753e5db19e696282906",
+      "bytes": 550,
+      "url": "/pipeline/v1/raw/359125557de0b8c572149edf3093c176aec4eaa3e2562753e5db19e696282906.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/autores",
+      "capturedAt": "2026-11-05T17:16:14.786Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4802f9c8b3332b421510d0940d85e7aade516dd2af7f243f08fb3fbdf552d376.json",
+      "sha256": "4802f9c8b3332b421510d0940d85e7aade516dd2af7f243f08fb3fbdf552d376",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/4802f9c8b3332b421510d0940d85e7aade516dd2af7f243f08fb3fbdf552d376.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/votacoes",
+      "capturedAt": "2026-11-05T17:16:15.059Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/102862a6cdf2335dac30ea4da637c37c704a8778253c70f7ba8386b805d35d7a.json",
+      "sha256": "102862a6cdf2335dac30ea4da637c37c704a8778253c70f7ba8386b805d35d7a",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/102862a6cdf2335dac30ea4da637c37c704a8778253c70f7ba8386b805d35d7a.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/temas",
+      "capturedAt": "2026-11-05T17:16:15.264Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/f79db14b4673708095627eaf7668d702dbab3d01f3f96673475fb472bea2611c.json",
+      "sha256": "f79db14b4673708095627eaf7668d702dbab3d01f3f96673475fb472bea2611c",
+      "bytes": 2185,
+      "url": "/pipeline/v1/raw/f79db14b4673708095627eaf7668d702dbab3d01f3f96673475fb472bea2611c.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185",
+      "capturedAt": "2026-11-05T17:16:15.451Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/31757e3835963951ec101dfaea9b7b3e62cbcc0c4806be0a0184d173150c888f.json",
+      "sha256": "31757e3835963951ec101dfaea9b7b3e62cbcc0c4806be0a0184d173150c888f",
+      "bytes": 550,
+      "url": "/pipeline/v1/raw/31757e3835963951ec101dfaea9b7b3e62cbcc0c4806be0a0184d173150c888f.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/autores",
+      "capturedAt": "2026-11-05T17:16:15.674Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/14d22a0b423e8b4c7a67fbc80ea4d8b7f48773a200886a6839c1ff539fdd5a0f.json",
+      "sha256": "14d22a0b423e8b4c7a67fbc80ea4d8b7f48773a200886a6839c1ff539fdd5a0f",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/14d22a0b423e8b4c7a67fbc80ea4d8b7f48773a200886a6839c1ff539fdd5a0f.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/votacoes",
+      "capturedAt": "2026-11-05T17:16:15.998Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/0818b7a58a119ec5c154b2e7faed1771aa1febe681373d8e591e1af8fd0f8d5a.json",
+      "sha256": "0818b7a58a119ec5c154b2e7faed1771aa1febe681373d8e591e1af8fd0f8d5a",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/0818b7a58a119ec5c154b2e7faed1771aa1febe681373d8e591e1af8fd0f8d5a.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/temas",
+      "capturedAt": "2026-11-05T17:16:16.225Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/0a0b724de1018f3d0e7cbf14283f1fc00c0a5e05141714af62bd17c1a0ed1ca9.json",
+      "sha256": "0a0b724de1018f3d0e7cbf14283f1fc00c0a5e05141714af62bd17c1a0ed1ca9",
+      "bytes": 2208,
+      "url": "/pipeline/v1/raw/0a0b724de1018f3d0e7cbf14283f1fc00c0a5e05141714af62bd17c1a0ed1ca9.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158",
+      "capturedAt": "2026-11-05T17:16:16.404Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/8487060455d52848a096326a8ed9e675085736be4545862ccc37f75e2b88e99e.json",
+      "sha256": "8487060455d52848a096326a8ed9e675085736be4545862ccc37f75e2b88e99e",
+      "bytes": 566,
+      "url": "/pipeline/v1/raw/8487060455d52848a096326a8ed9e675085736be4545862ccc37f75e2b88e99e.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/autores",
+      "capturedAt": "2026-11-05T17:16:16.588Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/053b5817ef33a578f5e70af3509283e3132da09d11fa4916a99b46a49a6b4008.json",
+      "sha256": "053b5817ef33a578f5e70af3509283e3132da09d11fa4916a99b46a49a6b4008",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/053b5817ef33a578f5e70af3509283e3132da09d11fa4916a99b46a49a6b4008.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/votacoes",
+      "capturedAt": "2026-11-05T17:16:16.844Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/1b262a68cc0e27b1a4ab7ecd24f09988f490c87688d97edf2170323134381b5a.json",
+      "sha256": "1b262a68cc0e27b1a4ab7ecd24f09988f490c87688d97edf2170323134381b5a",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/1b262a68cc0e27b1a4ab7ecd24f09988f490c87688d97edf2170323134381b5a.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/temas",
+      "capturedAt": "2026-11-05T17:16:17.029Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/ef587b3a39eb3b3c3c2190edbed5f67cda75045bf59a228ce4eb02a41417a3e6.json",
+      "sha256": "ef587b3a39eb3b3c3c2190edbed5f67cda75045bf59a228ce4eb02a41417a3e6",
+      "bytes": 2074,
+      "url": "/pipeline/v1/raw/ef587b3a39eb3b3c3c2190edbed5f67cda75045bf59a228ce4eb02a41417a3e6.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114",
+      "capturedAt": "2026-11-05T17:16:17.213Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/3b33566fb42a6727e33e6a44559cfc5a63c5f8c288131b6bb4ffb086a3088fe2.json",
+      "sha256": "3b33566fb42a6727e33e6a44559cfc5a63c5f8c288131b6bb4ffb086a3088fe2",
+      "bytes": 563,
+      "url": "/pipeline/v1/raw/3b33566fb42a6727e33e6a44559cfc5a63c5f8c288131b6bb4ffb086a3088fe2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114/autores",
+      "capturedAt": "2026-11-05T17:16:17.393Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/23b1445bf1c7a908e494c3f29ba853742afbabd7681eff669ff0a91538e903d6.json",
+      "sha256": "23b1445bf1c7a908e494c3f29ba853742afbabd7681eff669ff0a91538e903d6",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/23b1445bf1c7a908e494c3f29ba853742afbabd7681eff669ff0a91538e903d6.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114/votacoes",
+      "capturedAt": "2026-11-05T17:16:17.645Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/d7b7005d62cae7fe2b3d5026bfa6ee65de39dd6e8c69c9943cbe6e5224edeb40.json",
+      "sha256": "d7b7005d62cae7fe2b3d5026bfa6ee65de39dd6e8c69c9943cbe6e5224edeb40",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/d7b7005d62cae7fe2b3d5026bfa6ee65de39dd6e8c69c9943cbe6e5224edeb40.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114/temas",
+      "capturedAt": "2026-11-05T17:16:17.879Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/8a7cf3c7c5edb3a61ae848e227601ee5796afd631cda34bcbf7a0a838fce9aa0.json",
+      "sha256": "8a7cf3c7c5edb3a61ae848e227601ee5796afd631cda34bcbf7a0a838fce9aa0",
+      "bytes": 2122,
+      "url": "/pipeline/v1/raw/8a7cf3c7c5edb3a61ae848e227601ee5796afd631cda34bcbf7a0a838fce9aa0.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110",
+      "capturedAt": "2026-11-05T17:16:18.083Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/ca41b49eb2a53d132f2192e6df01f03964edc7ad55883871d22c58472c2abcab.json",
+      "sha256": "ca41b49eb2a53d132f2192e6df01f03964edc7ad55883871d22c58472c2abcab",
+      "bytes": 562,
+      "url": "/pipeline/v1/raw/ca41b49eb2a53d132f2192e6df01f03964edc7ad55883871d22c58472c2abcab.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110/autores",
+      "capturedAt": "2026-11-05T17:16:18.262Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/544ed261d786ec96f00b001f60d9c9362beec68a71c628a5eaca6103d0adf0a1.json",
+      "sha256": "544ed261d786ec96f00b001f60d9c9362beec68a71c628a5eaca6103d0adf0a1",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/544ed261d786ec96f00b001f60d9c9362beec68a71c628a5eaca6103d0adf0a1.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110/votacoes",
+      "capturedAt": "2026-11-05T17:16:18.491Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/53b6e6dde59536f287049f257e092e07143fd725f136921aa2242ea702642050.json",
+      "sha256": "53b6e6dde59536f287049f257e092e07143fd725f136921aa2242ea702642050",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/53b6e6dde59536f287049f257e092e07143fd725f136921aa2242ea702642050.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110/temas",
+      "capturedAt": "2026-11-05T17:16:18.693Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/373f154850dc22b0dcbaf9feedc6691e1d63d117cebd6700ad4bab29de9711af.json",
+      "sha256": "373f154850dc22b0dcbaf9feedc6691e1d63d117cebd6700ad4bab29de9711af",
+      "bytes": 2041,
+      "url": "/pipeline/v1/raw/373f154850dc22b0dcbaf9feedc6691e1d63d117cebd6700ad4bab29de9711af.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096",
+      "capturedAt": "2026-11-05T17:16:18.875Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/2a1785d351e388c3abed90aeaf17e19fcac1462c73e24636f1f3e2ca4f33e122.json",
+      "sha256": "2a1785d351e388c3abed90aeaf17e19fcac1462c73e24636f1f3e2ca4f33e122",
+      "bytes": 557,
+      "url": "/pipeline/v1/raw/2a1785d351e388c3abed90aeaf17e19fcac1462c73e24636f1f3e2ca4f33e122.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/autores",
+      "capturedAt": "2026-11-05T17:16:19.139Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/5cb905a844286aa6fffb99ccd08fa060368102012b1e7b5e0eec42b654537d01.json",
+      "sha256": "5cb905a844286aa6fffb99ccd08fa060368102012b1e7b5e0eec42b654537d01",
+      "bytes": 314,
+      "url": "/pipeline/v1/raw/5cb905a844286aa6fffb99ccd08fa060368102012b1e7b5e0eec42b654537d01.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/votacoes",
+      "capturedAt": "2026-11-05T17:16:19.343Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4c92c4f7bc04270ed75ef876c4593f7ee5157459130f323b7cd9540df5a8234c.json",
+      "sha256": "4c92c4f7bc04270ed75ef876c4593f7ee5157459130f323b7cd9540df5a8234c",
+      "bytes": 308,
+      "url": "/pipeline/v1/raw/4c92c4f7bc04270ed75ef876c4593f7ee5157459130f323b7cd9540df5a8234c.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/temas",
+      "capturedAt": "2026-11-05T17:16:19.556Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/d63fec03b0ab86615ebb127e3a8bb62a47e5c1b23b105bb0585534cdf0c77c51.json",
+      "sha256": "d63fec03b0ab86615ebb127e3a8bb62a47e5c1b23b105bb0585534cdf0c77c51",
+      "bytes": 3113,
+      "url": "/pipeline/v1/raw/d63fec03b0ab86615ebb127e3a8bb62a47e5c1b23b105bb0585534cdf0c77c51.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437",
+      "capturedAt": "2026-11-05T17:16:19.735Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/65599ab49c6b381a67d76e34a6b213f895698f0730a2449081009ca66a39f019.json",
+      "sha256": "65599ab49c6b381a67d76e34a6b213f895698f0730a2449081009ca66a39f019",
+      "bytes": 556,
+      "url": "/pipeline/v1/raw/65599ab49c6b381a67d76e34a6b213f895698f0730a2449081009ca66a39f019.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/autores",
+      "capturedAt": "2026-11-05T17:16:19.934Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/0533be68c622eeb347c59e7de3a09bfad02cb960c789048e879789f1da0f7843.json",
+      "sha256": "0533be68c622eeb347c59e7de3a09bfad02cb960c789048e879789f1da0f7843",
+      "bytes": 4540,
+      "url": "/pipeline/v1/raw/0533be68c622eeb347c59e7de3a09bfad02cb960c789048e879789f1da0f7843.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/votacoes",
+      "capturedAt": "2026-11-05T17:16:20.181Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/ef521e605c4d31b9e16cbb01c64fa1693e3783e9a4f8be0e12f41a852375e126.json",
+      "sha256": "ef521e605c4d31b9e16cbb01c64fa1693e3783e9a4f8be0e12f41a852375e126",
+      "bytes": 2287,
+      "url": "/pipeline/v1/raw/ef521e605c4d31b9e16cbb01c64fa1693e3783e9a4f8be0e12f41a852375e126.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-20",
+      "capturedAt": "2026-11-05T17:16:20.431Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/34942d1ccc9e8f613ff45ca61125d81ddf12086c31ed00fc08d622cae5c00181.json",
+      "sha256": "34942d1ccc9e8f613ff45ca61125d81ddf12086c31ed00fc08d622cae5c00181",
+      "bytes": 2285,
+      "url": "/pipeline/v1/raw/34942d1ccc9e8f613ff45ca61125d81ddf12086c31ed00fc08d622cae5c00181.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-19",
+      "capturedAt": "2026-11-05T17:16:20.743Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/064b869acb6d7934eb3d9a6068182ce20765de6f395049770a57027e6967b613.json",
+      "sha256": "064b869acb6d7934eb3d9a6068182ce20765de6f395049770a57027e6967b613",
+      "bytes": 2286,
+      "url": "/pipeline/v1/raw/064b869acb6d7934eb3d9a6068182ce20765de6f395049770a57027e6967b613.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-18",
+      "capturedAt": "2026-11-05T17:16:21.042Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/6b0a806882c4e0cb36657dccd2c7168c2bf83065137bc2dc3d6248894dbd3ad2.json",
+      "sha256": "6b0a806882c4e0cb36657dccd2c7168c2bf83065137bc2dc3d6248894dbd3ad2",
+      "bytes": 2286,
+      "url": "/pipeline/v1/raw/6b0a806882c4e0cb36657dccd2c7168c2bf83065137bc2dc3d6248894dbd3ad2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-17",
+      "capturedAt": "2026-11-05T17:16:21.239Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/56f4302c070aad347ceef670cdc2f17d8bbe380a251b71ca603945ea180e8801.json",
+      "sha256": "56f4302c070aad347ceef670cdc2f17d8bbe380a251b71ca603945ea180e8801",
+      "bytes": 6745,
+      "url": "/pipeline/v1/raw/56f4302c070aad347ceef670cdc2f17d8bbe380a251b71ca603945ea180e8801.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2595870-8",
+      "capturedAt": "2026-11-05T17:16:21.432Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/b5800cbbbf83897f58f0393320ba80ce8aa664330b1974655edef2b31eb1cce0.json",
+      "sha256": "b5800cbbbf83897f58f0393320ba80ce8aa664330b1974655edef2b31eb1cce0",
+      "bytes": 616,
+      "url": "/pipeline/v1/raw/b5800cbbbf83897f58f0393320ba80ce8aa664330b1974655edef2b31eb1cce0.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/temas",
+      "capturedAt": "2026-11-05T17:16:21.778Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/0beeff56a820a0135705fa11089e9555232bdfe8864d5c9630f4854b419e94d2.json",
+      "sha256": "0beeff56a820a0135705fa11089e9555232bdfe8864d5c9630f4854b419e94d2",
+      "bytes": 2074,
+      "url": "/pipeline/v1/raw/0beeff56a820a0135705fa11089e9555232bdfe8864d5c9630f4854b419e94d2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613",
+      "capturedAt": "2026-11-05T17:16:21.956Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/abcd648d0076dd0d09fcf20deea0d812014f66c5ef0141ab2dcced6680176415.json",
+      "sha256": "abcd648d0076dd0d09fcf20deea0d812014f66c5ef0141ab2dcced6680176415",
+      "bytes": 565,
+      "url": "/pipeline/v1/raw/abcd648d0076dd0d09fcf20deea0d812014f66c5ef0141ab2dcced6680176415.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613/autores",
+      "capturedAt": "2026-11-05T17:16:22.134Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/5e190a1a163632956b8e6716c140d1cd4839b3e4004c9eb9628e6af944c9bf51.json",
+      "sha256": "5e190a1a163632956b8e6716c140d1cd4839b3e4004c9eb9628e6af944c9bf51",
+      "bytes": 3298,
+      "url": "/pipeline/v1/raw/5e190a1a163632956b8e6716c140d1cd4839b3e4004c9eb9628e6af944c9bf51.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613/votacoes",
+      "capturedAt": "2026-11-05T17:16:22.640Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/d4500327e31050e2da71c58a2c1114fc2e385b25cdd82701b603940e71de1306.json",
+      "sha256": "d4500327e31050e2da71c58a2c1114fc2e385b25cdd82701b603940e71de1306",
+      "bytes": 1539,
+      "url": "/pipeline/v1/raw/d4500327e31050e2da71c58a2c1114fc2e385b25cdd82701b603940e71de1306.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-12",
+      "capturedAt": "2026-11-05T17:16:22.911Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/a91bc3f1a37a4b514ac8d6a037b0e7f724ac5d3971a0c2ee7bcc07ae83e8e005.json",
+      "sha256": "a91bc3f1a37a4b514ac8d6a037b0e7f724ac5d3971a0c2ee7bcc07ae83e8e005",
+      "bytes": 1538,
+      "url": "/pipeline/v1/raw/a91bc3f1a37a4b514ac8d6a037b0e7f724ac5d3971a0c2ee7bcc07ae83e8e005.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-11",
+      "capturedAt": "2026-11-05T17:16:23.824Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/521586241ca41210b112b86ed905b62abf6947a72632c1e6ba163d44589956fd.json",
+      "sha256": "521586241ca41210b112b86ed905b62abf6947a72632c1e6ba163d44589956fd",
+      "bytes": 4571,
+      "url": "/pipeline/v1/raw/521586241ca41210b112b86ed905b62abf6947a72632c1e6ba163d44589956fd.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612448-7",
+      "capturedAt": "2026-11-05T17:16:24.001Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/76d950a0344e45999844b364e3a5b4916ea91de10a85f10b448c5ed65c24e0b0.json",
+      "sha256": "76d950a0344e45999844b364e3a5b4916ea91de10a85f10b448c5ed65c24e0b0",
+      "bytes": 428,
+      "url": "/pipeline/v1/raw/76d950a0344e45999844b364e3a5b4916ea91de10a85f10b448c5ed65c24e0b0.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613/temas",
+      "capturedAt": "2026-11-05T17:16:24.201Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/39dd2a5d822600d39ef6621aeaae6409b96b8c68993bdffede01851dc13ce9d8.json",
+      "sha256": "39dd2a5d822600d39ef6621aeaae6409b96b8c68993bdffede01851dc13ce9d8",
+      "bytes": 2622,
+      "url": "/pipeline/v1/raw/39dd2a5d822600d39ef6621aeaae6409b96b8c68993bdffede01851dc13ce9d8.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269",
+      "capturedAt": "2026-11-05T17:16:24.378Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/1e5713ed6150aaccebaeeb835e9490c3a3d807c2c702c92b836fc22bebb4a6b4.json",
+      "sha256": "1e5713ed6150aaccebaeeb835e9490c3a3d807c2c702c92b836fc22bebb4a6b4",
+      "bytes": 584,
+      "url": "/pipeline/v1/raw/1e5713ed6150aaccebaeeb835e9490c3a3d807c2c702c92b836fc22bebb4a6b4.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/autores",
+      "capturedAt": "2026-11-05T17:16:24.577Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/d689052f3ebe7927ebcac533abeabf281a58926f8259801983738a823f36f5f1.json",
+      "sha256": "d689052f3ebe7927ebcac533abeabf281a58926f8259801983738a823f36f5f1",
+      "bytes": 2712,
+      "url": "/pipeline/v1/raw/d689052f3ebe7927ebcac533abeabf281a58926f8259801983738a823f36f5f1.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/votacoes",
+      "capturedAt": "2026-11-05T17:16:24.965Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/fee406b27d7285b6da1ea4017fe12448bda80abe0df811392f919eb98d4e43a8.json",
+      "sha256": "fee406b27d7285b6da1ea4017fe12448bda80abe0df811392f919eb98d4e43a8",
+      "bytes": 4738,
+      "url": "/pipeline/v1/raw/fee406b27d7285b6da1ea4017fe12448bda80abe0df811392f919eb98d4e43a8.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2624646-8",
+      "capturedAt": "2026-11-05T17:16:25.157Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/a53291a99695c81e00fef8a9033ab8a48598d6084e7af06494ee3019703171e1.json",
+      "sha256": "a53291a99695c81e00fef8a9033ab8a48598d6084e7af06494ee3019703171e1",
+      "bytes": 882,
+      "url": "/pipeline/v1/raw/a53291a99695c81e00fef8a9033ab8a48598d6084e7af06494ee3019703171e1.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/temas",
+      "capturedAt": "2026-11-05T17:16:25.339Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4aaa14b95d014165e3f47bee7241780e7dd071ff28930a8961b0748fee1b60b6.json",
+      "sha256": "4aaa14b95d014165e3f47bee7241780e7dd071ff28930a8961b0748fee1b60b6",
+      "bytes": 2277,
+      "url": "/pipeline/v1/raw/4aaa14b95d014165e3f47bee7241780e7dd071ff28930a8961b0748fee1b60b6.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357",
+      "capturedAt": "2026-11-05T17:16:25.516Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/b7b20de65092d8d11f4b0466450863f77df3c712231d0fc4efb97da295b1002a.json",
+      "sha256": "b7b20de65092d8d11f4b0466450863f77df3c712231d0fc4efb97da295b1002a",
+      "bytes": 554,
+      "url": "/pipeline/v1/raw/b7b20de65092d8d11f4b0466450863f77df3c712231d0fc4efb97da295b1002a.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/autores",
+      "capturedAt": "2026-11-05T17:16:25.801Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/fde7461abc0dc5f6c1fb569cc04f89766243c4a226a5b5565e3fcfde3892a1c6.json",
+      "sha256": "fde7461abc0dc5f6c1fb569cc04f89766243c4a226a5b5565e3fcfde3892a1c6",
+      "bytes": 2754,
+      "url": "/pipeline/v1/raw/fde7461abc0dc5f6c1fb569cc04f89766243c4a226a5b5565e3fcfde3892a1c6.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/votacoes",
+      "capturedAt": "2026-11-05T17:16:26.133Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/bb4ab96c9d7395e01c01603378d7f8697d8f17a5e4e72b0c4c1ad320bfe88c11.json",
+      "sha256": "bb4ab96c9d7395e01c01603378d7f8697d8f17a5e4e72b0c4c1ad320bfe88c11",
+      "bytes": 5695,
+      "url": "/pipeline/v1/raw/bb4ab96c9d7395e01c01603378d7f8697d8f17a5e4e72b0c4c1ad320bfe88c11.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-44",
+      "capturedAt": "2026-11-05T17:16:26.306Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/0271ed6674bf9638fc5b021fb744a1d7e91b950ca6b2af8683e9d9e432775eba.json",
+      "sha256": "0271ed6674bf9638fc5b021fb744a1d7e91b950ca6b2af8683e9d9e432775eba",
+      "bytes": 2237,
+      "url": "/pipeline/v1/raw/0271ed6674bf9638fc5b021fb744a1d7e91b950ca6b2af8683e9d9e432775eba.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2649009-8",
+      "capturedAt": "2026-11-05T17:16:26.482Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/db5344c69654b168293073b5107a75a1156601af91a0690ce6e1a53d3eb0a3b2.json",
+      "sha256": "db5344c69654b168293073b5107a75a1156601af91a0690ce6e1a53d3eb0a3b2",
+      "bytes": 3257,
+      "url": "/pipeline/v1/raw/db5344c69654b168293073b5107a75a1156601af91a0690ce6e1a53d3eb0a3b2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-22",
+      "capturedAt": "2026-11-05T17:16:26.768Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/f437400d3ff62f541b4076e6a668ca6b4ede0e0f51384f2d662d22924a8b6471.json",
+      "sha256": "f437400d3ff62f541b4076e6a668ca6b4ede0e0f51384f2d662d22924a8b6471",
+      "bytes": 428,
+      "url": "/pipeline/v1/raw/f437400d3ff62f541b4076e6a668ca6b4ede0e0f51384f2d662d22924a8b6471.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/temas",
+      "capturedAt": "2026-11-05T17:16:26.962Z",
+      "redactions": []
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/65fe03d6671821789984cc90bbf1bca91b3dbe9e3cd091acd0389c8c55d3b3ed.json",
+      "sha256": "65fe03d6671821789984cc90bbf1bca91b3dbe9e3cd091acd0389c8c55d3b3ed",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/562dc6cf31c048f941c3a7be860b4350a4e7245756a2807b4d80107a2b2c64d1.json",
+      "url": "/pipeline/v1/raw/65fe03d6671821789984cc90bbf1bca91b3dbe9e3cd091acd0389c8c55d3b3ed.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-37/votos",
-      "capturedAt": "2026-10-30T00:26:38.070Z",
+      "capturedAt": "2026-11-05T17:16:27.177Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -690,12 +1290,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/01791ddf515482151fef4c2fcd3f2003672aebf4c2325681a6ade47f21e95b8c.json",
-      "sha256": "01791ddf515482151fef4c2fcd3f2003672aebf4c2325681a6ade47f21e95b8c",
+      "key": "v1/raw/1796f11ad1003d2e8b645518fcd846a479f1478fa31e93be308f48d4798531e4.json",
+      "sha256": "1796f11ad1003d2e8b645518fcd846a479f1478fa31e93be308f48d4798531e4",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/01791ddf515482151fef4c2fcd3f2003672aebf4c2325681a6ade47f21e95b8c.json",
+      "url": "/pipeline/v1/raw/1796f11ad1003d2e8b645518fcd846a479f1478fa31e93be308f48d4798531e4.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-54/votos",
-      "capturedAt": "2026-10-30T00:26:38.302Z",
+      "capturedAt": "2026-11-05T17:16:27.386Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -703,12 +1303,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/5b622a5d5e2c7a09392f3beffb4bf4805875d3ead4c601bd4f5c02e22253a660.json",
-      "sha256": "5b622a5d5e2c7a09392f3beffb4bf4805875d3ead4c601bd4f5c02e22253a660",
+      "key": "v1/raw/23ccdd46a221dcbc5eafbffee38bcd68d729f902940ec2230f98bdf055e233e0.json",
+      "sha256": "23ccdd46a221dcbc5eafbffee38bcd68d729f902940ec2230f98bdf055e233e0",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/5b622a5d5e2c7a09392f3beffb4bf4805875d3ead4c601bd4f5c02e22253a660.json",
+      "url": "/pipeline/v1/raw/23ccdd46a221dcbc5eafbffee38bcd68d729f902940ec2230f98bdf055e233e0.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-72/votos",
-      "capturedAt": "2026-10-30T00:26:38.555Z",
+      "capturedAt": "2026-11-05T17:16:27.658Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -716,12 +1316,51 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/762868ba282ae1a14000d5386deff9e72f417ee8cb7d5c98a8994bc5dee01699.json",
-      "sha256": "762868ba282ae1a14000d5386deff9e72f417ee8cb7d5c98a8994bc5dee01699",
+      "key": "v1/raw/605fc0c124b256421e554502b5ff374c006918b100ab504c716f9f4438263d59.json",
+      "sha256": "605fc0c124b256421e554502b5ff374c006918b100ab504c716f9f4438263d59",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/605fc0c124b256421e554502b5ff374c006918b100ab504c716f9f4438263d59.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-22/votos",
+      "capturedAt": "2026-11-05T17:16:27.855Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/cc69bc86278dcd5333b81a82bc2e93b5b2ede66f9d62f4e2d268917f076e6fc7.json",
+      "sha256": "cc69bc86278dcd5333b81a82bc2e93b5b2ede66f9d62f4e2d268917f076e6fc7",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/cc69bc86278dcd5333b81a82bc2e93b5b2ede66f9d62f4e2d268917f076e6fc7.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-44/votos",
+      "capturedAt": "2026-11-05T17:16:28.030Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/736e59088855f16b476620534b9eed84d8326b4e8c93efb1ba3956bf0f55da12.json",
+      "sha256": "736e59088855f16b476620534b9eed84d8326b4e8c93efb1ba3956bf0f55da12",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/736e59088855f16b476620534b9eed84d8326b4e8c93efb1ba3956bf0f55da12.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48/votos",
+      "capturedAt": "2026-11-05T17:16:28.204Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4b24490e79f4b4ed14c1103052ebd6d4797e9d95544f40f9cfa009b6f8147eb9.json",
+      "sha256": "4b24490e79f4b4ed14c1103052ebd6d4797e9d95544f40f9cfa009b6f8147eb9",
       "bytes": 201756,
-      "url": "/pipeline/v1/raw/762868ba282ae1a14000d5386deff9e72f417ee8cb7d5c98a8994bc5dee01699.json",
+      "url": "/pipeline/v1/raw/4b24490e79f4b4ed14c1103052ebd6d4797e9d95544f40f9cfa009b6f8147eb9.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2411961-13/votos",
-      "capturedAt": "2026-10-30T00:26:39.192Z",
+      "capturedAt": "2026-11-05T17:16:29.913Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -729,12 +1368,168 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/64b59d436da596ae100739f295d309b5e518c0e837792d82e54295c0adb8aeff.json",
-      "sha256": "64b59d436da596ae100739f295d309b5e518c0e837792d82e54295c0adb8aeff",
+      "key": "v1/raw/c1663c6626dafe45313b13bf88fb362d721311f28e65ae242585aa6482d94b36.json",
+      "sha256": "c1663c6626dafe45313b13bf88fb362d721311f28e65ae242585aa6482d94b36",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/64b59d436da596ae100739f295d309b5e518c0e837792d82e54295c0adb8aeff.json",
+      "url": "/pipeline/v1/raw/c1663c6626dafe45313b13bf88fb362d721311f28e65ae242585aa6482d94b36.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-11/votos",
+      "capturedAt": "2026-11-05T17:16:30.391Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/4ffa358cf2812777638589c9765c66b0c5a067b15d4d66e5c0d67f741d2fa4e9.json",
+      "sha256": "4ffa358cf2812777638589c9765c66b0c5a067b15d4d66e5c0d67f741d2fa4e9",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/4ffa358cf2812777638589c9765c66b0c5a067b15d4d66e5c0d67f741d2fa4e9.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-12/votos",
+      "capturedAt": "2026-11-05T17:16:30.616Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/642f916fca8a3dc9859247a75f22c8019db8d3474e48178224481347801f1dee.json",
+      "sha256": "642f916fca8a3dc9859247a75f22c8019db8d3474e48178224481347801f1dee",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/642f916fca8a3dc9859247a75f22c8019db8d3474e48178224481347801f1dee.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-28/votos",
+      "capturedAt": "2026-11-05T17:16:30.818Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/21b493f4d8e6f90bb1bee39e3920c270f09e704bf5c25a19ae86651a6ce3a2d2.json",
+      "sha256": "21b493f4d8e6f90bb1bee39e3920c270f09e704bf5c25a19ae86651a6ce3a2d2",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/21b493f4d8e6f90bb1bee39e3920c270f09e704bf5c25a19ae86651a6ce3a2d2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-30/votos",
+      "capturedAt": "2026-11-05T17:16:30.994Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/e43439c31d48f1459f704d4ba04c256c7d85abb151750a38f5d5e0dbbaf59daa.json",
+      "sha256": "e43439c31d48f1459f704d4ba04c256c7d85abb151750a38f5d5e0dbbaf59daa",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/e43439c31d48f1459f704d4ba04c256c7d85abb151750a38f5d5e0dbbaf59daa.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-17/votos",
+      "capturedAt": "2026-11-05T17:16:31.203Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/70888229391d75dfac5029420043ac9dfe45c3e49c6c8dcd9186f2cbe4cda7b2.json",
+      "sha256": "70888229391d75dfac5029420043ac9dfe45c3e49c6c8dcd9186f2cbe4cda7b2",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/70888229391d75dfac5029420043ac9dfe45c3e49c6c8dcd9186f2cbe4cda7b2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-18/votos",
+      "capturedAt": "2026-11-05T17:16:31.679Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/72297b3983a956ef04c4f0bfec66eba92dd7ea354ca121582b1b03deee7e3662.json",
+      "sha256": "72297b3983a956ef04c4f0bfec66eba92dd7ea354ca121582b1b03deee7e3662",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/72297b3983a956ef04c4f0bfec66eba92dd7ea354ca121582b1b03deee7e3662.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-19/votos",
+      "capturedAt": "2026-11-05T17:16:31.940Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/165d0deb2b49bc86643b0e8fbed4151319627901820e17f113dfd6aa785fd787.json",
+      "sha256": "165d0deb2b49bc86643b0e8fbed4151319627901820e17f113dfd6aa785fd787",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/165d0deb2b49bc86643b0e8fbed4151319627901820e17f113dfd6aa785fd787.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-20/votos",
+      "capturedAt": "2026-11-05T17:16:32.147Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/a6a9259753559301e4212fbae2ab4b459a7c1541d50da29ef93ec43827d777f6.json",
+      "sha256": "a6a9259753559301e4212fbae2ab4b459a7c1541d50da29ef93ec43827d777f6",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/a6a9259753559301e4212fbae2ab4b459a7c1541d50da29ef93ec43827d777f6.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50/votos",
+      "capturedAt": "2026-11-05T17:16:32.325Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/da3eb840e6929b71fed6dde66aac8369a30215685581c04c7094891f3b50763d.json",
+      "sha256": "da3eb840e6929b71fed6dde66aac8369a30215685581c04c7094891f3b50763d",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/da3eb840e6929b71fed6dde66aac8369a30215685581c04c7094891f3b50763d.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-53/votos",
+      "capturedAt": "2026-11-05T17:16:32.525Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/faee4b438913ad497e1070005693fc2de3a1cb3b80404f09ad3466a37a444e0b.json",
+      "sha256": "faee4b438913ad497e1070005693fc2de3a1cb3b80404f09ad3466a37a444e0b",
+      "bytes": 392,
+      "url": "/pipeline/v1/raw/faee4b438913ad497e1070005693fc2de3a1cb3b80404f09ad3466a37a444e0b.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2595870-8/votos",
+      "capturedAt": "2026-11-05T17:16:32.761Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/3633f71e0f838261002a37aceef0bccb3c896cdac490caa49f6b53e85cb9d334.json",
+      "sha256": "3633f71e0f838261002a37aceef0bccb3c896cdac490caa49f6b53e85cb9d334",
+      "bytes": 392,
+      "url": "/pipeline/v1/raw/3633f71e0f838261002a37aceef0bccb3c896cdac490caa49f6b53e85cb9d334.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612448-7/votos",
+      "capturedAt": "2026-11-05T17:16:32.944Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/c28796111289aa6ea8c64efb3b648e6887f7ea57a3ba03cb3d05f7bceedc55fa.json",
+      "sha256": "c28796111289aa6ea8c64efb3b648e6887f7ea57a3ba03cb3d05f7bceedc55fa",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/c28796111289aa6ea8c64efb3b648e6887f7ea57a3ba03cb3d05f7bceedc55fa.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612566-22/votos",
-      "capturedAt": "2026-10-30T00:26:39.397Z",
+      "capturedAt": "2026-11-05T17:16:33.162Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -742,12 +1537,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/b4793c49751a5664dec51c34552b00a908a8ea187b305fa4d4345405b52d4bd4.json",
-      "sha256": "b4793c49751a5664dec51c34552b00a908a8ea187b305fa4d4345405b52d4bd4",
+      "key": "v1/raw/c3ca46de74f643d9cf5a9f4de64371a7bfe8b2b6a50121e402d68e95e3d32532.json",
+      "sha256": "c3ca46de74f643d9cf5a9f4de64371a7bfe8b2b6a50121e402d68e95e3d32532",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/b4793c49751a5664dec51c34552b00a908a8ea187b305fa4d4345405b52d4bd4.json",
+      "url": "/pipeline/v1/raw/c3ca46de74f643d9cf5a9f4de64371a7bfe8b2b6a50121e402d68e95e3d32532.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2613852-22/votos",
-      "capturedAt": "2026-10-30T00:26:39.597Z",
+      "capturedAt": "2026-11-05T17:16:33.359Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -755,12 +1550,51 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/d18bd366c925b84e0824ade8977890531507892e129197f21c6f3352f0741ad9.json",
-      "sha256": "d18bd366c925b84e0824ade8977890531507892e129197f21c6f3352f0741ad9",
+      "key": "v1/raw/6f85e1a6eccdaf639f14a5d39317ee34bb67fdf939f726eaf791da048353ed61.json",
+      "sha256": "6f85e1a6eccdaf639f14a5d39317ee34bb67fdf939f726eaf791da048353ed61",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/d18bd366c925b84e0824ade8977890531507892e129197f21c6f3352f0741ad9.json",
+      "url": "/pipeline/v1/raw/6f85e1a6eccdaf639f14a5d39317ee34bb67fdf939f726eaf791da048353ed61.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32/votos",
+      "capturedAt": "2026-11-05T17:16:33.540Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/9300e043dae3bbeb1ff8e9a7fc2f5395d088ce58e5b2b45506c3ef7e27abb632.json",
+      "sha256": "9300e043dae3bbeb1ff8e9a7fc2f5395d088ce58e5b2b45506c3ef7e27abb632",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/9300e043dae3bbeb1ff8e9a7fc2f5395d088ce58e5b2b45506c3ef7e27abb632.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-35/votos",
+      "capturedAt": "2026-11-05T17:16:33.715Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/24dceaf14752546f82d1c9199b0fb461e027bdfabd15c8ea5901262a8020a4a2.json",
+      "sha256": "24dceaf14752546f82d1c9199b0fb461e027bdfabd15c8ea5901262a8020a4a2",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/24dceaf14752546f82d1c9199b0fb461e027bdfabd15c8ea5901262a8020a4a2.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-37/votos",
+      "capturedAt": "2026-11-05T17:16:33.890Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/9fff051689efc95e8306a837182fd3320ce0937c91772f8ef4a833ea558785c6.json",
+      "sha256": "9fff051689efc95e8306a837182fd3320ce0937c91772f8ef4a833ea558785c6",
+      "bytes": 394,
+      "url": "/pipeline/v1/raw/9fff051689efc95e8306a837182fd3320ce0937c91772f8ef4a833ea558785c6.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2618087-22/votos",
-      "capturedAt": "2026-10-30T00:26:39.818Z",
+      "capturedAt": "2026-11-05T17:16:34.355Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -768,12 +1602,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/4697949ebad36d893dd6b242ebc641694c0645e39ad11f1f18addc43153e1254.json",
-      "sha256": "4697949ebad36d893dd6b242ebc641694c0645e39ad11f1f18addc43153e1254",
+      "key": "v1/raw/63231b139308aa26fda5ae623be398020efc6957c7ee72da9d37d24b6e7f0fc3.json",
+      "sha256": "63231b139308aa26fda5ae623be398020efc6957c7ee72da9d37d24b6e7f0fc3",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/4697949ebad36d893dd6b242ebc641694c0645e39ad11f1f18addc43153e1254.json",
+      "url": "/pipeline/v1/raw/63231b139308aa26fda5ae623be398020efc6957c7ee72da9d37d24b6e7f0fc3.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-21/votos",
-      "capturedAt": "2026-10-30T00:26:40.048Z",
+      "capturedAt": "2026-11-05T17:16:34.824Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -781,12 +1615,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/8a615db174edfbe560376f15a703a0f52538fd70b3a92fdbe55b22881bf68992.json",
-      "sha256": "8a615db174edfbe560376f15a703a0f52538fd70b3a92fdbe55b22881bf68992",
+      "key": "v1/raw/8cc9c486c22ed3cab0422fc6d24e67b7e825dfa454d32d2419fb7dd92915fc28.json",
+      "sha256": "8cc9c486c22ed3cab0422fc6d24e67b7e825dfa454d32d2419fb7dd92915fc28",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/8a615db174edfbe560376f15a703a0f52538fd70b3a92fdbe55b22881bf68992.json",
+      "url": "/pipeline/v1/raw/8cc9c486c22ed3cab0422fc6d24e67b7e825dfa454d32d2419fb7dd92915fc28.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-48/votos",
-      "capturedAt": "2026-10-30T00:26:40.280Z",
+      "capturedAt": "2026-11-05T17:16:35.129Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -794,12 +1628,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/42d5cc342246bb98b2d775f98355153fe3cfb913eaf29a6bfeb33b1a5c747dd9.json",
-      "sha256": "42d5cc342246bb98b2d775f98355153fe3cfb913eaf29a6bfeb33b1a5c747dd9",
+      "key": "v1/raw/6f05e113ba9ed857d7ec05278ed0182f2e62cc4343317b2902f4df75f45cf024.json",
+      "sha256": "6f05e113ba9ed857d7ec05278ed0182f2e62cc4343317b2902f4df75f45cf024",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/42d5cc342246bb98b2d775f98355153fe3cfb913eaf29a6bfeb33b1a5c747dd9.json",
+      "url": "/pipeline/v1/raw/6f05e113ba9ed857d7ec05278ed0182f2e62cc4343317b2902f4df75f45cf024.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-53/votos",
-      "capturedAt": "2026-10-30T00:26:40.540Z",
+      "capturedAt": "2026-11-05T17:16:35.305Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -807,12 +1641,12 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/f86af21f3a3119b5dc6414dd26479276ba45d40801e4a1b5182a4426341417fa.json",
-      "sha256": "f86af21f3a3119b5dc6414dd26479276ba45d40801e4a1b5182a4426341417fa",
+      "key": "v1/raw/52f6c79e31486e72c8ee1a9db3402902153b99ec489c85c05e9c98f1e76b0d6f.json",
+      "sha256": "52f6c79e31486e72c8ee1a9db3402902153b99ec489c85c05e9c98f1e76b0d6f",
       "bytes": 394,
-      "url": "/pipeline/v1/raw/f86af21f3a3119b5dc6414dd26479276ba45d40801e4a1b5182a4426341417fa.json",
+      "url": "/pipeline/v1/raw/52f6c79e31486e72c8ee1a9db3402902153b99ec489c85c05e9c98f1e76b0d6f.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2620905-56/votos",
-      "capturedAt": "2026-10-30T00:26:40.777Z",
+      "capturedAt": "2026-11-05T17:16:35.605Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -820,12 +1654,25 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/b82b72a91964d1b1ad63c4f808bf58a262cfca151828af152b9144886a7bd7a7.json",
-      "sha256": "b82b72a91964d1b1ad63c4f808bf58a262cfca151828af152b9144886a7bd7a7",
+      "key": "v1/raw/ee0f5930daf343e1d27a5b674efc6a8c28a8e4bc24c00a9f206dca6e404ef8c7.json",
+      "sha256": "ee0f5930daf343e1d27a5b674efc6a8c28a8e4bc24c00a9f206dca6e404ef8c7",
       "bytes": 392,
-      "url": "/pipeline/v1/raw/b82b72a91964d1b1ad63c4f808bf58a262cfca151828af152b9144886a7bd7a7.json",
+      "url": "/pipeline/v1/raw/ee0f5930daf343e1d27a5b674efc6a8c28a8e4bc24c00a9f206dca6e404ef8c7.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2624646-8/votos",
+      "capturedAt": "2026-11-05T17:16:35.800Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/39c4c2628c4caafb4a14bc1c8de6e202ee83f18392bc7d6a8153afc845f0029f.json",
+      "sha256": "39c4c2628c4caafb4a14bc1c8de6e202ee83f18392bc7d6a8153afc845f0029f",
+      "bytes": 392,
+      "url": "/pipeline/v1/raw/39c4c2628c4caafb4a14bc1c8de6e202ee83f18392bc7d6a8153afc845f0029f.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2645996-7/votos",
-      "capturedAt": "2026-10-30T00:26:40.977Z",
+      "capturedAt": "2026-11-05T17:16:36.045Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -833,12 +1680,25 @@
     },
     {
       "kind": "raw",
-      "key": "v1/raw/b2145f821cf5c130769fef0e4825a1ce4199bc465ec7ca985ad1f2be1a51db9e.json",
-      "sha256": "b2145f821cf5c130769fef0e4825a1ce4199bc465ec7ca985ad1f2be1a51db9e",
+      "key": "v1/raw/1c0cba3564cd07c33d0db070d74560f472279253db0eb1cfcd9cda60df0c6761.json",
+      "sha256": "1c0cba3564cd07c33d0db070d74560f472279253db0eb1cfcd9cda60df0c6761",
       "bytes": 392,
-      "url": "/pipeline/v1/raw/b2145f821cf5c130769fef0e4825a1ce4199bc465ec7ca985ad1f2be1a51db9e.json",
+      "url": "/pipeline/v1/raw/1c0cba3564cd07c33d0db070d74560f472279253db0eb1cfcd9cda60df0c6761.json",
       "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7/votos",
-      "capturedAt": "2026-10-30T00:26:41.179Z",
+      "capturedAt": "2026-11-05T17:16:36.219Z",
+      "redactions": [
+        "dados[].deputado_.email",
+        "dados[].deputado_.urlFoto"
+      ]
+    },
+    {
+      "kind": "raw",
+      "key": "v1/raw/671f7501bfa2ab69acb9fe90940c93011bafbb9930872ca5c1b197cffb0d2da5.json",
+      "sha256": "671f7501bfa2ab69acb9fe90940c93011bafbb9930872ca5c1b197cffb0d2da5",
+      "bytes": 392,
+      "url": "/pipeline/v1/raw/671f7501bfa2ab69acb9fe90940c93011bafbb9930872ca5c1b197cffb0d2da5.json",
+      "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2649009-8/votos",
+      "capturedAt": "2026-11-05T17:16:36.406Z",
       "redactions": [
         "dados[].deputado_.email",
         "dados[].deputado_.urlFoto"
@@ -846,44 +1706,35 @@
     },
     {
       "kind": "normalized",
-      "key": "v1/normalized/cfa8292079d281381db29658fe8f46e28f938312325ce703c8a707e958c38004.json",
-      "sha256": "cfa8292079d281381db29658fe8f46e28f938312325ce703c8a707e958c38004",
-      "bytes": 50423,
-      "url": "/pipeline/v1/normalized/cfa8292079d281381db29658fe8f46e28f938312325ce703c8a707e958c38004.json",
+      "key": "v1/normalized/773d7e8a49b3fa1dbcca68c79fda793a3857212298a0d4af9d8442eae8f677ea.json",
+      "sha256": "773d7e8a49b3fa1dbcca68c79fda793a3857212298a0d4af9d8442eae8f677ea",
+      "bytes": 75531,
+      "url": "/pipeline/v1/normalized/773d7e8a49b3fa1dbcca68c79fda793a3857212298a0d4af9d8442eae8f677ea.json",
       "sourceUrl": null,
       "capturedAt": null,
       "redactions": []
     },
     {
       "kind": "legislative",
-      "key": "v1/legislative/53795d946a230544f9c5cc8b754ca198848efe5fcce2126528891590d44c2056.json",
-      "sha256": "53795d946a230544f9c5cc8b754ca198848efe5fcce2126528891590d44c2056",
-      "bytes": 127359,
-      "url": "/pipeline/v1/legislative/53795d946a230544f9c5cc8b754ca198848efe5fcce2126528891590d44c2056.json",
-      "sourceUrl": null,
-      "capturedAt": null,
-      "redactions": []
-    },
-    {
-      "kind": "context",
-      "key": "v1/context/cab03c106a5e8e069b9eb77a4bdfcfe9662f7810bcebd5737c87623036d23834.json",
-      "sha256": "cab03c106a5e8e069b9eb77a4bdfcfe9662f7810bcebd5737c87623036d23834",
-      "bytes": 92346,
-      "url": "/pipeline/v1/context/cab03c106a5e8e069b9eb77a4bdfcfe9662f7810bcebd5737c87623036d23834.json",
+      "key": "v1/legislative/9a26458a282781c314cad301c5d8fb00f5300945dbed6100282a33d49c22f3b8.json",
+      "sha256": "9a26458a282781c314cad301c5d8fb00f5300945dbed6100282a33d49c22f3b8",
+      "bytes": 147771,
+      "url": "/pipeline/v1/legislative/9a26458a282781c314cad301c5d8fb00f5300945dbed6100282a33d49c22f3b8.json",
       "sourceUrl": null,
       "capturedAt": null,
       "redactions": []
     }
   ],
   "counts": {
-    "propositions": 13,
-    "votings": 13,
+    "propositions": 23,
+    "votings": 33,
     "ballots": 455,
-    "labels": 11,
+    "labels": 18,
     "summaries": 12
   },
-  "inferenceInThisRun": false,
-  "humanReview": "not-performed",
-  "remoteStorage": "disabled",
-  "collector": null
+  "collector": {
+    "repository": "c0utin/vigiadopovo",
+    "commit": "72f7e76c1f4b7f5fc211eba048904e24fb45b7ec",
+    "workflowRun": "https://github.com/c0utin/vigiadopovo/actions/runs/42072849123"
+  }
 }

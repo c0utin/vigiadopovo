@@ -4,5 +4,65 @@
     "sourceHash": "dc8356d7083d27fc06640307e71af73a462fe79812106de7a848d44734a9e464",
     "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961"
+  },
+  {
+    "id": 2651186,
+    "sourceHash": "54364f3ad875c507ca77278ce374d1e6f1b6ecd29cedfe4fb351284875eacb18",
+    "ementa": "Institui diretrizes nacionais para a valorização dos Agentes de Proteção da Infância e da Juventude e estabelece princípios para o reconhecimento, a capacitação e o apoio ao exercício de suas atividades.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186"
+  },
+  {
+    "id": 2651185,
+    "sourceHash": "427028f92ec36d923da0eb9ce0d3a4717a5b236ff2240f625b6ea43b1ed15559",
+    "ementa": "Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185"
+  },
+  {
+    "id": 2651158,
+    "sourceHash": "08488b8afebb1956dcd888ca0f0f8a2145a3d36023a67ac8cdca04b948ca41ba",
+    "ementa": "Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158"
+  },
+  {
+    "id": 2651114,
+    "sourceHash": "8b7ad5246b5c33d0f70e3f366d60aa561c68e7435c643672a51918f818c0a890",
+    "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, para instituir diretrizes para a proteção de servidores do sistema penal e de segurança pública ameaçados em razão da função.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114"
+  },
+  {
+    "id": 2651110,
+    "sourceHash": "1598a9929cd485074075d60c01fe1f451428d1e657643e80821804fb93ccb0c5",
+    "ementa": "Institui a Política Nacional de Valorização da Música Autoral em feiras, festivais, mostras culturais e demais eventos públicos realizados ou apoiados com recursos da União, e dá outras providências",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110"
+  },
+  {
+    "id": 2651096,
+    "sourceHash": "7be2d72a19107d7d186cee5806079d4820c2dbaa97d02025c301dcd42d06821f",
+    "ementa": "Altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096"
+  },
+  {
+    "id": 2584437,
+    "sourceHash": "9d3ebadb564709b7c6e26697d365e2f8b4d6b723e4e37174a44d9e94d759345e",
+    "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437"
+  },
+  {
+    "id": 2531613,
+    "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
+    "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+  },
+  {
+    "id": 2617269,
+    "sourceHash": "955a863619246e6fa77fed37197ebf3a439916a57aba9241858310c25c21abfb",
+    "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269"
+  },
+  {
+    "id": 2410357,
+    "sourceHash": "b9cd7d3ef4f5ca1ed8f89fa126bb004c6ead5e0400a3ac638f6dfe3952a6c867",
+    "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357"
   }
 ]

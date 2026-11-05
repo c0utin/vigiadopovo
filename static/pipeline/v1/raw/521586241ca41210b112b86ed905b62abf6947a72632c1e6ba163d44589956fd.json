@@ -1,0 +1,106 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-13",
+      "dataHoraRegistro": "2026-10-13T17:29:47",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-10-13T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 1716/2026,dos Srs. José Guimarães e Rodrigo Gambale, que solicita urgência (art. 155) para o PL 3220/2025.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3220/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-10-13T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-3220/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3220/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-10-13T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-3220/2025 à CCULT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3220/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-10-13T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 1716/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3220/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2612448-7",
+      "idEvento": 83047,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-03-26T16:03",
+          "ementa": "Requer, nos termos do artigo 155 do Regimento Interno, tramitação sob o regime urgência do Projeto de Lei nº 3.220, de 2025.",
+          "id": 2612448,
+          "numero": 1716,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612448"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-07-01T19:47",
+          "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
+          "id": 2531613,
+          "numero": 3220,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612448-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83047",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612448-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-05T17:16:24.001Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2612448-7"
+}
