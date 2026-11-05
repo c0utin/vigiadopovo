@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "vigiadopovo",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    // `pnpm build` output; _headers in it sets cache rules.
+    "directory": "build",
+    "binding": "ASSETS",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none",
+    // Everything else is served as static files without invoking the Worker.
+    "run_worker_first": ["/api/*", "/fotos/*"],
+  },
+  // Photos and precomputed metrics (scripts/metrics.ts). The Worker has no
+  // secrets and never queries the lake.
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "vigia-media" }],
+  // Global 12-hour cache in front of R2 (worker/kv.ts). The namespace ID is
+  // not a secret: only this account can use it.
+  "kv_namespaces": [
+    { "binding": "CACHE", "id": "1ecf9acfa7a64357a5fa398e03509b03" },
+  ],
+  "observability": { "enabled": true },
+}

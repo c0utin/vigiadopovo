@@ -15,9 +15,15 @@
     "build": "vite build",
     "perf:check": "node scripts/check-performance.mjs",
     "preview": "vite preview --host 0.0.0.0",
-    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.pipeline.json",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.pipeline.json && tsc -p worker/tsconfig.json",
     "data:sync": "node --experimental-strip-types scripts/sync.mjs",
     "data:deputies": "node --experimental-strip-types scripts/deputies.mjs",
+    "data:lake": "cd lake && cargo run --release --locked --",
+    "data:metrics": "node --experimental-strip-types scripts/metrics.ts",
+    "budget": "node --experimental-strip-types scripts/budget.ts",
+    "media:pull": "node scripts/media.mjs pull",
+    "media:push": "node scripts/media.mjs push",
+    "media:prune": "node scripts/media.mjs prune",
     "pipeline:prepare": "node --experimental-strip-types --env-file-if-exists=.env scripts/pipeline.ts prepare",
     "pipeline:generate": "node --experimental-strip-types --env-file-if-exists=.env scripts/pipeline.ts generate",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
@@ -25,6 +31,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261103.1",
     "@sveltejs/adapter-static": "^4.0.0",
     "@sveltejs/kit": "^3.1.0",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
@@ -34,7 +41,8 @@
     "svelte": "^5.57.3",
     "svelte-check": "^4.3.3",
     "typescript": "^6.0.3",
-    "vite": "^8.3.5"
+    "vite": "^8.3.5",
+    "wrangler": "^4.157.0"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1159.0",

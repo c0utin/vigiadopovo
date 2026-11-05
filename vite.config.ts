@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     sveltekit({
       adapter: adapter({ precompress: true }),
-      // GitHub Pages serves the site from /<repo>/; local builds use the root.
+      // Cloudflare serves the site from the root; BASE_PATH is for hosts under a subpath.
       paths: { base: (process.env.BASE_PATH ?? "") as "" | `/${string}` },
       prerender: {
         // Profiles come from the unversioned deputies file; without it the
