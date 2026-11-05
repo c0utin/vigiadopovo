@@ -62,13 +62,13 @@ Os dados da Câmara são públicos, mas estão espalhados em arquivos enormes e 
    - **bronze:** cada versão de cada arquivo oficial, exatamente como publicada, guardada pelo seu SHA-256, com a lista de campos que a API publicou;
    - **prata:** cada registro com todas as suas versões (SCD tipo 2): novo, alterado ou removido, nunca sobrescrito;
    - **ouro:** as métricas, cada uma ligada ao lote de arquivos de que saiu.
-3. **Publicação:** um job lê a camada ouro com R2 SQL e grava JSON. O site é estático (Cloudflare Workers); fotos e métricas saem do R2 com cache (Cache API + Workers KV de 12 horas). Visitantes nunca disparam consultas.
+3. **Publicação:** um job lê a camada ouro com R2 SQL e grava JSON. O site é estático (Cloudflare Workers); fotos e métricas saem do R2 com cache (Cache API + banco D1 de 12 horas). Visitantes nunca disparam consultas.
 
 | Peça     | Onde                                          | Custo                             |
 | -------- | --------------------------------------------- | --------------------------------- |
 | Coleta   | GitHub Actions                                | grátis                            |
 | Site     | Cloudflare Workers (páginas pré-renderizadas) | plano grátis                      |
-| Fotos    | Cloudflare R2 + KV                            | franquia grátis                   |
+| Fotos    | Cloudflare R2 + D1                            | franquia grátis                   |
 | Métricas | Lake Iceberg no R2, lido com R2 SQL           | franquia grátis, com trava em 80% |
 
 Detalhes, limites e configuração em [docs/tecnico.md](docs/tecnico.md).

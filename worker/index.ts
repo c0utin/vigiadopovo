@@ -1,15 +1,15 @@
 // The site stays a prerendered static build served from Workers assets. This
 // Worker only runs for /api/* (precomputed metrics in R2) and /fotos/* (deputy
 // photos in R2); see run_worker_first in wrangler.jsonc. Reads go through the
-// Cache API of the data center, then Workers KV (global, 12 hours, kv.ts), and
-// only then R2.
-import { throughKv } from "./kv.ts";
+// Cache API of the data center, then the D1 cache (global, 12 hours, db.ts),
+// and only then R2.
+import { throughDb } from "./db.ts";
 import { metrics } from "./metrics.ts";
 
 interface Env {
   ASSETS: Fetcher;
   MEDIA: R2Bucket;
-  CACHE: KVNamespace;
+  CACHE: D1Database;
 }
 
 const PHOTO = /^\/fotos\/deputados\/(\d{1,9})\.jpg$/;
@@ -29,10 +29,9 @@ async function photo(request: Request, env: Env, ctx: ExecutionContext) {
       : key,
   );
   if (hit) return hit;
-  const object = await throughKv<ArrayBuffer>(
+  const object = await throughDb<ArrayBuffer>(
     env.CACHE,
     `fotos/deputados/${match[1]}.jpg`,
-    "arrayBuffer",
     async () => {
       const r2 = await env.MEDIA.get(`fotos/deputados/${match[1]}.jpg`);
       return r2 && { value: await r2.arrayBuffer(), etag: r2.httpEtag };
@@ -67,10 +66,9 @@ export default {
         request,
         {
           get: async (key) => {
-            const entry = await throughKv<string>(
+            const entry = await throughDb<string>(
               env.CACHE,
               key,
-              "text",
               async () => {
                 const r2 = await env.MEDIA.get(key);
                 return r2 && { value: await r2.text(), etag: r2.etag };

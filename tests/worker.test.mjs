@@ -181,59 +181,91 @@ test("without ?ano, a year not computed yet falls back to the previous one", asy
   assert.equal((await get(`/api/metricas/fontes?ano=${ano}`)).status, 404);
 });
 
-test("KV serves a file for 12 hours with one R2 read, and never decides the content", async () => {
-  const { throughKv, KV_TTL } = await import("../worker/kv.ts");
-  const stored = new Map();
-  const puts = [];
-  const kv = {
-    getWithMetadata: async (key) =>
-      stored.get(key) ?? { value: null, metadata: null },
-    put: async (key, value, options) => {
-      puts.push({ key, ttl: options.expirationTtl });
-      stored.set(key, { value, metadata: options.metadata });
-    },
+test("the D1 cache serves a file for 12 hours with one R2 read, and never decides the content", async (t) => {
+  const { throughDb, CACHE_TTL } = await import("../worker/db.ts");
+  const { DatabaseSync } = await import("node:sqlite");
+  const { readFile } = await import("node:fs/promises");
+  // SQLite with the real migration, shaped like D1: ArrayBuffer in, byte
+  // array out.
+  const sqlite = new DatabaseSync(":memory:");
+  sqlite.exec(
+    await readFile(
+      new URL("../migrations/0001_cache.sql", import.meta.url),
+      "utf8",
+    ),
+  );
+  let writes = 0;
+  const db = {
+    prepare: (sql) => ({
+      bind: (...values) => {
+        const args = values.map((v) =>
+          v instanceof ArrayBuffer ? new Uint8Array(v) : v,
+        );
+        return {
+          first: async () => {
+            const row = sqlite.prepare(sql).get(...args);
+            if (row?.value instanceof Uint8Array) row.value = [...row.value];
+            return row ? { ...row } : null;
+          },
+          run: async () => (writes++, sqlite.prepare(sql).run(...args)),
+        };
+      },
+    }),
   };
   let reads = 0;
-  const r2 = { "a.json": { value: '{"n":1}', etag: "e1" } };
+  const photo = new Uint8Array([0xff, 0xd8, 0, 7]).buffer;
+  const r2 = {
+    "a.json": { value: '{"n":1}', etag: "e1" },
+    "b.jpg": { value: photo, etag: '"e2"' },
+  };
   const origin = (key) => async () => (reads++, r2[key] ?? null);
   const pending = [];
   const wait = (p) => pending.push(p);
+  const now = Date.now();
+  t.mock.method(Date, "now", () => now);
 
+  for (const key of ["a.json", "b.jpg"]) {
+    assert.deepEqual(await throughDb(db, key, origin(key), wait), r2[key]);
+    await Promise.all(pending);
+    // Second read: from D1, with the same type and bytes.
+    assert.deepEqual(await throughDb(db, key, origin(key), wait), r2[key]);
+  }
+  assert.equal(reads, 2);
+  assert.equal(writes, 2);
+
+  // Expired after CACHE_TTL: R2 is read again and the row is replaced.
+  assert.equal(CACHE_TTL, 12 * 3600);
+  Date.now.mock.mockImplementation(() => now + CACHE_TTL * 1000);
+  r2["a.json"] = { value: '{"n":2}', etag: "e3" };
   assert.deepEqual(
-    await throughKv(kv, "a.json", "text", origin("a.json"), wait),
+    await throughDb(db, "a.json", origin("a.json"), wait),
     r2["a.json"],
   );
   await Promise.all(pending);
-  assert.deepEqual(puts, [{ key: "a.json", ttl: 43200 }]);
-  assert.equal(KV_TTL, 12 * 3600);
-  assert.deepEqual(
-    await throughKv(kv, "a.json", "text", origin("a.json"), wait),
-    r2["a.json"],
-  );
-  assert.equal(reads, 1);
+  assert.equal(reads, 3);
+  assert.equal(sqlite.prepare("SELECT count(*) n FROM cache").get().n, 2);
 
   // Unknown keys are not stored (they would spend the write quota).
-  assert.equal(
-    await throughKv(kv, "x.json", "text", origin("x.json"), wait),
-    null,
-  );
+  assert.equal(await throughDb(db, "x.json", origin("x.json"), wait), null);
   await Promise.all(pending);
-  assert.equal(puts.length, 1);
+  assert.equal(writes, 3);
 
-  // KV down or over its daily limit: R2 answers, the request does not fail.
+  // D1 down or over its daily limit: R2 answers, the request does not fail.
   const broken = {
-    getWithMetadata: async () => {
-      throw new Error("KV 429");
-    },
-    put: async () => {
-      throw new Error("KV 429");
-    },
+    prepare: () => ({
+      bind: () => ({
+        first: async () => {
+          throw new Error("D1 limit");
+        },
+        run: async () => {
+          throw new Error("D1 limit");
+        },
+      }),
+    }),
   };
   const failed = [];
   assert.deepEqual(
-    await throughKv(broken, "a.json", "text", origin("a.json"), (p) =>
-      failed.push(p),
-    ),
+    await throughDb(broken, "a.json", origin("a.json"), (p) => failed.push(p)),
     r2["a.json"],
   );
   await Promise.all(failed);
