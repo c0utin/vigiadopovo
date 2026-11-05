@@ -7,13 +7,14 @@
 //! "AAAA-MM-DD", instants as published ("AAAA-MM-DDTHH:MM:SS"), empty as null.
 //! Anyone can recompute it from the raw file kept in bronze.
 
-use std::collections::{HashMap, HashSet};
+use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 use std::time::Duration;
 
 use anyhow::{Context, Result, bail};
 use chrono::{NaiveDate, NaiveDateTime};
 use polars::prelude::{DataFrame, DataType, IntoColumn, NamedFrom, Series, TimeUnit};
 use serde::Deserialize;
+use serde::de::IgnoredAny;
 use serde_json::Value;
 use sha2::{Digest, Sha256};
 
@@ -45,11 +46,13 @@ pub struct Source {
 }
 
 pub fn sha256(bytes: &[u8]) -> String {
-    hex::encode(Sha256::digest(bytes))
+    Sha256::digest(bytes)
+        .iter()
+        .map(|b| format!("{b:02x}"))
+        .collect()
 }
 
-/// Same fingerprint as scripts/metrics.ts used: the sorted "arquivo:sha256"
-/// lines of the year's four files.
+/// Batch id: SHA-256 of the sorted "arquivo:sha256" lines of the year's files.
 pub fn lote(sources: &[Source]) -> String {
     let mut lines: Vec<String> = sources
         .iter()
@@ -93,16 +96,14 @@ async fn fetch(client: &reqwest::Client, url: &str) -> Result<Vec<u8>> {
 
 async fn fetch_once(client: &reqwest::Client, url: &str) -> Result<Vec<u8>> {
     let mut response = client.get(url).send().await?;
-    // Redirects are followed only inside the Câmara's file tree (see main.rs).
     if !response.url().as_str().starts_with(&format!("{FILES}/")) {
         bail!("Redirecionamento inesperado: {url}");
     }
     if response.status() == reqwest::StatusCode::NOT_FOUND {
         return Err(Missing(url.to_string()).into());
     }
-    let response_status = response.status();
-    if !response_status.is_success() {
-        bail!("HTTP {response_status}");
+    if !response.status().is_success() {
+        bail!("HTTP {}", response.status());
     }
     let expected = response.content_length();
     if expected.is_some_and(|n| n as usize > MAX_BYTES) {
@@ -115,7 +116,7 @@ async fn fetch_once(client: &reqwest::Client, url: &str) -> Result<Vec<u8>> {
             bail!("Arquivo maior que o limite: {url}");
         }
     }
-    // A dropped connection can end the body early without an error (2022).
+    // A dropped connection can end the body early without an error.
     if expected.is_some_and(|n| n as usize != body.len()) {
         bail!("Download incompleto: {url}");
     }
@@ -124,87 +125,12 @@ async fn fetch_once(client: &reqwest::Client, url: &str) -> Result<Vec<u8>> {
 
 // ---- API shape ------------------------------------------------------------
 
-/// Field names one record publishes, nested objects as "pai.filho".
-struct Fields(Vec<String>);
-
-impl<'de> Deserialize<'de> for Fields {
-    fn deserialize<D: serde::Deserializer<'de>>(d: D) -> std::result::Result<Self, D::Error> {
-        struct Visitor;
-        impl<'de> serde::de::Visitor<'de> for Visitor {
-            type Value = Fields;
-            fn expecting(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-                f.write_str("um objeto")
-            }
-            fn visit_map<A: serde::de::MapAccess<'de>>(
-                self,
-                mut map: A,
-            ) -> std::result::Result<Fields, A::Error> {
-                let mut names = Vec::new();
-                while let Some(key) = map.next_key::<String>()? {
-                    let nested: Nested = map.next_value()?;
-                    names.extend(nested.0.into_iter().map(|n| format!("{key}.{n}")));
-                    names.push(key);
-                }
-                Ok(Fields(names))
-            }
-        }
-        d.deserialize_map(Visitor)
-    }
-}
-
-/// A nested value: its field names when it is an object, nothing otherwise.
-struct Nested(Vec<String>);
-
-impl<'de> Deserialize<'de> for Nested {
-    fn deserialize<D: serde::Deserializer<'de>>(d: D) -> std::result::Result<Self, D::Error> {
-        struct Visitor;
-        impl<'de> serde::de::Visitor<'de> for Visitor {
-            type Value = Nested;
-            fn expecting(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-                f.write_str("qualquer valor")
-            }
-            fn visit_map<A: serde::de::MapAccess<'de>>(
-                self,
-                mut map: A,
-            ) -> std::result::Result<Nested, A::Error> {
-                let mut names = Vec::new();
-                while let Some(key) = map.next_key::<String>()? {
-                    map.next_value::<serde::de::IgnoredAny>()?;
-                    names.push(key);
-                }
-                Ok(Nested(names))
-            }
-            fn visit_seq<A: serde::de::SeqAccess<'de>>(
-                self,
-                mut seq: A,
-            ) -> std::result::Result<Nested, A::Error> {
-                while seq.next_element::<serde::de::IgnoredAny>()?.is_some() {}
-                Ok(Nested(vec![]))
-            }
-            fn visit_unit<E>(self) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-            fn visit_none<E>(self) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-            fn visit_bool<E>(self, _: bool) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-            fn visit_i64<E>(self, _: i64) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-            fn visit_u64<E>(self, _: u64) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-            fn visit_f64<E>(self, _: f64) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-            fn visit_str<E>(self, _: &str) -> std::result::Result<Nested, E> {
-                Ok(Nested(vec![]))
-            }
-        }
-        d.deserialize_any(Visitor)
-    }
+/// A field's value, reduced to its own field names when it is an object.
+#[derive(Deserialize)]
+#[serde(untagged)]
+enum Nested {
+    Object(BTreeMap<String, IgnoredAny>),
+    Other(IgnoredAny),
 }
 
 /// Fields the pipeline reads from each file. A rename or removal in the API
@@ -261,10 +187,18 @@ const USED: [(&str, &[&str]); 4] = [
 /// The sorted field list a file publishes (its API "version"), checked
 /// against the fields the pipeline reads.
 pub fn shape(source: &Source) -> Result<String> {
-    let file: File<Fields> = serde_json::from_slice(&source.body)
+    let file: File<BTreeMap<String, Nested>> = serde_json::from_slice(&source.body)
         .with_context(|| format!("{}: JSON inválido", source.arquivo))?;
-    let all: std::collections::BTreeSet<String> =
-        file.dados.into_iter().flat_map(|f| f.0).collect();
+    // Nested objects contribute "pai.filho" names next to their parent.
+    let mut all = BTreeSet::new();
+    for record in file.dados {
+        for (key, value) in record {
+            if let Nested::Object(inner) = value {
+                all.extend(inner.into_keys().map(|n| format!("{key}.{n}")));
+            }
+            all.insert(key);
+        }
+    }
     let (_, used) = USED.iter().find(|(n, _)| *n == source.nome).unwrap();
     let missing: Vec<&str> = used.iter().copied().filter(|u| !all.contains(*u)).collect();
     // An empty file (early January) has no fields to check.
@@ -572,18 +506,16 @@ pub fn parse(ano: i32, sources: &[Source]) -> Result<Vec<(&'static str, DataFram
     let votacoes: File<Votacao> = serde_json::from_slice(body("votacoes"))?;
     let votos: File<Voto> = serde_json::from_slice(body("votacoesVotos"))?;
 
+    // Repeated vote ids are rejected by the votacoes Builder below.
     let ids: HashSet<&str> = votacoes.dados.iter().map(|v| v.id.as_str()).collect();
-    if ids.len() != votacoes.dados.len() {
-        bail!("Votação repetida no arquivo de {ano}");
-    }
 
     let mut ballots: HashMap<&str, i64> = HashMap::new();
     let mut table = Builder::new("votos", VOTOS);
     for vote in &votos.dados {
         let deputy = &vote.deputado_;
         let id = int(&deputy.id)?;
-        // A few old records have no deputy ID (one in 2004). They are kept with
-        // a null ID and the published name; no ID is inferred from the name.
+        // Some old records have no deputy ID. They are kept with a null ID and
+        // the published name; no ID is inferred from the name.
         let who = match id {
             Some(id) if id != 0 => id.to_string(),
             _ => format!("nome:{}", deputy.nome.clone().unwrap_or_default()),
@@ -592,7 +524,7 @@ pub fn parse(ano: i32, sources: &[Source]) -> Result<Vec<(&'static str, DataFram
             bail!("Voto sem votação correspondente no arquivo de {ano}");
         }
         *ballots.entry(vote.idVotacao.as_str()).or_default() += 1;
-        // E-mail and photo URL are dropped, as in the portal's captures.
+        // E-mail and photo URL are dropped.
         table.push(
             ano,
             format!("{}:{who}", vote.idVotacao),

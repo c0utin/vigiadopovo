@@ -1,5 +1,7 @@
 //! Medallion lake of the Câmara's votes in Cloudflare R2, append-only.
 //!
+//! Run from lake/ (cargo run --release, from this folder):
+//!
 //!   cargo run --release                     # current year (and previous in January)
 //!   cargo run --release -- 2019 2020        # backfill
 //!   cargo run --release -- --out .lake 2019 # local Parquet, no Cloudflare
@@ -9,17 +11,23 @@
 //! row per file per batch with its hash and published field list.
 //! Silver (`prata.*`): typed records as append-only SCD type 2 (see scd.rs).
 //! Gold (`ouro.*`): the published aggregates of each batch (see ouro.rs).
+//! Each year's gold rows and file list also go to `<out>/metricas/<ano>.json`
+//! (see metricas.rs). Without --out, `<out>` is `.lake`, so the files land in
+//! lake/.lake/metricas/, the path scripts/metrics.ts reads. With --out, the
+//! Parquet and metricas files go under that folder instead.
 //!
 //! A batch (`lote`) is the SHA-256 of a year's four "arquivo:sha256" lines.
 //! A year whose latest batch already has these files is skipped without
-//! parsing or writing. Tables are committed one by one and `bronze.arquivos`
-//! last, so a batch listed there is complete; rerunning after a failure
-//! appends only what is missing. Needs CLOUDFLARE_ACCOUNT_ID, LAKE_TOKEN (R2
-//! Data Catalog write) and R2_ENDPOINT/R2_ACCESS_KEY_ID/R2_SECRET_ACCESS_KEY
-//! (bronze and data files) unless --out is given. Optional LAKE_BUCKET.
+//! parsing or writing to the lake, but its metricas file is still rewritten.
+//! Tables are committed one by one and `bronze.arquivos` last, so a batch
+//! listed there is complete; rerunning after a failure appends only what is
+//! missing. Needs CLOUDFLARE_ACCOUNT_ID, LAKE_TOKEN (R2 Data Catalog write)
+//! and R2_ENDPOINT/R2_ACCESS_KEY_ID/R2_SECRET_ACCESS_KEY (bronze and data
+//! files) unless --out is given. The bucket is always `vigia-lake`.
 
 mod camara;
 mod lago;
+mod metricas;
 mod ouro;
 mod scd;
 
@@ -95,15 +103,16 @@ fn file_columns() -> Vec<Col> {
     ]
 }
 
+/// A timestamp in microseconds since the Unix epoch, as the lake stores it.
+fn instant(micros: i64) -> Expr {
+    lit(micros).cast(DataType::Datetime(TimeUnit::Microseconds, None))
+}
+
 /// Adds `ano`, `lote` and, for silver, `valido_desde` to a frame.
 fn tag(frame: &DataFrame, ano: i32, lote: &str, since: Option<i64>) -> Result<DataFrame> {
     let mut extra = vec![lit(ano).alias("ano"), lit(lote).alias("lote")];
     if let Some(at) = since {
-        extra.push(
-            lit(at)
-                .cast(DataType::Datetime(TimeUnit::Microseconds, None))
-                .alias("valido_desde"),
-        );
+        extra.push(instant(at).alias("valido_desde"));
     }
     Ok(frame.clone().lazy().with_columns(extra).collect()?)
 }
@@ -137,13 +146,7 @@ async fn latest_batch(lake: &Lake, ano: i32) -> Result<Option<String>> {
     for batch in lake.read(&table, ano, &["lote", "coletado_em"]).await? {
         let (lote, at) = (
             lago::strings(&batch, "lote")?,
-            batch
-                .column_by_name("coletado_em")
-                .and_then(|a| {
-                    a.as_any()
-                        .downcast_ref::<arrow_array::TimestampMicrosecondArray>()
-                })
-                .context("coletado_em")?,
+            lago::instants(&batch, "coletado_em")?,
         );
         for i in 0..batch.num_rows() {
             if latest.as_ref().is_none_or(|(t, _)| at.value(i) > *t) {
@@ -174,25 +177,16 @@ async fn publish(lake: &Lake, year: Year, now: i64) -> Result<()> {
         )?;
         let delta = scd::delta(snapshot, &state)?;
         let mut rows = tag(&delta, ano, lote, Some(now))?;
-        let counts = ["I", "A", "R"].map(|op| {
-            delta
-                .column("operacao")
-                .ok()
-                .and_then(|c| {
-                    c.as_materialized_series()
-                        .str()
-                        .ok()
-                        .map(|s| s.equal(op).sum().unwrap_or(0))
-                })
-                .unwrap_or(0)
-        });
+        let operacao = delta.column("operacao")?.as_materialized_series().str()?;
+        let (novos, alterados, removidos) = (
+            operacao.equal("I").sum().unwrap_or(0),
+            operacao.equal("A").sum().unwrap_or(0),
+            operacao.equal("R").sum().unwrap_or(0),
+        );
         lake.append(&table, ano, &mut rows, summary.clone()).await?;
         println!(
-            "prata.{name} {ano}: {} registros; +{} novos, {} alterados, {} removidos",
+            "prata.{name} {ano}: {} registros; +{novos} novos, {alterados} alterados, {removidos} removidos",
             snapshot.height(),
-            counts[0],
-            counts[1],
-            counts[2]
         );
     }
 
@@ -215,32 +209,85 @@ async fn publish(lake: &Lake, year: Year, now: i64) -> Result<()> {
         println!("ouro.{name} {ano}: {} linhas", frame.height());
     }
 
-    // Last: marks the batch complete for scripts/metrics.ts.
+    // Last: marks the batch complete.
     let table = lake.table("bronze", "arquivos", &file_columns()).await?;
-    let s = &year.sources;
-    let mut files = df!(
-        "arquivo" => s.iter().map(|s| s.arquivo.clone()).collect::<Vec<_>>(),
-        "url" => s.iter().map(|s| s.url.clone()).collect::<Vec<_>>(),
-        "sha256" => s.iter().map(|s| s.sha256.clone()).collect::<Vec<_>>(),
-        "bytes" => s.iter().map(|s| s.body.len() as i64).collect::<Vec<_>>(),
-        "campos" => year.shapes.clone(),
-        "objeto" => objects,
-    )?
-    .lazy()
-    .with_columns([
-        lit(ano).alias("ano"),
-        lit(lote).alias("lote"),
-        lit(now)
-            .cast(DataType::Datetime(TimeUnit::Microseconds, None))
-            .alias("coletado_em"),
-    ])
-    .collect()?;
+    let mut files = arquivos(&year, objects.into_iter().map(Some).collect(), now)?;
     lake.append(&table, ano, &mut files, summary).await?;
     println!("bronze.arquivos {ano}: lote {lote}");
     Ok(())
 }
 
-fn write_local(dir: &str, year: &mut Year) -> Result<()> {
+/// One row per official file of a batch, as bronze.arquivos stores it.
+fn arquivos(year: &Year, objetos: Vec<Option<String>>, now: i64) -> Result<DataFrame> {
+    let s = &year.sources;
+    Ok(df!(
+        "arquivo" => s.iter().map(|s| s.arquivo.clone()).collect::<Vec<_>>(),
+        "url" => s.iter().map(|s| s.url.clone()).collect::<Vec<_>>(),
+        "sha256" => s.iter().map(|s| s.sha256.clone()).collect::<Vec<_>>(),
+        "bytes" => s.iter().map(|s| s.body.len() as i64).collect::<Vec<_>>(),
+        "campos" => year.shapes.clone(),
+        "objeto" => objetos,
+    )?
+    .lazy()
+    .with_columns([
+        lit(year.ano).alias("ano"),
+        lit(year.lote.as_str()).alias("lote"),
+        instant(now).alias("coletado_em"),
+    ])
+    .collect()?)
+}
+
+/// Rows of batch `lote` in one table, read back from the lake.
+async fn batch(
+    lake: &Lake,
+    namespace: &str,
+    name: &str,
+    columns: &[Col],
+    ano: i32,
+    lote: &str,
+) -> Result<DataFrame> {
+    let table = lake.table(namespace, name, columns).await?;
+    let names: Vec<&str> = columns.iter().map(|c| c.name).collect();
+    let batches = lake.read(&table, ano, &names).await?;
+    let frame = lago::frame(table.metadata().current_schema(), &batches)?;
+    Ok(frame.lazy().filter(col("lote").eq(lit(lote))).collect()?)
+}
+
+/// Writes the year's metricas file from the lake, so a skipped year or a
+/// failed publish is repaired without parsing the official files again.
+async fn publish_metricas(lake: &Lake, out: &str, ano: i32, lote: &str) -> Result<()> {
+    let alinhamento = batch(
+        lake,
+        "ouro",
+        "alinhamento_bancada",
+        &gold_columns("alinhamento_bancada"),
+        ano,
+        lote,
+    )
+    .await?;
+    let deputados = batch(
+        lake,
+        "ouro",
+        "deputado_votos",
+        &gold_columns("deputado_votos"),
+        ano,
+        lote,
+    )
+    .await?;
+    let votacoes = batch(
+        lake,
+        "ouro",
+        "votacoes_mes",
+        &gold_columns("votacoes_mes"),
+        ano,
+        lote,
+    )
+    .await?;
+    let fontes = batch(lake, "bronze", "arquivos", &file_columns(), ano, lote).await?;
+    metricas::write(out, ano, lote, alinhamento, deputados, votacoes, fontes)
+}
+
+fn write_local(dir: &str, year: &mut Year, now: i64) -> Result<()> {
     let layers = [("prata", &mut year.silver), ("ouro", &mut year.gold)];
     for (layer, frames) in layers {
         for (name, frame) in frames.iter_mut() {
@@ -251,7 +298,23 @@ fn write_local(dir: &str, year: &mut Year) -> Result<()> {
             println!("{path}: {} linhas", frame.height());
         }
     }
-    Ok(())
+    let gold = |name: &str| {
+        year.gold
+            .iter()
+            .find(|(n, _)| *n == name)
+            .unwrap()
+            .1
+            .clone()
+    };
+    metricas::write(
+        dir,
+        year.ano,
+        &year.lote,
+        gold("alinhamento_bancada"),
+        gold("deputado_votos"),
+        gold("votacoes_mes"),
+        arquivos(year, vec![None; year.sources.len()], now)?,
+    )
 }
 
 async fn run() -> Result<()> {
@@ -298,9 +361,12 @@ async fn run() -> Result<()> {
             }
         }))
         .build()?;
-    let lake = match out {
-        None => Some(Lake::connect().await?),
-        Some(_) => None,
+    let local = out.is_some();
+    let out = out.unwrap_or_else(|| ".lake".into());
+    let lake = if local {
+        None
+    } else {
+        Some(Lake::connect().await?)
     };
     let now = Utc::now().timestamp_micros();
 
@@ -318,14 +384,17 @@ async fn run() -> Result<()> {
         if let Some(lake) = &lake
             && latest_batch(lake, ano).await?.as_deref() == Some(lote.as_str())
         {
-            println!("{ano}: fontes sem mudança (lote {lote}); nada gravado");
+            println!("{ano}: fontes sem mudança (lote {lote}); nada gravado no lake");
+            publish_metricas(lake, &out, ano, &lote).await?;
             continue;
         }
         let mut year = build(ano, sources)?;
-        match (&lake, &out) {
-            (Some(lake), _) => publish(lake, year, now).await?,
-            (None, Some(dir)) => write_local(dir, &mut year)?,
-            _ => unreachable!(),
+        match &lake {
+            Some(lake) => {
+                publish(lake, year, now).await?;
+                publish_metricas(lake, &out, ano, &lote).await?;
+            }
+            None => write_local(&out, &mut year, now)?,
         }
     }
     Ok(())

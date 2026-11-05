@@ -29,7 +29,7 @@ use iceberg_catalog_rest::{RestCatalog, RestCatalogBuilder};
 use iceberg_storage_opendal::OpenDalStorageFactory;
 use parquet::basic::{Compression, ZstdLevel};
 use parquet::file::properties::WriterProperties;
-use polars::prelude::{CompatLevel, DataFrame, IpcWriter, SerWriter};
+use polars::prelude::{CompatLevel, DataFrame, IpcReader, IpcWriter, SerReader, SerWriter};
 
 use crate::camara::Kind;
 
@@ -55,7 +55,7 @@ fn s3_props() -> Result<Vec<(&'static str, String)>> {
 impl Lake {
     pub async fn connect() -> Result<Self> {
         let account = env("CLOUDFLARE_ACCOUNT_ID")?;
-        let bucket = std::env::var("LAKE_BUCKET").unwrap_or_else(|_| "vigia-lake".into());
+        let bucket = "vigia-lake".to_string();
         let mut props = HashMap::from([
             (
                 "uri".to_string(),
@@ -161,16 +161,16 @@ impl Lake {
             .await?)
     }
 
-    /// Appends one year's rows as a new snapshot. Returns the row count.
+    /// Appends one year's rows as a new snapshot.
     pub async fn append(
         &self,
         table: &Table,
         ano: i32,
         frame: &mut DataFrame,
         summary: HashMap<String, String>,
-    ) -> Result<usize> {
+    ) -> Result<()> {
         if frame.height() == 0 {
-            return Ok(0);
+            return Ok(());
         }
         let schema = table.metadata().current_schema().clone();
         let batches = to_arrow(frame, &schema)?;
@@ -181,7 +181,16 @@ impl Lake {
             ParquetWriterBuilder::new(props, schema.clone()),
             table.file_io().clone(),
             DefaultLocationGenerator::new(table.metadata())?,
-            DefaultFileNameGenerator::new(uuid_prefix(), None, DataFileFormat::Parquet),
+            // Unique per run; file names only need to avoid collisions.
+            DefaultFileNameGenerator::new(
+                format!(
+                    "{:x}-{}",
+                    chrono::Utc::now().timestamp_micros(),
+                    std::process::id()
+                ),
+                None,
+                DataFileFormat::Parquet,
+            ),
         );
         let spec = table.metadata().default_partition_spec().as_ref().clone();
         let key = PartitionKey::new(
@@ -201,17 +210,8 @@ impl Lake {
             .add_data_files(files)
             .apply(tx)?;
         tx.commit(&self.catalog).await?;
-        Ok(frame.height())
+        Ok(())
     }
-}
-
-fn uuid_prefix() -> String {
-    // Unique per run; file names only need to avoid collisions.
-    format!(
-        "{:x}-{}",
-        chrono::Utc::now().timestamp_micros(),
-        std::process::id()
-    )
 }
 
 /// Column of an Iceberg table this pipeline owns.
@@ -266,6 +266,23 @@ fn to_arrow(frame: &mut DataFrame, schema: &Schema) -> Result<Vec<RecordBatch>> 
     Ok(batches)
 }
 
+/// Rows read back from a table as a Polars frame, through Arrow IPC. An empty
+/// read keeps the table's schema.
+pub fn frame(schema: &Schema, batches: &[RecordBatch]) -> Result<DataFrame> {
+    let arrow = match batches.first() {
+        Some(batch) => batch.schema(),
+        None => Arc::new(schema_to_arrow_schema(schema)?),
+    };
+    let mut buffer = Vec::new();
+    let mut writer = arrow_ipc::writer::FileWriter::try_new(&mut buffer, &arrow)?;
+    for batch in batches {
+        writer.write(batch)?;
+    }
+    writer.finish()?;
+    drop(writer);
+    Ok(IpcReader::new(Cursor::new(buffer)).finish()?)
+}
+
 pub fn strings<'a>(batch: &'a RecordBatch, name: &str) -> Result<&'a StringArray> {
     batch
         .column_by_name(name)
@@ -278,8 +295,4 @@ pub fn instants<'a>(batch: &'a RecordBatch, name: &str) -> Result<&'a TimestampM
         .column_by_name(name)
         .and_then(|c| c.as_any().downcast_ref::<TimestampMicrosecondArray>())
         .with_context(|| format!("coluna {name} não é instante"))
-}
-
-pub fn text_at(array: &StringArray, i: usize) -> Option<String> {
-    (!array.is_null(i)).then(|| array.value(i).to_string())
 }

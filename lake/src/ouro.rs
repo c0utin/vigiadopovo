@@ -1,7 +1,6 @@
 //! Silver to gold: the aggregates the site publishes, computed with Polars
-//! from one year's complete silver state. Same definitions as the queries
-//! scripts/metrics.ts ran on R2 SQL before this layer existed (worker/
-//! definitions.ts documents them for readers):
+//! from one year's complete silver state. worker/definitions.ts documents
+//! them for readers:
 //!
 //! - a "registered vote" is Sim, Não, Abstenção or Obstrução;
 //! - alignment counts registered votes in votings where the bancada oriented
