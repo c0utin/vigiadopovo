@@ -62,14 +62,14 @@ Os dados da Câmara são públicos, mas estão espalhados em arquivos enormes e 
    - **bronze:** cada versão de cada arquivo oficial, exatamente como publicada, guardada pelo seu SHA-256, com a lista de campos que a API publicou;
    - **prata:** cada registro com todas as suas versões (SCD tipo 2): novo, alterado ou removido, nunca sobrescrito;
    - **ouro:** as métricas, cada uma ligada ao lote de arquivos de que saiu.
-3. **Publicação:** um job lê a camada ouro com R2 SQL e grava JSON. O site é estático (Cloudflare Workers); fotos são assets estáticos e métricas saem do R2 com cache (Cache API). Visitantes nunca disparam consultas.
+3. **Publicação:** o lake grava, por ano, um JSON com as linhas de ouro e as fontes do lote; um job envia esses arquivos ao R2. O site é estático (Cloudflare Workers); fotos são assets estáticos e as métricas são servidas do R2 com cache (Cache API). Visitantes nunca disparam consultas.
 
 | Peça     | Onde                                          | Custo                             |
 | -------- | --------------------------------------------- | --------------------------------- |
 | Coleta   | GitHub Actions                                | grátis                            |
 | Site     | Cloudflare Workers (páginas pré-renderizadas) | plano grátis                      |
 | Fotos    | Cloudflare Workers (assets estáticos)         | grátis                            |
-| Métricas | Lake Iceberg no R2, lido com R2 SQL           | franquia grátis, com trava em 80% |
+| Métricas | JSON no R2, gerado a partir do lake Iceberg   | franquia grátis, com trava em 80% |
 
 Detalhes, limites e configuração em [docs/tecnico.md](docs/tecnico.md).
 
@@ -78,7 +78,7 @@ Detalhes, limites e configuração em [docs/tecnico.md](docs/tecnico.md).
 <details>
 <summary><b>Mostrar a matemática</b></summary>
 
-**Integridade (SHA-256).** O manifesto $M$ lista o hash $H(x)$ de cada artefato. Verificar é recalcular: $\text{válido}(x) \iff H(x) = h_x$. Forjar outro arquivo com o mesmo hash exige cerca de $2^{128}$ operações; mudar um byte muda o hash inteiro.
+**Integridade (SHA-256).** O manifesto $M$ lista o hash $H(x)$ de cada artefato. Verificar é recalcular: $\text{válido}(x) \iff H(x) = h_x$. Forjar outro arquivo com o mesmo hash que um dado exige cerca de $2^{256}$ operações (segunda pré-imagem); achar quaisquer dois arquivos com o mesmo hash custaria cerca de $2^{128}$, mas isso não permite trocar um arquivo já publicado. Mudar um byte muda o hash inteiro.
 
 **Origem (Sigstore).** O GitHub assina $H(\text{arquivo})$ com a identidade do workflow, do commit e da execução, num log público (Rekor). Prova **qual código** gerou o arquivo, não que a Câmara está certa.
 
@@ -130,62 +130,14 @@ curl -s "https://vigiadopovo.rafaelcouto111.workers.dev/api/metricas/alinhamento
 
 Os dois dão **PSL 10.793 / 10.530**, **PT 9.214 / 1.955** e **PSD 6.814 / 6.146**.
 
-**2. Confira um arquivo do site:**
-
-```sh
-SITE=https://vigiadopovo.rafaelcouto111.workers.dev
-REPO=c0utin/vigiadopovo
-curl -fsSLO "$SITE/SHA256SUMS"
-gh attestation verify SHA256SUMS -R "$REPO" --signer-workflow "$REPO/.github/workflows/deploy.yml"
-curl -fsSL "$SITE/legislativo.json" -o legislativo.json
-grep " legislativo.json$" SHA256SUMS | sha256sum -c -
-```
-
-**3. Confira a coleta e o carimbo:**
-
-```sh
-HASH=$(curl -fsSL "$SITE/transparencia/" | grep -o 'manifests/[0-9a-f]\{64\}' | head -1 | cut -d/ -f2)
-curl -fsSLO "$SITE/pipeline/v1/manifests/$HASH.json"
-echo "$HASH  $HASH.json" | sha256sum -c -
-gh attestation verify "$HASH.json" -R "$REPO" --signer-workflow "$REPO/.github/workflows/collect.yml"
-curl -fsSLO "$SITE/pipeline/timestamps/$HASH.json.ots" && npx -y -p opentimestamps@0.4.9 ots-cli.js verify -f "$HASH.json" "$HASH.json.ots"
-```
-
-O guia completo está em [VERIFY.md](VERIFY.md).
-
-</details>
-
-<details>
-<summary><b>Mostrar como executar</b></summary>
-
-**Site** (Node.js 22.17+ e pnpm 12):
-
-```sh
-pnpm install
-pnpm dev                          # site em modo de desenvolvimento
-pnpm test && pnpm check && pnpm build
-```
-
-**Dados:**
-
-```sh
-pnpm data:sync                    # coleta da API da Câmara (propostas, votos)
-pnpm data:deputies                # deputados e mandatos de todas as legislaturas
-```
-
-**Lake** (Rust; a versão vem de `lake/rust-toolchain.toml` e o `rustup` instala sozinho):
-
-```sh
-pnpm data:lake --out .lake 2026   # Parquet local em lake/.lake, sem Cloudflare
-pnpm data:lake                    # grava no R2 (ano atual)
-pnpm data:metrics                 # publica as métricas da camada ouro
-cd lake && cargo test             # testes do pipeline
-```
-
-Gravar na Cloudflare exige as variáveis de [`.env.example`](.env.example). A configuração completa (buckets, catálogo, tokens e limites do plano grátis) está em [docs/tecnico.md](docs/tecnico.md).
+**2. Confira um arquivo do site e a coleta que o gerou** (conferência de atestações, hashes e carimbo OpenTimestamps): o passo a passo, com a saída esperada de cada verificação, está em [VERIFY.md](VERIFY.md).
 
 </details>
 
 ## Licença
 
 Código sob [licença MIT](LICENSE.md). Dados e documentos legislativos são da Câmara dos Deputados e mantêm seu regime jurídico; fotos oficiais: Câmara dos Deputados. Veja [como contribuir](CONTRIBUTING.md) e a [política de segurança](SECURITY.md).
+
+## Executar
+
+Setup local, comandos de dados, lake e configuração da Cloudflare estão em [docs/tecnico.md](docs/tecnico.md#executar).

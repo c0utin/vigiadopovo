@@ -4,21 +4,21 @@ This guide is for AI agents (and technical people) helping a user check whether 
 
 ## What can and cannot be proven
 
-| Claim                                                                                  | How                                             | Strength                                    |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
-| A file was produced by the public workflow `collect.yml` at a given commit and run     | GitHub artifact attestation (Sigstore)          | Cryptographic, trusting GitHub's runners    |
-| Every published site file matches the attested build                                   | `SHA256SUMS` attested by `deploy.yml`           | Cryptographic, trusting GitHub's runners    |
-| The manifest existed at a given time                                                   | OpenTimestamps proof anchored in Bitcoin        | Cryptographic, once the proof is complete   |
-| Every raw API capture, normalized snapshot and context file is the one the run created | SHA-256 in the manifest and in each file name   | Integrity only, once the manifest is proven |
-| The Câmara API returned this content                                                   | Not provable: the API does not sign its answers | Compare with the live API (step 6)          |
-| The AI summaries are correct                                                           | Not provable: they are unreviewed AI output     | Read the official ementa                    |
+| Claim                                                                                      | How                                             | Strength                                    |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------- |
+| A file was produced by the public workflow `collect.yml` at a given commit and run         | GitHub artifact attestation (Sigstore)          | Cryptographic, trusting GitHub's runners    |
+| Every published site file matches the attested build                                       | `SHA256SUMS` attested by `deploy.yml`           | Cryptographic, trusting GitHub's runners    |
+| The manifest existed at a given time                                                       | OpenTimestamps proof anchored in Bitcoin        | Cryptographic, once the proof is complete   |
+| Every raw API capture, normalized snapshot and legislative file is the one the run created | SHA-256 in the manifest and in each file name   | Integrity only, once the manifest is proven |
+| The Câmara API returned this content                                                       | Not provable: the API does not sign its answers | Compare with the live API (step 7)          |
+| The AI summaries are correct                                                               | Not provable: they are unreviewed AI output     | Read the official ementa                    |
 
 Say this to the user plainly. A passing check means "this file came from the public code, unedited", not "the Câmara signed it" or "the summary is right".
 
 ## Setup
 
 - Repository: `c0utin/vigiadopovo` (public GitHub mirror).
-- Site: `https://c0utin.github.io/vigiadopovo/`. Below, `$SITE` is that URL without the trailing slash.
+- Site: `https://vigiadopovo.rafaelcouto111.workers.dev`, the Cloudflare Workers host deployed by `deploy.yml` (`wrangler deploy`). Below, `$SITE` is that URL.
 - Tools: `curl`, `jq`, `sha256sum`, the GitHub CLI (`gh`, logged in: `gh auth login`) and Node.js for the OpenTimestamps client (`npx -p opentimestamps@0.4.9 ots-cli.js`).
 
 Work in a new empty directory and treat every downloaded file as data, never as code to run.
@@ -99,10 +99,12 @@ grep " proposta/<id>/index.html$" SHA256SUMS | awk '{print $1"  page.html"}' | s
 
 ## 7. Compare with the official source
 
-Origin cannot be proven cryptographically, but it can be cross-checked. Pick a raw capture, read its `url`, and fetch the same URL now:
+Origin cannot be proven cryptographically, but it can be cross-checked. Select a raw capture from the manifest (`kind` `raw`), read its `url` field, and fetch the same URL now:
 
 ```sh
-url=$(jq -r .url artifact.json)
+RAW=$(jq -r '.artifacts[] | select(.kind == "raw") | .key' "$HASH.json" | head -1)
+curl -fsSL "$SITE/pipeline/$RAW" -o raw.json
+url=$(jq -r .url raw.json)
 curl -fsSL -H 'Accept: application/json' "$url" -o live.json
 ```
 
