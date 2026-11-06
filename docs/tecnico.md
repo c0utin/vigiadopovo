@@ -218,7 +218,7 @@ O build produz versões Brotli e gzip; a hospedagem precisa negociá-las correta
 | Página                                                      | Limite                                                                                                                                             |
 | ----------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Página inicial (`/`)                                        | Sem módulos JavaScript; script inline de até 2 KiB gzip; HTML de até 14 KiB gzip; sem `descricaoTramitacao`, `ballotsUrl` ou `sourceHash` no HTML. |
-| Explorador (`/dados/`)                                      | JavaScript carregado de até 45 KiB gzip; sem SDKs de servidor, nem `siglaPartido` ou o histórico legislativo no JavaScript da página.              |
+| Explorador (`/dados/`)                                      | JavaScript carregado de até 46 KiB gzip; sem SDKs de servidor, nem `siglaPartido` ou o histórico legislativo no JavaScript da página.              |
 | Lista de deputados (`/deputados/`)                          | Sem módulos JavaScript; HTML de até 40 KiB gzip.                                                                                                   |
 | `/sobre`, `/transparencia`, propostas e perfis de deputados | Nenhuma tag `<script>` nem `modulepreload`.                                                                                                        |
 

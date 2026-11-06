@@ -2,6 +2,7 @@
   import { resolve } from "$app/paths";
   import type { PageData } from "./$types";
   import { date } from "#lib/format.ts";
+  import AskAI from "#lib/AskAI.svelte";
   let { data }: { data: PageData } = $props();
   let p = $derived(data.proposal);
   const votes = $derived(
@@ -60,6 +61,7 @@
           target="_blank"
           rel="noreferrer">Ler o texto completo ↗</a
         >{/if}
+      <AskAI href={resolve(`proposta/${p.id}.md`)} what="esta proposta" />
     </aside>
 
     <div class="detail-body">

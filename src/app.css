@@ -497,6 +497,29 @@ h2 em {
   min-height: 44px;
   font-size: 12px;
 }
+/* "Usar com IA" box (src/lib/AskAI.svelte). */
+.ask-ai {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px dashed var(--green);
+  border-radius: 9px;
+  background: #f2f5e4;
+}
+.ask-ai p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.ask-ai-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.ask-ai-actions .button {
+  flex: 1 1 160px;
+  width: auto;
+  margin: 0;
+}
 .footer-separator {
   padding-inline: 6px;
   color: var(--muted);

@@ -77,6 +77,8 @@
     <p>Iniciativa independente, sem vínculo com o governo ou partidos.</p>
     <a href={resolve("transparencia/")}>Transparência dos dados</a><span
       class="footer-separator">·</span
-    ><a href={asset("dados.json")} download>Baixar dados abertos ↗</a>
+    ><a href={asset("dados.json")} download>Baixar dados abertos ↗</a><span
+      class="footer-separator">·</span
+    ><a href={resolve("llms.txt")}>Dados para IA (llms.txt)</a>
   </div>
 </footer>

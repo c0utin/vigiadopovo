@@ -4,6 +4,7 @@
   const file = (url: string) => url.slice(1) as Parameters<typeof asset>[0];
   import provenance from "#lib/data/provenance.json";
   import { date } from "#lib/format.ts";
+  import AskAI from "#lib/AskAI.svelte";
 
   let { data } = $props();
   const github = $derived(`https://github.com/${data.repository}`);
@@ -103,6 +104,10 @@
       deputado.
     </p>
   </aside>
+  <AskAI
+    href={resolve("transparencia.md")}
+    what="como estes dados foram coletados"
+  />
 
   <section aria-labelledby="stages-title">
     <h2 id="stages-title">O que acontece em cada etapa</h2>

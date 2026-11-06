@@ -2,6 +2,7 @@
   import { asset, resolve } from "$app/paths";
   import type { PageData } from "./$types";
   import { date } from "#lib/format.ts";
+  import AskAI from "#lib/AskAI.svelte";
   import script from "./deputados.js?raw";
 
   let { data }: { data: PageData } = $props();
@@ -41,6 +42,10 @@
       : ""}. No filtro de mandato, veja também quem já foi deputado em cada
     legislatura desde 1826.
   </p>
+  <AskAI
+    href={resolve("deputados-historico.md")}
+    what="todos os deputados desde 1826"
+  />
 
   <div
     class="filters"

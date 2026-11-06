@@ -1,5 +1,6 @@
 <script lang="ts">
   import { resolve } from "$app/paths";
+  import AskAI from "#lib/AskAI.svelte";
   import type { PageData } from "./$types";
   import Congress from "#lib/Congress.svelte";
   import { date } from "#lib/format.ts";
@@ -30,6 +31,11 @@
         Propostas da Câmara dos Deputados em palavras simples, com link para a
         fonte oficial. Você forma a sua opinião.
       </p>
+      <AskAI
+        href={resolve("llms.txt")}
+        what="todas as propostas, votações e deputados"
+        copy
+      />
     </div>
     <div class="hero-art" aria-hidden="true">
       <Congress />

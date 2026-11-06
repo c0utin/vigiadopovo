@@ -39,6 +39,7 @@ Os dados da Câmara são públicos, mas estão espalhados em arquivos enormes e 
 | 👤 **Deputados**     | Quem está em exercício e quem já exerceu mandato, com filtro por legislatura desde 1826. |
 | 📊 **Métricas**      | Alinhamento com Governo e Oposição, votações por mês e votos por deputado, desde 2003.   |
 | 🔍 **Transparência** | A coleta que gerou cada número, com hashes e links das provas.                           |
+| 🤖 **Para IA**       | Link em texto simples (`/llms.txt`, `.md`) para colar no ChatGPT, Claude ou Gemini.      |
 
 ## Por que dá para confiar
 

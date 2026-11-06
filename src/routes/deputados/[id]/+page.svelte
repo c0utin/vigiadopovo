@@ -3,6 +3,7 @@
   import type { PageData } from "./$types";
   import Radar from "#lib/Radar.svelte";
   import { date } from "#lib/format.ts";
+  import AskAI from "#lib/AskAI.svelte";
 
   let { data }: { data: PageData } = $props();
   const d = $derived(data.deputy);
@@ -131,6 +132,7 @@
               {p.from ? date(p.from) : "?"} a {p.until ? date(p.until) : "?"}
             </li>{/each}
         </ol>{/if}
+      <AskAI href={resolve(`deputados/${d.id}.md`)} what="este deputado" />
     </aside>
   </div>
 

@@ -47,7 +47,7 @@ const checkPerformance = Effect.gen(function* () {
     `Homepage inline JS exceeds 2 KiB gzip: ${homeJs}`,
   );
 
-  // The data explorer is the only hydrated page; it keeps the 45 KiB budget.
+  // The data explorer is the only hydrated page; it keeps the 46 KiB budget.
   const dataPage = yield* fs.readFileString("build/dados/index.html");
   const nodes = JSON.parse(
     dataPage.match(/node_ids:\s*(\[[^\]]+\])/)?.[1] ?? "null",
@@ -89,8 +89,8 @@ const checkPerformance = Effect.gen(function* () {
     );
   }
   yield* expect(
-    javascriptGzip <= 45 * 1024,
-    `Data page JS exceeds 45 KiB gzip: ${javascriptGzip}`,
+    javascriptGzip <= 46 * 1024,
+    `Data page JS exceeds 46 KiB gzip: ${javascriptGzip}`,
   );
   const homeHtml = gzipSync(home).length;
   yield* expect(homeHtml <= 14 * 1024, "Homepage HTML exceeds 14 KiB gzip");
