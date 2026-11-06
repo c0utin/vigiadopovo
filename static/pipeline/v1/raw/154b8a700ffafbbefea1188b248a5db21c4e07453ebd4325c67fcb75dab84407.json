@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2020,
+      "codTipo": 139,
+      "dataApresentacao": "2020-03-05T16:59",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
+      "ementaDetalhada": "",
+      "id": 2238560,
+      "justificativa": null,
+      "keywords": "Alteração, Lei Orgânica da Saúde, profissional de saúde, prestação de serviços, Sistema Único de Saúde (SUS), Atenção primária à saúde, Educação em saúde, família, prevenção, doença.",
+      "numero": 565,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 907,
+        "codTipoTramitacao": "500",
+        "dataHora": "2026-11-06T09:48",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento",
+        "despacho": "Recebimento pelo(a) CCJC.",
+        "regime": "Prioridade (Art. 151, II, RICD)",
+        "sequencia": 49,
+        "siglaOrgao": "CCJC",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220648",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1864114",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-06T16:41:46.379Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
+}

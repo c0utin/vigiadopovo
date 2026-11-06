@@ -1,0 +1,79 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:57:14",
+        "descricao": "Aprovadas as Subemendas nºs 1 e 2 ao Substitutivo da Comissão de Cultura.",
+        "id": "2412504-64",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-64",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:46:25",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.974, de 2023, da Comissão de Defesa dos Direitos das Pessoas com Deficiência.",
+        "id": "2412504-60",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-60",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-11-06",
+        "dataHoraRegistro": "2025-11-06T11:52:00",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2412504-49",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-49",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/79974",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2024-10-30",
+        "dataHoraRegistro": "2024-10-30T14:51:36",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2412504-36",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCULT",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-36",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/74459",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/536996",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2024-06-11",
+        "dataHoraRegistro": "2024-06-11T16:18:07",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2412504-20",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CPD",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-20",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/73160",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537480",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-06T16:41:40.097Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/votacoes"
+}

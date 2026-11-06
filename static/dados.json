@@ -1,7 +1,182 @@
 {
-  "collectedAt": "2026-11-05T17:15:48.598Z",
+  "collectedAt": "2026-11-06T16:40:11.093Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2651275,
+      "label": "PL 5788/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética.",
+      "presentedAt": "2026-11-06T12:16",
+      "status": {
+        "dataHora": "2026-11-06T12:16",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5788/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética\"."
+      },
+      "authors": [
+        {
+          "name": "Aureo Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651275",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651275",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191009",
+      "votes": [],
+      "sourceHash": "868cf4a9174abe8b6389ab48f3693b2e0482e6ab7601799997101f7278d0b844",
+      "summary": null
+    },
+    {
+      "id": 2651272,
+      "label": "PL 5787/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+      "presentedAt": "2026-11-06T11:49",
+      "status": {
+        "dataHora": "2026-11-06T11:49",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5787/2026 (Projeto de Lei), pelo Deputado Marcos Tavares (PDT/RJ), que \"Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais)\"."
+      },
+      "authors": [
+        {
+          "name": "Marcos Tavares",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651272",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190985",
+      "votes": [],
+      "sourceHash": "6dc04d75296c1d92d739c15dc7e1e5f6cbdab3690aca7fc39e13f5f04ce3fe70",
+      "summary": null
+    },
+    {
+      "id": 2651263,
+      "label": "PL 5786/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei.",
+      "presentedAt": "2026-11-06T11:10",
+      "status": {
+        "dataHora": "2026-11-06T11:10",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5786/2026 (Projeto de Lei), pela Deputada Clarissa Tércio (PP/PE), que \"Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei\"."
+      },
+      "authors": [
+        {
+          "name": "Clarissa Tércio",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651263",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190963",
+      "votes": [],
+      "sourceHash": "fac61a0c5190a69234cfe1e6f9d559d8641a2c989bbee380df03fdd80c5fab66",
+      "summary": null
+    },
+    {
+      "id": 2651261,
+      "label": "PL 5785/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa.",
+      "presentedAt": "2026-11-06T10:51",
+      "status": {
+        "dataHora": "2026-11-06T10:51",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5785/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa\"."
+      },
+      "authors": [
+        {
+          "name": "Eros Biondini",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651261",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190960",
+      "votes": [],
+      "sourceHash": "472de9b62158bccaec30942647510187880b95e91c8690b96a173caecd878233",
+      "summary": null
+    },
+    {
+      "id": 2651243,
+      "label": "PL 5784/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+      "presentedAt": "2026-11-05T17:36",
+      "status": {
+        "dataHora": "2026-11-05T17:36",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5784/2026 (Projeto de Lei), pela Deputada Renilce Nicodemos (MDB/PA), que \"Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências\"."
+      },
+      "authors": [
+        {
+          "name": "Renilce Nicodemos",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651243",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190708",
+      "votes": [],
+      "sourceHash": "ec4f63812f415db37f8b1ac308f46fb0e911a4f97918458d33d3da528f5d3f41",
+      "summary": null
+    },
+    {
+      "id": 2651239,
+      "label": "PL 5783/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
+      "presentedAt": "2026-11-05T17:06",
+      "status": {
+        "dataHora": "2026-11-05T17:06",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5783/2026 (Projeto de Lei), pela Deputada Duda Salabert (PSOL/MG), que \"Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo\"."
+      },
+      "authors": [
+        {
+          "name": "Duda Salabert",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651239",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190699",
+      "votes": [],
+      "sourceHash": "2adaea7a98e14d6d6ecea92ed6785347e0ffcd9d9af9034d5e78f2e8814dec53",
+      "summary": null
+    },
     {
       "id": 2651186,
       "label": "PL 5779/2026",
@@ -21,7 +196,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651186",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190543",
@@ -48,7 +236,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651185",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190532",
@@ -75,7 +282,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651158",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190467",
@@ -129,7 +355,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651110",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190395",
@@ -156,7 +395,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651096",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190350",
@@ -453,11 +711,11 @@
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
       "presentedAt": "2026-10-13T13:26",
       "status": {
-        "dataHora": "2026-11-05T14:01",
+        "dataHora": "2026-11-05T15:38",
         "descricaoSituacao": "Aguardando Designação de Relator(a)",
         "descricaoTramitacao": "Recebimento",
-        "siglaOrgao": "CMULHER",
-        "despacho": "Recebimento pelo(a) CMULHER."
+        "siglaOrgao": "CSPCCO",
+        "despacho": "Recebimento pelo(a) CSPCCO."
       },
       "authors": [
         {
@@ -507,6 +765,129 @@
         "scope": "ementa",
         "method": "Inferência neste chat · sem revisão humana"
       }
+    },
+    {
+      "id": 2641546,
+      "label": "MPV 1379/2026",
+      "type": "Medida Provisória",
+      "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
+      "presentedAt": "2026-07-22T00:00",
+      "status": {
+        "dataHora": "2026-11-05T00:00",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Aprovação do Parecer",
+        "siglaOrgao": "CN",
+        "despacho": "Aprovado o parecer na Comissão Mista"
+      },
+      "authors": [
+        {
+          "name": "Poder Executivo",
+          "type": "Órgão do Poder Executivo"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:66",
+          "name": "Indústria, Comércio e Serviços",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641546",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3166455",
+      "votes": [
+        {
+          "id": "2641546-7",
+          "date": "2026-11-05",
+          "description": "Aprovado o parecer na Comissão Mista",
+          "organ": "CN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7"
+        }
+      ],
+      "sourceHash": "afd88ca20b7c39c9ee2d9c48071745ff3f5b55c5143f5ddd789ce76c226728ed",
+      "summary": null
+    },
+    {
+      "id": 2637478,
+      "label": "PL 3507/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+      "presentedAt": "2026-07-07T09:17",
+      "status": {
+        "dataHora": "2026-11-05T10:00",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A matéria vai ao Senado Federal (PL 3.507-A/2026)."
+      },
+      "authors": [
+        {
+          "name": "Pedro Lucas Fernandes",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637478",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3157723",
+      "votes": [
+        {
+          "id": "2637478-28",
+          "date": "2026-11-05",
+          "description": "Aprovada a Redação Final assinada pelo relator, Dep. Hildo Rocha (MDB-MA).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-28"
+        },
+        {
+          "id": "2637478-26",
+          "date": "2026-11-05",
+          "description": "Aprovado o Projeto de Lei nº 3.507, de 2026.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-26"
+        },
+        {
+          "id": "2637478-16",
+          "date": "2026-11-03",
+          "description": "Realizar o encaminhamento do PL-3507/2026 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "organ": "CCP",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-16"
+        },
+        {
+          "id": "2637487-7",
+          "date": "2026-11-03",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637487-7"
+        }
+      ],
+      "sourceHash": "e78cf3c64f9430ea327201937e8109f840aa0ee6f0f77370cae39b55dbb65e3e",
+      "summary": null
     },
     {
       "id": 2620905,
@@ -592,11 +973,11 @@
       "ementa": "Altera o art. 171 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer qualificadora nos casos de estelionato cometido em detrimento ou por intermédio de entidade de direito público ou instituto de economia popular, assistência social ou beneficência, e para tornar a ação penal pública incondicionada para vítima maior de 60 (sessenta) anos.",
       "presentedAt": "2026-04-23T13:17",
       "status": {
-        "dataHora": "2026-11-05T11:46",
-        "descricaoSituacao": null,
+        "dataHora": "2026-11-05T00:00",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
         "descricaoTramitacao": "Publicação de Proposição",
         "siglaOrgao": "CCP",
-        "despacho": "Parecer recebido para publicação."
+        "despacho": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Pessoa Idosa Publicado em avulso e no DCD de 06/11/2026, Letra A."
       },
       "authors": [
         {
@@ -741,11 +1122,11 @@
       "ementa": "Altera as Leis nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), e nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para assegurar os direitos linguísticos, identitários e culturais de pessoas surdas e surdocegas, garantir o acesso à Língua Brasileira de Sinais – Libras – e dispor sobre a oferta obrigatória de orientação interdisciplinar prévia à realização de implante coclear em crianças.",
       "presentedAt": "2026-04-07T16:06",
       "status": {
-        "dataHora": "2026-11-05T11:46",
+        "dataHora": "2026-11-05T00:00",
         "descricaoSituacao": "Aguardando Designação de Relator(a)",
         "descricaoTramitacao": "Publicação de Proposição",
         "siglaOrgao": "CCP",
-        "despacho": "Parecer recebido para publicação."
+        "despacho": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Pessoa Idosa Publicado em avulso e no DCD de 06/11/2026, Letra A."
       },
       "authors": [
         {
@@ -809,11 +1190,11 @@
       "ementa": "Altera a legislação relativa ao sistema financeiro nacional para dispor sobre a obrigatoriedade de oferta de mecanismo de autenticação em dois fatores com validação por pessoa de confiança para clientes idosos.",
       "presentedAt": "2026-03-27T11:53",
       "status": {
-        "dataHora": "2026-11-05T11:46",
+        "dataHora": "2026-11-05T00:00",
         "descricaoSituacao": "Aguardando Designação de Relator(a)",
         "descricaoTramitacao": "Publicação de Proposição",
         "siglaOrgao": "CCP",
-        "despacho": "Parecer recebido para publicação."
+        "despacho": "Encaminhada à publicação. Parecer da Comissão de Defesa dos Direitos da Pessoa Idosa Publicado em avulso e no DCD de 06/11/2026, Letra A."
       },
       "authors": [
         {
@@ -967,11 +1348,11 @@
       "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
       "presentedAt": "2025-07-01T19:47",
       "status": {
-        "dataHora": "2026-11-04T13:55",
+        "dataHora": "2026-11-04T00:00",
         "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 3.220-A/2025)."
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pela Deputada Lídice da Mata (PSB/BA)."
       },
       "authors": [
         {
@@ -1028,6 +1409,88 @@
         }
       ],
       "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
+      "summary": null
+    },
+    {
+      "id": 2412504,
+      "label": "PL 5974/2023",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
+      "presentedAt": "2023-12-12T15:44",
+      "status": {
+        "dataHora": "2026-11-06T09:48",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento",
+        "siglaOrgao": "CCJC",
+        "despacho": "Recebimento pelo(a) CCJC."
+      },
+      "authors": [
+        {
+          "name": "Comissão de Legislação Participativa",
+          "type": "COMISSÃO PERMANENTE"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:68",
+          "name": "Direito Constitucional",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2412504",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2374424",
+      "votes": [
+        {
+          "id": "2412504-64",
+          "date": "2026-11-05",
+          "description": "Aprovadas as Subemendas nºs 1 e 2 ao Substitutivo da Comissão de Cultura.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-64"
+        },
+        {
+          "id": "2412504-60",
+          "date": "2026-11-05",
+          "description": "Aprovado o Substitutivo ao Projeto de Lei nº 5.974, de 2023, da Comissão de Defesa dos Direitos das Pessoas com Deficiência.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-60"
+        },
+        {
+          "id": "2412504-49",
+          "date": "2025-11-06",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-49"
+        },
+        {
+          "id": "2412504-36",
+          "date": "2024-10-30",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCULT",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-36"
+        },
+        {
+          "id": "2412504-20",
+          "date": "2024-06-11",
+          "description": "Aprovado o Parecer.",
+          "organ": "CPD",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-20"
+        }
+      ],
+      "sourceHash": "2c2ad55fce250389233216a9d0d5a9f7834ad7955812b90b0245f40673457cc9",
       "summary": null
     },
     {
@@ -1853,17 +2316,141 @@
       "summary": null
     },
     {
+      "id": 2389679,
+      "label": "PRC 113/2023",
+      "type": "Projeto de Resolução",
+      "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
+      "presentedAt": "2023-09-21T12:12",
+      "status": {
+        "dataHora": "2026-11-05T10:00",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Acessórios",
+        "siglaOrgao": "PLEN",
+        "despacho": "Promulgada a Resolução nº 38/2026."
+      },
+      "authors": [
+        {
+          "name": "Pompeo de Mattos",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:53",
+          "name": "Processo Legislativo e Atuação Parlamentar",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2389679",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2331762",
+      "votes": [
+        {
+          "id": "2389679-29",
+          "date": "2026-11-05",
+          "description": "Aprovada a Redação Final, assinada pelo relator, Dep. Aécio Neves (PSDB/MG).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2389679-29"
+        },
+        {
+          "id": "2389679-27",
+          "date": "2026-11-05",
+          "description": "Aprovado o Projeto de Resolução nº 113, de 2023.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2389679-27"
+        },
+        {
+          "id": "2650080-7",
+          "date": "2026-11-05",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2650080-7"
+        }
+      ],
+      "sourceHash": "447773991efe6cdf482988748431bb22692931311a754fc7bce213ba5b5f662e",
+      "summary": null
+    },
+    {
+      "id": 2238560,
+      "label": "PL 565/2020",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
+      "presentedAt": "2020-03-05T16:59",
+      "status": {
+        "dataHora": "2026-11-06T09:48",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento",
+        "siglaOrgao": "CCJC",
+        "despacho": "Recebimento pelo(a) CCJC."
+      },
+      "authors": [
+        {
+          "name": "Comissão de Seguridade Social e Família",
+          "type": "COMISSÃO PERMANENTE"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2238560",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1864114",
+      "votes": [
+        {
+          "id": "2238560-44",
+          "date": "2026-11-05",
+          "description": "Aprovada a Emenda de Redação.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-44"
+        },
+        {
+          "id": "2238560-42",
+          "date": "2026-11-05",
+          "description": "Aprovado o Projeto de Lei nº 565, de 2020.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-42"
+        },
+        {
+          "id": "2238560-28",
+          "date": "2023-06-20",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-28"
+        }
+      ],
+      "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
+      "summary": null
+    },
+    {
       "id": 2204495,
       "label": "PL 3099/2019",
       "type": "Projeto de Lei",
       "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
       "presentedAt": "2019-05-22T19:59",
       "status": {
-        "dataHora": "2026-11-05T10:00",
-        "descricaoSituacao": "Aguardando Deliberação",
-        "descricaoTramitacao": "Encerramentos",
-        "siglaOrgao": "PLEN",
-        "despacho": "Matéria não apreciada em face do encerramento da Ordem do Dia."
+        "dataHora": "2026-11-06T09:48",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Recebimento",
+        "siglaOrgao": "CCJC",
+        "despacho": "Recebimento pelo(a) CCJC."
       },
       "authors": [
         {
