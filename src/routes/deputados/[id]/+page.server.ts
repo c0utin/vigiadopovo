@@ -15,6 +15,7 @@ export function load({ params }: { params: { id: string } }) {
     year: dataset.year,
     collectedAt: dataset.collectedAt,
     activity: dataset.activity,
+    bills: dataset.bills,
     nominalVotings: dataset.nominalVotings,
     sources: dataset.sources,
   };

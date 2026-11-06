@@ -81,7 +81,25 @@ function fixture({ duplicateVote = false } = {}) {
     siglaUf,
     idLegislatura,
   });
+  const bill = (id, siglaTipo, dataApresentacao, status) => ({
+    id,
+    siglaTipo,
+    numero: id,
+    ano: Number(dataApresentacao.slice(0, 4)),
+    ementa: `Ementa ${id}`,
+    dataApresentacao: `${dataApresentacao}T10:00:00`,
+    ultimoStatus: {
+      data: "2026-05-01T00:00:00",
+      descricaoTramitacao: "Despacho",
+      despacho: "",
+      ...status,
+    },
+  });
   const routes = {
+    "/api/v2/legislaturas/57": {
+      dados: { id: 57, dataInicio: "2023-02-01", dataFim: "2027-01-31" },
+      links: [],
+    },
     "/api/v2/legislaturas": {
       dados: [
         { id: 57, dataInicio: "2023-02-01", dataFim: "2027-01-31" },
@@ -168,6 +186,73 @@ function fixture({ duplicateVote = false } = {}) {
         { idProposicao: 13, proponente: "1" },
       ],
     },
+    "proposicoesAutores-2024": {
+      dados: [20, 21, 22, 23, 24]
+        .map((id) => ({
+          idProposicao: id,
+          idDeputadoAutor: 1,
+          proponente: "1",
+          ordemAssinatura: "1",
+        }))
+        .concat([
+          // Support signature: not a co-author.
+          { idProposicao: 24, idDeputadoAutor: 2, proponente: "0" },
+        ]),
+    },
+    "proposicoesAutores-2023": {
+      dados: [30, 31].map((id) => ({
+        idProposicao: id,
+        idDeputadoAutor: 2,
+        proponente: "1",
+        ordemAssinatura: "2",
+      })),
+    },
+    // Yearly files without their own route have no bills.
+    proposicoes: { dados: [] },
+    "proposicoes-2026": {
+      dados: [
+        bill(10, "PL", "2026-03-01", {
+          descricaoSituacao: "Aguardando Parecer",
+        }),
+        // Requests are not bills.
+        bill(11, "REQ", "2026-03-02", { descricaoSituacao: "Aprovada" }),
+      ],
+    },
+    "proposicoes-2024": {
+      dados: [
+        bill(20, "PL", "2024-01-10", {
+          descricaoSituacao: "Transformado em Norma Jurídica",
+        }),
+        bill(21, "PEC", "2024-02-10", {
+          descricaoSituacao: "Arquivada",
+          despacho:
+            "Arquivado nos termos do art. 133 do RICD (rejeição nas comissões de mérito).",
+        }),
+        bill(22, "PL", "2024-03-10", {
+          descricaoSituacao: "Arquivada",
+          despacho: "Arquivado nos termos do Artigo 105 do RICD.",
+        }),
+        // Blank situation: the last step says what happened.
+        bill(23, "PDL", "2024-04-10", {
+          descricaoSituacao: "",
+          descricaoTramitacao: "Retirada pelo(a) Autor(a)",
+        }),
+        bill(24, "PLP", "2024-05-10", {
+          descricaoSituacao: "Aguardando Apreciação pelo Senado Federal",
+        }),
+      ],
+    },
+    "proposicoes-2023": {
+      dados: [
+        // Presented before the legislature began.
+        bill(30, "PL", "2023-01-20", {
+          descricaoSituacao: "Aguardando Parecer",
+        }),
+        bill(31, "PL", "2023-02-02", {
+          descricaoSituacao: "Tramitando em Conjunto",
+        }),
+      ],
+    },
     orgaosDeputados: {
       dados: [
         membership(1, "CCJC", "Titular", "2023-03-01", ""),
@@ -187,12 +272,13 @@ function fixture({ duplicateVote = false } = {}) {
           "content-type": photo[1] === "2" ? "text/html" : "image/jpeg",
         },
       });
-    const bulk = url.pathname.match(/^\/arquivos\/(\w+)\/json\//);
+    const bulk = url.pathname.match(
+      /^\/arquivos\/(\w+)\/json\/([\w-]+)\.json$/,
+    );
     const legislature = url.searchParams.get("idLegislatura");
-    const body =
-      routes[
-        bulk ? bulk[1] : legislature ? `mandatos:${legislature}` : url.pathname
-      ];
+    const body = bulk
+      ? (routes[bulk[2]] ?? routes[bulk[1]])
+      : routes[legislature ? `mandatos:${legislature}` : url.pathname];
     if (!body) throw new Error(`Unexpected request: ${url.href}`);
     return Response.json(body);
   };
@@ -278,6 +364,30 @@ test("Deputy profiles count official records per deputy, rank them and publish o
       ],
     );
     assert.equal(byId[3].condition, "Suplente");
+
+    // Bills of the whole legislature, newest first, by official situation.
+    assert.equal(dataset.bills.since, "2023-02-01");
+    assert.deepEqual(
+      byId[1].bills.map((b) => [b.label, b.outcome, b.situation]),
+      [
+        ["PL 10/2026", "active", "Aguardando Parecer"],
+        [
+          "PLP 24/2024",
+          "approved",
+          "Aguardando Apreciação pelo Senado Federal",
+        ],
+        ["PDL 23/2024", "closed", "Retirada pelo(a) Autor(a)"],
+        ["PL 22/2024", "closed", "Arquivada"],
+        ["PEC 21/2024", "rejected", "Arquivada"],
+        ["PL 20/2024", "law", "Transformado em Norma Jurídica"],
+      ],
+    );
+    assert.deepEqual(
+      byId[2].bills.map((b) => [b.id, b.firstAuthor, b.presentedAt]),
+      [[31, false, "2023-02-02"]],
+    );
+    assert.equal(byId[1].bills[5].firstAuthor, true);
+    assert.deepEqual(byId[3].bills, []);
 
     // Non-JPEG responses are never republished as photos.
     assert.equal(byId[1].photo, "/fotos/deputados/1.jpg");

@@ -266,7 +266,8 @@ export function makeCamaraLayer({
         const url = yield* parse(BulkUrl, input);
         const { body } = yield* download(url, {
           accept: "application/json",
-          maxBytes: 128 * 1024 * 1024,
+          // proposicoes-2025.json alone is about 160 MiB.
+          maxBytes: 256 * 1024 * 1024,
           timeout: BULK_TIMEOUT_MS,
         });
         const envelope = yield* decodeEnvelope(body);

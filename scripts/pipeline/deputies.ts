@@ -3,6 +3,7 @@ import { Camara, type BulkFile } from "./camara.ts";
 import { PipelineError } from "./errors.ts";
 import type {
   ActivityKey,
+  BillOutcome,
   DeputiesDataset,
   Deputy,
   MandatesDataset,
@@ -57,6 +58,25 @@ const BulkAuthor = Schema.Struct({
   // Absent when the author is not a deputy (committees, Executive, etc.).
   idDeputadoAutor: Schema.optionalKey(Schema.NullOr(Schema.Int)),
   proponente: Schema.String,
+  ordemAssinatura: Schema.optionalKey(Text),
+});
+const BulkProposition = Schema.Struct({
+  id: Id,
+  siglaTipo: Schema.String,
+  numero: Schema.Int,
+  ano: Schema.Int,
+  ementa: Schema.String,
+  dataApresentacao: Schema.NonEmptyString,
+  ultimoStatus: Schema.Struct({
+    data: Text,
+    descricaoSituacao: Text,
+    descricaoTramitacao: Text,
+    despacho: Text,
+  }),
+});
+const LegislatureDetail = Schema.Struct({
+  id: Id,
+  dataInicio: Schema.NonEmptyString,
 });
 const BulkMembership = Schema.Struct({
   uriOrgao: Schema.String,
@@ -120,6 +140,65 @@ const ACTIVITY: DeputiesDataset["activity"] = [
       "Comissões, Mesa e outros órgãos em que atua hoje, como titular, suplente ou em outro cargo.",
   },
 ];
+
+// Bills that can become a law, constitutional amendment or legislative
+// decree. Requests, amendments and opinions are left out.
+const BILL_TYPES = ["PL", "PLP", "PEC", "PDL"];
+const BILLS: DeputiesDataset["bills"]["outcomes"] = [
+  {
+    key: "law",
+    label: "Virou lei",
+    description: "Situação oficial “Transformado em Norma Jurídica”.",
+  },
+  {
+    key: "approved",
+    label: "Aprovada na Câmara",
+    description:
+      "Aguarda redação final, o Senado, sanção ou promulgação: a Câmara já aprovou o texto, mas ainda não é lei.",
+  },
+  {
+    key: "rejected",
+    label: "Rejeitada",
+    description:
+      "Situação oficial “Rejeitada” ou “Vetada totalmente”, ou arquivada com despacho que cita rejeição.",
+  },
+  {
+    key: "active",
+    label: "Em tramitação",
+    description:
+      "Aguardando relator, parecer, pauta ou outra etapa, inclusive tramitando em conjunto com outro projeto.",
+  },
+  {
+    key: "closed",
+    label: "Arquivada ou retirada",
+    description:
+      "Arquivada sem rejeição (por exemplo, no fim da legislatura ou por prejudicialidade), devolvida, retirada pelo autor ou sem eficácia.",
+  },
+];
+
+// Only the official situation text is read; the despacho decides nothing
+// but whether an archived bill was rejected.
+function billOutcome(situation: string, despacho: string): BillOutcome {
+  if (/Transformad[oa] em (Norma Jurídica|Lei)/i.test(situation)) return "law";
+  if (
+    /Rejeitad|Vetad[oa] totalmente/i.test(situation) ||
+    (/Arquivad/i.test(situation) && /rejei/i.test(despacho))
+  )
+    return "rejected";
+  if (
+    /Senado Federal|Sanção|Promulgação|Autógrafos|Redação Final/i.test(
+      situation,
+    )
+  )
+    return "approved";
+  if (
+    /Arquivad|Devolvid|Retirad|Perdeu a Eficácia|Prejudicad|Transformad[oa] em nova/i.test(
+      situation,
+    )
+  )
+    return "closed";
+  return "active";
+}
 
 // Midrank percentile: ties share a position, so a zero shared by most
 // deputies is not reported as the very bottom.
@@ -194,6 +273,67 @@ export const collectDeputies = Effect.fn("collectDeputies")(
       BulkMembership,
       `orgaosDeputados/json/orgaosDeputados-L${legislature}.json`,
     );
+
+    // Bills of the whole legislature: the yearly files are by presentation
+    // year, and a bill takes years to reach a final outcome.
+    const term = yield* client
+      .get(`${API}/legislaturas/${legislature}`)
+      .pipe(
+        Effect.flatMap((r) =>
+          Schema.decodeUnknownEffect(LegislatureDetail)(r.dados),
+        ),
+      );
+    const since = term.dataInicio.slice(0, 10);
+    const billsByDeputy = new Map<number, Deputy["bills"]>();
+    for (
+      let billYear = Number(since.slice(0, 4));
+      billYear <= year;
+      billYear++
+    ) {
+      const yearAuthors =
+        billYear === year
+          ? authors
+          : yield* bulk(
+              BulkAuthor,
+              `proposicoesAutores/json/proposicoesAutores-${billYear}.json`,
+            );
+      const bills = new Map<number, typeof BulkProposition.Type>();
+      for (const p of yield* bulk(
+        BulkProposition,
+        `proposicoes/json/proposicoes-${billYear}.json`,
+      ))
+        if (
+          BILL_TYPES.includes(p.siglaTipo) &&
+          p.dataApresentacao.slice(0, 10) >= since
+        )
+          bills.set(p.id, p);
+      for (const author of yearAuthors) {
+        const bill = bills.get(author.idProposicao);
+        if (
+          !bill ||
+          author.proponente !== "1" ||
+          author.idDeputadoAutor == null
+        )
+          continue;
+        const list = billsByDeputy.get(author.idDeputadoAutor) ?? [];
+        // The same file can list a signer twice; one entry per bill.
+        if (list.some((b) => b.id === bill.id)) continue;
+        const status = bill.ultimoStatus;
+        const situation =
+          status.descricaoSituacao || status.descricaoTramitacao || null;
+        list.push({
+          id: bill.id,
+          label: `${bill.siglaTipo} ${bill.numero}/${bill.ano}`,
+          ementa: bill.ementa,
+          presentedAt: bill.dataApresentacao.slice(0, 10),
+          situation,
+          statusAt: status.data?.slice(0, 10) || null,
+          outcome: billOutcome(situation ?? "", status.despacho ?? ""),
+          firstAuthor: author.ordemAssinatura === "1",
+        });
+        billsByDeputy.set(author.idDeputadoAutor, list);
+      }
+    }
 
     const votingById = new Map(votings.map((v) => [v.id, v]));
     const propositionsByVoting = new Map<
@@ -371,6 +511,9 @@ export const collectDeputies = Effect.fn("collectDeputies")(
               url: `${API}/votacoes/${vote.idVotacao}`,
             };
           }),
+        bills: (billsByDeputy.get(id) ?? []).toSorted(
+          (a, b) => b.presentedAt.localeCompare(a.presentedAt) || b.id - a.id,
+        ),
       };
     });
 
@@ -385,6 +528,7 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         committee: nominal.committee.size,
       },
       activity: ACTIVITY,
+      bills: { since, types: BILL_TYPES, outcomes: BILLS },
       sources: files,
       deputies,
     } satisfies DeputiesDataset;

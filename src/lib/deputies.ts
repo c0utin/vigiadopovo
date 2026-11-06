@@ -2,6 +2,9 @@
 export type ActivityKey =
   "plenaryVotes" | "committeeVotes" | "propositions" | "speeches" | "organs";
 
+/** Where a bill stands, read from its official situation (see `bills.outcomes`). */
+export type BillOutcome = "law" | "approved" | "active" | "rejected" | "closed";
+
 export interface Deputy {
   id: number;
   name: string;
@@ -36,6 +39,20 @@ export interface Deputy {
     propositions: { id: number; label: string }[];
     url: string;
   }[];
+  /** Bills presented in the current legislature as author or co-author, newest first. */
+  bills: {
+    id: number;
+    /** e.g. "PL 1234/2025". */
+    label: string;
+    ementa: string;
+    presentedAt: string;
+    /** Official situation, or the last step when the Câmara leaves it blank. */
+    situation: string | null;
+    statusAt: string | null;
+    outcome: BillOutcome;
+    /** First signer; otherwise a co-author. */
+    firstAuthor: boolean;
+  }[];
 }
 
 export interface DeputiesDataset {
@@ -52,6 +69,17 @@ export interface DeputiesDataset {
     short: string;
     description: string;
   }[];
+  bills: {
+    /** Start of the current legislature: bills presented since then. */
+    since: string;
+    types: readonly string[];
+    /** Display order. */
+    outcomes: readonly {
+      key: BillOutcome;
+      label: string;
+      description: string;
+    }[];
+  };
   sources: {
     url: string;
     collectedAt: string;

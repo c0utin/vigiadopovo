@@ -24,6 +24,16 @@
       ["Escolaridade", d.schooling],
     ].filter((fact): fact is [string, string] => Boolean(fact[1])),
   );
+  // A deputados.json collected before bills existed has neither field: the
+  // profile then renders without the section instead of failing.
+  const bills = $derived(
+    data.bills && d.bills
+      ? data.bills.outcomes.map((o) => ({
+          ...o,
+          bills: d.bills.filter((b) => b.outcome === o.key),
+        }))
+      : null,
+  );
 </script>
 
 <svelte:head
@@ -137,6 +147,64 @@
         Nenhuma participação vigente nos registros oficiais da legislatura.
       </p>{/if}
   </section>
+
+  {#if data.bills && bills}<section aria-labelledby="projetos-titulo">
+      <h2 id="projetos-titulo">
+        Projetos apresentados <span class="muted"
+          >({number(d.bills.length)})</span
+        >
+      </h2>
+      <p class="muted">
+        {data.bills.types.join(", ")} apresentados desde {date(
+          data.bills.since,
+        )}, início da legislatura, como autor ou coautor. A situação é a última
+        registrada pela Câmara. Um projeto tramitando em conjunto segue o
+        destino do projeto ao qual foi anexado.
+      </p>
+      {#if d.bills.length}<ul class="outcomes">
+          {#each bills as g}<li class={g.key}>
+              <svelte:element
+                this={g.bills.length ? "a" : "span"}
+                href={g.bills.length ? `#projetos-${g.key}` : undefined}
+                ><strong>{number(g.bills.length)}</strong
+                >{g.label}</svelte:element
+              >
+            </li>{/each}
+        </ul>
+        {#each bills as g}{#if g.bills.length}<details
+              id={`projetos-${g.key}`}
+              class="bill-group {g.key}"
+              open={g.bills.length <= 10}
+            >
+              <summary
+                >{g.label}
+                <span class="muted">({number(g.bills.length)})</span></summary
+              >
+              <p class="muted">{g.description}</p>
+              <ol class="vote-list">
+                {#each g.bills as b}<li>
+                    <p class="vote-date">
+                      <strong>{b.label}</strong> · apresentado em {date(
+                        b.presentedAt,
+                      )}{b.firstAuthor ? "" : " · coautoria"}
+                    </p>
+                    <p>{b.ementa}</p>
+                    <p class="muted">
+                      {b.situation ?? "Situação não informada"}{b.statusAt
+                        ? ` · ${date(b.statusAt)}`
+                        : ""}
+                    </p>
+                    <a
+                      href={`https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${b.id}`}
+                      target="_blank"
+                      rel="noreferrer">Tramitação oficial ↗</a
+                    >
+                  </li>{/each}
+              </ol>
+            </details>{/if}{/each}{:else}<p class="muted">
+          Nenhum projeto apresentado como autor ou coautor nesta legislatura.
+        </p>{/if}
+    </section>{/if}
 
   <section aria-labelledby="votos-titulo">
     <h2 id="votos-titulo">Últimos votos no Plenário</h2>
@@ -329,6 +397,67 @@
   details {
     margin-top: 32px;
     border-top: 1px solid var(--line);
+  }
+  .outcomes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 8px;
+    margin: 16px 0 8px;
+    padding: 0;
+    list-style: none;
+  }
+  .outcomes > li > * {
+    display: grid;
+    gap: 2px;
+    min-height: 44px;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--tone);
+    border-radius: 10px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .outcomes strong {
+    font-size: 24px;
+    font-variant-numeric: tabular-nums;
+  }
+  .law {
+    --tone: #2f7d3a;
+  }
+  .approved {
+    --tone: #9cc95a;
+  }
+  .rejected {
+    --tone: #b8432f;
+  }
+  .active {
+    --tone: #d9b54a;
+  }
+  .closed {
+    --tone: #a3aaa0;
+  }
+  /* After the shared details rule, which styles "Sobre estes dados". */
+  .bill-group {
+    margin-top: 0;
+    border-top: 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .bill-group li:last-child {
+    border-bottom: 0;
+  }
+  .bill-group summary {
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .bill-group summary::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-inline: 4px 8px;
+    border-radius: 50%;
+    background: var(--tone);
   }
   @media (min-width: 600px) {
     img {

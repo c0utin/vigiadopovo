@@ -49,10 +49,9 @@ export const syncDeputies = Effect.gen(function* () {
   const current = new Set(dataset.deputies.map((d) => `${d.id}.jpg`));
   for (const name of photos)
     if (!current.has(name)) yield* fs.remove(path.join(PHOTOS, name));
-  yield* writeAtomic(
-    "static/deputados.json",
-    JSON.stringify(dataset, null, 2) + "\n",
-  );
+  // Minified: with every bill of the legislature it is about 15 MB, and
+  // Cloudflare serves static assets of up to 25 MiB.
+  yield* writeAtomic("static/deputados.json", JSON.stringify(dataset) + "\n");
   yield* writeAtomic(
     "static/deputados-mandatos.json",
     JSON.stringify(mandates) + "\n",
