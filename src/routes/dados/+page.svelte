@@ -512,7 +512,7 @@
     border-radius: 8px;
     text-decoration: none;
     font-size: 12px;
-    background: #fff;
+    background: var(--surface);
   }
   .data-page > .notice {
     padding-block: 8px;
@@ -527,7 +527,7 @@
   }
   .load-panel,
   .collection {
-    background: #f0f1e8;
+    background: var(--surface-alt);
     padding: 26px;
     border: 1px solid var(--line);
     border-radius: 12px;
@@ -565,7 +565,7 @@
     min-height: 46px;
     border: 1px solid var(--line);
     border-radius: 4px;
-    background: #fff;
+    background: var(--surface);
     color: var(--green);
     padding: 10px;
     font-size: 16px;
@@ -587,7 +587,7 @@
   }
   .empty-message {
     padding: 20px;
-    background: #edf0e5;
+    background: var(--surface-strong);
     line-height: 1.8;
   }
   .table-scroll {
@@ -595,7 +595,7 @@
     overflow-x: auto;
   }
   .table-scroll:focus-visible {
-    outline: 2px solid #507b29;
+    outline: 2px solid var(--focus);
     outline-offset: 4px;
   }
   table {
@@ -611,7 +611,7 @@
     text-align: left;
     padding: 16px;
     font-weight: 600;
-    background: #edf0e5;
+    background: var(--surface-strong);
   }
   th,
   td {
@@ -637,7 +637,7 @@
     border-radius: 12px;
     padding: 18px;
     margin-block: 12px;
-    background: #fff;
+    background: var(--surface);
   }
   tbody th,
   td[colspan] {
@@ -657,7 +657,7 @@
     font-weight: 600;
   }
   tbody tr:nth-child(even) {
-    background: #f4f5ee;
+    background: var(--surface-alt);
   }
   .pagination {
     display: flex;
@@ -713,7 +713,7 @@
       clip-path: none;
       overflow: visible;
       display: table-header-group;
-      background: #f0f1e8;
+      background: var(--surface-alt);
     }
     tbody {
       display: table-row-group;

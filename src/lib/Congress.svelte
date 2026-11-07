@@ -15,7 +15,7 @@
       /></pattern
     ></defs
   >
-  <circle cx="281" cy="132" r="115" fill="#e5e8d9" />
+  <circle cx="281" cy="132" r="115" fill="var(--surface-alt)" />
   <path
     d="M56 244H452M78 252H435M99 260H413"
     stroke="currentColor"
@@ -23,7 +23,7 @@
   />
   <path
     d="M212 206V37L246 30V206M253 206V30L285 36V206"
-    fill="#f7f7ef"
+    fill="var(--surface)"
     stroke="currentColor"
     stroke-width="1.6"
   />
@@ -31,13 +31,13 @@
   <path d="M246 30V206M253 30V206" stroke="currentColor" stroke-width="2.5" />
   <path
     d="M75 207Q115 151 171 207Z"
-    fill="#f7f7ef"
+    fill="var(--surface)"
     stroke="currentColor"
     stroke-width="1.6"
   />
   <path
     d="M301 171H416Q403 211 359 211Q316 211 301 171Z"
-    fill="#f7f7ef"
+    fill="var(--surface)"
     stroke="currentColor"
     stroke-width="1.6"
   />
@@ -48,7 +48,7 @@
   />
   <path
     d="M66 211H426L449 238H45L66 211Z"
-    fill="#e4e7d7"
+    fill="var(--border)"
     stroke="currentColor"
     stroke-width="1.6"
   />

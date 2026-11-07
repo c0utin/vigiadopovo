@@ -160,9 +160,9 @@
     width: 100%;
     height: 48px;
     padding-inline: 12px;
-    border: 1px solid #8a9a86;
+    border: 1px solid var(--border);
     border-radius: 10px;
-    background: #fff;
+    background: var(--surface);
     color: var(--green);
     font-size: 16px;
   }
@@ -186,13 +186,13 @@
     gap: 14px;
     min-height: 96px;
     padding: 10px;
-    background: #fff;
+    background: var(--surface);
     border: 1px solid var(--line);
     border-radius: 12px;
     text-decoration: none;
   }
   .deputy-grid :global(a:hover) {
-    border-color: #849773;
+    border-color: var(--border-strong);
   }
   .deputy-grid :global(img),
   .deputy-grid :global(.no-photo) {
@@ -201,12 +201,12 @@
     height: 72px;
     border-radius: 8px;
     object-fit: cover;
-    background: #e5e8d9;
+    background: var(--surface-alt);
   }
   .deputy-grid :global(.no-photo) {
     display: grid;
     place-items: center;
-    color: #8a9a86;
+    color: var(--border);
   }
   .deputy-grid :global(.info) {
     display: grid;
@@ -228,21 +228,21 @@
     font-size: 12px;
     padding: 1px 8px;
     border-radius: 10px;
-    background: #eaf0df;
+    background: var(--accent-bg);
     color: var(--green);
   }
   .deputy-grid :global(.info .tag.former) {
-    background: #efe9dc;
-    color: #6b5a3a;
+    background: var(--accent-bg);
+    color: var(--accent-text);
   }
   .more {
     display: block;
     margin: 16px auto 0;
     min-height: 44px;
     padding: 0 18px;
-    border: 1px solid #8a9a86;
+    border: 1px solid var(--border);
     border-radius: 10px;
-    background: #fff;
+    background: var(--surface);
     color: var(--green);
     font: inherit;
     font-weight: 600;
