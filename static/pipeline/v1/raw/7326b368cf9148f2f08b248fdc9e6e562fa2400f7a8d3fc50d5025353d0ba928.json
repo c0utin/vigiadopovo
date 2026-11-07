@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 35,
+        "relevancia": 0,
+        "tema": "Arte, Cultura e Religião"
+      },
+      {
+        "codTema": 72,
+        "relevancia": 0,
+        "tema": "Homenagens e Datas Comemorativas"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:44.544Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas"
+}

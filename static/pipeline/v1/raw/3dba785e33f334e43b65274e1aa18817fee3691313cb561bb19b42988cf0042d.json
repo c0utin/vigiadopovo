@@ -1,0 +1,66 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T16:47:10",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Nikolas Ferreira (PL-MG).",
+        "id": "2410357-48",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T16:45:13",
+        "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Lei nº 5.902, de 2023, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2410357-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-27",
+        "dataHoraRegistro": "2026-10-27T20:41:41",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2649009-8",
+        "proposicaoObjeto": "REQ 4337/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2649009-8",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83098",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649009"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-04-08",
+        "dataHoraRegistro": "2026-04-08T13:13:10",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2410357-22",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-22",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81399",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:58.194Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/votacoes"
+}

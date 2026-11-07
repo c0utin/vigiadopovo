@@ -1,5 +1,5 @@
 {
-  "collectedAt": "2026-11-06T16:40:11.093Z",
+  "collectedAt": "2026-11-07T15:34:24.260Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
     {
@@ -102,7 +102,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:52",
+          "name": "Previdência e Assistência Social",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651261",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190960",
@@ -328,7 +347,14 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651114",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190397",
@@ -827,11 +853,11 @@
       "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
       "presentedAt": "2026-07-07T09:17",
       "status": {
-        "dataHora": "2026-11-05T10:00",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 3.507-A/2026)."
+        "dataHora": "2026-11-05T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Hildo Rocha (MDB/MA)."
       },
       "authors": [
         {
@@ -1252,11 +1278,11 @@
       "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
       "presentedAt": "2025-11-12T11:12",
       "status": {
-        "dataHora": "2026-11-04T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 5.815-A/2025)."
+        "dataHora": "2026-11-04T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Waldemar Oliveira (AVANTE/PE)."
       },
       "authors": [
         {
@@ -1349,7 +1375,7 @@
       "presentedAt": "2025-07-01T19:47",
       "status": {
         "dataHora": "2026-11-04T00:00",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
         "descricaoTramitacao": "Recebimento - Redação Final",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pela Deputada Lídice da Mata (PSB/BA)."

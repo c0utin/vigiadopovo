@@ -1,8 +1,88 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-06T16:40:11.093Z",
+  "collectedAt": "2026-11-07T15:34:24.260Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2651275,
+      "label": "PL 5788/2026",
+      "ementa": "Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651275",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2651272,
+      "label": "PL 5787/2026",
+      "ementa": "Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651272",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2651263,
+      "label": "PL 5786/2026",
+      "ementa": "Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651263",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2651261,
+      "label": "PL 5785/2026",
+      "ementa": "Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651261",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:52",
+          "name": "Previdência e Assistência Social",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2651243,
+      "label": "PL 5784/2026",
+      "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651243",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2651239,
+      "label": "PL 5783/2026",
+      "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651239",
+      "labels": [],
+      "votingIds": []
+    },
     {
       "id": 2651186,
       "label": "PL 5779/2026",
@@ -83,7 +163,14 @@
       "label": "PL 5776/2026",
       "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, para instituir diretrizes para a proteção de servidores do sistema penal e de segurança pública ameaçados em razão da função.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651114",
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114/temas",
+          "relevance": 0
+        }
+      ],
       "votingIds": []
     },
     {
@@ -281,6 +368,61 @@
       ],
       "votingIds": [
         "2647742-7"
+      ]
+    },
+    {
+      "id": 2641546,
+      "label": "MPV 1379/2026",
+      "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641546",
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:66",
+          "name": "Indústria, Comércio e Serviços",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": [
+        "2641546-7"
+      ]
+    },
+    {
+      "id": 2637478,
+      "label": "PL 3507/2026",
+      "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637478",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2637478-28",
+        "2637478-26",
+        "2637478-16",
+        "2637487-7"
       ]
     },
     {
@@ -503,146 +645,6 @@
       ]
     },
     {
-      "id": 2411961,
-      "label": "REQ 4248/2023",
-      "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
-      "labels": [],
-      "votingIds": [
-        "2411961-13"
-      ]
-    },
-    {
-      "id": 2410357,
-      "label": "PL 5902/2023",
-      "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2410357",
-      "labels": [
-        {
-          "id": "camara:tema:43",
-          "name": "Direito Penal e Processual Penal",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": [
-        "2410357-48",
-        "2410357-44",
-        "2649009-8",
-        "2410357-22"
-      ]
-    },
-    {
-      "id": 2204495,
-      "label": "PL 3099/2019",
-      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
-      "labels": [
-        {
-          "id": "camara:tema:72",
-          "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": [
-        "2645996-7",
-        "2204495-72",
-        "2204495-54",
-        "2204495-37"
-      ]
-    },
-    {
-      "id": 2651275,
-      "label": "PL 5788/2026",
-      "ementa": "Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651275",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2651272,
-      "label": "PL 5787/2026",
-      "ementa": "Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651272",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2651263,
-      "label": "PL 5786/2026",
-      "ementa": "Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651263",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2651261,
-      "label": "PL 5785/2026",
-      "ementa": "Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651261",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2651243,
-      "label": "PL 5784/2026",
-      "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651243",
-      "labels": [
-        {
-          "id": "camara:tema:43",
-          "name": "Direito Penal e Processual Penal",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
-          "relevance": 1
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2651239,
-      "label": "PL 5783/2026",
-      "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651239",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2641546,
-      "label": "MPV 1379/2026",
-      "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2641546",
-      "labels": [
-        {
-          "id": "camara:tema:40",
-          "name": "Economia",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:55",
-          "name": "Relações Internacionais e Comércio Exterior",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
-          "relevance": 2
-        },
-        {
-          "id": "camara:tema:66",
-          "name": "Indústria, Comércio e Serviços",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/temas",
-          "relevance": 1
-        }
-      ],
-      "votingIds": [
-        "2641546-7"
-      ]
-    },
-    {
       "id": 2412504,
       "label": "PL 5974/2023",
       "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
@@ -676,29 +678,58 @@
       ]
     },
     {
-      "id": 2637478,
-      "label": "PL 3507/2026",
-      "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2637478",
+      "id": 2411961,
+      "label": "REQ 4248/2023",
+      "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2411961",
+      "labels": [],
+      "votingIds": [
+        "2411961-13"
+      ]
+    },
+    {
+      "id": 2410357,
+      "label": "PL 5902/2023",
+      "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2410357",
       "labels": [
         {
-          "id": "camara:tema:35",
-          "name": "Arte, Cultura e Religião",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2410357-48",
+        "2410357-44",
+        "2649009-8",
+        "2410357-22"
+      ]
+    },
+    {
+      "id": 2389679,
+      "label": "PRC 113/2023",
+      "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2389679",
+      "labels": [
+        {
+          "id": "camara:tema:53",
+          "name": "Processo Legislativo e Atuação Parlamentar",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
           "relevance": 0
         },
         {
           "id": "camara:tema:72",
           "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
           "relevance": 0
         }
       ],
       "votingIds": [
-        "2637478-28",
-        "2637478-26",
-        "2637478-16",
-        "2637487-7"
+        "2389679-29",
+        "2389679-27",
+        "2650080-7"
       ]
     },
     {
@@ -727,28 +758,23 @@
       ]
     },
     {
-      "id": 2389679,
-      "label": "PRC 113/2023",
-      "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2389679",
+      "id": 2204495,
+      "label": "PL 3099/2019",
+      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2204495",
       "labels": [
-        {
-          "id": "camara:tema:53",
-          "name": "Processo Legislativo e Atuação Parlamentar",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
-          "relevance": 0
-        },
         {
           "id": "camara:tema:72",
           "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/temas",
           "relevance": 0
         }
       ],
       "votingIds": [
-        "2389679-29",
-        "2389679-27",
-        "2650080-7"
+        "2645996-7",
+        "2204495-72",
+        "2204495-54",
+        "2204495-37"
       ]
     }
   ],

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2023,
+      "codTipo": 141,
+      "dataApresentacao": "2023-09-21T12:12",
+      "descricaoTipo": "Projeto de Resolução",
+      "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
+      "ementaDetalhada": "",
+      "id": 2389679,
+      "justificativa": null,
+      "keywords": "Denominação, Túnel, anexo, Câmara dos Deputados, político, homenagem póstuma.",
+      "numero": 113,
+      "siglaTipo": "PRC",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 924,
+        "codTipoTramitacao": "1245",
+        "dataHora": "2026-11-05T10:00",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Acessórios",
+        "despacho": "Promulgada a Resolução nº 38/2026.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 31,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74646",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190660"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2331762",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:59.295Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-07-07T09:17",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+      "ementaDetalhada": "",
+      "id": 2637478,
+      "justificativa": null,
+      "keywords": "Reconhecimento, artesanato, Maranhão, manifestação cultural, Conhecimento tradicional, valorização, Economia criativa.",
+      "numero": 3507,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": 900,
+        "codTipoTramitacao": "506",
+        "dataHora": "2026-11-05T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Hildo Rocha (MDB/MA).",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 35,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178884",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3157723",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:43.636Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478"
+}
