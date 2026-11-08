@@ -1,0 +1,94 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-03",
+      "dataHoraRegistro": "2026-11-03T16:38:35",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-03T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 3721/2026,dos Srs. Pedro Lucas Fernandes e Doutor Luizinho, que solicita urgência (art. 155) para o PL 3507/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3507/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-11-03T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-3507/2026 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3507/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-11-03T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 3721/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 3507/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2637487-7",
+      "idEvento": 83141,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-07-07T10:11",
+          "ementa": "Nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, requeremos regime de urgência na apreciação do Projeto de Lei Nº 3507/2026, que “Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+          "id": 2637487,
+          "numero": 3721,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637487"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-07-07T09:17",
+          "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+          "id": 2637478,
+          "numero": 3507,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637487-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83141",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637487-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:58:02.362Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637487-7"
+}

@@ -1,0 +1,117 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T16:47:10",
+      "dataHoraUltimaAberturaVotacao": "2026-11-04T16:47:01",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Nikolas Ferreira (PL-MG).",
+      "efeitosRegistrados": [],
+      "id": "2410357-48",
+      "idEvento": 83159,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 509,
+          "dataApresentacao": "2026-11-04T16:29",
+          "ementa": "Altera o Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+          "id": 2650841,
+          "numero": 1,
+          "siglaTipo": "SSP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650841"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1012,
+          "dataApresentacao": "2026-11-04T16:16",
+          "ementa": "Destaque de Preferência - PL 5902/2023",
+          "id": 2650823,
+          "numero": 1,
+          "siglaTipo": "DTQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650823"
+        },
+        {
+          "ano": 0,
+          "codTipo": 442,
+          "dataApresentacao": "2026-11-04T13:55",
+          "ementa": "Parecer às Emendas de Plenário proferido pelo Relator Dep. Nikolas Ferreira (PL/MG) pela: • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa das Emendas de Plenário nºs 1 e 2 e da Subemenda Substitutiva adotada; e, no mérito, pela rejeição da Emenda de Plenário nº 1 e pela aprovação da Emenda de Plenário nº 2, na forma da Subemenda Substitutiva adotada.",
+          "id": 2650842,
+          "numero": 1,
+          "siglaTipo": "PEP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650842"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1001,
+          "dataApresentacao": "2026-11-03T14:31",
+          "ementa": "Altera o Decreto-Lei nº 2.848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+          "id": 2649796,
+          "numero": 1,
+          "siglaTipo": "PRLE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649796"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-10-27T14:26",
+          "ementa": "Requeremos a Vossa Excelência, nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, URGÊNCIA para apreciação do Projeto de Lei nº 5902, de 2023, que ‘Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código\nPenal, para dispor sobre o uso de drones no espaço aéreo dos presídios’.",
+          "id": 2649009,
+          "numero": 4337,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649009"
+        },
+        {
+          "ano": 0,
+          "codTipo": 870,
+          "dataApresentacao": "2026-10-14T17:28",
+          "ementa": "Emenda supressiva - PL 5902-2023 - Uso de Drones no Espaço Aéreo de Presídios",
+          "id": 2647671,
+          "numero": 2,
+          "siglaTipo": "EMP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647671"
+        },
+        {
+          "ano": 0,
+          "codTipo": 870,
+          "dataApresentacao": "2026-10-14T15:20",
+          "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios",
+          "id": 2647642,
+          "numero": 1,
+          "siglaTipo": "EMP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647642"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-12-06T16:20",
+          "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+          "id": 2410357,
+          "numero": 5902,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-04T16:29:13",
+        "descricao": "Parecer às Emendas de Plenário proferido pelo Relator Dep. Nikolas Ferreira (PL/MG) pela:\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa das Emendas de Plenário nºs 1 e 2 e da Subemenda Substitutiva adotada; e, no mérito, pela rejeição da Emenda de Plenário nº 1 e pela aprovação da Emenda de Plenário nº 2, na forma da Subemenda Substitutiva adotada.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650842"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:58:56.106Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48"
+}

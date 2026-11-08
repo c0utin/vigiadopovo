@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Leo Prates",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/80815"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:57:31.539Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/autores"
+}

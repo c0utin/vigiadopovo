@@ -1,0 +1,105 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T18:05:42",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Waldemar Oliveira (AVANTE/PE).",
+        "id": "2584437-53",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-53",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T18:04:42",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.815, de 2025, adotado pelo relator da Comissão de Saúde.",
+        "id": "2584437-50",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-09",
+        "dataHoraRegistro": "2026-06-09T16:56:51",
+        "descricao": "Realizar o encaminhamento do PL-5815/2025 à CPASF (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2584437-20",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-20",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-09",
+        "dataHoraRegistro": "2026-06-09T16:56:51",
+        "descricao": "Realizar o encaminhamento do PL-5815/2025 à CFT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2584437-19",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-19",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-09",
+        "dataHoraRegistro": "2026-06-09T16:56:51",
+        "descricao": "Realizar o encaminhamento do PL-5815/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2584437-18",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-18",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-09",
+        "dataHoraRegistro": "2026-06-09T16:56:51",
+        "descricao": "Realizar o encaminhamento do PL-5815/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2584437-17",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-17",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-09",
+        "dataHoraRegistro": "2026-06-09T16:56:50",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2595870-8",
+        "proposicaoObjeto": "REQ 5728/2025",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2595870-8",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82441",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2595870"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:58:22.790Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/votacoes"
+}
