@@ -371,7 +371,7 @@ Explicação completa das etapas e limites: ${origin}/transparencia/
 - Coletado em: ${collected(provenance.collectedAt)}
 - Cobertura: ${provenance.coverage}
 - ${counts.propositions} propostas, ${counts.votings} votações, ${counts.ballots} registros individuais de voto, ${counts.labels} temas oficiais, ${counts.summaries} resumos
-- Nova inferência por IA nesta execução: ${provenance.inferenceInThisRun ? "sim" : "não"}; revisão humana: ${provenance.humanReview === "not-performed" ? "não realizada" : provenance.humanReview}
+- Nova inferência por IA nesta execução: não; revisão humana dos resumos: não realizada
 - Manifesto: ${origin}${provenance.manifestUrl}
 - SHA-256 do manifesto: ${provenance.manifestHash}
 - Carimbo OpenTimestamps (Bitcoin): ${existsSync(`static/pipeline/timestamps/${provenance.manifestHash}.json.ots`) ? `${origin}/pipeline/timestamps/${provenance.manifestHash}.json.ots` : "ainda não publicado"}
