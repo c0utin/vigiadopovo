@@ -21,10 +21,10 @@ for remote in origin github; do
     exit 1
   fi
 done
-# Deputy profiles come from collect.yml; the deploy never calls the Câmara.
+# Deputy profiles come from deputies.yml; the deploy never calls the Câmara.
 for file in static/deputados.json static/deputados-mandatos.json; do
   if [[ ! -s "$file" ]]; then
-    echo "ship: $file is missing; run collect.yml on GitHub first" >&2
+    echo "ship: $file is missing; run deputies.yml on GitHub first" >&2
     exit 1
   fi
 done
