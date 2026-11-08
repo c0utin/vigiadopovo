@@ -1,5 +1,6 @@
 import portal from "#lib/portal.ts";
 import { normalize } from "#lib/format.ts";
+import { deputies } from "#lib/server/deputies.ts";
 
 // The homepage is plain HTML; search and topic filters are a small inline
 // enhancement (see feed.js), so no framework JavaScript is shipped.
@@ -57,6 +58,14 @@ export function load() {
     .toSorted((a, b) => b.latest.date.localeCompare(a.latest.date));
   return {
     collectedAt: portal.collectedAt,
+    // "Quem é o meu deputado?": a plain GET form to /deputados/?uf=.
+    states: [
+      ...new Set(
+        (deputies?.deputies ?? [])
+          .map((d) => d.state)
+          .filter((s) => s !== null),
+      ),
+    ].sort(),
     total: propositions.length,
     periods: PERIODS.map((period, index) => ({
       title: period.title,

@@ -1,5 +1,5 @@
 import { error } from "@sveltejs/kit";
-import { deputies as dataset } from "#lib/server/deputies.ts";
+import { deputies as dataset, medianPoints } from "#lib/server/deputies.ts";
 
 export const csr = false;
 
@@ -16,7 +16,9 @@ export function load({ params }: { params: { id: string } }) {
     collectedAt: dataset.collectedAt,
     activity: dataset.activity,
     bills: dataset.bills,
+    quality: dataset.quality ?? null,
     nominalVotings: dataset.nominalVotings,
     sources: dataset.sources,
+    medianPoints,
   };
 }

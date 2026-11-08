@@ -37,6 +37,8 @@ export function load() {
           state: d.state,
           condition: d.condition,
           photo: d.photo,
+          points: d.score?.points ?? null,
+          rank: d.score?.rank ?? null,
           search: normalize(`${d.name} ${d.civilName ?? ""}`),
           legislatures: served.map((m) => m.legislature),
           // "|57:PL|56:PSL|": parties per mandate, for the party filter.

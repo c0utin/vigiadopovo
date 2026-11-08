@@ -26,7 +26,7 @@
 <svelte:head><link rel="alternate" type="text/markdown" {href} /></svelte:head>
 <div class="ask-ai">
   <p>
-    <strong>Usar com IA.</strong> Copie e cole este link no ChatGPT, Claude,
+    <strong>Pergunte a uma IA.</strong> Cole este link no ChatGPT, Claude,
     Gemini ou outra IA para conversar sobre {what}, com os dados oficiais em
     texto simples.
   </p>

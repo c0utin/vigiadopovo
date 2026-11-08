@@ -316,8 +316,7 @@
     margin-block: 16px;
   }
   h1 em {
-    font-family: Georgia, serif;
-    font-weight: 400;
+    font-weight: 800;
   }
   .intro {
     max-width: 750px;
@@ -378,9 +377,9 @@
     background: #fff;
   }
   .step-number {
-    font-family: Georgia, serif;
     font-size: 25px;
-    color: #637b3d;
+    font-weight: 800;
+    color: #4d6a20;
   }
   h3 {
     font-size: 22px;

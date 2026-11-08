@@ -23,29 +23,44 @@
   /></svelte:head
 >
 
-<main id="conteudo" class="wrap deputies-page">
-  <div class="section-heading">
+<main id="conteudo" class="wrap page deputies-page">
+  <header class="page-head">
     <h1>Deputados</h1>
     {#if data.collectedAt}<p class="snapshot">
         {data.deputies.length} em exercício · atualizado em {date(
           data.collectedAt,
         )}
       </p>{/if}
-  </div>
-  {#if !data.collectedAt}<p class="muted">
+  </header>
+  {#if !data.collectedAt}<p class="hint">
       Os perfis ainda não foram gerados nesta versão do site.
     </p>{/if}
-  <p class="intro">
-    Perfil de cada deputado federal em exercício, com situação, partido,
-    comissões e a atividade registrada pela Câmara no ano{data.year
-      ? ` (${data.year})`
-      : ""}. No filtro de mandato, veja também quem já foi deputado em cada
-    legislatura desde 1826.
+  <p class="lead">
+    Toque em um deputado para ver o boletim{data.year
+      ? ` de ${data.year}`
+      : ""}: pontos, leis, votos e comissões.
   </p>
-  <AskAI
-    href={resolve("deputados-historico.md")}
-    what="todos os deputados desde 1826"
-  />
+  {#if data.collectedAt}<a
+      class="ranking-cta"
+      href={resolve("deputados/ranking/")}
+      ><svg
+        class="cta-icon"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+        ><path
+          d="M8 4h8v5a4 4 0 0 1-8 0V4m0 2H5v2a3 3 0 0 0 3 3m8-5h3v2a3 3 0 0 1-3 3m-4 2v4m-4 4h8m-6-4h4v4h-4z"
+        /></svg
+      ><span
+        ><strong>Quem mais aprova leis?</strong><span
+          >Ranking de qualidade: resultado, não quantidade.</span
+        ></span
+      ><span aria-hidden="true" class="cta-arrow">→</span></a
+    >{/if}
 
   <div
     class="filters"
@@ -90,6 +105,10 @@
       ></label
     >
     <p class="count" data-count aria-live="polite"></p>
+    <p class="hint filter-hint">
+      No filtro de mandato, veja também quem já foi deputado em cada legislatura
+      desde 1826.
+    </p>
   </div>
 
   <ul class="deputy-grid">
@@ -122,13 +141,23 @@
                 >{d.condition}</span
               >{/if}
           </span>
+          {#if d.points !== null}<span class="score"
+              ><strong
+                >{d.points.toLocaleString("pt-BR", {
+                  maximumFractionDigits: 2,
+                })}</strong
+              >
+              pts<span>{d.rank}º</span></span
+            >{/if}
         </a>
       </li>{/each}
   </ul>
-  <p class="muted" data-status hidden></p>
+  <p class="hint" data-status hidden></p>
   <button type="button" class="more" data-more hidden>Mostrar mais</button>
-  <p class="muted" data-empty hidden>Nenhum deputado com esses filtros.</p>
-  {#if data.collectedAt}<p class="muted credit">
+  <p class="empty-state" data-empty hidden>
+    Nenhum deputado com esses filtros.
+  </p>
+  {#if data.collectedAt}<p class="hint credit">
       Fotos oficiais: Câmara dos Deputados. Dados:
       <a href={asset("deputados.json" as Parameters<typeof asset>[0])} download
         >deputados.json ↗</a
@@ -139,47 +168,79 @@
           download>deputados-mandatos.json ↗</a
         >{/if}
     </p>{/if}
+  <AskAI
+    href={resolve("deputados-historico.md")}
+    what="todos os deputados desde 1826"
+  />
 </main>
 {@html `<script>${script}<\/script>`}
 
 <style>
-  .deputies-page {
-    padding-block: 24px 40px;
+  .ranking-cta {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: center;
+    min-height: 64px;
+    margin-bottom: 16px;
+    padding: 12px 14px;
+    border-radius: 16px;
+    background: var(--green);
+    color: #fff;
+    text-decoration: none;
   }
-  h1 {
-    font-size: 36px;
-    letter-spacing: -1px;
-    margin: 0;
+  .ranking-cta:hover {
+    background: var(--green-2);
+    color: #fff;
   }
-  .intro {
-    color: var(--muted);
-    line-height: 1.6;
-    max-width: 680px;
+  .cta-icon {
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 12px;
+    background: var(--lime);
+    color: var(--green);
+  }
+  .ranking-cta strong {
+    display: block;
+    font-size: 16px;
+  }
+  .ranking-cta span span {
+    font-size: 13px;
+    color: #d9e6cf;
+  }
+  .cta-arrow {
+    font-size: 22px;
+    font-weight: 800;
+    color: var(--lime);
   }
   .filters {
     display: grid;
     gap: 10px;
-    margin-block: 16px;
+    margin-bottom: 14px;
   }
   select {
     width: 100%;
-    height: 48px;
+    height: 50px;
     padding-inline: 12px;
-    border: 1px solid #8a9a86;
-    border-radius: 10px;
-    background: #fff;
-    color: var(--green);
+    border: 1.5px solid #8a9a86;
+    border-radius: 14px;
+    background: var(--surface);
+    color: var(--ink);
     font-size: 16px;
   }
   .count {
     margin: 0;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .filter-hint {
     font-size: 13px;
-    font-weight: 600;
   }
   .deputy-grid {
     display: grid;
     grid-template-columns: minmax(0, 1fr);
-    gap: 10px;
+    gap: 8px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -188,38 +249,41 @@
   .deputy-grid :global(a) {
     display: flex;
     align-items: center;
-    gap: 14px;
-    min-height: 96px;
-    padding: 10px;
-    background: #fff;
+    gap: 12px;
+    min-height: 84px;
+    padding: 10px 12px 10px 10px;
+    background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 12px;
+    border-radius: 14px;
     text-decoration: none;
   }
   .deputy-grid :global(a:hover) {
-    border-color: #849773;
+    border-color: #8aa07b;
   }
   .deputy-grid :global(img),
   .deputy-grid :global(.no-photo) {
     flex: none;
-    width: 54px;
-    height: 72px;
-    border-radius: 8px;
+    width: 48px;
+    height: 64px;
+    border-radius: 10px;
     object-fit: cover;
     background: #e5e8d9;
   }
   .deputy-grid :global(.no-photo) {
     display: grid;
     place-items: center;
-    color: #8a9a86;
+    color: #6f7f6b;
   }
   .deputy-grid :global(.info) {
     display: grid;
-    gap: 3px;
+    flex: 1;
+    gap: 2px;
     min-width: 0;
   }
   .deputy-grid :global(.info strong) {
     font-size: 16px;
+    line-height: 1.25;
+    color: var(--green);
   }
   .deputy-grid :global(.info span) {
     font-size: 14px;
@@ -231,33 +295,51 @@
   .deputy-grid :global(.info .tag) {
     justify-self: start;
     font-size: 12px;
+    font-weight: 700;
     padding: 1px 8px;
-    border-radius: 10px;
-    background: #eaf0df;
-    color: var(--green);
+    border-radius: 99px;
+    background: var(--info-bg);
+    color: var(--info-fg);
   }
   .deputy-grid :global(.info .tag.former) {
-    background: #efe9dc;
-    color: #6b5a3a;
+    background: var(--closed-bg);
+    color: var(--closed-fg);
+  }
+  .score {
+    flex: none;
+    display: grid;
+    justify-items: end;
+    font-size: 12px;
+    color: var(--muted);
+    text-align: right;
+  }
+  .score strong {
+    font-size: 18px;
+    color: var(--green);
+    font-variant-numeric: tabular-nums;
+  }
+  .score span {
+    font-size: 12px;
+    font-weight: 700;
   }
   .more {
     display: block;
     margin: 16px auto 0;
-    min-height: 44px;
-    padding: 0 18px;
-    border: 1px solid #8a9a86;
-    border-radius: 10px;
-    background: #fff;
+    min-height: 48px;
+    padding: 0 22px;
+    border: 1.5px solid var(--green);
+    border-radius: 12px;
+    background: var(--surface);
     color: var(--green);
     font: inherit;
-    font-weight: 600;
+    font-weight: 700;
     cursor: pointer;
   }
-  .more:hover {
-    border-color: var(--green);
+  .empty-state {
+    margin-top: 12px;
   }
   .credit {
-    margin-top: 20px;
+    margin-block: 20px 12px;
     font-size: 13px;
   }
   @media (min-width: 600px) {
@@ -265,11 +347,15 @@
       grid-template-columns: 1.4fr 2fr 1fr 1fr;
       align-items: center;
     }
-    .count {
+    .count,
+    .filter-hint {
       grid-column: 1 / -1;
     }
     .deputy-grid {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .ranking-cta {
+      max-width: 560px;
     }
   }
   @media (min-width: 900px) {

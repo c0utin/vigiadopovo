@@ -1,8 +1,9 @@
 // Progressive enhancement for the deputies list. Without JavaScript every
 // deputy in office stays listed; with it, the mandate filter (current, any
 // legislature since 1826, or everyone), name search and party/UF filters
-// apply. Former deputies come from deputados-mandatos.json, fetched only the
-// first time another mandate is chosen.
+// apply, starting from ?uf=, ?nome= and ?mandato= when present. Former
+// deputies come from deputados-mandatos.json, fetched only the first time
+// another mandate is chosen.
 (() => {
   const $ = (selector) => document.querySelector(selector);
   const filters = $("[data-filters]");
@@ -197,7 +198,12 @@
     limit += PAGE;
     update();
   });
-  const initial = new URLSearchParams(location.search).get("mandato");
+  // The homepage's "Quem é o meu deputado?" form links here with ?uf=.
+  const params = new URLSearchParams(location.search);
+  const uf = params.get("uf");
+  if (uf && [...state.options].some((o) => o.value === uf)) state.value = uf;
+  name.value = params.get("nome") ?? name.value;
+  const initial = params.get("mandato");
   if (initial && [...mandate.options].some((o) => o.value === initial)) {
     mandate.value = initial;
     changeMandate();
