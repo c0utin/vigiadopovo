@@ -37,7 +37,10 @@ const account = {
 };
 
 test("budget counts conservatively and refuses work past 80%", async () => {
-  const current = await run({ data: { viewer: { accounts: [account] } } });
+  const current = await run({
+    data: { viewer: { accounts: [account] } },
+    errors: null,
+  });
   assert.deepEqual(current, {
     storage: 151,
     classA: 9,

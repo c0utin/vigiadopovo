@@ -62,7 +62,7 @@ impl Lake {
                 format!("https://catalog.cloudflarestorage.com/{account}/{bucket}"),
             ),
             ("warehouse".to_string(), format!("{account}_{bucket}")),
-            ("token".to_string(), env("LAKE_TOKEN")?),
+            ("token".to_string(), env("CLOUDFLARE_API_TOKEN")?),
         ]);
         let s3 = s3_props()?;
         props.extend(s3.iter().map(|(k, v)| (k.to_string(), v.clone())));
