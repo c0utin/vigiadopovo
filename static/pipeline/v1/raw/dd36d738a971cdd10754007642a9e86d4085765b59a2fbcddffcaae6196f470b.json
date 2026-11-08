@@ -1,0 +1,97 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-11-06",
+      "dataHoraRegistro": "2025-11-06T11:52:00",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2412504-49",
+      "idEvento": 79974,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-04T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 5974/2023",
+          "id": 2580953,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2580953"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-10-22T11:26",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 5974/2023",
+          "id": 2574715,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2574715"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-10-21T13:46",
+          "ementa": "Requerimento de Inversão da Pauta - PL 5974/2023",
+          "id": 2573824,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2573824"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-10-21T13:30",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2573713,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2573713"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-10-07T19:24",
+          "ementa": "Parecer do Relator, Dep. Zé Haroldo Cathedral (PSD-RR), pela constitucionalidade, juridicidade e técnica legislativa deste, do Substitutivo da Comissão de Defesa dos Direitos das Pessoas com Deficiência e das Subemendas da Comissão de Cultura.",
+          "id": 2568828,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2568828"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-12-12T15:44",
+          "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
+          "id": 2412504,
+          "numero": 5974,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-10-08T11:30:04",
+        "descricao": "Parecer do Relator, Dep. Zé Haroldo Cathedral (PSD-RR), pela constitucionalidade, juridicidade e técnica legislativa deste, do Substitutivo da Comissão de Defesa dos Direitos das Pessoas com Deficiência e das Subemendas da Comissão de Cultura.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2568828"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-49",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/79974",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-49",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T15:53:22.066Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-49"
+}
