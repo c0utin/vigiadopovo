@@ -1,9 +1,34 @@
 import { DateTime, Effect, Schema } from "effect";
+import { createHash } from "node:crypto";
 import { Camara, type BulkFile } from "./camara.ts";
+import { encodeCompact } from "./content.ts";
 import { PipelineError } from "./errors.ts";
+import {
+  approvedPrincipal,
+  formerLabel,
+  mayBeRenumbered,
+  billOutcome,
+  BILL_TYPES,
+  COPY_SIMILARITY,
+  DOCUMENT_TYPES,
+  keepsEmenta,
+  LOCAL_FACTOR,
+  LOW,
+  plain,
+  POINTS,
+  readsDespacho,
+  QUALITY_VERSION,
+  REACH,
+  REPORT_POINTS,
+  REPORT_TYPES,
+  scoreQuality,
+  VARIANTS,
+  type Document,
+  type Proposition,
+  type QualityInput,
+} from "./quality.ts";
 import type {
   ActivityKey,
-  BillOutcome,
   DeputiesDataset,
   Deputy,
   MandatesDataset,
@@ -67,13 +92,34 @@ const BulkProposition = Schema.Struct({
   ano: Schema.Int,
   ementa: Schema.String,
   dataApresentacao: Schema.NonEmptyString,
+  uriPropPrincipal: Schema.optionalKey(Text),
   ultimoStatus: Schema.Struct({
     data: Text,
     descricaoSituacao: Text,
     descricaoTramitacao: Text,
     despacho: Text,
+    uriRelator: Schema.optionalKey(Text),
   }),
 });
+const PropositionKey = {
+  id: Id,
+  siglaTipo: Schema.String,
+  numero: Schema.Int,
+  ano: Schema.Int,
+};
+const ListedProposition = Schema.Struct(PropositionKey);
+const PropositionStatus = Schema.Struct({
+  ...PropositionKey,
+  ementa: Schema.String,
+  dataApresentacao: Schema.NonEmptyString,
+  statusProposicao: Schema.Struct({
+    descricaoSituacao: Text,
+    descricaoTramitacao: Text,
+    despacho: Text,
+    uriUltimoRelator: Schema.optionalKey(Text),
+  }),
+});
+const Step = Schema.Struct({ sequencia: Schema.Int, despacho: Text });
 const LegislatureDetail = Schema.Struct({
   id: Id,
   dataInicio: Schema.NonEmptyString,
@@ -141,9 +187,6 @@ const ACTIVITY: DeputiesDataset["activity"] = [
   },
 ];
 
-// Bills that can become a law, constitutional amendment or legislative
-// decree. Requests, amendments and opinions are left out.
-const BILL_TYPES = ["PL", "PLP", "PEC", "PDL"];
 const BILLS: DeputiesDataset["bills"]["outcomes"] = [
   {
     key: "law",
@@ -151,10 +194,22 @@ const BILLS: DeputiesDataset["bills"]["outcomes"] = [
     description: "Situação oficial “Transformado em Norma Jurídica”.",
   },
   {
+    key: "lawVia",
+    label: "Virou lei por outro projeto",
+    description:
+      "Anexado a outro projeto, foi declarado prejudicado quando a Câmara aprovou esse projeto ou o substitutivo dele, que depois virou lei. A lei pode ou não incluir o conteúdo deste projeto.",
+  },
+  {
     key: "approved",
     label: "Aprovada na Câmara",
     description:
       "Aguarda redação final, o Senado, sanção ou promulgação: a Câmara já aprovou o texto, mas ainda não é lei.",
+  },
+  {
+    key: "approvedVia",
+    label: "Aprovada na Câmara por outro projeto",
+    description:
+      "Anexado a outro projeto, foi declarado prejudicado quando a Câmara aprovou esse projeto ou o substitutivo dele, que ainda não é lei. Conta como aprovado pela situação oficial, pela redação final publicada ou por veto. O texto aprovado pode ou não incluir o conteúdo deste projeto.",
   },
   {
     key: "rejected",
@@ -175,30 +230,115 @@ const BILLS: DeputiesDataset["bills"]["outcomes"] = [
       "Arquivada sem rejeição (por exemplo, no fim da legislatura ou por prejudicialidade), devolvida, retirada pelo autor ou sem eficácia.",
   },
 ];
+const KINDS: DeputiesDataset["bills"]["kinds"] = [
+  {
+    key: "honorific",
+    label: "Honorífico",
+    description:
+      "Datas comemorativas, títulos (como “Capital Nacional”), nomes de rodovias e obras, patronos, heróis da Pátria, medalhas e reconhecimento cultural.",
+  },
+  {
+    key: "sustacao",
+    label: "Sustação de ato",
+    description:
+      "Projeto de decreto legislativo que susta um ato do Executivo, como decreto, portaria ou resolução.",
+  },
+  {
+    key: "other",
+    label: "Demais projetos",
+    description: "Todos os outros projetos.",
+  },
+];
 
-// Only the official situation text is read; the despacho decides nothing
-// but whether an archived bill was rejected.
-function billOutcome(situation: string, despacho: string): BillOutcome {
-  if (/Transformad[oa] em (Norma Jurídica|Lei)/i.test(situation)) return "law";
-  if (
-    /Rejeitad|Vetad[oa] totalmente/i.test(situation) ||
-    (/Arquivad/i.test(situation) && /rejei/i.test(despacho))
-  )
-    return "rejected";
-  if (
-    /Senado Federal|Sanção|Promulgação|Autógrafos|Redação Final/i.test(
-      situation,
-    )
-  )
-    return "approved";
-  if (
-    /Arquivad|Devolvid|Retirad|Perdeu a Eficácia|Prejudicad|Transformad[oa] em nova/i.test(
-      situation,
-    )
-  )
-    return "closed";
-  return "active";
-}
+/** Site path of the published scoring input. */
+export const QUALITY_INPUT = "/deputados-qualidade-entrada.json";
+const STAGES: DeputiesDataset["quality"]["stages"] = [
+  {
+    key: "presented",
+    label: "Apresentado",
+    description: "Protocolado, sem relator registrado.",
+  },
+  {
+    key: "rapporteur",
+    label: "Com relator",
+    description:
+      "Relator designado no último status, ou situação que pressupõe relator (aguardando parecer, pronta para pauta, vistas).",
+  },
+  {
+    key: "opinion",
+    label: "Com parecer",
+    description:
+      "Há parecer de relator ou de comissão sobre o projeto no arquivo oficial de proposições.",
+  },
+  {
+    key: "committee",
+    label: "Aprovado em comissão",
+    description:
+      "Substitutivo adotado por comissão, ou parecer de comissão com voto do relator pela aprovação ou admissibilidade.",
+  },
+  {
+    key: "camara",
+    label: "Aprovado na Câmara",
+    description:
+      "Situação no Senado, sanção, veto, promulgação ou redação final, ou redação final publicada: a Câmara aprovou o texto.",
+  },
+  {
+    key: "law",
+    label: "Virou lei",
+    description: "Situação oficial “Transformado em Norma Jurídica”.",
+  },
+];
+const REASONS: DeputiesDataset["quality"]["reasons"] = [
+  {
+    key: "honorific",
+    label: "Honorífico",
+    description:
+      "Data comemorativa, título, nome de obra ou honraria (regras da classificação “Honorífico”). Peso 0,1.",
+    source:
+      "Lei nº 12.345/2010: datas comemorativas só por alta significação para a sociedade, com consultas e audiências públicas prévias.",
+  },
+  {
+    key: "authorizing",
+    label: "Autorizativo",
+    description:
+      "Ementa que começa por “Autoriza o Poder Executivo” (ou a União, o Governo Federal): só autoriza o que o Executivo já pode fazer. Peso 0,1.",
+    source:
+      "Súmula de Jurisprudência nº 1 da Comissão de Constituição e Justiça e de Cidadania da Câmara.",
+  },
+  {
+    key: "concession",
+    label: "Homologação de concessão",
+    description:
+      "Projeto de decreto legislativo que aprova ato de concessão, permissão ou autorização de rádio ou TV. Peso 0,1.",
+    source:
+      "Constituição, art. 223: o Congresso aprecia o ato do Executivo; o projeto não cria regra nova.",
+  },
+  {
+    key: "local",
+    label: "Alcance local",
+    description:
+      "Ementa que nomeia um município (“no município de…”). Peso multiplicado por 0,3.",
+    source:
+      "Generalidade da lei, primeiro dos oito princípios de legalidade de Lon Fuller (The Morality of Law, 1964).",
+  },
+  {
+    key: "copy",
+    label: "Cópia de projeto anterior",
+    description:
+      "Mesmo tipo, os mesmos números citados e ao menos 90% das mesmas palavras de conteúdo da ementa de um projeto apresentado antes, inclusive do mesmo autor. Ementas genéricas (“Altera a Lei X” sem finalidade) nunca contam como cópia. Peso 0; o crédito fica com o projeto original.",
+    source:
+      "Lei Complementar nº 95/1998, art. 7º, IV: o mesmo assunto não pode ser disciplinado por mais de uma lei.",
+  },
+  {
+    key: "returned",
+    label: "Devolvida",
+    description: "Situação oficial “Devolvida ao Autor”. Peso 0.",
+    source:
+      "Regimento Interno da Câmara, art. 137, § 1º: a Presidência devolve proposição sem os requisitos formais ou evidentemente inconstitucional.",
+  },
+];
+
+const compare = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
 
 // Midrank percentile: ties share a position, so a zero shared by most
 // deputies is not reported as the very bottom.
@@ -284,7 +424,15 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         ),
       );
     const since = term.dataInicio.slice(0, 10);
-    const billsByDeputy = new Map<number, Deputy["bills"]>();
+    const sitting = new Set(listed.map((d) => d.id));
+    // The scoring input: every bill and opinion document of the bulk years,
+    // with deputy signers. Collection stops here; every rule is applied by
+    // scoreQuality, which reads nothing else.
+    const propositions = new Map<number, Proposition>();
+    const statusAt = new Map<number, string | null>();
+    const documents: Document[] = [];
+    const ids = (values: readonly number[]) =>
+      [...new Set(values)].sort((a, b) => a - b);
     for (
       let billYear = Number(since.slice(0, 4));
       billYear <= year;
@@ -297,43 +445,234 @@ export const collectDeputies = Effect.fn("collectDeputies")(
               BulkAuthor,
               `proposicoesAutores/json/proposicoesAutores-${billYear}.json`,
             );
-      const bills = new Map<number, typeof BulkProposition.Type>();
+      const signers = new Map<number, (typeof BulkAuthor.Type)[]>();
+      for (const author of yearAuthors) {
+        if (author.idDeputadoAutor == null) continue;
+        const list = signers.get(author.idProposicao) ?? [];
+        list.push(author);
+        signers.set(author.idProposicao, list);
+      }
       for (const p of yield* bulk(
         BulkProposition,
         `proposicoes/json/proposicoes-${billYear}.json`,
-      ))
-        if (
-          BILL_TYPES.includes(p.siglaTipo) &&
-          p.dataApresentacao.slice(0, 10) >= since
-        )
-          bills.set(p.id, p);
-      for (const author of yearAuthors) {
-        const bill = bills.get(author.idProposicao);
-        if (
-          !bill ||
-          author.proponente !== "1" ||
-          author.idDeputadoAutor == null
-        )
-          continue;
-        const list = billsByDeputy.get(author.idDeputadoAutor) ?? [];
-        // The same file can list a signer twice; one entry per bill.
-        if (list.some((b) => b.id === bill.id)) continue;
-        const status = bill.ultimoStatus;
-        const situation =
-          status.descricaoSituacao || status.descricaoTramitacao || null;
-        list.push({
-          id: bill.id,
-          label: `${bill.siglaTipo} ${bill.numero}/${bill.ano}`,
-          ementa: bill.ementa,
-          presentedAt: bill.dataApresentacao.slice(0, 10),
-          situation,
-          statusAt: status.data?.slice(0, 10) || null,
-          outcome: billOutcome(situation ?? "", status.despacho ?? ""),
-          firstAuthor: author.ordemAssinatura === "1",
-        });
-        billsByDeputy.set(author.idDeputadoAutor, list);
+      )) {
+        const rows = signers.get(p.id) ?? [];
+        const status = p.ultimoStatus;
+        if (p.siglaTipo in REACH) {
+          const proponents = rows.filter((a) => a.proponente === "1");
+          propositions.set(p.id, {
+            id: p.id,
+            type: p.siglaTipo,
+            number: p.numero,
+            year: p.ano,
+            ementa: p.ementa,
+            presentedAt: p.dataApresentacao.slice(0, 10),
+            situation:
+              status.descricaoSituacao || status.descricaoTramitacao || null,
+            despacho: null,
+            relator: Boolean(status.uriRelator),
+            proponents: ids(proponents.map((a) => a.idDeputadoAutor!)),
+            first:
+              proponents.find((a) => a.ordemAssinatura === "1")
+                ?.idDeputadoAutor ?? null,
+            steps: [],
+          });
+          const situation = propositions.get(p.id)!.situation ?? "";
+          if (readsDespacho(situation))
+            propositions.get(p.id)!.despacho = status.despacho || null;
+          statusAt.set(p.id, status.data?.slice(0, 10) || null);
+        } else if (DOCUMENT_TYPES.includes(p.siglaTipo) && p.uriPropPrincipal) {
+          const principal = Number(p.uriPropPrincipal.split("/").at(-1));
+          if (Number.isSafeInteger(principal) && principal > 0)
+            documents.push({
+              id: p.id,
+              principal,
+              type: p.siglaTipo,
+              ementa: keepsEmenta(p.siglaTipo) ? p.ementa : "",
+              authors: REPORT_TYPES.includes(p.siglaTipo)
+                ? ids(rows.map((a) => a.idDeputadoAutor!))
+                : [],
+            });
+        }
       }
     }
+
+    // Principals outside the bulk years, read from the API and added to the
+    // input: those named by an archived bill's despacho, and those with a
+    // sitting rapporteur and a final text (the Câmara approved them).
+    const fromApi = (r: { dados: unknown }) =>
+      Schema.decodeUnknownEffect(PropositionStatus)(r.dados).pipe(
+        Effect.map(({ statusProposicao: status, ...p }): Proposition => ({
+          id: p.id,
+          type: p.siglaTipo,
+          number: p.numero,
+          year: p.ano,
+          ementa: p.ementa,
+          presentedAt: p.dataApresentacao.slice(0, 10),
+          situation:
+            status.descricaoSituacao || status.descricaoTramitacao || null,
+          despacho: status.despacho || null,
+          relator: Boolean(status.uriUltimoRelator),
+          proponents: [],
+          first: null,
+          steps: [],
+        })),
+      );
+    // A renumbered proposition's old number is only in its own steps; the
+    // API no longer finds it by that number.
+    const withSteps = (list: readonly Proposition[]) =>
+      Effect.forEach(
+        list.filter(mayBeRenumbered),
+        (p) =>
+          client.get(`${API}/proposicoes/${p.id}/tramitacoes`).pipe(
+            Effect.flatMap((r) => decode(Step, r.dados)),
+            Effect.map((steps) => {
+              p.steps = steps
+                .toSorted((a, b) => a.sequencia - b.sequencia)
+                .flatMap((s) => (s.despacho ? [s.despacho] : []));
+            }),
+          ),
+        { concurrency: 4, discard: true },
+      );
+    yield* withSteps([...propositions.values()]);
+    const known = new Set(
+      [...propositions.values()].flatMap((p) => {
+        const former = mayBeRenumbered(p) ? formerLabel(p, p.steps) : null;
+        return [`${p.type} ${p.number}/${p.year}`, ...(former ? [former] : [])];
+      }),
+    );
+    const named = new Map<
+      string,
+      { type: string; number: number; year: number }
+    >();
+    for (const p of propositions.values()) {
+      if (!p.proponents.length || p.presentedAt < since) continue;
+      if (billOutcome(p.situation ?? "", p.despacho ?? "") !== "closed")
+        continue;
+      const ref = approvedPrincipal(p.despacho ?? "");
+      const key = ref && `${ref.type} ${ref.number}/${ref.year}`;
+      if (ref && key && !known.has(key)) named.set(key, ref);
+    }
+    const finals = new Set(
+      documents
+        .filter((d) => d.type === "RDF" || d.type === "PARF")
+        .map((d) => d.principal),
+    );
+    const reported = ids(
+      documents
+        .filter(
+          (d) =>
+            REPORT_TYPES.includes(d.type) &&
+            finals.has(d.principal) &&
+            !propositions.has(d.principal) &&
+            d.authors.some((id) => sitting.has(id)),
+        )
+        .map((d) => d.principal),
+    );
+    const external = [
+      ...(yield* Effect.forEach(
+        [...named.values()],
+        Effect.fnUntraced(function* ({ type, number, year }) {
+          const found = yield* client
+            .get(
+              `${API}/proposicoes?siglaTipo=${type}&numero=${number}&ano=${year}`,
+            )
+            .pipe(Effect.flatMap((r) => decode(ListedProposition, r.dados)));
+          const match = found.find(
+            (p) =>
+              p.siglaTipo === type && p.numero === number && p.ano === year,
+          );
+          if (!match) return [];
+          return [
+            yield* client
+              .get(`${API}/proposicoes/${match.id}`)
+              .pipe(Effect.flatMap(fromApi)),
+          ];
+        }),
+        { concurrency: 4 },
+      )).flat(),
+      ...(yield* Effect.forEach(
+        reported,
+        (id) =>
+          client.get(`${API}/proposicoes/${id}`).pipe(Effect.flatMap(fromApi)),
+        { concurrency: 4 },
+      )),
+    ];
+    const added = external.filter((p) => !propositions.has(p.id));
+    yield* withSteps(added);
+    for (const p of added) propositions.set(p.id, p);
+
+    const qualityInput: QualityInput = {
+      version: QUALITY_VERSION,
+      asOf: today,
+      since,
+      deputies: ids([...sitting]),
+      propositions: [...propositions.values()].sort((a, b) => a.id - b.id),
+      // Opinions on propositions no source describes are never read.
+      documents: documents
+        .filter((d) => propositions.has(d.principal))
+        .sort((a, b) => a.id - b.id),
+    };
+    const quality = yield* Effect.try({
+      try: () => scoreQuality(qualityInput),
+      catch: (error) =>
+        new PipelineError({
+          stage: "validation",
+          message: error instanceof Error ? error.message : String(error),
+        }),
+    });
+    const sha256 = (value: unknown) =>
+      createHash("sha256").update(encodeCompact(value)).digest("hex");
+    const billsByDeputy = new Map<number, Deputy["bills"]>();
+    for (const b of quality.bills) {
+      const p = propositions.get(b.id)!;
+      for (const id of b.credited) {
+        const list = billsByDeputy.get(id) ?? [];
+        list.push({
+          id: b.id,
+          label: `${p.type} ${p.number}/${p.year}`,
+          ementa: p.ementa,
+          presentedAt: p.presentedAt,
+          situation: p.situation,
+          statusAt: statusAt.get(b.id) ?? null,
+          outcome: b.outcome,
+          kind: b.kind,
+          via: b.via,
+          firstAuthor: p.first === id,
+          quality: {
+            stage: b.stage,
+            reasons: b.reasons,
+            copyOf: b.copyOf,
+            calc: b.base
+              ? {
+                  weight: b.weight,
+                  base: b.base,
+                  pool: b.pool,
+                  proponents: b.credited.length,
+                }
+              : null,
+            share: b.share,
+          },
+        });
+        billsByDeputy.set(id, list);
+      }
+    }
+    const reportsByDeputy = new Map<number, Deputy["score"]["reports"]>();
+    for (const r of quality.reports)
+      for (const id of r.rapporteurs) {
+        const list = reportsByDeputy.get(id) ?? [];
+        list.push({
+          id: r.id,
+          label: r.label,
+          stage: r.stage,
+          weight: r.weight,
+          base: r.base,
+          rapporteurs: r.rapporteurs.length,
+          share: r.share,
+        });
+        reportsByDeputy.set(id, list);
+      }
+    const scores = new Map(quality.deputies.map((d) => [d.id, d]));
 
     const votingById = new Map(votings.map((v) => [v.id, v]));
     const propositionsByVoting = new Map<
@@ -453,9 +792,10 @@ export const collectDeputies = Effect.fn("collectDeputies")(
 
     const deputies: Deputy[] = profiles.map(({ detail }, index) => {
       const id = detail.id;
+      const score = scores.get(id)!;
       const status = detail.ultimoStatus;
       const own = (byDeputy.get(id) ?? []).toSorted((a, b) =>
-        (a.dataHoraVoto ?? "").localeCompare(b.dataHoraVoto ?? ""),
+        compare(a.dataHoraVoto ?? "", b.dataHoraVoto ?? ""),
       );
       const parties: Deputy["parties"] = [];
       for (const vote of own) {
@@ -489,7 +829,7 @@ export const collectDeputies = Effect.fn("collectDeputies")(
           ACTIVITY.map(({ key }) => [key, ranks[key][index]]),
         ) as Record<ActivityKey, number>,
         organs: (organsByDeputy.get(id) ?? []).toSorted((a, b) =>
-          a.acronym.localeCompare(b.acronym),
+          compare(a.acronym, b.acronym),
         ),
         parties,
         recentVotes: own
@@ -512,12 +852,22 @@ export const collectDeputies = Effect.fn("collectDeputies")(
             };
           }),
         bills: (billsByDeputy.get(id) ?? []).toSorted(
-          (a, b) => b.presentedAt.localeCompare(a.presentedAt) || b.id - a.id,
+          (a, b) => compare(b.presentedAt, a.presentedAt) || b.id - a.id,
         ),
+        score: {
+          points: score.points,
+          authorPoints: score.authorPoints,
+          reportPoints: score.reportPoints,
+          rank: score.rank,
+          rankRange: score.rankRange,
+          reports: (reportsByDeputy.get(id) ?? []).toSorted(
+            (a, b) => b.share - a.share || a.id - b.id,
+          ),
+        },
       };
     });
 
-    return {
+    const dataset = {
       schemaVersion: 1,
       collectedAt,
       year,
@@ -528,10 +878,26 @@ export const collectDeputies = Effect.fn("collectDeputies")(
         committee: nominal.committee.size,
       },
       activity: ACTIVITY,
-      bills: { since, types: BILL_TYPES, outcomes: BILLS },
+      bills: { since, types: BILL_TYPES, outcomes: BILLS, kinds: KINDS },
+      quality: {
+        version: QUALITY_VERSION,
+        asOf: today,
+        input: QUALITY_INPUT,
+        inputSha256: sha256(qualityInput),
+        outputSha256: sha256(quality),
+        stages: STAGES,
+        reasons: REASONS,
+        weights: { reach: REACH, low: LOW, local: LOCAL_FACTOR },
+        points: POINTS,
+        reportPoints: REPORT_POINTS,
+        copySimilarity: COPY_SIMILARITY,
+        variants: VARIANTS.map(({ key, label }) => ({ key, label })),
+        unresolvedPrincipals: quality.unresolvedPrincipals,
+      },
       sources: files,
       deputies,
     } satisfies DeputiesDataset;
+    return { dataset, qualityInput };
   },
   Effect.catchTag("SchemaError", () =>
     Effect.fail(
@@ -623,8 +989,8 @@ export const collectMandates = Effect.fn("collectMandates")(
         reason:
           "Linhas devolvidas na lista de uma legislatura com outra idLegislatura e sem nome; não atribuídas a nenhum mandato.",
       },
-      deputies: [...byId.values()].sort((a, b) =>
-        a.name.localeCompare(b.name, "pt-BR"),
+      deputies: [...byId.values()].sort(
+        (a, b) => compare(plain(a.name), plain(b.name)) || a.id - b.id,
       ),
     } satisfies MandatesDataset;
   },

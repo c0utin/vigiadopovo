@@ -159,11 +159,40 @@ export function deputy(d: Deputy, dataset: DeputiesDataset, origin: string) {
     dataset.bills && d.bills
       ? `
 
-## Projetos apresentados (${d.bills.length})
+${
+  dataset.quality && d.score
+    ? `## Qualidade legislativa
+
+${d.score.points} pontos, ${d.score.rank}º de ${dataset.deputies.length} (entre ${d.score.rankRange[0]}º e ${d.score.rankRange[1]}º sob pesos alternativos). Autoria: ${d.score.authorPoints}; relatoria: ${d.score.reportPoints} (${d.score.reports.length} projetos relatados aprovados pela Câmara). Só contam projetos aprovados pela Câmara ou transformados em lei, ponderados pelo alcance da norma; fórmula em ${origin}/deputados/ranking/. Cada parcela é peso × pontos da etapa ÷ divisão, arredondada a centavos; o total é a soma exata delas.
+
+${[
+  ...d.bills.flatMap((b) =>
+    b.quality?.calc
+      ? [
+          `- ${b.label} (${b.firstAuthor ? "autor" : "coautor"}${b.quality.reasons.length ? `; ${b.quality.reasons.join(", ")}` : ""}): ${b.quality.calc.weight} × ${b.quality.calc.base}${b.quality.calc.pool > 1 ? ` ÷ ${b.quality.calc.pool} anexados` : ""}${b.quality.calc.proponents > 1 ? ` ÷ ${b.quality.calc.proponents} proponentes` : ""} = ${b.quality.share}`,
+        ]
+      : [],
+  ),
+  ...(dataset.quality.version >= 2 ? d.score.reports : []).map(
+    (r) =>
+      `- ${r.label} (relator): ${r.weight} × ${r.base}${r.rapporteurs > 1 ? ` ÷ ${r.rapporteurs} relatores` : ""} = ${r.share}`,
+  ),
+].join("\n")}
+
+`
+    : ""
+}## Projetos apresentados (${d.bills.length})
 
 ${dataset.bills.types.join(", ")} apresentados desde ${date(dataset.bills.since)}, início da legislatura, como autor ou coautor. A situação é a última registrada pela Câmara. Um projeto tramitando em conjunto segue o destino do projeto ao qual foi anexado.
 
 ${dataset.bills.outcomes.map((o) => `- ${o.label}: ${d.bills.filter((b) => b.outcome === o.key).length}`).join("\n")}
+${(dataset.bills.kinds ?? [])
+  .filter((k) => k.key !== "other")
+  .map(
+    (k) =>
+      `- Tipo "${k.label}" (${inline(k.description)}): ${d.bills.filter((b) => b.kind === k.key).length}`,
+  )
+  .join("\n")}
 ${dataset.bills.outcomes
   .map((o) => {
     const group = d.bills.filter((b) => b.outcome === o.key);
@@ -176,7 +205,7 @@ ${inline(o.description)}
 ${group
   .map(
     (b) =>
-      `- **${b.label}** (apresentado em ${date(b.presentedAt)}${b.firstAuthor ? "" : ", coautoria"}): ${inline(b.ementa)} Situação: ${b.situation ?? "não informada"}${b.statusAt ? ` (${date(b.statusAt)})` : ""}. Tramitação: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${b.id}`,
+      `- **${b.label}** (apresentado em ${date(b.presentedAt)}${b.firstAuthor ? "" : ", coautoria"}${b.kind && b.kind !== "other" ? `, ${dataset.bills.kinds.find((k) => k.key === b.kind)?.label.toLowerCase()}` : ""}): ${inline(b.ementa)} Situação: ${b.situation ?? "não informada"}${b.statusAt ? ` (${date(b.statusAt)})` : ""}.${b.quality?.share ? ` Pontos de qualidade deste deputado: ${b.quality.share}.` : ""}${b.quality?.copyOf ? ` Cópia de ${b.quality.copyOf.label}, apresentado antes.` : ""}${b.via ? ` Declarado prejudicado quando a Câmara aprovou o projeto principal, ${b.via.label}${b.via.cited && b.via.cited !== b.via.label ? ` (citado como ${b.via.cited})` : ""}, ao qual estava anexado (situação dele: ${b.via.situation ?? "não informada"}; https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${b.via.id}).` : ""} Tramitação: https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${b.id}`,
   )
   .join("\n")}
 `;

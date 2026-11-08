@@ -18,6 +18,7 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc -p tsconfig.pipeline.json && tsc -p worker/tsconfig.json",
     "data:sync": "node --experimental-strip-types scripts/sync.ts",
     "data:deputies": "node --experimental-strip-types scripts/deputies.ts",
+    "data:quality": "node --experimental-strip-types scripts/quality.ts",
     "data:lake": "cd lake && cargo run --release --locked --",
     "data:metrics": "node --experimental-strip-types scripts/metrics.ts",
     "budget": "node --experimental-strip-types scripts/budget.ts",

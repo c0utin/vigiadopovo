@@ -2,7 +2,12 @@ import { NodeRuntime, NodeServices } from "@effect/platform-node";
 import { Console, Effect, FileSystem, Path } from "effect";
 import { pathToFileURL } from "node:url";
 import { Camara, makeCamaraLayer } from "./pipeline/camara.ts";
-import { collectDeputies, collectMandates } from "./pipeline/deputies.ts";
+import { encodeCompact } from "./pipeline/content.ts";
+import {
+  collectDeputies,
+  collectMandates,
+  QUALITY_INPUT,
+} from "./pipeline/deputies.ts";
 import { PipelineError } from "./pipeline/errors.ts";
 import { writeAtomic } from "./pipeline/files.ts";
 
@@ -15,7 +20,7 @@ export const syncDeputies = Effect.gen(function* () {
   const path = yield* Path.Path;
   yield* fs.makeDirectory(PHOTOS, { recursive: true });
   const photos = new Set(yield* fs.readDirectory(PHOTOS));
-  const dataset = yield* collectDeputies();
+  const { dataset, qualityInput } = yield* collectDeputies();
   const mandates = yield* collectMandates();
   if (!mandates.legislatures.some((l) => l.id === dataset.legislature))
     return yield* new PipelineError({
@@ -52,6 +57,8 @@ export const syncDeputies = Effect.gen(function* () {
   // Minified: with every bill of the legislature it is about 15 MB, and
   // Cloudflare serves static assets of up to 25 MiB.
   yield* writeAtomic("static/deputados.json", JSON.stringify(dataset) + "\n");
+  // The exact bytes hashed in `quality.inputSha256`, for replay.
+  yield* writeAtomic(`static${QUALITY_INPUT}`, encodeCompact(qualityInput));
   yield* writeAtomic(
     "static/deputados-mandatos.json",
     JSON.stringify(mandates) + "\n",

@@ -15,6 +15,9 @@ const canonical = (value: unknown): unknown =>
       : value;
 export const encode = (value: unknown) =>
   JSON.stringify(canonical(value), null, 2) + "\n";
+// One line, for large published inputs; same key order as `encode`.
+export const encodeCompact = (value: unknown) =>
+  JSON.stringify(canonical(value)) + "\n";
 export const hash = (value: unknown) =>
   createHash("sha256").update(encode(value)).digest("hex");
 const text = Schema.NonEmptyString;

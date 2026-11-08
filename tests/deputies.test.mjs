@@ -14,6 +14,7 @@ import { NodeServices } from "@effect/platform-node";
 import { Effect } from "effect";
 import { makeCamaraLayer } from "../scripts/pipeline/camara.ts";
 import { syncDeputies } from "../scripts/deputies.ts";
+import { billKind } from "../scripts/pipeline/quality.ts";
 
 // Runs the collection against the fixture API, with the real file system.
 const sync = (fetcher) =>
@@ -81,18 +82,31 @@ function fixture({ duplicateVote = false } = {}) {
     siglaUf,
     idLegislatura,
   });
-  const bill = (id, siglaTipo, dataApresentacao, status) => ({
+  const bill = (id, siglaTipo, dataApresentacao, status, ementa) => ({
     id,
     siglaTipo,
     numero: id,
     ano: Number(dataApresentacao.slice(0, 4)),
-    ementa: `Ementa ${id}`,
+    ementa: ementa ?? `Ementa ${id}`,
     dataApresentacao: `${dataApresentacao}T10:00:00`,
     ultimoStatus: {
       data: "2026-05-01T00:00:00",
       descricaoTramitacao: "Despacho",
       despacho: "",
       ...status,
+    },
+  });
+  const principal = (id, siglaTipo, ano, descricaoSituacao) => ({
+    id,
+    siglaTipo,
+    numero: id,
+    ano,
+    ementa: `Ementa ${id}`,
+    dataApresentacao: `${ano}-03-01T10:00`,
+    statusProposicao: {
+      descricaoSituacao,
+      descricaoTramitacao: "Despacho",
+      despacho: "",
     },
   });
   const routes = {
@@ -131,6 +145,52 @@ function fixture({ duplicateVote = false } = {}) {
     "/api/v2/deputados": {
       dados: [3, 1, 2].map((id) => ({ id, idLegislatura: 57 })),
       links: [],
+    },
+    "proposicoes:PL-9001-2015": {
+      // A listing can hold other bills; only the exact one counts.
+      dados: [
+        { id: 8000, siglaTipo: "PL", numero: 9001, ano: 2016 },
+        { id: 9001, siglaTipo: "PL", numero: 9001, ano: 2015 },
+      ],
+      links: [],
+    },
+    "proposicoes:PLP-9002-2016": {
+      dados: [{ id: 9002, siglaTipo: "PLP", numero: 9002, ano: 2016 }],
+      links: [],
+    },
+    "proposicoes:PL-9003-2017": {
+      dados: [{ id: 9003, siglaTipo: "PL", numero: 9003, ano: 2017 }],
+      links: [],
+    },
+    "/api/v2/proposicoes/9001": {
+      dados: principal(9001, "PL", 2015, "Transformado em Norma Jurídica"),
+    },
+    "/api/v2/proposicoes/9002": {
+      dados: principal(
+        9002,
+        "PLP",
+        2016,
+        "Aguardando Apreciação pelo Senado Federal",
+      ),
+    },
+    // Approved in a committee, still before the Plenário: not counted.
+    "/api/v2/proposicoes/9003": {
+      dados: principal(9003, "PL", 2017, "Pronta para Pauta"),
+    },
+    // Back from the Senate as PL 40/2024: only its own steps state the old
+    // number, which the API no longer finds (no route: asking fails).
+    "/api/v2/proposicoes/40/tramitacoes": {
+      dados: [
+        {
+          sequencia: 2,
+          despacho:
+            "A proposição PL 4000/2015 passou a tramitar como PL 40/2024.",
+        },
+        {
+          sequencia: 1,
+          despacho: "Apresentação do PL n. 4000/2015 (Projeto de Lei).",
+        },
+      ],
     },
     "/api/v2/deputados/1": { dados: detail(1, "Ana"), links: [] },
     "/api/v2/deputados/2": { dados: detail(2, "Bruno"), links: [] },
@@ -187,7 +247,7 @@ function fixture({ duplicateVote = false } = {}) {
       ],
     },
     "proposicoesAutores-2024": {
-      dados: [20, 21, 22, 23, 24]
+      dados: [20, 21, 22, 23, 24, 25, 26, 27, 28]
         .map((id) => ({
           idProposicao: id,
           idDeputadoAutor: 1,
@@ -220,9 +280,13 @@ function fixture({ duplicateVote = false } = {}) {
     },
     "proposicoes-2024": {
       dados: [
-        bill(20, "PL", "2024-01-10", {
-          descricaoSituacao: "Transformado em Norma Jurídica",
-        }),
+        bill(
+          20,
+          "PL",
+          "2024-01-10",
+          { descricaoSituacao: "Transformado em Norma Jurídica" },
+          "Institui o Dia Nacional do Teste.",
+        ),
         bill(21, "PEC", "2024-02-10", {
           descricaoSituacao: "Arquivada",
           despacho:
@@ -233,13 +297,47 @@ function fixture({ duplicateVote = false } = {}) {
           despacho: "Arquivado nos termos do Artigo 105 do RICD.",
         }),
         // Blank situation: the last step says what happened.
-        bill(23, "PDL", "2024-04-10", {
-          descricaoSituacao: "",
-          descricaoTramitacao: "Retirada pelo(a) Autor(a)",
-        }),
+        bill(
+          23,
+          "PDL",
+          "2024-04-10",
+          {
+            descricaoSituacao: "",
+            descricaoTramitacao: "Retirada pelo(a) Autor(a)",
+          },
+          "Susta os efeitos da Portaria nº 1, de 2024, do Ministério do Teste.",
+        ),
         bill(24, "PLP", "2024-05-10", {
           descricaoSituacao: "Aguardando Apreciação pelo Senado Federal",
         }),
+        // Attached bills archived when another bill was approved: only the
+        // despacho names it, and its own situation decides the outcome.
+        bill(25, "PL", "2024-06-10", {
+          descricaoSituacao: "Arquivada",
+          despacho:
+            "Desapensação deste do PL nº 9.001, de 2015, principal, em face da aprovação, em Plenário, do Substitutivo ao Projeto de Lei nº 9.001, de 2015.",
+        }),
+        bill(26, "PL", "2024-07-10", {
+          descricaoSituacao: "Arquivada",
+          despacho:
+            "Arquivado nos termos do art. 163 do RICD, em razão da aprovação do PLP 9002/2016.",
+        }),
+        bill(27, "PL", "2024-08-10", {
+          descricaoSituacao: "Arquivada",
+          despacho:
+            "Matéria aprovada na forma do Substitutivo da Comissão de Saúde ao Projeto de Lei nº 9.003 de 2017.",
+        }),
+        bill(28, "PL", "2024-09-10", {
+          descricaoSituacao: "Arquivada",
+          despacho:
+            "Arquivado em face da aprovação, em Plenário, do Projeto de Lei nº 4.000, de 2015.",
+        }),
+        {
+          ...bill(40, "PL", "2024-11-18", {
+            descricaoSituacao: "Transformado em Norma Jurídica",
+          }),
+          dataApresentacao: "2015-06-30T10:00:00",
+        },
       ],
     },
     "proposicoes-2023": {
@@ -276,9 +374,18 @@ function fixture({ duplicateVote = false } = {}) {
       /^\/arquivos\/(\w+)\/json\/([\w-]+)\.json$/,
     );
     const legislature = url.searchParams.get("idLegislatura");
+    const search = ["siglaTipo", "numero", "ano"]
+      .map((key) => url.searchParams.get(key))
+      .join("-");
     const body = bulk
       ? (routes[bulk[2]] ?? routes[bulk[1]])
-      : routes[legislature ? `mandatos:${legislature}` : url.pathname];
+      : routes[
+          legislature
+            ? `mandatos:${legislature}`
+            : url.pathname === "/api/v2/proposicoes"
+              ? `proposicoes:${search}`
+              : url.pathname
+        ];
     if (!body) throw new Error(`Unexpected request: ${url.href}`);
     return Response.json(body);
   };
@@ -368,25 +475,62 @@ test("Deputy profiles count official records per deputy, rank them and publish o
     // Bills of the whole legislature, newest first, by official situation.
     assert.equal(dataset.bills.since, "2023-02-01");
     assert.deepEqual(
-      byId[1].bills.map((b) => [b.label, b.outcome, b.situation]),
+      byId[1].bills.map((b) => [b.label, b.outcome, b.situation, b.kind]),
       [
-        ["PL 10/2026", "active", "Aguardando Parecer"],
+        ["PL 10/2026", "active", "Aguardando Parecer", "other"],
+        ["PL 28/2024", "lawVia", "Arquivada", "other"],
+        ["PL 27/2024", "closed", "Arquivada", "other"],
+        ["PL 26/2024", "approvedVia", "Arquivada", "other"],
+        ["PL 25/2024", "lawVia", "Arquivada", "other"],
         [
           "PLP 24/2024",
           "approved",
           "Aguardando Apreciação pelo Senado Federal",
+          "other",
         ],
-        ["PDL 23/2024", "closed", "Retirada pelo(a) Autor(a)"],
-        ["PL 22/2024", "closed", "Arquivada"],
-        ["PEC 21/2024", "rejected", "Arquivada"],
-        ["PL 20/2024", "law", "Transformado em Norma Jurídica"],
+        ["PDL 23/2024", "closed", "Retirada pelo(a) Autor(a)", "sustacao"],
+        ["PL 22/2024", "closed", "Arquivada", "other"],
+        ["PEC 21/2024", "rejected", "Arquivada", "other"],
+        ["PL 20/2024", "law", "Transformado em Norma Jurídica", "honorific"],
+      ],
+    );
+    assert.deepEqual(
+      byId[1].bills.filter((b) => b.via).map((b) => [b.id, b.via]),
+      [
+        [
+          28,
+          {
+            id: 40,
+            label: "PL 40/2024",
+            cited: "PL 4000/2015",
+            situation: "Transformado em Norma Jurídica",
+          },
+        ],
+        [
+          26,
+          {
+            id: 9002,
+            label: "PLP 9002/2016",
+            cited: "PLP 9002/2016",
+            situation: "Aguardando Apreciação pelo Senado Federal",
+          },
+        ],
+        [
+          25,
+          {
+            id: 9001,
+            label: "PL 9001/2015",
+            cited: "PL 9001/2015",
+            situation: "Transformado em Norma Jurídica",
+          },
+        ],
       ],
     );
     assert.deepEqual(
       byId[2].bills.map((b) => [b.id, b.firstAuthor, b.presentedAt]),
       [[31, false, "2023-02-02"]],
     );
-    assert.equal(byId[1].bills[5].firstAuthor, true);
+    assert.equal(byId[1].bills[9].firstAuthor, true);
     assert.deepEqual(byId[3].bills, []);
 
     // Non-JPEG responses are never republished as photos.
@@ -438,3 +582,67 @@ test("Repeated ballots stop the deputy collection and keep the previous files", 
     await assert.rejects(sync(fixture({ duplicateVote: true })), /repetido/);
     assert.equal(await readFile("static/deputados.json", "utf8"), "previous");
   }));
+
+test("Bill kinds follow fixed ementa rules, with near misses left as other bills", () => {
+  const cases = [
+    ["PL", "Institui o Dia Nacional da Planta Medicinal.", "honorific"],
+    [
+      "PL",
+      'Institui o "Setembro Verde", mês de conscientização sobre a doação de órgãos.',
+      "honorific",
+    ],
+    [
+      "PL",
+      "Confere ao Município de Bambuí o título de Capital Nacional da Própolis Verde.",
+      "honorific",
+    ],
+    [
+      "PL",
+      'Denomina "Rodovia Wilson Fittipaldi Júnior" o trecho da BR-488.',
+      "honorific",
+    ],
+    [
+      "PL",
+      "Inscreve o nome de Carolina Maria de Jesus no Livro dos Heróis e Heroínas da Pátria.",
+      "honorific",
+    ],
+    [
+      "PL",
+      "Reconhece a Romaria de Santo Antônio como manifestação da cultura nacional.",
+      "honorific",
+    ],
+    [
+      "PL",
+      "Altera a Lei nº 12.345, de 2010, para incluir no calendário oficial o Dia do Teste.",
+      "honorific",
+    ],
+    [
+      "PDL",
+      "Susta os efeitos da Portaria GM/MS nº 5.801, de 2024.",
+      "sustacao",
+    ],
+    ["PDL", "Susta a aplicação do Decreto nº 12.686, de 2025.", "sustacao"],
+    // Near misses.
+    ["PL", "Institui o Programa Nacional de Prevenção ao Suicídio.", "other"],
+    [
+      "PL",
+      "Dispõe sobre a jornada de trabalho dos profissionais de enfermagem.",
+      "other",
+    ],
+    [
+      "PDL",
+      "Aprova o texto do Acordo entre o Brasil e o Chile sobre previdência.",
+      "other",
+    ],
+    ["PL", "Susta os efeitos da Portaria nº 1, de 2024.", "other"],
+    [
+      "PL",
+      "Altera a Lei nº 8.069, de 1990, para tipificar o crime de aliciamento.",
+      "other",
+    ],
+  ];
+  assert.deepEqual(
+    cases.map(([type, ementa]) => billKind(type, ementa)),
+    cases.map(([, , kind]) => kind),
+  );
+});
