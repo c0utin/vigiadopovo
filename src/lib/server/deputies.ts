@@ -1,8 +1,8 @@
 import { existsSync, readFileSync } from "node:fs";
 import type { DeputiesDataset, MandatesDataset } from "#lib/deputies.ts";
 
-// Written by `pnpm data:deputies` (the deploy runs it) and not versioned:
-// without it the site still builds, with an empty list.
+// Written by `pnpm data:deputies` (collect.yml commits it daily): without it
+// the site still builds, with an empty list.
 const read = <T>(path: string): T | null =>
   existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : null;
 

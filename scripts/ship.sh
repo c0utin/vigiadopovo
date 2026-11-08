@@ -21,21 +21,21 @@ for remote in origin github; do
     exit 1
   fi
 done
+# Deputy profiles come from collect.yml; the deploy never calls the Câmara.
+for file in static/deputados.json static/deputados-mandatos.json; do
+  if [[ ! -s "$file" ]]; then
+    echo "ship: $file is missing; run collect.yml on GitHub first" >&2
+    exit 1
+  fi
+done
 
 pnpm install --frozen-lockfile
 pnpm format:check
 pnpm test
 pnpm check
 pnpm audit --audit-level moderate
-# Deputy profiles are not versioned; each deploy collects them. Photos are
-# versioned in static/fotos, so only new deputies' photos download.
-pnpm data:deputies
 pnpm build
 pnpm perf:check
 # One checksum list covers every published file, photos included.
 (cd build && find . -type f ! -name SHA256SUMS -printf '%P\0' | LC_ALL=C sort -z | xargs -0 sha256sum > SHA256SUMS)
 pnpm exec wrangler deploy
-
-if [[ -n "$(git status --porcelain -- static/fotos)" ]]; then
-  echo "ship: deputy photos changed; commit static/fotos/deputados"
-fi
