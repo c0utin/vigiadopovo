@@ -17,9 +17,8 @@
   );
   const facts = $derived(
     [
-      ["Situação", d.status],
-      ["Condição eleitoral", d.condition],
-      ["Desde", d.statusSince ? date(d.statusSince) : null],
+      // Situation and electoral condition already read in the header.
+      ["No cargo desde", d.statusSince ? date(d.statusSince) : null],
       ["Nome civil", d.civilName],
       ["Naturalidade", d.birthplace],
       ["Escolaridade", d.schooling],
@@ -27,99 +26,346 @@
   );
   // A deputados.json collected before bills existed has neither field: the
   // profile then renders without the section instead of failing.
-  const bills = $derived(
+  const outcomes = $derived(
     data.bills && d.bills
       ? data.bills.outcomes.map((o) => ({
           ...o,
-          bills: d.bills.filter((b) => b.outcome === o.key),
+          all: d.bills.filter((b) => b.outcome === o.key).length,
         }))
       : null,
   );
+  const mainBills = $derived(d.bills?.filter((b) => b.firstAuthor).length ?? 0);
+  const laws = $derived(
+    d.bills?.filter((b) => b.outcome === "law").length ?? 0,
+  );
+  const outcomeLabel = $derived(
+    Object.fromEntries((outcomes ?? []).map((o) => [o.key, o.label])),
+  );
+  // "fevereiro de 2023": the legislature start reads better as a month.
+  const month = (day: string) =>
+    new Intl.DateTimeFormat("pt-BR", {
+      month: "long",
+      year: "numeric",
+      timeZone: "UTC",
+    }).format(new Date(`${day.slice(0, 10)}T12:00:00Z`));
+  // Most readers do not know the acronyms.
+  const billType: Record<string, string> = {
+    PL: "Projeto de lei",
+    PLP: "Projeto de lei complementar",
+    PEC: "Proposta de emenda à Constituição",
+    PDL: "Projeto de decreto legislativo",
+  };
+  // Without JavaScript the list shows this many bills of the chosen filter
+  // until "Mostrar todos" is ticked (see the CSS below).
+  const FIRST = 10;
+  // The official list repeats an organ once per role: one line per organ.
+  const organs = $derived(
+    [...Map.groupBy(d.organs, (o) => o.name.toLocaleLowerCase("pt-BR"))].map(
+      ([, roles]) => ({ name: roles[0].name, roles }),
+    ),
+  );
+  const ORGANS_FIRST = 6;
+  // "Deputado federal titular, em exercício".
+  const role = $derived(
+    [
+      ["Deputado federal", d.condition?.toLocaleLowerCase("pt-BR")]
+        .filter(Boolean)
+        .join(" "),
+      d.status === "Exercício"
+        ? "em exercício"
+        : d.status?.toLocaleLowerCase("pt-BR"),
+    ]
+      .filter(Boolean)
+      .join(", "),
+  );
+  const voteKind = (vote: string) =>
+    vote === "Sim" ? "yes" : vote === "Não" ? "no" : "other";
 </script>
 
 <svelte:head
   ><title>{d.name} ({d.party ?? "sem partido"}-{d.state}) — Vigia do Povo</title
   ><meta
     name="description"
-    content={`Perfil de ${d.name}, deputado federal (${d.party ?? "sem partido"}-${d.state}): situação, comissões, votos registrados e atividade em ${data.year}, com dados oficiais da Câmara.`}
+    content={`Perfil de ${d.name}, deputado federal (${d.party ?? "sem partido"}-${d.state}): projetos de lei, situação, comissões, votos registrados e atividade em ${data.year}, com dados oficiais da Câmara.`}
   /></svelte:head
 >
 
 <main id="conteudo" class="wrap detail-page">
   <a class="back-link" href={resolve("deputados/")}>← Deputados</a>
   <header class="profile-head">
-    {#if d.photo}<figure>
-        <img
-          src={asset(d.photo.slice(1) as Parameters<typeof asset>[0])}
-          alt={`Foto oficial de ${d.name}`}
-          width="177"
-          height="236"
-        />
-        <figcaption>Foto: Câmara dos Deputados</figcaption>
-      </figure>{/if}
+    {#if d.photo}<img
+        src={asset(d.photo.slice(1) as Parameters<typeof asset>[0])}
+        alt={`Foto oficial de ${d.name}`}
+        width="177"
+        height="236"
+      />{/if}
     <div>
-      <p class="eyebrow">Deputado federal · {data.year}</p>
       <h1>{d.name}</h1>
       <p class="party">
-        <strong>{d.party ?? "Sem partido"}</strong> · {d.state ?? "—"}
+        <strong>{d.party ?? "Sem partido"}</strong>
+        <span aria-hidden="true">·</span>
+        {d.state ?? "—"}
       </p>
-      <p class="tags">
-        {#if d.status}<span>{d.status}</span>{/if}{#if d.condition}<span
-            >{d.condition}</span
-          >{/if}
-      </p>
-      <a
-        class="button secondary"
-        href={d.profileUrl}
-        target="_blank"
-        rel="noreferrer">Perfil oficial na Câmara ↗</a
+      <p class="role">{role}</p>
+      <a class="official" href={d.profileUrl} target="_blank" rel="noreferrer"
+        >Perfil oficial na Câmara ↗</a
       >
     </div>
   </header>
 
-  <div class="profile-grid">
-    <section aria-labelledby="atividade-titulo">
-      <h2 id="atividade-titulo">Atividade em {data.year}</h2>
-      <Radar
-        {axes}
-        label={`Gráfico radar da atividade de ${d.name} em ${data.year}, em percentis entre ${data.total} deputados: ${axes.map((a) => `${a.label} ${a.detail}, percentil ${a.value}`).join("; ")}.`}
-      />
-      <p class="muted">
-        Cada eixo mostra a posição entre os {data.total} deputados em exercício: quanto
-        mais longe do centro, maior o volume registrado em relação aos demais. A linha
-        tracejada é a mediana. O gráfico mede quantidade de registros oficiais, não
-        qualidade, mérito ou posição política. Quem assumiu durante o ano teve menos
-        tempo para acumular registros.
-      </p>
-      <table>
-        <caption class="sr-only"
-          >Indicadores de atividade em {data.year}</caption
+  <div class="profile-body">
+    <div class="profile-main">
+      <!-- First after the header: what a deputy proposed, and what came of
+      it, is the question most visitors bring. -->
+      {#if data.bills && outcomes}<section
+          class="bills"
+          aria-labelledby="projetos-titulo"
         >
-        <thead
-          ><tr
-            ><th scope="col">Indicador</th><th scope="col">Total</th><th
-              scope="col">Percentil</th
-            ></tr
-          ></thead
-        >
-        <tbody>
-          {#each data.activity as a}<tr>
-              <th scope="row"
-                >{a.label}<span class="muted">{a.description}</span></th
-              >
-              <td>{number(d.counts[a.key])}</td>
-              <td>{d.percentiles[a.key]}</td>
-            </tr>{/each}
-        </tbody>
-      </table>
-      <p class="muted">
-        Em {data.year}, houve {number(data.nominalVotings.plenary)} votações nominais
-        no Plenário e {number(data.nominalVotings.committee)} em outros órgãos com
-        registro individual.
-      </p>
-    </section>
+          <h2 id="projetos-titulo">Projetos de lei</h2>
+          {#if d.bills.length}<div class="tally">
+              <p>
+                <strong>{number(d.bills.length)}</strong>
+                <span
+                  >{d.bills.length === 1 ? "apresentado" : "apresentados"} desde
+                  {month(data.bills.since)}</span
+                >
+              </p>
+              <p class="law">
+                <strong>{number(laws)}</strong>
+                <span>{laws === 1 ? "virou lei" : "viraram lei"}</span>
+              </p>
+            </div>
+            <svg
+              class="spread"
+              viewBox={`0 0 ${d.bills.length} 1`}
+              preserveAspectRatio="none"
+              role="img"
+              aria-label={outcomes
+                .map((o) => `${o.label}: ${number(o.all)}`)
+                .join("; ")}
+            >
+              {#each outcomes as o, i}<rect
+                  class={o.key}
+                  x={outcomes.slice(0, i).reduce((sum, p) => sum + p.all, 0)}
+                  width={o.all}
+                  height="1"
+                />{/each}
+            </svg>
+            <p class="authorship">
+              {number(mainBills)} como autor principal, o primeiro a assinar, e
+              {number(d.bills.length - mainBills)} em coautoria.
+            </p>
+            <fieldset>
+              <legend class="sr-only">Filtrar projetos</legend>
+              <div class="chips">
+                <label class:long={d.bills.length > FIRST}
+                  ><input
+                    type="radio"
+                    name="projetos"
+                    value="bill"
+                    checked
+                  />Todos <span>{number(d.bills.length)}</span></label
+                >
+                {#each outcomes as o}<label class:long={o.all > FIRST}
+                    ><input
+                      type="radio"
+                      name="projetos"
+                      value={o.key}
+                      disabled={!o.all}
+                    /><i class="dot {o.key}"></i>{o.label}
+                    <span>{number(o.all)}</span></label
+                  >{/each}
+                <label class:long={mainBills > FIRST}
+                  ><input
+                    type="radio"
+                    name="projetos"
+                    value="main"
+                    disabled={!mainBills}
+                  />Só autoria principal <span>{number(mainBills)}</span></label
+                >
+              </div>
+            </fieldset>
+            <ol class="bill-list">
+              {#each d.bills as b}<li
+                  class="bill {b.outcome}"
+                  class:main={b.firstAuthor}
+                >
+                  <p class="status">
+                    <i class="dot"></i>{outcomeLabel[b.outcome]}
+                  </p>
+                  <h3>
+                    {b.label}<span
+                      >{` · ${billType[b.label.split(" ")[0]] ?? ""}`}</span
+                    >
+                  </h3>
+                  <p class="ementa">{b.ementa}</p>
+                  <p class="bill-meta">
+                    {b.firstAuthor ? "Autoria principal" : "Coautoria"} · apresentado
+                    em {date(b.presentedAt)}<br />
+                    Situação: {b.situation ?? "não informada"}{b.statusAt &&
+                    b.statusAt !== b.presentedAt
+                      ? `, desde ${date(b.statusAt)}`
+                      : ""}
+                  </p>
+                  <p class="bill-links">
+                    {#if data.explained.includes(b.id)}<a
+                        href={resolve(`proposta/${b.id}/`)}
+                        >Em linguagem simples →</a
+                      >{/if}
+                    <a
+                      href={`https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${b.id}`}
+                      target="_blank"
+                      rel="noreferrer">Tramitação na Câmara ↗</a
+                    >
+                  </p>
+                </li>{/each}
+            </ol>
+            <label class="show-all button secondary"
+              ><input type="checkbox" /><span class="more">Mostrar todos</span
+              ><span class="less">Mostrar só os {FIRST} mais recentes</span
+              ></label
+            >
+            <details class="help">
+              <summary>Como ler esta lista</summary>
+              <p>
+                {data.bills.types
+                  .map((t) => `${billType[t] ?? t} (${t})`)
+                  .join(", ")}, do mais recente ao mais antigo. Autoria
+                principal é ser o primeiro a assinar; coautoria é assinar junto.
+                A situação é a última registrada pela Câmara.
+              </p>
+              <dl>
+                {#each outcomes as o}<dt>
+                    <i class="dot {o.key}"></i>{o.label}
+                  </dt>
+                  <dd>{o.description}</dd>{/each}
+              </dl>
+              <p>
+                Um projeto “tramitando em conjunto” foi anexado a outro e segue
+                o destino dele.
+              </p>
+            </details>
+          {:else}<p class="muted">
+              Nenhum projeto apresentado como autor ou coautor nesta
+              legislatura.
+            </p>{/if}
+        </section>{/if}
 
-    <aside class="source-panel" aria-labelledby="dados-titulo">
+      <section aria-labelledby="atividade-titulo">
+        <h2 id="atividade-titulo">Atividade em {data.year}</h2>
+        <p class="lede">
+          Posição entre os {data.total} deputados em exercício pelo volume de registros
+          oficiais. Não mede qualidade, mérito nem posição política.
+        </p>
+        <div class="activity">
+          <Radar
+            {axes}
+            label={`Gráfico radar da atividade de ${d.name} em ${data.year}, em percentis entre ${data.total} deputados: ${axes.map((a) => `${a.label} ${a.detail}, percentil ${a.value}`).join("; ")}.`}
+          />
+          <table>
+            <caption class="sr-only"
+              >Indicadores de atividade em {data.year}</caption
+            >
+            <thead
+              ><tr
+                ><th scope="col">Indicador</th><th scope="col">Total</th><th
+                  scope="col">Percentil</th
+                ></tr
+              ></thead
+            >
+            <tbody>
+              {#each data.activity as a}<tr>
+                  <th scope="row">{a.label}</th>
+                  <td>{number(d.counts[a.key])}</td>
+                  <td>{d.percentiles[a.key]}</td>
+                </tr>{/each}
+            </tbody>
+          </table>
+        </div>
+        <details class="help">
+          <summary>O que cada indicador conta</summary>
+          <dl>
+            {#each data.activity as a}<dt>{a.label}</dt>
+              <dd>{a.description}</dd>{/each}
+          </dl>
+          <p>
+            No gráfico, quanto mais longe do centro, maior o volume em relação
+            aos demais; a linha tracejada é a mediana. Quem assumiu durante o
+            ano teve menos tempo para acumular registros. Em {data.year}, houve
+            {number(data.nominalVotings.plenary)} votações nominais no Plenário e
+            {number(data.nominalVotings.committee)} em outros órgãos com registro
+            individual.
+          </p>
+        </details>
+      </section>
+
+      <section aria-labelledby="orgaos-titulo">
+        <h2 id="orgaos-titulo">Comissões e órgãos</h2>
+        {#if organs.length}<p class="lede">
+            Participa hoje de {organs.length}
+            {organs.length === 1 ? "órgão" : "órgãos"}.
+          </p>
+          {#snippet organ(o: (typeof organs)[number])}<li>
+              <strong>{o.name}</strong>
+              <span
+                >{o.roles
+                  .map(
+                    (r) =>
+                      `${r.role}${r.since ? ` desde ${date(r.since)}` : ""}`,
+                  )
+                  .join(" · ")}</span
+              >
+            </li>{/snippet}
+          <ul class="organs">
+            {#each organs.slice(0, ORGANS_FIRST) as o}{@render organ(o)}{/each}
+          </ul>
+          {#if organs.length > ORGANS_FIRST}<details class="more-organs">
+              <summary
+                >Ver mais {organs.length - ORGANS_FIRST}
+                {organs.length - ORGANS_FIRST === 1
+                  ? "órgão"
+                  : "órgãos"}</summary
+              >
+              <ul class="organs">
+                {#each organs.slice(ORGANS_FIRST) as o}{@render organ(o)}{/each}
+              </ul>
+            </details>{/if}
+        {:else}<p class="muted">
+            Nenhuma participação vigente nos registros oficiais da legislatura.
+          </p>{/if}
+      </section>
+
+      <section aria-labelledby="votos-titulo">
+        <h2 id="votos-titulo">Últimos votos no Plenário</h2>
+        {#if d.recentVotes.length}<p class="lede">
+            Só votações nominais, em que cada voto é registrado. Aprovar um
+            requerimento ou uma etapa não significa aprovar uma lei.
+          </p>
+          <ol class="votes">
+            {#each d.recentVotes as v}<li>
+                <p class="vote-top">
+                  <span class="vote {voteKind(v.vote)}"
+                    >{v.vote || "Voto não informado"}</span
+                  >
+                  <span
+                    >{[
+                      date(v.date),
+                      ...v.propositions.map((p) => p.label),
+                    ].join(" · ")}</span
+                  >
+                </p>
+                <p>{v.description}</p>
+                <a href={v.url} target="_blank" rel="noreferrer"
+                  >Registro oficial ↗</a
+                >
+              </li>{/each}
+          </ol>{:else}<p class="muted">
+            Nenhum voto nominal no Plenário registrado em {data.year}.
+          </p>{/if}
+      </section>
+    </div>
+
+    <aside class="facts" aria-labelledby="dados-titulo">
       <h2 id="dados-titulo">Dados oficiais</h2>
       <dl>
         {#each facts as [term, value]}<dt>{term}</dt>
@@ -136,110 +382,13 @@
     </aside>
   </div>
 
-  <section aria-labelledby="orgaos-titulo">
-    <h2 id="orgaos-titulo">
-      Comissões e órgãos <span class="muted">({d.organs.length})</span>
-    </h2>
-    {#if d.organs.length}<ul class="organs">
-        {#each d.organs as o}<li>
-            <strong>{o.name}</strong>
-            <span>{o.role}{o.since ? ` · desde ${date(o.since)}` : ""}</span>
-          </li>{/each}
-      </ul>{:else}<p class="muted">
-        Nenhuma participação vigente nos registros oficiais da legislatura.
-      </p>{/if}
-  </section>
-
-  {#if data.bills && bills}<section aria-labelledby="projetos-titulo">
-      <h2 id="projetos-titulo">
-        Projetos apresentados <span class="muted"
-          >({number(d.bills.length)})</span
-        >
-      </h2>
-      <p class="muted">
-        {data.bills.types.join(", ")} apresentados desde {date(
-          data.bills.since,
-        )}, início da legislatura, como autor ou coautor. A situação é a última
-        registrada pela Câmara. Um projeto tramitando em conjunto segue o
-        destino do projeto ao qual foi anexado.
-      </p>
-      {#if d.bills.length}<ul class="outcomes">
-          {#each bills as g}<li class={g.key}>
-              <svelte:element
-                this={g.bills.length ? "a" : "span"}
-                href={g.bills.length ? `#projetos-${g.key}` : undefined}
-                ><strong>{number(g.bills.length)}</strong
-                >{g.label}</svelte:element
-              >
-            </li>{/each}
-        </ul>
-        {#each bills as g}{#if g.bills.length}<details
-              id={`projetos-${g.key}`}
-              class="bill-group {g.key}"
-              open={g.bills.length <= 10}
-            >
-              <summary
-                >{g.label}
-                <span class="muted">({number(g.bills.length)})</span></summary
-              >
-              <p class="muted">{g.description}</p>
-              <ol class="vote-list">
-                {#each g.bills as b}<li>
-                    <p class="vote-date">
-                      <strong>{b.label}</strong> · apresentado em {date(
-                        b.presentedAt,
-                      )}{b.firstAuthor ? "" : " · coautoria"}
-                    </p>
-                    <p>{b.ementa}</p>
-                    <p class="muted">
-                      {b.situation ?? "Situação não informada"}{b.statusAt
-                        ? ` · ${date(b.statusAt)}`
-                        : ""}
-                    </p>
-                    <a
-                      href={`https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${b.id}`}
-                      target="_blank"
-                      rel="noreferrer">Tramitação oficial ↗</a
-                    >
-                  </li>{/each}
-              </ol>
-            </details>{/if}{/each}{:else}<p class="muted">
-          Nenhum projeto apresentado como autor ou coautor nesta legislatura.
-        </p>{/if}
-    </section>{/if}
-
-  <section aria-labelledby="votos-titulo">
-    <h2 id="votos-titulo">Últimos votos no Plenário</h2>
-    {#if d.recentVotes.length}<p class="muted">
-        Votações nominais com registro individual. Votações simbólicas não
-        identificam o voto de cada deputado. Aprovar um requerimento ou uma
-        etapa não significa aprovar uma lei.
-      </p>
-      <ol class="vote-list">
-        {#each d.recentVotes as v}<li>
-            <p class="vote-date">
-              {date(v.date)}{#if v.propositions.length}
-                · {v.propositions.map((p) => p.label).join(", ")}{/if}
-            </p>
-            <p>
-              <span class="vote">{v.vote || "Tipo de voto não informado"}</span>
-            </p>
-            <p>{v.description}</p>
-            <a href={v.url} target="_blank" rel="noreferrer"
-              >Registro oficial ↗</a
-            >
-          </li>{/each}
-      </ol>{:else}<p class="muted">
-        Nenhum voto nominal no Plenário registrado em {data.year}.
-      </p>{/if}
-  </section>
-
-  <details>
+  <details class="about">
     <summary>Sobre estes dados</summary>
     <p>
       Coletados em {date(data.collectedAt)} da API e dos arquivos de dados abertos
-      da Câmara. Partido e estado são os do cadastro atual; nos votos, valem os registrados
-      junto a cada voto. Não publicamos CPF, data de nascimento nem contatos.
+      da Câmara. Foto oficial: Câmara dos Deputados. Partido e estado são os do cadastro
+      atual; nos votos, valem os registrados junto a cada voto. Não publicamos CPF,
+      data de nascimento nem contatos.
     </p>
     <ul class="sources">
       {#each data.sources as s}<li>
@@ -258,133 +407,437 @@
 </main>
 
 <style>
+  /* Rhythm: 4 / 8 / 12 / 16 / 24 / 40 / 56. Hairlines group; boxes are rare. */
   .profile-head {
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    gap: 18px;
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 16px;
     align-items: start;
+    padding-bottom: 24px;
   }
-  figure {
-    margin: 0;
-  }
-  img {
+  .profile-head img {
     display: block;
-    width: 112px;
+    width: 88px;
     height: auto;
     aspect-ratio: 3 / 4;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 8px;
     background: #e5e8d9;
   }
-  figcaption {
-    margin-top: 6px;
-    font-size: 11px;
-    color: var(--muted);
-  }
   h1 {
-    font-size: 32px;
-    letter-spacing: -1px;
-    line-height: 1.15;
-    margin: 4px 0 6px;
+    font-size: 30px;
+    letter-spacing: -0.8px;
+    line-height: 1.08;
+    margin: 0 0 8px;
+    text-wrap: balance;
   }
   .party {
-    margin: 0 0 10px;
-    font-size: 17px;
+    margin: 0 0 2px;
+    font-size: 16px;
   }
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin: 0 0 14px;
+  .party span {
+    color: var(--muted);
   }
-  .tags span,
-  .vote {
-    font-size: 13px;
-    padding: 3px 10px;
-    border-radius: 12px;
-    background: #eaf0df;
-    color: var(--green);
-    font-weight: 600;
+  .role {
+    margin: 0;
+    font-size: 14px;
+    color: var(--muted);
   }
-  .profile-head .button {
+  .official {
+    display: inline-flex;
+    align-items: center;
     min-height: 44px;
+    font-size: 14px;
+    font-weight: 600;
   }
   h2 {
     font-size: 26px;
-    margin: 32px 0 14px;
+    margin: 0 0 8px;
   }
-  .profile-grid {
-    display: grid;
-    gap: 24px;
+  section {
+    padding-block: 32px 8px;
+    border-top: 1px solid var(--line);
   }
-  .profile-grid .source-panel {
-    /* The shared panel style places itself in the proposal page's grid. */
-    grid-area: auto;
-    margin-top: 32px;
-  }
-  .profile-grid .source-panel h2 {
-    margin-top: 0;
-    font-size: 22px;
-  }
-  h3 {
-    font-size: 16px;
-    margin: 20px 0 8px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-block: 16px;
+  .lede {
+    margin: 0 0 16px;
+    max-width: 62ch;
     font-size: 15px;
-  }
-  th,
-  td {
-    text-align: left;
-    padding: 10px 6px;
-    border-bottom: 1px solid var(--line);
-    vertical-align: top;
-  }
-  thead th {
-    white-space: nowrap;
-    font-size: 13px;
+    line-height: 1.55;
     color: var(--muted);
   }
-  td {
-    text-align: right;
-    font-variant-numeric: tabular-nums;
-    white-space: nowrap;
+
+  /* The bold move: the bill tally reads before anything else. */
+  .tally {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 24px;
+    max-width: 520px;
+    margin: 16px 0;
   }
-  tbody th span {
+  .tally p {
+    display: grid;
+    align-content: start;
+    margin: 0;
+  }
+  .tally strong {
+    font:
+      400 52px/1 Georgia,
+      "Times New Roman",
+      serif;
+    letter-spacing: -2px;
+    font-variant-numeric: lining-nums tabular-nums;
+  }
+  .tally .law strong {
+    color: #2f7d3a;
+  }
+  .tally span {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: var(--muted);
+  }
+  .spread {
     display: block;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5;
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
   }
-  .parties,
+  .spread rect {
+    fill: var(--tone);
+  }
+  .authorship {
+    margin: 12px 0 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--muted);
+  }
+
+  /* Filters: one radio group, no JavaScript. */
+  .bills fieldset {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .bills .chips label {
+    position: relative;
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 40px;
+    padding: 0 14px;
+    border: 1px solid #c9d2c1;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .chips label span {
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .chips label:has(:checked) {
+    background: var(--green);
+    border-color: var(--green);
+    color: #fff;
+    font-weight: 600;
+  }
+  .chips label:has(:checked) span {
+    color: #d8ed95;
+  }
+  .chips label:has(:disabled) {
+    display: none;
+  }
+  .chips label:has(:focus-visible) {
+    outline: 2px solid #507b29;
+    outline-offset: 2px;
+  }
+  .chips input,
+  .show-all input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .dot {
+    flex: none;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--tone);
+  }
+  .chips label:has(:checked) .dot {
+    box-shadow: 0 0 0 2px #fff;
+  }
+
+  .bill-list,
   .organs,
+  .votes,
+  .parties,
   .sources {
     margin: 0;
     padding: 0;
     list-style: none;
   }
+  .bill-list {
+    margin-top: 8px;
+  }
+  .bill {
+    padding: 20px 0 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .bill p {
+    margin: 0;
+  }
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  .bill h3 {
+    margin: 6px 0 4px;
+    font-size: 17px;
+    font-variant-numeric: tabular-nums;
+  }
+  .bill h3 span {
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .ementa {
+    max-width: 68ch;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .bill .bill-meta {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+  .bill-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 24px;
+  }
+  .bill-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  /* The chosen chip's value is the class its bills carry. */
+  .bills:has([value="main"]:checked) .bill:not(.main),
+  .bills:has([value="law"]:checked) .bill:not(.law),
+  .bills:has([value="approved"]:checked) .bill:not(.approved),
+  .bills:has([value="rejected"]:checked) .bill:not(.rejected),
+  .bills:has([value="active"]:checked) .bill:not(.active),
+  .bills:has([value="closed"]:checked) .bill:not(.closed),
+  /* Only the first 10 (FIRST) of them until "Mostrar todos" is ticked. */
+  .bills:not(:has(.show-all :checked)):has([value="bill"]:checked)
+    .bill:nth-child(n + 11 of .bill),
+  .bills:not(:has(.show-all :checked)):has([value="main"]:checked)
+    .bill:nth-child(n + 11 of .main),
+  .bills:not(:has(.show-all :checked)):has([value="law"]:checked)
+    .bill:nth-child(n + 11 of .law),
+  .bills:not(:has(.show-all :checked)):has([value="approved"]:checked)
+    .bill:nth-child(n + 11 of .approved),
+  .bills:not(:has(.show-all :checked)):has([value="rejected"]:checked)
+    .bill:nth-child(n + 11 of .rejected),
+  .bills:not(:has(.show-all :checked)):has([value="active"]:checked)
+    .bill:nth-child(n + 11 of .active),
+  .bills:not(:has(.show-all :checked)):has([value="closed"]:checked)
+    .bill:nth-child(n + 11 of .closed) {
+    display: none;
+  }
+  .show-all {
+    position: relative;
+    display: none;
+    width: 100%;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  .bills:has(.long :checked) .show-all {
+    display: flex;
+  }
+  .show-all:has(:checked) .more,
+  .show-all:not(:has(:checked)) .less {
+    display: none;
+  }
+  .show-all:has(:focus-visible) {
+    outline: 2px solid #507b29;
+    outline-offset: 2px;
+  }
+
+  .help {
+    margin-top: 8px;
+    color: var(--muted);
+  }
+  .help summary {
+    font-weight: 600;
+    color: var(--green);
+  }
+  .help dl {
+    display: grid;
+    gap: 2px;
+    margin: 12px 0 0;
+  }
+  .help dt {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    color: var(--green);
+  }
+  .help dd {
+    margin: 0 0 10px;
+  }
+
+  table {
+    width: 100%;
+    max-width: 520px;
+    border-collapse: collapse;
+    margin-block: 16px 4px;
+    font-size: 15px;
+  }
+  th,
+  td {
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  thead th {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--muted);
+  }
+  thead th + th,
+  td {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    width: 22%;
+  }
+  tbody th {
+    font-weight: 400;
+  }
+
+  .organs li {
+    display: grid;
+    gap: 2px;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .organs strong {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .organs span {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .organs:first-of-type {
+    border-top: 1px solid var(--line);
+  }
+  .more-organs {
+    padding-block: 4px 0;
+  }
+  .more-organs summary {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .votes {
+    border-top: 1px solid var(--line);
+  }
+  .votes li {
+    padding: 16px 0 4px;
+    border-bottom: 1px solid var(--line);
+  }
+  .votes p {
+    margin: 0 0 6px;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+  .votes .vote-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 12px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .vote {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--green);
+  }
+  .vote::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 8px;
+    border-radius: 2px;
+    background: #a3aaa0;
+    vertical-align: 1px;
+  }
+  .vote.yes::before {
+    background: #2f7d3a;
+  }
+  .vote.no::before {
+    background: #b8432f;
+  }
+  .votes li:last-child {
+    border-bottom: 0;
+  }
+  .votes a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    font-size: 14px;
+  }
+
+  .facts {
+    margin-top: 32px;
+    padding: 24px 0 0;
+    border-top: 1px solid var(--line);
+  }
+  .facts h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .facts dl {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    gap: 10px 12px;
+    margin: 0;
+  }
+  .facts dt {
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .facts dd {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .facts h3 {
+    font-size: 15px;
+    margin: 20px 0 8px;
+  }
   .parties li {
     font-size: 14px;
     padding-block: 4px;
   }
-  .organs {
-    display: grid;
-    gap: 8px;
-  }
-  .organs li {
-    display: grid;
-    gap: 2px;
-    padding: 12px 14px;
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-  }
-  .organs span {
-    font-size: 14px;
-    color: var(--muted);
+  .about {
+    margin-top: 40px;
+    border-top: 1px solid var(--line);
   }
   .sources li {
     display: grid;
@@ -396,34 +849,7 @@
   .sources .hash {
     font-size: 11px;
   }
-  details {
-    margin-top: 32px;
-    border-top: 1px solid var(--line);
-  }
-  .outcomes {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 8px;
-    margin: 16px 0 8px;
-    padding: 0;
-    list-style: none;
-  }
-  .outcomes > li > * {
-    display: grid;
-    gap: 2px;
-    min-height: 44px;
-    padding: 10px 14px;
-    background: #fff;
-    border: 1px solid var(--line);
-    border-left: 6px solid var(--tone);
-    border-radius: 10px;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  .outcomes strong {
-    font-size: 24px;
-    font-variant-numeric: tabular-nums;
-  }
+
   .law {
     --tone: #2f7d3a;
   }
@@ -439,43 +865,49 @@
   .closed {
     --tone: #a3aaa0;
   }
-  /* After the shared details rule, which styles "Sobre estes dados". */
-  .bill-group {
-    margin-top: 0;
-    border-top: 0;
-    border-bottom: 1px solid var(--line);
-  }
-  .bill-group li:last-child {
-    border-bottom: 0;
-  }
-  .bill-group summary {
-    font-size: 17px;
-    font-weight: 700;
-  }
-  .bill-group summary::before {
-    content: "";
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin-inline: 4px 8px;
-    border-radius: 50%;
-    background: var(--tone);
-  }
+
   @media (min-width: 600px) {
-    img {
-      width: 160px;
+    .profile-head {
+      grid-template-columns: 128px minmax(0, 1fr);
+      gap: 24px;
+    }
+    .profile-head img {
+      width: 128px;
+      border-radius: 10px;
     }
     h1 {
-      font-size: 42px;
+      font-size: 44px;
+      letter-spacing: -1.4px;
     }
-    .organs {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+    .tally strong {
+      font-size: 72px;
     }
   }
   @media (min-width: 900px) {
-    .profile-grid {
-      grid-template-columns: minmax(0, 1fr) 340px;
-      gap: 48px;
+    .activity {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 40px;
+      align-items: center;
+    }
+    .show-all {
+      width: auto;
+      padding-inline: 32px;
+    }
+    .bills:has(.long :checked) .show-all {
+      display: inline-flex;
+    }
+    .profile-body {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
+      gap: 64px;
+      align-items: start;
+    }
+    .facts {
+      position: sticky;
+      top: 24px;
+      margin-top: 0;
+      padding-top: 32px;
     }
   }
 </style>
