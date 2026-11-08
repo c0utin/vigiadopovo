@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-05",
+      "dataHoraRegistro": "2026-11-05T15:51:53",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o parecer na Comissão Mista",
+      "efeitosRegistrados": [],
+      "id": "2641546-7",
+      "idEvento": null,
+      "idOrgao": 111,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 291,
+          "dataApresentacao": "2026-07-22T00:00",
+          "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
+          "id": 2641546,
+          "numero": 1379,
+          "siglaTipo": "MPV",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546"
+        }
+      ],
+      "siglaOrgao": "CN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/111"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:57:18.003Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7"
+}

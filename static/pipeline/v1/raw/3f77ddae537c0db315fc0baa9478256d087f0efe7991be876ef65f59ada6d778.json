@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-06T11:49",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+      "ementaDetalhada": null,
+      "id": 2651272,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5787,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-06T11:49",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5787/2026 (Projeto de Lei), pelo Deputado Marcos Tavares (PDT/RJ), que \"Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais)\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190985",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:57:21.935Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272"
+}

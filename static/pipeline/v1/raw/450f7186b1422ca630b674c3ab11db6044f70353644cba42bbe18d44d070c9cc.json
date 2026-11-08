@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T10:31",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Política Nacional de Valorização da Música Autoral em feiras, festivais, mostras culturais e demais eventos públicos realizados ou apoiados com recursos da União, e dá outras providências",
+      "ementaDetalhada": null,
+      "id": 2651110,
+      "justificativa": null,
+      "keywords": "criação; política pública; incentivo; Música; Evento público; Evento cultural; Feira (evento); Artista; Recursos públicos; Patrocínio; Cachê; Compositor de música",
+      "numero": 5775,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-05T10:31",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5775/2026 (Projeto de Lei), pelo Deputado Alexandre Lindenmeyer (PT/RS -Fdr PT-PCdoB-PV), que \"Institui a Política Nacional de Valorização da Música Autoral em feiras, festivais, mostras culturais e demais eventos públicos realizados ou apoiados com recursos da União, e dá outras providências\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190395",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:57:38.397Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110"
+}
