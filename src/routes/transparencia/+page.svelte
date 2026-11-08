@@ -192,12 +192,12 @@
       A coleta roda no GitHub Actions, a partir do código público. O GitHub
       assina o manifesto, <code>legislativo.json</code> e
       <code>dados.json</code>
-      com o workflow, o commit e a execução que os produziram, e a publicação do site
-      assina <code>SHA256SUMS</code>, a lista de hashes de todos os arquivos
-      publicados. O OpenTimestamps registra no Bitcoin, sem custo, que o
-      manifesto já existia naquela data. Isso prova que os arquivos saíram do
-      código público sem edição manual, desde que você confie no GitHub e na API
-      da Câmara; não é uma assinatura da Câmara.
+      com o workflow, o commit e a execução que os produziram. Cada publicação do
+      site grava <code>SHA256SUMS</code>, a lista de hashes de todos os arquivos
+      publicados, sem atestação. O OpenTimestamps registra no Bitcoin, sem
+      custo, que o manifesto já existia naquela data. Isso prova que os arquivos
+      saíram do código público sem edição manual, desde que você confie no
+      GitHub e na API da Câmara; não é uma assinatura da Câmara.
     </p>
     {#if collector}<p>
         Esta coleta foi feita pela

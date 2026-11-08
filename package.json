@@ -20,6 +20,7 @@
     "data:deputies": "node --experimental-strip-types scripts/deputies.ts",
     "data:lake": "cd lake && cargo run --release --locked --",
     "data:metrics": "node --experimental-strip-types scripts/metrics.ts",
+    "ship": "bash scripts/ship.sh",
     "budget": "node --experimental-strip-types scripts/budget.ts",
     "test": "node --experimental-strip-types --test tests/*.test.mjs",
     "format": "prettier --write .",

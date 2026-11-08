@@ -15,7 +15,7 @@ pnpm dev
 
 No orb, `amp orb services ensure` sobe o servidor de desenvolvimento e publica o portal de visualização.
 
-Validação, como em `ci.yml`:
+Validação, como em `pnpm ship`:
 
 ```sh
 pnpm format:check
@@ -26,7 +26,7 @@ pnpm perf:check     # depois do build; orçamentos em "Desempenho"
 pnpm audit --audit-level moderate
 ```
 
-`pnpm build` gera `build/`, um site sem backend, banco ou chaves. `deploy.yml` roda a cada push em `main`: gera os perfis de deputados, faz o build, atesta `SHA256SUMS` e publica com `wrangler deploy` no Cloudflare Workers.
+`pnpm build` gera `build/`, um site sem backend, banco ou chaves. O deploy roda num orb do Amp, não no GitHub: o botão Ship junta (merge) o `main` do GitHub, onde o bot commita as coletas, faz push nos dois remotos e roda `pnpm ship`, que exige a árvore limpa no `main` do Amp e do GitHub, valida, gera os perfis de deputados, faz o build, grava `SHA256SUMS` e publica com `wrangler deploy` no Cloudflare Workers. Fora do GitHub Actions não há atestação, então `SHA256SUMS` só prova integridade. O GitHub roda apenas `collect.yml`; o lake em Rust (`cargo fmt`, `clippy`, `cargo test`) é validado à mão (ver "Cloudflare: site, fotos e lake OLAP").
 
 Os comandos `pnpm data:sync`, `pnpm data:deputies`, `pnpm data:metrics`, `pnpm budget` e `pnpm perf:check` são programas Effect em `scripts/*.ts`. Cada um roda com `NodeRuntime.runMain` e `@effect/platform-node`.
 
@@ -47,9 +47,9 @@ Os comandos `pnpm data:sync`, `pnpm data:deputies`, `pnpm data:metrics`, `pnpm b
 
 `.github/workflows/collect.yml` roda `pnpm data:sync` todo dia às 06:00 (Brasília) em runners do GitHub, a partir do código público, e só grava a coleta depois de testes, tipos e formatação passarem. Em seguida:
 
-1. **Atestação do GitHub (Sigstore):** assina o manifesto da execução, `static/legislativo.json` e `static/dados.json`, com o repositório, o commit, o workflow e a execução que os produziram. O manifesto cobre, por hash, todas as capturas da API. Cada deploy também assina `SHA256SUMS`, a lista de hashes de todos os arquivos publicados.
+1. **Atestação do GitHub (Sigstore):** assina o manifesto da execução, `static/legislativo.json` e `static/dados.json`, com o repositório, o commit, o workflow e a execução que os produziram. O manifesto cobre, por hash, todas as capturas da API.
 2. **OpenTimestamps:** carimba o hash do manifesto em `static/pipeline/timestamps/<hash>.json.ots`, ancorado no Bitcoin por calendários públicos, sem carteira ou taxa. Execuções seguintes rodam o upgrade do cliente `opentimestamps` até a prova ficar completa.
-3. **Commit e deploy:** o bot commita a coleta em `main` e dispara `deploy.yml`. `provenance.json` registra a execução em `collector`; coletas locais ficam com `collector: null`, e o site avisa que não têm atestação.
+3. **Commit:** o bot commita a coleta em `main`; o site mostra a nova coleta no próximo `pnpm ship`. `provenance.json` registra a execução em `collector`; coletas locais ficam com `collector: null`, e o site avisa que não têm atestação.
 
 Isso prova que os arquivos saíram do código público, sem edição manual, no instante registrado. Continua sendo preciso confiar nos runners do GitHub e na API da Câmara, que não assina suas respostas. Qualquer pessoa pode fazer fork e rodar o mesmo workflow como testemunha independente. Como o bot commita no GitHub, faça `git pull` de lá antes de enviar mudanças de outro remoto.
 
@@ -95,7 +95,7 @@ Resumos gerados por IA podem errar: confira a interpretação, a atualidade e a 
 pnpm data:deputies
 ```
 
-Gera `/deputados/` (lista com busca por nome, partido e UF) e uma página por deputado em exercício, `/deputados/<id>/`, sem JavaScript. São cerca de 1.030 pedidos à API e os arquivos diários de dados abertos (cinco do ano, mais autoria e proposições de cada ano da legislatura, cerca de 700 MB); leva uns 4 a 5 minutos e usa até ~1,1 GB de memória. `deputados.json` sai minificado (cerca de 16 MB), abaixo do limite de 25 MiB por asset do Cloudflare. Os perfis não são versionados (estão no `.gitignore`), e `deploy.yml` os gera antes de cada build. Sem o arquivo, o site sai com a lista vazia. As fotos ficam versionadas em `static/fotos/deputados/`, com cache de 1 ano (`static/_headers`); a coleta busca na Câmara só as que faltam. Commite as fotos de quem tomou posse. Os arquivos `static/deputados.json` e `static/deputados-mandatos.json` são gravados com `writeAtomic` só depois que toda a coleta termina, então uma falha mantém os arquivos anteriores.
+Gera `/deputados/` (lista com busca por nome, partido e UF) e uma página por deputado em exercício, `/deputados/<id>/`, sem JavaScript. São cerca de 1.030 pedidos à API e os arquivos diários de dados abertos (cinco do ano, mais autoria e proposições de cada ano da legislatura, cerca de 700 MB); leva uns 4 a 5 minutos e usa até ~1,1 GB de memória. `deputados.json` sai minificado (cerca de 16 MB), abaixo do limite de 25 MiB por asset do Cloudflare. Os perfis não são versionados (estão no `.gitignore`), e `pnpm ship` os gera antes de cada build. Sem o arquivo, o site sai com a lista vazia. As fotos ficam versionadas em `static/fotos/deputados/`, com cache de 1 ano (`static/_headers`); a coleta busca na Câmara só as que faltam. Commite as fotos de quem tomou posse. Os arquivos `static/deputados.json` e `static/deputados-mandatos.json` são gravados com `writeAtomic` só depois que toda a coleta termina, então uma falha mantém os arquivos anteriores.
 
 | Informação                                                     | Fonte oficial                                                                                                                   |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -115,7 +115,7 @@ O gráfico radar mostra, para o ano corrente, o percentil (posição relativa, c
 
 A seção **Projetos apresentados** lista os PL, PLP, PEC e PDL apresentados desde o início da legislatura em que o deputado é autor ou coautor proponente (apoiamentos não contam). Cada projeto entra num grupo pela última situação oficial (`ultimoStatus.descricaoSituacao`, ou `descricaoTramitacao` quando a situação vem vazia), com as regras de `billOutcome` em `scripts/pipeline/deputies.ts`: **Virou lei** ("Transformado em Norma Jurídica"); **Rejeitada** ("Rejeitada", "Vetada totalmente" ou arquivada com despacho que cita rejeição); **Aprovada na Câmara** (aguardando redação final, Senado, sanção, promulgação ou autógrafos); **Arquivada ou retirada** (arquivada sem rejeição, devolvida, retirada, prejudicada ou sem eficácia); e **Em tramitação** (o resto, inclusive "Tramitando em Conjunto", que segue o destino do projeto principal). O despacho só decide se um arquivamento foi por rejeição. A página mostra a situação oficial de cada projeto e o link para a tramitação na Câmara.
 
-Não publicamos CPF, data de nascimento, gabinete, telefone nem e-mail. As fotos seguem os termos de uso do portal da Câmara (reprodução livre citando "Câmara dos Deputados"), são servidas pelo próprio site e saem quando o deputado deixa o exercício. Os arquivos diários são grandes demais para arquivar a cada coleta: `deputados.json` registra URL, data, tamanho e SHA-256 de cada um, e o deploy atesta o arquivo e as fotos publicadas por meio de `SHA256SUMS`. No começo de janeiro, os arquivos do novo ano podem ainda não existir, e a geração falha até a Câmara publicá-los.
+Não publicamos CPF, data de nascimento, gabinete, telefone nem e-mail. As fotos seguem os termos de uso do portal da Câmara (reprodução livre citando "Câmara dos Deputados"), são servidas pelo próprio site e saem quando o deputado deixa o exercício. Os arquivos diários são grandes demais para arquivar a cada coleta: `deputados.json` registra URL, data, tamanho e SHA-256 de cada um, e o deploy lista o arquivo e as fotos publicadas em `SHA256SUMS`, sem atestação. No começo de janeiro, os arquivos do novo ano podem ainda não existir, e a geração falha até a Câmara publicá-los.
 
 ## Cloudflare: site, fotos e lake OLAP
 
@@ -154,10 +154,10 @@ As regras de qualidade são as mesmas da coleta: registro repetido com a mesma c
 pnpm data:lake                  # ano atual (e o anterior em janeiro)
 pnpm data:lake 2003 2004 2005   # carga histórica, a partir de 2003
 pnpm data:lake --out .lake 2026 # Parquet local em lake/.lake, sem Cloudflare
-cd lake && cargo test           # testes do pipeline
+cd lake && cargo fmt --check && cargo clippy --release --locked --all-targets -- -D warnings && cargo test --release --locked   # validação antes de mudar o lake
 ```
 
-Precisa de Rust; a versão está fixada em `lake/rust-toolchain.toml`, e o `rustup` instala sozinho. No CI, `Swatinem/rust-cache` guarda as dependências compiladas, então só a primeira execução compila Polars e Iceberg.
+Precisa de Rust; a versão está fixada em `lake/rust-toolchain.toml`, e o `rustup` instala sozinho. No job `lake` de `collect.yml`, `Swatinem/rust-cache` guarda as dependências compiladas, então só a primeira execução compila Polars e Iceberg.
 
 O job `lake` de `collect.yml` roda depois da coleta diária, nesta ordem: `pnpm budget`, `pnpm data:lake` e `pnpm data:metrics`. Ele não bloqueia a coleta atestada se falhar, e o lake não entra nas atestações: o SHA-256 de cada arquivo de origem fica em `bronze.arquivos`, e o próprio arquivo fica no bronze para ser conferido.
 
@@ -199,7 +199,7 @@ Coincidência com uma orientação não é apoio ao mérito, e ausência não é
    ```
 2. Ligue a expiração de snapshots do catálogo (7 dias, mantendo 3). Ela usa uma credencial guardada no catálogo; use um token só com Basin Catalog Write e R2 Storage Write em `vigia-lake`, enviado pela API (`POST /accounts/<conta>/r2-catalog/vigia-lake/credential` e `.../maintenance-configs`), não como argumento de linha de comando.
 3. Crie os tokens. `LAKE_TOKEN`: Basin Catalog (`lake/` grava as tabelas e lê as de anos que pula). `CLOUDFLARE_API_TOKEN`: deploy de Workers, Account Analytics read (`budget.ts`) e R2 edit em `vigia-media` (`data:metrics` envia com `wrangler`). Chave S3 do R2 com leitura e gravação em `vigia-lake` para `lake/` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). As variáveis estão em [`.env.example`](../.env.example). O Worker não precisa de segredos.
-4. Cadastre os segredos do GitHub Actions: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `LAKE_TOKEN`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID` e `R2_SECRET_ACCESS_KEY`.
+4. Cadastre os segredos do GitHub Actions (job `lake` de `collect.yml`): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `LAKE_TOKEN`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID` e `R2_SECRET_ACCESS_KEY`. Para `pnpm ship`, cadastre `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID` como segredos do projeto no Amp.
 
 Localmente, `pnpm build && pnpm exec wrangler dev` serve o site e as fotos, e as métricas a partir de um R2 simulado (vazio até você gravar objetos com `wrangler r2 object put --local`).
 

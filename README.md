@@ -49,7 +49,7 @@ Os dados da Câmara são públicos, mas estão espalhados em arquivos enormes e 
 | Quem gerou o arquivo?                    | Atestação Sigstore do workflow público, ligada ao commit e à execução.                        |
 | Quando foi coletado?                     | Hash do manifesto carimbado num bloco do Bitcoin (OpenTimestamps).                            |
 | A métrica está certa?                    | Fórmula pública ([`lake/src/ouro.rs`](lake/src/ouro.rs)), recalculável dos arquivos oficiais. |
-| O site publicado é o que foi verificado? | `SHA256SUMS` com o hash de cada arquivo do site, atestado em cada deploy.                     |
+| O site publicado é o que foi verificado? | `SHA256SUMS` com o hash de cada arquivo do site, gerado em cada deploy (sem atestação).       |
 
 <details>
 <summary><b>Mostrar o pipeline de dados</b></summary>
