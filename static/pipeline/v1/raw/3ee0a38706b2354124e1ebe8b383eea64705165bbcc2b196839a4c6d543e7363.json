@@ -1,0 +1,107 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T18:04:42",
+      "dataHoraUltimaAberturaVotacao": "2026-11-04T17:57:02",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.815, de 2025, adotado pelo relator da Comissão de Saúde.",
+      "efeitosRegistrados": [],
+      "id": "2584437-50",
+      "idEvento": 83159,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-11-04T17:52",
+          "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais diversas formas de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+          "id": 2651046,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651046"
+        },
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-04T13:55",
+          "ementa": "Leitura realizada em Plenário pelo Dep. Helder Salomão (PT/ES) do parecer do Relator pela:\n• Comissão de Saúde, que conclui pela aprovação do PL nº 5.815, de 2025, na forma do Substitutivo adotado.\n• Comissão de Previdência, Assistência Social, Infância, Adolescência e Família, que conclui pela aprovação do PL nº 5.815, de 2025, na forma do Substitutivo adotado pelo relator da Comissão de Saúde.\n• Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa pública, não cabendo pronunciamento quanto à adequação financeira ou orçamentária do PL nº 5.815, de 2025, e do Substitutivo adotado pelo relator da Comissão de Saúde.\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do PL nº 5.815, de 2025, e do Substitutivo adotado pelo relator da Comissão de Saúde, que aperfeiçoa a técnica legislativa da matéria; e, no mérito, pela aprovação do PL nº 5.815, de 2025, na forma do Substitutivo adotado pelo relator da Comissão de Saúde, com substitutivo",
+          "id": 2651047,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651047"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-04T12:25",
+          "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais diversas formas de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+          "id": 2650501,
+          "numero": 2,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650501"
+        },
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-04T00:00",
+          "ementa": "Redação Final ao PL 5815/2025",
+          "id": 2651291,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651291"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-07-13T10:49",
+          "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais diversas formas de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+          "id": 2639151,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2639151"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 392,
+          "dataApresentacao": "2025-12-11T00:35",
+          "ementa": "Requer regime de urgência para apreciação do Projeto de Lei nº 5.815, de 2025, que “eleva a “Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE.”",
+          "id": 2595870,
+          "numero": 5728,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2595870"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-11-12T11:12",
+          "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+          "id": 2584437,
+          "numero": 5815,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-04T17:52:49",
+        "descricao": "Leitura realizada em Plenário pelo Dep. Helder Salomão (PT/ES) do parecer do Relator pela:\r\n• Comissão de Saúde, que conclui pela aprovação do PL nº 5.815, de 2025, na forma do Substitutivo adotado.\r\n• Comissão de Previdência, Assistência Social, Infância, Adolescência e Família, que conclui pela aprovação do PL nº 5.815, de 2025, na forma do Substitutivo adotado pelo relator da Comissão de Saúde.\r\n• Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa pública, não cabendo pronunciamento quanto à adequação financeira ou orçamentária do PL nº 5.815, de 2025, e do Substitutivo adotado pelo relator da Comissão de Saúde.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do PL nº 5.815, de 2025, e do Substitutivo adotado pelo relator da Comissão de Saúde, que aperfeiçoa a técnica legislativa da matéria; e, no mérito, pela aprovação do PL nº 5.815, de 2025, na forma do Substitutivo adotado pelo relator da Comissão de Saúde, com substitutivo",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651047"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T15:53:18.747Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50"
+}

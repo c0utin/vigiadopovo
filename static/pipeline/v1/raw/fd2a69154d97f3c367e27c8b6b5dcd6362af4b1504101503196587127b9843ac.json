@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2019,
+      "codTipo": 139,
+      "dataApresentacao": "2026-04-16T18:00",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+      "ementaDetalhada": "",
+      "id": 2617269,
+      "justificativa": null,
+      "keywords": "Alteração, Lei Geral de Telecomunicações (1997), Lei da Agência Nacional de Energia Elétrica (1996), Lei federal, regulamentação, utilização, infraestrutura compartilhada, poste, titularidade, concessionária de serviço de energia elétrica, prestadora de serviços, concessionária de serviço de telecomunicação, infraestrutura de telecomunicação, rede de distribuição de energia elétrica, diretrizes.",
+      "numero": 3220,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1293,
+        "codTipoTramitacao": "1243",
+        "dataHora": "2026-11-04T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "despacho": "A matéria retorna ao Senado Federal (PL 3220-A/2019).",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 38,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178886",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190670"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3115561",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-06T16:40:53.803Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269"
+}

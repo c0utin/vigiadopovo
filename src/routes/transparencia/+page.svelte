@@ -334,7 +334,7 @@
     justify-content: space-between;
     gap: 16px;
     padding: 20px;
-    background: #edf0e5;
+    background: var(--surface-strong);
     border: 1px solid var(--line);
     border-radius: 12px;
   }
@@ -375,12 +375,12 @@
     padding: 18px 14px;
     border: 1px solid var(--line);
     border-radius: 12px;
-    background: #fff;
+    background: var(--surface);
   }
   .step-number {
     font-family: Georgia, serif;
     font-size: 25px;
-    color: #637b3d;
+    color: var(--accent-text);
   }
   h3 {
     font-size: 22px;
@@ -402,8 +402,8 @@
   }
   .transformation {
     padding: 14px 18px;
-    background: #f0f1e8;
-    border-left: 2px solid #829d50;
+    background: var(--surface-alt);
+    border-left: 2px solid var(--accent-strong);
     font-size: 13px;
   }
   .stages a {

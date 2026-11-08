@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T15:51:53",
+        "descricao": "Aprovado o parecer na Comissão Mista",
+        "id": "2641546-7",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/111",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:57:14",
+        "descricao": "Aprovadas as Subemendas nºs 1 e 2 ao Substitutivo da Comissão de Cultura.",
+        "id": "2412504-64",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-64",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:46:25",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.974, de 2023, da Comissão de Defesa dos Direitos das Pessoas com Deficiência.",
+        "id": "2412504-60",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-60",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:37:36",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Hildo Rocha (MDB-MA).",
+        "id": "2637478-28",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-28",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:37:08",
+        "descricao": "Aprovado o Projeto de Lei nº 3.507, de 2026.",
+        "id": "2637478-26",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-26",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:25:20",
+        "descricao": "Aprovada a Emenda de Redação.",
+        "id": "2238560-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:24:47",
+        "descricao": "Aprovado o Projeto de Lei nº 565, de 2020.",
+        "id": "2238560-42",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-42",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:20:44",
+        "descricao": "Aprovada a Redação Final, assinada pelo relator, Dep. Aécio Neves (PSDB/MG).",
+        "id": "2389679-29",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2389679-29",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-08&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-08&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-08&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-08&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=51&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T15:52:54.809Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-08&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}
