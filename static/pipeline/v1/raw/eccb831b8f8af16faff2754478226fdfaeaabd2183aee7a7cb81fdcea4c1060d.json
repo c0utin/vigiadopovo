@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Clarissa Tércio",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220665"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:08:45.659Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263/autores"
+}

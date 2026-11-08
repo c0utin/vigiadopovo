@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T17:36",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2651243,
+      "justificativa": null,
+      "keywords": "Posse, uso, fabricação, fornecimento e comercialização de linhas cortantes; Pipa; fiscalização; prevenção; educação; Responsabilidade administrativa; Linha cortante; Cerol; Linha chilena; Comércio eletrônico",
+      "numero": 5784,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-05T17:36",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5784/2026 (Projeto de Lei), pela Deputada Renilce Nicodemos (MDB/PA), que \"Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190708",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:08:49.200Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243"
+}

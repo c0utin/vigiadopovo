@@ -1,0 +1,19 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 43,
+        "relevancia": 0,
+        "tema": "Direito Penal e Processual Penal"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T18:10:59.426Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/temas"
+}
