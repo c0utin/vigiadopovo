@@ -10,3 +10,14 @@ if [[ "$(pnpm --version 2>/dev/null || true)" != "$wanted" ]]; then
 fi
 echo "node $(node --version), pnpm $(pnpm --version)"
 pnpm install --frozen-lockfile
+
+# GitHub runs the daily collection and commits it there; `pnpm ship` deploys
+# only what both remotes have.
+git remote get-url github >/dev/null 2>&1 ||
+  git remote add github https://github.com/c0utin/vigiadopovo.git
+gh auth setup-git 2>/dev/null || true
+
+# `pnpm ship` deploys from the orb with these project secrets.
+for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID; do
+  [[ -n "${!name:-}" ]] || echo "warning: $name is not set; pnpm ship cannot deploy" >&2
+done

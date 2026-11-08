@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-06T12:16",
+        "ementa": "Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética.",
+        "id": 2651275,
+        "numero": 5788,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651275"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-06T11:49",
+        "ementa": "Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+        "id": 2651272,
+        "numero": 5787,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-06T11:10",
+        "ementa": "Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei.",
+        "id": 2651263,
+        "numero": 5786,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-06T10:51",
+        "ementa": "Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa.",
+        "id": 2651261,
+        "numero": 5785,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-05T17:36",
+        "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+        "id": 2651243,
+        "numero": 5784,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-05T17:06",
+        "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
+        "id": 2651239,
+        "numero": 5783,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=880&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:26.460Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

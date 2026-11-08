@@ -54,7 +54,7 @@ export const syncDeputies = Effect.gen(function* () {
   const current = new Set(dataset.deputies.map((d) => `${d.id}.jpg`));
   for (const name of photos)
     if (!current.has(name)) yield* fs.remove(path.join(PHOTOS, name));
-  // Minified: with every bill of the legislature it is about 15 MB, and
+  // Minified: with every bill of the legislature it is about 20 MB, and
   // Cloudflare serves static assets of up to 25 MiB.
   yield* writeAtomic("static/deputados.json", JSON.stringify(dataset) + "\n");
   // The exact bytes hashed in `quality.inputSha256`, for replay.
@@ -71,7 +71,9 @@ export const syncDeputies = Effect.gen(function* () {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href)
   syncDeputies.pipe(
-    Effect.provide(makeCamaraLayer()),
+    // About 1,030 requests: the Câmara gateway answers 504 for a minute or
+    // more at a time, and eight retries (~2 min of backoff) ride it out.
+    Effect.provide(makeCamaraLayer({ retries: 8 })),
     Effect.provide(NodeServices.layer),
     NodeRuntime.runMain,
   );

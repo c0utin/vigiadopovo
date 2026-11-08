@@ -447,7 +447,7 @@
     white-space: nowrap;
   }
   .rank-table tbody tr:hover {
-    background: #f7f9f2;
+    background: var(--surface-alt);
   }
   .rank {
     font-size: 18px;
@@ -590,7 +590,7 @@
     padding: 12px;
     border-radius: 12px;
     background: var(--green);
-    color: #fff;
+    color: var(--on-green);
     font-size: 14px;
   }
   .formula code {

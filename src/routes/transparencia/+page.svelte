@@ -192,12 +192,12 @@
       A coleta roda no GitHub Actions, a partir do código público. O GitHub
       assina o manifesto, <code>legislativo.json</code> e
       <code>dados.json</code>
-      com o workflow, o commit e a execução que os produziram, e a publicação do site
-      assina <code>SHA256SUMS</code>, a lista de hashes de todos os arquivos
-      publicados. O OpenTimestamps registra no Bitcoin, sem custo, que o
-      manifesto já existia naquela data. Isso prova que os arquivos saíram do
-      código público sem edição manual, desde que você confie no GitHub e na API
-      da Câmara; não é uma assinatura da Câmara.
+      com o workflow, o commit e a execução que os produziram. Cada publicação do
+      site grava <code>SHA256SUMS</code>, a lista de hashes de todos os arquivos
+      publicados, sem atestação. O OpenTimestamps registra no Bitcoin, sem
+      custo, que o manifesto já existia naquela data. Isso prova que os arquivos
+      saíram do código público sem edição manual, desde que você confie no
+      GitHub e na API da Câmara; não é uma assinatura da Câmara.
     </p>
     {#if collector}<p>
         Esta coleta foi feita pela
@@ -333,7 +333,7 @@
     justify-content: space-between;
     gap: 16px;
     padding: 20px;
-    background: #edf0e5;
+    background: var(--surface-strong);
     border: 1px solid var(--line);
     border-radius: 12px;
   }
@@ -374,12 +374,12 @@
     padding: 18px 14px;
     border: 1px solid var(--line);
     border-radius: 12px;
-    background: #fff;
+    background: var(--surface);
   }
   .step-number {
     font-size: 25px;
     font-weight: 800;
-    color: #4d6a20;
+    color: var(--accent-text);
   }
   h3 {
     font-size: 22px;
@@ -401,8 +401,8 @@
   }
   .transformation {
     padding: 14px 18px;
-    background: #f0f1e8;
-    border-left: 2px solid #829d50;
+    background: var(--surface-alt);
+    border-left: 2px solid var(--accent-strong);
     font-size: 13px;
   }
   .stages a {

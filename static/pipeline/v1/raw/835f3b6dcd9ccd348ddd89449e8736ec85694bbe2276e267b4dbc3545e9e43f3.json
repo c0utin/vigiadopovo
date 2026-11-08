@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T18:05:42",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Waldemar Oliveira (AVANTE/PE).",
+        "id": "2584437-53",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-53",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T18:04:42",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.815, de 2025, adotado pelo relator da Comissão de Saúde.",
+        "id": "2584437-50",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-50",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:42:53",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Lídice da Mata (PSB/BA).",
+        "id": "2531613-30",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-30",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:42:20",
+        "descricao": "Aprovado o Projeto de Lei nº 3.220, de 2025.",
+        "id": "2531613-28",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-28",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:19:22",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Juscelino Filho (PSDB/MA).",
+        "id": "2617269-37",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-37",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:18:46",
+        "descricao": "Rejeitada a Emenda de Plenário.",
+        "id": "2617269-35",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-35",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:17:53",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 3.220, de 2019, adotado pelo relator da Comissão de Comunicação.",
+        "id": "2617269-32",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T16:47:10",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Nikolas Ferreira (PL-MG).",
+        "id": "2410357-48",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2410357-48",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-05&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-05&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-05&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-05&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=50&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-05T17:15:54.906Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-05&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}

@@ -104,10 +104,12 @@ export function makeCamaraLayer({
   fetcher = globalThis.fetch,
   maxPages = 100,
   baseDelayMs = 500,
+  retries = 2,
 }: {
   fetcher?: typeof fetch;
   maxPages?: number;
   baseDelayMs?: number;
+  retries?: number;
 } = {}) {
   return Layer.effect(
     Camara,
@@ -120,7 +122,7 @@ export function makeCamaraLayer({
         Schedule.modifyDelay(({ input, duration }) =>
           Effect.succeed(input.retryAfterMillis ?? duration),
         ),
-        Schedule.upTo({ times: 2 }),
+        Schedule.upTo({ times: retries }),
         Schedule.while(({ input }) => input.retryable),
       );
       // One bounded, retried and cancellable download path for every source.

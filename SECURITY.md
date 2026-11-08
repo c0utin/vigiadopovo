@@ -18,4 +18,4 @@ Se uma credencial for exposta, revogue-a ou faça sua rotação primeiro. Remove
 
 ## Dependências
 
-Rode `pnpm audit` regularmente. A CI (`.github/workflows/ci.yml`) falha com alertas de severidade moderada ou superior; alertas de severidade baixa são registrados pelo `pnpm audit`, mas não bloqueiam a CI.
+Rode `pnpm audit` regularmente. O deploy (`pnpm ship`) falha com alertas de severidade moderada ou superior; alertas de severidade baixa são registrados pelo `pnpm audit`, mas não bloqueiam o deploy.

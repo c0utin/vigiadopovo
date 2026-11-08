@@ -78,31 +78,32 @@
   }
   .grid {
     fill: none;
-    stroke: #cfd8c8;
+    stroke: var(--line);
     stroke-width: 1;
   }
   .median {
     fill: none;
-    stroke: #8a9a86;
+    stroke: var(--border);
     stroke-dasharray: 4 4;
   }
   .shape {
-    fill: #d8ed95b3;
-    stroke: #173e34;
+    fill: var(--lime);
+    fill-opacity: 0.7;
+    stroke: var(--green);
     stroke-width: 2;
     stroke-linejoin: round;
   }
   .dot {
-    fill: #173e34;
+    fill: var(--green);
   }
   text {
     font-size: 12px;
-    fill: #173c34;
+    fill: var(--text);
   }
   .axis {
     font-weight: 700;
   }
   .value {
-    fill: #58685d;
+    fill: var(--muted);
   }
 </style>

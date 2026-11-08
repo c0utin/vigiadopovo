@@ -588,11 +588,17 @@
                             : ""}<br />Apresentado em {date(
                             b.presentedAt,
                           )}</span
-                        ><a
-                          class="item-link"
-                          href={camara(b.id)}
-                          target="_blank"
-                          rel="noreferrer">Tramitação ↗</a
+                        ><span class="item-links"
+                          >{#if data.explained.includes(b.id)}<a
+                              class="item-link"
+                              href={resolve(`proposta/${b.id}/`)}
+                              >Em linguagem simples →</a
+                            >{/if}<a
+                            class="item-link"
+                            href={camara(b.id)}
+                            target="_blank"
+                            rel="noreferrer">Tramitação ↗</a
+                          ></span
                         >
                       </p>
                     </li>{/each}
@@ -777,7 +783,7 @@
     aspect-ratio: 3 / 4;
     object-fit: cover;
     border-radius: 14px;
-    background: #e5e8d9;
+    background: var(--surface-alt);
   }
   .eyebrow {
     margin-bottom: 4px;
@@ -840,7 +846,7 @@
     border-radius: 6px;
   }
   .compare .bar > span {
-    background: #7d8c7a;
+    background: var(--median-bar);
   }
   .compare .me .bar > span {
     background: var(--green);
@@ -861,30 +867,30 @@
   }
   /* Author in greens, rapporteur in blues; "via" credit is hatched. */
   [data-part="law"] {
-    background: #1b5523;
+    background: var(--part-law);
   }
   [data-part="lawVia"] {
     background: repeating-linear-gradient(
       135deg,
-      #1b5523 0 3px,
-      #a9c9b2 3px 6px
+      var(--part-law) 0 3px,
+      var(--part-law-hatch) 3px 6px
     );
   }
   [data-part="approved"] {
-    background: #5f8a1c;
+    background: var(--part-approved);
   }
   [data-part="approvedVia"] {
     background: repeating-linear-gradient(
       135deg,
-      #5f8a1c 0 3px,
-      #cfe0a5 3px 6px
+      var(--part-approved) 0 3px,
+      var(--part-approved-hatch) 3px 6px
     );
   }
   [data-part="reportLaw"] {
-    background: #1e4a73;
+    background: var(--part-report-law);
   }
   [data-part="reportCamara"] {
-    background: #6b93c4;
+    background: var(--part-report-camara);
   }
   .legend {
     display: grid;

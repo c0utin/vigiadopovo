@@ -1,0 +1,97 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T17:42:20",
+      "dataHoraUltimaAberturaVotacao": "2026-11-04T17:38:58",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Projeto de Lei nº 3.220, de 2025.",
+      "efeitosRegistrados": [],
+      "id": "2531613-28",
+      "idEvento": 83159,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-04T13:55",
+          "ementa": "Parecer proferido em Plenário pela Relatora Dep. Lídice da Mata (PSB/BA) pela: • Comissão de Cultura, que conclui pela aprovação do Projeto de Lei nº 3.220, de 2025. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 3.220, de 2025.",
+          "id": 2650955,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650955"
+        },
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-04T00:00",
+          "ementa": "Redação Final ao PL 3220/2025",
+          "id": 2651218,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651218"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-03T12:51",
+          "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
+          "id": 2649737,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649737"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-03-26T16:03",
+          "ementa": "Requer, nos termos do artigo 155 do Regimento Interno, tramitação sob o regime urgência do Projeto de Lei nº 3.220, de 2025.",
+          "id": 2612448,
+          "numero": 1716,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2612448"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 134,
+          "dataApresentacao": "2025-07-02T20:13",
+          "ementa": "Submete à deliberação do Congresso Nacional o texto do projeto de lei que “Institui 0 Dia Nacional da Consolidação da Independência do Brasil.”",
+          "id": 2531620,
+          "numero": 816,
+          "siglaTipo": "MSC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531620"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-07-01T19:47",
+          "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
+          "id": 2531613,
+          "numero": 3220,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-04T17:25:01",
+        "descricao": "Parecer proferido em Plenário pela Relatora Dep. Lídice da Mata (PSB/BA) pela:\r\n• Comissão de Cultura, que conclui pela aprovação do Projeto de Lei nº 3.220, de 2025.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 3.220, de 2025.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650955"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-28",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-28",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-06T16:41:08.692Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-28"
+}

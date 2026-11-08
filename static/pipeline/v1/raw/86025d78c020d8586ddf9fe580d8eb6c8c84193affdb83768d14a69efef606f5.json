@@ -1,0 +1,27 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T15:51:53",
+        "descricao": "Aprovado o parecer na Comissão Mista",
+        "id": "2641546-7",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/111",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T15:53:10.824Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/votacoes"
+}

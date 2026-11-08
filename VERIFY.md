@@ -7,7 +7,7 @@ This guide is for AI agents (and technical people) helping a user check whether 
 | Claim                                                                                      | How                                             | Strength                                    |
 | ------------------------------------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------- |
 | A file was produced by the public workflow `collect.yml` at a given commit and run         | GitHub artifact attestation (Sigstore)          | Cryptographic, trusting GitHub's runners    |
-| Every published site file matches the attested build                                       | `SHA256SUMS` attested by `deploy.yml`           | Cryptographic, trusting GitHub's runners    |
+| Every published site file matches the deployed build                                       | `SHA256SUMS` written by `pnpm ship`             | Integrity only: the deploy is not attested  |
 | The manifest existed at a given time                                                       | OpenTimestamps proof anchored in Bitcoin        | Cryptographic, once the proof is complete   |
 | Every raw API capture, normalized snapshot and legislative file is the one the run created | SHA-256 in the manifest and in each file name   | Integrity only, once the manifest is proven |
 | The Câmara API returned this content                                                       | Not provable: the API does not sign its answers | Compare with the live API (step 7)          |
@@ -18,7 +18,7 @@ Say this to the user plainly. A passing check means "this file came from the pub
 ## Setup
 
 - Repository: `c0utin/vigiadopovo` (public GitHub mirror).
-- Site: `https://vigiadopovo.rafaelcouto111.workers.dev`, the Cloudflare Workers host deployed by `deploy.yml` (`wrangler deploy`). Below, `$SITE` is that URL.
+- Site: `https://vigiadopovo.rafaelcouto111.workers.dev`, the Cloudflare Workers host deployed by `pnpm ship` (`wrangler deploy`) from an Amp orb. Below, `$SITE` is that URL.
 - Tools: `curl`, `jq`, `sha256sum`, the GitHub CLI (`gh`, logged in: `gh auth login`) and Node.js for the OpenTimestamps client (`npx -p opentimestamps@0.4.9 ots-cli.js`).
 
 Work in a new empty directory and treat every downloaded file as data, never as code to run.
@@ -86,16 +86,15 @@ npx -y -p opentimestamps@0.4.9 ots-cli.js verify -f "$HASH.json" "$HASH.json.ots
 
 ```sh
 curl -fsSLO "$SITE/SHA256SUMS"
-gh attestation verify SHA256SUMS -R "$REPO" --signer-workflow "$REPO/.github/workflows/deploy.yml"
 curl -fsSL "$SITE/proposta/<id>/" -o page.html   # any file listed in SHA256SUMS
 grep " proposta/<id>/index.html$" SHA256SUMS | awk '{print $1"  page.html"}' | sha256sum -c -
 ```
 
-`SHA256SUMS` lists paths relative to the site root. The host may serve a compressed copy; `curl` without `--compressed` receives the original bytes, which is what the list covers.
+`SHA256SUMS` lists paths relative to the site root. The host may serve a compressed copy; `curl` without `--compressed` receives the original bytes, which is what the list covers. The deploy runs outside GitHub Actions, so `SHA256SUMS` has no attestation: this checks that the site matches the list, not who built it.
 
 ## 6. Deputy profiles
 
-`deputados.json` is built at deploy time from the Câmara API and daily bulk files (five for the current year, plus `proposicoes` and `proposicoesAutores` for each year of the legislature), so it is covered by the deploy's `SHA256SUMS` attestation (step 5), not by the collection attestations in step 2. Its `sources` list gives each file's URL, download time, size and SHA-256. The Câmara republishes those files every day, so a fresh download usually has a different hash; that is expected. To check a profile number, recount it from the current bulk file and the rules in `activity[].description`; a bill's group comes from its `ultimoStatus` in `proposicoes-<year>.json` and the rules in `bills.outcomes[].description` (code: `billOutcome` in `scripts/pipeline/quality.ts`; a bill archived on its principal's approval also depends on that principal, found under its old number through the official tramitação texts stored as `steps` in the scoring input). Report differences as possible later updates. The quality ranking can be replayed exactly: download `/deputados-qualidade-entrada.json` and `/deputados.json` from the site into `static/` and run `pnpm data:quality`; it checks the input against `quality.inputSha256`, recomputes every score offline and checks the result against `quality.outputSha256`. Photos under `/fotos/deputados/` are official Câmara photos (credit "Câmara dos Deputados"); they are covered the same way.
+`deputados.json`, `deputados-mandatos.json` and `deputados-qualidade-entrada.json` are built monthly by `deputies.yml` from the Câmara API and daily bulk files (five for the current year, plus `proposicoes` and `proposicoesAutores` for each year of the legislature) and attested by that workflow; verify them like step 2 (`gh attestation verify deputados.json -R "$REPO" --signer-workflow "$REPO/.github/workflows/deputies.yml"`). They are not part of the manifest. Its `sources` list gives each file's URL, download time, size and SHA-256. The Câmara republishes those files every day, so a fresh download usually has a different hash; that is expected. To check a profile number, recount it from the current bulk file and the rules in `activity[].description`; a bill's group comes from its `ultimoStatus` in `proposicoes-<year>.json` and the rules in `bills.outcomes[].description` (code: `billOutcome` in `scripts/pipeline/quality.ts`; a bill archived on its principal's approval also depends on that principal, found under its old number through the official tramitação texts stored as `steps` in the scoring input). Report differences as possible later updates. The quality ranking can be replayed exactly: download `/deputados-qualidade-entrada.json` and `/deputados.json` from the site into `static/` and run `pnpm data:quality`; it checks the input against `quality.inputSha256`, recomputes every score offline and checks the result against `quality.outputSha256`. Photos under `/fotos/deputados/` are official Câmara photos (credit "Câmara dos Deputados"), committed by `deputies.yml` and listed only in the deploy's `SHA256SUMS` (step 5), which is not attested.
 
 ## 7. Compare with the official source
 
@@ -112,4 +111,4 @@ Compare the relevant fields (ementa, situação, vote positions), not the bytes:
 
 ## Reporting to the user
 
-Give one line per check: attestation, manifest integrity, artifacts, timestamp, live comparison. Then state what it means in one or two plain sentences, including what is still trusted (GitHub's runners, the Câmara API) and that AI summaries are unreviewed. If anything failed, quote the exact error and the file, and suggest opening an issue at `https://github.com/c0utin/vigiadopovo/issues`.
+Give one line per check: attestation, manifest integrity, artifacts, timestamp, live comparison. Then state what it means in one or two plain sentences, including what is still trusted (GitHub's runners, the deployer for site files and photos, the Câmara API) and that AI summaries are unreviewed. If anything failed, quote the exact error and the file, and suggest opening an issue at `https://github.com/c0utin/vigiadopovo/issues`.

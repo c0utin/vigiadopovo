@@ -1,0 +1,137 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T17:17:53",
+      "dataHoraUltimaAberturaVotacao": "2026-11-04T17:08:19",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 3.220, de 2019, adotado pelo relator da Comissão de Comunicação.",
+      "efeitosRegistrados": [],
+      "id": "2617269-32",
+      "idEvento": 83159,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 1001,
+          "dataApresentacao": "2026-11-04T17:10",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2650904,
+          "numero": 1,
+          "siglaTipo": "PRLE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650904"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-11-04T16:48",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2650860,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650860"
+        },
+        {
+          "ano": 0,
+          "codTipo": 870,
+          "dataApresentacao": "2026-11-04T16:47",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2650862,
+          "numero": 1,
+          "siglaTipo": "EMP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650862"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-04T16:29",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2650848,
+          "numero": 3,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650848"
+        },
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-04T13:55",
+          "ementa": "Parecer proferido em Plenário pelo Relator Dep. Juscelino Filho (PSDB/MA) pela: • Comissão de Comunicação, que conclui pela aprovação do Projeto de Lei nº 3.220, de 2019, na forma do Substitutivo adotado. • Comissão de Minas e Energia, que conclui pela aprovação do Projeto de Lei nº 3.220, de 2019, na forma do Substitutivo adotado pelo relator da Comissão de Comunicação. • Comissão de Desenvolvimento Urbano, que conclui pela aprovação do Projeto de Lei nº 3.220, de 2019, na forma do Substitutivo adotado pelo relator da Comissão de Comunicação. • Comissão de Finanças e Tributação, que conclui pela não implicação financeira ou orçamentária da matéria em aumento ou diminuição da receita e da despesa pública, não cabendo pronunciamento quanto à adequação financeira ou orçamentária do Projeto de Lei nº 3.220, de 2019, e do Substitutivo adotado pelo relator da Comissão de Comunicação. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 3.220, de 2019, e do Substitutivo adotado pelo relator da Comissão de Comunicação.",
+          "id": 2650861,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650861"
+        },
+        {
+          "ano": 0,
+          "codTipo": 442,
+          "dataApresentacao": "2026-11-04T13:55",
+          "ementa": "Parecer à Emenda de Plenário proferido pelo Relator Dep. Juscelino Filho (PSDB/MA) pela:\n• Comissão de Comunicação, que conclui pela rejeição da Emenda de Plenário.\n• Comissão de Minas e Energia, que conclui pela rejeição da Emenda de Plenário.\n• Comissão de Desenvolvimento Urbano, que conclui pela rejeição da Emenda de Plenário.\n• Comissão de Finanças e Tributação, que conclui pela não implicação sobre as despesas ou receitas da Emenda de Plenário.\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa da Emenda de Plenário.",
+          "id": 2650910,
+          "numero": 1,
+          "siglaTipo": "PEP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650910"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-03T19:29",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2650179,
+          "numero": 2,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650179"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-10-29T17:29",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2649635,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649635"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-05-13T17:01",
+          "ementa": "Requer regime de urgência para apreciação do Projeto de Lei nº 3220/2019, que dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2624646,
+          "numero": 2851,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2624646"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2026-04-16T18:00",
+          "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+          "id": 2617269,
+          "numero": 3220,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-04T17:13:00",
+        "descricao": "Parecer à Emenda de Plenário proferido pelo Relator Dep. Juscelino Filho (PSDB/MA) pela:\r\n• Comissão de Comunicação, que conclui pela rejeição da Emenda de Plenário.\r\n• Comissão de Minas e Energia, que conclui pela rejeição da Emenda de Plenário.\r\n• Comissão de Desenvolvimento Urbano, que conclui pela rejeição da Emenda de Plenário.\r\n• Comissão de Finanças e Tributação, que conclui pela não implicação sobre as despesas ou receitas da Emenda de Plenário.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa da Emenda de Plenário.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650910"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:48.144Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32"
+}

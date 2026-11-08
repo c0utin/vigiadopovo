@@ -21,7 +21,7 @@
 //! parsing or writing to the lake, but its metricas file is still rewritten.
 //! Tables are committed one by one and `bronze.arquivos` last, so a batch
 //! listed there is complete; rerunning after a failure appends only what is
-//! missing. Needs CLOUDFLARE_ACCOUNT_ID, LAKE_TOKEN (R2 Data Catalog write)
+//! missing. Needs CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_API_TOKEN (R2 Data Catalog write)
 //! and R2_ENDPOINT/R2_ACCESS_KEY_ID/R2_SECRET_ACCESS_KEY (bronze and data
 //! files) unless --out is given. The bucket is always `vigia-lake`.
 

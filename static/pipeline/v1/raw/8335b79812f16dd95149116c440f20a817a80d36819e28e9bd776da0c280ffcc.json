@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 40000,
+        "nome": "Senado Federal - Senador Weverton",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Órgão do Poder Legislativo",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/78"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-06T16:40:53.986Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/autores"
+}

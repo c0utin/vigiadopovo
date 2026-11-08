@@ -11,7 +11,6 @@ permissions:
   contents: write # commit the new collection
   id-token: write # Sigstore signing certificate
   attestations: write
-  actions: write # start the Pages deploy (pushes by GITHUB_TOKEN do not)
 
 # data:sync is single-writer.
 concurrency:
@@ -74,12 +73,11 @@ jobs:
             static/legislativo.json
             static/dados.json
 
-      - id: commit
-        name: Commit the collection
+      # The site is deployed from an Amp orb (`pnpm ship`), not from here.
+      - name: Commit the collection
         run: |
           git add -A data src/lib/data static
           if git diff --cached --quiet; then
-            echo "pushed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -91,13 +89,6 @@ jobs:
           # contents, so rebasing the data commit keeps them valid.
           git pull --rebase
           git push
-          echo "pushed=true" >> "$GITHUB_OUTPUT"
-
-      - name: Deploy the new collection
-        if: steps.commit.outputs.pushed == 'true'
-        run: gh workflow run deploy.yml --ref "$GITHUB_REF_NAME"
-        env:
-          GH_TOKEN: ${{ github.token }}
 
   # Separate job: a lake failure never blocks the attested collection above.
   lake:
@@ -109,7 +100,6 @@ jobs:
     env:
       CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      LAKE_TOKEN: ${{ secrets.LAKE_TOKEN }}
       R2_ENDPOINT: ${{ secrets.R2_ENDPOINT }}
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
@@ -123,16 +113,14 @@ jobs:
           node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # Restores the compiled dependencies that lake.yml saves from main
-      # (keyed by Cargo.lock and lake/rust-toolchain.toml), so only lake/src
-      # compiles here. Read-only: one writer keeps the cache complete.
+      # Caches the compiled dependencies (keyed by Cargo.lock and
+      # lake/rust-toolchain.toml), so only lake/src compiles on later runs.
       - run: rustup toolchain install
         working-directory: lake
       - uses: Swatinem/rust-cache@d1527c8f67ef9af357290475d4af4b0fab8f12e0 # v2.9.3
         with:
           workspaces: lake
           shared-key: lake
-          save-if: false
       # Stops before any write once a free allowance reaches 80%.
       - run: pnpm budget
       - run: pnpm data:lake

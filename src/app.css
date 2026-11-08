@@ -35,6 +35,43 @@
   --warn-fg: #5b2777;
   --info-bg: #dfeaf5;
   --info-fg: #1e4a73;
+  /* Secondary text, accents and chart parts. */
+  --ink-2: #2b4a3f;
+  --em: #4d7a1d;
+  --brand-dot: #5f7f2c;
+  --on-green: #fff;
+  --on-green-2: #d9e6cf;
+  --on-lime: #173e34;
+  --lime-2: #e6f4b8;
+  /* Point sources on the profile: author greens, rapporteur blues. */
+  --part-law: #1b5523;
+  --part-law-hatch: #a9c9b2;
+  --part-approved: #5f8a1c;
+  --part-approved-hatch: #cfe0a5;
+  --part-report-law: #1e4a73;
+  --part-report-camara: #6b93c4;
+  --median-bar: #7d8c7a;
+  --border: #8a9a86;
+  --border-strong: #8aa07b;
+  --dashed: #aebaa3;
+  --divider: #e8ece3;
+  --placeholder: #5f6d63;
+  --track: #e3e8dc;
+  --band: #b9d27a;
+  --notice-fg: #4a3a05;
+  --tabbar: #fffffff2;
+  --sticky: #f2f4eceb;
+  --tap-highlight: #d8ed9566;
+  /* Names used by components shared with the previous design. */
+  --text: var(--ink);
+  --surface-alt: #f0f2e9;
+  --surface-strong: #edf0e5;
+  --accent-bg: var(--soft);
+  --accent-text: #445a2f;
+  --accent-strong: #2a5345;
+  --link-hover: var(--green-2);
+  --card-shadow: none;
+  color-scheme: light;
   font-family: var(--font);
   font-size: 16px;
   line-height: 1.5;
@@ -42,6 +79,68 @@
   color: var(--ink);
   background: var(--bg);
   -webkit-text-size-adjust: 100%;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Desaturated surfaces with real elevation steps (Material Design 3
+       dark theme); text and chip pairs keep at least 4.5:1 (WCAG 2.1 AA). */
+    --ink: #e9edec;
+    --green: #80c6a6;
+    --green-2: #acd8c3;
+    --muted: #a2aeac;
+    --line: #455452;
+    --bg: #151918;
+    --surface: #212827;
+    --soft: #283e34;
+    --lime: #bccd84;
+    --focus: #80c6a6;
+    --shadow: 0 1px 3px #00000080;
+    --law-bg: #1f3d26;
+    --law-fg: #a8dfb0;
+    --approved-bg: #33401a;
+    --approved-fg: #cfe39a;
+    --active-bg: #463813;
+    --active-fg: #f1d58a;
+    --rejected-bg: #4a2219;
+    --rejected-fg: #f4b3a3;
+    --closed-bg: #373f3d;
+    --closed-fg: #c9d0ce;
+    --warn-bg: #3d2a49;
+    --warn-fg: #dcb8ee;
+    --info-bg: #1f3247;
+    --info-fg: #a9cdef;
+    --ink-2: #c9d3d1;
+    --em: #b4d38a;
+    --brand-dot: #b4d38a;
+    --on-green: #151918;
+    --on-green-2: #1f3a30;
+    --on-lime: #18241d;
+    --lime-2: #cfdc9c;
+    --part-law: #5fb87a;
+    --part-law-hatch: #24412f;
+    --part-approved: #a3c45a;
+    --part-approved-hatch: #3d4d24;
+    --part-report-law: #6fa3d8;
+    --part-report-camara: #a9c7ea;
+    --median-bar: #8a9a97;
+    --border: #6b807c;
+    --border-strong: #86a09b;
+    --dashed: #586a67;
+    --divider: #39433f;
+    --placeholder: #93a19f;
+    --track: #39433f;
+    --band: #6f8a3a;
+    --notice-fg: #f1d58a;
+    --tabbar: #212827f2;
+    --sticky: #151918eb;
+    --tap-highlight: #80c6a633;
+    --surface-alt: #2c3533;
+    --surface-strong: #373f3d;
+    --accent-text: #9fd0b9;
+    --accent-strong: #8eccaf;
+    --card-shadow: 0 1px 3px #00000080;
+    color-scheme: dark;
+  }
 }
 * {
   box-sizing: border-box;
@@ -75,7 +174,7 @@ a,
 select,
 summary {
   touch-action: manipulation;
-  -webkit-tap-highlight-color: #d8ed9566;
+  -webkit-tap-highlight-color: var(--tap-highlight);
 }
 button {
   cursor: pointer;
@@ -119,7 +218,7 @@ h3 {
 h1 em,
 h2 em {
   font-style: normal;
-  color: #4d7a1d;
+  color: var(--em);
 }
 code {
   font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
@@ -153,7 +252,7 @@ code {
   font-weight: 400;
 }
 .brand-dot {
-  color: #5f7f2c;
+  color: var(--brand-dot);
 }
 .brand-icon {
   display: inline-grid;
@@ -184,7 +283,7 @@ code {
   z-index: 20;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  background: #fffffff2;
+  background: var(--tabbar);
   backdrop-filter: blur(8px);
   border-top: 1px solid var(--line);
   padding: 6px max(4px, env(safe-area-inset-right))
@@ -210,6 +309,7 @@ code {
 }
 .site-header nav a[aria-current="page"] svg {
   background: var(--lime);
+  color: var(--on-lime);
 }
 .site-header nav svg {
   width: 48px;
@@ -286,7 +386,7 @@ code {
   max-width: 64ch;
   font-size: 17px;
   line-height: 1.55;
-  color: #2b4a3f;
+  color: var(--ink-2);
 }
 /* A question's one-sentence answer, right under the question heading. */
 .answer {
@@ -492,7 +592,7 @@ a.stat:hover {
   display: block;
   height: 8px;
   border-radius: 99px;
-  background: #e3e8dc;
+  background: var(--track);
   overflow: hidden;
 }
 .bar > span {
@@ -516,7 +616,7 @@ a.stat:hover {
   position: absolute;
   inset: 6px 0;
   border-radius: 99px;
-  background: #e3e8dc;
+  background: var(--track);
 }
 .range-band {
   position: absolute;
@@ -525,7 +625,7 @@ a.stat:hover {
   left: calc(var(--from) * 1%);
   width: max(6px, calc((var(--to) - var(--from)) * 1%));
   border-radius: 99px;
-  background: #b9d27a;
+  background: var(--band);
 }
 .range-dot {
   position: absolute;
@@ -534,7 +634,7 @@ a.stat:hover {
   width: 14px;
   height: 14px;
   margin-left: -7px;
-  border: 2.5px solid #fff;
+  border: 2.5px solid var(--surface);
   border-radius: 50%;
   background: var(--green);
   box-shadow: 0 0 0 1px var(--green);
@@ -600,7 +700,7 @@ summary {
 .prose li {
   font-size: 15px;
   line-height: 1.6;
-  color: #2b4a3f;
+  color: var(--ink-2);
 }
 .prose ul,
 .prose ol {
@@ -614,7 +714,7 @@ summary {
   z-index: 10;
   margin-inline: -12px;
   padding: 8px 12px;
-  background: #f2f4eceb;
+  background: var(--sticky);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -700,7 +800,7 @@ summary {
   margin: 0;
   font-size: 15px;
   line-height: 1.5;
-  color: #2b4a3f;
+  color: var(--ink-2);
 }
 .clamp {
   display: -webkit-box;
@@ -716,9 +816,14 @@ summary {
   gap: 6px 12px;
   margin: 4px 0 0;
   padding-top: 10px;
-  border-top: 1px solid #e8ece3;
+  border-top: 1px solid var(--divider);
   font-size: 13px;
   color: var(--muted);
+}
+.item-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
 }
 .item-meta {
   margin: 0;
@@ -735,7 +840,7 @@ summary {
 }
 /* A title link that covers its card: one tap target, one tab stop. */
 .item.tap:hover {
-  border-color: #8aa07b;
+  border-color: var(--border-strong);
 }
 .item.tap:has(a:focus-visible) {
   outline: 3px solid var(--focus);
@@ -769,11 +874,11 @@ summary {
 }
 .primary {
   background: var(--green);
-  color: #fff;
+  color: var(--on-green);
 }
 .primary:hover {
   background: var(--green-2);
-  color: #fff;
+  color: var(--on-green);
 }
 .secondary {
   background: var(--surface);
@@ -795,7 +900,7 @@ summary {
   align-items: center;
   min-width: 0;
   background: var(--surface);
-  border: 1.5px solid #8a9a86;
+  border: 1.5px solid var(--border);
   border-radius: 14px;
   padding-inline: 14px;
   gap: 10px;
@@ -815,7 +920,7 @@ summary {
   color: var(--ink);
 }
 .search-field input::placeholder {
-  color: #5f6d63;
+  color: var(--placeholder);
 }
 .search-field:focus-within {
   outline: 3px solid var(--focus);
@@ -850,13 +955,13 @@ summary {
 .chips button[aria-pressed="true"] {
   background: var(--green);
   border-color: var(--green);
-  color: #fff;
+  color: var(--on-green);
 }
 .empty-state {
   padding: 28px 18px;
   text-align: center;
   background: var(--surface);
-  border: 1px dashed #aebaa3;
+  border: 1px dashed var(--dashed);
   border-radius: var(--radius);
 }
 .empty-state h3 {
@@ -946,7 +1051,7 @@ summary {
 .about-page > p:not(.eyebrow):not(.lead) {
   font-size: 16px;
   line-height: 1.7;
-  color: #2b4a3f;
+  color: var(--ink-2);
 }
 .legal-list {
   display: grid;
@@ -985,7 +1090,7 @@ summary {
   margin: 20px 0;
   font-size: 14px;
   line-height: 1.6;
-  color: #4a3a05;
+  color: var(--notice-fg);
 }
 .notice p {
   margin: 8px 0 0;
@@ -1005,7 +1110,7 @@ summary {
   position: absolute;
   top: -60px;
   background: var(--green);
-  color: white;
+  color: var(--on-green);
   padding: 15px;
   z-index: 30;
 }
@@ -1067,6 +1172,7 @@ summary {
   }
   .site-header nav a[aria-current="page"] {
     background: var(--lime);
+    color: var(--on-lime);
   }
   .site-header nav a[aria-current="page"] svg {
     background: none;

@@ -71,7 +71,8 @@ const QUERY = `query ($account: String!, $start: Time!, $end: Time!, $startDate:
 }`;
 
 const Analytics = Schema.Struct({
-  errors: Schema.optionalKey(Schema.Array(Schema.Unknown)),
+  // Cloudflare sends `errors: null` when the query succeeds.
+  errors: Schema.optionalKey(Schema.NullOr(Schema.Array(Schema.Unknown))),
   data: Schema.Struct({
     viewer: Schema.Struct({
       accounts: Schema.Array(

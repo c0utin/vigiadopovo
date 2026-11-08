@@ -4,3 +4,6 @@ src/lib/data/*.json
 static/dados.json
 static/legislativo.json
 static/pipeline/
+static/deputados.json
+static/deputados-mandatos.json
+static/deputados-qualidade-entrada.json

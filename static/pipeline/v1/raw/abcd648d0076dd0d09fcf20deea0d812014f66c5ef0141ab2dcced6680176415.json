@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 30000,
+        "nome": "Poder Executivo",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Órgão do Poder Executivo",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/253"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-05T17:16:22.134Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613/autores"
+}

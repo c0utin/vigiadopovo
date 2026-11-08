@@ -186,12 +186,12 @@
     padding: 12px 14px;
     border-radius: 16px;
     background: var(--green);
-    color: #fff;
+    color: var(--on-green);
     text-decoration: none;
   }
   .ranking-cta:hover {
     background: var(--green-2);
-    color: #fff;
+    color: var(--on-green);
   }
   .cta-icon {
     width: 44px;
@@ -199,7 +199,7 @@
     padding: 10px;
     border-radius: 12px;
     background: var(--lime);
-    color: var(--green);
+    color: var(--on-lime);
   }
   .ranking-cta strong {
     display: block;
@@ -207,7 +207,7 @@
   }
   .ranking-cta span span {
     font-size: 13px;
-    color: #d9e6cf;
+    color: var(--on-green-2);
   }
   .cta-arrow {
     font-size: 22px;
@@ -223,7 +223,7 @@
     width: 100%;
     height: 50px;
     padding-inline: 12px;
-    border: 1.5px solid #8a9a86;
+    border: 1.5px solid var(--border);
     border-radius: 14px;
     background: var(--surface);
     color: var(--ink);
@@ -258,7 +258,7 @@
     text-decoration: none;
   }
   .deputy-grid :global(a:hover) {
-    border-color: #8aa07b;
+    border-color: var(--border-strong);
   }
   .deputy-grid :global(img),
   .deputy-grid :global(.no-photo) {
@@ -267,12 +267,12 @@
     height: 64px;
     border-radius: 10px;
     object-fit: cover;
-    background: #e5e8d9;
+    background: var(--surface-alt);
   }
   .deputy-grid :global(.no-photo) {
     display: grid;
     place-items: center;
-    color: #6f7f6b;
+    color: var(--muted);
   }
   .deputy-grid :global(.info) {
     display: grid;

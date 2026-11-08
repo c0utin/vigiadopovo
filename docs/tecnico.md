@@ -15,7 +15,7 @@ pnpm dev
 
 No orb, `amp orb services ensure` sobe o servidor de desenvolvimento e publica o portal de visualização.
 
-Validação, como em `ci.yml`:
+Validação, como em `pnpm ship`:
 
 ```sh
 pnpm format:check
@@ -26,7 +26,7 @@ pnpm perf:check     # depois do build; orçamentos em "Desempenho"
 pnpm audit --audit-level moderate
 ```
 
-`pnpm build` gera `build/`, um site sem backend, banco ou chaves. `deploy.yml` roda a cada push em `main`: gera os perfis de deputados, faz o build, atesta `SHA256SUMS` e publica com `wrangler deploy` no Cloudflare Workers.
+`pnpm build` gera `build/`, um site sem backend, banco ou chaves. O deploy roda num orb do Amp, não no GitHub: o botão Ship junta (merge) o `main` do GitHub, onde o bot commita as coletas, faz push nos dois remotos e roda `pnpm ship`, que exige a árvore limpa no `main` do Amp e do GitHub, valida, faz o build, grava `SHA256SUMS` e publica com `wrangler deploy` no Cloudflare Workers. O deploy não acessa a API da Câmara: usa só os arquivos commitados pela coleta. Fora do GitHub Actions não há atestação, então `SHA256SUMS` só prova integridade. O GitHub roda apenas as coletas (`collect.yml`, diária, e `deputies.yml`, mensal); o lake em Rust (`cargo fmt`, `clippy`, `cargo test`) é validado à mão (ver "Cloudflare: site, fotos e lake OLAP").
 
 Os comandos `pnpm data:sync`, `pnpm data:deputies`, `pnpm data:metrics`, `pnpm budget` e `pnpm perf:check` são programas Effect em `scripts/*.ts`. Cada um roda com `NodeRuntime.runMain` e `@effect/platform-node`.
 
@@ -40,16 +40,16 @@ Os comandos `pnpm data:sync`, `pnpm data:deputies`, `pnpm data:metrics`, `pnpm b
 | `src/lib/data/provenance.json`   | Manifesto da última coleta e quem a executou (`collector`)                         | `pnpm data:sync`       |
 | `data/summaries.json`            | Resumos de ementa gerados por IA, com o hash da ementa usada                       | Edição (ver "Resumos") |
 | `data/pending.json`              | Ementas sem resumo compatível                                                      | `pnpm data:sync`       |
-| `static/deputados.json`          | Perfis de deputados em exercício (não versionado)                                  | `pnpm data:deputies`   |
-| `static/deputados-mandatos.json` | Mandatos por legislatura (não versionado, baixado sob demanda)                     | `pnpm data:deputies`   |
+| `static/deputados.json`          | Perfis de deputados em exercício                                                   | `pnpm data:deputies`   |
+| `static/deputados-mandatos.json` | Mandatos por legislatura (baixado sob demanda)                                     | `pnpm data:deputies`   |
 
 ## Prova de origem sem custo
 
 `.github/workflows/collect.yml` roda `pnpm data:sync` todo dia às 06:00 (Brasília) em runners do GitHub, a partir do código público, e só grava a coleta depois de testes, tipos e formatação passarem. Em seguida:
 
-1. **Atestação do GitHub (Sigstore):** assina o manifesto da execução, `static/legislativo.json` e `static/dados.json`, com o repositório, o commit, o workflow e a execução que os produziram. O manifesto cobre, por hash, todas as capturas da API. Cada deploy também assina `SHA256SUMS`, a lista de hashes de todos os arquivos publicados.
+1. **Atestação do GitHub (Sigstore):** assina o manifesto da execução, `static/legislativo.json` e `static/dados.json`, com o repositório, o commit, o workflow e a execução que os produziram. O manifesto cobre, por hash, todas as capturas da API.
 2. **OpenTimestamps:** carimba o hash do manifesto em `static/pipeline/timestamps/<hash>.json.ots`, ancorado no Bitcoin por calendários públicos, sem carteira ou taxa. Execuções seguintes rodam o upgrade do cliente `opentimestamps` até a prova ficar completa.
-3. **Commit e deploy:** o bot commita a coleta em `main` e dispara `deploy.yml`. `provenance.json` registra a execução em `collector`; coletas locais ficam com `collector: null`, e o site avisa que não têm atestação.
+3. **Commit:** o bot commita a coleta em `main`; o site mostra a nova coleta no próximo `pnpm ship`. `provenance.json` registra a execução em `collector`; coletas locais ficam com `collector: null`, e o site avisa que não têm atestação.
 
 Isso prova que os arquivos saíram do código público, sem edição manual, no instante registrado. Continua sendo preciso confiar nos runners do GitHub e na API da Câmara, que não assina suas respostas. Qualquer pessoa pode fazer fork e rodar o mesmo workflow como testemunha independente. Como o bot commita no GitHub, faça `git pull` de lá antes de enviar mudanças de outro remoto.
 
@@ -95,7 +95,7 @@ Resumos gerados por IA podem errar: confira a interpretação, a atualidade e a 
 pnpm data:deputies
 ```
 
-Gera `/deputados/` (lista com busca por nome, partido e UF) e uma página por deputado em exercício, `/deputados/<id>/`, sem JavaScript. São cerca de 1.030 pedidos à API, mais dois por projeto principal citado no despacho de um projeto arquivado que não esteja nos arquivos anuais um por projeto anterior à legislatura relatado por deputado em exercício e com redação final (perto de mil) e um por proposição renumerada (a tramitação dela, perto de 50), e os arquivos diários de dados abertos (cinco do ano, mais autoria e proposições de cada ano da legislatura, cerca de 700 MB); leva de 5 a 12 minutos, conforme a velocidade da API, e usa até ~1,1 GB de memória. `deputados.json` sai minificado (cerca de 20 MB), abaixo do limite de 25 MiB por asset do Cloudflare. Os perfis não são versionados (estão no `.gitignore`), e `deploy.yml` os gera antes de cada build. Sem o arquivo, o site sai com a lista vazia. As fotos ficam versionadas em `static/fotos/deputados/`, com cache de 1 ano (`static/_headers`); a coleta busca na Câmara só as que faltam. Commite as fotos de quem tomou posse. Os arquivos `static/deputados.json` e `static/deputados-mandatos.json` são gravados com `writeAtomic` só depois que toda a coleta termina, então uma falha mantém os arquivos anteriores.
+Gera `/deputados/` (lista com busca por nome, partido e UF), uma página por deputado em exercício, `/deputados/<id>/`, e o ranking `/deputados/ranking/`, sem JavaScript. São cerca de 1.030 pedidos à API, mais dois por projeto principal citado no despacho de um projeto arquivado que não esteja nos arquivos anuais, um por projeto anterior à legislatura relatado por deputado em exercício e com redação final (perto de mil) e um por proposição renumerada (a tramitação dela, perto de 50), e os arquivos diários de dados abertos (cinco do ano, mais autoria e proposições de cada ano da legislatura, cerca de 700 MB); leva de 5 a 20 minutos, conforme a velocidade da API, e usa até ~1,1 GB de memória. `deputados.json` sai minificado (cerca de 20 MB), abaixo do limite de 25 MiB por asset do Cloudflare. `.github/workflows/deputies.yml` roda `pnpm data:deputies` no dia 1 de cada mês (ou sob demanda, com `gh workflow run deputies.yml`), atesta os três arquivos (`deputados.json`, `deputados-mandatos.json` e a entrada do ranking, `deputados-qualidade-entrada.json`) e os commita com as fotos novas; o deploy só usa o que está commitado. Perfis e fotos mudam pouco, então os números dos perfis são de até um mês atrás. Sem o arquivo, o site sai com a lista vazia. As fotos ficam versionadas em `static/fotos/deputados/`, com cache de 1 ano (`static/_headers`); a coleta busca na Câmara só as que faltam. Os três arquivos são gravados com `writeAtomic` só depois que toda a coleta termina, então uma falha mantém os arquivos anteriores.
 
 | Informação                                                     | Fonte oficial                                                                                                                   |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -123,9 +123,9 @@ Cada projeto também recebe um **tipo** por regras fixas sobre a ementa (`billKi
 
 O **ranking de qualidade legislativa** (`/deputados/ranking/`) pontua resultados, nunca quantidade. Um projeto só pontua quando a Câmara o aprova (4 pontos) ou quando vira lei (10); apresentar, ter relator ou parecer vale 0. Os pontos são multiplicados pelo peso do alcance da norma (PEC 3, PLP 2, PL e PDL 1), reduzido a 0,1 para honoríficos, autorizativos (Súmula nº 1 da CCJC) e homologações de concessão de rádio e TV, multiplicado por 0,3 quando a ementa nomeia um município, e zerado para devolvidos e para cópias de um projeto anterior (mesmo tipo, mesmos números citados e ao menos 90% das mesmas palavras de conteúdo da ementa; ementas genéricas "Altera a Lei X" sem finalidade nunca contam como cópia). Projetos arquivados quando o principal foi aprovado dividem um único crédito (5 se virou lei, 2 se só foi aprovado). Os pontos de um projeto são divididos igualmente entre os deputados proponentes. Relatar um projeto aprovado pela Câmara vale 2, e um que virou lei 4, divididos entre os relatores. Cada parcela (peso × pontos da etapa ÷ anexados ÷ proponentes, ou ÷ relatores) é arredondada a centavos de ponto, e os pontos do deputado são a soma exata das parcelas: a seção **Qualidade legislativa** de cada perfil lista todas elas, com papel, resultado, peso e motivo do peso, e o `.md` do perfil traz a mesma lista. A posição é o ranking por competição ("1, 2, 2, 4"), e a faixa é a melhor e a pior posição sob os conjuntos de pesos alternativos de `VARIANTS`. Todas as regras e constantes ficam em `scripts/pipeline/quality.ts`; os rótulos e fundamentos publicados, em `scripts/pipeline/deputies.ts`.
 
-O cálculo é **determinístico**: `scoreQuality` é uma função pura, sem relógio, rede, sorteio, ordenação dependente de idioma (`localeCompare`/`Intl.Collator`) nem funções transcendentais, que ordena a entrada por ID antes de usá-la e soma parcelas já arredondadas a duas casas, numa ordem fixa. A coleta grava a entrada exata em `static/deputados-qualidade-entrada.json` (JSON canônico, chaves ordenadas, não versionado), e `deputados.json` traz `quality.inputSha256` e `quality.outputSha256`. `pnpm data:quality` lê a entrada, confere o hash, recalcula tudo sem rede e confere o hash do resultado. `tests/quality.test.mjs` verifica que a mesma entrada, em qualquer ordem, dá os mesmos bytes. Mudou uma regra ou constante? Incremente `QUALITY_VERSION`.
+O cálculo é **determinístico**: `scoreQuality` é uma função pura, sem relógio, rede, sorteio, ordenação dependente de idioma (`localeCompare`/`Intl.Collator`) nem funções transcendentais, que ordena a entrada por ID antes de usá-la e soma parcelas já arredondadas a duas casas, numa ordem fixa. A coleta grava a entrada exata em `static/deputados-qualidade-entrada.json` (JSON canônico, chaves ordenadas, commitado por `deputies.yml`), e `deputados.json` traz `quality.inputSha256` e `quality.outputSha256`. `pnpm data:quality` lê a entrada, confere o hash, recalcula tudo sem rede e confere o hash do resultado. `tests/quality.test.mjs` verifica que a mesma entrada, em qualquer ordem, dá os mesmos bytes. Mudou uma regra ou constante? Incremente `QUALITY_VERSION`.
 
-Não publicamos CPF, data de nascimento, gabinete, telefone nem e-mail. As fotos seguem os termos de uso do portal da Câmara (reprodução livre citando "Câmara dos Deputados"), são servidas pelo próprio site e saem quando o deputado deixa o exercício. Os arquivos diários são grandes demais para arquivar a cada coleta: `deputados.json` registra URL, data, tamanho e SHA-256 de cada um, e o deploy atesta o arquivo e as fotos publicadas por meio de `SHA256SUMS`. No começo de janeiro, os arquivos do novo ano podem ainda não existir, e a geração falha até a Câmara publicá-los.
+Não publicamos CPF, data de nascimento, gabinete, telefone nem e-mail. As fotos seguem os termos de uso do portal da Câmara (reprodução livre citando "Câmara dos Deputados"), são servidas pelo próprio site e saem quando o deputado deixa o exercício. Os arquivos diários são grandes demais para arquivar a cada coleta: `deputados.json` registra URL, data, tamanho e SHA-256 de cada um, e `deputies.yml` atesta o arquivo; o deploy lista as fotos publicadas em `SHA256SUMS`, sem atestação. No começo de janeiro, os arquivos do novo ano podem ainda não existir, e a geração falha até a Câmara publicá-los.
 
 ## Cloudflare: site, fotos e lake OLAP
 
@@ -164,10 +164,10 @@ As regras de qualidade são as mesmas da coleta: registro repetido com a mesma c
 pnpm data:lake                  # ano atual (e o anterior em janeiro)
 pnpm data:lake 2003 2004 2005   # carga histórica, a partir de 2003
 pnpm data:lake --out .lake 2026 # Parquet local em lake/.lake, sem Cloudflare
-cd lake && cargo test           # testes do pipeline
+cd lake && cargo fmt --check && cargo clippy --release --locked --all-targets -- -D warnings && cargo test --release --locked   # validação antes de mudar o lake
 ```
 
-Precisa de Rust; a versão está fixada em `lake/rust-toolchain.toml`, e o `rustup` instala sozinho. No CI, `Swatinem/rust-cache` guarda as dependências compiladas, então só a primeira execução compila Polars e Iceberg.
+Precisa de Rust; a versão está fixada em `lake/rust-toolchain.toml`, e o `rustup` instala sozinho. No job `lake` de `collect.yml`, `Swatinem/rust-cache` guarda as dependências compiladas, então só a primeira execução compila Polars e Iceberg.
 
 O job `lake` de `collect.yml` roda depois da coleta diária, nesta ordem: `pnpm budget`, `pnpm data:lake` e `pnpm data:metrics`. Ele não bloqueia a coleta atestada se falhar, e o lake não entra nas atestações: o SHA-256 de cada arquivo de origem fica em `bronze.arquivos`, e o próprio arquivo fica no bronze para ser conferido.
 
@@ -208,8 +208,8 @@ Coincidência com uma orientação não é apoio ao mérito, e ausência não é
    pnpm exec wrangler basin catalog enable vigia-lake
    ```
 2. Ligue a expiração de snapshots do catálogo (7 dias, mantendo 3). Ela usa uma credencial guardada no catálogo; use um token só com Basin Catalog Write e R2 Storage Write em `vigia-lake`, enviado pela API (`POST /accounts/<conta>/r2-catalog/vigia-lake/credential` e `.../maintenance-configs`), não como argumento de linha de comando.
-3. Crie os tokens. `LAKE_TOKEN`: Basin Catalog (`lake/` grava as tabelas e lê as de anos que pula). `CLOUDFLARE_API_TOKEN`: deploy de Workers, Account Analytics read (`budget.ts`) e R2 edit em `vigia-media` (`data:metrics` envia com `wrangler`). Chave S3 do R2 com leitura e gravação em `vigia-lake` para `lake/` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). As variáveis estão em [`.env.example`](../.env.example). O Worker não precisa de segredos.
-4. Cadastre os segredos do GitHub Actions: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `LAKE_TOKEN`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID` e `R2_SECRET_ACCESS_KEY`.
+3. Crie os tokens. `CLOUDFLARE_API_TOKEN`: deploy de Workers, R2 Data Catalog write em `vigia-lake` (`lake/` grava as tabelas e lê as de anos que pula), Account Analytics read (`budget.ts`) e R2 edit em `vigia-media` (`data:metrics` envia com `wrangler`). Chave S3 do R2 com leitura e gravação em `vigia-lake` para `lake/` (`R2_ENDPOINT`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`). As variáveis estão em [`.env.example`](../.env.example). O Worker não precisa de segredos.
+4. Cadastre os segredos do GitHub Actions (job `lake` de `collect.yml`): `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `R2_ENDPOINT`, `R2_ACCESS_KEY_ID` e `R2_SECRET_ACCESS_KEY`. Para `pnpm ship`, cadastre `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID` como segredos do projeto no Amp.
 
 Localmente, `pnpm build && pnpm exec wrangler dev` serve o site e as fotos, e as métricas a partir de um R2 simulado (vazio até você gravar objetos com `wrangler r2 object put --local`).
 

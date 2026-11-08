@@ -1,0 +1,53 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:25:20",
+        "descricao": "Aprovada a Emenda de Redação.",
+        "id": "2238560-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T11:24:47",
+        "descricao": "Aprovado o Projeto de Lei nº 565, de 2020.",
+        "id": "2238560-42",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-42",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2023-06-20",
+        "dataHoraRegistro": "2023-06-20T15:35:12",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2238560-28",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-28",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68555",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:35:00.866Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560/votacoes"
+}

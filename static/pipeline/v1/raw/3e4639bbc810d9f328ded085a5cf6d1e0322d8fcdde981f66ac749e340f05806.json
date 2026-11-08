@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Pastor Sargento Isidório",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204553"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-08T15:53:02.598Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/autores"
+}

@@ -248,12 +248,12 @@
     text-decoration: none;
   }
   .shortcuts a:hover {
-    border-color: #8aa07b;
+    border-color: var(--border-strong);
   }
   .mine {
     background: var(--green);
     border-color: var(--green);
-    color: #fff;
+    color: var(--on-green);
   }
   .shortcut-icon {
     grid-row: span 2;
@@ -266,6 +266,7 @@
   }
   .mine .shortcut-icon {
     background: var(--lime);
+    color: var(--on-lime);
   }
   .shortcuts strong {
     font-size: 17px;
@@ -273,14 +274,14 @@
     color: var(--green);
   }
   .mine strong {
-    color: #fff;
+    color: var(--on-green);
   }
   .shortcuts span {
     font-size: 14px;
     color: var(--muted);
   }
   .mine span {
-    color: #d9e6cf;
+    color: var(--on-green-2);
   }
   .mine form {
     grid-column: 1 / -1;
@@ -295,7 +296,7 @@
     padding-inline: 12px;
     border: 0;
     border-radius: 12px;
-    background: #fff;
+    background: var(--surface);
     color: var(--ink);
     font-size: 16px;
   }
@@ -303,10 +304,10 @@
     min-width: 72px;
     background: var(--lime);
     border-color: var(--lime);
-    color: var(--green);
+    color: var(--on-lime);
   }
   .mine .button:hover {
-    background: #e6f4b8;
+    background: var(--lime-2);
   }
   .mine :focus-visible {
     outline-color: var(--lime);
@@ -348,6 +349,7 @@
     padding: 1px 8px;
     border-radius: 99px;
     background: var(--lime);
+    color: var(--on-lime);
     font-size: 13px;
     text-align: center;
     letter-spacing: 0;
@@ -409,7 +411,7 @@
     }
     .hero-art {
       display: block;
-      color: #52664d;
+      color: var(--muted);
     }
     .hero-art :global(.congress) {
       display: block;

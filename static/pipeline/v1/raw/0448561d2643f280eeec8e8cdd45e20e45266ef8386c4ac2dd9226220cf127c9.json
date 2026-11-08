@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-06-09",
+      "dataHoraRegistro": "2026-06-09T16:56:51",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Realizar o encaminhamento do PL-5815/2025 à CPASF (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "efeitosRegistrados": [],
+      "id": "2584437-20",
+      "idEvento": null,
+      "idOrgao": 186,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-11-12T11:12",
+          "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+          "id": 2584437,
+          "numero": 5815,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437"
+        }
+      ],
+      "siglaOrgao": "CCP",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-20",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-20",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-06T16:41:03.676Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2584437-20"
+}

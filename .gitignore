@@ -11,11 +11,6 @@ build/
 .DS_Store
 *.pem
 *.key
-# Deputy profiles are generated at deploy time (`pnpm data:deputies`).
-static/deputados.json
-static/deputados-mandatos.json
-static/deputados-qualidade-entrada.json
-
 # Wrangler local state and local Worker secrets.
 .wrangler/
 .dev.vars*

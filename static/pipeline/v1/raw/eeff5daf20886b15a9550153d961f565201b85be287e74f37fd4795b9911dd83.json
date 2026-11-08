@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 58,
+        "relevancia": 1,
+        "tema": "Trabalho e Emprego"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-07T15:34:33.583Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186/temas"
+}

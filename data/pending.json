@@ -1,8 +1,134 @@
 [
   {
+    "id": 2651275,
+    "sourceHash": "868cf4a9174abe8b6389ab48f3693b2e0482e6ab7601799997101f7278d0b844",
+    "ementa": "Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651275"
+  },
+  {
+    "id": 2651272,
+    "sourceHash": "6dc04d75296c1d92d739c15dc7e1e5f6cbdab3690aca7fc39e13f5f04ce3fe70",
+    "ementa": "Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272"
+  },
+  {
+    "id": 2651263,
+    "sourceHash": "fac61a0c5190a69234cfe1e6f9d559d8641a2c989bbee380df03fdd80c5fab66",
+    "ementa": "Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263"
+  },
+  {
+    "id": 2651261,
+    "sourceHash": "472de9b62158bccaec30942647510187880b95e91c8690b96a173caecd878233",
+    "ementa": "Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261"
+  },
+  {
+    "id": 2651243,
+    "sourceHash": "ec4f63812f415db37f8b1ac308f46fb0e911a4f97918458d33d3da528f5d3f41",
+    "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243"
+  },
+  {
+    "id": 2651239,
+    "sourceHash": "2adaea7a98e14d6d6ecea92ed6785347e0ffcd9d9af9034d5e78f2e8814dec53",
+    "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239"
+  },
+  {
+    "id": 2651186,
+    "sourceHash": "54364f3ad875c507ca77278ce374d1e6f1b6ecd29cedfe4fb351284875eacb18",
+    "ementa": "Institui diretrizes nacionais para a valorização dos Agentes de Proteção da Infância e da Juventude e estabelece princípios para o reconhecimento, a capacitação e o apoio ao exercício de suas atividades.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651186"
+  },
+  {
+    "id": 2651185,
+    "sourceHash": "427028f92ec36d923da0eb9ce0d3a4717a5b236ff2240f625b6ea43b1ed15559",
+    "ementa": "Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185"
+  },
+  {
+    "id": 2651158,
+    "sourceHash": "08488b8afebb1956dcd888ca0f0f8a2145a3d36023a67ac8cdca04b948ca41ba",
+    "ementa": "Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158"
+  },
+  {
+    "id": 2651114,
+    "sourceHash": "8b7ad5246b5c33d0f70e3f366d60aa561c68e7435c643672a51918f818c0a890",
+    "ementa": "Altera a Lei nº 13.675, de 11 de junho de 2018, para instituir diretrizes para a proteção de servidores do sistema penal e de segurança pública ameaçados em razão da função.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651114"
+  },
+  {
+    "id": 2651110,
+    "sourceHash": "1598a9929cd485074075d60c01fe1f451428d1e657643e80821804fb93ccb0c5",
+    "ementa": "Institui a Política Nacional de Valorização da Música Autoral em feiras, festivais, mostras culturais e demais eventos públicos realizados ou apoiados com recursos da União, e dá outras providências",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651110"
+  },
+  {
+    "id": 2651096,
+    "sourceHash": "7be2d72a19107d7d186cee5806079d4820c2dbaa97d02025c301dcd42d06821f",
+    "ementa": "Altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096"
+  },
+  {
+    "id": 2641546,
+    "sourceHash": "afd88ca20b7c39c9ee2d9c48071745ff3f5b55c5143f5ddd789ce76c226728ed",
+    "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546"
+  },
+  {
+    "id": 2637478,
+    "sourceHash": "e78cf3c64f9430ea327201937e8109f840aa0ee6f0f77370cae39b55dbb65e3e",
+    "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478"
+  },
+  {
+    "id": 2617269,
+    "sourceHash": "955a863619246e6fa77fed37197ebf3a439916a57aba9241858310c25c21abfb",
+    "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269"
+  },
+  {
+    "id": 2584437,
+    "sourceHash": "9d3ebadb564709b7c6e26697d365e2f8b4d6b723e4e37174a44d9e94d759345e",
+    "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437"
+  },
+  {
+    "id": 2531613,
+    "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
+    "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+  },
+  {
+    "id": 2412504,
+    "sourceHash": "2c2ad55fce250389233216a9d0d5a9f7834ad7955812b90b0245f40673457cc9",
+    "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504"
+  },
+  {
     "id": 2411961,
     "sourceHash": "dc8356d7083d27fc06640307e71af73a462fe79812106de7a848d44734a9e464",
     "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 8262/2017, que dispõe sobre a retirada de invasores de propriedade privada.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2411961"
+  },
+  {
+    "id": 2410357,
+    "sourceHash": "b9cd7d3ef4f5ca1ed8f89fa126bb004c6ead5e0400a3ac638f6dfe3952a6c867",
+    "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357"
+  },
+  {
+    "id": 2389679,
+    "sourceHash": "447773991efe6cdf482988748431bb22692931311a754fc7bce213ba5b5f662e",
+    "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679"
+  },
+  {
+    "id": 2238560,
+    "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
+    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
   }
 ]
