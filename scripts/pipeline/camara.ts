@@ -120,7 +120,9 @@ export function makeCamaraLayer({
         Schedule.modifyDelay(({ input, duration }) =>
           Effect.succeed(input.retryAfterMillis ?? duration),
         ),
-        Schedule.upTo({ times: 2 }),
+        // The Câmara gateway answers 504 for up to a minute at a time;
+        // five retries (~15 s of backoff plus each slow 504) ride it out.
+        Schedule.upTo({ times: 5 }),
         Schedule.while(({ input }) => input.retryable),
       );
       // One bounded, retried and cancellable download path for every source.
