@@ -64,7 +64,9 @@ export const syncDeputies = Effect.gen(function* () {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href)
   syncDeputies.pipe(
-    Effect.provide(makeCamaraLayer()),
+    // About 1,030 requests: the Câmara gateway answers 504 for a minute or
+    // more at a time, and eight retries (~2 min of backoff) ride it out.
+    Effect.provide(makeCamaraLayer({ retries: 8 })),
     Effect.provide(NodeServices.layer),
     NodeRuntime.runMain,
   );
