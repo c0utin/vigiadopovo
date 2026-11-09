@@ -5,7 +5,7 @@ import { normalize } from "#lib/format.ts";
 export const csr = false;
 
 export function load() {
-  const { deputies = [], collectedAt = null, year = null } = dataset ?? {};
+  const { deputies = [], collectedAt = null } = dataset ?? {};
   const values = (key: "party" | "state") =>
     [...new Set(deputies.map((d) => d[key]).filter((v) => v !== null))].sort();
   const history = new Map(
@@ -17,7 +17,6 @@ export function load() {
       count.set(m.legislature, (count.get(m.legislature) ?? 0) + 1);
   return {
     collectedAt,
-    year,
     parties: values("party"),
     states: values("state"),
     // Former deputies load from deputados-mandatos.json only when asked for.

@@ -8,25 +8,15 @@ export function load() {
   if (!dataset?.quality)
     return { quality: null, rows: [], collectedAt: null, since: "" };
   const rows = dataset.deputies
-    .map((d) => {
-      // Official outcomes, as on the profile: a law is "law" only; laws and
-      // approvals through another bill are counted apart.
-      const outcome = (key: string) =>
-        d.bills.filter((b) => b.outcome === key).length;
-      return {
-        id: d.id,
-        name: d.name,
-        party: d.party,
-        state: d.state,
-        ...d.score,
-        reports: d.score.reports.length,
-        laws: outcome("law"),
-        lawVia: outcome("lawVia"),
-        approved: outcome("approved"),
-        approvedVia: outcome("approvedVia"),
-        filed: d.bills.length,
-      };
-    })
+    .map((d) => ({
+      id: d.id,
+      name: d.name,
+      party: d.party,
+      state: d.state,
+      points: d.score.points,
+      rank: d.score.rank,
+      rankRange: d.score.rankRange,
+    }))
     // Rank, then id: never the machine's collation.
     .sort((a, b) => a.rank - b.rank || a.id - b.id);
   return {

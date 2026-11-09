@@ -11,12 +11,12 @@
   const name = $("#busca-deputado");
   const party = $("#partido");
   const state = $("#uf");
-  const grid = $(".deputy-grid");
+  const list = $(".rows");
   const count = $("[data-count]");
   const empty = $("[data-empty]");
   const status = $("[data-status]");
   const more = $("[data-more]");
-  const PAGE = 120;
+  const PAGE = 40;
   let cards = [...document.querySelectorAll("[data-deputy]")];
   let archive = null;
   const byName = new Intl.Collator("pt-BR").compare;
@@ -27,25 +27,44 @@
       .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase()
       .trim();
-  const served = (list) =>
-    list.length
-      ? `Legislaturas: ${list
-          .slice(0, 4)
-          .map((l) => `${l}ª`)
-          .join(", ")}${list.length > 4 ? ` +${list.length - 4}` : ""}`
-      : "";
+  // Old records come in capitals: show them as names, keeping particles in
+  // lowercase. Only the displayed text changes; search uses deputy.name.
+  const PARTICLES = new Set(["de", "da", "do", "dos", "das", "e"]);
+  const displayName = (name) => {
+    if (/\p{Ll}/u.test(name)) return name;
+    return name
+      .toLocaleLowerCase("pt-BR")
+      .split(" ")
+      .map((word, i) =>
+        i && PARTICLES.has(word)
+          ? word
+          : word.charAt(0).toLocaleUpperCase("pt-BR") + word.slice(1),
+      )
+      .join(" ");
+  };
   const element = (tag, className, text) => {
     const node = document.createElement(tag);
     if (className) node.className = className;
     if (text) node.textContent = text;
     return node;
   };
+  // "2019–2023" from the first to the last legislature the deputy served.
+  const years = (mandates) => {
+    const dates = mandates.map((m) =>
+      archive.legislatures.find((l) => l.id === m.legislature),
+    );
+    const from = Math.min(...dates.map((l) => Number(l.start.slice(0, 4))));
+    const to = Math.max(
+      ...dates.map((l) => Number((l.end ?? l.start).slice(0, 4))),
+    );
+    return from === to ? `${from}` : `${from}–${to}`;
+  };
 
-  // Former deputies have no profile page here: the card links to the
+  // Former deputies have no profile page here: the row links to the
   // Câmara's own page. Photos are only kept for deputies in office.
   function card(deputy) {
     const latest = deputy.mandates[0];
-    const item = element("li");
+    const item = element("li", "row tap");
     item.dataset.deputy = "";
     item.dataset.search = clean(deputy.name);
     item.dataset.party = latest.parties[0] ?? "";
@@ -56,28 +75,30 @@
     item.dataset.parties = `|${deputy.mandates
       .flatMap((m) => m.parties.map((p) => `${m.legislature}:${p}`))
       .join("|")}|`;
-    const link = element("a");
+    const photo = element("span", "avatar no-photo", "◉");
+    photo.setAttribute("aria-hidden", "true");
+    const main = element("div", "row-main");
+    const link = element("a", "row-title clamp-2", displayName(deputy.name));
     link.href = `https://www.camara.leg.br/deputados/${deputy.id}`;
     link.rel = "noopener";
-    const photo = element("span", "no-photo", "◉");
-    photo.setAttribute("aria-hidden", "true");
-    const info = element("span", "info");
-    info.append(
-      element("strong", "", deputy.name),
+    main.append(
+      link,
       element(
-        "span",
-        "",
-        `${latest.parties.join("/") || "Sem partido registrado"} · ${deputy.state ?? "—"}`,
+        "p",
+        "row-meta clamp-1",
+        [
+          years(deputy.mandates),
+          deputy.state,
+          latest.parties.join("/") || "Sem partido",
+        ]
+          .filter(Boolean)
+          .join(" · "),
       ),
-      element(
-        "span",
-        "served",
-        served(deputy.mandates.map((m) => m.legislature)),
-      ),
-      element("span", "tag former", `Ex-deputado · ${latest.legislature}ª`),
     );
-    link.append(photo, info);
-    item.append(link);
+    // The link leaves the site, so the row shows ↗ instead of a chevron.
+    const outside = element("span", "external", "↗");
+    outside.setAttribute("aria-hidden", "true");
+    item.append(photo, main, outside);
     return item;
   }
 
@@ -101,13 +122,9 @@
     const former = archive.deputies
       .filter((d) => !current.has(String(d.id)))
       .map(card);
-    cards = [...cards, ...former].sort((a, b) =>
-      byName(
-        a.querySelector("strong").textContent,
-        b.querySelector("strong").textContent,
-      ),
-    );
-    grid.append(...cards);
+    const title = (c) => c.querySelector(".row-title").textContent;
+    cards = [...cards, ...former].sort((a, b) => byName(title(a), title(b)));
+    list.append(...cards);
     return true;
   }
 
@@ -144,8 +161,8 @@
       for (const p of partyOf(c)) parties.add(p);
       if (c.dataset.state) states.add(c.dataset.state);
     }
-    rebuild(party, "Todos os partidos", parties);
-    rebuild(state, "Todos os estados", states);
+    rebuild(party, "Partido", parties);
+    rebuild(state, "Estado", states);
   }
 
   function update() {

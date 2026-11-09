@@ -6,6 +6,10 @@
   import AskAI from "#lib/AskAI.svelte";
   import RankRange from "#lib/RankRange.svelte";
 
+  type Deputy = PageData["deputy"];
+  type Bill = Deputy["bills"][number];
+  type Vote = Deputy["recentVotes"][number];
+
   let { data }: { data: PageData } = $props();
   const d = $derived(data.deputy);
   const number = (value: number) => value.toLocaleString("pt-BR");
@@ -133,7 +137,6 @@
       ]),
     ) as Record<string, number>,
   );
-  // Short chip labels for the reasons that lower or zero a bill's weight.
   const voteTone = (vote: string) =>
     vote === "Sim" ? "yes" : vote === "Não" ? "no" : "neutral";
   const camara = (id: number) =>
@@ -209,7 +212,152 @@
         b.outcome !== "approvedVia",
     ).length ?? 0,
   );
+  // The first status with bills opens; the others stay closed.
+  const openGroup = $derived(bills?.find((g) => g.bills.length)?.key);
+  // The chamber writes some committee names in capitals; the page shows them
+  // in title case. Mixed-case names are left as they are.
+  const LOWER_WORDS = ["de", "da", "do", "dos", "das", "e"];
+  const titleCase = (name: string) =>
+    name !== name.toUpperCase()
+      ? name
+      : name
+          .toLocaleLowerCase("pt-BR")
+          .split(" ")
+          .map((word, i) =>
+            i && LOWER_WORDS.includes(word)
+              ? word
+              : word.replace(
+                  /(^|,)(\p{L})/gu,
+                  (_, sep, c) => sep + c.toLocaleUpperCase("pt-BR"),
+                ),
+          )
+          .join(" ");
+  // A committee appears once, with each role and its start date, most recent
+  // first. The chamber dates every role, so the order is known.
+  const organs = $derived.by(() => {
+    const byName = new Map<
+      string,
+      { name: string; roles: { role: string; since: string | null }[] }
+    >();
+    for (const o of d.organs) {
+      const group = byName.get(o.name) ?? {
+        name: titleCase(o.name),
+        roles: [],
+      };
+      group.roles.push({ role: o.role, since: o.since });
+      byName.set(o.name, group);
+    }
+    return [...byName.values()].map((g) => ({
+      ...g,
+      roles: g.roles.sort((a, b) =>
+        (b.since ?? "").localeCompare(a.since ?? ""),
+      ),
+    }));
+  });
+  // One plain meta line per bill: situation and date, then the kind, the
+  // coauthorship, the weight reasons and the points, as text.
+  const billMeta = (b: Bill) =>
+    [
+      `${b.situation ?? "Situação não informada"}${b.statusAt ? ` · ${date(b.statusAt)}` : ""}`,
+      kindLabel[b.kind],
+      b.firstAuthor ? null : "coautoria",
+      ...(b.quality?.reasons ?? [])
+        .filter((r) => r !== "honorific")
+        .map((r) => reasonLabel[r]),
+    ]
+      .filter(Boolean)
+      .join(" · ");
 </script>
+
+{#snippet billRow(b: Bill)}
+  <li class="row">
+    <div class="row-main">
+      <div class="bill-top">
+        <a class="row-link" href={camara(b.id)} target="_blank" rel="noreferrer"
+          >{b.label} ↗</a
+        >
+        {#if b.quality?.share}<span class="bill-pts"
+            >+{points(b.quality.share)} pts</span
+          >{/if}
+      </div>
+      <p class="row-text clamp-2">{b.ementa}</p>
+      <p class="row-meta clamp-1">{billMeta(b)}</p>
+      {#if b.quality?.copyOf}<p class="caveat">
+          <span
+            >Cópia de <a
+              class="hit"
+              href={camara(b.quality.copyOf.id)}
+              target="_blank"
+              rel="noreferrer">{b.quality.copyOf.label} ↗</a
+            >, apresentado antes; o crédito fica com ele.</span
+          >
+        </p>{/if}
+      {#if b.via}<p class="caveat">
+          <span
+            >Prejudicado: anexado a <a
+              class="hit"
+              href={camara(b.via.id)}
+              target="_blank"
+              rel="noreferrer">{b.via.label} ↗</a
+            >{b.via.cited && b.via.cited !== b.via.label
+              ? ` (citado como ${b.via.cited})`
+              : ""}. Situação dele: {b.via.situation ?? "não informada"}.</span
+          >
+        </p>{/if}
+      {#if data.explained.includes(b.id)}<a
+          class="item-link"
+          href={resolve(`proposta/${b.id}/`)}>Em linguagem simples →</a
+        >{/if}
+    </div>
+  </li>
+{/snippet}
+
+{#snippet voteRow(v: Vote)}
+  <li class="row tap">
+    <div class="row-main">
+      <p class="row-meta clamp-1">
+        <span class="vote" data-tone={voteTone(v.vote)}
+          ><span class="dot"></span> {v.vote || "Não informado"}</span
+        >
+        · {date(v.date)}{v.propositions.length
+          ? ` · ${v.propositions.map((p) => p.label).join(", ")}`
+          : ""}
+      </p>
+      <a
+        class="row-title clamp-2 vote-title"
+        href={v.url}
+        target="_blank"
+        rel="noreferrer">{v.description}</a
+      >
+    </div>
+  </li>
+{/snippet}
+
+{#snippet organRow(o: (typeof organs)[number])}
+  <li class="row">
+    <div class="row-main">
+      <span class="row-title org-name">{o.name}</span>
+      <p class="row-meta">
+        {o.roles
+          .map((r) => `${r.role}${r.since ? ` desde ${date(r.since)}` : ""}`)
+          .join(" · ")}
+      </p>
+    </div>
+  </li>
+{/snippet}
+
+{#snippet calcRow(l: (typeof lines)[number])}
+  <li class="row">
+    <div class="row-main">
+      <a class="row-link" href={camara(l.id)} target="_blank" rel="noreferrer"
+        >{l.label} ↗</a
+      >
+      <p class="row-meta">{l.role} · {l.result}</p>
+      <p class="row-text clamp-2">Peso {l.weight}. <code>{l.math}</code></p>
+    </div>
+    <span class="row-trail"><strong>{points(l.share)}</strong> pontos</span>
+  </li>
+{/snippet}
 
 <svelte:head
   ><title>{d.name} ({d.party ?? "sem partido"}-{d.state}) — Vigia do Povo</title
@@ -222,78 +370,49 @@
 <main id="conteudo" class="wrap page profile">
   <a class="back-link" href={resolve("deputados/")}>← Deputados</a>
 
-  <header class="card report-head" aria-labelledby="deputado-nome">
+  <header aria-labelledby="deputado-nome">
     <div class="who">
       {#if d.photo}<img
+          class="photo"
           src={asset(d.photo.slice(1) as Parameters<typeof asset>[0])}
           alt={`Foto oficial de ${d.name}`}
           title="Foto: Câmara dos Deputados"
-          width="177"
-          height="236"
+          width="64"
+          height="85"
         />{/if}
       <div>
-        <p class="eyebrow">Boletim · Deputado federal · {data.year}</p>
         <h1 id="deputado-nome">{d.name}</h1>
-        <p class="party">
-          <strong>{d.party ?? "Sem partido"}</strong>-{d.state ?? "—"}
-        </p>
-        <p class="chips-row">
-          {#if d.status}<span class="chip" data-tone="info">{d.status}</span
-            >{/if}{#if d.condition}<span class="chip plain outline"
-              >{d.condition}</span
-            >{/if}
+        <p class="meta">
+          {d.party ?? "Sem partido"} · {d.state ??
+            "—"}{#if d.status}{" · "}<span data-tone="info"
+              ><span class="dot"></span>
+              {d.status === "Exercício" ? "Em exercício" : d.status}</span
+            >{/if}{#if d.condition && d.condition !== "Titular"}{" · "}{d.condition}{/if}
         </p>
       </div>
     </div>
-    <ul class="stats" aria-label="Resumo do boletim">
-      {#if d.score}<li>
-          <a class="stat" href="#qualidade"
-            ><span class="stat-value">{points(d.score.points)}</span><span
-              class="stat-label">Pontos de qualidade</span
-            ><span class="stat-hint">{d.score.rank}º de {data.total}</span></a
-          >
-        </li>{/if}
-      {#if bills}<li>
-          <a class="stat" href="#projetos"
-            ><span class="stat-value">{number(outcomes.law ?? 0)}</span><span
-              class="stat-label">Viraram lei</span
-            ><span class="stat-hint"
-              >{outcomes.lawVia
-                ? `+${number(outcomes.lawVia)} por outro projeto`
-                : `de ${number(d.bills.length)} projetos`}</span
-            ></a
-          >
+    <ul class="kpis">
+      {#if bills}<li class="kpi">
+          <span class="kpi-value">{number(outcomes.law ?? 0)}</span>
+          <span class="kpi-label">viraram lei</span>
         </li>
-        <li>
-          <a class="stat" href="#projetos"
-            ><span class="stat-value">{number(outcomes.approved ?? 0)}</span
-            ><span class="stat-label">Aprovados na Câmara</span><span
-              class="stat-hint"
-              >{outcomes.approvedVia
-                ? `+${number(outcomes.approvedVia)} por outro projeto`
-                : "ainda não são lei"}</span
-            ></a
-          >
+        <li class="kpi">
+          <span class="kpi-value">{number(outcomes.approved ?? 0)}</span>
+          <span class="kpi-label">aprovados na Câmara</span>
         </li>{/if}
-      <li>
-        <a class="stat" href="#votos"
-          ><span class="stat-value">{number(d.counts.plenaryVotes)}</span><span
-            class="stat-label">Votos no Plenário</span
-          ><span class="stat-hint"
-            >em {number(data.nominalVotings.plenary)} votações nominais</span
-          ></a
+      <li class="kpi">
+        <span class="kpi-value">{number(d.counts.plenaryVotes)}</span>
+        <span class="kpi-label"
+          >votos em {number(data.nominalVotings.plenary)} votações</span
         >
       </li>
     </ul>
-    <a
-      class="button secondary official"
-      href={d.profileUrl}
-      target="_blank"
-      rel="noreferrer">Perfil oficial na Câmara ↗</a
+    <a class="official" href={d.profileUrl} target="_blank" rel="noreferrer"
+      >Perfil oficial na Câmara ↗</a
     >
   </header>
 
-  <nav class="section-nav" aria-label="Seções do boletim">
+  <nav class="section-nav" aria-label="Seções do perfil">
     <ol>
       {#if data.quality && d.score}<li><a href="#qualidade">Pontos</a></li>{/if}
       {#if bills}<li><a href="#projetos">Projetos</a></li>{/if}
@@ -310,12 +429,7 @@
         class="card"
         aria-labelledby="qualidade-titulo"
       >
-        <div class="card-head">
-          <h2 id="qualidade-titulo">Como está no ranking?</h2>
-          <a class="chip plain" href={resolve("deputados/ranking/")}
-            >Ver ranking →</a
-          >
-        </div>
+        <h2 id="qualidade-titulo">Como está no ranking?</h2>
         <p class="answer">
           <strong>{d.score.rank}º de {data.total}</strong>{d.score.points === 0
             ? " · Nenhum ponto até agora"
@@ -333,9 +447,7 @@
             <li class="me">
               <span>{d.name}</span><strong>{points(d.score.points)} pts</strong
               ><span class="bar" aria-hidden="true"
-                ><span
-                  class:zero={!d.score.points}
-                  style:--value={(d.score.points / compareMax) * 100}
+                ><span style:--value={(d.score.points / compareMax) * 100}
                 ></span></span
               >
             </li>
@@ -349,7 +461,7 @@
           </ul>{/if}
         <div class="range-box">
           <p class="range-text">
-            <span>Com {data.quality.variants.length} pesos alternativos</span>
+            <span>{data.quality.variants.length} pesos alternativos</span>
             <strong
               >{d.score.rankRange[0] !== d.score.rankRange[1]
                 ? `entre ${d.score.rankRange[0]}º e ${d.score.rankRange[1]}º`
@@ -364,18 +476,17 @@
         </div>
 
         <h3 class="sub">De onde vêm os pontos?</h3>
-        {#if parts.length}<div class="stack" aria-hidden="true">
-            {#each parts as p}<span data-part={p.tone} style:flex-grow={p.value}
+        {#if parts.length}<div class="split" aria-hidden="true">
+            {#each parts as p}<span data-part={p.tone} style:--n={p.value}
               ></span>{/each}
           </div>
-          <ul class="legend">
-            {#each parts as p}<li>
-                <span class="swatch" data-part={p.tone}></span><span
-                  >{p.label}</span
-                ><strong>{points(p.value)}</strong>
+          <ul class="split-legend">
+            {#each parts as p}<li data-part={p.tone}>
+                <span class="dot"></span>{p.label}
+                <strong>{points(p.value)}</strong>
               </li>{/each}
           </ul>
-          <p class="sum">
+          <p class="hint">
             Autoria {points(d.score.authorPoints)} + relatoria {points(
               d.score.reportPoints,
             )} = <strong>{points(d.score.points)} pontos</strong>
@@ -384,60 +495,27 @@
               ? "Os projetos aprovados tiveram peso zero."
               : "Nenhum projeto de autoria ou relatoria aprovado pela Câmara."}
           </p>{/if}
-        {#if d.bills.length}<p class="hint">
+        {#if d.bills.length}<p class="caveat">
             {number(unscored)} de {number(d.bills.length)} projetos apresentados não
             pontuam porque não chegaram à aprovação pela Câmara.
           </p>{/if}
 
-        {#if lines.length}<details class="disclosure calc-box">
-            <summary
-              >Como chegamos a {points(d.score.points)} pontos?
-              <span class="count"
-                >{lines.length} {lines.length === 1 ? "linha" : "linhas"}</span
-              ></summary
-            >
+        {#if lines.length}<details class="disclosure">
+            <summary>Como chegamos a {points(d.score.points)} pontos?</summary>
             <p class="hint">
               Cada linha: <code>peso × pontos da etapa ÷ divisão</code>,
-              arredondado a centavos de ponto. O total é a soma exata da coluna
-              Pontos.
+              arredondado a centavos de ponto. O total é a soma exata dos pontos
+              de cada linha.
             </p>
-            <table class="data-table calc">
-              <caption class="sr-only"
-                >Projetos que somam pontos de qualidade</caption
-              >
-              <thead>
-                <tr>
-                  <th scope="col">Projeto</th>
-                  <th scope="col">Papel</th>
-                  <th scope="col">Resultado</th>
-                  <th scope="col">Peso</th>
-                  <th scope="col">Cálculo</th>
-                  <th scope="col" class="num">Pontos</th>
-                </tr>
-              </thead>
-              <tbody>
-                {#each lines as l}<tr>
-                    <th scope="row"
-                      ><a href={camara(l.id)} target="_blank" rel="noreferrer"
-                        >{l.label} ↗</a
-                      ></th
-                    >
-                    <td data-label="Papel">{l.role}</td>
-                    <td data-label="Resultado">{l.result}</td>
-                    <td data-label="Peso">{l.weight}</td>
-                    <td data-label="Cálculo"><code>{l.math}</code></td>
-                    <td class="num share">{points(l.share)}</td>
-                  </tr>{/each}
-              </tbody>
-              <tfoot>
-                <tr>
-                  <th scope="row" colspan="5">Total</th>
-                  <td class="num share"
-                    ><strong>{points(d.score.points)}</strong></td
-                  >
-                </tr>
-              </tfoot>
-            </table>
+            <ul class="rows bare">
+              {#each lines.slice(0, 5) as l}{@render calcRow(l)}{/each}
+            </ul>
+            {#if lines.length > 5}<details class="more">
+                <summary>Ver todas ({number(lines.length)})</summary>
+                <ul class="rows bare">
+                  {#each lines.slice(5) as l}{@render calcRow(l)}{/each}
+                </ul>
+              </details>{/if}
           </details>{/if}
         <details class="disclosure">
           <summary>O que conta e o que não conta</summary>
@@ -458,56 +536,53 @@
             </p>
           </div>
         </details>
+        <a class="card-link" href={resolve("deputados/ranking/")}
+          >Ver ranking →</a
+        >
       </section>{/if}
 
-    {#if data.bills && bills}<section
+    {#if bills}<section
         id="projetos"
         class="card"
         aria-labelledby="projetos-titulo"
       >
         <h2 id="projetos-titulo">O que já aprovou?</h2>
-        {#if d.bills.length && !outcomes.law && !outcomes.approved}<p
-            class="answer"
-          >
-            Nenhum projeto virou lei nem foi aprovado na Câmara.
-          </p>{:else if d.bills.length}<p class="answer">
-            <strong
-              >{plural(outcomes.law ?? 0, "virou lei", "viraram lei")}</strong
-            >
-            e
-            <strong
-              >{plural(
-                outcomes.approved ?? 0,
-                "foi aprovado",
-                "foram aprovados",
-              )} na Câmara</strong
-            >.
-          </p>{/if}
-        <p class="hint">
-          De {plural(d.bills.length, "projeto", "projetos")} ({data.bills.types.join(
-            ", ",
-          )}) apresentados desde {date(data.bills.since)}, como autor ou
-          coautor.
-        </p>
-        {#if d.bills.length}<ul class="outcomes">
-            {#each bills as g}<li data-tone={g.key}>
-                <svelte:element
-                  this={g.bills.length ? "a" : "span"}
-                  href={g.bills.length ? `#projetos-${g.key}` : undefined}
-                  ><strong>{number(g.bills.length)}</strong><span
-                    >{g.label}</span
-                  ></svelte:element
-                >
-              </li>{/each}
-          </ul>
-          {#if kinds.some((k) => k.count)}<p class="chips-row kinds">
-              {#each kinds.filter((k) => k.count) as k}<span
-                  class="chip plain outline"
-                  >{k.label}: {number(k.count)} de {number(
-                    d.bills.length,
-                  )}</span
-                >{/each}
+        {#if d.bills.length}
+          <p class="hint">
+            De {plural(d.bills.length, "projeto", "projetos")} apresentados desde
+            {date(data.bills.since)}, como autor ou coautor.
+          </p>
+          <div class="split" aria-hidden="true">
+            {#each bills as g}{#if g.bills.length}<span
+                  data-tone={g.key}
+                  style:--n={g.bills.length}
+                ></span>{/if}{/each}
+          </div>
+          {#if kinds.some((k) => k.count)}<p class="hint">
+              {kinds
+                .filter((k) => k.count)
+                .map((k) => `${k.label}: ${number(k.count)}`)
+                .join(" · ")}
             </p>{/if}
+          {#each bills as g}{#if g.bills.length}<details
+                class="disclosure"
+                open={g.key === openGroup}
+              >
+                <summary
+                  ><span data-tone={g.key}
+                    ><span class="dot"></span> {g.label}</span
+                  ><span class="count">{number(g.bills.length)}</span></summary
+                >
+                <ul class="rows bare">
+                  {#each g.bills.slice(0, 5) as b}{@render billRow(b)}{/each}
+                </ul>
+                {#if g.bills.length > 5}<details class="more">
+                    <summary>Ver todos</summary>
+                    <ul class="rows bare">
+                      {#each g.bills.slice(5) as b}{@render billRow(b)}{/each}
+                    </ul>
+                  </details>{/if}
+              </details>{/if}{/each}
           <details class="disclosure">
             <summary>O que significa cada situação</summary>
             <div class="prose">
@@ -526,109 +601,31 @@
                     {k.description} Classificação por regras fixas sobre a ementa.
                   </li>{/each}
               </ul>
+              <p>
+                Declarado prejudicado quando a Câmara aprovou o projeto
+                principal, ao qual estava anexado. Cópia: ementa quase igual à
+                de um projeto apresentado antes; o crédito fica com ele.
+              </p>
+              <p>Tipos contados: {data.bills.types.join(", ")}.</p>
             </div>
           </details>
-          {#each bills as g}{#if g.bills.length}<details
-                id={`projetos-${g.key}`}
-                class="disclosure bill-group"
-                open={g.bills.length <= 10}
-              >
-                <summary
-                  ><span class="chip" data-tone={g.key}>{g.label}</span><span
-                    class="count">{number(g.bills.length)}</span
-                  ></summary
-                >
-                <p class="hint">{g.description}</p>
-                <ol class="item-list">
-                  {#each g.bills as b}<li class="item">
-                      <p class="item-top">
-                        <span class="item-id">{b.label}</span>
-                        {#if b.quality?.share}<span class="chip plain points"
-                            >+{points(b.quality.share)} pts</span
-                          >{/if}
-                      </p>
-                      {#if kindLabel[b.kind] || (b.quality?.reasons ?? []).some((r) => r !== "honorific") || !b.firstAuthor}<p
-                          class="chips-row"
-                        >
-                          {#if !b.firstAuthor}<span class="chip plain outline"
-                              >Coautoria</span
-                            >{/if}{#if kindLabel[b.kind]}<span
-                              class="chip plain outline"
-                              >{kindLabel[b.kind]}</span
-                            >{/if}{#each b.quality?.reasons ?? [] as r}{#if r !== "honorific"}<span
-                                class="chip"
-                                data-tone={r === "copy" || r === "returned"
-                                  ? "warn"
-                                  : "neutral"}>{reasonLabel[r]}</span
-                              >{/if}{/each}
-                        </p>{/if}
-                      <p class="item-text">{b.ementa}</p>
-                      {#if b.quality?.copyOf}<p class="item-meta">
-                          Ementa quase igual à do <a
-                            href={camara(b.quality.copyOf.id)}
-                            target="_blank"
-                            rel="noreferrer">{b.quality.copyOf.label} ↗</a
-                          >, apresentado antes; o crédito fica com ele.
-                        </p>{/if}
-                      {#if b.via}<p class="item-meta">
-                          Declarado prejudicado quando a Câmara aprovou o
-                          projeto principal, <a
-                            href={camara(b.via.id)}
-                            target="_blank"
-                            rel="noreferrer">{b.via.label} ↗</a
-                          >{b.via.cited && b.via.cited !== b.via.label
-                            ? ` (citado como ${b.via.cited})`
-                            : ""}, ao qual estava anexado. Situação dele: {b.via
-                            .situation ?? "não informada"}.
-                        </p>{/if}
-                      <p class="item-foot">
-                        <span
-                          >{b.situation ?? "Situação não informada"}{b.statusAt
-                            ? ` · ${date(b.statusAt)}`
-                            : ""}<br />Apresentado em {date(
-                            b.presentedAt,
-                          )}</span
-                        ><span class="item-links"
-                          >{#if data.explained.includes(b.id)}<a
-                              class="item-link"
-                              href={resolve(`proposta/${b.id}/`)}
-                              >Em linguagem simples →</a
-                            >{/if}<a
-                            class="item-link"
-                            href={camara(b.id)}
-                            target="_blank"
-                            rel="noreferrer">Tramitação ↗</a
-                          ></span
-                        >
-                      </p>
-                    </li>{/each}
-                </ol>
-              </details>{/if}{/each}{:else}<p class="hint">
+        {:else}<p class="hint">
             Nenhum projeto apresentado como autor ou coautor nesta legislatura.
           </p>{/if}
       </section>{/if}
 
     <section id="votos" class="card" aria-labelledby="votos-titulo">
-      <div class="card-head">
-        <h2 id="votos-titulo">Como votou no Plenário?</h2>
-        <p class="hint">Aprovar um requerimento ou etapa não é aprovar lei.</p>
-      </div>
-      {#if d.recentVotes.length}<ol class="item-list">
-          {#each d.recentVotes as v}<li class="item">
-              <p class="item-top">
-                <span class="chip vote" data-tone={voteTone(v.vote)}
-                  >{v.vote || "Tipo de voto não informado"}</span
-                ><span class="item-id"
-                  >{date(v.date)}{#if v.propositions.length}
-                    · {v.propositions.map((p) => p.label).join(", ")}{/if}</span
-                >
-              </p>
-              <p class="item-text">{v.description}</p>
-              <a class="item-link" href={v.url} target="_blank" rel="noreferrer"
-                >Registro oficial ↗</a
-              >
-            </li>{/each}
+      <h2 id="votos-titulo">Como votou no Plenário?</h2>
+      <p class="caveat">Aprovar um requerimento ou etapa não é aprovar lei.</p>
+      {#if d.recentVotes.length}<ol class="rows bare">
+          {#each d.recentVotes.slice(0, 5) as v}{@render voteRow(v)}{/each}
         </ol>
+        {#if d.recentVotes.length > 5}<details class="more">
+            <summary>Ver todos ({number(d.recentVotes.length)})</summary>
+            <ol class="rows bare">
+              {#each d.recentVotes.slice(5) as v}{@render voteRow(v)}{/each}
+            </ol>
+          </details>{/if}
         <details class="disclosure">
           <summary>Sobre estes votos</summary>
           <p class="prose">
@@ -636,49 +633,44 @@
             identificam o voto de cada deputado. Aprovar um requerimento ou uma
             etapa não significa aprovar uma lei.
           </p>
-        </details>{:else}<p class="hint">
+        </details>
+      {:else}<p class="hint">
           Nenhum voto nominal no Plenário registrado em {data.year}.
         </p>{/if}
     </section>
 
     <section id="atividade" class="card" aria-labelledby="atividade-titulo">
-      <div class="card-head">
-        <h2 id="atividade-titulo">Atividade em {data.year}</h2>
-        <p class="hint">
-          Volume de registros comparado aos {data.total} deputados. Não mede qualidade.
-        </p>
-      </div>
+      <h2 id="atividade-titulo">Atividade em {data.year}</h2>
+      <p class="caveat">
+        Volume de registros comparado aos {data.total} deputados. Não mede qualidade.
+      </p>
       <div class="activity">
-        <Radar
-          {axes}
-          label={`Gráfico radar da atividade de ${d.name} em ${data.year}, em percentis entre ${data.total} deputados: ${axes.map((a) => `${a.label} ${a.detail}, percentil ${a.value}`).join("; ")}.`}
-        />
-        <table class="data-table activity-table">
-          <caption class="sr-only"
-            >Indicadores de atividade em {data.year}</caption
-          >
-          <thead
-            ><tr
-              ><th scope="col">Indicador</th><th scope="col" class="num"
-                >Total</th
-              ><th scope="col" class="num">Percentil</th></tr
-            ></thead
-          >
-          <tbody>
-            {#each data.activity as a}<tr>
-                <th scope="row"
-                  >{a.label}<span class="bar" aria-hidden="true"
-                    ><span style:--value={d.percentiles[a.key]}></span></span
-                  ></th
+        <div class="radar">
+          <Radar
+            {axes}
+            label={`Gráfico radar da atividade de ${d.name} em ${data.year}, em percentis entre ${data.total} deputados: ${axes.map((a) => `${a.label} ${a.detail}, percentil ${a.value}`).join("; ")}.`}
+          />
+        </div>
+        <ul
+          class="rows bare"
+          aria-label={`Indicadores de atividade em ${data.year}`}
+        >
+          {#each data.activity as a}<li class="row">
+              <div class="row-main">
+                <span class="row-title">{a.label}</span>
+                <span class="bar" aria-hidden="true"
+                  ><span style:--value={d.percentiles[a.key]}></span></span
                 >
-                <td class="num total">{number(d.counts[a.key])}</td>
-                <td class="num">{d.percentiles[a.key]}</td>
-              </tr>{/each}
-          </tbody>
-        </table>
+              </div>
+              <span class="row-trail"
+                ><strong>{number(d.counts[a.key])}</strong>percentil {d
+                  .percentiles[a.key]}</span
+              >
+            </li>{/each}
+        </ul>
       </div>
       <details class="disclosure">
-        <summary>Como ler o gráfico</summary>
+        <summary>Como ler</summary>
         <div class="prose">
           <p>
             Cada eixo mostra a posição entre os {data.total} deputados em exercício:
@@ -703,115 +695,196 @@
     </section>
 
     <section id="orgaos" class="card" aria-labelledby="orgaos-titulo">
-      <div class="card-head">
-        <h2 id="orgaos-titulo">Em que comissões atua?</h2>
-        <span class="big-count">{d.organs.length}</span>
-      </div>
-      {#if d.organs.length}<ul class="organs">
-          {#each d.organs as o}<li>
-              <strong>{o.name}</strong>
-              <span
-                ><span class="chip plain outline">{o.role}</span>{o.since
-                  ? ` desde ${date(o.since)}`
-                  : ""}</span
-              >
-            </li>{/each}
-        </ul>{:else}<p class="hint">
+      <h2 id="orgaos-titulo">Em que comissões atua?</h2>
+      {#if organs.length}<p class="answer">
+          Atua em <strong>{number(organs.length)}</strong>
+          {organs.length === 1 ? "comissão" : "comissões"}.
+        </p>
+        <ul class="rows bare">
+          {#each organs.slice(0, 5) as o}{@render organRow(o)}{/each}
+        </ul>
+        {#if organs.length > 5}<details class="more">
+            <summary>Ver todas</summary>
+            <ul class="rows bare">
+              {#each organs.slice(5) as o}{@render organRow(o)}{/each}
+            </ul>
+          </details>{/if}
+      {:else}<p class="hint">
           Nenhuma participação vigente nos registros oficiais da legislatura.
         </p>{/if}
     </section>
 
-    <section id="fontes" class="card" aria-labelledby="dados-titulo">
-      <h2 id="dados-titulo">Dados oficiais</h2>
-      <dl class="facts">
-        {#each facts as [term, value]}<dt>{term}</dt>
-          <dd>{value}</dd>{/each}
-      </dl>
-      {#if d.parties.length > 1}<h3 class="sub">
-          Partidos nos votos de {data.year}
-        </h3>
-        <ol class="parties">
-          {#each d.parties as p}<li>
-              <strong>{p.party}</strong>
-              {p.from ? date(p.from) : "?"} a {p.until ? date(p.until) : "?"}
-            </li>{/each}
-        </ol>{/if}
-      {#if d.photo}<p class="hint">Foto: Câmara dos Deputados</p>{/if}
-      <details class="disclosure">
-        <summary>Sobre estes dados</summary>
-        <p class="prose">
-          Coletados em {date(data.collectedAt)} da API e dos arquivos de dados abertos
-          da Câmara. Partido e estado são os do cadastro atual; nos votos, valem os
-          registrados junto a cada voto. Não publicamos CPF, data de nascimento nem
-          contatos.
-        </p>
-        <ul class="sources">
-          {#each data.sources as s}<li>
-              <a href={s.url}>{s.url.split("/").at(-1)}</a>
-              <span class="hash">SHA-256 {s.sha256}</span>
-            </li>{/each}
-          <li><a href={d.apiUrl}>Cadastro na API ↗</a></li>
-        </ul>
-        <p class="footer-links">
-          <a href={resolve("transparencia/")}>Transparência dos dados</a>
-          <a
-            href={asset("deputados.json" as Parameters<typeof asset>[0])}
-            download>Baixar todos os perfis ↗</a
-          >
-        </p>
-      </details>
+    <section id="fontes" aria-labelledby="dados-titulo">
+      <h2 id="dados-titulo">Dados e fontes</h2>
+      <div class="accordion">
+        <details class="disclosure">
+          <summary>Ficha oficial</summary>
+          <dl class="facts">
+            {#each facts as [term, value]}<dt>{term}</dt>
+              <dd>{value}</dd>{/each}
+          </dl>
+        </details>
+        {#if d.parties.length > 1}<details class="disclosure">
+            <summary>Partidos nos votos de {data.year}</summary>
+            <ul class="rows bare">
+              {#each d.parties as p}<li class="row">
+                  <div class="row-main">
+                    <span class="row-title">{p.party}</span>
+                    <p class="row-meta">
+                      {p.from ? date(p.from) : "?"} a {p.until
+                        ? date(p.until)
+                        : "?"}
+                    </p>
+                  </div>
+                </li>{/each}
+            </ul>
+          </details>{/if}
+        <details class="disclosure">
+          <summary>Sobre estes dados</summary>
+          <div class="prose">
+            <p>
+              {d.photo ? "Foto: Câmara dos Deputados. " : ""}Coletados em {date(
+                data.collectedAt,
+              )} da API e dos arquivos de dados abertos da Câmara. Partido e estado
+              são os do cadastro atual; nos votos, valem os registrados junto a cada
+              voto. Não publicamos CPF, data de nascimento nem contatos.
+            </p>
+          </div>
+          <ul class="rows bare">
+            {#each data.sources as s}<li class="row">
+                <div class="row-main">
+                  <a class="row-link" href={s.url}>{s.url.split("/").at(-1)}</a>
+                  <p class="row-meta hash">SHA-256 {s.sha256}</p>
+                </div>
+              </li>{/each}
+            <li class="row">
+              <div class="row-main">
+                <a class="row-link" href={d.apiUrl}>Cadastro na API ↗</a>
+              </div>
+            </li>
+          </ul>
+          <p class="footer-links">
+            <a href={resolve("transparencia/")}>Transparência dos dados</a>
+            <a
+              href={asset("deputados.json" as Parameters<typeof asset>[0])}
+              download>Baixar todos os perfis ↗</a
+            >
+          </p>
+        </details>
+      </div>
       <AskAI href={resolve(`deputados/${d.id}.md`)} what="este deputado" />
     </section>
   </div>
 </main>
 
 <style>
-  .report-head {
-    display: grid;
-    gap: 14px;
-  }
   .who {
-    display: grid;
-    grid-template-columns: auto minmax(0, 1fr);
-    gap: 14px;
+    display: flex;
     align-items: center;
+    gap: 14px;
   }
-  img {
+  .who > div {
+    min-width: 0;
+  }
+  .photo {
+    flex: none;
     display: block;
-    width: 84px;
+    width: 64px;
     height: auto;
     aspect-ratio: 3 / 4;
     object-fit: cover;
-    border-radius: 14px;
+    border-radius: 12px;
     background: var(--surface-alt);
   }
-  .eyebrow {
-    margin-bottom: 4px;
-    font-size: 11px;
+  .meta {
+    margin: 0;
+    font-size: 15px;
+    color: var(--muted);
   }
-  h1 {
-    font-size: clamp(24px, 6.6vw, 40px);
-    margin-bottom: 2px;
+  .meta .dot {
+    vertical-align: middle;
   }
-  .party {
-    margin: 0 0 8px;
-    font-size: 17px;
-  }
-  .stat {
-    height: 100%;
+  .kpis {
+    margin-top: 16px;
   }
   .official {
+    display: inline-flex;
+    align-items: center;
     min-height: 44px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--green);
   }
-  .card-head .chip {
-    min-height: 32px;
-    text-decoration: none;
+
+  /* Links whose tap area is 44px tall while the line keeps its height: the
+     padding adds to the hit area, the negative margin takes it back out. */
+  .row-link,
+  .hit {
+    padding-block: 12px;
+    margin-block: -12px;
+    font-weight: 700;
+    color: var(--green);
   }
-  .big-count {
-    font-size: 22px;
-    font-weight: 800;
+  .vote {
+    color: var(--tone-fg);
+    font-weight: 600;
+  }
+  .vote-title {
+    font-weight: 600;
+  }
+  .bill-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .bill-pts {
+    flex: none;
+    font-size: 13px;
     font-variant-numeric: tabular-nums;
+    white-space: nowrap;
     color: var(--muted);
+  }
+  .org-name {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    overflow: hidden;
+  }
+
+  /* Points by source: author in greens, rapporteur in blues; "via" hatched. */
+  [data-part="law"],
+  [data-part="lawVia"] {
+    --tone-fg: var(--part-law);
+  }
+  [data-part="approved"],
+  [data-part="approvedVia"] {
+    --tone-fg: var(--part-approved);
+  }
+  [data-part="reportLaw"] {
+    --tone-fg: var(--part-report-law);
+  }
+  [data-part="reportCamara"] {
+    --tone-fg: var(--part-report-camara);
+  }
+  /* The "via" stripes use the surface between stripes, so they show in both
+     colour schemes; the legend swatch carries the same stripes. */
+  .split > [data-part$="Via"],
+  .split-legend [data-part$="Via"] > .dot {
+    background: repeating-linear-gradient(
+      135deg,
+      var(--tone-fg) 0 3px,
+      var(--surface) 3px 6px
+    );
+  }
+
+  .sub {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .split {
+    margin-top: 10px;
   }
   .compare {
     display: grid;
@@ -819,14 +892,14 @@
     margin: 12px 0 0;
     padding: 0;
     list-style: none;
+    font-size: 14px;
+    color: var(--muted);
   }
   .compare li {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 4px 10px;
     align-items: baseline;
-    font-size: 14px;
-    color: var(--muted);
   }
   .compare strong {
     font-size: 16px;
@@ -834,11 +907,8 @@
     color: var(--ink);
   }
   .compare .me {
-    color: var(--ink);
     font-weight: 700;
-  }
-  .compare .me strong {
-    font-size: 22px;
+    color: var(--ink);
   }
   .compare .bar {
     grid-column: 1 / -1;
@@ -851,77 +921,6 @@
   .compare .me .bar > span {
     background: var(--green);
   }
-  .compare .zero {
-    min-width: 0;
-  }
-  .stack {
-    display: flex;
-    gap: 2px;
-    height: 28px;
-    border-radius: 8px;
-    overflow: hidden;
-  }
-  .stack span {
-    flex: 0 1 0;
-    min-width: 3px;
-  }
-  /* Author in greens, rapporteur in blues; "via" credit is hatched. */
-  [data-part="law"] {
-    background: var(--part-law);
-  }
-  [data-part="lawVia"] {
-    background: repeating-linear-gradient(
-      135deg,
-      var(--part-law) 0 3px,
-      var(--part-law-hatch) 3px 6px
-    );
-  }
-  [data-part="approved"] {
-    background: var(--part-approved);
-  }
-  [data-part="approvedVia"] {
-    background: repeating-linear-gradient(
-      135deg,
-      var(--part-approved) 0 3px,
-      var(--part-approved-hatch) 3px 6px
-    );
-  }
-  [data-part="reportLaw"] {
-    background: var(--part-report-law);
-  }
-  [data-part="reportCamara"] {
-    background: var(--part-report-camara);
-  }
-  .legend {
-    display: grid;
-    gap: 2px;
-    margin: 10px 0 0;
-    padding: 0;
-    list-style: none;
-    font-size: 14px;
-  }
-  .legend li {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-height: 30px;
-  }
-  .legend strong {
-    margin-left: auto;
-    font-variant-numeric: tabular-nums;
-  }
-  .swatch {
-    flex: none;
-    width: 14px;
-    height: 14px;
-    border-radius: 4px;
-  }
-  .sum {
-    margin: 6px 0 10px;
-    padding-top: 8px;
-    border-top: 1px solid var(--line);
-    font-size: 14px;
-  }
   .range-box {
     display: grid;
     gap: 6px;
@@ -930,9 +929,6 @@
     border-radius: 12px;
     background: var(--bg);
   }
-  .range-text strong {
-    white-space: nowrap;
-  }
   .range-text {
     display: flex;
     justify-content: space-between;
@@ -940,233 +936,32 @@
     margin: 0;
     font-size: 14px;
   }
-  .calc-box .hint {
-    margin-bottom: 8px;
-  }
-  .calc code {
+  .range-text strong {
     white-space: nowrap;
-  }
-  .calc tfoot th,
-  .calc tfoot td {
-    border-top: 2px solid var(--green);
-    border-bottom: 0;
-    font-size: 16px;
-  }
-  .calc tbody th {
-    font-weight: 700;
-    white-space: nowrap;
-  }
-  /* Narrow screens: each table row becomes a small card. */
-  @media (max-width: 719px) {
-    .calc thead {
-      display: none;
-    }
-    .calc tbody tr {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 2px 12px;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--line);
-    }
-    .calc tbody th,
-    .calc tbody td {
-      padding: 0;
-      border: 0;
-    }
-    .calc tbody th {
-      flex: 1 1 calc(100% - 96px);
-    }
-    .calc tbody th a {
-      display: inline-flex;
-      align-items: center;
-      min-height: 32px;
-    }
-    .calc tbody td.share {
-      font-size: 18px;
-      font-weight: 800;
-    }
-    .calc tbody td[data-label] {
-      order: 1;
-      font-size: 13px;
-      white-space: normal;
-    }
-    .calc tbody td[data-label]::before {
-      content: attr(data-label) " ";
-      color: var(--muted);
-    }
-    .calc tfoot tr {
-      display: flex;
-      justify-content: space-between;
-    }
-    .calc tfoot th,
-    .calc tfoot td {
-      padding: 12px 0;
-    }
-  }
-  .outcomes {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 8px;
-    margin: 0 0 10px;
-    padding: 0;
-    list-style: none;
-  }
-  .outcomes > li > * {
-    display: grid;
-    align-content: start;
-    gap: 2px;
-    height: 100%;
-    min-height: 64px;
-    padding: 10px 12px;
-    border-radius: 12px;
-    background: var(--tone-bg);
-    color: var(--tone-fg);
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.3;
-    text-decoration: none;
-  }
-  .outcomes > li > span {
-    opacity: 0.75;
-  }
-  .outcomes strong {
-    font-size: 28px;
-    line-height: 1.1;
-    font-variant-numeric: tabular-nums;
-  }
-  .kinds {
-    margin-bottom: 4px;
-  }
-  .bill-group > summary .chip {
-    font-size: 14px;
-  }
-  .bill-group .item-list {
-    margin-top: 8px;
-  }
-  .bill-group .item {
-    background: var(--bg);
-    border-color: transparent;
-  }
-  .item-meta a {
-    font-weight: 700;
-  }
-  .points {
-    background: var(--green);
-    color: var(--lime);
-  }
-  .vote {
-    font-size: 14px;
   }
   .activity {
     display: grid;
     gap: 8px;
-    align-items: center;
   }
-  .activity-table tbody th {
-    display: grid;
-    gap: 6px;
-    font-weight: 700;
+  /* The radar repeats the list on phones; from 900px it sits beside it. */
+  .radar {
+    display: none;
   }
-  .activity-table .total {
-    font-size: 18px;
-    font-weight: 800;
-  }
-  .organs {
-    display: grid;
-    gap: 6px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .organs li {
-    display: grid;
-    gap: 4px;
-    padding: 10px 12px;
-    border-radius: 12px;
-    background: var(--bg);
-  }
-  .organs li > span {
-    font-size: 13px;
-    color: var(--muted);
-  }
-  .organs .chip {
-    margin-right: 6px;
-    font-size: 12px;
-  }
-  .sub {
-    margin-top: 16px;
-    font-size: 16px;
-  }
-  .parties {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 14px;
-  }
-  #fontes .hint {
-    margin-top: 10px;
-  }
-  .sources {
-    display: grid;
-    gap: 6px;
-    margin: 8px 0;
-    padding: 0;
-    list-style: none;
-  }
-  .sources li {
-    display: grid;
-  }
-  .sources a {
-    display: inline-flex;
-    align-items: center;
-    min-height: 32px;
-    font-weight: 600;
+  .activity .bar {
+    margin-top: 4px;
   }
   #fontes :global(.ask-ai) {
     margin-top: 12px;
   }
-  @media (min-width: 600px) {
-    img {
-      width: 120px;
-    }
-    .outcomes {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-    .organs {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
+
   @media (min-width: 900px) {
-    .report-head {
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
-      align-items: center;
-      gap: 20px 32px;
-    }
-    .official {
-      grid-column: 1;
-      justify-self: start;
-    }
-    .report-head .stats {
-      grid-column: 2;
-      grid-row: 1 / span 2;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-    .page-sections {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 16px;
-      align-items: start;
-    }
-    .page-sections > section {
-      margin-top: 0;
-    }
-    #qualidade,
-    #projetos {
-      grid-column: 1 / -1;
-    }
     .activity {
-      grid-template-columns: minmax(0, 1fr);
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: center;
+      gap: 16px;
+    }
+    .radar {
+      display: block;
     }
   }
 </style>
