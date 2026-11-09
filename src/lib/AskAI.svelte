@@ -26,9 +26,8 @@
 <svelte:head><link rel="alternate" type="text/markdown" {href} /></svelte:head>
 <div class="ask-ai">
   <p>
-    <strong>Pergunte a uma IA.</strong> Cole este link no ChatGPT, Claude,
-    Gemini ou outra IA para conversar sobre {what}, com os dados oficiais em
-    texto simples.
+    <strong>Pergunte a uma IA</strong> sobre {what}: cole o link no ChatGPT,
+    Claude ou Gemini.
   </p>
   <div class="ask-ai-actions">
     <a class="button secondary" {href}>Abrir texto para IA</a>
