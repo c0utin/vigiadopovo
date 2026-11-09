@@ -1,9 +1,13 @@
 <script lang="ts">
   import { asset, resolve } from "$app/paths";
   import { onMount } from "svelte";
+  import { page as urlPage } from "$app/state";
   import type { LegislativeDataset } from "#lib/legislative.ts";
   import { normalize } from "#lib/format.ts";
+  import type { PageData } from "./$types";
 
+  let { data }: { data: PageData } = $props();
+  const profiles = $derived(new Set(data.profileIds));
   type Voting = LegislativeDataset["votings"][number];
   let dataset = $state.raw<LegislativeDataset | null>(null);
   let loading = $state(false);
@@ -43,6 +47,13 @@
           "A coleta recebida tem um formato inválido ou incompatível.",
         );
       dataset = value;
+      // Links such as /dados/?proposicao=<id> preselect that proposition; unknown ids are ignored.
+      const linked = value.propositions.find(
+        (p) => String(p.id) === urlPage.url.searchParams.get("proposicao"),
+      );
+      if (linked) {
+        propositionId = String(linked.id);
+      }
     } catch {
       error =
         "Não foi possível carregar uma coleta válida. Verifique a conexão.";
@@ -79,6 +90,9 @@
   const unclassified = $derived(
     dataset?.propositions.filter((p) => p.labels.length === 0).length ?? 0,
   );
+  const votingsWithBallots = $derived(
+    dataset?.votings.filter((v) => v.ballots.length > 0).length ?? 0,
+  );
   const propositions = $derived(
     (dataset?.propositions ?? []).filter(
       (p) =>
@@ -91,6 +105,20 @@
         ),
     ),
   );
+  // The disclosure's summary names the active filter, so the reader sees it while the list is first.
+  const activeFilter = $derived.by(() => {
+    if (propositionId) {
+      const proposition = dataset?.propositions.find(
+        (p) => String(p.id) === propositionId,
+      );
+      return proposition && `Filtro: ${proposition.label}`;
+    }
+    if (votingId) {
+      const voting = dataset?.votings.find((v) => v.id === votingId);
+      return voting && `Filtro: ${dateLabel(voting.date)} · ${voting.organ}`;
+    }
+    return null;
+  });
   const selectedPropositions = $derived(
     propositions.filter(
       (p) => !propositionId || String(p.id) === propositionId,
@@ -146,6 +174,35 @@
   const visibleRows = $derived(
     filteredRows.slice((currentPage - 1) * pageSize, currentPage * pageSize),
   );
+  const firstShown = $derived(
+    filteredRows.length ? (currentPage - 1) * pageSize + 1 : 0,
+  );
+  const lastShown = $derived(
+    Math.min(currentPage * pageSize, filteredRows.length),
+  );
+  // One group per voting, in page order; each shows the split of all its ballots.
+  const groups = $derived.by(() => {
+    const byVoting = new Map<
+      string,
+      { voting: Voting; rows: typeof visibleRows; shares: [string, number][] }
+    >();
+    for (const row of visibleRows) {
+      let group = byVoting.get(row.voting.id);
+      if (!group) {
+        const counts = new Map<string, number>();
+        for (const { vote } of row.voting.ballots)
+          counts.set(vote, (counts.get(vote) ?? 0) + 1);
+        group = {
+          voting: row.voting,
+          rows: [],
+          shares: [...counts].sort((a, b) => b[1] - a[1]),
+        };
+        byVoting.set(row.voting.id, group);
+      }
+      group.rows.push(row);
+    }
+    return [...byVoting.values()];
+  });
   const noRecords = $derived(
     selectedVotings.filter(
       (v) =>
@@ -163,43 +220,33 @@
     position = null;
     page = 1;
   }
+  // Tone only colours the dot; the position text is shown as the source gives it.
+  function voteTone(vote: string) {
+    return vote === "Sim" ? "yes" : vote === "Não" ? "no" : "neutral";
+  }
   function dateLabel(value: string) {
     const date = new Date(value);
     return Number.isNaN(date.getTime())
       ? value
       : new Intl.DateTimeFormat("pt-BR", {
-          dateStyle: "medium",
+          day: "2-digit",
+          month: "2-digit",
+          year: "numeric",
           timeZone: "UTC",
         }).format(date);
   }
 </script>
 
 <svelte:head>
-  <title>Dados legislativos — Vigia do Povo</title>
+  <title>Como cada deputado votou — Vigia do Povo</title>
   <meta
     name="description"
-    content="Explore temas oficiais, proposições e registros individuais de votações da Câmara dos Deputados."
+    content="Veja como cada deputado votou nas votações da Câmara dos Deputados, com fontes oficiais."
   />
 </svelte:head>
 
-<main id="conteudo" class="wrap data-page">
-  <p class="eyebrow">
-    <span class="tiny-line"></span> DADOS ABERTOS · CÂMARA DOS DEPUTADOS
-  </p>
-  <h1>Explore os <em>dados.</em></h1>
-  <p class="intro">
-    Veja os temas, as votações e como cada deputado votou. Suas buscas e filtros
-    não são salvos.
-  </p>
-  <details class="notice">
-    <summary>Como interpretar um voto</summary>
-    <p>
-      <strong>Registro vazio não significa ausência nem abstenção.</strong>
-      Nem toda votação tem registros individuais disponíveis. Votações procedimentais
-      não representam necessariamente uma decisão sobre o mérito da proposta. Confira
-      a descrição e a fonte oficial antes de interpretar um voto.
-    </p>
-  </details>
+<main id="conteudo" class="wrap page data-page">
+  <h1>Como cada deputado votou</h1>
 
   {#if !dataset}
     <section
@@ -224,65 +271,88 @@
         >{/if}
     </section>
   {:else}
-    <section class="collection" aria-label="Sobre a coleta">
-      <p>
-        <strong>Coleta:</strong>
-        <time datetime={dataset.collectedAt}
-          >{dateLabel(dataset.collectedAt)}</time
-        > (UTC)
+    <div class="coverage">
+      <p class="hint">
+        {votingsWithBallots} de {dataset.votings.length} votações
+        {votingsWithBallots === 1 ? "tem" : "têm"} voto por deputado.
       </p>
-      <p>
-        {dataset.propositions.length} proposições · {dataset.votings.length} votações
-        · {dataset.votings.reduce((sum, v) => sum + v.ballots.length, 0)} registros
-        individuais
-      </p>
-      <details>
-        <summary>Cobertura e download</summary>
-        <p>{dataset.coverage}</p>
-        <a class="button secondary" href={asset("legislativo.json")} download
-          >Baixar conjunto normalizado (JSON)</a
-        >
-      </details>
-    </section>
-    <nav class="query-steps" aria-label="Etapas da consulta">
-      <a href="#proposals-title">1. Propostas</a>
-      <a href="#votings-title">2. Votações</a>
-      <a href="#ballots-title">3. Votos</a>
-    </nav>
+      {#if noRecords}<p class="caveat">
+          Sem registro não é ausência nem abstenção.
+        </p>{/if}
+    </div>
 
-    <section aria-labelledby="proposals-title">
-      <h2 id="proposals-title">1. Temas e proposições</h2>
-      <p class="help">
-        Agrupamentos por rótulos oficiais da Câmara, sem inferência por IA. Uma
-        proposição pode pertencer a vários temas; as contagens não são
-        exclusivas. “Sem classificação” significa nenhum rótulo oficial nesta
-        coleta.
-      </p>
-      <div class="filters">
-        <label
-          >Tema oficial
-          <select bind:value={topic} onchange={resetSelection}>
-            <option value=""
-              >Todos os temas ({dataset.propositions.length})</option
-            >
+    <div class="filter-bar">
+      <label class="search-field">
+        <span class="sr-only">Deputado: nome ou ID</span>
+        <input
+          type="search"
+          bind:value={deputySearch}
+          oninput={() => (page = 1)}
+          placeholder="Buscar deputado por nome ou ID"
+        />
+      </label>
+      <div class="filter-row">
+        <select
+          class="select"
+          aria-label="Partido"
+          bind:value={party}
+          onchange={() => (page = 1)}
+        >
+          <option value="">Partido</option>
+          {#each parties as p}<option value={p}
+              >{p === missing ? "Não informado" : p}</option
+            >{/each}
+        </select>
+        <select
+          class="select"
+          aria-label="UF"
+          bind:value={uf}
+          onchange={() => (page = 1)}
+        >
+          <option value="">UF</option>
+          {#each states as s}<option value={s}
+              >{s === missing ? "Não informada" : s}</option
+            >{/each}
+        </select>
+        <select
+          class="select"
+          aria-label="Posição"
+          bind:value={position}
+          onchange={() => (page = 1)}
+        >
+          <option value={null}>Posição</option>
+          {#each positions as p}<option value={p}
+              >{p || "Posição não informada"}</option
+            >{/each}
+        </select>
+      </div>
+      <details class="disclosure">
+        <summary>{activeFilter ?? "Filtrar por proposição ou votação"}</summary>
+        <div class="more-filters">
+          <select
+            class="select"
+            aria-label="Tema oficial"
+            bind:value={topic}
+            onchange={resetSelection}
+          >
+            <option value="">Todos os temas</option>
             {#each topics as t}<option value={t.id}
                 >{t.name} ({t.count}) · {t.id}</option
               >{/each}
             <option value={missing}>Sem classificação ({unclassified})</option>
           </select>
-        </label>
-        <label
-          >Buscar proposição
-          <input
-            type="search"
-            bind:value={proposalSearch}
-            oninput={resetSelection}
-            placeholder="Identificador, título ou ementa"
-          />
-        </label>
-        <label
-          >Proposição
+          <label class="search-field">
+            <span class="sr-only">Buscar proposição</span>
+            <input
+              type="search"
+              bind:value={proposalSearch}
+              oninput={resetSelection}
+              placeholder="Título, identificador ou ementa"
+            />
+          </label>
           <select
+            class="select"
+            aria-label="Proposição"
             bind:value={propositionId}
             onchange={() => {
               votingId = "";
@@ -296,15 +366,140 @@
                 >{p.label} · {p.id}</option
               >{/each}
           </select>
-        </label>
-      </div>
-      {#if !propositions.length}<p class="empty-message" role="status">
-          Nenhuma proposição encontrada. Ajuste o tema ou a busca.
-        </p>{/if}
-      <details>
-        <summary
-          >Ver proposições e fontes dos temas ({selectedPropositions.length})</summary
+          <select
+            class="select"
+            aria-label="Votação"
+            bind:value={votingId}
+            onchange={resetBallots}
+          >
+            <option value="">Todas as vinculadas ({votings.length})</option>
+            {#each votings as v}<option value={v.id}
+                >{dateLabel(v.date)} · {v.organ} · {v.description ||
+                  v.id}</option
+              >{/each}
+          </select>
+          {#if !propositions.length}<p class="empty-state" role="status">
+              Nenhuma proposição encontrada. Ajuste o tema ou a busca.
+            </p>{/if}
+        </div>
+      </details>
+    </div>
+
+    <p class="hint result" role="status">
+      {#if filteredRows.length}Mostrando {firstShown}–{lastShown} de {filteredRows.length}{:else}Nenhum
+        voto{/if}
+    </p>
+
+    {#if visibleRows.length}
+      {#each groups as group (group.voting.id)}
+        <section
+          class="voting"
+          aria-label={group.voting.description || group.voting.id}
         >
+          <div class="voting-head">
+            <p class="voting-title clamp-2">
+              {group.voting.description || group.voting.id}
+            </p>
+            <p class="row-meta">
+              {dateLabel(group.voting.date)} · {group.voting.organ} ·
+              <a href={group.voting.url}>Registro oficial ↗</a>
+            </p>
+            <div class="split" aria-hidden="true">
+              {#each group.shares as [vote, count]}<span
+                  data-tone={voteTone(vote)}
+                  style="--n: {count}"
+                ></span>{/each}
+            </div>
+            <ul class="split-legend">
+              {#each group.shares as [vote, count]}
+                <li data-tone={voteTone(vote)}>
+                  <span class="dot"></span><strong>{count}</strong>
+                  {vote || "Não informada"}
+                </li>
+              {/each}
+            </ul>
+          </div>
+          <ul class="rows">
+            {#each group.rows as { ballot }}
+              {@const linked = profiles.has(ballot.deputyId)}
+              <li class="row" class:tap={linked}>
+                <div class="row-main">
+                  {#if linked}
+                    <a
+                      class="row-title clamp-1"
+                      href={resolve(`deputados/${ballot.deputyId}/`)}
+                      >{ballot.name}</a
+                    >
+                  {:else}
+                    <p class="row-title clamp-1">{ballot.name}</p>
+                  {/if}
+                  <p class="row-meta">
+                    {ballot.party ?? "—"} · {ballot.state ?? "—"}
+                  </p>
+                </div>
+                <span class="row-trail" data-tone={voteTone(ballot.vote)}
+                  ><span class="dot"></span>
+                  {ballot.vote || "Não informada"}</span
+                >
+                {#if linked}<span class="chev" aria-hidden="true"></span>{/if}
+              </li>
+            {/each}
+          </ul>
+        </section>
+      {/each}
+    {:else}
+      <p class="empty-state" role="status">
+        {#if !votings.length}
+          Nenhuma votação vinculada às proposições selecionadas nesta coleta.
+        {:else if !rows.length}
+          Não há registros individuais disponíveis para esta seleção.
+        {:else}
+          Nenhum registro corresponde aos filtros.
+        {/if}
+      </p>
+    {/if}
+
+    <nav class="pagination" aria-label="Paginação dos votos">
+      <button
+        class="button secondary"
+        disabled={currentPage <= 1}
+        onclick={() => (page = currentPage - 1)}>Anterior</button
+      >
+      <span>Página {currentPage} de {pageCount}</span>
+      <button
+        class="button secondary"
+        disabled={currentPage >= pageCount}
+        onclick={() => (page = currentPage + 1)}>Próxima</button
+      >
+    </nav>
+
+    <div class="accordion">
+      <details class="disclosure">
+        <summary>Como interpretar um voto</summary>
+        <p class="prose">
+          <strong>Registro vazio não significa ausência nem abstenção.</strong>
+          Nem toda votação tem registros individuais disponíveis. Votações procedimentais
+          não representam necessariamente uma decisão sobre o mérito da proposta.
+          Confira a descrição e a fonte oficial antes de interpretar um voto.
+        </p>
+      </details>
+      <details class="disclosure">
+        <summary>Cobertura e download</summary>
+        <p class="prose">
+          Coleta de
+          <time datetime={dataset.collectedAt}
+            >{dateLabel(dataset.collectedAt)}</time
+          >
+          (UTC). {dataset.coverage}
+        </p>
+        <a class="button secondary" href={asset("legislativo.json")} download
+          >Baixar conjunto normalizado (JSON)</a
+        >
+      </details>
+      <details class="disclosure">
+        <summary>
+          Proposições e fontes dos temas ({selectedPropositions.length})
+        </summary>
         <ul class="sources">
           {#each selectedPropositions as p}
             <li>
@@ -321,31 +516,7 @@
           {/each}
         </ul>
       </details>
-    </section>
-
-    <section aria-labelledby="votings-title">
-      <h2 id="votings-title">2. Votações</h2>
-      <label
-        >Votação
-        <select bind:value={votingId} onchange={resetBallots}>
-          <option value="">Todas as vinculadas ({votings.length})</option>
-          {#each votings as v}<option value={v.id}
-              >{dateLabel(v.date)} · {v.organ} · {v.description || v.id}</option
-            >{/each}
-        </select>
-      </label>
-      <p class="help">
-        {selectedVotings.length} votações selecionadas. Uma votação vinculada a várias
-        proposições é contada apenas uma vez.
-      </p>
-      {#if !votings.length}<p class="empty-message">
-          Nenhuma votação vinculada às proposições selecionadas nesta coleta.
-        </p>{/if}
-      {#if noRecords}<p class="notice">
-          {noRecords} votação(ões) selecionada(s) sem registros individuais disponíveis.
-          Isso não indica ausência ou abstenção de deputados.
-        </p>{/if}
-      <details>
+      <details class="disclosure">
         <summary
           >Descrições e fontes oficiais ({selectedVotings.length})</summary
         >
@@ -356,7 +527,7 @@
               <p>{v.description || "Descrição não informada."}</p>
               <a href={v.url}>Votação na Câmara</a> ·
               <a href={v.ballotsUrl}>Fonte dos votos individuais</a>
-              <p class="help">
+              <p>
                 {v.ballotCoverage === "no-individual-records"
                   ? "Sem registros individuais disponíveis"
                   : `${v.ballots.length} registros individuais na coleta`}
@@ -365,211 +536,67 @@
           {/each}
         </ul>
       </details>
-    </section>
-
-    <section aria-labelledby="ballots-title">
-      <h2 id="ballots-title">3. Votos individuais</h2>
-      <div class="filters ballot-filters">
-        <label
-          >Deputado: nome ou ID<input
-            type="search"
-            bind:value={deputySearch}
-            oninput={() => (page = 1)}
-            placeholder="Buscar deputado"
-          /></label
-        >
-        <label
-          >Partido<select bind:value={party} onchange={() => (page = 1)}
-            ><option value="">Todos</option>{#each parties as p}<option
-                value={p}>{p === missing ? "Não informado" : p}</option
-              >{/each}</select
-          ></label
-        >
-        <label
-          >UF<select bind:value={uf} onchange={() => (page = 1)}
-            ><option value="">Todas</option>{#each states as s}<option value={s}
-                >{s === missing ? "Não informada" : s}</option
-              >{/each}</select
-          ></label
-        >
-        <label
-          >Posição exata<select
-            bind:value={position}
-            onchange={() => (page = 1)}
-            ><option value={null}>Todas</option>{#each positions as p}<option
-                value={p}>{p || "Posição não informada"}</option
-              >{/each}</select
-          ></label
-        >
-      </div>
-      <p class="help" role="status">
-        {filteredRows.length} de {rows.length} registros individuais correspondem
-        aos filtros. Exibindo {filteredRows.length
-          ? (currentPage - 1) * pageSize + 1
-          : 0}–{Math.min(currentPage * pageSize, filteredRows.length)}.
-      </p>
-      <p id="table-help" class="help">
-        Em telas estreitas, cada voto aparece em um cartão. As posições são
-        reproduzidas como informadas pela fonte, sem inferir apoio ao mérito.
-      </p>
-      <!-- svelte-ignore a11y_no_noninteractive_tabindex (Keyboard users need to focus this region to scroll the wide table.) -->
-      <div
-        class="table-scroll"
-        role="region"
-        aria-label="Tabela de votos individuais"
-        aria-describedby="table-help"
-        tabindex="0"
-      >
-        <table>
-          <caption>Registros individuais nas votações selecionadas</caption>
-          <thead
-            ><tr
-              ><th scope="col">Deputado</th><th scope="col">ID</th><th
-                scope="col">Partido</th
-              ><th scope="col">UF</th><th scope="col">Posição</th><th
-                scope="col">Votação / fonte oficial</th
-              ><th scope="col">Registro</th></tr
-            ></thead
-          >
-          <tbody>
-            {#each visibleRows as { ballot, voting }}
-              <tr
-                ><th scope="row">{ballot.name}</th><td data-label="ID"
-                  >{ballot.deputyId}</td
-                ><td data-label="Partido">{ballot.party ?? "Não informado"}</td
-                ><td data-label="UF">{ballot.state ?? "Não informada"}</td><td
-                  data-label="Posição">{ballot.vote || "Não informada"}</td
-                ><td data-label="Votação / fonte oficial"
-                  ><a href={voting.url}>{voting.id}</a><br />{dateLabel(
-                    voting.date,
-                  )} · {voting.organ}<br /><a href={voting.ballotsUrl}
-                    >Fonte dos votos</a
-                  ></td
-                ><td data-label="Registro"
-                  >{ballot.registeredAt ?? "Não informado"}</td
-                ></tr
-              >
-            {:else}
-              <tr
-                ><td colspan="7"
-                  >{rows.length
-                    ? "Nenhum registro corresponde aos filtros."
-                    : "Não há registros individuais disponíveis para esta seleção. Isso não indica ausência nem abstenção."}</td
-                ></tr
-              >
-            {/each}
-          </tbody>
-        </table>
-      </div>
-      <nav class="pagination" aria-label="Paginação dos votos">
-        <button
-          class="button secondary"
-          disabled={currentPage <= 1}
-          onclick={() => (page = currentPage - 1)}>Anterior</button
-        >
-        <span
-          >Página {currentPage} de {pageCount} · até {pageSize} registros por página</span
-        >
-        <button
-          class="button secondary"
-          disabled={currentPage >= pageCount}
-          onclick={() => (page = currentPage + 1)}>Próxima</button
-        >
-      </nav>
-    </section>
+    </div>
   {/if}
 </main>
 
 <style>
-  .data-page {
-    padding-block: 24px 40px;
-    min-width: 0;
-  }
-  h1 {
-    font-size: clamp(34px, 6vw, 60px);
-    letter-spacing: -1.2px;
-  }
-  .intro {
-    max-width: 760px;
-    line-height: 1.7;
-    font-size: 15px;
-    color: var(--muted);
-  }
-  h2[id] {
-    scroll-margin-top: 20px;
-  }
-  .query-steps {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-  }
-  .query-steps a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 48px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    text-decoration: none;
-    font-size: 12px;
-    background: var(--surface);
-  }
-  .data-page > .notice {
-    padding-block: 8px;
-  }
-  section {
-    margin-block: 24px;
-    min-width: 0;
-  }
-  section + section {
-    border-top: 1px solid var(--line);
-    padding-top: 32px;
-  }
-  .load-panel,
-  .collection {
+  .load-panel {
+    padding: 18px;
     background: var(--surface-alt);
-    padding: 26px;
     border: 1px solid var(--line);
-    border-radius: 12px;
-    line-height: 1.7;
+    border-radius: var(--radius);
+    line-height: 1.6;
   }
   .load-panel p:last-child {
     margin-bottom: 0;
   }
-  .collection {
-    overflow-wrap: anywhere;
-  }
-  .help {
-    font-size: 12px;
-    line-height: 1.8;
-    color: var(--muted);
-    margin-block: 14px;
-  }
-  .filters {
+  .more-filters {
     display: grid;
-    grid-template-columns: minmax(0, 1fr);
-    gap: 16px;
+    gap: 8px;
+    padding-top: 8px;
   }
-  label {
+  .coverage {
+    display: grid;
+    gap: 6px;
+    margin-block: 8px 12px;
+  }
+  .result {
+    margin-block: 12px 4px;
+  }
+  .voting + .voting {
+    margin-top: 20px;
+  }
+  .voting-title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--green);
+  }
+  .voting-head {
+    display: grid;
+    gap: 6px;
+  }
+  .voting-head + .rows {
+    margin-top: 8px;
+  }
+  .pagination {
     display: flex;
-    flex-direction: column;
-    gap: 9px;
-    min-width: 0;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-block: 12px 20px;
     font-size: 14px;
     font-weight: 600;
+    color: var(--muted);
   }
-  input,
-  select {
-    width: 100%;
-    min-width: 0;
-    min-height: 46px;
-    border: 1px solid var(--line);
-    border-radius: 4px;
-    background: var(--surface);
-    color: var(--green);
-    padding: 10px;
-    font-size: 16px;
-    font-weight: 400;
+  .pagination .button {
+    min-height: 44px;
+    padding-inline: 14px;
+  }
+  .accordion {
+    margin-top: 24px;
   }
   .sources {
     padding-left: 22px;
@@ -585,166 +612,7 @@
     display: inline-block;
     margin: 0 14px 6px 0;
   }
-  .empty-message {
-    padding: 20px;
-    background: var(--surface-strong);
-    line-height: 1.8;
-  }
-  .table-scroll {
-    max-width: 100%;
-    overflow-x: auto;
-  }
-  .table-scroll:focus-visible {
-    outline: 2px solid var(--focus);
-    outline-offset: 4px;
-  }
-  table {
-    display: block;
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 14px;
-    line-height: 1.7;
-    text-align: left;
-  }
-  caption {
-    display: block;
-    text-align: left;
-    padding: 16px;
-    font-weight: 600;
-    background: var(--surface-strong);
-  }
-  th,
-  td {
-    display: block;
-    min-width: 0;
-    overflow-wrap: anywhere;
-  }
-  thead {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-  }
-  tbody {
-    display: block;
-  }
-  tbody tr {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
-    border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 18px;
-    margin-block: 12px;
-    background: var(--surface);
-  }
-  tbody th,
-  td[colspan] {
-    grid-column: 1 / -1;
-  }
-  td[data-label="Registro"] {
-    grid-column: 1 / -1;
-  }
-  td[data-label]::before {
-    content: attr(data-label);
-    display: block;
-    font-size: 11px;
-    color: var(--muted);
-    margin-bottom: 3px;
-  }
-  tbody th {
-    font-weight: 600;
-  }
-  tbody tr:nth-child(even) {
-    background: var(--surface-alt);
-  }
-  .pagination {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-    margin-top: 18px;
-    font-size: 12px;
-    flex-wrap: wrap;
-  }
-  .ballot-filters {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .ballot-filters label:first-child,
-  .ballot-filters label:last-child {
-    grid-column: 1 / -1;
-  }
   button:disabled {
     opacity: 0.5;
-  }
-  @media (min-width: 501px) {
-    .filters,
-    .ballot-filters {
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  @media (min-width: 761px) {
-    .filters {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-    .ballot-filters {
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-    }
-    .ballot-filters label:first-child,
-    .ballot-filters label:last-child {
-      grid-column: auto;
-    }
-    .table-scroll {
-      border: 1px solid var(--line);
-      border-radius: 5px;
-    }
-    table {
-      display: table;
-      font-size: 12px;
-    }
-    caption {
-      display: table-caption;
-    }
-    thead {
-      position: static;
-      width: auto;
-      height: auto;
-      clip-path: none;
-      overflow: visible;
-      display: table-header-group;
-      background: var(--surface-alt);
-    }
-    tbody {
-      display: table-row-group;
-    }
-    thead tr,
-    tbody tr {
-      display: table-row;
-      padding: 0;
-      margin: 0;
-      border: 0;
-    }
-    th,
-    td {
-      display: table-cell;
-      padding: 14px;
-      vertical-align: top;
-      border-bottom: 1px solid var(--line);
-    }
-    td[data-label]::before {
-      display: none;
-    }
-  }
-  @media (max-width: 500px) {
-    .collection,
-    .load-panel {
-      padding: 20px;
-    }
-    .pagination span {
-      order: 3;
-      width: 100%;
-      text-align: center;
-    }
   }
 </style>
