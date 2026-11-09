@@ -1,0 +1,66 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:19:22",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Juscelino Filho (PSDB/MA).",
+        "id": "2617269-37",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-37",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:18:46",
+        "descricao": "Rejeitada a Emenda de Plenário.",
+        "id": "2617269-35",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-35",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T17:17:53",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 3.220, de 2019, adotado pelo relator da Comissão de Comunicação.",
+        "id": "2617269-32",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617269-32",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83159",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-05-19",
+        "dataHoraRegistro": "2026-05-19T17:23:05",
+        "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2624646-8",
+        "proposicaoObjeto": "REQ 2851/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2624646-8",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82155",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2624646"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:41:33.883Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/votacoes"
+}

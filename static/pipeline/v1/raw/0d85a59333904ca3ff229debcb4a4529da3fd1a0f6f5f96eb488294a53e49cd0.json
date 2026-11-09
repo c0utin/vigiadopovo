@@ -1,0 +1,77 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2024-10-30",
+      "dataHoraRegistro": "2024-10-30T14:51:36",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2412504-36",
+      "idEvento": 74459,
+      "idOrgao": 536996,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-10-02T18:56",
+          "ementa": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação deste na forma do Substitutivo adotado pela CPD, com subemendas.",
+          "id": 2459883,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2459883"
+        },
+        {
+          "ano": 0,
+          "codTipo": 709,
+          "dataApresentacao": "2024-10-02T10:23",
+          "ementa": "",
+          "id": 2461224,
+          "numero": 1,
+          "siglaTipo": "SBR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2461224"
+        },
+        {
+          "ano": 0,
+          "codTipo": 709,
+          "dataApresentacao": "2024-10-02T10:23",
+          "ementa": "",
+          "id": 2461225,
+          "numero": 2,
+          "siglaTipo": "SBR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2461225"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-12-12T15:44",
+          "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
+          "id": 2412504,
+          "numero": 5974,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504"
+        }
+      ],
+      "siglaOrgao": "CCULT",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2024-10-03T12:58:37",
+        "descricao": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação deste na forma do Substitutivo adotado pela CPD, com subemendas.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2459883"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-36",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/74459",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/536996"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-36",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:41:59.198Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-36"
+}

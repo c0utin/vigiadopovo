@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 52,
+        "relevancia": 0,
+        "tema": "Previdência e Assistência Social"
+      },
+      {
+        "codTema": 46,
+        "relevancia": 1,
+        "tema": "Educação"
+      },
+      {
+        "codTema": 44,
+        "relevancia": 2,
+        "tema": "Direitos Humanos e Minorias"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:40:49.625Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/temas"
+}

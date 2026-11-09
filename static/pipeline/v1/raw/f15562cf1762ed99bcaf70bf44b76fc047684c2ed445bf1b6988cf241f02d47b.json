@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 2,
+        "nome": "Comissão de Legislação Participativa",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "COMISSÃO PERMANENTE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/5438"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:41:56.451Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/autores"
+}

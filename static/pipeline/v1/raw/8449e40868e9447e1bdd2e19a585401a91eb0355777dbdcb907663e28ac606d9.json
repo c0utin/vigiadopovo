@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-05",
+      "dataHoraRegistro": "2026-11-05T11:37:36",
+      "dataHoraUltimaAberturaVotacao": "2026-11-05T11:37:22",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Hildo Rocha (MDB-MA).",
+      "efeitosRegistrados": [],
+      "id": "2637478-28",
+      "idEvento": 83188,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-05T11:19",
+          "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+          "id": 2651131,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651131"
+        },
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-05T10:00",
+          "ementa": "Parecer proferido em Plenário pelo Relator Dep. Hildo Rocha (MDB/MA) pela: • Comissão de Cultura, que conclui pela aprovação do Projeto de Lei nº 3.507, de 2026. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 3.507, de 2026.",
+          "id": 2651139,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651139"
+        },
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-05T00:00",
+          "ementa": "Redação Final ao PL 3507/2026",
+          "id": 2651290,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651290"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-07-07T10:11",
+          "ementa": "Nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, requeremos regime de urgência na apreciação do Projeto de Lei Nº 3507/2026, que “Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+          "id": 2637487,
+          "numero": 3721,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637487"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-07-07T09:17",
+          "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+          "id": 2637478,
+          "numero": 3507,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-05T11:27:09",
+        "descricao": "Parecer proferido em Plenário pelo Relator Dep. Hildo Rocha (MDB/MA) pela:\r\n• Comissão de Cultura, que conclui pela aprovação do Projeto de Lei nº 3.507, de 2026.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 3.507, de 2026.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651139"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-28",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-28",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:40:39.459Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2637478-28"
+}

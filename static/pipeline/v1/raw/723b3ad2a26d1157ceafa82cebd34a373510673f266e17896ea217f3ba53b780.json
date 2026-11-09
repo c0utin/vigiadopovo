@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T17:06",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo.",
+      "ementaDetalhada": null,
+      "id": 2651239,
+      "justificativa": null,
+      "keywords": "alteração; Consolidação das Leis do Trabalho (CLT) (1943); Lei do Trabalho Rural (1973); Intervalo para repouso ou refeição; Tempo de serviço; Remuneração; Serviço efetivo; Trabalhador; limite; Jornada de trabalho; descumprimento; Empregador; Indenização; Empregado; Motorista profissional; Serviços de transporte ferroviário; direitos; Convenção coletiva do trabalho",
+      "numero": 5783,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-05T17:06",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5783/2026 (Projeto de Lei), pela Deputada Duda Salabert (PSOL/MG), que \"Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190699",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:40:52.421Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239"
+}

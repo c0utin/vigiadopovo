@@ -1,7 +1,160 @@
 {
-  "collectedAt": "2026-11-08T18:57:09.857Z",
+  "collectedAt": "2026-11-09T19:40:23.605Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2651409,
+      "label": "PL 5796/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue.",
+      "presentedAt": "2026-11-09T12:26",
+      "status": {
+        "dataHora": "2026-11-09T12:26",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5796/2026 (Projeto de Lei), pelo Deputado Cezinha de Madureira (PL/SP), que \"Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue\"."
+      },
+      "authors": [
+        {
+          "name": "Cezinha de Madureira",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651409",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191441",
+      "votes": [],
+      "sourceHash": "9b7901ecc1e87d8dbd46ce505634e0a9790d2bc5fe59b2a9b43a9cf2954e7bef",
+      "summary": null
+    },
+    {
+      "id": 2651389,
+      "label": "PL 5795/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas.",
+      "presentedAt": "2026-11-09T11:14",
+      "status": {
+        "dataHora": "2026-11-09T11:14",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5795/2026 (Projeto de Lei), pela Deputada Duda Salabert (PSOL/MG), que \"Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas\"."
+      },
+      "authors": [
+        {
+          "name": "Duda Salabert",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651389",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191415",
+      "votes": [],
+      "sourceHash": "d5f80bd364de7b68089f99aef900d9b7258e95453ba3d2d8a33dbb58346f2d72",
+      "summary": null
+    },
+    {
+      "id": 2651388,
+      "label": "PL 5794/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas.",
+      "presentedAt": "2026-11-09T11:08",
+      "status": {
+        "dataHora": "2026-11-09T11:08",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5794/2026 (Projeto de Lei), pelo Deputado Raimundo Santos (PSD/PA), que \"Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas\"."
+      },
+      "authors": [
+        {
+          "name": "Raimundo Santos",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:48",
+          "name": "Meio Ambiente e Desenvolvimento Sustentável",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651388",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191413",
+      "votes": [],
+      "sourceHash": "011286c5550f1cf7852be17e7631c212fd82e70aad9bdda093e99c16c4d42044",
+      "summary": null
+    },
+    {
+      "id": 2651340,
+      "label": "PL 5793/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
+      "presentedAt": "2026-11-06T22:56",
+      "status": {
+        "dataHora": "2026-11-06T22:56",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5793/2026 (Projeto de Lei), pela Deputada Laura Carneiro (PSD/RJ), que \"Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha)\"."
+      },
+      "authors": [
+        {
+          "name": "Laura Carneiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:76",
+          "name": "Direito e Justiça",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651340",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191322",
+      "votes": [],
+      "sourceHash": "fd2022abd07a704849c8988771e5ea0a885cea110a67e76043836be567086683",
+      "summary": null
+    },
     {
       "id": 2651275,
       "label": "PL 5788/2026",
@@ -21,7 +174,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651275/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651275/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651275",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651275",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191009",
@@ -48,7 +214,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651272",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651272",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190985",
@@ -75,7 +254,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651263",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651263",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190963",
@@ -156,10 +348,16 @@
           "relevance": 0
         },
         {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
           "relevance": 1
+        },
+        {
+          "id": "camara:tema:66",
+          "name": "Indústria, Comércio e Serviços",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/temas",
+          "relevance": 2
         }
       ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651243",
@@ -188,7 +386,14 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651239",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651239",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190699",
