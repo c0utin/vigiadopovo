@@ -1,13 +1,14 @@
-// Progressive enhancement for the homepage feed. Without JavaScript every
-// proposal stays listed; with it, search and topic chips filter the cards.
+// Progressive enhancement for the homepage. Without JavaScript every proposal
+// stays listed; with it, search and topic chips filter the rows.
 (() => {
   const $ = (selector) => document.querySelector(selector);
   const filters = $("[data-filters]");
   const input = $("#busca");
-  const cards = [...document.querySelectorAll("[data-search]")];
+  const rows = [...document.querySelectorAll("[data-search]")];
   const chips = [...document.querySelectorAll("[data-topic-filter]")];
   const count = $("[data-count]");
   const periods = [...document.querySelectorAll("[data-period]")];
+  const mores = [...document.querySelectorAll(".more")];
   const empty = $("[data-empty]");
   const clean = (value) =>
     value
@@ -18,14 +19,17 @@
   let topic = "";
   const update = () => {
     const query = clean(input.value);
+    const filtering = query !== "" || topic !== "";
     let shown = 0;
-    for (const card of cards) {
+    for (const row of rows) {
       const match =
-        card.dataset.search.includes(query) &&
-        (!topic || card.dataset.topic === topic);
-      card.hidden = !match;
+        row.dataset.search.includes(query) &&
+        (!topic || row.dataset.topic === topic);
+      row.hidden = !match;
       if (match) shown++;
     }
+    // A match may sit behind "Ver todos", so filtering opens those lists.
+    for (const more of mores) more.open = filtering;
     for (const period of periods) {
       const visible = period.querySelectorAll("[data-search]:not([hidden])");
       period.hidden = !visible.length;

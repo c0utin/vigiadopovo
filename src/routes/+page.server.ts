@@ -12,7 +12,7 @@ const PERIODS = [
   { title: "Mais antigas", maxDays: Infinity },
 ];
 
-// Ship only card/search fields, never full voting histories or source captures.
+// Ship only row and search fields, never full voting histories or source captures.
 export function load() {
   // Periods are relative to the collection day in Brasília, not to the visit:
   // the site is a static snapshot.
@@ -25,37 +25,37 @@ export function load() {
     .map((p) => {
       // What makes a proposal "hot" is its latest movement, not its age.
       const events = [
-        { kind: "Apresentada", date: p.presentedAt },
+        { date: p.presentedAt },
         // On ties the earlier entry wins, so a vote beats a generic step.
-        ...p.votes.map((vote) => ({ kind: "Votação", date: vote.date })),
-        { kind: "Andamento", date: p.status?.dataHora },
+        ...p.votes.map((vote) => ({ date: vote.date })),
+        { date: p.status?.dataHora },
       ]
-        .filter((event): event is { kind: string; date: string } =>
-          Boolean(event.date),
-        )
-        .map((event) => ({ ...event, date: event.date.slice(0, 10) }));
-      const latest = events.reduce((a, b) => (b.date > a.date ? b : a));
-      const age = (reference - Date.parse(latest.date)) / 86_400_000;
+        .filter((event): event is { date: string } => Boolean(event.date))
+        .map((event) => event.date.slice(0, 10));
+      const latest = events.reduce((a, b) => (b > a ? b : a));
+      const age = (reference - Date.parse(latest)) / 86_400_000;
       return {
-        id: p.id,
-        label: p.label,
-        latest,
         period: PERIODS.findIndex((period) => age <= period.maxDays),
-        // "Apresentação de Proposição" is the first step; say it plainly.
-        stage:
-          p.status?.descricaoSituacao ??
-          (p.status?.descricaoTramitacao === "Apresentação de Proposição"
-            ? "Recém-apresentada"
-            : p.status?.descricaoTramitacao),
-        title: p.summary?.title ?? p.label,
-        text: p.summary?.text ?? p.ementa,
-        topic: p.summary?.topic ?? null,
-        search: normalize(
-          `${p.label} ${p.ementa} ${p.summary?.title ?? ""} ${p.summary?.topic ?? ""} ${p.authors.map((a) => a.name).join(" ")}`,
-        ),
+        row: {
+          id: p.id,
+          label: p.label,
+          date: latest,
+          // Without an AI summary the official ementa is the title.
+          title: p.summary?.title ?? p.ementa,
+          // "Apresentação de Proposição" is the first step; the date already says it.
+          stage:
+            p.status?.descricaoSituacao ??
+            (p.status?.descricaoTramitacao === "Apresentação de Proposição"
+              ? null
+              : p.status?.descricaoTramitacao),
+          topic: p.summary?.topic ?? null,
+          search: normalize(
+            `${p.label} ${p.ementa} ${p.summary?.title ?? ""} ${p.summary?.topic ?? ""} ${p.authors.map((a) => a.name).join(" ")}`,
+          ),
+        },
       };
     })
-    .toSorted((a, b) => b.latest.date.localeCompare(a.latest.date));
+    .toSorted((a, b) => b.row.date.localeCompare(a.row.date));
   return {
     collectedAt: portal.collectedAt,
     // "Quem é o meu deputado?": a plain GET form to /deputados/?uf=.
@@ -69,7 +69,9 @@ export function load() {
     total: propositions.length,
     periods: PERIODS.map((period, index) => ({
       title: period.title,
-      propositions: propositions.filter((p) => p.period === index),
+      propositions: propositions
+        .filter((p) => p.period === index)
+        .map((p) => p.row),
     })).filter((period) => period.propositions.length),
   };
 }
