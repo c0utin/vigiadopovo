@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Pompeo de Mattos",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73486"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:42:40.469Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/autores"
+}

@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-05",
+      "dataHoraRegistro": "2026-11-05T11:46:25",
+      "dataHoraUltimaAberturaVotacao": "2026-11-05T11:46:53",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.974, de 2023, da Comissão de Defesa dos Direitos das Pessoas com Deficiência.",
+      "efeitosRegistrados": [],
+      "id": "2412504-60",
+      "idEvento": 83188,
+      "idOrgao": 180,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-12-12T15:44",
+          "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
+          "id": 2412504,
+          "numero": 5974,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do PL n. 5974/2023 (Projeto de Lei), pela Comissão de Legislação Participativa, que \"Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual. \n\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-60",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-60",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:40:38.623Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2412504-60"
+}

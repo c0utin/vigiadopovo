@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T13:44",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2651185,
+      "justificativa": null,
+      "keywords": "obrigatoriedade; presença; Agente de proteção da infância e da juventude; Evento público; Evento de grande porte; Medida de proteção; Criança; Adolescente; Direitos da criança e do adolescente; cumprimento; Princípio da proteção integral da criança e do adolescente",
+      "numero": 5778,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-05T13:44",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5778/2026 (Projeto de Lei), pelo Deputado Leo Prates (REPUBLIC/BA), que \"Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190532",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:40:56.567Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651185"
+}

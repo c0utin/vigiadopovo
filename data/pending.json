@@ -130,5 +130,29 @@
     "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
     "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
+  },
+  {
+    "id": 2651409,
+    "sourceHash": "9b7901ecc1e87d8dbd46ce505634e0a9790d2bc5fe59b2a9b43a9cf2954e7bef",
+    "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409"
+  },
+  {
+    "id": 2651389,
+    "sourceHash": "d5f80bd364de7b68089f99aef900d9b7258e95453ba3d2d8a33dbb58346f2d72",
+    "ementa": "Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389"
+  },
+  {
+    "id": 2651388,
+    "sourceHash": "011286c5550f1cf7852be17e7631c212fd82e70aad9bdda093e99c16c4d42044",
+    "ementa": "Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388"
+  },
+  {
+    "id": 2651340,
+    "sourceHash": "fd2022abd07a704849c8988771e5ea0a885cea110a67e76043836be567086683",
+    "ementa": "Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340"
   }
 ]

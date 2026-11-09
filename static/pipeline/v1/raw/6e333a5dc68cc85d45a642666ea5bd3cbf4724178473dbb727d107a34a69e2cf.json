@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-06T22:56",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
+      "ementaDetalhada": null,
+      "id": 2651340,
+      "justificativa": null,
+      "keywords": "alteração; Lei Maria da Penha (2006); Decisão judicial; Medida protetiva de urgência; Agravo de instrumento; enfrentamento; Violência contra a mulher; Violência doméstica; Violência de gênero; Feminicídio; Interposição de recurso; Prazo recursal; apelação; Agravo interno; Código de Processo Civil (2015)",
+      "numero": 5793,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-06T22:56",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5793/2026 (Projeto de Lei), pela Deputada Laura Carneiro (PSD/RJ), que \"Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha)\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191322",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-09T19:42:57.232Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340"
+}
