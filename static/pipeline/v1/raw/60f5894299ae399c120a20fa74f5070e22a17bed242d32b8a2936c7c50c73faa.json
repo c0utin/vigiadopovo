@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Raimundo Santos",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74084"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:07.899Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/autores"
+}

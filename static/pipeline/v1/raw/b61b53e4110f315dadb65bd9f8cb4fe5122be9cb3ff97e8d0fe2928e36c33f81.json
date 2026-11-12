@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-12T12:48",
+        "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança.",
+        "id": 2653227,
+        "numero": 5840,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-12T12:28",
+        "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais",
+        "id": 2653188,
+        "numero": 5839,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-12T12:07",
+        "ementa": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
+        "id": 2653185,
+        "numero": 5838,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653185"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-12T12:07",
+        "ementa": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário.",
+        "id": 2653184,
+        "numero": 5837,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653184"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-12T11:41",
+        "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
+        "id": 2653179,
+        "numero": 5836,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-12T11:41",
+        "ementa": "Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências.",
+        "id": 2653177,
+        "numero": 5835,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=887&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:03.743Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

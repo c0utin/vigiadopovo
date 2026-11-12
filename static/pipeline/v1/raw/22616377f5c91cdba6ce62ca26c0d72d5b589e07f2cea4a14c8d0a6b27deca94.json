@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 373,
+      "dataApresentacao": "2026-02-03T09:49",
+      "descricaoTipo": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+      "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+      "ementaDetalhada": null,
+      "id": 2600339,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 1,
+      "siglaTipo": "REC",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": null,
+        "codTipoTramitacao": "1245",
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Acessórios",
+        "despacho": "A matéria segue a tramitação inicialmente prevista.",
+        "regime": ".",
+        "sequencia": 18,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3077620",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:30:00.092Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+}

@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-05",
+      "dataHoraRegistro": "2026-11-05T11:20:44",
+      "dataHoraUltimaAberturaVotacao": "2026-11-05T11:20:09",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final, assinada pelo relator, Dep. Aécio Neves (PSDB/MG).",
+      "efeitosRegistrados": [],
+      "id": "2389679-29",
+      "idEvento": 83188,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-05T10:00",
+          "ementa": "Leitura realizada em Plenário pelo Dep. Sargento Fahur (PL/PR) do parecer do Relator pela: • Mesa Diretora da Câmara dos Deputados, que conclui pela pela aprovação do Projeto de Resolução nº 113, de 2023.",
+          "id": 2651122,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651122"
+        },
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-05T00:00",
+          "ementa": "Redação Final ao PRC 113/2023",
+          "id": 2652539,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652539"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-04T20:06",
+          "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
+          "id": 2651085,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651085"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-11-03T18:29",
+          "ementa": "Requer, nos termos do art. 155, do Regimento Interno da Câmara dos Deputados, regime de urgência para a apreciação do Projeto de Resolução 113/2023",
+          "id": 2650080,
+          "numero": 4377,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650080"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 141,
+          "dataApresentacao": "2023-09-21T12:12",
+          "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
+          "id": 2389679,
+          "numero": 113,
+          "siglaTipo": "PRC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-05T11:11:55",
+        "descricao": "Leitura realizada em Plenário pelo Dep. Sargento Fahur (PL/PR) do parecer do Relator pela:\r\n• Mesa Diretora da Câmara dos Deputados, que conclui pela pela aprovação do Projeto de Resolução nº 113, de 2023.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651122"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2389679-29",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83188",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2389679-29",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:42.684Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2389679-29"
+}

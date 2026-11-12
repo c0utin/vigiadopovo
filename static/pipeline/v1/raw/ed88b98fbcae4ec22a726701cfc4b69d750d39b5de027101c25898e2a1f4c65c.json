@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T12:12",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional.",
+      "ementaDetalhada": null,
+      "id": 2651158,
+      "justificativa": null,
+      "keywords": "proibição; Recursos públicos; Contratação pública; financiamento; Artista; Discriminação; Preconceito regional; Xenofobia regional; Discurso de ódio",
+      "numero": 5777,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-05T12:12",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5777/2026 (Projeto de Lei), pelo Deputado Pastor Sargento Isidório (AVANTE/BA), que \"Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190467",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:15.367Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158"
+}

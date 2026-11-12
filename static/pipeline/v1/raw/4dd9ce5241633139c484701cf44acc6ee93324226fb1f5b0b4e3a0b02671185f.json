@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Pedro Lucas Fernandes",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/122974"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:26.000Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/autores"
+}

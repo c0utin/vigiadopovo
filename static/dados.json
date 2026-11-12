@@ -1,12 +1,174 @@
 {
-  "collectedAt": "2026-11-09T19:40:23.605Z",
+  "collectedAt": "2026-11-12T17:29:01.121Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2653227,
+      "label": "PL 5840/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança.",
+      "presentedAt": "2026-11-12T12:48",
+      "status": {
+        "dataHora": "2026-11-12T12:48",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5840/2026 (Projeto de Lei), pelo Deputado Fábio Teruel (MDB/SP), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança\"."
+      },
+      "authors": [
+        {
+          "name": "Fábio Teruel",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653227",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194712",
+      "votes": [],
+      "sourceHash": "ba70f6dd69ed4c4ec7c24097bf957b64d61825c8ecc874621970e56c621a8eba",
+      "summary": null
+    },
+    {
+      "id": 2653188,
+      "label": "PL 5839/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais",
+      "presentedAt": "2026-11-12T12:28",
+      "status": {
+        "dataHora": "2026-11-12T12:28",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5839/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais\"."
+      },
+      "authors": [
+        {
+          "name": "Aureo Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653188",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194641",
+      "votes": [],
+      "sourceHash": "3dfe451577655200a993ac940db6031a1712ccaadea6fd5e7d50c71f468e1772",
+      "summary": null
+    },
+    {
+      "id": 2653185,
+      "label": "PL 5838/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
+      "presentedAt": "2026-11-12T12:07",
+      "status": {
+        "dataHora": "2026-11-12T12:07",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5838/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário\"."
+      },
+      "authors": [
+        {
+          "name": "Aureo Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653185",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653185",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194628",
+      "votes": [],
+      "sourceHash": "f0c39a14f9e7567a6b25f24a60bf59e4193f9cc6ac40f650e4594497bb16c1a4",
+      "summary": null
+    },
+    {
+      "id": 2653184,
+      "label": "PL 5837/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário.",
+      "presentedAt": "2026-11-12T12:07",
+      "status": {
+        "dataHora": "2026-11-12T12:07",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5837/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário\"."
+      },
+      "authors": [
+        {
+          "name": "Aureo Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653184",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653184",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194626",
+      "votes": [],
+      "sourceHash": "fa87fec548c8b81db94c6b15c4711729d7fbd245cf4bdb5efeb9f0494a2ec7d3",
+      "summary": null
+    },
+    {
+      "id": 2653179,
+      "label": "PL 5836/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
+      "presentedAt": "2026-11-12T11:41",
+      "status": {
+        "dataHora": "2026-11-12T11:41",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5836/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais\"."
+      },
+      "authors": [
+        {
+          "name": "Aureo Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653179",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194621",
+      "votes": [],
+      "sourceHash": "c6bf9674afa3d0a6ab5f0e343f8edee3390f7d5f8c1233fdf16de67905a11a1c",
+      "summary": null
+    },
+    {
+      "id": 2653177,
+      "label": "PL 5835/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências.",
+      "presentedAt": "2026-11-12T11:41",
+      "status": {
+        "dataHora": "2026-11-12T11:41",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5835/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências\"."
+      },
+      "authors": [
+        {
+          "name": "Aureo Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653177",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194618",
+      "votes": [],
+      "sourceHash": "67d179033df4997f0fdca1a5f68eb079752db78cef1f1240ecd545e0a42bdb2e",
+      "summary": null
+    },
     {
       "id": 2651409,
       "label": "PL 5796/2026",
       "type": "Projeto de Lei",
-      "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue.",
+      "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue",
       "presentedAt": "2026-11-09T12:26",
       "status": {
         "dataHora": "2026-11-09T12:26",
@@ -39,7 +201,7 @@
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191441",
       "votes": [],
-      "sourceHash": "9b7901ecc1e87d8dbd46ce505634e0a9790d2bc5fe59b2a9b43a9cf2954e7bef",
+      "sourceHash": "2620f97c0595f865cc5c289563b0ff15e0bbb71ceda59f6183e9c56b862955c2",
       "summary": null
     },
     {
@@ -61,7 +223,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651389",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3191415",
@@ -942,11 +1117,11 @@
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
       "presentedAt": "2026-10-13T13:26",
       "status": {
-        "dataHora": "2026-11-05T15:38",
-        "descricaoSituacao": "Aguardando Designação de Relator(a)",
-        "descricaoTramitacao": "Recebimento",
-        "siglaOrgao": "CSPCCO",
-        "despacho": "Recebimento pelo(a) CSPCCO."
+        "dataHora": "2026-11-11T13:32",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Recebimento - Relator(a)",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PRLP n. 1 PLEN (Parecer Preliminar de Plenário), pela Deputada Iza Arruda (MDB/PE)."
       },
       "authors": [
         {
@@ -1004,11 +1179,11 @@
       "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
       "presentedAt": "2026-07-22T00:00",
       "status": {
-        "dataHora": "2026-11-05T00:00",
-        "descricaoSituacao": null,
-        "descricaoTramitacao": "Aprovação do Parecer",
-        "siglaOrgao": "CN",
-        "despacho": "Aprovado o parecer na Comissão Mista"
+        "dataHora": "2026-11-11T00:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Publicação de Proposição",
+        "siglaOrgao": "CCP",
+        "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 12/11/2026."
       },
       "authors": [
         {
@@ -1041,6 +1216,27 @@
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3166455",
       "votes": [
         {
+          "id": "2641546-20",
+          "date": "2026-11-10",
+          "description": "Aprovada a Redação Final.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-20"
+        },
+        {
+          "id": "2641546-18",
+          "date": "2026-11-10",
+          "description": "Aprovada a Medida Provisória nº 1.379 de 2026, na forma do Projeto de Lei de Conversão.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-18"
+        },
+        {
+          "id": "2641546-16",
+          "date": "2026-11-10",
+          "description": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista, na parte em que manifesta opinião favorável quanto ao atendimento dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16"
+        },
+        {
           "id": "2641546-7",
           "date": "2026-11-05",
           "description": "Aprovado o parecer na Comissão Mista",
@@ -1058,11 +1254,11 @@
       "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
       "presentedAt": "2026-07-07T09:17",
       "status": {
-        "dataHora": "2026-11-05T00:00",
-        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
-        "descricaoTramitacao": "Recebimento - Redação Final",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Hildo Rocha (MDB/MA)."
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 250/2026/SGM-P."
       },
       "authors": [
         {
@@ -1118,6 +1314,74 @@
         }
       ],
       "sourceHash": "e78cf3c64f9430ea327201937e8109f840aa0ee6f0f77370cae39b55dbb65e3e",
+      "summary": null
+    },
+    {
+      "id": 2629310,
+      "label": "PDL 557/2026",
+      "type": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
+      "presentedAt": "2026-05-29T16:11",
+      "status": {
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A matéria vai ao Senado Federal (PDL 557-B/2026)."
+      },
+      "authors": [
+        {
+          "name": "Comissão de Relações Exteriores e de Defesa Nacional",
+          "type": "COMISSÃO PERMANENTE"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:48",
+          "name": "Meio Ambiente e Desenvolvimento Sustentável",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:61",
+          "name": "Viação, Transporte e Mobilidade",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629310",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3139887",
+      "votes": [
+        {
+          "id": "2629310-44",
+          "date": "2026-11-11",
+          "description": "Aprovada a Redação Final assinada pelo relator, Dep. Afonso Florence (PT-BA).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-44"
+        },
+        {
+          "id": "2629310-42",
+          "date": "2026-11-11",
+          "description": "Aprovado o Projeto de Decreto Legislativo nº 557, de 2026.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-42"
+        },
+        {
+          "id": "2629310-24",
+          "date": "2026-11-04",
+          "description": "Aprovado o Parecer.",
+          "organ": "CVT",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24"
+        }
+      ],
+      "sourceHash": "b4876dea4103a7de20b1f9ce6a2ac3d701afb2a17ecbee532df51d7a4b32f1ef",
       "summary": null
     },
     {
@@ -1266,11 +1530,11 @@
       "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
       "presentedAt": "2026-04-16T18:00",
       "status": {
-        "dataHora": "2026-11-04T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria retorna ao Senado Federal (PL 3220-A/2019)."
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Expedição de Documento",
+        "siglaOrgao": "MESA",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 247/2026/SGM-P."
       },
       "authors": [
         {
@@ -1477,17 +1741,403 @@
       }
     },
     {
+      "id": 2602370,
+      "label": "PL 464/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+      "presentedAt": "2026-02-11T10:15",
+      "status": {
+        "dataHora": "2026-11-12T09:34",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento",
+        "siglaOrgao": "CCJC",
+        "despacho": "Recebimento pelo(a) CCJC."
+      },
+      "authors": [
+        {
+          "name": "Eriberto Medeiros",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602370",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3081501",
+      "votes": [
+        {
+          "id": "2602370-38",
+          "date": "2026-11-11",
+          "description": "Aprovado o Substitutivo ao Projeto de Lei nº 464, de 2026, da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38"
+        },
+        {
+          "id": "2602370-28",
+          "date": "2026-07-15",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28"
+        },
+        {
+          "id": "2602370-19",
+          "date": "2026-05-27",
+          "description": "Aprovado o Parecer.",
+          "organ": "CIDOSO",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19"
+        }
+      ],
+      "sourceHash": "58b03f29295afb14adaf33d86303b530cd191db8349d3ac0b71b19da60354bb6",
+      "summary": null
+    },
+    {
+      "id": 2600339,
+      "label": "REC 1/2026",
+      "type": "Recurso contra apreciação conclusiva de comissão (Art. 58, § 1º c/c art. 132, § 2º, RICD)",
+      "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+      "presentedAt": "2026-02-03T09:49",
+      "status": {
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Acessórios",
+        "siglaOrgao": "PLEN",
+        "despacho": "A matéria segue a tramitação inicialmente prevista."
+      },
+      "authors": [
+        {
+          "name": "Alberto Fraga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Aluisio Mendes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bia Kicis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bibo Nunes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cabo Gilberto Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Alberto Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Alden",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Capitão Augusto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Jordy",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chris Tonietto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Clarissa Tércio",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Cobalchini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Assis",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Chrisóstomo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Fernanda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Coronel Ulysses",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Freitas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniela Reinehr",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Caveira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Éder Mauro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Marcelo Freitas",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Paulo Bilynskyj",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Frederico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Jaziel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Evair Vieira de Melo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Felipe Francischini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernando Rodolfo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "General Girão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "General Pazuello",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilson Marques",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilvan da Federal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Giovani Cherini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gustavo Gayer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jefferson Campos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Joaquim Passarinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Medeiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Julia Zanatta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Junio Amaral",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kim Kataguiri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lincoln Portela",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Carlos Motta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Philippe de Orleans e Bragança",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcelo Moraes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcio Alvino",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mario Frias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mauricio do Vôlei",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Mauricio Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Messias Donato",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nelson Barbudo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nicoletti",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nikolas Ferreira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Osmar Terra",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padovani",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Eurico",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Lupion",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Westphalen",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pr. Marco Feliciano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professor Alcides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reinhold Stephanes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Roberta Roma",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rodrigo da Zaeli",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rosangela Moro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Fahur",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sargento Gonçalves",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sergio Souza",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Soraya Santos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sóstenes Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vermelho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Wellington Roberto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Trovão",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600339",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3077620",
+      "votes": [
+        {
+          "id": "2600339-18",
+          "date": "2026-11-11",
+          "description": "Rejeitado o Requerimento.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18"
+        },
+        {
+          "id": "2600339-15",
+          "date": "2026-11-11",
+          "description": "Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15"
+        }
+      ],
+      "sourceHash": "984389f36e0b343bbd218c8b60747732f99849807ba9cbb3341b9ceed265c9e9",
+      "summary": null
+    },
+    {
       "id": 2584437,
       "label": "PL 5815/2025",
       "type": "Projeto de Lei",
       "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
       "presentedAt": "2025-11-12T11:12",
       "status": {
-        "dataHora": "2026-11-04T00:00",
-        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
-        "descricaoTramitacao": "Recebimento - Redação Final",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Waldemar Oliveira (AVANTE/PE)."
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 248/2026/SGM-P."
       },
       "authors": [
         {
@@ -1579,11 +2229,11 @@
       "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
       "presentedAt": "2025-07-01T19:47",
       "status": {
-        "dataHora": "2026-11-04T00:00",
-        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
-        "descricaoTramitacao": "Recebimento - Redação Final",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pela Deputada Lídice da Mata (PSB/BA)."
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 246/2026/SGM-P."
       },
       "authors": [
         {
@@ -1640,6 +2290,102 @@
         }
       ],
       "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
+      "summary": null
+    },
+    {
+      "id": 2515534,
+      "label": "PL 2475/2025",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+      "presentedAt": "2025-05-22T15:13",
+      "status": {
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Desapensação",
+        "siglaOrgao": "MESA",
+        "despacho": "Desapensação do Projeto de Lei nº 4.151, de 2025, apensado, em face da aprovação, em Plenário, da Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania. (Sessão Deliberativa Extraordinária Semipresencial de 11/11/2026 - 13:55 - 179ª Sessão)"
+      },
+      "authors": [
+        {
+          "name": "Célio Studart",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegado Bruno Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Ismael Alexandrino",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Felipe Becari",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Laura Carneiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcelo Queiroz",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:41",
+          "name": "Cidades e Desenvolvimento Urbano",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515534",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2916380",
+      "votes": [
+        {
+          "id": "2515534-69",
+          "date": "2026-11-11",
+          "description": "Aprovada a Redação Final assinada pelo relator,  Delegado Matheus Laiola (UNIÃO/PR).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-69"
+        },
+        {
+          "id": "2515534-66",
+          "date": "2026-11-11",
+          "description": "Aprovada a Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-66"
+        },
+        {
+          "id": "2515534-31",
+          "date": "2026-03-17",
+          "description": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "organ": "CCP",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31"
+        },
+        {
+          "id": "2515534-30",
+          "date": "2026-03-17",
+          "description": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "organ": "CCP",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-30"
+        },
+        {
+          "id": "2600130-7",
+          "date": "2026-03-17",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7"
+        }
+      ],
+      "sourceHash": "c303f624a22a6aa1f3608ac44d6b89fa6db2037f3e6262b4531580652c010e9d",
       "summary": null
     },
     {
@@ -2490,11 +3236,11 @@
       "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
       "presentedAt": "2023-12-06T16:20",
       "status": {
-        "dataHora": "2026-11-04T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 5.902-B/2023)."
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "siglaOrgao": "MESA",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 245/2026/SGM-P."
       },
       "authors": [
         {
@@ -2553,11 +3299,11 @@
       "ementa": "Dá ao túnel que conecta os anexos II e IV da Câmara dos Deputados a denominação José Richa.",
       "presentedAt": "2023-09-21T12:12",
       "status": {
-        "dataHora": "2026-11-05T10:00",
-        "descricaoSituacao": "Pronta para Pauta",
-        "descricaoTramitacao": "Acessórios",
-        "siglaOrgao": "PLEN",
-        "despacho": "Promulgada a Resolução nº 38/2026."
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Expedição de Documento",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do Autógrafo."
       },
       "authors": [
         {
@@ -2606,6 +3352,229 @@
         }
       ],
       "sourceHash": "447773991efe6cdf482988748431bb22692931311a754fc7bce213ba5b5f662e",
+      "summary": null
+    },
+    {
+      "id": 2338753,
+      "label": "PL 2812/2022",
+      "type": "Projeto de Lei",
+      "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+      "presentedAt": "2022-11-18T14:36",
+      "status": {
+        "dataHora": "2026-11-11T18:30",
+        "descricaoSituacao": "Aguardando Deliberação de Recurso",
+        "descricaoTramitacao": "Notificações",
+        "siglaOrgao": "PLEN",
+        "despacho": "11/11/2026Plenário - PLEN13:55 Sessão Deliberativa Extraordinária Semipresencial (AM nº 123/2020)Matéria sobre a Mesa.Votação do Requerimento da Dep. Julia Zanatta, que solicita a retirada de pauta deste Projeto de Lei.Rejeitado o Requerimento.Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).A matéria segue a tramitação inicialmente prevista."
+      },
+      "authors": [
+        {
+          "name": "Fernanda Melchionna",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sâmia Bomfim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vivi Reis",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2338753",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2216469",
+      "votes": [
+        {
+          "id": "2600339-18",
+          "date": "2026-11-11",
+          "description": "Rejeitado o Requerimento.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18"
+        },
+        {
+          "id": "2600339-15",
+          "date": "2026-11-11",
+          "description": "Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15"
+        },
+        {
+          "id": "2338753-88",
+          "date": "2025-12-03",
+          "description": "Aprovado o Parecer com o seguinte resultado: 37 votos \"Sim\", 28 votos \"Não\". Quórum de votação: 65 votos, apresentaram votos em separado os Deputados Rosangela Moro e Capitão Alden.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-88"
+        },
+        {
+          "id": "2338753-82",
+          "date": "2025-12-03",
+          "description": "Aprovado o Requerimento de Encerramento de Discussão, de autoria da Deputada Laura Carneiro. Encerrada a discussão.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82"
+        },
+        {
+          "id": "2338753-75",
+          "date": "2025-12-03",
+          "description": "Rejeitado o Requerimento de Retirada de Pauta. Resultado:  25 votos \"Sim\", 31 votos \"Não\". Quórum de votação: 56 votos.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-75"
+        },
+        {
+          "id": "2545901-2",
+          "date": "2025-08-19",
+          "description": "Aprovado o Requerimento.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2"
+        },
+        {
+          "id": "2338753-40",
+          "date": "2024-11-13",
+          "description": "Aprovado o Parecer.",
+          "organ": "CPASF",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40"
+        },
+        {
+          "id": "2373406-2",
+          "date": "2023-08-02",
+          "description": "Aprovado.",
+          "organ": "CPASF",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2"
+        },
+        {
+          "id": "2366492-2",
+          "date": "2023-06-14",
+          "description": "Aprovado.",
+          "organ": "CSAUDE",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2"
+        },
+        {
+          "id": "2338753-73",
+          "date": "2025-11-28",
+          "description": "Apresentação do VTS n. 2 CCJC (Voto em Separado), pelo Deputado Capitão Alden (PL/BA).",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73"
+        }
+      ],
+      "sourceHash": "43a75e75053da46ef12a3ab31db9f516750ac064bd3912486139c4eb227ea495",
+      "summary": null
+    },
+    {
+      "id": 2270540,
+      "label": "PL 504/2021",
+      "type": "Projeto de Lei",
+      "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+      "presentedAt": "2021-02-19T17:13",
+      "status": {
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A matéria vai ao Senado Federal (PL 504-B/2021)."
+      },
+      "authors": [
+        {
+          "name": "Alexandre Padilha",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2270540",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1964794",
+      "votes": [
+        {
+          "id": "2270540-88",
+          "date": "2026-11-11",
+          "description": "Aprovada a Redação Final assinada pela relatora, Dep. Ana Pimentel (PT-MG).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88"
+        },
+        {
+          "id": "2270540-87",
+          "date": "2026-11-11",
+          "description": "Aprovado o Substitutivo ao Projeto de Lei nº 504, de 2021, adotado pela relatora da Comissão de Saúde.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-87"
+        },
+        {
+          "id": "2270540-65",
+          "date": "2026-11-03",
+          "description": "Realizar o encaminhamento do PL-504/2021 à CFT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "organ": "CCP",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-65"
+        },
+        {
+          "id": "2270540-64",
+          "date": "2026-11-03",
+          "description": "Realizar o encaminhamento do PL-504/2021 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "organ": "CCP",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-64"
+        },
+        {
+          "id": "2632454-7",
+          "date": "2026-11-03",
+          "description": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7"
+        },
+        {
+          "id": "2497011-2",
+          "date": "2025-04-23",
+          "description": "Aprovado o Requerimento.",
+          "organ": "CSAUDE",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2"
+        },
+        {
+          "id": "2270540-37",
+          "date": "2021-09-08",
+          "description": "Aprovado o Parecer, com os votos contrários dos Deputados Diego Garcia e Tiago Mitraud.",
+          "organ": "CE",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-37"
+        },
+        {
+          "id": "2270540-36",
+          "date": "2021-09-08",
+          "description": "Rejeitado o Requerimento de Retirada de Pauta.",
+          "organ": "CE",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36"
+        },
+        {
+          "id": "2270540-24",
+          "date": "2021-06-30",
+          "description": "Rejeitado o Requerimento de Retirada de Pauta, contra os votos dos Deputados Tiago Mitraud, General Peternelli e Professor Alcides.",
+          "organ": "CE",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-24"
+        }
+      ],
+      "sourceHash": "f9feea422f27c12de17657e939a9ad9e1b47ed156e101a22c2b189225d4c3125",
       "summary": null
     },
     {
@@ -2677,11 +3646,11 @@
       "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
       "presentedAt": "2019-05-22T19:59",
       "status": {
-        "dataHora": "2026-11-06T09:48",
-        "descricaoSituacao": "Aguardando Encaminhamento",
-        "descricaoTramitacao": "Recebimento",
-        "siglaOrgao": "CCJC",
-        "despacho": "Recebimento pelo(a) CCJC."
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Eduardo Bismarck (PV/CE -Fdr PT-PCdoB-PV)."
       },
       "authors": [
         {
@@ -2701,6 +3670,20 @@
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1751589",
       "votes": [
+        {
+          "id": "2204495-108",
+          "date": "2026-11-10",
+          "description": "Aprovada a Redação Final assinada pelo relator, Dep. Eduardo Bismarck (PV-CE).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108"
+        },
+        {
+          "id": "2204495-106",
+          "date": "2026-11-10",
+          "description": "Aprovado o Substitutivo do Senado Federal ao Projeto de Lei nº 3.099, de 2019.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-106"
+        },
         {
           "id": "2645996-7",
           "date": "2026-10-28",

@@ -1,0 +1,117 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2024-11-13",
+      "dataHoraRegistro": "2024-11-13T17:09:35",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2338753-40",
+      "idEvento": 74651,
+      "idOrgao": 539387,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-11-13T13:00",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2469094,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2469094"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-11-13T13:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2469070,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2469070"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-10-30T13:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2465560,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2465560"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2024-10-11T18:07",
+          "ementa": "Altera a Lei de n° 13.105, de março de 2015, revoga a Lei nº 12.318, de 26 de agosto de 2010, e dá outras providências",
+          "id": 2462209,
+          "numero": 2,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2462209"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-10-11T17:37",
+          "ementa": "Parecer do Relator, Dep. Pastor Eurico (PL-PE), pela aprovação do PL 2812/2022 e do PL 642/2024, apensado, com substitutivo.",
+          "id": 2462208,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2462208"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2024-06-11T12:01",
+          "ementa": "Revoga a Lei nº 12.318, de 26 de agosto de 2010, e dá outras providências",
+          "id": 2439533,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2439533"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-06-10T15:42",
+          "ementa": "Parecer do Relator, Dep. Pastor Eurico (PL-PE), pela aprovação do PL 2812/2022 e do PL 642/2024, apensado, com substitutivo.",
+          "id": 2439530,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2439530"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        }
+      ],
+      "siglaOrgao": "CPASF",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2024-10-11T18:08:34",
+        "descricao": "Parecer do Relator, Dep. Pastor Eurico (PL-PE), pela aprovação do PL 2812/2022 e do PL 642/2024, apensado, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2462208"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/74651",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539387"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:59.144Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40"
+}

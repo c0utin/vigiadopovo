@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-07-07T09:17",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Reconhece o artesanato tradicional do Estado do Maranhão como manifestação da cultura nacional.",
+      "ementaDetalhada": "",
+      "id": 2637478,
+      "justificativa": null,
+      "keywords": "Reconhecimento, artesanato, Maranhão, manifestação cultural, Conhecimento tradicional, valorização, Economia criativa.",
+      "numero": 3507,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 250/2026/SGM-P.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 37,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178884",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190624"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3157723",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:25.791Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478"
+}

@@ -1,8 +1,98 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-09T19:40:23.605Z",
+  "collectedAt": "2026-11-12T17:29:01.121Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2651409,
+      "label": "PL 5796/2026",
+      "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651409",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2651389,
+      "label": "PL 5795/2026",
+      "ementa": "Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651389",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651389/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2651388,
+      "label": "PL 5794/2026",
+      "ementa": "Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651388",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:48",
+          "name": "Meio Ambiente e Desenvolvimento Sustentável",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2651340,
+      "label": "PL 5793/2026",
+      "ementa": "Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651340",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:76",
+          "name": "Direito e Justiça",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
     {
       "id": 2651275,
       "label": "PL 5788/2026",
@@ -448,6 +538,9 @@
         }
       ],
       "votingIds": [
+        "2641546-20",
+        "2641546-18",
+        "2641546-16",
         "2641546-7"
       ]
     },
@@ -823,6 +916,8 @@
         }
       ],
       "votingIds": [
+        "2204495-108",
+        "2204495-106",
         "2645996-7",
         "2204495-72",
         "2204495-54",
@@ -830,84 +925,246 @@
       ]
     },
     {
-      "id": 2651409,
-      "label": "PL 5796/2026",
-      "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651409",
+      "id": 2653227,
+      "label": "PL 5840/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653227",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653188,
+      "label": "PL 5839/2026",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653188",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653185,
+      "label": "PL 5838/2026",
+      "ementa": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653185",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653184,
+      "label": "PL 5837/2026",
+      "ementa": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653184",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653179,
+      "label": "PL 5836/2026",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653179",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653177,
+      "label": "PL 5835/2026",
+      "ementa": "Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653177",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2515534,
+      "label": "PL 2475/2025",
+      "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2515534",
       "labels": [
+        {
+          "id": "camara:tema:41",
+          "name": "Cidades e Desenvolvimento Urbano",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/temas",
+          "relevance": 0
+        },
         {
           "id": "camara:tema:43",
           "name": "Direito Penal e Processual Penal",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2515534-69",
+        "2515534-66",
+        "2515534-31",
+        "2515534-30",
+        "2600130-7"
+      ]
+    },
+    {
+      "id": 2270540,
+      "label": "PL 504/2021",
+      "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2270540",
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/temas",
           "relevance": 0
         },
         {
           "id": "camara:tema:56",
           "name": "Saúde",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651409/temas",
-          "relevance": 1
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/temas",
+          "relevance": 0
         }
       ],
-      "votingIds": []
+      "votingIds": [
+        "2270540-88",
+        "2270540-87",
+        "2270540-65",
+        "2270540-64",
+        "2632454-7",
+        "2497011-2",
+        "2270540-37",
+        "2270540-36",
+        "2270540-24"
+      ]
     },
     {
-      "id": 2651389,
-      "label": "PL 5795/2026",
-      "ementa": "Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651389",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2651388,
-      "label": "PL 5794/2026",
-      "ementa": "Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651388",
+      "id": 2629310,
+      "label": "PDL 557/2026",
+      "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2629310",
       "labels": [
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
-          "relevance": 2
-        },
         {
           "id": "camara:tema:48",
           "name": "Meio Ambiente e Desenvolvimento Sustentável",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/temas",
           "relevance": 0
         },
         {
-          "id": "camara:tema:57",
-          "name": "Defesa e Segurança",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651388/temas",
-          "relevance": 1
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:61",
+          "name": "Viação, Transporte e Mobilidade",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/temas",
+          "relevance": 0
         }
       ],
-      "votingIds": []
+      "votingIds": [
+        "2629310-44",
+        "2629310-42",
+        "2629310-24"
+      ]
     },
     {
-      "id": 2651340,
-      "label": "PL 5793/2026",
-      "ementa": "Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2651340",
+      "id": 2602370,
+      "label": "PL 464/2026",
+      "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602370",
       "labels": [
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/temas",
+          "relevance": 0
+        },
         {
           "id": "camara:tema:44",
           "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/temas",
           "relevance": 0
-        },
-        {
-          "id": "camara:tema:76",
-          "name": "Direito e Justiça",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651340/temas",
-          "relevance": 1
         }
       ],
-      "votingIds": []
+      "votingIds": [
+        "2602370-38",
+        "2602370-28",
+        "2602370-19"
+      ]
+    },
+    {
+      "id": 2338753,
+      "label": "PL 2812/2022",
+      "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2338753",
+      "labels": [
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2600339-18",
+        "2600339-15",
+        "2338753-88",
+        "2338753-82",
+        "2338753-75",
+        "2545901-2",
+        "2338753-40",
+        "2373406-2",
+        "2366492-2",
+        "2338753-73"
+      ]
+    },
+    {
+      "id": 2600339,
+      "label": "REC 1/2026",
+      "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2600339",
+      "labels": [],
+      "votingIds": [
+        "2600339-18",
+        "2600339-15"
+      ]
     }
   ],
   "votings": [
+    {
+      "id": "2204495-106",
+      "date": "2026-11-10",
+      "description": "Aprovado o Substitutivo do Senado Federal ao Projeto de Lei nº 3.099, de 2019.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-106",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-106/votos",
+      "approval": 1,
+      "propositionIds": [
+        2204495
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2204495-108",
+      "date": "2026-11-10",
+      "description": "Aprovada a Redação Final assinada pelo relator, Dep. Eduardo Bismarck (PV-CE).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108/votos",
+      "approval": 1,
+      "propositionIds": [
+        2204495
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
     {
       "id": "2204495-37",
       "date": "2024-06-05",
@@ -988,6 +1245,1293 @@
       "approval": 1,
       "propositionIds": [
         2238560
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-24",
+      "date": "2021-06-30",
+      "description": "Rejeitado o Requerimento de Retirada de Pauta, contra os votos dos Deputados Tiago Mitraud, General Peternelli e Professor Alcides.",
+      "organ": "CE",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-24",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-24/votos",
+      "approval": 0,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-36",
+      "date": "2021-09-08",
+      "description": "Rejeitado o Requerimento de Retirada de Pauta.",
+      "organ": "CE",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36/votos",
+      "approval": 0,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-37",
+      "date": "2021-09-08",
+      "description": "Aprovado o Parecer, com os votos contrários dos Deputados Diego Garcia e Tiago Mitraud.",
+      "organ": "CE",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-37",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-37/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-64",
+      "date": "2026-11-03",
+      "description": "Realizar o encaminhamento do PL-504/2021 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "organ": "CCP",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-64",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-64/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-65",
+      "date": "2026-11-03",
+      "description": "Realizar o encaminhamento do PL-504/2021 à CFT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "organ": "CCP",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-65",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-65/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-87",
+      "date": "2026-11-11",
+      "description": "Aprovado o Substitutivo ao Projeto de Lei nº 504, de 2021, adotado pela relatora da Comissão de Saúde.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-87",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-87/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2270540-88",
+      "date": "2026-11-11",
+      "description": "Aprovada a Redação Final assinada pela relatora, Dep. Ana Pimentel (PT-MG).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2338753-40",
+      "date": "2024-11-13",
+      "description": "Aprovado o Parecer.",
+      "organ": "CPASF",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2338753-73",
+      "date": "2025-11-28",
+      "description": "Apresentação do VTS n. 2 CCJC (Voto em Separado), pelo Deputado Capitão Alden (PL/BA).",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73/votos",
+      "approval": 0,
+      "propositionIds": [
+        2338753
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2338753-75",
+      "date": "2025-12-03",
+      "description": "Rejeitado o Requerimento de Retirada de Pauta. Resultado:  25 votos \"Sim\", 31 votos \"Não\". Quórum de votação: 56 votos.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-75",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-75/votos",
+      "approval": 0,
+      "propositionIds": [
+        2338753
+      ],
+      "ballotCoverage": "recorded-votes",
+      "ballots": [
+        {
+          "deputyId": 73768,
+          "name": "Dilceu Sperafico",
+          "party": "PP",
+          "state": "PR",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74041,
+          "name": "Luiz Couto",
+          "party": "PT",
+          "state": "PB",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74160,
+          "name": "Patrus Ananias",
+          "party": "PT",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74398,
+          "name": "Maria do Rosário",
+          "party": "PT",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74537,
+          "name": "Claudio Cajado",
+          "party": "PP",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74554,
+          "name": "José Rocha",
+          "party": "UNIÃO",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74574,
+          "name": "Paulo Magalhães",
+          "party": "PSD",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 74856,
+          "name": "Laura Carneiro",
+          "party": "PSD",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 91228,
+          "name": "Waldemar Oliveira",
+          "party": "AVANTE",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 92102,
+          "name": "Leur Lomanto Júnior",
+          "party": "UNIÃO",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 123086,
+          "name": "Átila Lira",
+          "party": "PP",
+          "state": "PI",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 141470,
+          "name": "José Guimarães",
+          "party": "PT",
+          "state": "CE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 143632,
+          "name": "Domingos Neto",
+          "party": "PSD",
+          "state": "CE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 153423,
+          "name": "Renilce Nicodemos",
+          "party": "MDB",
+          "state": "PA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 160642,
+          "name": "Pastor Eurico",
+          "party": "PL",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178873,
+          "name": "Helder Salomão",
+          "party": "PT",
+          "state": "ES",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178881,
+          "name": "Aluisio Mendes",
+          "party": "REPUBLICANOS",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178887,
+          "name": "Rubens Pereira Júnior",
+          "party": "PT",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178908,
+          "name": "Delegado Éder Mauro",
+          "party": "PL",
+          "state": "PA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178929,
+          "name": "Diego Garcia",
+          "party": "REPUBLICANOS",
+          "state": "PR",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178986,
+          "name": "Nilto Tatto",
+          "party": "PT",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 178987,
+          "name": "Orlando Silva",
+          "party": "PCdoB",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204367,
+          "name": "Daniel Freitas",
+          "party": "PL",
+          "state": "SC",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204374,
+          "name": "Bia Kicis",
+          "party": "PL",
+          "state": "DF",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204395,
+          "name": "Pedro Lupion",
+          "party": "REPUBLICANOS",
+          "state": "PR",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204404,
+          "name": "Lucas Redecker",
+          "party": "PSDB",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204407,
+          "name": "Fernanda Melchionna",
+          "party": "PSOL",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204427,
+          "name": "Fernando Rodolfo",
+          "party": "PL",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204460,
+          "name": "Carlos Jordy",
+          "party": "PL",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204474,
+          "name": "Juarez Costa",
+          "party": "MDB",
+          "state": "MT",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204481,
+          "name": "Dr. Jaziel",
+          "party": "PL",
+          "state": "CE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204512,
+          "name": "Delegado Marcelo Freitas",
+          "party": "UNIÃO",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204526,
+          "name": "Luiz Philippe de Orleans e Bragança",
+          "party": "PL",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204534,
+          "name": "Tabata Amaral",
+          "party": "PSB",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204557,
+          "name": "Sidney Leite",
+          "party": "PSD",
+          "state": "AM",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204566,
+          "name": "Marreca Filho",
+          "party": "PRD",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 204572,
+          "name": "Capitão Alberto Neto",
+          "party": "PL",
+          "state": "AM",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 209787,
+          "name": "Nikolas Ferreira",
+          "party": "PL",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220536,
+          "name": "Zé Haroldo Cathedral",
+          "party": "PSD",
+          "state": "RR",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220539,
+          "name": "Defensor Stélio Dener",
+          "party": "REPUBLICANOS",
+          "state": "RR",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220543,
+          "name": "Ricardo Ayres",
+          "party": "REPUBLICANOS",
+          "state": "TO",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220550,
+          "name": "Mauricio Marcon",
+          "party": "PODE",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220555,
+          "name": "Daiana Santos",
+          "party": "PCdoB",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220556,
+          "name": "Ana Paula Lima",
+          "party": "PT",
+          "state": "SC",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220558,
+          "name": "Zé Trovão",
+          "party": "PL",
+          "state": "SC",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220574,
+          "name": "Cabo Gilberto Silva",
+          "party": "PL",
+          "state": "PB",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220583,
+          "name": "Delegado Fabio Costa",
+          "party": "PP",
+          "state": "AL",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220594,
+          "name": "Coronel Assis",
+          "party": "UNIÃO",
+          "state": "MT",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220615,
+          "name": "Pastor Henrique Vieira",
+          "party": "PSOL",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220623,
+          "name": "Duda Salabert",
+          "party": "PDT",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220644,
+          "name": "Rosangela Moro",
+          "party": "UNIÃO",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220654,
+          "name": "Delegado Paulo Bilynskyj",
+          "party": "PL",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220667,
+          "name": "Pedro Campos",
+          "party": "PSB",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220668,
+          "name": "Maria Arraes",
+          "party": "SOLIDARIEDADE",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 220690,
+          "name": "Capitão Alden",
+          "party": "PL",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T11:53:58"
+        },
+        {
+          "deputyId": 226179,
+          "name": "Gisela Simona",
+          "party": "UNIÃO",
+          "state": "MT",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T11:53:58"
+        }
+      ]
+    },
+    {
+      "id": "2338753-82",
+      "date": "2025-12-03",
+      "description": "Aprovado o Requerimento de Encerramento de Discussão, de autoria da Deputada Laura Carneiro. Encerrada a discussão.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2338753-88",
+      "date": "2025-12-03",
+      "description": "Aprovado o Parecer com o seguinte resultado: 37 votos \"Sim\", 28 votos \"Não\". Quórum de votação: 65 votos, apresentaram votos em separado os Deputados Rosangela Moro e Capitão Alden.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-88",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-88/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
+      ],
+      "ballotCoverage": "recorded-votes",
+      "ballots": [
+        {
+          "deputyId": 66828,
+          "name": "Fausto Pinato",
+          "party": "PP",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 73486,
+          "name": "Pompeo de Mattos",
+          "party": "PDT",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 73768,
+          "name": "Dilceu Sperafico",
+          "party": "PP",
+          "state": "PR",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 74041,
+          "name": "Luiz Couto",
+          "party": "PT",
+          "state": "PB",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 74160,
+          "name": "Patrus Ananias",
+          "party": "PT",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 74398,
+          "name": "Maria do Rosário",
+          "party": "PT",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 74554,
+          "name": "José Rocha",
+          "party": "UNIÃO",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 74574,
+          "name": "Paulo Magalhães",
+          "party": "PSD",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 74856,
+          "name": "Laura Carneiro",
+          "party": "PSD",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 91228,
+          "name": "Waldemar Oliveira",
+          "party": "AVANTE",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 92102,
+          "name": "Leur Lomanto Júnior",
+          "party": "UNIÃO",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 123086,
+          "name": "Átila Lira",
+          "party": "PP",
+          "state": "PI",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 143632,
+          "name": "Domingos Neto",
+          "party": "PSD",
+          "state": "CE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 153423,
+          "name": "Renilce Nicodemos",
+          "party": "MDB",
+          "state": "PA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 160575,
+          "name": "Erika Kokay",
+          "party": "PT",
+          "state": "DF",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 160642,
+          "name": "Pastor Eurico",
+          "party": "PL",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 160758,
+          "name": "Domingos Sávio",
+          "party": "PL",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178860,
+          "name": "Paulo Azi",
+          "party": "UNIÃO",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178873,
+          "name": "Helder Salomão",
+          "party": "PT",
+          "state": "ES",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178881,
+          "name": "Aluisio Mendes",
+          "party": "REPUBLICANOS",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178884,
+          "name": "Hildo Rocha",
+          "party": "MDB",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178887,
+          "name": "Rubens Pereira Júnior",
+          "party": "PT",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178908,
+          "name": "Delegado Éder Mauro",
+          "party": "PL",
+          "state": "PA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178986,
+          "name": "Nilto Tatto",
+          "party": "PT",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 178987,
+          "name": "Orlando Silva",
+          "party": "PCdoB",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204360,
+          "name": "Silvia Cristina",
+          "party": "PP",
+          "state": "RO",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204367,
+          "name": "Daniel Freitas",
+          "party": "PL",
+          "state": "SC",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204374,
+          "name": "Bia Kicis",
+          "party": "PL",
+          "state": "DF",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204398,
+          "name": "Felipe Francischini",
+          "party": "UNIÃO",
+          "state": "PR",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204404,
+          "name": "Lucas Redecker",
+          "party": "PSDB",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204407,
+          "name": "Fernanda Melchionna",
+          "party": "PSOL",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204427,
+          "name": "Fernando Rodolfo",
+          "party": "PL",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204460,
+          "name": "Carlos Jordy",
+          "party": "PL",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204474,
+          "name": "Juarez Costa",
+          "party": "MDB",
+          "state": "MT",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204479,
+          "name": "Nicoletti",
+          "party": "UNIÃO",
+          "state": "RR",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204481,
+          "name": "Dr. Jaziel",
+          "party": "PL",
+          "state": "CE",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204512,
+          "name": "Delegado Marcelo Freitas",
+          "party": "UNIÃO",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204534,
+          "name": "Tabata Amaral",
+          "party": "PSB",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204566,
+          "name": "Marreca Filho",
+          "party": "PRD",
+          "state": "MA",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 204572,
+          "name": "Capitão Alberto Neto",
+          "party": "PL",
+          "state": "AM",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 209787,
+          "name": "Nikolas Ferreira",
+          "party": "PL",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220536,
+          "name": "Zé Haroldo Cathedral",
+          "party": "PSD",
+          "state": "RR",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220539,
+          "name": "Defensor Stélio Dener",
+          "party": "REPUBLICANOS",
+          "state": "RR",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220543,
+          "name": "Ricardo Ayres",
+          "party": "REPUBLICANOS",
+          "state": "TO",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220550,
+          "name": "Mauricio Marcon",
+          "party": "PODE",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220555,
+          "name": "Daiana Santos",
+          "party": "PCdoB",
+          "state": "RS",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220556,
+          "name": "Ana Paula Lima",
+          "party": "PT",
+          "state": "SC",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220558,
+          "name": "Zé Trovão",
+          "party": "PL",
+          "state": "SC",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220566,
+          "name": "Lêda Borges",
+          "party": "PSDB",
+          "state": "GO",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220576,
+          "name": "Alfredo Gaspar",
+          "party": "UNIÃO",
+          "state": "AL",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220583,
+          "name": "Delegado Fabio Costa",
+          "party": "PP",
+          "state": "AL",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220585,
+          "name": "Mersinho Lucena",
+          "party": "PP",
+          "state": "PB",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220586,
+          "name": "Rafael Brito",
+          "party": "MDB",
+          "state": "AL",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220588,
+          "name": "Roberto Duarte",
+          "party": "REPUBLICANOS",
+          "state": "AC",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220594,
+          "name": "Coronel Assis",
+          "party": "UNIÃO",
+          "state": "MT",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220599,
+          "name": "Marcelo Crivella",
+          "party": "REPUBLICANOS",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220618,
+          "name": "Sargento Portugal",
+          "party": "PODE",
+          "state": "RJ",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220623,
+          "name": "Duda Salabert",
+          "party": "PDT",
+          "state": "MG",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220654,
+          "name": "Delegado Paulo Bilynskyj",
+          "party": "PL",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220658,
+          "name": "Luiz Gastão",
+          "party": "PSD",
+          "state": "CE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220667,
+          "name": "Pedro Campos",
+          "party": "PSB",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220668,
+          "name": "Maria Arraes",
+          "party": "SOLIDARIEDADE",
+          "state": "PE",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 220690,
+          "name": "Capitão Alden",
+          "party": "PL",
+          "state": "BA",
+          "legislature": 57,
+          "vote": "Não",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 221338,
+          "name": "Professora Luciene Cavalcante",
+          "party": "PSOL",
+          "state": "SP",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        },
+        {
+          "deputyId": 226179,
+          "name": "Gisela Simona",
+          "party": "UNIÃO",
+          "state": "MT",
+          "legislature": 57,
+          "vote": "Sim",
+          "registeredAt": "2025-12-03T15:53:11"
+        }
+      ]
+    },
+    {
+      "id": "2366492-2",
+      "date": "2023-06-14",
+      "description": "Aprovado.",
+      "organ": "CSAUDE",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2373406-2",
+      "date": "2023-08-02",
+      "description": "Aprovado.",
+      "organ": "CPASF",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []
@@ -5243,6 +6787,76 @@
       "ballots": []
     },
     {
+      "id": "2497011-2",
+      "date": "2025-04-23",
+      "description": "Aprovado o Requerimento.",
+      "organ": "CSAUDE",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2515534-30",
+      "date": "2026-03-17",
+      "description": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "organ": "CCP",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-30",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-30/votos",
+      "approval": 1,
+      "propositionIds": [
+        2515534
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2515534-31",
+      "date": "2026-03-17",
+      "description": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "organ": "CCP",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31/votos",
+      "approval": 1,
+      "propositionIds": [
+        2515534
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2515534-66",
+      "date": "2026-11-11",
+      "description": "Aprovada a Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-66",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-66/votos",
+      "approval": 1,
+      "propositionIds": [
+        2515534
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2515534-69",
+      "date": "2026-11-11",
+      "description": "Aprovada a Redação Final assinada pelo relator,  Delegado Matheus Laiola (UNIÃO/PR).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-69",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-69/votos",
+      "approval": 1,
+      "propositionIds": [
+        2515534
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
       "id": "2531613-11",
       "date": "2026-10-13",
       "description": "Realizar o encaminhamento do PL-3220/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
@@ -5294,6 +6908,20 @@
       "approval": 1,
       "propositionIds": [
         2531613
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2545901-2",
+      "date": "2025-08-19",
+      "description": "Aprovado o Requerimento.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []
@@ -5392,6 +7020,92 @@
       "approval": 1,
       "propositionIds": [
         2584437
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2600130-7",
+      "date": "2026-03-17",
+      "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7/votos",
+      "approval": 1,
+      "propositionIds": [
+        2515534
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2600339-15",
+      "date": "2026-11-11",
+      "description": "Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15/votos",
+      "approval": 0,
+      "propositionIds": [
+        2338753,
+        2600339
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2600339-18",
+      "date": "2026-11-11",
+      "description": "Rejeitado o Requerimento.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18/votos",
+      "approval": 0,
+      "propositionIds": [
+        2338753,
+        2600339
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2602370-19",
+      "date": "2026-05-27",
+      "description": "Aprovado o Parecer.",
+      "organ": "CIDOSO",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19/votos",
+      "approval": 1,
+      "propositionIds": [
+        2602370
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2602370-28",
+      "date": "2026-07-15",
+      "description": "Aprovado o Parecer.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28/votos",
+      "approval": 1,
+      "propositionIds": [
+        2602370
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2602370-38",
+      "date": "2026-11-11",
+      "description": "Aprovado o Substitutivo ao Projeto de Lei nº 464, de 2026, da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38/votos",
+      "approval": 1,
+      "propositionIds": [
+        2602370
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []
@@ -5565,6 +7279,62 @@
       "ballots": []
     },
     {
+      "id": "2629310-24",
+      "date": "2026-11-04",
+      "description": "Aprovado o Parecer.",
+      "organ": "CVT",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24/votos",
+      "approval": 1,
+      "propositionIds": [
+        2629310
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2629310-42",
+      "date": "2026-11-11",
+      "description": "Aprovado o Projeto de Decreto Legislativo nº 557, de 2026.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-42",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-42/votos",
+      "approval": 1,
+      "propositionIds": [
+        2629310
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2629310-44",
+      "date": "2026-11-11",
+      "description": "Aprovada a Redação Final assinada pelo relator, Dep. Afonso Florence (PT-BA).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-44",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-44/votos",
+      "approval": 1,
+      "propositionIds": [
+        2629310
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2632454-7",
+      "date": "2026-11-03",
+      "description": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7/votos",
+      "approval": 1,
+      "propositionIds": [
+        2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
       "id": "2637478-16",
       "date": "2026-11-03",
       "description": "Realizar o encaminhamento do PL-3507/2026 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
@@ -5616,6 +7386,48 @@
       "approval": 1,
       "propositionIds": [
         2637478
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2641546-16",
+      "date": "2026-11-10",
+      "description": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista, na parte em que manifesta opinião favorável quanto ao atendimento dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16/votos",
+      "approval": 1,
+      "propositionIds": [
+        2641546
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2641546-18",
+      "date": "2026-11-10",
+      "description": "Aprovada a Medida Provisória nº 1.379 de 2026, na forma do Projeto de Lei de Conversão.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-18",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-18/votos",
+      "approval": 1,
+      "propositionIds": [
+        2641546
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2641546-20",
+      "date": "2026-11-10",
+      "description": "Aprovada a Redação Final.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-20",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-20/votos",
+      "approval": 1,
+      "propositionIds": [
+        2641546
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []

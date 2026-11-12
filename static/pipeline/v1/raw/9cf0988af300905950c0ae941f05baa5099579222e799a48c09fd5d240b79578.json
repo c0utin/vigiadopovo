@@ -1,0 +1,70 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-03",
+      "dataHoraRegistro": "2026-11-03T16:37:18",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-03T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 3511/2026,da Sra. Ana Pimentel, que solicita urgência (art. 155) para o PL 504/2021.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 504/2021",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2632454-7",
+      "idEvento": 83141,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-06-15T15:48",
+          "ementa": "Requer urgência, nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, para apreciação do Projeto de Lei nº 504/2021, que “Cria a Política Nacional de Residência em Área Profissional da Saúde”.",
+          "id": 2632454,
+          "numero": 3511,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2632454"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-19T17:13",
+          "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+          "id": 2270540,
+          "numero": 504,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83141",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:53.878Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7"
+}

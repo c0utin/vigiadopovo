@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 0,
+      "data": "2021-09-08",
+      "dataHoraRegistro": "2021-09-08T12:17:56",
+      "dataHoraUltimaAberturaVotacao": "2021-09-08T12:15:17",
+      "descUltimaAberturaVotacao": "Votação do Requerimento de Retirada de Pauta, de autoria do Deputado Tiago Mitraud.",
+      "descricao": "Rejeitado o Requerimento de Retirada de Pauta.",
+      "efeitosRegistrados": [],
+      "id": "2270540-36",
+      "idEvento": 63004,
+      "idOrgao": 2009,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2021-06-14T09:55",
+          "ementa": "Parecer da Relatora, Dep. Professora Rosa Neide (PT-MT), pela aprovação.",
+          "id": 2286634,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2286634"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-19T17:13",
+          "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+          "id": 2270540,
+          "numero": 504,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540"
+        }
+      ],
+      "siglaOrgao": "CE",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2021-06-14T10:58:00",
+        "descricao": "Parecer da Relatora, Dep. Professora Rosa Neide (PT-MT), pela aprovação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2286634"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/63004",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:54.461Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36"
+}

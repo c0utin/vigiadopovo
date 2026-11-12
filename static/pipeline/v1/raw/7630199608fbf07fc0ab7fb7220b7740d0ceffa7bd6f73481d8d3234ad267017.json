@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-13",
+      "dataHoraRegistro": "2026-10-13T17:29:47",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Realizar o encaminhamento do PL-3220/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "efeitosRegistrados": [],
+      "id": "2531613-11",
+      "idEvento": null,
+      "idOrgao": 186,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-07-01T19:47",
+          "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
+          "id": 2531613,
+          "numero": 3220,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+        }
+      ],
+      "siglaOrgao": "CCP",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-11",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-11",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:36.140Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2531613-11"
+}

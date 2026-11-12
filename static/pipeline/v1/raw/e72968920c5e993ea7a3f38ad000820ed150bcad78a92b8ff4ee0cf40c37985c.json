@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2025,
+      "codTipo": 139,
+      "dataApresentacao": "2025-05-22T15:13",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+      "ementaDetalhada": "",
+      "id": 2515534,
+      "justificativa": null,
+      "keywords": "Alteração, Lei dos Crimes Hediondos (1990), inclusão, Maus-tratos, Morte de animal.",
+      "numero": 2475,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1293,
+        "codTipoTramitacao": "104",
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Desapensação",
+        "despacho": "Desapensação do Projeto de Lei nº 4.151, de 2025, apensado, em face da aprovação, em Plenário, da Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania. (Sessão Deliberativa Extraordinária Semipresencial de 11/11/2026 - 13:55 - 179ª Sessão)",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 71,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220701",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2916380",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:51.755Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534"
+}

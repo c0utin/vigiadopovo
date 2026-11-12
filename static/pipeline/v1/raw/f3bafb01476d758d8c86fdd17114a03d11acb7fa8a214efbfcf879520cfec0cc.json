@@ -1,0 +1,574 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Alberto Fraga",
+        "ordemAssinatura": 40,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73579"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Aluisio Mendes",
+        "ordemAssinatura": 50,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178881"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Bia Kicis",
+        "ordemAssinatura": 8,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204374"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Bibo Nunes",
+        "ordemAssinatura": 11,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204388"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Cabo Gilberto Silva",
+        "ordemAssinatura": 7,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220574"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Capitão Alberto Neto",
+        "ordemAssinatura": 14,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204572"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Capitão Alden",
+        "ordemAssinatura": 41,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220690"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Capitão Augusto",
+        "ordemAssinatura": 58,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178829"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Carlos Jordy",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204460"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Chris Tonietto",
+        "ordemAssinatura": 2,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204462"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Clarissa Tércio",
+        "ordemAssinatura": 26,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220665"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Cobalchini",
+        "ordemAssinatura": 46,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/98148"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Coronel Assis",
+        "ordemAssinatura": 48,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220594"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Coronel Chrisóstomo",
+        "ordemAssinatura": 15,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204378"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Coronel Fernanda",
+        "ordemAssinatura": 28,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220595"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Coronel Ulysses",
+        "ordemAssinatura": 38,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220590"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Daniel Freitas",
+        "ordemAssinatura": 53,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204367"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Daniela Reinehr",
+        "ordemAssinatura": 66,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220557"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Delegado Caveira",
+        "ordemAssinatura": 30,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220673"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Delegado Éder Mauro",
+        "ordemAssinatura": 9,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178908"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Delegado Marcelo Freitas",
+        "ordemAssinatura": 52,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204512"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Delegado Paulo Bilynskyj",
+        "ordemAssinatura": 42,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220654"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Dr. Frederico",
+        "ordemAssinatura": 60,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204518"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Dr. Jaziel",
+        "ordemAssinatura": 63,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204481"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Evair Vieira de Melo",
+        "ordemAssinatura": 34,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178871"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Felipe Francischini",
+        "ordemAssinatura": 51,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204398"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Fernando Rodolfo",
+        "ordemAssinatura": 59,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204427"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "General Girão",
+        "ordemAssinatura": 19,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204473"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "General Pazuello",
+        "ordemAssinatura": 21,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220611"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Gilson Marques",
+        "ordemAssinatura": 5,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204365"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Gilvan da Federal",
+        "ordemAssinatura": 64,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220526"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Giovani Cherini",
+        "ordemAssinatura": 29,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160673"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Gustavo Gayer",
+        "ordemAssinatura": 24,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220568"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Jefferson Campos",
+        "ordemAssinatura": 57,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74273"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Joaquim Passarinho",
+        "ordemAssinatura": 33,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178910"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "José Medeiros",
+        "ordemAssinatura": 27,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204472"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Julia Zanatta",
+        "ordemAssinatura": 31,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220559"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Junio Amaral",
+        "ordemAssinatura": 12,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204520"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Kim Kataguiri",
+        "ordemAssinatura": 36,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204536"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Lincoln Portela",
+        "ordemAssinatura": 69,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74585"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Luiz Carlos Motta",
+        "ordemAssinatura": 56,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204485"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Luiz Philippe de Orleans e Bragança",
+        "ordemAssinatura": 37,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204526"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Marcelo Moraes",
+        "ordemAssinatura": 16,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/133810"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Marcio Alvino",
+        "ordemAssinatura": 68,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178983"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Mario Frias",
+        "ordemAssinatura": 3,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220655"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Mauricio do Vôlei",
+        "ordemAssinatura": 17,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220628"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Mauricio Marcon",
+        "ordemAssinatura": 54,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220550"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Messias Donato",
+        "ordemAssinatura": 22,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220530"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Nelson Barbudo",
+        "ordemAssinatura": 13,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204449"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Nicoletti",
+        "ordemAssinatura": 44,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204479"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Nikolas Ferreira",
+        "ordemAssinatura": 45,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/209787"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Osmar Terra",
+        "ordemAssinatura": 70,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73692"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Padovani",
+        "ordemAssinatura": 43,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220706"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Pastor Eurico",
+        "ordemAssinatura": 67,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160642"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Pedro Lupion",
+        "ordemAssinatura": 55,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204395"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Pedro Westphalen",
+        "ordemAssinatura": 47,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204406"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Pr. Marco Feliciano",
+        "ordemAssinatura": 49,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160601"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Professor Alcides",
+        "ordemAssinatura": 32,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204390"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Reinhold Stephanes",
+        "ordemAssinatura": 25,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/205865"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Roberta Roma",
+        "ordemAssinatura": 18,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220693"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Rodrigo da Zaeli",
+        "ordemAssinatura": 61,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/230767"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Rosangela Moro",
+        "ordemAssinatura": 23,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220644"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Sargento Fahur",
+        "ordemAssinatura": 6,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204387"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Sargento Gonçalves",
+        "ordemAssinatura": 35,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220621"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Sergio Souza",
+        "ordemAssinatura": 39,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178933"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Soraya Santos",
+        "ordemAssinatura": 10,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178946"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Sóstenes Cavalcante",
+        "ordemAssinatura": 20,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178947"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Vermelho",
+        "ordemAssinatura": 62,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204396"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Wellington Roberto",
+        "ordemAssinatura": 65,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74043"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Zé Trovão",
+        "ordemAssinatura": 4,
+        "proponente": 0,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220558"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:30:00.695Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339/autores"
+}

@@ -1,0 +1,144 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 0,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:21:05",
+        "descricao": "Rejeitado o Requerimento.",
+        "id": "2600339-18",
+        "proposicaoObjeto": "REC 1/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:19:28",
+        "descricao": "Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).",
+        "id": "2600339-15",
+        "proposicaoObjeto": "REC 1/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-12-03",
+        "dataHoraRegistro": "2025-12-03T15:53:11",
+        "descricao": "Aprovado o Parecer com o seguinte resultado: 37 votos \"Sim\", 28 votos \"Não\". Quórum de votação: 65 votos, apresentaram votos em separado os Deputados Rosangela Moro e Capitão Alden.",
+        "id": "2338753-88",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-88",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/80544",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-12-03",
+        "dataHoraRegistro": "2025-12-03T13:52:57",
+        "descricao": "Aprovado o Requerimento de Encerramento de Discussão, de autoria da Deputada Laura Carneiro. Encerrada a discussão.",
+        "id": "2338753-82",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/80544",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2025-12-03",
+        "dataHoraRegistro": "2025-12-03T11:53:58",
+        "descricao": "Rejeitado o Requerimento de Retirada de Pauta. Resultado:  25 votos \"Sim\", 31 votos \"Não\". Quórum de votação: 56 votos.",
+        "id": "2338753-75",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-75",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/80544",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-08-19",
+        "dataHoraRegistro": "2025-08-19T16:34:15",
+        "descricao": "Aprovado o Requerimento.",
+        "id": "2545901-2",
+        "proposicaoObjeto": "REQ 28/2025 CCJC",
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77671",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2545901"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2024-11-13",
+        "dataHoraRegistro": "2024-11-13T17:09:35",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2338753-40",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CPASF",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-40",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/74651",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539387",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2023-08-02",
+        "dataHoraRegistro": "2023-08-02T14:52:10",
+        "descricao": "Aprovado.",
+        "id": "2373406-2",
+        "proposicaoObjeto": "REQ 35/2023 CPASF",
+        "siglaOrgao": "CPASF",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68938",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539387",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2373406"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2023-06-14",
+        "dataHoraRegistro": "2023-06-14T14:27:11",
+        "descricao": "Aprovado.",
+        "id": "2366492-2",
+        "proposicaoObjeto": "REQ 129/2023 CSAUDE",
+        "siglaOrgao": "CSAUDE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68236",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2366492"
+      },
+      {
+        "aprovacao": 0,
+        "data": "2025-11-28",
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do VTS n. 2 CCJC (Voto em Separado), pelo Deputado Capitão Alden (PL/BA).",
+        "id": "2338753-73",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:57.825Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/votacoes"
+}

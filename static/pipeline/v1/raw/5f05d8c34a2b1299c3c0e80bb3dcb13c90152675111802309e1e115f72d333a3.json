@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-11",
+      "dataHoraRegistro": "2026-11-11T18:23:31",
+      "dataHoraUltimaAberturaVotacao": "2026-11-11T18:20:49",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 464, de 2026, da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+      "efeitosRegistrados": [],
+      "id": "2602370-38",
+      "idEvento": 83266,
+      "idOrgao": 180,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-02-11T10:15",
+          "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+          "id": 2602370,
+          "numero": 464,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:05.933Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38"
+}

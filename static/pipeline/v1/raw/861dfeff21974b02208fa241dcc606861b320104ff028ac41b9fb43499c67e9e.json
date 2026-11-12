@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T10:17:21",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2629310-24",
+      "idEvento": 83138,
+      "idOrgao": 2016,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-08-19T12:45",
+          "ementa": "Parecer do Relator, Dep. AJ Albuquerque (PP-CE), pela aprovação.",
+          "id": 2644275,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644275"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 554,
+          "dataApresentacao": "2026-05-29T16:11",
+          "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
+          "id": 2629310,
+          "numero": 557,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310"
+        }
+      ],
+      "siglaOrgao": "CVT",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-08-20T16:17:45",
+        "descricao": "Parecer do Relator, Dep. AJ Albuquerque (PP-CE), pela aprovação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644275"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83138",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2016"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:55.589Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24"
+}

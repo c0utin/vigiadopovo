@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 0,
+      "data": "2025-11-28",
+      "dataHoraRegistro": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Apresentação do VTS n. 2 CCJC (Voto em Separado), pelo Deputado Capitão Alden (PL/BA).",
+      "efeitosRegistrados": [],
+      "id": "2338753-73",
+      "idEvento": null,
+      "idOrgao": 2003,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-11-03T11:22:37",
+        "descricao": "Parecer da Relatora, Dep. Laura Carneiro (PSD-RJ), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação deste e do Projeto de Lei n° 642/2024, apensado, na forma do Substitutivo da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família. ",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2579889"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:59.796Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-73"
+}

@@ -1,0 +1,62 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Célio Studart",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204488"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Delegado Bruno Lima",
+        "ordemAssinatura": 6,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220642"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Dr. Ismael Alexandrino",
+        "ordemAssinatura": 2,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220570"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Felipe Becari",
+        "ordemAssinatura": 4,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220646"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Laura Carneiro",
+        "ordemAssinatura": 3,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74856"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Marcelo Queiroz",
+        "ordemAssinatura": 5,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160161"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:51.903Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/autores"
+}

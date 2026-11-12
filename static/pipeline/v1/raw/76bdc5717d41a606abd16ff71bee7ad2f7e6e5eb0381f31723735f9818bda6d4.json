@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:59:32",
+        "descricao": "Aprovada a Redação Final assinada pelo relator,  Delegado Matheus Laiola (UNIÃO/PR).",
+        "id": "2515534-69",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-69",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:51:45",
+        "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2515534-66",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-66",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:46:39",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Ana Pimentel (PT-MG).",
+        "id": "2270540-88",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:46:11",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 504, de 2021, adotado pela relatora da Comissão de Saúde.",
+        "id": "2270540-87",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-87",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:41:36",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Afonso Florence (PT-BA).",
+        "id": "2629310-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:41:12",
+        "descricao": "Aprovado o Projeto de Decreto Legislativo nº 557, de 2026.",
+        "id": "2629310-42",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-42",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:23:31",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 464, de 2026, da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+        "id": "2602370-38",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:21:05",
+        "descricao": "Rejeitado o Requerimento.",
+        "id": "2600339-18",
+        "proposicaoObjeto": "REC 1/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-12&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-12&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-12&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-12&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=130&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:04.659Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-12&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}

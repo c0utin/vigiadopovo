@@ -1,0 +1,79 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:59:32",
+        "descricao": "Aprovada a Redação Final assinada pelo relator,  Delegado Matheus Laiola (UNIÃO/PR).",
+        "id": "2515534-69",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-69",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:51:45",
+        "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2515534-66",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-66",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-03-17",
+        "dataHoraRegistro": "2026-03-17T21:06:19",
+        "descricao": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2515534-31",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-03-17",
+        "dataHoraRegistro": "2026-03-17T21:06:19",
+        "descricao": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2515534-30",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-30",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-03-17",
+        "dataHoraRegistro": "2026-03-17T21:06:18",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2600130-7",
+        "proposicaoObjeto": "REQ 54/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81323",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600130"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:52.067Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534/votacoes"
+}

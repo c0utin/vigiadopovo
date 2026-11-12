@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2025,
+      "codTipo": 139,
+      "dataApresentacao": "2025-11-12T11:12",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui e cria o Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência - PNAPE, com o objetivo de colocar crianças e adolescentes, os filhos da sociedade brasileira, a salvo das mais  diversas forma de transtorno mental, negligência, discriminação, exploração, violência, automutilação, crueldade, opressão, tráfico humano e especialmente prevenindo abuso e exploração sexual (Lei Augusto Cury). A partir da Lei Augusto Cury o Estado brasileiro não será apenas o  responsável teórico pelo desenvolvimento saudável dos seus filhos, mas acompanhará anualmente este desenvolvimento! Os predadores sexuais, em destaque, saberão que o Estado Brasileiro estará de olho em suas crianças e adolescentes através de escuta ativa e periódica.",
+      "ementaDetalhada": "Altera a Lei  nº 8.069 de 1990.",
+      "id": 2584437,
+      "justificativa": null,
+      "keywords": "Criação, Programa Nacional de Acompanhamento Anual Pediátrico/Médico e Emocional/Psicossocial da Infância e Adolescência (PNAPE), Unidade de Saúde, Assistência psicossocial, caráter permanente, criança, adolescente, diretrizes. _ Alteração, Estatuto da Criança e do Adolescente (ECA) (1990), Direitos da criança e do adolescente, proteção, saúde mental, prevenção, abuso sexual, Tráfico de pessoas, violência.",
+      "numero": 5815,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 248/2026/SGM-P.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 62,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/91228",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190656"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3045101",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:32.863Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437"
+}

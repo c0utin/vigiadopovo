@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-02-11T10:15",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+      "ementaDetalhada": "",
+      "id": 2602370,
+      "justificativa": null,
+      "keywords": "Alteração, Código Civil (2002), Estatuto da Pessoa Idosa (2003), herança, exclusão da sucessão por indignidade, sucessão hereditária, interdição abusiva, apropriação indébita, bens, fraude, proteção, idoso, abuso de direito, desvio de poder, aumento da pena.",
+      "numero": 464,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 907,
+        "codTipoTramitacao": "500",
+        "dataHora": "2026-11-12T09:34",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento",
+        "despacho": "Recebimento pelo(a) CCJC.",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 47,
+        "siglaOrgao": "CCJC",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/72442",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3081501",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:55.891Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2023,
+      "codTipo": 139,
+      "dataApresentacao": "2023-12-12T15:44",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
+      "ementaDetalhada": "",
+      "id": 2412504,
+      "justificativa": null,
+      "keywords": "Autorização, disponibilização, reprodução, adaptação, obra literária, obra de arte, obra científica, utilização, linguagem simples, público-alvo, deficiência intelectual",
+      "numero": 5974,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 907,
+        "codTipoTramitacao": "500",
+        "dataHora": "2026-11-06T09:48",
+        "descricaoSituacao": "Aguardando Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento",
+        "despacho": "Recebimento pelo(a) CCJC.",
+        "regime": "Prioridade (Art. 151, II, RICD)",
+        "sequencia": 70,
+        "siglaOrgao": "CCJC",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220536",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537480",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2374424",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-12T17:29:36.660Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2412504"
+}
