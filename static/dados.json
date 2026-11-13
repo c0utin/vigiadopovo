@@ -1,7 +1,169 @@
 {
-  "collectedAt": "2026-11-12T17:29:01.121Z",
+  "collectedAt": "2026-11-13T17:03:58.217Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2653822,
+      "label": "PL 5851/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a destinação de parcela da receita do Imposto Seletivo ao financiamento adicional de tratamentos de saúde no âmbito do Sistema Único de Saúde (SUS).",
+      "presentedAt": "2026-11-13T13:42",
+      "status": {
+        "dataHora": "2026-11-13T13:42",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5851/2026 (Projeto de Lei), pela Deputada Silvia Cristina (PP/RO), que \"Dispõe sobre a destinação de parcela da receita do Imposto Seletivo ao financiamento adicional de tratamentos de saúde no âmbito do Sistema Único de Saúde (SUS)\"."
+      },
+      "authors": [
+        {
+          "name": "Silvia Cristina",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653822",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653822",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195628",
+      "votes": [],
+      "sourceHash": "a8684420f2a520153cb1ca4fcfbb083ad529824950f490b9524c741367eeab88",
+      "summary": null
+    },
+    {
+      "id": 2653820,
+      "label": "PL 5850/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a criação de Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais , e dá outras providências.",
+      "presentedAt": "2026-11-13T12:40",
+      "status": {
+        "dataHora": "2026-11-13T12:40",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5850/2026 (Projeto de Lei), pelo Deputado Paulo Folletto (PSB/ES), que \"Dispõe sobre a criação de Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais , e dá outras providências\"."
+      },
+      "authors": [
+        {
+          "name": "Paulo Folletto",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653820",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653820",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195624",
+      "votes": [],
+      "sourceHash": "022a83742629432bd62b5020bd7f6b553cde274e44187cd0544501e6f432a063",
+      "summary": null
+    },
+    {
+      "id": 2653819,
+      "label": "PL 5849/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes.",
+      "presentedAt": "2026-11-13T12:26",
+      "status": {
+        "dataHora": "2026-11-13T12:26",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5849/2026 (Projeto de Lei), pelo Deputado Paulo Folletto (PSB/ES), que \"Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes\"."
+      },
+      "authors": [
+        {
+          "name": "Paulo Folletto",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653819",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653819",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195623",
+      "votes": [],
+      "sourceHash": "007314f361d21f9b47b24c6bc4132467c60423d7ca9e76aba38a97917c75eac9",
+      "summary": null
+    },
+    {
+      "id": 2653818,
+      "label": "PL 5848/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a responsabilização penal e civil por crimes contra o patrimônio praticados entre familiares, revoga imunidades penais, estabelece medidas de reparação patrimonial e altera o Código Civil para prever novas hipóteses de indignidade sucessória e deserdação.",
+      "presentedAt": "2026-11-13T11:51",
+      "status": {
+        "dataHora": "2026-11-13T11:51",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5848/2026 (Projeto de Lei), pelo Deputado Marcelo Álvaro Antônio (PL/MG), que \"Dispõe sobre a responsabilização penal e civil por crimes contra o patrimônio praticados entre familiares, revoga imunidades penais, estabelece medidas de reparação patrimonial e altera o Código Civil para prever novas hipóteses de indignidade sucessória e deserdação\"."
+      },
+      "authors": [
+        {
+          "name": "Marcelo Álvaro Antônio",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653818",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653818",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195622",
+      "votes": [],
+      "sourceHash": "1d131eb029b1fd85090a70785ddbcd6cd79a8b2838cc8f2bb61707b71e0e6c47",
+      "summary": null
+    },
+    {
+      "id": 2653816,
+      "label": "PL 5847/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos.",
+      "presentedAt": "2026-11-13T11:30",
+      "status": {
+        "dataHora": "2026-11-13T11:30",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5847/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos\"."
+      },
+      "authors": [
+        {
+          "name": "Eros Biondini",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653816",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195619",
+      "votes": [],
+      "sourceHash": "4f28798f1288fc28629ad62c7c8fbb50e5469f23b792badc2fd9ca8f26aee804",
+      "summary": null
+    },
+    {
+      "id": 2653814,
+      "label": "PL 5846/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação.",
+      "presentedAt": "2026-11-13T09:55",
+      "status": {
+        "dataHora": "2026-11-13T09:55",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5846/2026 (Projeto de Lei), pela Deputada Lídice da Mata (PSB/BA), que \"Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação\"."
+      },
+      "authors": [
+        {
+          "name": "Lídice da Mata",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653814",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653814",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195617",
+      "votes": [],
+      "sourceHash": "bd8c436556814d9af87f9412aaf4defdb0a8260b5dda2ab25cd1fb106fd3024f",
+      "summary": null
+    },
     {
       "id": 2653227,
       "label": "PL 5840/2026",
@@ -21,7 +183,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653227",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194712",
@@ -48,7 +223,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653188",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194641",
@@ -156,7 +344,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:41",
+          "name": "Cidades e Desenvolvimento Urbano",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653177",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194618",
@@ -1323,11 +1530,11 @@
       "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
       "presentedAt": "2026-05-29T16:11",
       "status": {
-        "dataHora": "2026-11-11T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PDL 557-B/2026)."
+        "dataHora": "2026-11-12T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "siglaOrgao": "MESA",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 256/2026/SGM-P."
       },
       "authors": [
         {
@@ -2300,7 +2507,7 @@
       "presentedAt": "2025-05-22T15:13",
       "status": {
         "dataHora": "2026-11-11T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
         "descricaoTramitacao": "Desapensação",
         "siglaOrgao": "MESA",
         "despacho": "Desapensação do Projeto de Lei nº 4.151, de 2025, apensado, em face da aprovação, em Plenário, da Subemenda Substitutiva ao Projeto de Lei nº 2.475, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania. (Sessão Deliberativa Extraordinária Semipresencial de 11/11/2026 - 13:55 - 179ª Sessão)"
@@ -3300,7 +3507,7 @@
       "presentedAt": "2023-09-21T12:12",
       "status": {
         "dataHora": "2026-11-10T00:00",
-        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoSituacao": "Transformado em Norma Jurídica",
         "descricaoTramitacao": "Expedição de Documento",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do Autógrafo."
@@ -3584,11 +3791,11 @@
       "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
       "presentedAt": "2020-03-05T16:59",
       "status": {
-        "dataHora": "2026-11-06T09:48",
-        "descricaoSituacao": "Aguardando Designação de Relator(a)",
-        "descricaoTramitacao": "Recebimento",
+        "dataHora": "2026-11-12T15:28",
+        "descricaoSituacao": "Aguardando Parecer",
+        "descricaoTramitacao": "Designação de Relator(a)",
         "siglaOrgao": "CCJC",
-        "despacho": "Recebimento pelo(a) CCJC."
+        "despacho": "Designado Relator da Redação Final, Dep. Marangoni (PODE-SP)."
       },
       "authors": [
         {

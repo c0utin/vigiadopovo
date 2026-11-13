@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Marcelo Álvaro Antônio",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/179000"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653818/autores?formato=json",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:06:10.895Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653818/autores"
+}

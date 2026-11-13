@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-06T10:51",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa.",
+      "ementaDetalhada": null,
+      "id": 2651261,
+      "justificativa": null,
+      "keywords": "Alteração; Lei de Benefícios da Previdência Social (1991); Programa (administração); Aluno universitário; Instituição de Ensino Superior (IES); Estudante; Assistência jurídica; Saúde; Atendimento socioassistencial; Contabilidade; Letramento digital; Educação previdenciária; Segurado (previdência social); Extensão universitária; Documentação; Instituto Nacional do Seguro Social (INSS); enfrentamento; Litígio; Benefício previdenciário",
+      "numero": 5785,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-06T10:51",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5785/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Institui o Programa de Assistência Previdenciária Universitária (PAPU), destinado à mobilização de estudantes da educação superior para o apoio técnico supervisionado a segurados e potenciais beneficiários do Regime Geral de Previdência Social e do Benefício de Prestação Continuada, e altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a apresentação ao Instituto Nacional do Seguro Social de documentos produzidos no âmbito do Programa\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190960",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:04:23.373Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651261"
+}

@@ -1,0 +1,53 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:41:36",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Afonso Florence (PT-BA).",
+        "id": "2629310-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:41:12",
+        "descricao": "Aprovado o Projeto de Decreto Legislativo nº 557, de 2026.",
+        "id": "2629310-42",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-42",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T10:17:21",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2629310-24",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CVT",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2629310-24",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83138",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2016",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:04:51.026Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/votacoes"
+}

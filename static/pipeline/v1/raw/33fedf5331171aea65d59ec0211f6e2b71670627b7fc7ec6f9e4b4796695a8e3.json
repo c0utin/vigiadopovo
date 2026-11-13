@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2019,
+      "codTipo": 139,
+      "dataApresentacao": "2019-05-22T19:59",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+      "ementaDetalhada": "",
+      "id": 2204495,
+      "justificativa": null,
+      "keywords": "Criação, Dia Nacional do Autocuidado, data comemorativa, julho, ações.",
+      "numero": 3099,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 900,
+        "codTipoTramitacao": "506",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Eduardo Bismarck (PV/CE -Fdr PT-PCdoB-PV).",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 110,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204541",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1751589",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:06:05.328Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+}

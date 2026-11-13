@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 291,
+      "dataApresentacao": "2026-07-22T00:00",
+      "descricaoTipo": "Medida Provisória",
+      "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
+      "ementaDetalhada": null,
+      "id": 2641546,
+      "justificativa": null,
+      "keywords": "Alteração; Lei federal; Plano Brasil Soberano; Linha de crédito; Financiamento; Recursos financeiros; Empresa nacional; Exportação; Comércio exterior; enfrentamento; aumento; tarifa comercial; Estados Unidos; tributação",
+      "numero": 1379,
+      "siglaTipo": "MPV",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 910,
+        "codTipoTramitacao": "604",
+        "dataHora": "2026-11-11T00:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Publicação de Proposição",
+        "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 12/11/2026.",
+        "regime": "Urgência (Art. 62, CF)",
+        "sequencia": 32,
+        "siglaOrgao": "CCP",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3166455",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:04:44.206Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546"
+}

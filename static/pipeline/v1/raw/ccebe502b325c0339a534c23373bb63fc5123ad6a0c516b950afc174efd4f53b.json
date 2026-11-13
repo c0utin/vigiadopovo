@@ -1,0 +1,38 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Fernanda Melchionna",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204407"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Sâmia Bomfim",
+        "ordemAssinatura": 3,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204535"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Vivi Reis",
+        "ordemAssinatura": 2,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/215044"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:53.104Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/autores"
+}

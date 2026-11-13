@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-07-15",
+      "dataHoraRegistro": "2026-07-15T10:58:14",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2602370-28",
+      "idEvento": 82737,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-07-10T16:52",
+          "ementa": "Parecer do Relator, Dep. Felipe Carreras (PSB-PE), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação deste, na forma do Substitutivo da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+          "id": 2639234,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2639234"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-02-11T10:15",
+          "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+          "id": 2602370,
+          "numero": 464,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-07-13T14:36:16",
+        "descricao": "Parecer do Relator, Dep. Felipe Carreras (PSB-PE), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação deste, na forma do Substitutivo da Comissão de Defesa dos Direitos da Pessoa Idosa. ",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2639234"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82737",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:03.049Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28"
+}

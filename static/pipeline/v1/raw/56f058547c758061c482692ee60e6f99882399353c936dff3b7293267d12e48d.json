@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T19:09:19",
+      "dataHoraUltimaAberturaVotacao": "2026-11-10T19:09:06",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Eduardo Bismarck (PV-CE).",
+      "efeitosRegistrados": [],
+      "id": "2204495-108",
+      "idEvento": 83243,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-10T17:54",
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "id": 2652240,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652240"
+        },
+        {
+          "ano": 0,
+          "codTipo": 443,
+          "dataApresentacao": "2026-11-10T13:55",
+          "ementa": "Parecer ao Substitutivo do Senado Federal proferido pelo Relator Dep. Eduardo Bismarck (PV/CE) pela:\n• Comissão de Saúde, que conclui pela aprovação do Substitutivo do Senado Federal ao Projeto de Lei n° 3.099, de 2019.\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Substitutivo do Senado Federal ao Projeto de Lei n° 3.099, de 2019.",
+          "id": 2652475,
+          "numero": 1,
+          "siglaTipo": "PSS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652475"
+        },
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-10T00:00",
+          "ementa": "Redação Final ao PL 3099/2019",
+          "id": 2652741,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652741"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-09-04T12:46",
+          "ementa": "Requer regime de urgência urgentíssima para a apreciação do Substitutivo do Senado Federal ao Projeto de Lei nº 3.099, de 2019, que institui o Dia Nacional do Autocuidado e altera a Lei nº 8.080, de 19 de setembro de 1990, para prever o estímulo ao autocuidado responsável no âmbito do Sistema Único de Saúde – SUS.",
+          "id": 2645996,
+          "numero": 4194,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2645996"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-22T19:59",
+          "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
+          "id": 2204495,
+          "numero": 3099,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2204495"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-10T19:03:54",
+        "descricao": "Parecer ao Substitutivo do Senado Federal proferido pelo Relator Dep. Eduardo Bismarck (PV/CE) pela:\r\n• Comissão de Saúde, que conclui pela aprovação do Substitutivo do Senado Federal ao Projeto de Lei n° 3.099, de 2019.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Substitutivo do Senado Federal ao Projeto de Lei n° 3.099, de 2019.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652475"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:06:06.378Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2204495-108"
+}

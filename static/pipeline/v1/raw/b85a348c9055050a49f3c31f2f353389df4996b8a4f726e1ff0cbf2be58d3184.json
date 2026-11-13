@@ -1,0 +1,1477 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-12-03",
+      "dataHoraRegistro": "2025-12-03T13:52:57",
+      "dataHoraUltimaAberturaVotacao": "2025-12-03T11:58:16",
+      "descUltimaAberturaVotacao": "Votação nominal, de ofício, do Requerimento de Retirada de Pauta, de autoria da Deputada Chris Tonietto.",
+      "descricao": "Aprovado o Requerimento de Encerramento de Discussão, de autoria da Deputada Laura Carneiro. Encerrada a discussão.",
+      "efeitosRegistrados": [],
+      "id": "2338753-82",
+      "idEvento": 80544,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-12-03T11:47",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2812/2022-Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2591851,
+          "numero": 132,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591851"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-12-03T11:47",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2591850,
+          "numero": 131,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591850"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-03T10:30",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2591800,
+          "numero": 130,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591800"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-03T10:30",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2591798,
+          "numero": 129,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591798"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-03T10:09",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2591767,
+          "numero": 128,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591767"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-03T09:54",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2591710,
+          "numero": 127,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591710"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-12-03T09:54",
+          "ementa": "Requerimento de Votação Nominal - PL 2812/2022",
+          "id": 2591708,
+          "numero": 126,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591708"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-03T09:54",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2591690,
+          "numero": 125,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591690"
+        },
+        {
+          "ano": 0,
+          "codTipo": 468,
+          "dataApresentacao": "2025-12-03T09:02",
+          "ementa": "Requerimento de Encerramento da Discussão - Comissões - PL 2812/2022",
+          "id": 2591379,
+          "numero": 120,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591379"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-12-03T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2591621,
+          "numero": 124,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591621"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-12-03T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2591562,
+          "numero": 123,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591562"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-12-03T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2591560,
+          "numero": 122,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591560"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-12-03T09:00",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2591508,
+          "numero": 121,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591508"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 448,
+          "dataApresentacao": "2025-12-02T14:07",
+          "ementa": "Solicita que a Comissão de Constituição e Justiça e de Cidadania requeira a redistribuição do Projeto de Lei nº 2812/2022.",
+          "id": 2591202,
+          "numero": 60,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591202"
+        },
+        {
+          "ano": 0,
+          "codTipo": 260,
+          "dataApresentacao": "2025-11-28T14:01",
+          "ementa": "Revoga a Lei nº 12.318, de 26 de agosto de 2010 – Lei de Alienação Parental.",
+          "id": 2589435,
+          "numero": 2,
+          "siglaTipo": "VTS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589435"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-26T10:05",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588368,
+          "numero": 119,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588368"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-26T10:05",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588350,
+          "numero": 118,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588350"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-26T09:44",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588242,
+          "numero": 117,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588242"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-26T09:44",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588231,
+          "numero": 116,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588231"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-26T09:36",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588211,
+          "numero": 114,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588211"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-26T09:36",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588203,
+          "numero": 113,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588203"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-26T09:16",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588094,
+          "numero": 112,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588094"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-26T09:16",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588070,
+          "numero": 110,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588070"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-26T09:04",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2588036,
+          "numero": 109,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588036"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-26T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2588217,
+          "numero": 115,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588217"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-26T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2588083,
+          "numero": 111,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588083"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-26T09:00",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2588031,
+          "numero": 108,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2588031"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-25T14:20",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587532,
+          "numero": 107,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587532"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-25T14:20",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587526,
+          "numero": 106,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587526"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-25T13:41",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587413,
+          "numero": 94,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587413"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-11-25T13:41",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2812/2022",
+          "id": 2587444,
+          "numero": 99,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587444"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-11-25T13:41",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2812/2022-Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2587449,
+          "numero": 100,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587449"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-25T13:41",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587458,
+          "numero": 102,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587458"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-11-25T13:41",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2587485,
+          "numero": 103,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587485"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-11-25T13:41",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2812/2022-Requerimento de Adiamento da Discussão - PL 2812/2022",
+          "id": 2587508,
+          "numero": 105,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587508"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-25T13:37",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2587486,
+          "numero": 104,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587486"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-25T13:34",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587454,
+          "numero": 101,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587454"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-25T13:34",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587409,
+          "numero": 93,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587409"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587429,
+          "numero": 97,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587429"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587375,
+          "numero": 92,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587375"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2587442,
+          "numero": 98,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587442"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2587424,
+          "numero": 96,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587424"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2587416,
+          "numero": 95,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587416"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2587369,
+          "numero": 91,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587369"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-25T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2587365,
+          "numero": 90,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587365"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-25T13:29",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2587361,
+          "numero": 89,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2587361"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-11-04T13:54",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2812/2022-Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2581226,
+          "numero": 88,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581226"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-11-04T13:54",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2812/2022-Requerimento de Adiamento da Discussão - PL 2812/2022",
+          "id": 2581178,
+          "numero": 86,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581178"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-11-04T13:54",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2581111,
+          "numero": 81,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581111"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-04T13:54",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581024,
+          "numero": 74,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581024"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-11-04T13:54",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2812/2022",
+          "id": 2581002,
+          "numero": 71,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581002"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-04T13:53",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581164,
+          "numero": 85,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581164"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-04T13:53",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581027,
+          "numero": 76,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581027"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-11-04T13:44",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2812/2022-Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2581224,
+          "numero": 87,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581224"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-04T13:44",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581162,
+          "numero": 84,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581162"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-11-04T13:44",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2812/2022-Requerimento de Adiamento da Discussão - PL 2812/2022",
+          "id": 2581158,
+          "numero": 83,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581158"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-11-04T13:44",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2581108,
+          "numero": 80,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581108"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-04T13:44",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581018,
+          "numero": 73,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581018"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-11-04T13:44",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2812/2022",
+          "id": 2580956,
+          "numero": 68,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2580956"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-04T13:42",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581015,
+          "numero": 72,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581015"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-11-04T13:38",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2581118,
+          "numero": 82,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581118"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-04T13:38",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2580968,
+          "numero": 70,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2580968"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-04T13:33",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2581079,
+          "numero": 79,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581079"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-11-04T13:31",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2580935,
+          "numero": 67,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2580935"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-04T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2581055,
+          "numero": 78,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581055"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-04T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2581050,
+          "numero": 77,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581050"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-04T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2581026,
+          "numero": 75,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2581026"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-11-04T13:30",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2580957,
+          "numero": 69,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2580957"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-11-03T11:20",
+          "ementa": "Parecer da Relatora, Dep. Laura Carneiro (PSD-RJ), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação deste e do Projeto de Lei n° 642/2024, apensado, na forma do Substitutivo da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família.",
+          "id": 2579889,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2579889"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-08-14T17:00",
+          "ementa": "Requer a realização de reunião de audiência pública no âmbito desta Comissão de Constituição e Justiça e de Cidadania, com o objetivo de debater o Projeto de Lei nº 2.812, de 2022, que revoga integralmente a Lei nº 12.318, de 26 de agosto de 2010 (Lei da Alienação Parental), bem como o Projeto de Lei nº 642, de 2024, que revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental e altera o art. 236 da Lei no 8.069, de 13 de julho de 1990, que tramita em apenso.",
+          "id": 2545901,
+          "numero": 28,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2545901"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T11:08",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2544235,
+          "numero": 66,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544235"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1049,
+          "dataApresentacao": "2025-08-13T11:08",
+          "ementa": "Votação Nominal do Requerimento de Inversão da Pauta - PL 2812/2022-Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2544233,
+          "numero": 65,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544233"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-08-13T10:23",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2812/2022-Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2544024,
+          "numero": 64,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544024"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-08-13T10:23",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2812/2022",
+          "id": 2544021,
+          "numero": 63,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544021"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-13T09:54",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2543837,
+          "numero": 62,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543837"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T09:54",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2543836,
+          "numero": 61,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543836"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T09:26",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2543703,
+          "numero": 60,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543703"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T09:25",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2543528,
+          "numero": 59,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543528"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-13T09:01",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2543338,
+          "numero": 55,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543338"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T09:01",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2543304,
+          "numero": 52,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543304"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T09:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2543284,
+          "numero": 51,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543284"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2543389,
+          "numero": 58,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543389"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2543356,
+          "numero": 57,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543356"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2543350,
+          "numero": 56,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543350"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2543316,
+          "numero": 54,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543316"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-13T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2543309,
+          "numero": 53,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543309"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-08-12T18:49",
+          "ementa": "Requer a realização de Audiência Pública para debater o PL 2.812/2022 que “Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental”",
+          "id": 2543136,
+          "numero": 27,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543136"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-12T13:49",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542710,
+          "numero": 47,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542710"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-12T13:49",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542704,
+          "numero": 46,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542704"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-12T13:39",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542670,
+          "numero": 42,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542670"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-12T13:39",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542666,
+          "numero": 41,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542666"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-12T13:32",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542687,
+          "numero": 44,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542687"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-12T13:32",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542660,
+          "numero": 40,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542660"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2542807,
+          "numero": 50,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542807"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2542641,
+          "numero": 38,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542641"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2542766,
+          "numero": 49,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542766"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2542727,
+          "numero": 48,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542727"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2542695,
+          "numero": 45,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542695"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2542672,
+          "numero": 43,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542672"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-12T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2542655,
+          "numero": 39,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2542655"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-08-12T12:52",
+          "ementa": "Requer a realização de audiência pública para debater sobre o PL 2812/2022, que Revoga a Lei nº 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental..",
+          "id": 2543096,
+          "numero": 26,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2543096"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-06T09:11",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2540066,
+          "numero": 37,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540066"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-06T09:11",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2540018,
+          "numero": 34,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540018"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-06T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2540060,
+          "numero": 36,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540060"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-06T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2540043,
+          "numero": 35,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540043"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-06T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2539952,
+          "numero": 33,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539952"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-06T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2539938,
+          "numero": 32,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539938"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-05T13:43",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2539580,
+          "numero": 29,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539580"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-05T13:43",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2539606,
+          "numero": 31,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539606"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-05T13:37",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2539591,
+          "numero": 30,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539591"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-05T13:37",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2539552,
+          "numero": 28,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539552"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-05T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2539508,
+          "numero": 27,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539508"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-05T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2539497,
+          "numero": 26,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539497"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-05T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2539496,
+          "numero": 25,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539496"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-15T14:02",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2536586,
+          "numero": 20,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536586"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-07-15T14:02",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2536617,
+          "numero": 24,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536617"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-07-15T13:34",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2536604,
+          "numero": 23,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536604"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-15T13:34",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2536557,
+          "numero": 18,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536557"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-07-15T13:33",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2536590,
+          "numero": 21,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536590"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-15T13:33",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2536552,
+          "numero": 17,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536552"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-15T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2536603,
+          "numero": 22,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536603"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-15T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2536571,
+          "numero": 19,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536571"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-15T13:30",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2536524,
+          "numero": 16,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2536524"
+        },
+        {
+          "ano": 0,
+          "codTipo": 260,
+          "dataApresentacao": "2025-07-10T11:23",
+          "ementa": "Revoga a Lei nº 12.318, de 26 de agosto de 2010 – Lei de Alienação Parental",
+          "id": 2534534,
+          "numero": 1,
+          "siglaTipo": "VTS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2534534"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2532788,
+          "numero": 11,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532788"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2812/2022-Requerimento de Adiamento da Votação",
+          "id": 2532787,
+          "numero": 10,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532787"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Requerimento de Adiamento da Votação",
+          "id": 2532785,
+          "numero": 9,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532785"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2812/2022-Requerimento de Adiamento da Discussão",
+          "id": 2532780,
+          "numero": 8,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532780"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Requerimento de Adiamento da Discussão",
+          "id": 2532777,
+          "numero": 7,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532777"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2812/2022-Requerimento de Retirada de Matéria da Pauta",
+          "id": 2532775,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532775"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2532773,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532773"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-07-08T13:34",
+          "ementa": "Requerimento de Votação Nominal - PL 2812/2022",
+          "id": 2532771,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532771"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-08T13:33",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2532769,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532769"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-08T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2532870,
+          "numero": 15,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532870"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-08T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2532843,
+          "numero": 14,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532843"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-08T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2532833,
+          "numero": 13,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532833"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-08T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2812/2022",
+          "id": 2532826,
+          "numero": 12,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532826"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-07-08T13:30",
+          "ementa": "Requerimento de Inversão da Pauta",
+          "id": 2532766,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532766"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-07-08T13:21",
+          "ementa": "COMISSÃO DE CONSTITUIÇÃO E JUSTIÇA E DE CIDADANIA\nREQUERIMENTO Nº    , DE  2025\n(Do Sr. VINICIUS CARVALHO)\nRequer a realização de audiência pública para debater sobre o PL 2812/2022, que Revoga a Lei nº 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2534864,
+          "numero": 24,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2534864"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-08T13:21",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2812/2022",
+          "id": 2532767,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532767"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-07-07T17:51",
+          "ementa": "Requeiro a Vossa Excelência, nos termos do art. 24, III, e do art. 255 do Regimento Interno desta Casa, a realização de reunião de audiência pública com o objetivo de debater o Projeto de Lei nº 2.812/2022, que dispõe “Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2534863,
+          "numero": 23,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2534863"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-03-26T11:56",
+          "ementa": "Parecer da Relatora, Dep. Laura Carneiro (PSD-RJ), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação deste e do Projeto de Lei n° 642/2024, apensado, na forma do Substitutivo da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família.",
+          "id": 2490096,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2490096"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-03-26T10:06",
+          "ementa": "Parecer da Relatora, Dep. Laura Carneiro (PSD-RJ).",
+          "id": 2489857,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2489857"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do REQ n. 60/2025 (Requerimento (Outros)), pela Deputada Chris Tonietto (PL/RJ), que \"Solicita que a Comissão de Constituição e Justiça e de Cidadania requeira a redistribuição do Projeto de Lei nº 2812/2022\".",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591202"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/80544",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:56.007Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-82"
+}

@@ -1,0 +1,127 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T18:28:52",
+      "dataHoraUltimaAberturaVotacao": "2026-11-10T18:28:37",
+      "descUltimaAberturaVotacao": "Votação preliminar em turno único.",
+      "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista, na parte em que manifesta opinião favorável quanto ao atendimento dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+      "efeitosRegistrados": [],
+      "id": "2641546-16",
+      "idEvento": 83243,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-10T00:00",
+          "ementa": "Redação Final ao MPV 1379/2026",
+          "id": 2652787,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652787"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-11-05T00:00",
+          "ementa": "Projeto de conversão da Medida Provisória 1379 de 2026.",
+          "id": 2652216,
+          "numero": 15,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652216"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 1033,
+          "dataApresentacao": "2026-08-27T18:26",
+          "ementa": "De ordem comunica, que estão constituídas as Comissões Mistas incumbidas de emitir parecer sobre as Medidas Provisórias nos 1.373, 1.374, 1.375, 1.376, 1.379 e 1.382, de 2026.",
+          "id": 2644744,
+          "numero": 1457,
+          "siglaTipo": "DOC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644744"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-08-10T00:00",
+          "ementa": "Emenda  à MPV 1379/2026 - transparência",
+          "id": 2652214,
+          "numero": 4,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652214"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-08-10T00:00",
+          "ementa": "Acrescente-se § 14 ao art. 3º da Lei nº 15.473, de 22 de julho de 2026, na forma proposta pelo art. 1º da Medida Provisória 1379/2026.",
+          "id": 2652215,
+          "numero": 5,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652215"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-08-07T00:00",
+          "ementa": "Emenda à MP 1.379, de 2026 para dispor sobre o Fundo de Comércio Exterior - FCE.",
+          "id": 2652212,
+          "numero": 2,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652212"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-08-07T00:00",
+          "ementa": "apoio às unidades produtoras de açúcar das Regiões Norte e Nordeste contempladas com a alocação de cota preferencial de exportação de açúcar destinada ao Brasil pelo Governo dos Estados Unidos",
+          "id": 2652213,
+          "numero": 3,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652213"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-08-06T00:00",
+          "ementa": "Observalção de legislação existente",
+          "id": 2652211,
+          "numero": 1,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652211"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 291,
+          "dataApresentacao": "2026-07-22T00:00",
+          "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
+          "id": 2641546,
+          "numero": 1379,
+          "siglaTipo": "MPV",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:04:45.908Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16"
+}

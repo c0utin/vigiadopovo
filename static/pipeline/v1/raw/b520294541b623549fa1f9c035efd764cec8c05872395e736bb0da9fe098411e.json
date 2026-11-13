@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2021,
+      "codTipo": 139,
+      "dataApresentacao": "2021-02-19T17:13",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+      "ementaDetalhada": "",
+      "id": 2270540,
+      "justificativa": null,
+      "keywords": "Criação, Política Nacional de Residência em Área Profissional da Saúde, diretrizes, pós-graduação, profissional de saúde, Residência em Área Profissional da Saúde, Sistema Único de Saúde (SUS), competência, Ministério da Saúde, Ministério da Educação. \r\n_ Alteração, Lei do Programa Nacional de Inclusão de Jovens (2005), alteração, nome, Comissão Nacional de Residência Multiprofissional em Saúde (CNRMS), Comissão Nacional de Residência em Área Profissional da Saúde (CNRAPS).",
+      "numero": 504,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1293,
+        "codTipoTramitacao": "1243",
+        "dataHora": "2026-11-11T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "despacho": "A matéria vai ao Senado Federal (PL 504-B/2021).",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 91,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220632",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195302"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1964794",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:59.988Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540"
+}

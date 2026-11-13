@@ -1,0 +1,40 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 0,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:21:05",
+        "descricao": "Rejeitado o Requerimento.",
+        "id": "2600339-18",
+        "proposicaoObjeto": "REC 1/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:19:28",
+        "descricao": "Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).",
+        "id": "2600339-15",
+        "proposicaoObjeto": "REC 1/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-15",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:08.722Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339/votacoes"
+}

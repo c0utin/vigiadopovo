@@ -1,0 +1,97 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2023-06-20",
+      "dataHoraRegistro": "2023-06-20T15:35:12",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2238560-28",
+      "idEvento": 68555,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2023-06-20T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - PL 565/2020",
+          "id": 2370342,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2370342"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2023-04-27T10:46",
+          "ementa": "",
+          "id": 2358703,
+          "numero": 2,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2358703"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2023-04-25T19:35",
+          "ementa": "Parecer do Relator, Dep. Marangoni (UNIÃO-SP), pela constitucionalidade, juridicidade e técnica legislativa, com emenda de redação.",
+          "id": 2358309,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2358309"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2021-06-15T15:51",
+          "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde",
+          "id": 2286915,
+          "numero": 1,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2286915"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2021-06-14T15:42",
+          "ementa": "Parecer do Relator, Dep. Geninho Zuliani (DEM-SP), pela constitucionalidade, juridicidade e técnica legislativa, com emenda de redação.",
+          "id": 2286724,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2286724"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-03-05T16:59",
+          "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
+          "id": 2238560,
+          "numero": 565,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2023-04-27T10:47:15",
+        "descricao": "Parecer do Relator, Dep. Marangoni (UNIÃO-SP), pela constitucionalidade, juridicidade e técnica legislativa, com emenda de redação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2358309"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-28",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68555",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-28",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:06:04.452Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2238560-28"
+}

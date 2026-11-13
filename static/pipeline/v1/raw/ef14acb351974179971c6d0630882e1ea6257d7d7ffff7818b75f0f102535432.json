@@ -1,0 +1,80 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-08-19",
+      "dataHoraRegistro": "2025-08-19T16:34:15",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento.",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2025-08-19T14:30",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 28/2025,da Sra. Laura Carneiro que requer a realização de reunião de audiência pública no âmbito desta Comissão de Constituição e Justiça e de Cidadania, com o objetivo de debater o Projeto de Lei nº 2.812, de 2022, que revoga integralmente a Lei nº 12.318, de 26 de agosto de 2010 (Lei da Alienação Parental), bem como o Projeto de Lei nº 642, de 2024, que revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental e altera o art. 236 da Lei no 8.069, de 13 de julho de 1990, que tramita em apenso.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do REQ n. 28/2025 (Requerimento de Audiência Pública), pela Deputada Laura Carneiro (PSD/RJ), que \"Requer a realização de reunião de audiência pública no âmbito desta Comissão de Constituição e Justiça e de Cidadania, com o objetivo de debater o Projeto de Lei nº 2.812, de 2022, que revoga integralmente a Lei nº 12.318, de 26 de agosto de 2010 (Lei da Alienação Parental), bem como o Projeto de Lei nº 642, de 2024, que revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental e altera o art. 236 da Lei no 8.069, de 13 de julho de 1990, que tramita em apenso\".",
+          "tituloProposicao": "PL 2812/2022",
+          "tituloProposicaoCitada": "REQ 28/2025 CCJC",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2545901"
+        }
+      ],
+      "id": "2545901-2",
+      "idEvento": 77671,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2025-08-19T13:30",
+          "ementa": "Requerimento de Inversão da Pauta - REQ 28/2025 CCJC",
+          "id": 2549308,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2549308"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-08-14T17:00",
+          "ementa": "Requer a realização de reunião de audiência pública no âmbito desta Comissão de Constituição e Justiça e de Cidadania, com o objetivo de debater o Projeto de Lei nº 2.812, de 2022, que revoga integralmente a Lei nº 12.318, de 26 de agosto de 2010 (Lei da Alienação Parental), bem como o Projeto de Lei nº 642, de 2024, que revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental e altera o art. 236 da Lei no 8.069, de 13 de julho de 1990, que tramita em apenso.",
+          "id": 2545901,
+          "numero": 28,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2545901"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do REQ n. 28/2025 (Requerimento de Audiência Pública), pela Deputada Laura Carneiro (PSD/RJ), que \"Requer a realização de reunião de audiência pública no âmbito desta Comissão de Constituição e Justiça e de Cidadania, com o objetivo de debater o Projeto de Lei nº 2.812, de 2022, que revoga integralmente a Lei nº 12.318, de 26 de agosto de 2010 (Lei da Alienação Parental), bem como o Projeto de Lei nº 642, de 2024, que revoga a Lei nº 12.318, de 26 de agosto de 2010, que dispõe sobre a alienação parental e altera o art. 236 da Lei no 8.069, de 13 de julho de 1990, que tramita em apenso\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77671",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:57.906Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2545901-2"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 554,
+      "dataApresentacao": "2026-05-29T16:11",
+      "descricaoTipo": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
+      "ementaDetalhada": "",
+      "id": 2629310,
+      "justificativa": null,
+      "keywords": "Aprovação, ato internacional, Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navio (HKC) (2009), Brasil, País signatário, cooperação internacional, País signatário, Destinação final ambientalmente adequada, Navio.",
+      "numero": 557,
+      "siglaTipo": "PDL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-12T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 256/2026/SGM-P.",
+        "regime": "Urgência (Art. 151, I \"j\", RICD)",
+        "sequencia": 52,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/160508",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2016",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3139887",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:04:50.066Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310"
+}

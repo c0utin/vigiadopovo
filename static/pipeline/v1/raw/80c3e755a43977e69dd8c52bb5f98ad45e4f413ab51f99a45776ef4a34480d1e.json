@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2022,
+      "codTipo": 139,
+      "dataApresentacao": "2022-11-18T14:36",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+      "ementaDetalhada": "",
+      "id": 2338753,
+      "justificativa": null,
+      "keywords": "Revogação, Lei da Alienação Parental, alienação parental, interferência, desenvolvimento psíquico, criança, adolescente, promoção, pais, avós, responsável legal.",
+      "numero": 2812,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": 904,
+        "codTipoTramitacao": "1005",
+        "dataHora": "2026-11-11T18:30",
+        "descricaoSituacao": "Aguardando Deliberação de Recurso",
+        "descricaoTramitacao": "Notificações",
+        "despacho": "11/11/2026Plenário - PLEN13:55 Sessão Deliberativa Extraordinária Semipresencial (AM nº 123/2020)Matéria sobre a Mesa.Votação do Requerimento da Dep. Julia Zanatta, que solicita a retirada de pauta deste Projeto de Lei.Rejeitado o Requerimento.Rejeitado o Recurso nº 1/2026 (art. 58, § 1º c/c art. 132, § 2º, RICD).A matéria segue a tramitação inicialmente prevista.",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 104,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74856",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194189"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2216469",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-13T17:05:52.742Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+}

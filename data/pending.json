@@ -1,5 +1,41 @@
 [
   {
+    "id": 2653227,
+    "sourceHash": "ba70f6dd69ed4c4ec7c24097bf957b64d61825c8ecc874621970e56c621a8eba",
+    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227"
+  },
+  {
+    "id": 2653188,
+    "sourceHash": "3dfe451577655200a993ac940db6031a1712ccaadea6fd5e7d50c71f468e1772",
+    "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188"
+  },
+  {
+    "id": 2653185,
+    "sourceHash": "f0c39a14f9e7567a6b25f24a60bf59e4193f9cc6ac40f650e4594497bb16c1a4",
+    "ementa": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653185"
+  },
+  {
+    "id": 2653184,
+    "sourceHash": "fa87fec548c8b81db94c6b15c4711729d7fbd245cf4bdb5efeb9f0494a2ec7d3",
+    "ementa": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653184"
+  },
+  {
+    "id": 2653179,
+    "sourceHash": "c6bf9674afa3d0a6ab5f0e343f8edee3390f7d5f8c1233fdf16de67905a11a1c",
+    "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179"
+  },
+  {
+    "id": 2653177,
+    "sourceHash": "67d179033df4997f0fdca1a5f68eb079752db78cef1f1240ecd545e0a42bdb2e",
+    "ementa": "Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177"
+  },
+  {
     "id": 2651409,
     "sourceHash": "2620f97c0595f865cc5c289563b0ff15e0bbb71ceda59f6183e9c56b862955c2",
     "ementa": "Altera a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), para dispor sobre a remição da pena por meio da doação voluntária de sangue",
@@ -108,10 +144,28 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637478"
   },
   {
+    "id": 2629310,
+    "sourceHash": "b4876dea4103a7de20b1f9ce6a2ac3d701afb2a17ecbee532df51d7a4b32f1ef",
+    "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310"
+  },
+  {
     "id": 2617269,
     "sourceHash": "955a863619246e6fa77fed37197ebf3a439916a57aba9241858310c25c21abfb",
     "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269"
+  },
+  {
+    "id": 2602370,
+    "sourceHash": "58b03f29295afb14adaf33d86303b530cd191db8349d3ac0b71b19da60354bb6",
+    "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370"
+  },
+  {
+    "id": 2600339,
+    "sourceHash": "984389f36e0b343bbd218c8b60747732f99849807ba9cbb3341b9ceed265c9e9",
+    "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
   },
   {
     "id": 2584437,
@@ -124,6 +178,12 @@
     "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
     "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+  },
+  {
+    "id": 2515534,
+    "sourceHash": "c303f624a22a6aa1f3608ac44d6b89fa6db2037f3e6262b4531580652c010e9d",
+    "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534"
   },
   {
     "id": 2412504,
@@ -150,52 +210,10 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679"
   },
   {
-    "id": 2238560,
-    "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
-    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
-  },
-  {
-    "id": 2653227,
-    "sourceHash": "ba70f6dd69ed4c4ec7c24097bf957b64d61825c8ecc874621970e56c621a8eba",
-    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653227"
-  },
-  {
-    "id": 2653188,
-    "sourceHash": "3dfe451577655200a993ac940db6031a1712ccaadea6fd5e7d50c71f468e1772",
-    "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653188"
-  },
-  {
-    "id": 2653185,
-    "sourceHash": "f0c39a14f9e7567a6b25f24a60bf59e4193f9cc6ac40f650e4594497bb16c1a4",
-    "ementa": "Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653185"
-  },
-  {
-    "id": 2653184,
-    "sourceHash": "fa87fec548c8b81db94c6b15c4711729d7fbd245cf4bdb5efeb9f0494a2ec7d3",
-    "ementa": "Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653184"
-  },
-  {
-    "id": 2653179,
-    "sourceHash": "c6bf9674afa3d0a6ab5f0e343f8edee3390f7d5f8c1233fdf16de67905a11a1c",
-    "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179"
-  },
-  {
-    "id": 2653177,
-    "sourceHash": "67d179033df4997f0fdca1a5f68eb079752db78cef1f1240ecd545e0a42bdb2e",
-    "ementa": "Altera a Lei no 8.080, de 19 de setembro de 1990 (Lei Orgânica da Saúde), e a Lei no 10.257, de 10 de julho de 2001 (Estatuto da Cidade), para instituir o combate ao isolamento social e a promoção da conexão social como diretrizes do Sistema Único de Saúde e do desenvolvimento urbano, e dá outras providências.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653177"
-  },
-  {
-    "id": 2515534,
-    "sourceHash": "c303f624a22a6aa1f3608ac44d6b89fa6db2037f3e6262b4531580652c010e9d",
-    "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534"
+    "id": 2338753,
+    "sourceHash": "43a75e75053da46ef12a3ab31db9f516750ac064bd3912486139c4eb227ea495",
+    "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
   },
   {
     "id": 2270540,
@@ -204,27 +222,45 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540"
   },
   {
-    "id": 2629310,
-    "sourceHash": "b4876dea4103a7de20b1f9ce6a2ac3d701afb2a17ecbee532df51d7a4b32f1ef",
-    "ementa": "Aprova o texto da Convenção Internacional de Hong Kong para a Reciclagem Segura e Ambientalmente Adequada de Navios de 2009 (HKC), para fins de adesão brasileira ao referido instrumento.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2629310"
+    "id": 2238560,
+    "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
+    "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
   },
   {
-    "id": 2602370,
-    "sourceHash": "58b03f29295afb14adaf33d86303b530cd191db8349d3ac0b71b19da60354bb6",
-    "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370"
+    "id": 2653822,
+    "sourceHash": "a8684420f2a520153cb1ca4fcfbb083ad529824950f490b9524c741367eeab88",
+    "ementa": "Dispõe sobre a destinação de parcela da receita do Imposto Seletivo ao financiamento adicional de tratamentos de saúde no âmbito do Sistema Único de Saúde (SUS).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653822"
   },
   {
-    "id": 2338753,
-    "sourceHash": "43a75e75053da46ef12a3ab31db9f516750ac064bd3912486139c4eb227ea495",
-    "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+    "id": 2653820,
+    "sourceHash": "022a83742629432bd62b5020bd7f6b553cde274e44187cd0544501e6f432a063",
+    "ementa": "Dispõe sobre a criação de Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais , e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653820"
   },
   {
-    "id": 2600339,
-    "sourceHash": "984389f36e0b343bbd218c8b60747732f99849807ba9cbb3341b9ceed265c9e9",
-    "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+    "id": 2653819,
+    "sourceHash": "007314f361d21f9b47b24c6bc4132467c60423d7ca9e76aba38a97917c75eac9",
+    "ementa": "Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653819"
+  },
+  {
+    "id": 2653818,
+    "sourceHash": "1d131eb029b1fd85090a70785ddbcd6cd79a8b2838cc8f2bb61707b71e0e6c47",
+    "ementa": "Dispõe sobre a responsabilização penal e civil por crimes contra o patrimônio praticados entre familiares, revoga imunidades penais, estabelece medidas de reparação patrimonial e altera o Código Civil para prever novas hipóteses de indignidade sucessória e deserdação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653818"
+  },
+  {
+    "id": 2653816,
+    "sourceHash": "4f28798f1288fc28629ad62c7c8fbb50e5469f23b792badc2fd9ca8f26aee804",
+    "ementa": "Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816"
+  },
+  {
+    "id": 2653814,
+    "sourceHash": "bd8c436556814d9af87f9412aaf4defdb0a8260b5dda2ab25cd1fb106fd3024f",
+    "ementa": "Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653814"
   }
 ]
