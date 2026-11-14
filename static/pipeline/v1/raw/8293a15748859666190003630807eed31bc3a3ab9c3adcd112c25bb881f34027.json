@@ -1,0 +1,106 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-03-17",
+      "dataHoraRegistro": "2026-03-17T21:06:18",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-03-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 54/2026,do Sr. Célio Studart, que solicita urgência (art. 155) para o PL 2475/2025.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do PL n. 2475/2025 (Projeto de Lei), pelo Deputado Célio Studart (PSD/CE), que \"Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal\".",
+          "tituloProposicao": "PL 2475/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-03-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 2475/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-03-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 2475/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-03-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 54/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do PL n. 2475/2025 (Projeto de Lei), pelo Deputado Célio Studart (PSD/CE), que \"Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal\".",
+          "tituloProposicao": "PL 2475/2025",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2600130-7",
+      "idEvento": 81323,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-02-02T13:25",
+          "ementa": "Requer o Regime de Urgência para a apreciação do Projeto de Lei nº 2475, de 2025.",
+          "id": 2600130,
+          "numero": 54,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600130"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-05-22T15:13",
+          "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+          "id": 2515534,
+          "numero": 2475,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81323",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:26.600Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600130-7"
+}

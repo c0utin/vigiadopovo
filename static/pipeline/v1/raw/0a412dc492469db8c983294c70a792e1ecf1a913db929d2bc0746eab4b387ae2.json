@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-13T09:55",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação.",
+      "ementaDetalhada": null,
+      "id": 2653814,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5846,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-13T09:55",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5846/2026 (Projeto de Lei), pela Deputada Lídice da Mata (PSB/BA), que \"Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653814",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653814/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195617",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653814",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:41:43.484Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653814"
+}

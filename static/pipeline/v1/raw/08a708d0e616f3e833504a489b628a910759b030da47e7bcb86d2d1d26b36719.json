@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-13T12:26",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes.",
+      "ementaDetalhada": null,
+      "id": 2653819,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5849,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-13T12:26",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5849/2026 (Projeto de Lei), pelo Deputado Paulo Folletto (PSB/ES), que \"Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653819",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653819/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195623",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653819",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:41:40.900Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653819"
+}

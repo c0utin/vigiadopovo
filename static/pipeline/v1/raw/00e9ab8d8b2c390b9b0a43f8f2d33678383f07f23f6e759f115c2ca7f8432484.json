@@ -1,0 +1,66 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-10",
+        "dataHoraRegistro": "2026-11-10T18:31:38",
+        "descricao": "Aprovada a Redação Final.",
+        "id": "2641546-20",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-20",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-10",
+        "dataHoraRegistro": "2026-11-10T18:30:47",
+        "descricao": "Aprovada a Medida Provisória nº 1.379 de 2026, na forma do Projeto de Lei de Conversão.",
+        "id": "2641546-18",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-18",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-10",
+        "dataHoraRegistro": "2026-11-10T18:28:52",
+        "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista, na parte em que manifesta opinião favorável quanto ao atendimento dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+        "id": "2641546-16",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-16",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-05",
+        "dataHoraRegistro": "2026-11-05T15:51:53",
+        "descricao": "Aprovado o parecer na Comissão Mista",
+        "id": "2641546-7",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641546-7",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/111",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:09.203Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641546/votacoes"
+}

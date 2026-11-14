@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-13T11:30",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos.",
+      "ementaDetalhada": null,
+      "id": 2653816,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5847,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-13T11:30",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5847/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195619",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:41:42.773Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816"
+}

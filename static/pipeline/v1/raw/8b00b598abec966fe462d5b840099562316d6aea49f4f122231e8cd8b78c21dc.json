@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 0,
+      "data": "2026-11-11",
+      "dataHoraRegistro": "2026-11-11T18:21:05",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Rejeitado o Requerimento.",
+      "efeitosRegistrados": [],
+      "id": "2600339-18",
+      "idEvento": 83266,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-11-11T12:31",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - REC 1/2026",
+          "id": 2652761,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652761"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2026-11-10T19:47",
+          "ementa": "Requerimento de Adiamento da Votação",
+          "id": 2652538,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652538"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-11-10T19:43",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - REC 1/2026",
+          "id": 2652533,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652533"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 373,
+          "dataApresentacao": "2026-02-03T09:49",
+          "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+          "id": 2600339,
+          "numero": 1,
+          "siglaTipo": "REC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:41:38.736Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2600339-18"
+}

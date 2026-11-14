@@ -1,0 +1,746 @@
+{
+  "body": {
+    "dados": [
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 73768,
+          "idLegislatura": 57,
+          "nome": "Dilceu Sperafico",
+          "siglaPartido": "PP",
+          "siglaUf": "PR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73768",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74041,
+          "idLegislatura": 57,
+          "nome": "Luiz Couto",
+          "siglaPartido": "PT",
+          "siglaUf": "PB",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74041",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74160,
+          "idLegislatura": 57,
+          "nome": "Patrus Ananias",
+          "siglaPartido": "PT",
+          "siglaUf": "MG",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74160",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74398,
+          "idLegislatura": 57,
+          "nome": "Maria do Rosário",
+          "siglaPartido": "PT",
+          "siglaUf": "RS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74398",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74537,
+          "idLegislatura": 57,
+          "nome": "Claudio Cajado",
+          "siglaPartido": "PP",
+          "siglaUf": "BA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74537",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74554,
+          "idLegislatura": 57,
+          "nome": "José Rocha",
+          "siglaPartido": "UNIÃO",
+          "siglaUf": "BA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74554",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74574,
+          "idLegislatura": 57,
+          "nome": "Paulo Magalhães",
+          "siglaPartido": "PSD",
+          "siglaUf": "BA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74574",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 74856,
+          "idLegislatura": 57,
+          "nome": "Laura Carneiro",
+          "siglaPartido": "PSD",
+          "siglaUf": "RJ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74856",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 91228,
+          "idLegislatura": 57,
+          "nome": "Waldemar Oliveira",
+          "siglaPartido": "AVANTE",
+          "siglaUf": "PE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/91228",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36898"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 92102,
+          "idLegislatura": 57,
+          "nome": "Leur Lomanto Júnior",
+          "siglaPartido": "UNIÃO",
+          "siglaUf": "BA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/92102",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 123086,
+          "idLegislatura": 57,
+          "nome": "Átila Lira",
+          "siglaPartido": "PP",
+          "siglaUf": "PI",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/123086",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 141470,
+          "idLegislatura": 57,
+          "nome": "José Guimarães",
+          "siglaPartido": "PT",
+          "siglaUf": "CE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/141470",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 143632,
+          "idLegislatura": 57,
+          "nome": "Domingos Neto",
+          "siglaPartido": "PSD",
+          "siglaUf": "CE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/143632",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 153423,
+          "idLegislatura": 57,
+          "nome": "Renilce Nicodemos",
+          "siglaPartido": "MDB",
+          "siglaUf": "PA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/153423",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 160642,
+          "idLegislatura": 57,
+          "nome": "Pastor Eurico",
+          "siglaPartido": "PL",
+          "siglaUf": "PE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160642",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178873,
+          "idLegislatura": 57,
+          "nome": "Helder Salomão",
+          "siglaPartido": "PT",
+          "siglaUf": "ES",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178873",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178881,
+          "idLegislatura": 57,
+          "nome": "Aluisio Mendes",
+          "siglaPartido": "REPUBLICANOS",
+          "siglaUf": "MA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178881",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37908"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178887,
+          "idLegislatura": 57,
+          "nome": "Rubens Pereira Júnior",
+          "siglaPartido": "PT",
+          "siglaUf": "MA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178887",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178908,
+          "idLegislatura": 57,
+          "nome": "Delegado Éder Mauro",
+          "siglaPartido": "PL",
+          "siglaUf": "PA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178908",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178929,
+          "idLegislatura": 57,
+          "nome": "Diego Garcia",
+          "siglaPartido": "REPUBLICANOS",
+          "siglaUf": "PR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178929",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37908"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178986,
+          "idLegislatura": 57,
+          "nome": "Nilto Tatto",
+          "siglaPartido": "PT",
+          "siglaUf": "SP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178986",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 178987,
+          "idLegislatura": 57,
+          "nome": "Orlando Silva",
+          "siglaPartido": "PCdoB",
+          "siglaUf": "SP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178987",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36779"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204367,
+          "idLegislatura": 57,
+          "nome": "Daniel Freitas",
+          "siglaPartido": "PL",
+          "siglaUf": "SC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204367",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204374,
+          "idLegislatura": 57,
+          "nome": "Bia Kicis",
+          "siglaPartido": "PL",
+          "siglaUf": "DF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204374",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204395,
+          "idLegislatura": 57,
+          "nome": "Pedro Lupion",
+          "siglaPartido": "REPUBLICANOS",
+          "siglaUf": "PR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204395",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37908"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204404,
+          "idLegislatura": 57,
+          "nome": "Lucas Redecker",
+          "siglaPartido": "PSDB",
+          "siglaUf": "RS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204404",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36835"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204407,
+          "idLegislatura": 57,
+          "nome": "Fernanda Melchionna",
+          "siglaPartido": "PSOL",
+          "siglaUf": "RS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204407",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36839"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204427,
+          "idLegislatura": 57,
+          "nome": "Fernando Rodolfo",
+          "siglaPartido": "PL",
+          "siglaUf": "PE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204427",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204460,
+          "idLegislatura": 57,
+          "nome": "Carlos Jordy",
+          "siglaPartido": "PL",
+          "siglaUf": "RJ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204460",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204474,
+          "idLegislatura": 57,
+          "nome": "Juarez Costa",
+          "siglaPartido": "MDB",
+          "siglaUf": "MT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204474",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36899"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204481,
+          "idLegislatura": 57,
+          "nome": "Dr. Jaziel",
+          "siglaPartido": "PL",
+          "siglaUf": "CE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204481",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204512,
+          "idLegislatura": 57,
+          "nome": "Delegado Marcelo Freitas",
+          "siglaPartido": "UNIÃO",
+          "siglaUf": "MG",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204512",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204526,
+          "idLegislatura": 57,
+          "nome": "Luiz Philippe de Orleans e Bragança",
+          "siglaPartido": "PL",
+          "siglaUf": "SP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204526",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204534,
+          "idLegislatura": 57,
+          "nome": "Tabata Amaral",
+          "siglaPartido": "PSB",
+          "siglaUf": "SP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204534",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36832"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204557,
+          "idLegislatura": 57,
+          "nome": "Sidney Leite",
+          "siglaPartido": "PSD",
+          "siglaUf": "AM",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204557",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204566,
+          "idLegislatura": 57,
+          "nome": "Marreca Filho",
+          "siglaPartido": "PRD",
+          "siglaUf": "MA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204566",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38010"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 204572,
+          "idLegislatura": 57,
+          "nome": "Capitão Alberto Neto",
+          "siglaPartido": "PL",
+          "siglaUf": "AM",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204572",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 209787,
+          "idLegislatura": 57,
+          "nome": "Nikolas Ferreira",
+          "siglaPartido": "PL",
+          "siglaUf": "MG",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/209787",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220536,
+          "idLegislatura": 57,
+          "nome": "Zé Haroldo Cathedral",
+          "siglaPartido": "PSD",
+          "siglaUf": "RR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220536",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36834"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220539,
+          "idLegislatura": 57,
+          "nome": "Defensor Stélio Dener",
+          "siglaPartido": "REPUBLICANOS",
+          "siglaUf": "RR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220539",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37908"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220543,
+          "idLegislatura": 57,
+          "nome": "Ricardo Ayres",
+          "siglaPartido": "REPUBLICANOS",
+          "siglaUf": "TO",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220543",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37908"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220550,
+          "idLegislatura": 57,
+          "nome": "Mauricio Marcon",
+          "siglaPartido": "PODE",
+          "siglaUf": "RS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220550",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36896"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220555,
+          "idLegislatura": 57,
+          "nome": "Daiana Santos",
+          "siglaPartido": "PCdoB",
+          "siglaUf": "RS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220555",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36779"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220556,
+          "idLegislatura": 57,
+          "nome": "Ana Paula Lima",
+          "siglaPartido": "PT",
+          "siglaUf": "SC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220556",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36844"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220558,
+          "idLegislatura": 57,
+          "nome": "Zé Trovão",
+          "siglaPartido": "PL",
+          "siglaUf": "SC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220558",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220574,
+          "idLegislatura": 57,
+          "nome": "Cabo Gilberto Silva",
+          "siglaPartido": "PL",
+          "siglaUf": "PB",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220574",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220583,
+          "idLegislatura": 57,
+          "nome": "Delegado Fabio Costa",
+          "siglaPartido": "PP",
+          "siglaUf": "AL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220583",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220594,
+          "idLegislatura": 57,
+          "nome": "Coronel Assis",
+          "siglaPartido": "UNIÃO",
+          "siglaUf": "MT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220594",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220615,
+          "idLegislatura": 57,
+          "nome": "Pastor Henrique Vieira",
+          "siglaPartido": "PSOL",
+          "siglaUf": "RJ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220615",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36839"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220623,
+          "idLegislatura": 57,
+          "nome": "Duda Salabert",
+          "siglaPartido": "PDT",
+          "siglaUf": "MG",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220623",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36786"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220644,
+          "idLegislatura": 57,
+          "nome": "Rosangela Moro",
+          "siglaPartido": "UNIÃO",
+          "siglaUf": "SP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220644",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220654,
+          "idLegislatura": 57,
+          "nome": "Delegado Paulo Bilynskyj",
+          "siglaPartido": "PL",
+          "siglaUf": "SP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220654",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220667,
+          "idLegislatura": 57,
+          "nome": "Pedro Campos",
+          "siglaPartido": "PSB",
+          "siglaUf": "PE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220667",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/36832"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220668,
+          "idLegislatura": 57,
+          "nome": "Maria Arraes",
+          "siglaPartido": "SOLIDARIEDADE",
+          "siglaUf": "PE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220668",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37904"
+        },
+        "tipoVoto": "Não"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 220690,
+          "idLegislatura": 57,
+          "nome": "Capitão Alden",
+          "siglaPartido": "PL",
+          "siglaUf": "BA",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220690",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906"
+        },
+        "tipoVoto": "Sim"
+      },
+      {
+        "dataRegistroVoto": "2025-12-03T11:53:58",
+        "deputado_": {
+          "id": 226179,
+          "idLegislatura": 57,
+          "nome": "Gisela Simona",
+          "siglaPartido": "UNIÃO",
+          "siglaUf": "MT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/226179",
+          "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/38009"
+        },
+        "tipoVoto": "Não"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-75/votos",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:52.512Z",
+  "redactions": [
+    "dados[].deputado_.email",
+    "dados[].deputado_.urlFoto"
+  ],
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-75/votos"
+}

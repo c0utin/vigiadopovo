@@ -1,0 +1,2167 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2023-06-14",
+      "dataHoraRegistro": "2023-06-14T14:27:11",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado.",
+      "efeitosRegistrados": [],
+      "id": "2366492-2",
+      "idEvento": 68236,
+      "idOrgao": 2014,
+      "objetosPossiveis": [
+        {
+          "ano": 2023,
+          "codTipo": 308,
+          "dataApresentacao": "2023-05-31T09:51",
+          "ementa": "Requer distribuição de projetos para a Comissão de Previdência, Assistência Social, Infância, Adolescência e Família (CPASF).",
+          "id": 2366492,
+          "numero": 129,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2366492"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2003,
+          "codTipo": 139,
+          "dataApresentacao": "2003-03-13T18:27",
+          "ementa": "Altera a redação do Capítulo II do Título II, arts. 57 a 73, da Consolidação das Leis do Trabalho.",
+          "id": 106587,
+          "numero": 342,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/106587"
+        },
+        {
+          "ano": 2010,
+          "codTipo": 139,
+          "dataApresentacao": "2010-03-03T17:35",
+          "ementa": "Altera o art. 20 da Lei nº 8.742, de 07 de dezembro de 1993, que dispõe sobre a Organização da Assistência Social, e dá outras providências.",
+          "id": 467868,
+          "numero": 6892,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/467868"
+        },
+        {
+          "ano": 2010,
+          "codTipo": 139,
+          "dataApresentacao": "2010-04-09T14:46",
+          "ementa": "Assegura à estudante grávida o regime de exercícios domiciliares instituído pelo Decreto-Lei nº 1.044, de 21 de outubro de 1969, e altera a Lei nº 11.788, de 25 de setembro de 2008, que dispõe sobre o estágio de estudantes, para possibilitar a interrupção do estágio da estudante grávida.",
+          "id": 472902,
+          "numero": 7109,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/472902"
+        },
+        {
+          "ano": 2010,
+          "codTipo": 139,
+          "dataApresentacao": "2010-05-10T14:33",
+          "ementa": "Dispõe sobre a definição de diarista.",
+          "id": 476055,
+          "numero": 7279,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/476055"
+        },
+        {
+          "ano": 2011,
+          "codTipo": 139,
+          "dataApresentacao": "2011-02-03T16:14",
+          "ementa": "Altera dispositivos da Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social e dá outras providências, para elevar para ½ (meio) salário mínimo per capita para concessão do benefício de prestação continuada  e dos benefícios eventuais.",
+          "id": 491071,
+          "numero": 117,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/491071"
+        },
+        {
+          "ano": 2011,
+          "codTipo": 139,
+          "dataApresentacao": "2011-04-27T14:35",
+          "ementa": "Acrescenta o § 3º e incisos ao art. 1º da Lei nº 11.770, de 09 de setembro de 2008.",
+          "id": 499594,
+          "numero": 1164,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/499594"
+        },
+        {
+          "ano": 2011,
+          "codTipo": 139,
+          "dataApresentacao": "2011-04-27T18:02",
+          "ementa": "Acrescenta o § 5º ao art. 69 da Lei nº 8.212, de 24 de julho de 1991, para vedar o comparecimento do aposentado e pensionista do Regime Geral de Previdência Social para fins de recadastramento e recenseamento previdenciário.",
+          "id": 499767,
+          "numero": 1183,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/499767"
+        },
+        {
+          "ano": 2011,
+          "codTipo": 139,
+          "dataApresentacao": "2011-05-03T16:42",
+          "ementa": "Acrescenta § 4º ao art. 72 da Lei nº 8.213, de 24 de julho de 1991, para dispor sobre o pagamento de salário-maternidade em caso de micro e pequenas empresas com 10 (dez) ou menos empregados.",
+          "id": 500254,
+          "numero": 1219,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/500254"
+        },
+        {
+          "ano": 2011,
+          "codTipo": 139,
+          "dataApresentacao": "2011-08-02T17:50",
+          "ementa": "Dá nova redação ao art. 96 da Lei nº 11.196, de 21 de novembro de 2005, para dispor sobre parcelamento de débitos previdenciários de responsabilidade dos Municípios apurados até 31 de dezembro de 2010.",
+          "id": 513407,
+          "numero": 1894,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/513407"
+        },
+        {
+          "ano": 2011,
+          "codTipo": 139,
+          "dataApresentacao": "2011-09-20T21:24",
+          "ementa": "Altera inciso III do art. 2º da Lei  nº 10.779 de 25 de novembro de 2003 que dispõe sobre a concessão do benefício de seguro desemprego, durante o período de defeso, ao pescador profissional que exerce a atividade pesqueira de forma artesanal.",
+          "id": 520508,
+          "numero": 2354,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/520508"
+        },
+        {
+          "ano": 2013,
+          "codTipo": 139,
+          "dataApresentacao": "2013-04-30T18:25",
+          "ementa": "Acrescenta artigos à Consolidação das Leis do Trabalho (CLT), aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, para dispor sobre o contrato de trabalho por prazo determinado para admissão de jovens entre 16 (dezesseis) e 24 (vinte e quatro) anos de idade que não tenham tido vínculo empregatício anterior, e dá outras providências.",
+          "id": 575585,
+          "numero": 5496,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/575585"
+        },
+        {
+          "ano": 2013,
+          "codTipo": 139,
+          "dataApresentacao": "2013-08-21T16:40",
+          "ementa": "Dispõe sobre a forma de aplicabilidade dos percentuais referidos no art. 93, da Lei nº 8.213, de 24 de julho de 1991, nas empresas de segurança privada.",
+          "id": 588531,
+          "numero": 6144,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/588531"
+        },
+        {
+          "ano": 2013,
+          "codTipo": 139,
+          "dataApresentacao": "2013-08-27T18:17",
+          "ementa": "Modifica o art. 126 e demais incisos da Lei nº 7.210, de 11 de julho de 1984.",
+          "id": 589370,
+          "numero": 6194,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/589370"
+        },
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-03-12T18:17",
+          "ementa": "Dispõe sobre a definição do trabalho de Diarista e dá outras providências.",
+          "id": 607990,
+          "numero": 7242,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/607990"
+        },
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-04-08T11:00",
+          "ementa": "Altera o art. 10 da Lei nº 10.666, de 8 de maio de 2003, que \"dispõe sobre a concessão da aposentadoria especial ao cooperado de cooperativa de trabalho ou de produção e dá outras providências\", para excluir o acidente no trajeto das estatísticas de cálculo para redução ou aumento  da alíquota do Seguro Acidente do Trabalho (SAT).",
+          "id": 611651,
+          "numero": 7379,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/611651"
+        },
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-05-07T17:41",
+          "ementa": "Altera a Lei nº 10.891, de 9 de julho de 2004.",
+          "id": 614511,
+          "numero": 7511,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/614511"
+        },
+        {
+          "ano": 2014,
+          "codTipo": 140,
+          "dataApresentacao": "2014-06-03T15:16",
+          "ementa": "Altera os arts. 9º, 18 e 29 da Lei Complementar nº 109, de 29 de maio de 2001, para dispor sobre limite máximo das taxas de administração e carregamento dos planos de benefícios de previdência complementar.",
+          "id": 617922,
+          "numero": 401,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/617922"
+        },
+        {
+          "ano": 2014,
+          "codTipo": 140,
+          "dataApresentacao": "2014-12-19T18:27",
+          "ementa": "Estabelece requisitos e critérios diferenciados para a concessão de aposentadoria aos servidores públicos com deficiência.",
+          "id": 860914,
+          "numero": 454,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/860914"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-03-30T15:02",
+          "ementa": "Dispõe sobre a proibição de uso de modelos mulheres para divulgação de propagandas de lingerie e afins em vias públicas, bem como em mídias visuais como TV, Jornais impressos e similares.",
+          "id": 1194685,
+          "numero": 967,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194685"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-06-03T11:28",
+          "ementa": "Proíbe o uso de animais não-humanos vivos nos estabelecimentos de ensino público e privado em todo o Território Nacional.",
+          "id": 1301855,
+          "numero": 1798,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1301855"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-06-18T15:12",
+          "ementa": "Dispõe sobre a obrigatoriedade de as instituições financeiras bancárias disponibilizarem acesso, via autoatendimento ou internet, às informações previdenciárias de seus correntistas.",
+          "id": 1513957,
+          "numero": 2003,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1513957"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 408,
+          "dataApresentacao": "2015-08-10T19:08",
+          "ementa": "Susta a aplicação do Decreto nº 8.497, de 4 de julho de 2015, da Presidência da República, que \"Regulamenta a formação do Cadastro Nacional de Especialistas de que tratam o § 4º e § 5º do art. 1º da Lei nº 6.932, de 7 de julho de 1981, e o art. 35 da Lei nº 12.871, de 22 de outubro de 2013.\"",
+          "id": 1599006,
+          "numero": 157,
+          "siglaTipo": "PDC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1599006"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 140,
+          "dataApresentacao": "2015-09-02T17:01",
+          "ementa": "Estabelece a natureza jurídica da previdência complementar.",
+          "id": 1701702,
+          "numero": 152,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1701702"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-10-01T15:04",
+          "ementa": "Acrescenta os incisos IV e V no art. 5º, do Decreto-Lei nº 938, de 13 de outubro de 1969 e dá outras providências.",
+          "id": 1806410,
+          "numero": 3185,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1806410"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-10-08T10:11",
+          "ementa": "Altera a Lei nº 10.098, de 19 de dezembro de 2000, para estabelecer reserva de vagas em estacionamentos públicos para mulheres a partir do sexto mês de gestação e até 30 (trinta) dias após o parto.",
+          "id": 2017317,
+          "numero": 3275,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2017317"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 140,
+          "dataApresentacao": "2015-12-03T18:24",
+          "ementa": "Altera a Lei Complementar nº 141, de 13 de janeiro de 2012, para dispor sobre o montante mínimo de recursos a serem repassados pela União aos Estados, ao Distrito Federal e aos Municípios para os fins que especifica.",
+          "id": 2057989,
+          "numero": 204,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2057989"
+        },
+        {
+          "ano": 2016,
+          "codTipo": 139,
+          "dataApresentacao": "2016-02-24T13:54",
+          "ementa": "Altera a Lei nº 8.742, de 07 de dezembro de 1993 e a Lei nº 10.836, de 9 de janeiro de 2004, para incluir o benefício natalino aos que se encontram em gozo da Renda Mensal Vitalícia ou do Benefício de Prestação Continuada ou em gozo do Programa Bolsa Família",
+          "id": 2078005,
+          "numero": 4521,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2078005"
+        },
+        {
+          "ano": 2016,
+          "codTipo": 139,
+          "dataApresentacao": "2016-03-29T15:31",
+          "ementa": "Acrescenta art. 116-A à Lei nº 8.213, de 24 de julho de 1991, para garantir o acesso público à relação dos beneficiários e dos respectivos benefícios mantidos pelo Regime Geral de Previdência Social.",
+          "id": 2080556,
+          "numero": 4831,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2080556"
+        },
+        {
+          "ano": 2016,
+          "codTipo": 139,
+          "dataApresentacao": "2016-04-12T15:19",
+          "ementa": "Altera o art. 396 da Consolidação das Leis do Trabalho, aprovada pelo Decreto-lei nº 5.452, de 1º de maio de 1943, para dispor sobre a redução da jornada da mãe lactante.",
+          "id": 2081822,
+          "numero": 4968,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2081822"
+        },
+        {
+          "ano": 2016,
+          "codTipo": 139,
+          "dataApresentacao": "2016-08-23T14:34",
+          "ementa": "Regulamenta o manejo para controle ambiental da fauna sinantrópica nociva.",
+          "id": 2095125,
+          "numero": 6023,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2095125"
+        },
+        {
+          "ano": 2017,
+          "codTipo": 139,
+          "dataApresentacao": "2017-10-31T13:10",
+          "ementa": "Dispõe sobre a compensação financeira entre os Regimes Próprios de Previdência dos servidores titulares de cargos efetivos da União, dos Estados, do Distrito Federal e dos Municípios, e dá outras providências.",
+          "id": 2159717,
+          "numero": 8974,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2159717"
+        },
+        {
+          "ano": 2017,
+          "codTipo": 140,
+          "dataApresentacao": "2017-10-31T18:13",
+          "ementa": "Altera a Lei Complementar nº 109, de 29 de maio de 2001, para disciplinar o processo de equacionamento de planos de previdência complementar deficitários, e dá outras providências.",
+          "id": 2159901,
+          "numero": 439,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2159901"
+        },
+        {
+          "ano": 2017,
+          "codTipo": 139,
+          "dataApresentacao": "2017-12-20T16:40",
+          "ementa": "Dispõe sobre a inclusão da Constelação Sistêmica como um instrumento de mediação entre particulares, a fim de assistir à solução de controvérsias.",
+          "id": 2167164,
+          "numero": 9444,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2167164"
+        },
+        {
+          "ano": 2018,
+          "codTipo": 139,
+          "dataApresentacao": "2018-04-26T11:06",
+          "ementa": "Revoga o §8º do artigo 57 da Lei n.º 8.213/91 - Lei de Benefícios da Previdência Social.",
+          "id": 2173462,
+          "numero": 10139,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2173462"
+        },
+        {
+          "ano": 2018,
+          "codTipo": 139,
+          "dataApresentacao": "2018-07-11T15:00",
+          "ementa": "Dispõe sobre a inclusão de medidas de conscientização, prevenção e combate à erotização infantil (sexualização precoce) nas escolas públicas do Brasil.",
+          "id": 2181620,
+          "numero": 10583,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2181620"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-02-04T17:31",
+          "ementa": "Regula o exercício da profissão de Agente de Segurança Socioeducativa - ASSE.",
+          "id": 2190583,
+          "numero": 122,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2190583"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-02-04T17:37",
+          "ementa": "Acresce o art. 24-D à Lei nº 8.742, de 1993, para instituir o Serviço de Proteção e Atendimento à Maternidade e à Primeira Infância e dá outras providências",
+          "id": 2190620,
+          "numero": 147,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2190620"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 140,
+          "dataApresentacao": "2019-02-27T14:51",
+          "ementa": "Institui Contribuição de Intervenção no Domínio Econômico sobre operações financeiras, destinada a financiar a Previdência Social Rural no Brasil.",
+          "id": 2193348,
+          "numero": 48,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2193348"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-03-19T18:43",
+          "ementa": "Altera o caput do art. 1º da Lei nº 7.986, de 28 de dezembro de 1989, que regulamenta a concessão do benefício previsto no artigo 54 do Ato das Disposições Constitucionais Transitórias, e dá outras providências, para assegurar pagamento de abono anual.",
+          "id": 2194570,
+          "numero": 1589,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2194570"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-03-26T16:37",
+          "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015, para determinar que a avaliação da deficiência deverá utilizar a metodologia da Classificação Internacional de Funcionalidade (CIF).",
+          "id": 2195362,
+          "numero": 1740,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2195362"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-03-28T16:57",
+          "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para prever o ingresso compulsório de pais ou responsáveis, autores de violência contra criança ou adolescente, em programas de prevenção da violência contra criança ou adolescente.",
+          "id": 2196022,
+          "numero": 1883,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2196022"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-04-10T16:55",
+          "ementa": "Altera o art. 69 da Lei nº 8.383, de 30 dezembro de 1991, para criar nova hipótese de destinação do produto de arrecadação das multas, inclusive as que fazem parte do valor pago por execução da Dívida Ativa e de sua respectiva correção monetária, incidentes sobre tributos e contribuições administrados pelo Departamento da Receita Federal e próprios da União, bem como daquelas aplicadas à rede arrecadadora de receitas federais.",
+          "id": 2197625,
+          "numero": 2220,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2197625"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-04-22T18:11",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), para autorizar a instituição de programa de auxílio financeiro para famílias de baixa renda que não conseguirem matricular crianças de 0 (zero) a 5 (cinco) anos em estabelecimentos de educação infantil, bem como para tornar obrigatória a divulgação de lista de espera de interessados em vagas nesses estabelecimentos.",
+          "id": 2198845,
+          "numero": 2426,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2198845"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-04-24T15:59",
+          "ementa": "Dispõe sobre a securitização do empréstimo compulsório sobre o consumo de energia elétrica de que trata a Lei nº 4.156, de 28 de novembro de 1962 junto à Secretaria do Tesouro Nacional, para dação em pagamento de crédito tributário, não tributário, e de contribuição previdenciária, inscrito em dívida ativa, na Procuradoria Geral da Fazenda Nacional.",
+          "id": 2199180,
+          "numero": 2502,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2199180"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-07T16:30",
+          "ementa": "Obriga as unidades escolares, públicas e privadas, inclusive creches, a disponibilizarem no mínimo 10% (dez por cento) de mobiliário adaptado para pessoas com deficiência e ou obesas.",
+          "id": 2200284,
+          "numero": 2636,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2200284"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-16T09:26",
+          "ementa": "Altera o § 1º do art. 12 da lei nº 8.212, de 24 de julho de 1991, o § 1º do art. 11 da lei nº 8.213, de 24 de julho de 1991, com redação dada pela lei nº 11.718, de 20 de junho de 2008.",
+          "id": 2203579,
+          "numero": 2925,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2203579"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-05-21T09:54",
+          "ementa": "Dispõe sobre a concessão de pensão especial aos produtores e trabalhadores rurais trazidos pelo INCRA para os projetos de colonização implantados pelo Governo Federal ao longo dos trechos das BR-163 (Cuiabá/Santarém) e BR 230 (Transamazônica) no período de 1971 a 1974.",
+          "id": 2203904,
+          "numero": 2952,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2203904"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-06-18T20:03",
+          "ementa": "Altera a Lei nº 13.257, de 8 de março de 2016 (Marco Legal da Primeira Infância) para dispor sobre os direitos das crianças cujas mães e pais estejam submetidos a medida privativa de liberdade.",
+          "id": 2208697,
+          "numero": 3644,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2208697"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-07-02T18:57",
+          "ementa": "Acrescenta §§10, 11, 12,13 e 14 ao art. 528 da Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil) com a finalidade de dar eficácia ao comando legal, para que homens em processo de pagamento de pensão alimentícia tenham que se apresentar ao poder judiciário, mensalmente, com o comprovante do pagamento da pensão.",
+          "id": 2210331,
+          "numero": 3837,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2210331"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-07-03T16:10",
+          "ementa": "Altera o art. 123 da Lei nº 8.069, de 13 de julho de 1990, Estatuto da Criança e do Adolescente.",
+          "id": 2210646,
+          "numero": 3861,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2210646"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-07-11T16:37",
+          "ementa": "Institui a Semana Nacional da Criança.",
+          "id": 2211969,
+          "numero": 4053,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2211969"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-07-12T12:27",
+          "ementa": "Atendimento exclusivo e individualizado, aos idosos e as gestantes nos pedágios das rodovias federais e estaduais.",
+          "id": 2212105,
+          "numero": 4079,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2212105"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-08-02T16:23",
+          "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002, que institui o Código Civil, para dispor sobre a percepção de alimentos pelo filho portador de doença mental incapacitante.",
+          "id": 2213221,
+          "numero": 4166,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2213221"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-08-14T17:31",
+          "ementa": "Dispõe sobre a obrigatoriedade do fornecimento de fraldas descartáveis aos idosos em âmbito nacional.",
+          "id": 2215215,
+          "numero": 4490,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2215215"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-09-11T21:07",
+          "ementa": "Dispõe sobre a doação de bicicletas apreendidas por ato administrativo ou de polícia, para instituições beneficentes.",
+          "id": 2220041,
+          "numero": 5036,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2220041"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 557,
+          "dataApresentacao": "2019-10-16T11:44",
+          "ementa": "Susta o decreto 10.047, de 2019, que \"Dispõe sobre a governança do Cadastro Nacional de Informações Sociais e institui o programa Observatório de Previdência e Informações, no âmbito do Cadastro Nacional de Informações Sociais.",
+          "id": 2225443,
+          "numero": 664,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2225443"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-10-30T17:20",
+          "ementa": "Acrescenta art. 124-G à Lei nº 8.213, de 24 de julho de 1991, para dispor sobre o pagamento de dano moral no caso de pagamento em atraso do benefício previdenciário e em outras situações em que se configure falha na prestação de serviços pelo órgão responsável pelo Regime Geral de Previdência Social.",
+          "id": 2227706,
+          "numero": 5763,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2227706"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-10-30T19:07",
+          "ementa": "Dá nova redação ao § 2º, do art. 35, da Lei nº. 10.741, de 01 de outubro de 2003, para o fim de estabelecer critérios que obedeçam ao grau de dependência do idoso para a definição do valor da participação deste no custeio das entidades filantrópicas de longa permanência ou casas-lares.",
+          "id": 2227776,
+          "numero": 5789,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2227776"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-10-31T10:54",
+          "ementa": "Altera o art. 80 da Lei n° 8.213, de 24 de julho de 1991, para condicionar o pagamento de auxílio-reclusão ao trabalho do preso.",
+          "id": 2227852,
+          "numero": 5802,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2227852"
+        },
+        {
+          "ano": 2019,
+          "codTipo": 139,
+          "dataApresentacao": "2019-12-17T18:10",
+          "ementa": "Altera os Decretos-Leis nos 4.048, de 22 de janeiro de 1942; 9.403, de 25 de junho de 1946; 8.621, de 10 de janeiro de 1946; e 9.853, de 13 de setembro de 1946; as Leis n°s 8.315, de 23 de dezembro de 1991; 8.706, de 14 de setembro de 1993; e a Medida Provisória n° 2.168-40, de 24 de agosto de 2001, para dispor sobre a participação de representantes dos trabalhadores na administração das entidades privadas de serviço social e de formação profissional vinculadas ao sistema sindical, chamado Sistema S.",
+          "id": 2234589,
+          "numero": 6505,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2234589"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 557,
+          "dataApresentacao": "2020-02-03T15:28",
+          "ementa": "Susta os efeitos do Decreto nº 10.199, de 15 de janeiro de 2020, que \"Dispõe sobre a qualificação da Empresa de Tecnologia e Informações da Previdência no âmbito do Programa de Parcerias de Investimentos da Presidência da República e sobre a sua inclusão no Programa Nacional de Desestatização\".",
+          "id": 2236279,
+          "numero": 3,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2236279"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-02-11T16:54",
+          "ementa": "Altera a redação do art. 27 da Lei nº 8.213, de 24 de julho de 1991, que dispõe sobre os Planos de Benefícios da Previdência Social e dá outras providências, para estabelecer o período de três contribuições mensais, a partir da nova filiação ao Regime Geral de Previdência Social - RGPS, para que sejam contadas as contribuições anteriores à perda da qualidade de segurado.",
+          "id": 2236930,
+          "numero": 232,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2236930"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-03-04T18:33",
+          "ementa": "Dispõe sobre a concessão do benefício do seguro-desemprego ao agricultor ou extrativista rural impedido de exercer sua atividade devido a inundações, estiagens sazonais ou queimadas.",
+          "id": 2238433,
+          "numero": 527,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238433"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-03-18T15:51",
+          "ementa": "Cria o Fundo Nacional de Emergência em Defesa do Trabalho e Renda.",
+          "id": 2239560,
+          "numero": 732,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2239560"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-04-02T11:33",
+          "ementa": "Dispõe sobre o Regime de Parcelamento Emergencial - RPE, relativo à débitos com a Fazenda Nacional de contribuições previdenciárias de responsabilidade dos Estados, do Distrito Federal e dos Municípios, estabelecendo caráter excepcional devido ao Decreto Legislativo n. 06, de 20 de março de 2020; e dá outras providências",
+          "id": 2242782,
+          "numero": 1459,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2242782"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-04-07T10:34",
+          "ementa": "Altera a Lei nº 13.979, de 6 de fevereiro de 2020, para priorizar o afastamento de pessoas idosas quando for exigido o serviço no local de trabalho em órgãos públicos ou atividades empresariais.",
+          "id": 2245002,
+          "numero": 1714,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2245002"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-04-20T10:53",
+          "ementa": "Altera as Leis nº 10.820, de 17 de dezembro de 2003, “Dispõe sobre a autorização para desconto de prestações em folha de pagamento, e dá outras providências”; nº 8.213, de 24 de julho de 1991, que “Dispõe sobre os Planos de Benefícios da Previdência Social e dá outras providências”; e nº 8.112, de 11 de dezembro de 1990, “Dispõe sobre o regime jurídico dos servidores públicos civis da União, das autarquias e das fundações públicas federais, para elevar a margem consignável para desconto em folha de pagamento, remuneração ou benefício ou pensão referentes ao pagamento de empréstimos, financiamentos, cartões de crédito e operações de arrendamento mercantil",
+          "id": 2249972,
+          "numero": 2017,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2249972"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-04-22T18:25",
+          "ementa": "Institui o auxílio permanente à mulher provedora de família monoparental, no valor de R$ 1.200,00 (mil e duzentos reais) mensais, e dá outras providências.",
+          "id": 2250387,
+          "numero": 2099,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2250387"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-11T17:59",
+          "ementa": "Dispõe sobre a obrigatoriedade de concessão automática do benefício previdenciário aos idosos com idade igual ou superior a 75 anos, decorrido o prazo legal para verificação dos documentos, até o exame em definitivo pelo órgão competente.",
+          "id": 2252119,
+          "numero": 2552,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2252119"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-14T21:34",
+          "ementa": "Dispõe sobre condições mínimas para a oferta e manutenção de serviço de acolhimento de mulheres e seus dependentes em situação de violência doméstica e familiar em casas-abrigos, de que trata o inciso II do art. 35 da Lei nº 11.340, de 7 de agosto de 2006  -  Lei Maria da Penha.",
+          "id": 2252803,
+          "numero": 2690,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2252803"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-18T21:27",
+          "ementa": "Dispõe sobre a suspensão do prazo decadencial do art. 103 da Lei 8.213, de 24 de julho de 1991, aos segurados do Regime Geral de Previdência Social.",
+          "id": 2252905,
+          "numero": 2744,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2252905"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-26T17:47",
+          "ementa": "“Institui o programa de cooperação chamado código “máscara vermelha” como medida de combate e prevenção à violência doméstica previstas na Lei 11.340 de 7 de agosto de 2006 – Lei Maria da Penha - e no Código Penal, em todo território nacional”.",
+          "id": 2253787,
+          "numero": 2920,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253787"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-28T11:36",
+          "ementa": "Altera o § 6°, do artigo 3º, da Lei Complementar nº 79/1994.",
+          "id": 2253953,
+          "numero": 2956,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253953"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-06-01T14:17",
+          "ementa": "\"Altera o Decreto-lei nº 667 de 1969, que reorganiza as Polícias Militares e os Corpos de Bombeiros Militares dos Estados, dos Territórios e do Distrito Federal para dispor sobre a contribuição de policiais militares reformados por invalidez decorrente do exercício da função ou em razão dela e dá outras providências\".",
+          "id": 2254184,
+          "numero": 3024,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2254184"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-06-02T10:24",
+          "ementa": "Dispões sobre as condições do Auxílio Emergencial, incorporado por meio da Lei 13.982 de 2020.",
+          "id": 2254252,
+          "numero": 3053,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2254252"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-06-03T15:59",
+          "ementa": "Acrescenta o inciso XIII, ao artigo 473 do Decreto Lei nº 5.452, de 1º de maio de 1943, e dá outras providências.",
+          "id": 2254458,
+          "numero": 3108,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2254458"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-06-09T10:44",
+          "ementa": "Dispõe sobre a prorrogação do pagamento do auxílio emergencial de que trata o art. 2º da Lei nº 13.982, de 2 de abril de 2020 e prevê transição para saída do benefício",
+          "id": 2254814,
+          "numero": 3201,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2254814"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-06-10T10:56",
+          "ementa": "Acrescenta-se dispositivos à Lei Nº 12.527 de 18 de Novembro de 2011, que “Regula o acesso a informações previsto no inciso XXXIII do art. 5º , no inciso II do § 3º do art. 37 e no § 2º do art. 216 da Constituição Federal; altera a Lei nº 8.112, de 11 de dezembro de 1990; revoga a Lei nº 11.111, de 5 de maio de 2005, e dispositivos da Lei nº 8.159, de 8 de janeiro de 1991; e dá outras providências”.",
+          "id": 2254956,
+          "numero": 3239,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2254956"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-06-30T12:20",
+          "ementa": "Institui diretrizes para serviços de proteção e atendimento especializado a gestantes dependentes químicas a serem criados no âmbito da Proteção Especial da Assistência Social, e dá outras providências .",
+          "id": 2256414,
+          "numero": 3553,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2256414"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-07-29T14:06",
+          "ementa": "Dispõe sobre o cadastro de pedófilos, alterando a Lei nº 8.069, de 13 de julho de 1990, Estatuto da Criança e do Adolescente.",
+          "id": 2258828,
+          "numero": 3976,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2258828"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-07-31T17:19",
+          "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, que dispõe sobre o Estatuto da Criança e do Adolescente, para proibir a venda de publicações que estimulem o castigo físico a crianças e adolescentes",
+          "id": 2259126,
+          "numero": 4011,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2259126"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-08-05T12:37",
+          "ementa": "Altera a Lei n. 10.836, de 9 de janeiro de 2004, que cria o Programa Bolsa Família, e a Lei n. 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, e dá outras providências, para ampliar as condições de superação da vulnerabilidade econômica (Mais Bolsa Família).",
+          "id": 2259412,
+          "numero": 4086,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2259412"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-08-20T12:02",
+          "ementa": "Dispõe sobre ações emergenciais destinadas ao reforço do Sistema Único de Assistência Social (SUAS) para o atendimento e acompanhamento à população em situação de vulnerabilidade e risco social e pessoal durante o estado de calamidade pública reconhecido pelo Decreto Legislativo nº 6, de 20 de março de 2020.",
+          "id": 2260738,
+          "numero": 4292,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2260738"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-09-04T14:43",
+          "ementa": "Altera a Lei nº 4.591, de 16 de dezembro de 1964 (Lei do Condomínio), a Lei        nº 10.406, de 10 de janeiro de 2002 (Código Civil), e o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para estabelecer o dever de condôminos, locatários, possuidores e síndicos informarem às autoridades competentes os casos de violência doméstica e familiar de que tenham conhecimento no âmbito do condomínio, e para incluir na tipificação do crime de omissão de socorro os casos de violência doméstica e familiar.",
+          "id": 2262103,
+          "numero": 2510,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2262103"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-09-14T10:29",
+          "ementa": "Dispõe sobre a proteção de crianças e adolescentes vítimas de violência sexual, alterando o Decreto-Lei nº 2.848, de 7 de dezembro de 1940, Código Penal, e a Lei nº 13.431, de 4 de abril de 2017.",
+          "id": 2262824,
+          "numero": 4550,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2262824"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-09-15T11:59",
+          "ementa": "Suspende a obrigação das empresas tomadoras de serviços de promoverem a retenção do valor relativo à contribuição previdenciária a que alude o art. 31, caput e § 1° da Lei nº 8.212, de 24 de julho de 1991, de modo a permitir que tais valores possam ser utilizados pelas empresas prestadoras de serviços como capital de giro durante o período de calamidade pública causada pela pandemia da SARS-Cov-2.",
+          "id": 2262876,
+          "numero": 4573,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2262876"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-09-15T17:57",
+          "ementa": "Altera a Lei n.º 8.212 de 24 de julho de 1991, para obrigar o Instituto Nacional de Seguridade Social a alertar mensalmente aos trabalhadores/empregados através de mensagens via SMS ou e-mail acerca dos pagamentos das contribuições realizados pelos empregadores",
+          "id": 2262901,
+          "numero": 4580,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2262901"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-12-09T09:55",
+          "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, que dispõe sobre o Estatuto da Criança e do Adolescente, para dispor sobre a educação básica obrigatória e sobre atendimento educacional especializado.",
+          "id": 2266396,
+          "numero": 5438,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2266396"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-03T16:25",
+          "ementa": "Dispõe sobre a transposição e a transferência de saldos financeiros constantes dos Fundos de Assistência Social dos Estados, do Distrito Federal e dos Municípios, provenientes de repasses federais.",
+          "id": 2268688,
+          "numero": 52,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2268688"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-03T16:40",
+          "ementa": "Dispõe sobre a obrigatoriedade de indenização e/ou reparação pecuniária por danos materiais, as vítimas de roubo e furto, a serem pagas pelo criminoso condenado.",
+          "id": 2268785,
+          "numero": 120,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2268785"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-03T17:20",
+          "ementa": "Autoriza a dedução da base de cálculo do imposto de renda de despesas incorridas no apoio a beneficiários do programa “O Futuro é para Todos” e aumenta o valor da dedução por dependente fixado pela Lei nº 9.250, de 26 de dezembro de 1995.",
+          "id": 2268833,
+          "numero": 152,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2268833"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-03T17:23",
+          "ementa": "Altera as penas dos crimes em espécie do Estatuto da Criança e do Adolescente e dá outras providências.",
+          "id": 2268836,
+          "numero": 154,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2268836"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-08T09:18",
+          "ementa": "Dispõe sobre o recebimento de pensão alimentícia por beneficiário descendente do alimentante não é passível de incidência de imposto de renda, bem como exclui da dedução o pagamento feito pelo alimentante e dá outras providências.",
+          "id": 2269501,
+          "numero": 287,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2269501"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-10T21:05",
+          "ementa": "Acrescenta o § 3º ao art. 21 da Lei nº 8.213, de 24 de julho de 1991, para dispor sobre o acidente de trabalho ocorrido no  trajeto do empregado de casa para o trabalho ou vice-versa.",
+          "id": 2270004,
+          "numero": 399,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270004"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-03-19T09:55",
+          "ementa": "Altera a Lei nº 6.321, de 14 de abril de 1976 (PAT), para permitir a possibilidade de o trabalhador efetuar a portabilidade do seu crédito para outra prestadora de serviço de alimentação coletiva.",
+          "id": 2274434,
+          "numero": 975,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2274434"
+        },
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2021-04-07T18:41",
+          "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha), para prever o direito de as mulheres em situação de violência doméstica e familiar optarem pelo ajuizamento de ações de família nos Juizados de Violência Doméstica e Familiar.",
+          "id": 2277348,
+          "numero": 3244,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2277348"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-05-05T13:37",
+          "ementa": "Dispõe sobre a prioridade de oferta de vagas para filhos ou dependentes de mulheres vítimas de violência doméstica.",
+          "id": 2280452,
+          "numero": 1705,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2280452"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-05-14T10:57",
+          "ementa": "Altera o  § 3º do art. 20 da Lei nº 8.742, de 7 de dezembro de 1993, para dispor sobre o critério para concessão do Benefício de Prestação Continuada a idoso e pessoa com deficiência que comprovem não possuir meios de prover à própria manutenção ou de tê-la provida por sua família.",
+          "id": 2282980,
+          "numero": 1814,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2282980"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-05-24T15:30",
+          "ementa": "Altera a Lei nº 8212 de 24 de julho de 1991, e a Lei nº 8213 de 24 de julho de 1991, para conferir a condição de segurado especial para o artesão",
+          "id": 2284195,
+          "numero": 1919,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2284195"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-05-26T15:47",
+          "ementa": "Altera a Lei nº 11.577, de 22 de novembro de 2007, tornando obrigatória a divulgação, nas aulas e cursos ministrados de forma não presencial, de mensagens de advertência e informes de orientação sobre o encaminhamento de denúncias contra atos de pedofilia, abuso, exploração sexual e tráfico de crianças e adolescentes.",
+          "id": 2284791,
+          "numero": 1966,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2284791"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-05-26T19:38",
+          "ementa": "Dispõe sobre o instituto da Parentalidade em todo Território Nacional e altera as Leis 5.452, de 1º de Maio de 1943 (Consolidação das Leis do Trabalho), 8112/1990 (Regime Jurídico dos Servidores), 8212/1991 (Lei Orgânica da Seguridade Social), 8213/1991 (Regime Geral da Previdência Social) e 11770/2008 (Empresa Cidadã).",
+          "id": 2284867,
+          "numero": 1974,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2284867"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-05-27T11:40",
+          "ementa": "Altera a Lei nº 10.880 de 09 de junho de 2004 que dispõe sobre o Programa Nacional de Apoio ao Transporte do Escolar - PNATE, autorizando o uso de veículos do transporte escolar, dos respectivos Estados, Distrito Federal e Municípios, no transporte de passageiros, durante o período de enfrentamento da emergência da saúde pública de importância internacional, decorrrente do coronavírus (SARS-CoV-2).",
+          "id": 2284920,
+          "numero": 1977,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2284920"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-07T12:07",
+          "ementa": "Altera o Decreto-Lei n° 9.760, de 5 de setembro de 1946, para estabelecer a locação de interesse social de bens imóveis da União não utilizados em serviço público.",
+          "id": 2285803,
+          "numero": 2053,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2285803"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-10T13:05",
+          "ementa": "Acrescenta dispositivo à lei n° 10.406/2002 – Código Civil - para condicionar a fruição da prescrição em relação a seguros à notificação dos beneficiários e acrescenta dispositivo à ao Decreto-lei n° 73/1996 para obrigar a que a Sociedade Seguradora promova a notificação do beneficiário de contrato de seguro ou capitalização.",
+          "id": 2286432,
+          "numero": 2138,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2286432"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-10T16:08",
+          "ementa": "Institui a campanha \"Fevereiro Cinza\", dedicada a ações de conscientização dos custos sociais da pornografia.",
+          "id": 2286475,
+          "numero": 2144,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2286475"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-21T10:39",
+          "ementa": "Dispõe sobre a isenção de Imposto de Renda para auxílio-doença, auxílio-acidente e proventos de segurados da previdência social com capacidade laboral reduzida, alterando a Lei nº 7.713, de 22 de dezembro de 1988.",
+          "id": 2287628,
+          "numero": 2252,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2287628"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-21T17:05",
+          "ementa": "Concede isenção fiscal temporária, até 31 de dezembro de 2021, do Imposto de Renda da Pessoa Física (IRPF), sobre os resgates parciais ou totais de valores acumulados em planos de benefícios de caráter previdenciário das entidades de previdência complementar e das sociedades seguradoras, para mitigar os efeitos econômicos da pandemia do Covid-19.",
+          "id": 2287725,
+          "numero": 2266,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2287725"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-22T17:42",
+          "ementa": "Dispõe sobre as garantias do genitor durante a gestação e o parto, e para tanto altera a Lei 12.318/2010 (Lei de Alienação Parental), e dá outras providências.",
+          "id": 2287932,
+          "numero": 2287,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2287932"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-25T11:24",
+          "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993, para identificar expressamente os destinatários do benefício de prestação continuada.",
+          "id": 2288344,
+          "numero": 2328,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2288344"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-06-30T10:27",
+          "ementa": "Dispõe sobre a suspensão da comprovação anual de vida para segurados do Regime Geral de Previdência Social em período de pandemia, emergência em saúde ou de calamidade pública.",
+          "id": 2288675,
+          "numero": 2372,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2288675"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-07-02T17:56",
+          "ementa": "Altera a lei nº 8.213, de 24 de julho de 1991; Dispõe sobre a suspensão pelo prazo de quatro anos do auxílio-reclusão, em razão do contingenciamento de gastos.",
+          "id": 2289440,
+          "numero": 2426,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2289440"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-07-06T17:14",
+          "ementa": "Torna obrigatória a notificação da existência de gravidez por aluna menor de 14 (quatorze) anos de idade, pelas instituições de ensino públicas e privadas.",
+          "id": 2289763,
+          "numero": 2464,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2289763"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-07-09T10:04",
+          "ementa": "Isenta da contribuição para os respectivos Sistemas de Proteção Social aqueles Militares dos Estados, do Distrito Federal e dos Territórios que sejam portadores de deficiência permanente e sem possibilidade de progredir ou de permanecer na carreira.",
+          "id": 2290283,
+          "numero": 2501,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2290283"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-07-12T14:58",
+          "ementa": "Altera o Decreto-Lei nº 3.689, de 03  de outubro de 1941 (Código de  Processo Penal - CPP), para revogar a obrigatoriedade de realização de audiência de custódia.",
+          "id": 2290527,
+          "numero": 2514,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2290527"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-07-13T12:01",
+          "ementa": "Altera o § 9º do art. 20 da Lei nº 8.742, de 7 de dezembro de 1993, para excluir os rendimentos de bolsa de iniciação científica do cálculo da renda per capita familiar de que trata o § 3º do art. 20.",
+          "id": 2290760,
+          "numero": 2530,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2290760"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-08-02T17:46",
+          "ementa": "Dispõe sobre a contagem de tempo de serviço, para efeitos de aposentadoria, das tarefas assistenciais de criação de filhos e filhas biológicos ou adotados.",
+          "id": 2291969,
+          "numero": 2647,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2291969"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-08-03T11:48",
+          "ementa": "Impede que o pedófilo seja beneficiado por uma medida de segurança, obrigando assim, que a pena seja cumprida no sistema prisional como qualquer outro criminoso que tenha cometido crime sexual.",
+          "id": 2292026,
+          "numero": 2657,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2292026"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-08-04T13:10",
+          "ementa": "Altera a Lei nº 8.212, de 24 de julho de 1991, para suprimir a obrigatoriedade do Beneficiário de comprovação de vida junto ao INSS.",
+          "id": 2292317,
+          "numero": 2696,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2292317"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-08-19T13:37",
+          "ementa": "Dispõe sobre cessão de créditos obtidos em sistema de compensação de energia elétrica a entidades sem fins lucrativos.",
+          "id": 2295102,
+          "numero": 2893,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2295102"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-08-26T10:29",
+          "ementa": "Dispõe sobre a comunicação pelos estabelecimentos comerciais, quando da ocorrência de casos de abuso e violência contra mulher, criança, adolescente, pessoa idosa e pessoa com deficiência, nos termos que indica.",
+          "id": 2296462,
+          "numero": 2983,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2296462"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-01T16:46",
+          "ementa": "Altera o artigo 1.583 da lei 10.406, de 10 de Janeiro de 2002 - Código Civil",
+          "id": 2297271,
+          "numero": 3053,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2297271"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-02T11:33",
+          "ementa": "Dispõe sobre o cálculo dos benefícios do Regime Geral de Previdência Social e assegura adicional no valor do benefício no caso de mulheres que se dedicam ao cuidado de filhos.",
+          "id": 2297398,
+          "numero": 3062,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2297398"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-08T11:55",
+          "ementa": "Altera a Lei nº 8.213, de 24 de julho de 1991, para dispor sobre a concessão de aposentadoria especial e a contagem de tempo de trabalho especial aos segurados em atividade de abastecimento de combustível.",
+          "id": 2297771,
+          "numero": 3083,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2297771"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-09T13:52",
+          "ementa": "Insere a atividade de profissionais especializados em ciências forenses no acolhimento as vítimas de violência sexual.",
+          "id": 2298028,
+          "numero": 3105,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298028"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-10T17:55",
+          "ementa": "Concede redução da contribuição previdenciária do empregador na contratação de menor aprendiz que residem em espaços de acolhimento institucional ou abrigos.",
+          "id": 2298222,
+          "numero": 3119,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298222"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-16T12:54",
+          "ementa": "Dispõe sobre a porcentagem dos recursos para a CDE.",
+          "id": 2299016,
+          "numero": 3195,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2299016"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 140,
+          "dataApresentacao": "2021-09-16T17:43",
+          "ementa": "Dispõe sobre requisitos e critérios diferenciados para a concessão de aposentadoria especial aos atletas profissionais e semiprofissionais de alto rendimento.",
+          "id": 2299128,
+          "numero": 139,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2299128"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-23T14:29",
+          "ementa": "Dispõe sobre a notificação compulsória\npelos serviços socioassistenciais à\nautoridade sanitária de casos de suspeita ou\nconfirmação de violência praticada contra\nidosos.",
+          "id": 2300170,
+          "numero": 3295,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2300170"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-09-29T15:02",
+          "ementa": "Cria o Programa Alimentar para moradores em situação de rua e dá outras providências",
+          "id": 2300882,
+          "numero": 3365,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2300882"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-10-05T15:02",
+          "ementa": "Facilita a doação de percentual do Imposto de Renda da pessoa física para os Fundos dos Direitos da Criança e do Adolescente.",
+          "id": 2301564,
+          "numero": 3443,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2301564"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-10-14T12:27",
+          "ementa": "Altera o art. 249 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 - Código Penal, para incluir a guarda compartilhada no tipo penal de subtração de incapazes, e dá outras providências.",
+          "id": 2302821,
+          "numero": 3535,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2302821"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-10-14T15:20",
+          "ementa": "Acrescenta o art. 1.597-A à Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para dispor sobre a presunção de filiação dos nascidos ou concebidos na constância da união estável.",
+          "id": 2302879,
+          "numero": 3561,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2302879"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 140,
+          "dataApresentacao": "2021-10-14T16:57",
+          "ementa": "Altera os arts. 12 e 11, respectivamente, das Leis nº 8.212 e 8.213, ambas de 24 de julho de 1991, para estabelecer em lei a idade mínima de dezesseis anos para inscrição do segurado obrigatório no Regime Geral de Previdência Social, para excetuar o limite etário no caso de reconhecimento do trabalho infantil e dispor sobre o prazo para a constituição do crédito tributário decorrente do reconhecimento previdenciário do trabalho infantil.",
+          "id": 2302970,
+          "numero": 158,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2302970"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-10-26T20:42",
+          "ementa": "Institui o mês “ABRIL AZUL” como o mês da família acolhedora, como forma de conscientização e incentivo ao acolhimento familiar de crianças e adolescentes.",
+          "id": 2304365,
+          "numero": 3760,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2304365"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-10-26T20:54",
+          "ementa": "Acrescenta §6º aos arts. 43 e 101 da Lei nº 8.213, de 24 de julho de 1991, para dispensar o segurado com deficiência de avaliação periódica das condições que ensejaram a aposentadoria, concedida judicial ou administrativamente.",
+          "id": 2304367,
+          "numero": 3762,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2304367"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-03T11:25",
+          "ementa": "Altera a Lei nº 13.105, de 16 de março de 2015, que dispõe sobre o Código de Processo Civil .",
+          "id": 2305215,
+          "numero": 3853,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2305215"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-03T18:12",
+          "ementa": "Acrescenta o § 3º ao artigo 24-C do Decreto-Lei nº 667, de 2 de julho de 1969, para dispor sobre a contribuição previdenciária de inativos e pensionistas.",
+          "id": 2305367,
+          "numero": 3869,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2305367"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-08T17:19",
+          "ementa": "Altera a Lei nº 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para dispor sobre a destinação de recursos do Poder Executivo para programas esportivos que funcionem dentro de unidades de internação para adolescentes infratores.",
+          "id": 2306071,
+          "numero": 3928,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2306071"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-09T16:15",
+          "ementa": "Institui o Dia Nacional de Combate à Fome, à Miséria e à Desigualdade.",
+          "id": 2306403,
+          "numero": 3951,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2306403"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-10T15:50",
+          "ementa": "Institui o Dia Nacional de Doação de Cesta Básica.",
+          "id": 2306700,
+          "numero": 3982,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2306700"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-17T12:44",
+          "ementa": "Dispõe que as instituições de ensino da educação infantil, públicas e privadas, que oferecem matrículas em creche deverão instalar sistemas de monitoramento em tempo real por meio de câmeras de vídeo.",
+          "id": 2307474,
+          "numero": 4045,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2307474"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-17T15:46",
+          "ementa": "Altera o Estatuto da Criança e do Adolescente, o Marco Civil da Internet e o Código Penal para dispor sobre a proteção à infância e o combate ao anonimato nas redes de compartilhamento na internet.",
+          "id": 2307531,
+          "numero": 4054,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2307531"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-23T19:28",
+          "ementa": "Regulamenta a aplicação do disposto no § 6o do art. 26 da Emenda Constitucional nº 103, de 12 de novembro de 2019, que altera o sistema de previdência social e estabelece regras de transição e disposições transitórias.",
+          "id": 2308483,
+          "numero": 4142,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2308483"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-24T13:31",
+          "ementa": "Altera o art. 12 da Lei nº 11.947, de 16 de junho de 2009, para instituir a obrigatoriedade da oferta diária de lanche para estudantes matriculados nas escolas da rede pública de ensino.",
+          "id": 2308663,
+          "numero": 4156,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2308663"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-11-26T11:31",
+          "ementa": "Altera o art. 206 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para o fim de fixar em 20 anos o prazo prescricional da pretensão de reparação civil das vítimas de crimes contra a dignidade sexual de crianças e adolescentes.",
+          "id": 2309048,
+          "numero": 4186,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2309048"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-01T13:06",
+          "ementa": "Altera o Decreto-lei nº 667 de 1969, que reorganiza as Polícias Militares e os Corpos de Bombeiros Militares dos Estados, dos Territórios e do Distrito Federal para dispor sobre o recebimento de proventos na inatividade por policiais militares e bombeiros militares.",
+          "id": 2309809,
+          "numero": 4230,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2309809"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-03T16:49",
+          "ementa": "Acrescenta parágrafo único ao art. 1º da Lei nº 9.307, de 23 de setembro de 1996, que dispõe sobre arbitragem, para excluir os litígios envolvendo os contratos de previdência privada do âmbito de sua incidência.",
+          "id": 2310374,
+          "numero": 4301,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2310374"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-08T18:26",
+          "ementa": "Altera a Lei nº 8.213, de 24 de julho de 1991, a fim de fixar prazo para a concessão de Aposentadoria por Invalidez, de Aposentadoria por Idade, de Aposentadoria por Tempo de Serviço, de Aposentadoria Especial, de Auxílio Doença, de Salário-Família, de Salário-Maternidade e de Pensão por Morte.",
+          "id": 2311496,
+          "numero": 4365,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2311496"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-08T20:08",
+          "ementa": "Prorroga o prazo estabelecido pela Lei nº \n14.131, de 30 de março de 2021, para que o acréscimo de 5% (cinco por cento) ao \npercentual máximo para a contratação de\n operações de crédito com desconto\n automático em folha de pagamento seja \nconcedido até 31 de dezembro de 2022.",
+          "id": 2311567,
+          "numero": 4367,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2311567"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-13T14:06",
+          "ementa": "Estabelece indenização para as vítimas do incêndio na Boate Kiss, ocorrido em 27 de janeiro de 2013.",
+          "id": 2312041,
+          "numero": 4399,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2312041"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-15T15:48",
+          "ementa": "Altera o artigo 1725 da Lei nº 10.406, de 10 de Janeiro de 2002- Código Civil Brasileiro.",
+          "id": 2312627,
+          "numero": 4455,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2312627"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-16T11:58",
+          "ementa": "Institui o Programa “Vale Transporte Social”.",
+          "id": 2312916,
+          "numero": 4489,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2312916"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-16T12:14",
+          "ementa": "Altera o inciso II do art. 92 do Decreto-Lei nº 2.848, de 7 de dezembro de 1940 – Código Penal, para incluir o impedimento para o exercício da guarda de menor de dezoito anos ou interdito entre os efeitos da condenação penal, e dá outras providências.",
+          "id": 2312925,
+          "numero": 4490,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2312925"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-12-22T11:35",
+          "ementa": "Altera o art. 118, da Lei 8.213, de 24 de julho de 1991, que dispõe sobre os planos de benefícios de previdência social.",
+          "id": 2313523,
+          "numero": 4598,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2313523"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-02T16:13",
+          "ementa": "Dispõe sobre medidas emergenciais de amparo aos agricultores familiares para mitigar os impactos socioeconômicos da seca e das enchentes que incidem sobre o país desde o ano de 2021, e dá outras providências.",
+          "id": 2313797,
+          "numero": 19,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2313797"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-02T16:15",
+          "ementa": "Dispõe sobre a obrigatoriedade dos condomínios edilícios disponibilizarem por apartamento, um sistema eletrônico, via interfone ou aparelho similar, um botão de alarme para acionar a portaria do prédio, em casos de ocorrência de violência doméstica contra mulheres, crianças, adolescentes, idosos ou pessoas com deficiência.",
+          "id": 2313831,
+          "numero": 43,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2313831"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-02T16:15",
+          "ementa": "Proíbe a prática de tiro desportivo por menores de dezoito anos e da outras providências.",
+          "id": 2313838,
+          "numero": 49,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2313838"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-02T17:03",
+          "ementa": "Altera a Lei n.º 13.180, de 22 de outubro de 2015, acrescentando parágrafo único ao art. 2º, para instituir o conceito de renda complementar para o artesão aposentado por invalidez ou que tenha o Benefício da Prestação Continuada-BPC.",
+          "id": 2313874,
+          "numero": 76,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2313874"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-07T17:59",
+          "ementa": "Concede pensão especial à Senhora Ivone Lotsove Lololav, mãe de Moïse Mugenyi Kabagambe, refugiado congolês assassinado no Rio de Janeiro.",
+          "id": 2314147,
+          "numero": 161,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2314147"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-15T11:00",
+          "ementa": "Altera regras do segurado especial no Regime Geral de Previdência Solcial.",
+          "id": 2314554,
+          "numero": 268,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2314554"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-02-15T20:10",
+          "ementa": "Altera a  Lei nº 8.212, de 24 de julho de 1991, inserindo  o inciso VIII, no art. 80",
+          "id": 2314624,
+          "numero": 284,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2314624"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-03-02T15:04",
+          "ementa": "Estabelece o piso remuneratório para pagamento de pensão alimentícia.",
+          "id": 2316650,
+          "numero": 420,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2316650"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-03-04T13:49",
+          "ementa": "Altera a Lei 8.742 de 7 de dezembro de 1993, para inserir o parágrafo 16 no artigo 20, que estabelece a possibilidade de crianças e adolescente, órfãos de pais vitimados por catástrofes, serem incluídas no Benefício de prestação Continuada (BPC)",
+          "id": 2317034,
+          "numero": 439,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2317034"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-03-07T13:30",
+          "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para incluir a possibilidade de infiltração de agentes de polícia na internet com o fim de investigar os crimes previstos nos arts. 216-B (registro não autorizado da intimidade sexual) e 218-C (divulgação de cena de estupro ou de cena de estupro de vulnerável, de cena de sexo ou de pornografia) do Código Penal.",
+          "id": 2317261,
+          "numero": 447,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2317261"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-03-08T14:06",
+          "ementa": "Altera a Lei nº 8.629, de 25 de fevereiro de 1993, para incluir prioridades na regularização fundiária.",
+          "id": 2317325,
+          "numero": 461,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2317325"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-03-10T16:29",
+          "ementa": "Dispõe sobre vale combustível para pessoas de baixa renda e demais categorias e da outras providências",
+          "id": 2317588,
+          "numero": 535,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2317588"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 140,
+          "dataApresentacao": "2022-03-16T19:02",
+          "ementa": "Institui a Ficha Limpa Sexual em Creches e Escolas, trata de hipóteses de perda do poder familiar e impõe requisitos aos conselheiros que tratam de crianças e adolescentes.",
+          "id": 2318169,
+          "numero": 26,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2318169"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-03-18T16:11",
+          "ementa": "Tipifica o crime de submissão de criança ou adolescente a atuação cinematográfica, televisiva, teatral, de dança, ou de qualquer outra forma, comercial ou não, que fira sua dignidade sexual, mesmo que de modo implícito ou simulado.",
+          "id": 2318282,
+          "numero": 633,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2318282"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-04-04T10:20",
+          "ementa": "Estabelece medidas de prevenção e combate ao trabalho infantil em empresas de aplicativos de entregas ou transporte e dá outras providências.",
+          "id": 2319143,
+          "numero": 807,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2319143"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-04-04T11:03",
+          "ementa": "Esta lei dispõe sobre o plano de antecipação de renda mensal de benefício, auxílio, remuneração, salário ou soldo e dá outras providências.",
+          "id": 2319155,
+          "numero": 809,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2319155"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-04-06T12:17",
+          "ementa": "Dispõe sobre o incentivo a destinação de recursos para o financiamento de políticas públicas da juventude",
+          "id": 2319354,
+          "numero": 846,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2319354"
+        },
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2022-04-13T16:53",
+          "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para garantir à criança e ao adolescente em situação de violência doméstica prioridade absoluta para matrícula ou transferência para a instituição de educação básica mais próxima de seu domicílio.",
+          "id": 2319813,
+          "numero": 2225,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2319813"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-04-28T13:27",
+          "ementa": "Reconhece a cidade de Balneário Camboriú, no Estado de Santa Catarina, como a Capital Nacional da Família.",
+          "id": 2320681,
+          "numero": 1054,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2320681"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-05-09T17:53",
+          "ementa": "Altera a Lei n.º 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente) para tipificar a conduta de se expor, direta e reiteradamente, criança e adolescente à prática de atos de violência doméstica.",
+          "id": 2322300,
+          "numero": 1161,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2322300"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-05-27T13:29",
+          "ementa": "Concede  pensão especial e indenização à Maria Fabiane dos Santos, esposa de Genivaldo de Jesus Santos, morto pela Polícia Rodoviária Federal em Sergipe.",
+          "id": 2325104,
+          "numero": 1390,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2325104"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-02T11:20",
+          "ementa": "Altera a Lei 9.615, de 24 de março de 1998, que institui normas gerais sobre desporto e dá outras providências, para dispor sobre a inscrição dos programas de formação de atletas por entidades formadoras no Conselho Municipal dos Direitos da Criança e do Adolescente.",
+          "id": 2325873,
+          "numero": 1476,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2325873"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-06T10:39",
+          "ementa": "Altera o Decreto-lei nº 667, de 2 de julho de 1969, que reorganiza as Polícias Militares e os Corpos de Bombeiros Militares dos Estados, dos Território e do Distrito Federal, e dá outras providências para garantir ao militar reformado por invalidez, o direito de perceber remuneração integral condigna, em valor correspondente àquela que poderia ter alçado em razão do exercício da atividade interrompido por incapacidade permanente para o exercício da atividade militar.",
+          "id": 2326054,
+          "numero": 1494,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2326054"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-06T11:01",
+          "ementa": "Altera a Lei nº 14.284, de 29 de dezembro de 2021, para adequar o Benefício da Primeira Infância à definição da primeira infância dada pela Lei nº 13.257, de 8 de março de 2016.",
+          "id": 2326065,
+          "numero": 1495,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2326065"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-06T12:57",
+          "ementa": "Altera a Lei nº 13.431, de 4 de abril de 2017, que \"Estabelece o sistema de garantia de direitos da criança e do adolescente vítima ou testemunha de violência e altera a Lei no 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente).\"",
+          "id": 2326082,
+          "numero": 1502,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2326082"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-07T13:48",
+          "ementa": "Dispõe sobre o parcelamento, junto à Secretaria Especial da Receita Federal do Brasil e à Procuradoria-Geral da Fazenda Nacional, de débitos de contribuições previdenciárias de pessoas físicas ou jurídicas em decorrência da prestação de serviços em obras de construção civil durante a Emergência em Saúde Pública de importância Nacional (ESPIN) em decorrência da Infecção Humana pelo novo Coronavírus (SARS-CoV-2).",
+          "id": 2326303,
+          "numero": 1516,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2326303"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-07T19:17",
+          "ementa": "Institui o Plano Nacional de Enfrentamento à Exploração Sexual de Crianças e Adolescentes e dá outras providências.",
+          "id": 2326442,
+          "numero": 1534,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2326442"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-10T15:40",
+          "ementa": "Altera a Lei nº 8.072 de 25 de julho de 1990, para tornar hediondo o crime de aliciamento de crianças ao tráfico de drogas.",
+          "id": 2327136,
+          "numero": 1598,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2327136"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-24T12:23",
+          "ementa": "Acrescenta dispositivos à Lei n. 13.019, de 31 de julho de 2014, a fim de que as parcerias entre a administração pública e as organizações da sociedade civil atendam aos interesses do nascituro, da criança e do adolescente.",
+          "id": 2330181,
+          "numero": 1753,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2330181"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-06-29T14:33",
+          "ementa": "Acrescenta parágrafos 7º e 8º ao artigo 550 da Lei 13.105, de 16 de março de 2015 - Código de Processo Civil, para regulamentar a prestação de contas relacionada à pensão alimentícia.",
+          "id": 2330666,
+          "numero": 1805,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2330666"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-05T17:59",
+          "ementa": "Dispõe sobre assento de nascimento de filho havido por inseminação artificial heteróloga no  oficial de registro civil das pessoas naturais, independentemente do local onde a inseminação tenha ocorrido. Altera o inciso V do art. 1.597 da Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), para prever a necessidade de anuência de ambos os cônjuges ou, se o casal estiver em união estável, de ambos os companheiros, para fins de reconhecimento da filiação.",
+          "id": 2331377,
+          "numero": 1902,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2331377"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-06T19:33",
+          "ementa": "Dispõe sobre a devolução de valores do auxílio emergencial recebidos indevidamente.",
+          "id": 2331648,
+          "numero": 1925,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2331648"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-06T21:54",
+          "ementa": "Altera a Lei nº 8.212, de 24 de julho de 1991, para prever a redução escalonada da contribuição previdenciária a cargo das empresas.",
+          "id": 2331679,
+          "numero": 1935,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2331679"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-11T18:00",
+          "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+          "id": 2332174,
+          "numero": 1969,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-13T16:59",
+          "ementa": "Estabelece que o Programa Auxílio Brasil, o Programa Alimenta Brasil, os benefícios financeiros e os incentivos previstos na Lei nº 14.284, de 29 de dezembro de 2021, serão permanentes e terão como fontes de recursos, além dos já previstos no orçamento fiscal da União, os dividendos pagos pela Petróleo Brasileiro S.A. (Petrobras) à União; os bônus de assinatura; a parcela referente à União do valor dos royalties; e a receita advinda da comercialização de petróleo, gás natural e outros hidrocarbonetos fluidos destinados à União",
+          "id": 2332500,
+          "numero": 2021,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332500"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-14T09:47",
+          "ementa": "Estende a assistência financeira prevista no inciso IV do art. 5º, da PEC nº 15/2022, aos motoristas de aplicativo, de transporte escolar ou de turismo e quaisquer profissionais que utilizem veículo automotor como instrumento de trabalho.",
+          "id": 2332572,
+          "numero": 2038,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332572"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-14T10:32",
+          "ementa": "Altera a Lei nº 7.998 de 11 de janeiro de 1990, que regula o Programa do Seguro-Desemprego, o Abono Salarial, institui o Fundo de Amparo ao Trabalhador (FAT), e dá outras providências, para prover assistência financeira temporária ao trabalhador que se encontra no limbo previdenciário.",
+          "id": 2332609,
+          "numero": 2041,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332609"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-14T17:48",
+          "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Assistência Social), e a Lei nº 14.284, de 29 de dezembro de 2021 (Auxílio Brasil e Alimenta Brasil), para estabelecer prioridade ao cadastramento presencial no CadÚnico às famílias de baixa renda e altera o prazo de atualização ou revalidação das informações constantes no CadÚnico.",
+          "id": 2332730,
+          "numero": 2058,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332730"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-01T10:30",
+          "ementa": "Dispõe sobre a responsabilização administrativa em caso de eventual quebra do sigilo de informações acerca do nascimento e do processo de entrega direta de bebês para adoção por pessoas gestantes.",
+          "id": 2332948,
+          "numero": 2094,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332948"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-05T12:24",
+          "ementa": "Altera o art. 48 da Lei n° 8.541, de 23 de dezembro de 1992, com a redação dada pela Lei n° 9.250, de 26 de dezembro de 1995, para incluir o Programa Auxílio Brasil, Auxílio aos Transportadores Autônomos de Cargas, Auxílio a motoristas de taxis e Auxílio Gás dos Brasileiros entre os rendimentos isentos do imposto de renda.",
+          "id": 2333809,
+          "numero": 2166,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2333809"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 140,
+          "dataApresentacao": "2022-08-10T09:00",
+          "ementa": "Dispõe sobre a permanência dos programas Auxilio Brasil, Auxílio Gás dos Brasileiros e Alimenta Brasil.",
+          "id": 2333914,
+          "numero": 109,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2333914"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-10T11:13",
+          "ementa": "Altera o art. 6º da Lei n.º 10.820, de 17 de dezembro de 2003, para estender aos anistiados políticos que recebem Reparação Econômica em Prestação Mensal, Permanente e Continuada a possibilidade de contratação de operações de crédito mediante consignação na remuneração.",
+          "id": 2333922,
+          "numero": 2221,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2333922"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-11T10:04",
+          "ementa": "Estabelece regras para o exercício da atividade de influenciador digital mirim.",
+          "id": 2333956,
+          "numero": 2259,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2333956"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-12T09:02",
+          "ementa": "Institui a Semana Nacional de Enfrentamento a Erotização Infantil",
+          "id": 2333984,
+          "numero": 2270,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2333984"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-16T10:52",
+          "ementa": "Altera a Lei nº 8.069, de 1990, Estatuto da Criança e do Adolescente, para dispor sobre áreas para embarque e desembarque e vagas para veículos especialmente destinados à condução coletiva de escolares.",
+          "id": 2334086,
+          "numero": 2296,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2334086"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-19T09:02",
+          "ementa": "Estabelece o valor mínimo de R$600 (seiscentos reais) para o benefício do Programa Auxílio Brasil, a partir de janeiro de 2023, passando a denominar-se Programa Mais Bolsa Família.",
+          "id": 2334172,
+          "numero": 2315,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2334172"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-08-26T15:50",
+          "ementa": "Altera a Lei 12.318 de 26 de agosto de 2010, para tratar de hipóteses de alienação parental, prever sanções e dá outras providências.",
+          "id": 2334357,
+          "numero": 2354,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2334357"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-09-16T15:33",
+          "ementa": "Inclui os motoristas de transporte individual e entregadores por aplicativos no Programa Auxílio Brasil.",
+          "id": 2335094,
+          "numero": 2479,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335094"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 557,
+          "dataApresentacao": "2022-10-06T13:14",
+          "ementa": "Susta os efeitos da Resolução CGPAR/ME Nº 37, de 4 de agosto de 2022, que “estabelece diretrizes e parâmetros para as empresas estatais federais quanto ao patrocínio de planos de benefícios de previdência complementar”.",
+          "id": 2335324,
+          "numero": 348,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335324"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-10-24T11:57",
+          "ementa": "Prevê a abordagem, retorno à família ou acolhimento de crianças ou adolescentes em situação de rua, que não estejam acompanhadas de pelo menos um de seus pais ou responsáveis.",
+          "id": 2336221,
+          "numero": 2667,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2336221"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-03T14:26",
+          "ementa": "Cria o Cadastro Nacional de Informações sobre maus tratos e abuso sexual praticados contra crianças em creches e pré-escolas da educação infantil.",
+          "id": 2336503,
+          "numero": 2710,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2336503"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-09T11:04",
+          "ementa": "Altera a Lei nº 8.213, de 1991, para dispor sobre a correção monetária e juros de mora devidos em caso de pagamento de parcelas relativas a benefício, efetuado com atraso, pelo Instituto Nacional do Seguro Social.",
+          "id": 2337152,
+          "numero": 2753,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2337152"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 140,
+          "dataApresentacao": "2022-11-23T15:00",
+          "ementa": "Institui a contribuição digital sobre movimentação ou transmissão de valores e de créditos e direitos de natureza financeira (CDMF) e reduz a 0 (zero) a contribuição previdenciária patronal para a seguridade social.",
+          "id": 2339433,
+          "numero": 146,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2339433"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-30T14:32",
+          "ementa": "Aumenta a pena do crime previsto no art. 238 da Lei nº 8.069, de 13 de julho de 1990",
+          "id": 2340395,
+          "numero": 2893,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2340395"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-12-01T15:00",
+          "ementa": "Acrescenta o parágrafo único ao art. 242 do Estatuto da Criança e do Adolescente - ECA, para agravar as penas do crime previsto nesse dispositivo legal, a quem ensinar, orientar ou instruir a utilização e o uso e manuseio de arma de fogo a criança ou adolescente.",
+          "id": 2340715,
+          "numero": 2906,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2340715"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-12-05T12:40",
+          "ementa": "Altera a Lei 12.852 de 5 de agosto de 2013, para adequação do alcance do ID Jovem.",
+          "id": 2340825,
+          "numero": 2917,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2340825"
+        },
+        {
+          "ano": 2022,
+          "codTipo": 554,
+          "dataApresentacao": "2022-12-15T18:27",
+          "ementa": "Aprova o texto da Convenção Multilateral de Segurança Social da Comunidade de Países de Língua Portuguesa - CPLP, assinada em Díli, Timor-Leste, em 24 de julho de 2015.",
+          "id": 2343480,
+          "numero": 461,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2343480"
+        }
+      ],
+      "siglaOrgao": "CSAUDE",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do REQ n. 129/2023 (Requerimento), pelo Deputado Zé Vitor (PL/MG), que \"Requer distribuição de projetos para a Comissão de Previdência, Assistência Social, Infância, Adolescência e Família (CPASF)\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68236",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:37.170Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2"
+}

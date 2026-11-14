@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-04-23",
+      "dataHoraRegistro": "2025-04-23T10:20:07",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento.",
+      "efeitosRegistrados": [],
+      "id": "2497011-2",
+      "idEvento": 75943,
+      "idOrgao": 2014,
+      "objetosPossiveis": [
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-04-10T14:37",
+          "ementa": "Requer a realização de audiência pública para debater a Política Nacional de Residências em Saúde e o Projeto de Lei nº 504, de 2021.",
+          "id": 2497011,
+          "numero": 82,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497011"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-19T17:13",
+          "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+          "id": 2270540,
+          "numero": 504,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540"
+        }
+      ],
+      "siglaOrgao": "CSAUDE",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do REQ n. 82/2025 (Requerimento de Audiência Pública), pela Deputada Jandira Feghali (PCdoB/RJ -Fdr PT-PCdoB-PV), que \"Requer a realização de audiência pública para debater a Política Nacional de Residências em Saúde e o Projeto de Lei nº 504, de 2021\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/75943",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:38.861Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2"
+}

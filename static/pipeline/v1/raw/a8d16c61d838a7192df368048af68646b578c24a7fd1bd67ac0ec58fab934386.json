@@ -1,0 +1,131 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:46:39",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Ana Pimentel (PT-MG).",
+        "id": "2270540-88",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T19:46:11",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 504, de 2021, adotado pela relatora da Comissão de Saúde.",
+        "id": "2270540-87",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-87",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-03",
+        "dataHoraRegistro": "2026-11-03T16:37:20",
+        "descricao": "Realizar o encaminhamento do PL-504/2021 à CFT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2270540-65",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-65",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-03",
+        "dataHoraRegistro": "2026-11-03T16:37:20",
+        "descricao": "Realizar o encaminhamento do PL-504/2021 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2270540-64",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-64",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-03",
+        "dataHoraRegistro": "2026-11-03T16:37:18",
+        "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2632454-7",
+        "proposicaoObjeto": "REQ 3511/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2632454-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83141",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2632454"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-04-23",
+        "dataHoraRegistro": "2025-04-23T10:20:07",
+        "descricao": "Aprovado o Requerimento.",
+        "id": "2497011-2",
+        "proposicaoObjeto": "REQ 82/2025 CSAUDE",
+        "siglaOrgao": "CSAUDE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2497011-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/75943",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2497011"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2021-09-08",
+        "dataHoraRegistro": "2021-09-08T12:21:19",
+        "descricao": "Aprovado o Parecer, com os votos contrários dos Deputados Diego Garcia e Tiago Mitraud.",
+        "id": "2270540-37",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-37",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/63004",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2021-09-08",
+        "dataHoraRegistro": "2021-09-08T12:17:56",
+        "descricao": "Rejeitado o Requerimento de Retirada de Pauta.",
+        "id": "2270540-36",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-36",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/63004",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2021-06-30",
+        "dataHoraRegistro": "2021-06-30T11:38:58",
+        "descricao": "Rejeitado o Requerimento de Retirada de Pauta, contra os votos dos Deputados Tiago Mitraud, General Peternelli e Professor Alcides.",
+        "id": "2270540-24",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-24",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/62102",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:38.201Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540/votacoes"
+}

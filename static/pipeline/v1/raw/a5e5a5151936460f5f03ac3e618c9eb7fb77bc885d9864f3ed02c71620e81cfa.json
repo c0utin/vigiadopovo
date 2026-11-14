@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2023,
+      "codTipo": 139,
+      "dataApresentacao": "2023-12-06T16:20",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+      "ementaDetalhada": "",
+      "id": 2410357,
+      "justificativa": null,
+      "keywords": "Alteração, Código Penal, Crime contra a administração da justiça, Invasão do espaço aéreo de presídios via drones, utilização, Veículo Aéreo Não Tripulado (VANT), entrega, mercadoria, preso, reclusão, multa.",
+      "numero": 5902,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-10T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 245/2026/SGM-P.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 56,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/209787",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190286"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2371207",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:30.749Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357"
+}

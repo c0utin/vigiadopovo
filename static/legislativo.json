@@ -1,8 +1,56 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-13T17:03:58.217Z",
+  "collectedAt": "2026-11-14T15:41:33.739Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2653822,
+      "label": "PL 5851/2026",
+      "ementa": "Dispõe sobre a destinação de parcela da receita do Imposto Seletivo ao financiamento adicional de tratamentos de saúde no âmbito do Sistema Único de Saúde (SUS).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653822",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653820,
+      "label": "PL 5850/2026",
+      "ementa": "Dispõe sobre a criação de Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais , e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653820",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653819,
+      "label": "PL 5849/2026",
+      "ementa": "Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653819",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653818,
+      "label": "PL 5848/2026",
+      "ementa": "Dispõe sobre a responsabilização penal e civil por crimes contra o patrimônio praticados entre familiares, revoga imunidades penais, estabelece medidas de reparação patrimonial e altera o Código Civil para prever novas hipóteses de indignidade sucessória e deserdação.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653818",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653816,
+      "label": "PL 5847/2026",
+      "ementa": "Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653816",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653814,
+      "label": "PL 5846/2026",
+      "ementa": "Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653814",
+      "labels": [],
+      "votingIds": []
+    },
     {
       "id": 2653227,
       "label": "PL 5840/2026",
@@ -1181,50 +1229,42 @@
       ]
     },
     {
-      "id": 2653822,
-      "label": "PL 5851/2026",
-      "ementa": "Dispõe sobre a destinação de parcela da receita do Imposto Seletivo ao financiamento adicional de tratamentos de saúde no âmbito do Sistema Único de Saúde (SUS).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653822",
+      "id": 2653948,
+      "label": "PL 5856/2026",
+      "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653948",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2653820,
-      "label": "PL 5850/2026",
-      "ementa": "Dispõe sobre a criação de Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais , e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653820",
+      "id": 2653947,
+      "label": "PL 5855/2026",
+      "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2653819,
-      "label": "PL 5849/2026",
-      "ementa": "Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653819",
+      "id": 2653946,
+      "label": "PL 5854/2026",
+      "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2653818,
-      "label": "PL 5848/2026",
-      "ementa": "Dispõe sobre a responsabilização penal e civil por crimes contra o patrimônio praticados entre familiares, revoga imunidades penais, estabelece medidas de reparação patrimonial e altera o Código Civil para prever novas hipóteses de indignidade sucessória e deserdação.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653818",
+      "id": 2653945,
+      "label": "PL 5853/2026",
+      "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2653816,
-      "label": "PL 5847/2026",
-      "ementa": "Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653816",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2653814,
-      "label": "PL 5846/2026",
-      "ementa": "Institui o Símbolo da Criminologia Brasileira e estabelece disposições relativas à sua representação.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653814",
+      "id": 2653944,
+      "label": "PL 5852/2026",
+      "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
       "labels": [],
       "votingIds": []
     }

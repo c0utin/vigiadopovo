@@ -1,0 +1,77 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-03-17",
+      "dataHoraRegistro": "2026-03-17T21:06:19",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Realizar o encaminhamento do PL-2475/2025 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "efeitosRegistrados": [],
+      "id": "2515534-31",
+      "idEvento": null,
+      "idOrgao": 186,
+      "objetosPossiveis": [
+        {
+          "ano": 2025,
+          "codTipo": 313,
+          "dataApresentacao": "2025-09-16T14:46",
+          "ementa": "Requer a coautoria do PL nº 2475/2025.",
+          "id": 2561291,
+          "numero": 3815,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2561291"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 313,
+          "dataApresentacao": "2025-08-21T17:44",
+          "ementa": "Requer que seja deferida a inclusão dos deputados subscritores como coautores no Projeto de Lei nº 2475, de 2025.",
+          "id": 2551263,
+          "numero": 3427,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2551263"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 313,
+          "dataApresentacao": "2025-08-20T16:47",
+          "ementa": "Requer a inclusão de coautoria no Projeto de Lei nº 2475, de 2025, que altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+          "id": 2550748,
+          "numero": 3410,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2550748"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 139,
+          "dataApresentacao": "2025-05-22T15:13",
+          "ementa": "Altera a Lei nº 8.072, de 25 de julho de 1990 (Lei dos Crimes Hediondos), para tornar hediondo o crime de maus-tratos aos animais, quando do evento criminoso resultar a morte do animal.",
+          "id": 2515534,
+          "numero": 2475,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2515534"
+        }
+      ],
+      "siglaOrgao": "CCP",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:26.198Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2515534-31"
+}

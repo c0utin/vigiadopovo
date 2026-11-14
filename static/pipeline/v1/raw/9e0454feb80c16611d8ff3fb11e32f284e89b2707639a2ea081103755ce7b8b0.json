@@ -1,0 +1,53 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-11",
+        "dataHoraRegistro": "2026-11-11T18:23:31",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 464, de 2026, da Comissão de Defesa dos Direitos da Pessoa Idosa.",
+        "id": "2602370-38",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-38",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-07-15",
+        "dataHoraRegistro": "2026-07-15T10:58:14",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2602370-28",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-28",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82737",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-05-27",
+        "dataHoraRegistro": "2026-05-27T13:53:51",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2602370-19",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CIDOSO",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82282",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:19.733Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370/votacoes"
+}

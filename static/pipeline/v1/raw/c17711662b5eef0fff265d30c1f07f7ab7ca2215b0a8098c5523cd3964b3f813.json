@@ -1,0 +1,70 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2023-08-02",
+      "dataHoraRegistro": "2023-08-02T14:52:10",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado.",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2023-08-02T14:00",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado requerimento n. 35/2023 da Sra. Silvye Alves que requer a realização Audiência Pública para discutir sobre a revogação da Lei de Alienação Parental.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do REQ n. 35/2023 (Requerimento de Audiência Pública), pela Deputada Silvye Alves (UNIÃO/GO), que \"Requer a realização Audiência Pública para discutir sobre a revogação da Lei de Alienação Parental\".",
+          "tituloProposicao": "PL 2812/2022",
+          "tituloProposicaoCitada": "REQ 35/2023 CPASF",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2373406"
+        }
+      ],
+      "id": "2373406-2",
+      "idEvento": 68938,
+      "idOrgao": 539387,
+      "objetosPossiveis": [
+        {
+          "ano": 2023,
+          "codTipo": 294,
+          "dataApresentacao": "2023-07-11T13:58",
+          "ementa": "Requer a realização Audiência Pública para discutir sobre a revogação da Lei de Alienação Parental.",
+          "id": 2373406,
+          "numero": 35,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2373406"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        }
+      ],
+      "siglaOrgao": "CPASF",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do REQ n. 35/2023 (Requerimento de Audiência Pública), pela Deputada Silvye Alves (UNIÃO/GO), que \"Requer a realização Audiência Pública para discutir sobre a revogação da Lei de Alienação Parental\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68938",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539387"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:35.965Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2373406-2"
+}

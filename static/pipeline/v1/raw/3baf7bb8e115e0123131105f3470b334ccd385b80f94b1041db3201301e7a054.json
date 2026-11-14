@@ -1,0 +1,39 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 41,
+        "relevancia": 0,
+        "tema": "Cidades e Desenvolvimento Urbano"
+      },
+      {
+        "codTema": 37,
+        "relevancia": 0,
+        "tema": "Comunicações"
+      },
+      {
+        "codTema": 54,
+        "relevancia": 0,
+        "tema": "Energia, Recursos Hídricos e Minerais"
+      },
+      {
+        "codTema": 66,
+        "relevancia": 0,
+        "tema": "Indústria, Comércio e Serviços"
+      },
+      {
+        "codTema": 61,
+        "relevancia": 0,
+        "tema": "Viação, Transporte e Mobilidade"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:17.287Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617269/temas"
+}

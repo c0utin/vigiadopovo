@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-10-27",
+      "dataHoraRegistro": "2026-10-27T20:41:41",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [],
+      "id": "2649009-8",
+      "idEvento": 83098,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-10-27T14:26",
+          "ementa": "Requeremos a Vossa Excelência, nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, URGÊNCIA para apreciação do Projeto de Lei nº 5902, de 2023, que ‘Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código\nPenal, para dispor sobre o uso de drones no espaço aéreo dos presídios’.",
+          "id": 2649009,
+          "numero": 4337,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649009"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-12-06T16:20",
+          "ementa": "Altera o Decreto-Lei nº 2848, de 07 de dezembro de 1940 – Código Penal, para dispor sobre o uso de drones no espaço aéreo dos presídios.",
+          "id": 2410357,
+          "numero": 5902,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2410357"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2649009-8",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83098",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2649009-8",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:31.629Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2649009-8"
+}

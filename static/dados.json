@@ -1,7 +1,1470 @@
 {
-  "collectedAt": "2026-11-13T17:03:58.217Z",
+  "collectedAt": "2026-11-14T15:41:33.739Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2653948,
+      "label": "PL 5856/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
+      "presentedAt": "2026-11-13T18:36",
+      "status": {
+        "dataHora": "2026-11-13T18:36",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5856/2026 (Projeto de Lei), pelo Deputado Julio Cesar Ribeiro (REPUBLIC/DF), que \"Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher\"."
+      },
+      "authors": [
+        {
+          "name": "Julio Cesar Ribeiro",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653948",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653948",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195960",
+      "votes": [],
+      "sourceHash": "429c45743d6ea1f292ff514f84c879b5129422a0ebdd9403e88c5f4eddf10e9f",
+      "summary": null
+    },
+    {
+      "id": 2653947,
+      "label": "PL 5855/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+      "presentedAt": "2026-11-13T18:29",
+      "status": {
+        "dataHora": "2026-11-13T18:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5855/2026 (Projeto de Lei), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.\"."
+      },
+      "authors": [
+        {
+          "name": "Afonso Florence",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Airton Faleiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alencar Santana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Lindenmeyer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alice Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Paula Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Pimentel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arlindo Chinaglia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benedita da Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bohn Gass",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Camila Jara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Veras",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Zarattini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carol Dartora",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Célia Xakriabá",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chico Alencar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Clodoaldo Magalhães",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Almeida",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegada Adriana Accorsi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Denise Pessôa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dilvanda Faro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dimas Gadelha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Duda Salabert",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Hilton",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Kokay",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernanda Melchionna",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernando Mineiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilmar Machado",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glauber Braga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gleisi Hoffmann",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helder Salomão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Inácio Arruda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ivoneide Caetano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jack Rocha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jandira Feghali",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jilmar Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Daniel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Solla",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Airton Félix Cirilo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Joseildo Ramos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juliana Cardoso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kiko Celeguim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Leonardo Monteiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lindbergh Farias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Couto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiza Erundina",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Jerry",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria do Rosário",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Merlong Solano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Miguel Ângelo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Natália Bonavides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nilto Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padre João",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Henrique Vieira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Patrus Ananias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Guedes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Lemos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Pimenta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Teixeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Uczai",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Luciene Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Marcivania",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reginaldo Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reimont",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Renildo Calheiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogério Correia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rubens Otoni",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rui Falcão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sâmia Bomfim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sônia Guajajara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tadeu Veneri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Talíria Petrone",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tarcísio Motta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Valmir Assunção",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Waldenor Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Welter",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zeca Dirceu",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653947",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195959",
+      "votes": [],
+      "sourceHash": "1b31f39e18370554194a5ede5c5ec0c42bd130ce22974017e349368e353d33d2",
+      "summary": null
+    },
+    {
+      "id": 2653946,
+      "label": "PL 5854/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+      "presentedAt": "2026-11-13T18:29",
+      "status": {
+        "dataHora": "2026-11-13T18:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5854/2026 (Projeto de Lei), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências\"."
+      },
+      "authors": [
+        {
+          "name": "Afonso Florence",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Airton Faleiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alencar Santana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Lindenmeyer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alice Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Paula Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Pimentel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arlindo Chinaglia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bacelar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benedita da Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bohn Gass",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Camila Jara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Veras",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Zarattini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carol Dartora",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Célia Xakriabá",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chico Alencar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Clodoaldo Magalhães",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Almeida",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegada Adriana Accorsi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Denise Pessôa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dilvanda Faro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dimas Gadelha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Duda Salabert",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Hilton",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Kokay",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernanda Melchionna",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernando Mineiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilmar Machado",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glauber Braga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gleisi Hoffmann",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helder Salomão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Inácio Arruda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ivoneide Caetano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jack Rocha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jandira Feghali",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jilmar Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Daniel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Solla",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Airton Félix Cirilo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Joseildo Ramos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juliana Cardoso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kiko Celeguim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Leonardo Monteiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lindbergh Farias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Couto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiza Erundina",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Jerry",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria do Rosário",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Merlong Solano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Miguel Ângelo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Natália Bonavides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nilto Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padre João",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Henrique Vieira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Patrus Ananias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Guedes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Lemos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Pimenta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Teixeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Uczai",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Luciene Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Marcivania",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reginaldo Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reimont",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogério Correia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rubens Otoni",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rui Falcão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sâmia Bomfim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sônia Guajajara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tadeu Veneri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Talíria Petrone",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tarcísio Motta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Valmir Assunção",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vander Loubet",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Waldenor Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Welter",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zeca Dirceu",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195958",
+      "votes": [],
+      "sourceHash": "606a64a5ac59003dcf6a7abd24d554b90f77a9668e4f9127c36eb2ba93df3b6d",
+      "summary": null
+    },
+    {
+      "id": 2653945,
+      "label": "PL 5853/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+      "presentedAt": "2026-11-13T18:29",
+      "status": {
+        "dataHora": "2026-11-13T18:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5853/2026 (Projeto de Lei), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários\"."
+      },
+      "authors": [
+        {
+          "name": "Afonso Florence",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Airton Faleiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alencar Santana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Lindenmeyer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alice Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Paula Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Pimentel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arlindo Chinaglia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bacelar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benedita da Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bohn Gass",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Camila Jara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Veras",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Zarattini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carol Dartora",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Célia Xakriabá",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chico Alencar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Clodoaldo Magalhães",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Almeida",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegada Adriana Accorsi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Denise Pessôa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dilvanda Faro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dimas Gadelha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Francisco",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Duda Salabert",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Hilton",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Kokay",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernanda Melchionna",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernando Mineiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Florentino Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilmar Machado",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glauber Braga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gleisi Hoffmann",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helder Salomão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Inácio Arruda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ivoneide Caetano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jack Rocha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jandira Feghali",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jilmar Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Daniel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Solla",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Airton Félix Cirilo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Joseildo Ramos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juliana Cardoso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kiko Celeguim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Leonardo Monteiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lindbergh Farias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Couto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiza Erundina",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Jerry",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria do Rosário",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Merlong Solano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Miguel Ângelo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Natália Bonavides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nilto Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padre João",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Henrique Vieira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Patrus Ananias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Guedes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Lemos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Pimenta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Teixeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Uczai",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Luciene Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Marcivania",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reginaldo Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reimont",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Renildo Calheiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogério Correia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rubens Otoni",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rui Falcão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sâmia Bomfim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sônia Guajajara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tadeu Veneri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Talíria Petrone",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tarcísio Motta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Valmir Assunção",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vander Loubet",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Waldenor Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Welter",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zeca Dirceu",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653945",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195957",
+      "votes": [],
+      "sourceHash": "5c15ecc8e5f3a254d39ab08430991e81871d44f3dc053175378138bb1775287f",
+      "summary": null
+    },
+    {
+      "id": 2653944,
+      "label": "PL 5852/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+      "presentedAt": "2026-11-13T18:29",
+      "status": {
+        "dataHora": "2026-11-13T18:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5852/2026 (Projeto de Lei), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal\"."
+      },
+      "authors": [
+        {
+          "name": "Afonso Florence",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Airton Faleiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alencar Santana",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Lindenmeyer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alice Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Paula Lima",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ana Pimentel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Arlindo Chinaglia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bacelar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benedita da Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Bohn Gass",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Camila Jara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Veras",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Zarattini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carol Dartora",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Célia Xakriabá",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Chico Alencar",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Clodoaldo Magalhães",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Almeida",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Delegada Adriana Accorsi",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Denise Pessôa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dilvanda Faro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dimas Gadelha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Dr. Francisco",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Duda Salabert",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Hilton",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Erika Kokay",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernanda Melchionna",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernando Mineiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilmar Machado",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glauber Braga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gleisi Hoffmann",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helder Salomão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Inácio Arruda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ivoneide Caetano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jack Rocha",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jandira Feghali",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jilmar Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Daniel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Solla",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "José Airton Félix Cirilo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Joseildo Ramos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juliana Cardoso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kiko Celeguim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Leonardo Monteiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lindbergh Farias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiz Couto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Luiza Erundina",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Jerry",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria do Rosário",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Merlong Solano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Miguel Ângelo",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Natália Bonavides",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nilto Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padre João",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pastor Henrique Vieira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Patrus Ananias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Guedes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Lemos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Pimenta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Teixeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Uczai",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Luciene Cavalcante",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Marcivania",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reginaldo Lopes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Reimont",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Renildo Calheiros",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogério Correia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rubens Otoni",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rui Falcão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sâmia Bomfim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Sônia Guajajara",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tadeu Veneri",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Talíria Petrone",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Tarcísio Motta",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Valmir Assunção",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vander Loubet",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Waldenor Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Welter",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zé Neto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zeca Dirceu",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653944",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195956",
+      "votes": [],
+      "sourceHash": "77bd8e30071db5baca624b2768b8edab974ac0ba3e3755aa5853c1e8da3984fa",
+      "summary": null
+    },
     {
       "id": 2653822,
       "label": "PL 5851/2026",

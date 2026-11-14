@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-11",
+      "dataHoraRegistro": "2026-11-11T19:46:39",
+      "dataHoraUltimaAberturaVotacao": "2026-11-11T19:47:48",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Ana Pimentel (PT-MG).",
+      "efeitosRegistrados": [],
+      "id": "2270540-88",
+      "idEvento": 83266,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-11-11T19:27",
+          "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+          "id": 2653033,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653033"
+        },
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-11T13:55",
+          "ementa": "Parecer proferido em Plenário pela Relatora Dep. Ana Pimentel (PT/MG) pela: • Comissão de Saúde, que conclui pela aprovação do Projeto de Lei nº 504, de 2021, na forma do Substitutivo adotado. • Comissão de Finanças e Tributação, que conclui pela inadequação do Projeto de Lei nº 504/2021, em sua forma originalmente proposta, e pela não implicação orçamentária e financeira da matéria na forma do Substitutivo adotado pela relatora da Comissão de Saúde. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 504, de 2021, na forma do Substitutivo adotado pela relatora da Comissão de Saúde.",
+          "id": 2653032,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653032"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-10T12:38",
+          "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+          "id": 2651971,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651971"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-06-15T15:48",
+          "ementa": "Requer urgência, nos termos do art. 155 do Regimento Interno da Câmara dos Deputados, para apreciação do Projeto de Lei nº 504/2021, que “Cria a Política Nacional de Residência em Área Profissional da Saúde”.",
+          "id": 2632454,
+          "numero": 3511,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2632454"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2021,
+          "codTipo": 139,
+          "dataApresentacao": "2021-02-19T17:13",
+          "ementa": "Cria a Política Nacional de Residência em Área Profissional da Saúde.",
+          "id": 2270540,
+          "numero": 504,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2270540"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-11T19:26:20",
+        "descricao": "Parecer proferido em Plenário pela Relatora Dep. Ana Pimentel (PT/MG) pela:\r\n• Comissão de Saúde, que conclui pela aprovação do Projeto de Lei nº 504, de 2021, na forma do Substitutivo adotado.\r\n• Comissão de Finanças e Tributação, que conclui pela inadequação do Projeto de Lei nº 504/2021, em sua forma originalmente proposta, e pela não implicação orçamentária e financeira da matéria na forma do Substitutivo adotado pela relatora da Comissão de Saúde.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 504, de 2021, na forma do Substitutivo adotado pela relatora da Comissão de Saúde.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653032"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83266",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:41:37.901Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2270540-88"
+}

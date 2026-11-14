@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-05-27",
+      "dataHoraRegistro": "2026-05-27T13:53:51",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2602370-19",
+      "idEvento": 82282,
+      "idOrgao": 537871,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-05-25T17:57",
+          "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil), e a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), para tipificar e estabelecer as consequências civis e penais da promoção de curatela abusiva.",
+          "id": 2627611,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2627611"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-05-25T17:57",
+          "ementa": "Parecer do Relator, Dep. Geraldo Resende (UNIÃO-MS), pela aprovação, com substitutivo.",
+          "id": 2627610,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2627610"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-02-11T10:15",
+          "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
+          "id": 2602370,
+          "numero": 464,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2602370"
+        }
+      ],
+      "siglaOrgao": "CIDOSO",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-05-26T10:49:55",
+        "descricao": "Parecer do Relator, Dep. Geraldo Resende (UNIÃO-MS), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2627610"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82282",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/537871"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:20.104Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2602370-19"
+}

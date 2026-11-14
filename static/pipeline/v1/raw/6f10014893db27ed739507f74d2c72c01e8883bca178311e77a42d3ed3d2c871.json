@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 72,
+        "relevancia": 0,
+        "tema": "Homenagens e Datas Comemorativas"
+      },
+      {
+        "codTema": 53,
+        "relevancia": 0,
+        "tema": "Processo Legislativo e Atuação Parlamentar"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-14T15:42:33.248Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2389679/temas"
+}
