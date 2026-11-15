@@ -1,8 +1,48 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-14T15:41:33.739Z",
+  "collectedAt": "2026-11-15T16:12:06.324Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2653948,
+      "label": "PL 5856/2026",
+      "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653948",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653947,
+      "label": "PL 5855/2026",
+      "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653946,
+      "label": "PL 5854/2026",
+      "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653945,
+      "label": "PL 5853/2026",
+      "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2653944,
+      "label": "PL 5852/2026",
+      "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
+      "labels": [],
+      "votingIds": []
+    },
     {
       "id": 2653822,
       "label": "PL 5851/2026",
@@ -1227,46 +1267,6 @@
         "2204495-54",
         "2204495-37"
       ]
-    },
-    {
-      "id": 2653948,
-      "label": "PL 5856/2026",
-      "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653948",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2653947,
-      "label": "PL 5855/2026",
-      "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653947",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2653946,
-      "label": "PL 5854/2026",
-      "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653946",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2653945,
-      "label": "PL 5853/2026",
-      "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653945",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2653944,
-      "label": "PL 5852/2026",
-      "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
-      "labels": [],
-      "votingIds": []
     }
   ],
   "votings": [

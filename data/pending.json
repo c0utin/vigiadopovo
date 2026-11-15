@@ -1,5 +1,35 @@
 [
   {
+    "id": 2653948,
+    "sourceHash": "429c45743d6ea1f292ff514f84c879b5129422a0ebdd9403e88c5f4eddf10e9f",
+    "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653948"
+  },
+  {
+    "id": 2653947,
+    "sourceHash": "1b31f39e18370554194a5ede5c5ec0c42bd130ce22974017e349368e353d33d2",
+    "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653947"
+  },
+  {
+    "id": 2653946,
+    "sourceHash": "606a64a5ac59003dcf6a7abd24d554b90f77a9668e4f9127c36eb2ba93df3b6d",
+    "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946"
+  },
+  {
+    "id": 2653945,
+    "sourceHash": "5c15ecc8e5f3a254d39ab08430991e81871d44f3dc053175378138bb1775287f",
+    "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653945"
+  },
+  {
+    "id": 2653944,
+    "sourceHash": "77bd8e30071db5baca624b2768b8edab974ac0ba3e3755aa5853c1e8da3984fa",
+    "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653944"
+  },
+  {
     "id": 2653822,
     "sourceHash": "a8684420f2a520153cb1ca4fcfbb083ad529824950f490b9524c741367eeab88",
     "ementa": "Dispõe sobre a destinação de parcela da receita do Imposto Seletivo ao financiamento adicional de tratamentos de saúde no âmbito do Sistema Único de Saúde (SUS).",
@@ -262,35 +292,5 @@
     "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
     "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
-  },
-  {
-    "id": 2653948,
-    "sourceHash": "429c45743d6ea1f292ff514f84c879b5129422a0ebdd9403e88c5f4eddf10e9f",
-    "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653948"
-  },
-  {
-    "id": 2653947,
-    "sourceHash": "1b31f39e18370554194a5ede5c5ec0c42bd130ce22974017e349368e353d33d2",
-    "ementa": "Altera a Lei nº 9.249, de 26 de dezembro de 1995, para elevar a alíquota do Imposto de Renda Retido na Fonte incidente sobre os juros sobre o capital próprio.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653947"
-  },
-  {
-    "id": 2653946,
-    "sourceHash": "606a64a5ac59003dcf6a7abd24d554b90f77a9668e4f9127c36eb2ba93df3b6d",
-    "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946"
-  },
-  {
-    "id": 2653945,
-    "sourceHash": "5c15ecc8e5f3a254d39ab08430991e81871d44f3dc053175378138bb1775287f",
-    "ementa": "Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653945"
-  },
-  {
-    "id": 2653944,
-    "sourceHash": "77bd8e30071db5baca624b2768b8edab974ac0ba3e3755aa5853c1e8da3984fa",
-    "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653944"
   }
 ]
