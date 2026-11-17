@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2022,
+      "codTipo": 139,
+      "dataApresentacao": "2022-11-18T14:36",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+      "ementaDetalhada": "",
+      "id": 2338753,
+      "justificativa": null,
+      "keywords": "Revogação, Lei da Alienação Parental, alienação parental, interferência, desenvolvimento psíquico, criança, adolescente, promoção, pais, avós, responsável legal.",
+      "numero": 2812,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": 910,
+        "codTipoTramitacao": "180",
+        "dataHora": "2026-11-17T14:05",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Encaminhamento",
+        "despacho": "Encaminhado à CCP",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 108,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/74856",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194189"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2216469",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-17T18:22:49.366Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+}

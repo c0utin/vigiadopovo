@@ -1,5 +1,41 @@
 [
   {
+    "id": 2654171,
+    "sourceHash": "3d651cb2091b1c6dbeb2f8a951ba2134ff0d7c064a501f01376b3651bbc194ad",
+    "ementa": "Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171"
+  },
+  {
+    "id": 2654170,
+    "sourceHash": "3cdb1d318fa6c1626dece7ea53d52e8887f2e264a7b438d129b89b173b4b2a89",
+    "ementa": "Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170"
+  },
+  {
+    "id": 2654169,
+    "sourceHash": "6555c3637819687c69e2b51cee83acf7f83f192a439ddcb1d82bf15b96ecb952",
+    "ementa": "Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169"
+  },
+  {
+    "id": 2654168,
+    "sourceHash": "db0980e412fa0ae443872e572ecb06560cf8f170163ecdbde1a5e718aa33e018",
+    "ementa": "Dispõe sobre a responsabilidade das instituições de pagamento por boletos fraudulentos emitidos por meio de suas plataformas e sobre os mecanismos de segurança para prevenir essa fraude.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168"
+  },
+  {
+    "id": 2654163,
+    "sourceHash": "820900748e404ec15cf0333b6a837c1378a3fda49003844010e766bde0135702",
+    "ementa": "Institui a Lei Manfred e Marisia von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163"
+  },
+  {
+    "id": 2654057,
+    "sourceHash": "8997fde42d6c50d9071093a7e2548a8415dc58bfaf3b9e84e070011768fc0797",
+    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057"
+  },
+  {
     "id": 2653948,
     "sourceHash": "429c45743d6ea1f292ff514f84c879b5129422a0ebdd9403e88c5f4eddf10e9f",
     "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
@@ -294,39 +330,39 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
   },
   {
-    "id": 2654171,
-    "sourceHash": "3d651cb2091b1c6dbeb2f8a951ba2134ff0d7c064a501f01376b3651bbc194ad",
-    "ementa": "Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171"
+    "id": 2654578,
+    "sourceHash": "1b84c4a8839aeedd172599beb7bf64897ca3eee9b08d625e11e3b4cfad0595f1",
+    "ementa": "Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578"
   },
   {
-    "id": 2654170,
-    "sourceHash": "3cdb1d318fa6c1626dece7ea53d52e8887f2e264a7b438d129b89b173b4b2a89",
-    "ementa": "Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170"
+    "id": 2654503,
+    "sourceHash": "cdac2ab1da159b65539d059299ca69a06bc9a6512eab7b2e96e1ba5adb96e8a0",
+    "ementa": "Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503"
   },
   {
-    "id": 2654169,
-    "sourceHash": "6555c3637819687c69e2b51cee83acf7f83f192a439ddcb1d82bf15b96ecb952",
-    "ementa": "Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169"
+    "id": 2654412,
+    "sourceHash": "9723a863fe40aaf82faca971bab7ca58612513bdd98444a694ec79b598c79cd9",
+    "ementa": "Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412"
   },
   {
-    "id": 2654168,
-    "sourceHash": "db0980e412fa0ae443872e572ecb06560cf8f170163ecdbde1a5e718aa33e018",
-    "ementa": "Dispõe sobre a responsabilidade das instituições de pagamento por boletos fraudulentos emitidos por meio de suas plataformas e sobre os mecanismos de segurança para prevenir essa fraude.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168"
+    "id": 2654386,
+    "sourceHash": "e508bf5b90b29e3a90e8573536352eb8e76eb893cafac8bfe8c5a0b31e62fc1e",
+    "ementa": "Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386"
   },
   {
-    "id": 2654163,
-    "sourceHash": "2521a8c1e091a4c44361f10ec5ea1249cd683d5f1001bddbbed9090e07f24221",
-    "ementa": "Institui a Lei Suzane Von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163"
+    "id": 2654371,
+    "sourceHash": "496f084f085cbd136d5c6f580d358cce685eaf909629457a545870b1ad315a0e",
+    "ementa": "Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371"
   },
   {
-    "id": 2654057,
-    "sourceHash": "8997fde42d6c50d9071093a7e2548a8415dc58bfaf3b9e84e070011768fc0797",
-    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057"
+    "id": 2654360,
+    "sourceHash": "13ce28131f6bfb12c899a111f58cb5d08e6e2e294f8f75100243808962b100d9",
+    "ementa": "Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360"
   }
 ]
