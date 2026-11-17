@@ -1,0 +1,8 @@
+{
+  "name": "vigia-timestamp",
+  "private": true,
+  "description": "OpenTimestamps client for the collect workflow, pinned by its own lockfile. Kept out of the site's dependencies: its dependency tree has unfixable advisories (request) that must not reach the site build.",
+  "devDependencies": {
+    "opentimestamps": "0.4.9"
+  }
+}
