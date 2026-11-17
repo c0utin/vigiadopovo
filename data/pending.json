@@ -292,5 +292,41 @@
     "sourceHash": "5e28ea5f537a549aa1712424b7a12eb053e22e0b3de003d6ae6c05319243ed5f",
     "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
+  },
+  {
+    "id": 2654171,
+    "sourceHash": "3d651cb2091b1c6dbeb2f8a951ba2134ff0d7c064a501f01376b3651bbc194ad",
+    "ementa": "Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171"
+  },
+  {
+    "id": 2654170,
+    "sourceHash": "3cdb1d318fa6c1626dece7ea53d52e8887f2e264a7b438d129b89b173b4b2a89",
+    "ementa": "Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170"
+  },
+  {
+    "id": 2654169,
+    "sourceHash": "6555c3637819687c69e2b51cee83acf7f83f192a439ddcb1d82bf15b96ecb952",
+    "ementa": "Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169"
+  },
+  {
+    "id": 2654168,
+    "sourceHash": "db0980e412fa0ae443872e572ecb06560cf8f170163ecdbde1a5e718aa33e018",
+    "ementa": "Dispõe sobre a responsabilidade das instituições de pagamento por boletos fraudulentos emitidos por meio de suas plataformas e sobre os mecanismos de segurança para prevenir essa fraude.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168"
+  },
+  {
+    "id": 2654163,
+    "sourceHash": "2521a8c1e091a4c44361f10ec5ea1249cd683d5f1001bddbbed9090e07f24221",
+    "ementa": "Institui a Lei Suzane Von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163"
+  },
+  {
+    "id": 2654057,
+    "sourceHash": "8997fde42d6c50d9071093a7e2548a8415dc58bfaf3b9e84e070011768fc0797",
+    "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057"
   }
 ]
