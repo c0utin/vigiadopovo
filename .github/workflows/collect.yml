@@ -45,13 +45,15 @@ jobs:
             && echo "changed=false" >> "$GITHUB_OUTPUT" \
             || echo "changed=true" >> "$GITHUB_OUTPUT"
 
+      # The client comes from the lockfile like every other dependency: this job
+      # can request a signing token, so nothing here is resolved at run time.
       # Proofs live outside /pipeline/v1/ because the upgrade rewrites them,
       # while v1/ is served as immutable.
       - name: Timestamp the manifest with OpenTimestamps
         if: steps.manifest.outputs.changed == 'true'
         run: |
           mkdir -p static/pipeline/timestamps
-          npx -y -p opentimestamps@0.4.9 ots-cli.js stamp "${{ steps.manifest.outputs.path }}"
+          pnpm exec ots-cli.js stamp "${{ steps.manifest.outputs.path }}"
           mv "${{ steps.manifest.outputs.path }}.ots" \
             "static/pipeline/timestamps/${{ steps.manifest.outputs.hash }}.json.ots"
 
@@ -60,7 +62,7 @@ jobs:
         run: |
           shopt -s nullglob
           for proof in static/pipeline/timestamps/*.ots; do
-            npx -y -p opentimestamps@0.4.9 ots-cli.js upgrade "$proof" || true
+            pnpm exec ots-cli.js upgrade "$proof" || true
           done
           rm -f static/pipeline/timestamps/*.bak
 
