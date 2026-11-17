@@ -1,0 +1,144 @@
+\section{Evaluation}
+\label{sec:eval}
+
+We evaluate the deployed system, not a prototype. All measurements were taken on 16 November 2026 against the public site and the public repository, using only public data: the site, the Chamber's servers, the repository, its attestations and CI logs, and public Bitcoin block explorers. We ask whether the proofs verify, whether the published numbers can be recomputed without the project's code, whether the source changes underneath the republisher, what operation costs, and whether the numbers are plausible. The system had been running for only a few weeks, so the evaluation shows that the mechanisms work, not that they survive years of operation.
+
+\subsection{Following the public verification guide}
+\label{sec:eval-verify}
+
+The repository ships a verification guide. We followed its steps against the live site, using only public data, although with a client signed in to the author's own GitHub account, which the command-line tool requires; an independent repetition remains to be done.
+
+\emph{Finding the collection.} The transparency page named manifest \texttt{0290c5d7\ldots7d4c}, created on 9 November 2026 at 19:43:28 UTC, listing 254 artifacts.
+
+\emph{Provenance.} \texttt{gh attestation verify}, with the flags given in the design, succeeded for the manifest, the legislative dataset and the snapshot served by the site. The verified certificate named the issuer \texttt{token.actions.githubusercontent.com}, the signer \texttt{collect.yml@refs/heads/main}, the trigger \texttt{schedule}, the commit \texttt{ea20c3a}, a specific run, and a GitHub-hosted runner; the predicate type was SLSA provenance v1; and the transparency-log timestamp was 19:43:54 UTC, 26 seconds after the manifest was created. The deputy-profile file verified in the same way against the monthly workflow.
+
+\emph{Integrity.} The manifest hashed to its own name. We downloaded all 254 artifacts from the site (952,233 bytes) and recomputed each digest: 254 matched and none differed.
+
+\emph{Time.} The OpenTimestamps client reported that Bitcoin block 975,215 attests the manifest's existence as of 9 November 2026.
+
+\emph{A tampered file.} We flipped one bit inside the official summary of the first bill in the snapshot file and repeated the provenance check. Verification failed: no attestation exists for the altered digest. An operator who edits a published file by hand cannot keep the attestation.
+
+The full check took a few minutes, most of it spent downloading the 254 artifacts one at a time. It needs a command line, the GitHub client with an account, and a JavaScript runtime. That is a real barrier, to which we return when discussing who can verify.
+
+\subsection{Timestamps}
+\label{sec:eval-time}
+
+The repository held 13 manifests. Twelve had a timestamp proof; the one without is the earliest, created within an hour of the repository. Eleven proofs in the repository were complete; the newest was still pending, and the client completed it from a calendar server during verification. All twelve then verified against a Bitcoin block (Table~\ref{tab:timestamps}). We verified with the client's light mode, which takes block headers from public block explorers; a reader who wants no such dependency needs a Bitcoin node.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Manifest & Created (UTC) & Artifacts & Block height & Delay (min) \\
+\midrule
+\texttt{bafb55d2} & 30 Oct 00:26 & 83  & 974,448 & 7,090 \\
+\texttt{218fd2c5} & 05 Nov 17:16 & 162 & 974,697 & 128 \\
+\texttt{deb9d8a9} & 06 Nov 16:42 & 238 & 974,832 & 49 \\
+\texttt{65f9a1b4} & 07 Nov 15:35 & 238 & 974,951 & 66 \\
+\texttt{f49da990} & 08 Nov 15:53 & 238 & 975,079 & 52 \\
+\texttt{1994f262} & 08 Nov 18:11 & 238 & 975,091 & 84 \\
+\texttt{4e5ead96} & 08 Nov 18:59 & 238 & 975,091 & 37 \\
+\texttt{0290c5d7} & 09 Nov 19:43 & 254 & 975,215 & 47 \\
+\texttt{aa8a1def} & 12 Nov 17:30 & 372 & 975,582 & 92 \\
+\texttt{9298a345} & 13 Nov 17:06 & 396 & 975,705 & 157 \\
+\texttt{0c63fc5e} & 14 Nov 15:43 & 416 & 975,819 & 74 \\
+\texttt{05513dea} & 15 Nov 16:13 & 416 & 975,985 & 10 \\
+\bottomrule
+\end{tabular}
+\caption{The twelve timestamp proofs in the repository, all verified on 16 November 2026. Delay is the time from the manifest's creation to the header time of the attesting block. The first manifest was stamped almost five days after its creation. Two manifests of 8 November share a block.}
+\label{tab:timestamps}
+\end{table}
+
+For the eleven manifests stamped in the run that created them, the attesting block's header time followed the manifest's creation by a median of 66 minutes (minimum 10, maximum 157). Block header times are themselves only accurate to within about two hours, so these figures describe the order of magnitude: a collection is anchored within one to three hours. Between collection and the next day's upgrade step, the published proof is pending and its verification depends on the calendar servers being reachable.
+
+\subsection{Recomputing published numbers without the project's code}
+\label{sec:eval-recompute}
+
+The strongest check of a number is to compute it again by other means. We wrote a script of about 50 lines in plain Python, sharing no code with the project (whose aggregation is written in Rust on a dataframe library). The script downloads the Chamber's yearly files of individual votes and leadership orientations, applies Equation~\ref{eq:alignment}, and compares the result with the site's API row by row. We ran it for four years chosen to span the series (2011, 2019, 2023 and 2026) and all four leaderships.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Year & Vote records & Party rows compared & Rows that differ & Source files & Digests equal \\
+\midrule
+2011 & 33,235  & 48  & 0 & 2 & 2 \\
+2019 & 120,998 & 138 & 0 & 2 & 2 \\
+2023 & 128,679 & 89  & 0 & 2 & 2 \\
+2026 & 53,177  & 88  & 0 & 2 & 2 \\
+\midrule
+Total & 336,089 & 363 & 0 & 8 & 8 \\
+\bottomrule
+\end{tabular}
+\caption{Independent recomputation of the alignment metric from the Chamber's files. A party row is one (party, leadership) pair with its two counts. In 2011 the files contain no Sim or N\~ao orientation for two of the four leaderships, and the site likewise publishes no rows for them.}
+\label{tab:recompute}
+\end{table}
+
+All 363 published rows matched exactly, in both the numerator and the denominator (Table~\ref{tab:recompute}). For the Government leadership in 2019, for example, both computations give 95,133 registered votes of which 72,537 coincide with the orientation.
+
+The script also hashed the eight files it downloaded and compared them with the digests the project publishes for the same year. All eight were equal, including six that the project had recorded eleven days earlier. A reader can therefore confirm, today, that the metrics were computed from the same bytes the Chamber is still serving.
+
+The digests proved useful in an unplanned way. On our first attempt, several downloads from the Chamber's server were cut short, and the digest comparison was the first check to flag a truncated file.
+
+\subsection{The source changes}
+\label{sec:eval-drift}
+
+The lake's logs from its successful daily runs between 8 and 16 November show how the current year's files move. In one run the four files were byte-identical to the previous batch and nothing was written. In three runs new records arrived (in the largest, 602 votings and 492 voting--proposition links). In two runs records that already existed were rewritten in place: one voting on 8 November and five voting--proposition links on 16 November. No record was removed.
+
+Six silent rewrites in nine days is a small number, and each is probably a routine correction. The point is that they happen without notice, in files whose names do not change. A republisher that overwrites its copy cannot say what a record looked like last week; the versioned tables can.
+
+\subsection{Operation and cost}
+\label{sec:eval-ops}
+
+Failures were closed. On the two days when the collection step failed, no manifest was written and the previous collection stayed in place; a transparency tool that publishes a partial collection as though it were complete would be worse than one that publishes nothing that day. Scheduled runs set for 09:00 UTC started six to eleven hours late: the CI platform does not guarantee start times for scheduled workflows, and a project that depends on free CI inherits that. A collection run took a median of 2.6 minutes, and a lake run about two minutes.
+
+The complete history from 2003 to 2026, as 96 source files totalling 1.52\,GB of JSON, occupies 244\,MB in object storage, 2.4\% of the free allowance. Every other monthly allowance was at or below 0.3\%. The system has cost nothing to run.
+
+On reach, the home page's HTML weighs 12.1\,kB compressed, and the transparency page (23.0\,kB) contains no script element. The build fails if a page exceeds its byte budget. These are transfer sizes computed from the build, not measurements on real phones.
+
+\subsection{Face validity of the alignment metric}
+\label{sec:eval-face}
+
+The lake covers 177,319 votings from 2003 to 2026, of which 26,331 took place on the floor and 6,051 have individual vote records in the official files. Over the whole period, 1,496,140 registered votes were cast in votings where the Government leadership oriented Sim or N\~ao, and 73.6\% of them coincided with the orientation. For the Opposition leadership, which appears in the files from 2018, the figure is 53.1\% of 721,115.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}
+\begin{axis}[
+  width=0.96\textwidth, height=6.2cm,
+  xmin=2002.5, xmax=2026.5, ymin=0, ymax=100,
+  xtick={2003,2005,...,2025},
+  x tick label style={/pgf/number format/1000 sep=, font=\footnotesize},
+  y tick label style={font=\footnotesize},
+  ylabel={\footnotesize Votes coinciding with the Government orientation (\%)},
+  ylabel style={align=center, text width=5.5cm},
+  ymajorgrids, grid style={black!10},
+  legend style={font=\footnotesize, at={(0.5,1.03)}, anchor=south, legend columns=4, draw=none, /tikz/every even column/.append style={column sep=3mm}},
+  unbounded coords=jump,
+  every axis plot/.append style={thick, mark size=1.3pt},
+]
+\draw[black!35, dashed] (axis cs:2015.5,0) -- (axis cs:2015.5,100);
+\draw[black!35, dashed] (axis cs:2018.5,0) -- (axis cs:2018.5,100);
+\draw[black!35, dashed] (axis cs:2022.5,0) -- (axis cs:2022.5,100);
+\node[font=\scriptsize, black!60, anchor=south] at (axis cs:2009,1) {PT presidents};
+\node[font=\scriptsize, black!60, anchor=south] at (axis cs:2017,44) {Temer};
+\node[font=\scriptsize, black!60, anchor=south] at (axis cs:2020.5,44) {Bolsonaro};
+\node[font=\scriptsize, black!60, anchor=south] at (axis cs:2024.5,1) {Lula};
+\addplot[black, mark=*] table[x=year, y=PT] {data/alignment.dat};
+\addplot[black!55, mark=square*, densely dashed] table[x=year, y=PSDB] {data/alignment.dat};
+\addplot[black!55, mark=triangle*, densely dotted] table[x=year, y=PSOL] {data/alignment.dat};
+\addplot[black!30, line width=2.2pt, mark=none] table[x=year, y=all] {data/alignment.dat};
+\legend{PT, PSDB, PSOL, All parties}
+\end{axis}
+\end{tikzpicture}
+\caption{Share of each party's registered votes that coincide with the Government leadership's orientation, by year, as published by the site (Equation~\ref{eq:alignment}). Parties are the labels registered on each vote. Dashed lines separate presidencies; 2016 mixes the last months of Dilma Rousseff's government with the first of Michel Temer's.}
+\label{fig:alignment}
+\end{figure}
+
+Figure~\ref{fig:alignment} plots the metric for three parties whose labels are stable over the period. The series reproduces what any observer of Brazilian politics knows, which is the purpose of a face-validity check. The PT coincides with the Government orientation in 87\% to 99\% of its votes while it holds the presidency (2003 to 2015 and 2023 to 2026), and in 11\% to 27\% under Temer and Bolsonaro (2017 to 2022). The PSDB moves the other way: between 14.5\% and 61\% under PT presidents until 2015, and between 79\% and 95\% from 2016 to 2022. The PSOL, a smaller left-wing party, ranges from 26\% to 67\% before 2016, falls to between 5\% and 20\% from 2017 to 2022, and reaches 78\% to 91\% under the current government.
+
+The aggregate line carries a second known fact. Across all parties, coincidence with the Government never falls below 64.8\% in any year, the pattern of large, heterogeneous governing coalitions that the literature calls coalition presidentialism~\citep{abranches1988presidencialismo,limongi1998bases}. Its two lowest points are 2015 (64.8\%), the year before Rousseff was removed from office, and 2025 (66.9\%).
+
+We do not claim these observations as findings; the metric's simplicity limits what it can support. Roll calls are also a selected sample: only 6,051 of the 177,319 votings have individual vote records, and recorded votes are known to differ systematically from unrecorded ones, which can bias any analysis built on them~\citep{carrubba2006off,hug2010selection}. We claim only that numbers a citizen can recompute from official files tell a story that is consistent with the scholarly record.

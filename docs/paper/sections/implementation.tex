@@ -1,0 +1,36 @@
+\section{Implementation}
+\label{sec:impl}
+
+The system is small enough for one person to read in a few days, which is part of its security argument: the attestation names the code that ran, and that is useful only if someone can read it. Table~\ref{tab:software} lists its parts.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{5.0cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Part & Technology & Runs on \\
+\midrule
+Collector, pipeline, metrics publisher, edge function & TypeScript on Node.js, with the Effect library & CI runner; edge function on the CDN \\
+\addlinespace[3pt]
+Lake & Rust, Polars, Apache Iceberg & CI runner; tables in object storage \\
+\addlinespace[3pt]
+Site & Svelte~5 and SvelteKit, prerendered to static files & CDN \\
+\addlinespace[3pt]
+Tests & Node.js test runner; Rust unit tests & CI runner \\
+\bottomrule
+\end{tabularx}
+\caption{The parts of the software.}
+\label{tab:software}
+\end{table}
+
+\emph{Collector and pipeline.} The collector is written as typed effect programs. Every response from the Chamber is decoded against a schema before use, expected failures travel in a typed error channel, and network, clock and file system are injected dependencies, so the tests replace the network with fixtures and exercise timeouts, retries, malformed responses and duplicated votes without credentials or paid services. Data transformations are pure functions; input and output happen at the edges. Published files are always written through a temporary file and an atomic rename.
+
+\emph{Lake.} A single Rust binary downloads the yearly files, checks their field lists, builds typed tables with a dataframe library, computes the type-2 differences against the stored state and appends them as Iceberg snapshots. The same binary can write plain Parquet files to a local folder with no cloud account, so the whole lake can be rebuilt on a laptop from the Chamber's files.
+
+\emph{Site.} Pages are prerendered at build time and served as static files; there is no server-side rendering, database or session at request time. The site offers: recent bills with their official summaries and explanations in simple language; a page per bill with its votings; an explorer of individual votes filterable by theme, bill, deputy, party, state and position; a list and a profile page for each of the 513 sitting deputies, and the roster of every legislature since 1826; the yearly metrics since 2003; a transparency page that lists the artifacts and proofs of the current collection; and plain-text versions of its content for AI assistants. A build step enforces transfer budgets, for example at most 14\,KiB of compressed HTML and no JavaScript modules on the home page.
+
+\emph{Edge function.} The only code that runs per request serves \texttt{/api/metricas}. It validates parameters against closed lists, reads precomputed JSON from storage behind two layers of cache, at most twice per request, and holds no secret.
+
+\emph{Tests and release gate.} JavaScript and Rust tests cover the collection contract, the failure modes, the determinism of the scoring function under permutation of its input, the edge function's validation and caching, and the storage-allowance check. Deployment is a single script that refuses to run unless the working tree is clean and identical to the main branch on both remotes, then runs formatting, tests, type checks, a dependency audit, the build and the page-size budget check, writes a checksum of every published file, and deploys.
+
+\emph{Engineering rules.} The contribution guide forbids hand-edited output files, compatibility shims and unreviewed claims of human review, and requires that every source be official. These are social rules, not proofs, but they are the rules that the attested workflow enforces mechanically for the data path.

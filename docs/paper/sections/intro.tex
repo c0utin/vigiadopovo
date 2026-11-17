@@ -1,0 +1,30 @@
+\section{Introduction}
+\label{sec:intro}
+
+In June 2026, four months before a general election, two in three Brazilian voters could not remember whom they had chosen for the Chamber of Deputies four years earlier, and two in three could not name a single sitting deputy~\citep{folha2026votememory}. That October a presidential election was decided by fewer than four points, and the defeated candidate alleged fraud without presenting evidence~\citep{tse2026runoff,cnn2026letter}; four years earlier, an even closer result had been followed by an attack on the seats of all three branches of government~\citep{tse2022result,stf8jan}. Trust in news stood at a twelve-year low~\citep{carro2026brazil}, and fact-checkers were counting about twenty AI-made political items a day~\citep{lupa2026vigia}.
+
+These facts describe one problem from two sides. Citizens are far from the institution that writes their laws, and the channels that could bring them closer are not believed. The records exist: the Chamber publishes every recorded vote as open data. But raw records are not understanding, and whoever turns one into the other, a newspaper, a ranking or a message forwarded in a family group, asks to be trusted at a moment when trust is the scarce resource.
+
+\emph{Vigia do Povo} (``the people's watch'') is an independent, open-source site built to address both sides. Its first aim is to shorten the distance: to tell a citizen, in simple language and with the context needed to read it, what the Chamber voted and how each deputy voted. Its second aim is that the reader should not have to trust the site to believe it. Every published file and number comes with the means to check it:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt]
+\item every collected file is named by its SHA-256 digest, and one manifest digest commits to a whole day's collection;
+\item the collector is open source and runs on a machine hosted by GitHub, not by the maintainer; a signed attestation, recorded in a public transparency log, binds each collection to the source code, commit and automated run that produced it, so that a file edited by hand is detectable;
+\item a timestamp anchored in the Bitcoin blockchain shows that the collection existed by a given time, and remains checkable if the project and every service it uses disappear;
+\item an append-only store keeps every version of the official yearly files it has seen, so that later changes to the official record are visible;
+\item every metric is a public formula over the official files, which a reader can recompute with unrelated tools.
+\end{itemize}
+
+The guarantees are not uniform, and we keep them apart throughout. The daily collection carries the full chain of signed provenance and timestamp. The historical metrics since 2003 are computed from the Chamber's yearly files and are checkable by recomputation, not by signature. And because the Chamber does not sign what it publishes, no proof reaches back to what the Chamber itself said.
+
+None of these techniques is new. They come from software supply-chain security, trusted timestamping and data engineering. What we contribute is their combination for a setting that we believe is common and underserved: an outsider with no authority republishing a government's unsigned open data for a public that has reason to be sceptical. Specifically, we contribute:
+
+\begin{enumerate}[leftmargin=1.6em,itemsep=2pt]
+\item \textbf{a design} for verifiable republication of legislative data that runs entirely on free public infrastructure, with no ledger, token or signing key of its own, together with the reasons for not using an on-chain verifier;
+\item \textbf{a trust analysis} that separates what is proven from what is not, including freshness, hidden inputs and long-term preservation;
+\item \textbf{machine-checked proofs} in Lean of the properties the design relies on: that the manifest commits to its artifacts unless SHA-256 has a collision, that a proposed hash chain over the lake's batches would commit to them unless SHA-256 has a collision or a preimage of a fixed starting value, that a timestamp path cannot be moved to another document, and that the published metric is well defined;
+\item \textbf{an evaluation of the deployed system}, in which the attestations of the current collection, all 254 of its file digests and twelve timestamps verified, a tampered file was rejected, and an independent recomputation of 363 published rows of the metric from 336,089 official vote records found no difference;
+\item \textbf{an assessment of social impact} grounded in the experimental literature, which finds that information alone rarely changes votes, and an account of the risks the system itself creates.
+\end{enumerate}
+
+We first describe the Brazilian setting and the work this builds on. We then define the trust gap and present the design and the software, analyse its security, and evaluate the deployed system. We close with its expected social impact, its limitations, and a planned extension to the messaging channels where most Brazilians meet political information.

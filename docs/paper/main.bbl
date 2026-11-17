@@ -1,0 +1,1259 @@
+\begin{thebibliography}{162}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{abgeordnetenwatch.de}()]{abgeordnetenwatch_about}
+{abgeordnetenwatch.de}.
+\newblock {About abgeordnetenwatch in {English}}.
+\newblock URL
+  \url{https://www.abgeordnetenwatch.de/ueber-uns/mehr/international}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Abranches(1988)]{abranches1988presidencialismo}
+S.~H. H.~d. Abranches.
+\newblock {Presidencialismo de coaliz{\~a}o: o dilema institucional
+  brasileiro}.
+\newblock \emph{Dados -- Revista de Ci{\^e}ncias Sociais}, 31\penalty0
+  (1):\penalty0 5--34, 1988.
+\newblock URL \url{https://dados.iesp.uerj.br/artigos/?id=348}.
+
+\bibitem[Adams et~al.(2001)Adams, Cain, Pinkas, and Zuccherato]{rfc3161}
+C.~Adams, P.~Cain, D.~Pinkas, and R.~Zuccherato.
+\newblock {Internet {X.509} Public Key Infrastructure Time-Stamp Protocol
+  ({TSP})}.
+\newblock RFC 3161, Internet Engineering Task Force, Aug. 2001.
+
+\bibitem[{Ag{\^e}ncia Lupa}(2026)]{lupa2026vigia}
+{Ag{\^e}ncia Lupa}.
+\newblock {{IA} nas elei{\c{c}}{\~o}es: mais de 2,5 mil casos suspeitos, com
+  {M}eta na lideran{\c{c}}a. {P}rojeto {VigIA}, Relat{\'o}rio Parcial \#3}.
+\newblock Technical report, Observat{\'o}rio Lupa, Oct. 2026.
+\newblock URL
+  \url{https://uploads.agencialupa.org/2026/10/VigIA-Relatorio-3o-parcial.pdf}.
+
+\bibitem[{Agência Senado}(2026)]{senado2026budget}
+{Agência Senado}.
+\newblock {Orçamento 2026 é sancionado com previsão de superávit de R\$
+  34,2 bi}, Jan. 2026.
+\newblock URL
+  \url{https://www12.senado.leg.br/noticias/materias/2026/01/15/orcamento-2026-e-sancionado-com-previsao-de-superavit-de-rs-34-2-bi}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Ames(2001)]{ames2001deadlock}
+B.~Ames.
+\newblock \emph{{The Deadlock of Democracy in {Brazil}}}.
+\newblock University of Michigan Press, Ann Arbor, 2001.
+\newblock \doi{10.3998/mpub.23045}.
+
+\bibitem[{Apache Software Foundation}()]{iceberg-spec}
+{Apache Software Foundation}.
+\newblock {Iceberg Table Spec}.
+\newblock URL \url{https://iceberg.apache.org/spec/}.
+\newblock Format versions 1--3 adopted. Accessed 16 November 2026.
+
+\bibitem[Aranha et~al.(2019)Aranha, Barbosa, Cardoso, Ara{\'u}jo, and
+  Matias]{aranha2019return}
+D.~F. Aranha, P.~Y.~S. Barbosa, T.~N.~C. Cardoso, C.~L. Ara{\'u}jo, and
+  P.~Matias.
+\newblock {The Return of Software Vulnerabilities in the {Brazilian} Voting
+  Machine}.
+\newblock \emph{Computers \& Security}, 86:\penalty0 335--349, 2019.
+\newblock \doi{10.1016/j.cose.2019.06.009}.
+
+\bibitem[Armbrust et~al.(2021)Armbrust, Ghodsi, Xin, and
+  Zaharia]{armbrust2021lakehouse}
+M.~Armbrust, A.~Ghodsi, R.~Xin, and M.~Zaharia.
+\newblock {Lakehouse: A New Generation of Open Platforms that Unify Data
+  Warehousing and Advanced Analytics}.
+\newblock In \emph{Conference on Innovative Data Systems Research (CIDR 2021)},
+  2021.
+\newblock URL
+  \url{https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf}.
+
+\bibitem[Arruzzoli et~al.(2026)Arruzzoli, Zichichi, Palmirani, Papalia,
+  Bomprezzi, and Ferretti]{arruzzoli2026multichain}
+A.~Arruzzoli, M.~Zichichi, M.~Palmirani, L.~Papalia, C.~Bomprezzi, and
+  S.~Ferretti.
+\newblock {A Multi-Chain Approach to Transparent and Accountable Legislative
+  Processes}.
+\newblock In \emph{Proceedings of the 59th Hawaii International Conference on
+  System Sciences}, 2026.
+\newblock \doi{10.24251/hicss.2026.267}.
+
+\bibitem[{Ação Educativa}(2025)]{inaf2024}
+{Ação Educativa}.
+\newblock {Analfabetismo funcional não apresenta melhora e alcança 29\% dos
+  brasileiros, mesmo patamar de 2018, aponta novo levantamento do Inaf}, May
+  2025.
+\newblock URL
+  \url{https://acaoeducativa.org.br/analfabetismo-funcional-nao-apresenta-melhora-e-alcanca-29-dos-brasileiros-mesmo-patamar-de-2018-aponta-novo-levantamento-do-inaf}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Backman et~al.(2024)Backman, Richer, and Sporny]{rfc9421}
+A.~Backman, J.~Richer, and M.~Sporny.
+\newblock {{HTTP} Message Signatures}.
+\newblock RFC 9421, Internet Engineering Task Force, Feb. 2024.
+
+\bibitem[Batista~Pereira et~al.(2022)Batista~Pereira, Bueno, Nunes, and
+  Pav{\~a}o]{batistapereira2022fake}
+F.~Batista~Pereira, N.~S. Bueno, F.~Nunes, and N.~Pav{\~a}o.
+\newblock {Fake News, Fact Checking, and Partisanship: The Resilience of Rumors
+  in the 2018 {B}razilian Elections}.
+\newblock \emph{The Journal of Politics}, 84\penalty0 (4):\penalty0 2188--2201,
+  2022.
+\newblock \doi{10.1086/719419}.
+
+\bibitem[Benaloh et~al.(2015)Benaloh, Rivest, Ryan, Stark, Teague, and
+  Vora]{benaloh2015e2e}
+J.~Benaloh, R.~Rivest, P.~Y.~A. Ryan, P.~Stark, V.~Teague, and P.~Vora.
+\newblock {End-to-end verifiability}.
+\newblock arXiv:1504.03778, 2015.
+\newblock URL \url{https://doi.org/10.48550/arXiv.1504.03778}.
+
+\bibitem[Benet(2014)]{benet2014ipfs}
+J.~Benet.
+\newblock {{IPFS} - Content Addressed, Versioned, {P2P} File System}.
+\newblock arXiv:1407.3561, 2014.
+\newblock URL \url{https://doi.org/10.48550/arXiv.1407.3561}.
+
+\bibitem[Beris and Koubarakis(2018)]{beris2018modeling}
+T.~Beris and M.~Koubarakis.
+\newblock {Modeling and Preserving {Greek} Government Decisions Using Semantic
+  Web Technologies and Permissionless Blockchains}.
+\newblock In \emph{The Semantic Web (ESWC 2018)}, volume 10843 of \emph{Lecture
+  Notes in Computer Science}, pages 81--96, Cham, 2018. Springer.
+\newblock \doi{10.1007/978-3-319-93417-4_6}.
+
+\bibitem[Birkholz et~al.(2026)Birkholz, Delignat-Lavaud, Fournet, Deshpande,
+  and Lasker]{rfc9943}
+H.~Birkholz, A.~Delignat-Lavaud, C.~Fournet, Y.~Deshpande, and S.~Lasker.
+\newblock {An Architecture for Trustworthy and Transparent Digital Supply
+  Chains}.
+\newblock RFC 9943, Internet Engineering Task Force, June 2026.
+\newblock URL \url{https://www.rfc-editor.org/rfc/rfc9943}.
+
+\bibitem[{Bitcoin Project}()]{bitcoin-devref-blockchain}
+{Bitcoin Project}.
+\newblock {Bitcoin Developer Reference: Block Chain (Block Headers)}.
+\newblock URL \url{https://developer.bitcoin.org/reference/block_chain.html}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Boas et~al.(2019)Boas, Hidalgo, and Melo]{boas2019norms}
+T.~C. Boas, F.~D. Hidalgo, and M.~A. Melo.
+\newblock {Norms versus Action: Why Voters Fail to Sanction Malfeasance in
+  {Brazil}}.
+\newblock \emph{American Journal of Political Science}, 63\penalty0
+  (2):\penalty0 385--400, 2019.
+\newblock \doi{10.1111/ajps.12413}.
+
+\bibitem[{Brasil}(2001)]{mp2200-2}
+{Brasil}.
+\newblock {Medida Provis{\'o}ria n{\textordmasculine} 2.200-2, de 24 de agosto
+  de 2001. {Institui} a {Infra-Estrutura de Chaves P{\'u}blicas Brasileira -
+  ICP-Brasil}, transforma o {Instituto Nacional de Tecnologia da
+  Informa{\c{c}}{\~a}o} em autarquia, e d{\'a} outras provid{\^e}ncias}, 2001.
+\newblock URL
+  \url{https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm}.
+\newblock Di{\'a}rio Oficial da Uni{\~a}o, 27 August 2001.
+
+\bibitem[{Brasil}(2011)]{brasil2011lai}
+{Brasil}.
+\newblock {Lei n{\textordmasculine} 12.527, de 18 de novembro de 2011 ({Lei de
+  Acesso {\`a} Informa{\c{c}}{\~a}o})}, 2011.
+\newblock URL
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Brasil}(2018)]{brasil2018lgpd}
+{Brasil}.
+\newblock {Lei n{\textordmasculine} 13.709, de 14 de agosto de 2018 ({Lei Geral
+  de Prote{\c{c}}{\~a}o de Dados Pessoais})}, 2018.
+\newblock URL
+  \url{https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Brasil}(2025)]{brasil2025lei15263}
+{Brasil}.
+\newblock {Lei nº 15.263, de 14 de novembro de 2025. Institui a Política
+  Nacional de Linguagem Simples}.
+\newblock Diário Oficial da União, 17 Nov. 2025, edição 219, seção 1, p.
+  1, 2025.
+\newblock URL
+  \url{https://www.in.gov.br/en/web/dou/-/lei-n-15.263-de-14-de-novembro-de-2025-669256398}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Brasil. C{\^a}mara dos Deputados}(2020)]{brasil2020pl2630}
+{Brasil. C{\^a}mara dos Deputados}.
+\newblock {Projeto de {L}ei n{\textordmasculine} 2630, de 2020. {I}nstitui a
+  {L}ei {B}rasileira de {L}iberdade, {R}esponsabilidade e {T}ranspar{\^e}ncia
+  na {I}nternet}, 2020.
+\newblock URL
+  \url{https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2256735}.
+\newblock Status on 16 November 2026: ``Pronta para Pauta no Plen{\'a}rio'';
+  not voted.
+
+\bibitem[{Brasil. Tribunal Superior Eleitoral}(2024)]{tse2024res23732}
+{Brasil. Tribunal Superior Eleitoral}.
+\newblock {Resolu{\c{c}}{\~a}o n{\textordmasculine} 23.732, de 27 de fevereiro
+  de 2024. {A}ltera a {R}es.-{TSE} n{\textordmasculine} 23.610, de 18 de
+  dezembro de 2019, dispondo sobre a propaganda eleitoral}, 2024.
+\newblock URL
+  \url{https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024}.
+\newblock DJE-TSE n. 29, 4 March 2024, pp. 132--145.
+
+\bibitem[{Brasil. Tribunal Superior Eleitoral}(2026)]{tse2026res23755}
+{Brasil. Tribunal Superior Eleitoral}.
+\newblock {Resolu{\c{c}}{\~a}o n{\textordmasculine} 23.755, de 2 de mar{\c{c}}o
+  de 2026. {A}ltera a {R}esolu{\c{c}}{\~a}o n{\textordmasculine} 23.610/{TSE},
+  de 18 de dezembro de 2019, que disp{\~o}e sobre propaganda eleitoral}, 2026.
+\newblock URL
+  \url{https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026}.
+
+\bibitem[Brassard et~al.(1998)Brassard, H{\o}yer, and
+  Tapp]{brassard1998quantum}
+G.~Brassard, P.~H{\o}yer, and A.~Tapp.
+\newblock {Quantum Cryptanalysis of Hash and Claw-Free Functions}.
+\newblock In C.~L. Lucchesi and A.~V. Moura, editors, \emph{{LATIN}'98:
+  Theoretical Informatics}, Lecture Notes in Computer Science, pages 163--169.
+  Springer, 1998.
+\newblock \doi{10.1007/BFb0054319}.
+
+\bibitem[Buldas et~al.(2013)Buldas, Kroonmaa, and Laanoja]{buldas2013ksi}
+A.~Buldas, A.~Kroonmaa, and R.~Laanoja.
+\newblock {Keyless Signatures' Infrastructure: How to Build Global Distributed
+  Hash-Trees}.
+\newblock In H.~Riis~Nielson and D.~Gollmann, editors, \emph{Secure IT Systems
+  (NordSec 2013)}, Lecture Notes in Computer Science, pages 313--320. Springer,
+  2013.
+\newblock \doi{10.1007/978-3-642-41488-6_21}.
+
+\bibitem[Buterin and Swende(2020)]{eip2929}
+V.~Buterin and M.~Swende.
+\newblock {EIP-2929}: Gas cost increases for state access opcodes.
+\newblock Ethereum Improvement Proposals, no. 2929, Sept. 2020.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-2929}.
+
+\bibitem[{C{\^a}mara dos Deputados}()]{camara_dadosabertos}
+{C{\^a}mara dos Deputados}.
+\newblock {Dados Abertos da C{\^a}mara dos Deputados}.
+\newblock URL \url{https://dadosabertos.camara.leg.br/}.
+\newblock RESTful API version 2:
+  \url{https://dadosabertos.camara.leg.br/api/v2/}.
+
+\bibitem[Campbell(1979)]{campbell1979assessing}
+D.~T. Campbell.
+\newblock {Assessing the impact of planned social change}.
+\newblock \emph{Evaluation and Program Planning}, 2\penalty0 (1):\penalty0
+  67--90, 1979.
+\newblock \doi{10.1016/0149-7189(79)90048-X}.
+
+\bibitem[Campos~Mello(2018)]{camposmello2018empresarios}
+P.~Campos~Mello.
+\newblock {Empres{\'a}rios bancam campanha contra o {PT} pelo {W}hats{A}pp}.
+\newblock Folha de S.Paulo, Oct. 2018.
+\newblock URL
+  \url{https://www1.folha.uol.com.br/poder/2018/10/empresarios-bancam-campanha-contra-o-pt-pelo-whatsapp.shtml}.
+
+\bibitem[Carro(2026)]{carro2026brazil}
+R.~Carro.
+\newblock {Brazil}.
+\newblock In \emph{Reuters Institute Digital News Report 2026}, pages 126--127.
+  Reuters Institute for the Study of Journalism, University of Oxford, Oxford,
+  2026.
+\newblock URL
+  \url{https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/brazil}.
+
+\bibitem[Carrubba et~al.(2006)Carrubba, Gabel, Murrah, Clough, Montgomery, and
+  Schambach]{carrubba2006off}
+C.~J. Carrubba, M.~Gabel, L.~Murrah, R.~Clough, E.~Montgomery, and
+  R.~Schambach.
+\newblock Off the record: Unrecorded legislative votes, selection bias and
+  roll-call vote analysis.
+\newblock \emph{British Journal of Political Science}, 36\penalty0
+  (4):\penalty0 691--704, 2006.
+\newblock \doi{10.1017/S0007123406000366}.
+
+\bibitem[Cerdeira et~al.(2018)Cerdeira, Vasconcellos, Sganzerla, Cunha,
+  Carabetta, Salles, and Scovino]{cerdeira2018congresso}
+P.~Cerdeira, F.~Vasconcellos, R.~Sganzerla, B.~Cunha, J.~Carabetta, A.~Salles,
+  and F.~Scovino, editors.
+\newblock \emph{{Congresso em N{\'u}meros: a produ{\c{c}}{\~a}o legislativa do
+  {Brasil} de 1988 a 2017}}.
+\newblock Escola de Direito do Rio de Janeiro da Funda{\c{c}}{\~a}o Getulio
+  Vargas, Rio de Janeiro, 2018.
+\newblock ISBN 9788595970175.
+\newblock URL
+  \url{https://repositorio.fgv.br/server/api/core/bitstreams/721c4b7c-01a6-4b69-997a-897afbf1b7ff/content}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Chen et~al.(2016)Chen, Jordan, Liu, Moody, Peralta, Perlner, and
+  Smith-Tone]{nistir8105}
+L.~Chen, S.~Jordan, Y.-K. Liu, D.~Moody, R.~Peralta, R.~Perlner, and
+  D.~Smith-Tone.
+\newblock {Report on Post-Quantum Cryptography}.
+\newblock NIST Internal Report NISTIR 8105, National Institute of Standards and
+  Technology, Apr. 2016.
+
+\bibitem[Chong et~al.(2015)Chong, De~La~O, Karlan, and
+  Wantchekon]{chong2015corruption}
+A.~Chong, A.~L. De~La~O, D.~Karlan, and L.~Wantchekon.
+\newblock {Does Corruption Information Inspire the Fight or Quash the Hope? A
+  Field Experiment in {Mexico} on Voter Turnout, Choice, and Party
+  Identification}.
+\newblock \emph{The Journal of Politics}, 77\penalty0 (1):\penalty0 55--71,
+  2015.
+\newblock \doi{10.1086/678766}.
+
+\bibitem[{Civic Impulse, LLC}()]{govtrack_about}
+{Civic Impulse, LLC}.
+\newblock {About {GovTrack.us}}.
+\newblock URL \url{https://www.govtrack.us/about}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Clinton et~al.(2004)Clinton, Jackman, and
+  Rivers]{clinton2004statistical}
+J.~Clinton, S.~Jackman, and D.~Rivers.
+\newblock {The Statistical Analysis of Roll Call Data}.
+\newblock \emph{American Political Science Review}, 98\penalty0 (2):\penalty0
+  355--370, 2004.
+\newblock \doi{10.1017/S0003055404001194}.
+
+\bibitem[{Cloudflare}()]{cloudflare-bucketlocks}
+{Cloudflare}.
+\newblock {Bucket locks}.
+\newblock URL \url{https://developers.cloudflare.com/r2/buckets/bucket-locks/}.
+\newblock Cloudflare R2 documentation, last updated 28 October 2026. Accessed
+  16 November 2026.
+
+\bibitem[{CNN Brasil}(2026)]{cnn2026seats}
+{CNN Brasil}.
+\newblock {Novo Congresso: como fica o tamanho das bancadas partidárias}, Oct.
+  2026.
+\newblock URL
+  \url{https://www.cnnbrasil.com.br/eleicoes/eleicoes-como-fica-o-tamanho-das-bancadas-partidarias-do-congresso/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Coalition for Content Provenance and Authenticity}(2026)]{c2pa25}
+{Coalition for Content Provenance and Authenticity}.
+\newblock {Content Credentials: {C2PA} Technical Specification, Version 2.5},
+  Oct. 2026.
+\newblock URL
+  \url{https://spec.c2pa.org/specifications/specifications/2.5/specs/C2PA_Specification.html}.
+
+\bibitem[Collomosse et~al.(2018)Collomosse, Bui, Brown, Sheridan, Green, Bell,
+  Fawcett, Higgins, and Thereaux]{collomosse2018archangel}
+J.~Collomosse, T.~Bui, A.~Brown, J.~Sheridan, A.~Green, M.~Bell, J.~Fawcett,
+  J.~Higgins, and O.~Thereaux.
+\newblock {{ARCHANGEL}: Trusted Archives of Digital Public Documents}.
+\newblock In \emph{Proceedings of the ACM Symposium on Document Engineering
+  2018 (DocEng '18)}, pages 1--4. ACM, 2018.
+\newblock \doi{10.1145/3209280.3229120}.
+
+\bibitem[{Congresso em Foco}()]{congressoemfoco_radar}
+{Congresso em Foco}.
+\newblock {Radar do Congresso}.
+\newblock URL \url{https://radar.congressoemfoco.com.br/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Corporación Latinobarómetro}(2026)]{latinobarometro2026}
+{Corporación Latinobarómetro}.
+\newblock {Informe 2026: ¿La crisis de la democracia liberal?}
+\newblock Technical report, Corporación Latinobarómetro, Santiago de Chile,
+  2026.
+\newblock URL
+  \url{https://www.latinobarometro.org/documents/informe-latinobarometro-2026.pdf}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Coutinho and Freitas(2021)]{coutinho2021public}
+E.~D. Coutinho and A.~S.~d. Freitas.
+\newblock {Public value through technologies developed with open government
+  data: The {Love Serenade Operation} case}.
+\newblock \emph{RAM. Revista de Administra{\c{c}}{\~a}o Mackenzie}, 22\penalty0
+  (6):\penalty0 eRAMD210079, 2021.
+\newblock \doi{10.1590/1678-6971/eRAMD210079}.
+
+\bibitem[Crosby and Wallach(2009)]{crosby2009tamper}
+S.~A. Crosby and D.~S. Wallach.
+\newblock {Efficient Data Structures for Tamper-Evident Logging}.
+\newblock In \emph{18th USENIX Security Symposium (USENIX Security 09)},
+  Montreal, Canada, Aug. 2009. USENIX Association.
+\newblock URL
+  \url{https://www.usenix.org/conference/usenixsecurity09/technical-sessions/presentation/efficient-data-structures-tamper-evident}.
+
+\bibitem[Dahl et~al.(2024)Dahl, Magesh, Suzgun, and Ho]{dahl2024large}
+M.~Dahl, V.~Magesh, M.~Suzgun, and D.~E. Ho.
+\newblock {Large Legal Fictions: Profiling Legal Hallucinations in Large
+  Language Models}.
+\newblock \emph{Journal of Legal Analysis}, 16\penalty0 (1):\penalty0 64--93,
+  2024.
+\newblock \doi{10.1093/jla/laae003}.
+
+\bibitem[Dang(2012)]{sp800-107r1}
+Q.~Dang.
+\newblock {Recommendation for Applications Using Approved Hash Algorithms}.
+\newblock NIST Special Publication 800-107 Revision 1, National Institute of
+  Standards and Technology, Aug. 2012.
+
+\bibitem[{Datafolha}(2026{\natexlab{a}})]{datafolha2026interest}
+{Datafolha}.
+\newblock {74\% dos eleitores têm interesse por política}, Aug.
+  2026{\natexlab{a}}.
+\newblock URL
+  \url{https://datafolha.folha.uol.com.br/eleicoes/2026/08/74-dos-eleitores-tem-interesse-por-politica.shtml}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Datafolha}(2026{\natexlab{b}})]{datafolha2026trust}
+{Datafolha}.
+\newblock {Falta de confiança no STF supera Partidos e Congresso e é a mais
+  alta já registrada}, Sept. 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://datafolha.folha.uol.com.br/opiniao-e-sociedade/2026/09/falta-de-confianca-no-stf-supera-partidos-e-congresso-e-e-a-mais-alta-ja-registrada.shtml}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[de~Moura and Ullrich(2021)]{moura2021lean4}
+L.~de~Moura and S.~Ullrich.
+\newblock The {Lean} 4 theorem prover and programming language.
+\newblock In \emph{Automated Deduction -- CADE 28}, volume 12699 of
+  \emph{Lecture Notes in Computer Science}, pages 625--635. Springer, 2021.
+\newblock \doi{10.1007/978-3-030-79876-5_37}.
+
+\bibitem[Di~Cosmo and Zacchiroli(2017)]{dicosmo2017software}
+R.~Di~Cosmo and S.~Zacchiroli.
+\newblock Software heritage: Why and how to preserve software source code.
+\newblock In \emph{iPRES 2017: 14th International Conference on Digital
+  Preservation}, Kyoto, Japan, Sept. 2017.
+\newblock URL \url{https://hal.science/hal-01590958}.
+
+\bibitem[Dunning et~al.(2019)Dunning, Grossman, Humphreys, Hyde, McIntosh,
+  Nellis, Adida, Arias, Bicalho, Boas, Buntaine, Chauchard, Chowdhury,
+  Gottlieb, Hidalgo, Holmlund, Jablonski, Kramon, Larreguy, Lierl, Marshall,
+  McClendon, Melo, Nielson, Pickering, Platas, Querub{\'i}n, Raffler, and
+  Sircar]{dunning2019metaketa}
+T.~Dunning, G.~Grossman, M.~Humphreys, S.~D. Hyde, C.~McIntosh, G.~Nellis,
+  C.~L. Adida, E.~Arias, C.~Bicalho, T.~C. Boas, M.~T. Buntaine, S.~Chauchard,
+  A.~Chowdhury, J.~Gottlieb, F.~D. Hidalgo, M.~Holmlund, R.~Jablonski,
+  E.~Kramon, H.~Larreguy, M.~Lierl, J.~Marshall, G.~McClendon, M.~A. Melo,
+  D.~L. Nielson, P.~M. Pickering, M.~R. Platas, P.~Querub{\'i}n, P.~Raffler,
+  and N.~Sircar.
+\newblock {Voter information campaigns and political accountability: Cumulative
+  findings from a preregistered meta-analysis of coordinated trials}.
+\newblock \emph{Science Advances}, 5\penalty0 (7):\penalty0 eaaw2612, 2019.
+\newblock \doi{10.1126/sciadv.aaw2612}.
+
+\bibitem[{e-Estonia}()]{eestonia-ksi}
+{e-Estonia}.
+\newblock {{KSI} Blockchain}.
+\newblock URL
+  \url{https://e-estonia.com/solutions/cyber-security/ksi-blockchain/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Ferraz and Finan(2008)]{ferraz2008exposing}
+C.~Ferraz and F.~Finan.
+\newblock {Exposing Corrupt Politicians: The Effects of {Brazil}'s Publicly
+  Released Audits on Electoral Outcomes}.
+\newblock \emph{Quarterly Journal of Economics}, 123\penalty0 (2):\penalty0
+  703--745, 2008.
+\newblock \doi{10.1162/qjec.2008.123.2.703}.
+
+\bibitem[Figueiredo and Limongi(1999)]{figueiredo1999executivo}
+A.~C. Figueiredo and F.~Limongi.
+\newblock \emph{{Executivo e Legislativo na nova ordem constitucional}}.
+\newblock Editora FGV; FAPESP, Rio de Janeiro, 1999.
+\newblock ISBN 8522502919.
+
+\bibitem[Filho(2018)]{filho2018engodo}
+J.~Filho.
+\newblock {Aten{\c{c}}{\~a}o, eleitor: n{\~a}o caia no engodo chamado ``Ranking
+  dos Pol{\'i}ticos''}.
+\newblock The Intercept Brasil, Aug. 2018.
+\newblock URL
+  \url{https://www.intercept.com.br/2018/08/05/atencao-eleitor-nao-caia-no-engodo-chamado-ranking-dos-politicos}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Folha de S.Paulo}(2026{\natexlab{a}})]{folha2026fragmentation}
+{Folha de S.Paulo}.
+\newblock {Fragmentação partidária cai na Câmara, que concentra poder na
+  direita}, Oct. 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://www1.folha.uol.com.br/poder/2026/10/fragmentacao-partidaria-cai-na-camara-que-concentra-poder-na-direita.shtml}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Folha de S.Paulo}(2026{\natexlab{b}})]{folha2026votememory}
+{Folha de S.Paulo}.
+\newblock {Datafolha: maioria dos brasileiros diz não saber ou não lembrar o
+  nome de nenhum parlamentar}, June 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://www1.folha.uol.com.br/amp/poder/2026/06/datafolha-maioria-dos-brasileiros-diz-nao-saber-ou-nao-lembrar-o-nome-de-nenhum-parlamentar.shtml}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Fox(2007)]{fox2007uncertain}
+J.~Fox.
+\newblock {The uncertain relationship between transparency and accountability}.
+\newblock \emph{Development in Practice}, 17\penalty0 (4--5):\penalty0
+  663--671, 2007.
+\newblock \doi{10.1080/09614520701469955}.
+
+\bibitem[Fung et~al.(2007)Fung, Graham, and Weil]{fung2007full}
+A.~Fung, M.~Graham, and D.~Weil.
+\newblock \emph{{Full Disclosure: The Perils and Promise of Transparency}}.
+\newblock Cambridge University Press, Cambridge, 2007.
+\newblock ISBN 9780521876179.
+\newblock \doi{10.1017/9780521699617}.
+
+\bibitem[{G1}(2022)]{g12022margin}
+{G1}.
+\newblock {Lula vence o segundo turno e volta para o terceiro mandato de
+  presidente}, Oct. 2022.
+\newblock URL
+  \url{https://g1.globo.com/politica/eleicoes/2022/noticia/2022/10/30/lula-vence-o-segundo-turno-e-volta-para-o-terceiro-mandato-de-presidente.ghtml}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Gipp et~al.(2015)Gipp, Meuschke, and Gernandt]{gipp2015timestamping}
+B.~Gipp, N.~Meuschke, and A.~Gernandt.
+\newblock {Decentralized Trusted Timestamping using the Crypto Currency
+  {Bitcoin}}.
+\newblock In \emph{iConference 2015 Proceedings}. iSchools, Mar. 2015.
+\newblock URL \url{https://hdl.handle.net/2142/73770}.
+\newblock arXiv:1502.04015.
+
+\bibitem[{GitHub}({\natexlab{a}})]{gh-attestation-verify}
+{GitHub}.
+\newblock {gh attestation verify}, {\natexlab{a}}.
+\newblock URL \url{https://cli.github.com/manual/gh_attestation_verify}.
+\newblock GitHub CLI manual. Accessed 16 November 2026.
+
+\bibitem[{GitHub}({\natexlab{b}})]{github-attestations}
+{GitHub}.
+\newblock {Artifact Attestations}, {\natexlab{b}}.
+\newblock URL
+  \url{https://docs.github.com/en/actions/concepts/security/artifact-attestations}.
+\newblock GitHub Docs. Accessed 16 November 2026.
+
+\bibitem[{GitHub}({\natexlab{c}})]{github-hosted-runners}
+{GitHub}.
+\newblock {GitHub-hosted runners}, {\natexlab{c}}.
+\newblock URL
+  \url{https://docs.github.com/en/actions/concepts/runners/github-hosted-runners}.
+\newblock GitHub Docs. Accessed 16 November 2026.
+
+\bibitem[{GitHub}({\natexlab{d}})]{github-log-retention}
+{GitHub}.
+\newblock Configuring the retention period for checks, workflow runs, commit
+  statuses, artifacts, and logs in your organization, {\natexlab{d}}.
+\newblock URL
+  \url{https://docs.github.com/en/organizations/managing-organization-settings/configuring-the-retention-period-for-github-actions-artifacts-and-logs-in-your-organization}.
+\newblock GitHub Docs. Accessed 16 November 2026.
+
+\bibitem[{GitHub}({\natexlab{e}})]{github-runners-reference}
+{GitHub}.
+\newblock {GitHub-hosted runners reference}, {\natexlab{e}}.
+\newblock URL
+  \url{https://docs.github.com/en/actions/reference/runners/github-hosted-runners}.
+\newblock GitHub Docs. Accessed 16 November 2026.
+
+\bibitem[{GitHub}({\natexlab{f}})]{github-slsa3}
+{GitHub}.
+\newblock {Using Artifact Attestations and Reusable Workflows to Achieve {SLSA}
+  v1 {Build Level 3}}, {\natexlab{f}}.
+\newblock URL
+  \url{https://docs.github.com/en/actions/how-tos/secure-your-work/use-artifact-attestations/increase-security-rating}.
+\newblock GitHub Docs. Accessed 16 November 2026.
+
+\bibitem[Grimmelikhuijsen et~al.(2013)Grimmelikhuijsen, Porumbescu, Hong, and
+  Im]{grimmelikhuijsen2013effect}
+S.~Grimmelikhuijsen, G.~Porumbescu, B.~Hong, and T.~Im.
+\newblock {The Effect of Transparency on Trust in Government: A Cross-National
+  Comparative Experiment}.
+\newblock \emph{Public Administration Review}, 73\penalty0 (4):\penalty0
+  575--586, 2013.
+\newblock \doi{10.1111/puar.12047}.
+
+\bibitem[Grover(1996)]{grover1996search}
+L.~K. Grover.
+\newblock {A Fast Quantum Mechanical Algorithm for Database Search}.
+\newblock In \emph{Proceedings of the Twenty-Eighth Annual ACM Symposium on
+  Theory of Computing (STOC '96)}, pages 212--219. ACM, 1996.
+\newblock \doi{10.1145/237814.237866}.
+
+\bibitem[Haber and Stornetta(1991)]{haber1991timestamp}
+S.~Haber and W.~S. Stornetta.
+\newblock {How to Time-Stamp a Digital Document}.
+\newblock \emph{Journal of Cryptology}, 3\penalty0 (2):\penalty0 99--111, 1991.
+\newblock \doi{10.1007/BF00196791}.
+
+\bibitem[Hug(2010)]{hug2010selection}
+S.~Hug.
+\newblock Selection effects in roll call votes.
+\newblock \emph{British Journal of Political Science}, 40\penalty0
+  (1):\penalty0 225--235, 2010.
+\newblock \doi{10.1017/S0007123409990160}.
+
+\bibitem[Humphreys and Weinstein(2012)]{humphreys2012policing}
+M.~Humphreys and J.~M. Weinstein.
+\newblock {Policing Politicians: Citizen Empowerment and Political
+  Accountability in {Uganda} -- Preliminary Analysis}.
+\newblock Working Paper S-5021-UGA-1, International Growth Centre, London, Mar.
+  2012.
+\newblock URL
+  \url{https://www.theigc.org/sites/default/files/2012/03/Humphreys-Weinstein-2012-Working-Paper.pdf}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Ipsos-Ipec}(2026)]{ipsos2026ics}
+{Ipsos-Ipec}.
+\newblock {Brasileiros confiam mais nas pessoas próximas do que nas
+  instituições; o Índice de Confiança Social permanece em 55 pontos}, July
+  2026.
+\newblock URL
+  \url{https://www.ipsos.com/pt-br/brasileiros-confiam-mais-nas-pessoas-proximas-do-que-nas-instituicoes}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Kelsey and Schneier(2005)]{kelsey2005second}
+J.~Kelsey and B.~Schneier.
+\newblock {Second Preimages on $n$-Bit Hash Functions for Much Less than $2^n$
+  Work}.
+\newblock In R.~Cramer, editor, \emph{Advances in Cryptology -- {EUROCRYPT}
+  2005}, Lecture Notes in Computer Science, pages 474--490. Springer, 2005.
+\newblock \doi{10.1007/11426639_28}.
+
+\bibitem[Kimball and Ross(2013)]{kimball2013toolkit}
+R.~Kimball and M.~Ross.
+\newblock \emph{{The Data Warehouse Toolkit: The Definitive Guide to
+  Dimensional Modeling}}.
+\newblock Wiley, 3 edition, 2013.
+\newblock ISBN 978-1-118-53080-1.
+
+\bibitem[Korthagen and Dorst(2020)]{korthagen2020parliamentary}
+I.~Korthagen and H.~Dorst.
+\newblock {Parliamentary Monitoring}.
+\newblock In L.~Hennen, I.~van Keulen, I.~Korthagen, G.~Aichholzer, R.~Lindner,
+  and R.~{\O}. Nielsen, editors, \emph{European E-Democracy in Practice},
+  Studies in Digital Politics and Governance, pages 151--162. Springer, Cham,
+  2020.
+\newblock \doi{10.1007/978-3-030-27184-8_6}.
+
+\bibitem[Kreymer et~al.(2022)Kreymer, Cushman, and Summers]{wacz-signing}
+I.~Kreymer, J.~Cushman, and E.~Summers.
+\newblock {WACZ} signing and verification.
+\newblock Webrecorder specification, version 0.1.0, Jan. 2022.
+\newblock URL \url{https://specs.webrecorder.net/wacz-auth/0.1.0/}.
+
+\bibitem[Kuhn and Dumontier(2014)]{kuhn2014trusty}
+T.~Kuhn and M.~Dumontier.
+\newblock {Trusty {URIs}: Verifiable, Immutable, and Permanent Digital
+  Artifacts for Linked Data}.
+\newblock In \emph{The Semantic Web: Trends and Challenges (ESWC 2014)},
+  Lecture Notes in Computer Science, pages 395--410. Springer, 2014.
+\newblock \doi{10.1007/978-3-319-07443-6_27}.
+
+\bibitem[Lamb and Zacchiroli(2022)]{lamb2022reproducible}
+C.~Lamb and S.~Zacchiroli.
+\newblock {Reproducible Builds: Increasing the Integrity of Software Supply
+  Chains}.
+\newblock \emph{IEEE Software}, 39\penalty0 (2):\penalty0 62--70, 2022.
+\newblock \doi{10.1109/MS.2021.3073045}.
+
+\bibitem[Laurie(2014)]{laurie2014ct}
+B.~Laurie.
+\newblock {Certificate Transparency}.
+\newblock \emph{Communications of the ACM}, 57\penalty0 (10):\penalty0 40--46,
+  2014.
+\newblock \doi{10.1145/2659897}.
+
+\bibitem[Laurie et~al.(2013)Laurie, Langley, and Kasper]{rfc6962}
+B.~Laurie, A.~Langley, and E.~Kasper.
+\newblock {Certificate Transparency}.
+\newblock RFC 6962, Internet Engineering Task Force, June 2013.
+
+\bibitem[{Legisla Brasil}(2025)]{legislabrasil2025relatorio}
+{Legisla Brasil}.
+\newblock {Relat{\'o}rio de Impacto 2024}, 2025.
+\newblock URL
+  \url{https://legislabrasil.org/wp-content/uploads/2025/04/RELATORIO-IMPACTO-2024.pdf}.
+\newblock Describes the third edition of the {\'I}ndice Legisla Brasil,
+  \url{https://indice.legislabrasil.org/}.
+
+\bibitem[Leite and Trento(2016)]{leite2016analise}
+L.~Leite and S.~Trento.
+\newblock {An{\'a}lise de vota{\c{c}}{\~o}es nominais do legislativo brasileiro
+  utilizando componentes principais}.
+\newblock \emph{Leviathan (S{\~a}o Paulo)}, \penalty0 (12):\penalty0 120--163,
+  2016.
+\newblock \doi{10.11606/issn.2237-4485.lev.2016.143408}.
+
+\bibitem[Lemieux(2016)]{lemieux2016trusting}
+V.~L. Lemieux.
+\newblock {Trusting Records: Is Blockchain Technology the Answer?}
+\newblock \emph{Records Management Journal}, 26\penalty0 (2):\penalty0
+  110--139, 2016.
+\newblock \doi{10.1108/RMJ-12-2015-0042}.
+
+\bibitem[Lessig(2009)]{lessig2009against}
+L.~Lessig.
+\newblock {Against Transparency: The perils of openness in government}.
+\newblock The New Republic, Oct. 2009.
+\newblock URL \url{https://newrepublic.com/article/70097/against-transparency}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Leventhal(2026)]{g12026rounds}
+H.~Leventhal.
+\newblock {Lula tem 64 milhões de votos, e Flávio Bolsonaro, 59 milhões;
+  compare com a votação deles no 1º turno}, Oct. 2026.
+\newblock URL
+  \url{https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/25/lula-flavio-bolsonaro-resultado-segundo-primeiro-turno-2026.ghtml}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Limongi and Figueiredo(1998)]{limongi1998bases}
+F.~Limongi and A.~Figueiredo.
+\newblock {Bases institucionais do presidencialismo de coaliz{\~a}o}.
+\newblock \emph{Lua Nova: Revista de Cultura e Pol{\'i}tica}, \penalty0
+  (44):\penalty0 81--106, 1998.
+\newblock \doi{10.1590/S0102-64451998000200005}.
+
+\bibitem[Magesh et~al.(2025)Magesh, Surani, Dahl, Suzgun, Manning, and
+  Ho]{magesh2025hallucination}
+V.~Magesh, F.~Surani, M.~Dahl, M.~Suzgun, C.~D. Manning, and D.~E. Ho.
+\newblock {Hallucination-Free? Assessing the Reliability of Leading {AI} Legal
+  Research Tools}.
+\newblock \emph{Journal of Empirical Legal Studies}, 22\penalty0 (2):\penalty0
+  216--242, 2025.
+\newblock \doi{10.1111/jels.12413}.
+
+\bibitem[Mainwaring(1999)]{mainwaring1999rethinking}
+S.~P. Mainwaring.
+\newblock \emph{{Rethinking Party Systems in the Third Wave of Democratization:
+  The Case of {Brazil}}}.
+\newblock Stanford University Press, Stanford, CA, 1999.
+\newblock \doi{10.1515/9781503616776}.
+
+\bibitem[Mali(2023)]{poder3602023fragmentation}
+T.~Mali.
+\newblock {Brasil deixa de ter o Legislativo mais fragmentado do mundo}, July
+  2023.
+\newblock URL
+  \url{https://www.poder360.com.br/congresso/brasil-deixa-de-ter-o-legislativo-mais-fragmentado-do-mundo}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Mandelbaum(2011)]{mandelbaum2011strengthening}
+A.~G. Mandelbaum.
+\newblock {Strengthening Parliamentary Accountability, Citizen Engagement and
+  Access to Information: A Global Survey of Parliamentary Monitoring
+  Organizations}.
+\newblock Technical report, National Democratic Institute and World Bank
+  Institute, Washington, DC, Sept. 2011.
+\newblock URL
+  \url{https://www.ndi.org/sites/default/files/governance-parliamentary-monitoring-organizations-survey-september-2011.pdf}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Maynez et~al.(2020)Maynez, Narayan, Bohnet, and
+  McDonald]{maynez2020faithfulness}
+J.~Maynez, S.~Narayan, B.~Bohnet, and R.~McDonald.
+\newblock {On Faithfulness and Factuality in Abstractive Summarization}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 1906--1919. Association for
+  Computational Linguistics, 2020.
+\newblock \doi{10.18653/v1/2020.acl-main.173}.
+
+\bibitem[Merkle(1988)]{merkle1988signature}
+R.~C. Merkle.
+\newblock {A Digital Signature Based on a Conventional Encryption Function}.
+\newblock In C.~Pomerance, editor, \emph{Advances in Cryptology --- {CRYPTO}
+  '87}, Lecture Notes in Computer Science, pages 369--378, Berlin, Heidelberg,
+  1988. Springer.
+\newblock \doi{10.1007/3-540-48184-2_32}.
+
+\bibitem[Michener and Bersch(2013)]{michener2013identifying}
+G.~Michener and K.~Bersch.
+\newblock {Identifying transparency}.
+\newblock \emph{Information Polity}, 18\penalty0 (3):\penalty0 233--242, 2013.
+\newblock \doi{10.3233/IP-130299}.
+
+\bibitem[Mont'Alverne et~al.(2024)Mont'Alverne, Ross~Arguedas, Banerjee, Toff,
+  Fletcher, and Nielsen]{montalverne2024nexus}
+C.~Mont'Alverne, A.~Ross~Arguedas, S.~Banerjee, B.~Toff, R.~Fletcher, and R.~K.
+  Nielsen.
+\newblock {The Electoral Misinformation Nexus: How News Consumption, Platform
+  Use, and Trust in News Influence Belief in Electoral Misinformation}.
+\newblock \emph{Public Opinion Quarterly}, 88\penalty0 (SI):\penalty0 681--707,
+  2024.
+\newblock \doi{10.1093/poq/nfae019}.
+
+\bibitem[Moreira(2026)]{cnn2026letter}
+L.~Moreira.
+\newblock {TSE e aliados de Flávio defendem urnas após carta com teor
+  golpista}, Oct. 2026.
+\newblock URL
+  \url{https://www.cnnbrasil.com.br/politica/tse-e-aliados-defendem-eleicao-apos-carta-com-teor-golpista-de-flavio}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{mySociety}()]{mysociety_twfy}
+{mySociety}.
+\newblock {About {TheyWorkForYou}}.
+\newblock URL \url{https://www.theyworkforyou.com/about/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Nakamoto(2008)]{nakamoto2008bitcoin}
+S.~Nakamoto.
+\newblock {Bitcoin: A Peer-to-Peer Electronic Cash System}.
+\newblock White paper, 2008.
+\newblock URL \url{https://bitcoin.org/bitcoin.pdf}.
+
+\bibitem[{National Institute of Standards and Technology}(2015)]{fips180-4}
+{National Institute of Standards and Technology}.
+\newblock {Secure Hash Standard ({SHS})}.
+\newblock Federal Information Processing Standards Publication FIPS 180-4, U.S.
+  Department of Commerce, Aug. 2015.
+
+\bibitem[Newman et~al.(2022)Newman, Meyers, and
+  Torres-Arias]{newman2022sigstore}
+Z.~Newman, J.~S. Meyers, and S.~Torres-Arias.
+\newblock {Sigstore: Software Signing for Everybody}.
+\newblock In \emph{Proceedings of the 2022 ACM SIGSAC Conference on Computer
+  and Communications Security (CCS '22)}, pages 2353--2367. ACM, 2022.
+\newblock \doi{10.1145/3548606.3560596}.
+
+\bibitem[Nicolau(2017)]{nicolau2017representantes}
+J.~Nicolau.
+\newblock \emph{{Representantes de quem? Os (des)caminhos do seu voto da urna
+  {\`a} C{\^a}mara dos Deputados}}.
+\newblock Zahar, Rio de Janeiro, 2017.
+\newblock ISBN 9788537816127.
+
+\bibitem[{O Estado de S. Paulo}()]{estadao_basometro}
+{O Estado de S. Paulo}.
+\newblock {Bas{\^o}metro: acompanhe o governismo na C{\^a}mara}.
+\newblock URL \url{https://arte.estadao.com.br/politica/basometro/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{\O}lnes et~al.(2017){\O}lnes, Ubacht, and
+  Janssen]{olnes2017blockchain}
+S.~{\O}lnes, J.~Ubacht, and M.~Janssen.
+\newblock {Blockchain in Government: Benefits and Implications of Distributed
+  Ledger Technology for Information Sharing}.
+\newblock \emph{Government Information Quarterly}, 34\penalty0 (3):\penalty0
+  355--364, 2017.
+\newblock \doi{10.1016/j.giq.2017.09.007}.
+
+\bibitem[O'Neill(2002)]{oneill2002question}
+O.~O'Neill.
+\newblock \emph{{A Question of Trust: The {BBC} {Reith} Lectures 2002}}.
+\newblock Cambridge University Press, Cambridge, 2002.
+\newblock ISBN 9780521529969.
+\newblock URL \url{https://www.bbc.co.uk/radio4/reith2002/lecture4.shtml}.
+\newblock Lecture 4, ``Trust and Transparency'', is available at the URL.
+
+\bibitem[{Open Knowledge Brasil}()]{okbr_parlametria}
+{Open Knowledge Brasil}.
+\newblock {Parlametria}.
+\newblock URL \url{https://ok.org.br/projetos/parlametria/}.
+\newblock Project active 2019--2023; Perfil Parlamentar source code:
+  \url{https://github.com/parlametria/perfil-parlamentar}.
+
+\bibitem[{Open Knowledge Brasil}(2020)]{okbr_queridodiario}
+{Open Knowledge Brasil}.
+\newblock {Querido Di{\'a}rio}, 2020.
+\newblock URL \url{https://queridodiario.ok.org.br/}.
+\newblock Source code: \url{https://github.com/okfn-brasil/querido-diario} (MIT
+  licence).
+
+\bibitem[{OpeningParliament.org}(2012)]{openingparliament2012declaration}
+{OpeningParliament.org}.
+\newblock {Declaration on Parliamentary Openness}, Sept. 2012.
+\newblock URL
+  \url{https://web.archive.org/web/20210118234036/https://www.openingparliament.org/declaration/}.
+\newblock Launched at the World e-Parliament Conference, Rome, 15 September
+  2012. Archived copy; the original domain no longer hosts the document.
+
+\bibitem[{openparliament.ca}()]{openparliament_about}
+{openparliament.ca}.
+\newblock {About openparliament.ca}.
+\newblock URL \url{https://openparliament.ca/about/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{OpenSSF AI/ML Working Group}()]{openssf-oms}
+{OpenSSF AI/ML Working Group}.
+\newblock {{OpenSSF} Model Signing ({OMS}) Specification}.
+\newblock URL \url{https://github.com/ossf/model-signing-spec}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Opera{\c{c}}{\~a}o Serenata de Amor}(2016)]{serenata2016}
+{Opera{\c{c}}{\~a}o Serenata de Amor}.
+\newblock {Opera{\c{c}}{\~a}o Serenata de Amor}.
+\newblock Open Knowledge Brasil, 2016.
+\newblock URL \url{https://serenata.ai/}.
+\newblock Source code: \url{https://github.com/okfn-brasil/serenata-de-amor}
+  (MIT licence).
+
+\bibitem[{Organization of American States}(2026)]{oas2026brazil}
+{Organization of American States}.
+\newblock {Preliminary Report of the {OAS} Electoral Observation Mission in
+  {B}razil for the runoff election}.
+\newblock Technical report, OAS Electoral Observation Mission, Oct. 2026.
+\newblock URL
+  \url{http://www.oas.org/fpdb/press/2026_EOM_Brazil_Presidential_Runoff_Preliminary_Report_ENG.pdf}.
+
+\bibitem[Ozawa et~al.(2024)Ozawa, Lukito, Bailez, and
+  Fakhouri]{ozawa2024capitol}
+J.~V.~S. Ozawa, J.~Lukito, F.~Bailez, and L.~G.~P. Fakhouri.
+\newblock {{B}razilian {C}apitol attack: The interaction between {B}olsonaro's
+  supporters' content, {W}hats{A}pp, {T}witter, and news media}.
+\newblock \emph{Harvard Kennedy School (HKS) Misinformation Review}, 2024.
+\newblock \doi{10.37016/mr-2020-137}.
+
+\bibitem[Parsons(2020)]{parsons2020publishing}
+A.~Parsons.
+\newblock {Publishing less: our current thinking about comparative statistics}.
+\newblock mySociety blog, Nov. 2020.
+\newblock URL
+  \url{https://www.mysociety.org/2020/11/16/publishing-less-our-current-thinking-about-comparative-statistics}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Peixoto and Fox(2016)]{peixoto2016when}
+T.~Peixoto and J.~Fox.
+\newblock {When Does {ICT}-Enabled Citizen Voice Lead to Government
+  Responsiveness?}
+\newblock \emph{IDS Bulletin}, 47\penalty0 (1):\penalty0 23--39, 2016.
+\newblock \doi{10.19088/1968-2016.104}.
+
+\bibitem[Peng(2011)]{peng2011reproducible}
+R.~D. Peng.
+\newblock {Reproducible Research in Computational Science}.
+\newblock \emph{Science}, 334\penalty0 (6060):\penalty0 1226--1227, 2011.
+\newblock \doi{10.1126/science.1213847}.
+
+\bibitem[{Pesquisa FAPESP}(2015)]{fapesp2015eseb}
+{Pesquisa FAPESP}.
+\newblock Uma rela{\c{c}}{\~a}o dif{\'i}cil: estudo aponta aumento do
+  desconhecimento sobre o que {\'e} o sistema democr{\'a}tico.
+\newblock \emph{Pesquisa FAPESP}, \penalty0 (235):\penalty0 86--89, Sept. 2015.
+\newblock URL \url{https://revistapesquisa.fapesp.br/uma-relacao-dificil/}.
+\newblock Unsigned article reporting results of the Brazilian Electoral Study
+  (ESEB) 2014.
+
+\bibitem[{Pew Research Center}(2026)]{pew2026brazil}
+{Pew Research Center}.
+\newblock {How Brazilians view their country ahead of 2026 elections}, Sept.
+  2026.
+\newblock URL
+  \url{https://www.pewresearch.org/short-reads/2026/09/22/how-brazilians-view-their-country-ahead-of-2026-elections}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Poole and Rosenthal(1997)]{poole1997congress}
+K.~T. Poole and H.~Rosenthal.
+\newblock \emph{{Congress: A Political-Economic History of Roll Call Voting}}.
+\newblock Oxford University Press, New York, 1997.
+
+\bibitem[Porter and Wood(2021)]{porter2021global}
+E.~Porter and T.~J. Wood.
+\newblock {The global effectiveness of fact-checking: Evidence from
+  simultaneous experiments in {A}rgentina, {N}igeria, {S}outh {A}frica, and the
+  {U}nited {K}ingdom}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 118\penalty0
+  (37):\penalty0 e2104235118, 2021.
+\newblock \doi{10.1073/pnas.2104235118}.
+
+\bibitem[Power and Zucco(2009)]{power2009estimating}
+T.~J. Power and C.~Zucco, Jr.
+\newblock {Estimating Ideology of {Brazilian} Legislative Parties, 1990--2005:
+  A Research Communication}.
+\newblock \emph{Latin American Research Review}, 44\penalty0 (1):\penalty0
+  218--246, 2009.
+\newblock \doi{10.1353/lar.0.0072}.
+
+\bibitem[Queiroz(2010)]{queiroz2010producao}
+A.~A.~d. Queiroz.
+\newblock {Produ{\c{c}}{\~a}o legislativa em 2010}.
+\newblock Boletim do DIAP, ano XVII, n. 245, Dec. 2010.
+\newblock URL
+  \url{https://diap.org.br/index.php/publicacoes?catid=61&id=830&m=0&task=download.send}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Queiroz(2022)]{queiroz2022rankings}
+A.~A.~d. Queiroz.
+\newblock {Rankings parlamentares e riscos de manipula{\c{c}}{\~a}o na
+  elei{\c{c}}{\~a}o}.
+\newblock Ag{\^e}ncia DIAP, Mar. 2022.
+\newblock URL
+  \url{https://www.diap.org.br/index.php/noticias/agencia-diap/91014-rankings-parlamentares-e-riscos-de-manipulacao-na-eleicao}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Ranking dos Pol{\'i}ticos}(2026)]{rankingpoliticos2026criterios}
+{Ranking dos Pol{\'i}ticos}.
+\newblock {Crit{\'e}rios e Metodologia}, 2026.
+\newblock URL \url{https://www.politicos.org.br/criterios-e-metodologia}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Reilly and Richey(2011)]{reilly2011ballot}
+S.~Reilly and S.~Richey.
+\newblock {Ballot Question Readability and Roll-Off: The Impact of Language
+  Complexity}.
+\newblock \emph{Political Research Quarterly}, 64\penalty0 (1):\penalty0
+  59--67, 2011.
+\newblock \doi{10.1177/1065912909349629}.
+
+\bibitem[Reis et~al.(2020)Reis, Melo, Garimella, and
+  Benevenuto]{reis2020debunked}
+J.~C.~S. Reis, P.~Melo, K.~Garimella, and F.~Benevenuto.
+\newblock {Can {W}hats{A}pp benefit from debunked fact-checked stories to
+  reduce misinformation?}
+\newblock \emph{Harvard Kennedy School (HKS) Misinformation Review}, 1\penalty0
+  (5), 2020.
+\newblock \doi{10.37016/mr-2020-035}.
+
+\bibitem[Resende et~al.(2019)Resende, Melo, Sousa, Messias, Vasconcelos,
+  Almeida, and Benevenuto]{resende2019whatsapp}
+G.~Resende, P.~Melo, H.~Sousa, J.~Messias, M.~Vasconcelos, J.~Almeida, and
+  F.~Benevenuto.
+\newblock {({M}is){I}nformation Dissemination in {W}hats{A}pp: Gathering,
+  Analyzing and Countermeasures}.
+\newblock In \emph{The World Wide Web Conference ({WWW} '19)}, pages 818--828,
+  San Francisco, CA, USA, 2019. ACM.
+\newblock \doi{10.1145/3308558.3313688}.
+
+\bibitem[{Reuters}(2026)]{reuters2026concede}
+{Reuters}.
+\newblock {Bolsonaro refuses to concede, says he will seek annulment of Brazil
+  vote}, Oct. 2026.
+\newblock URL
+  \url{https://www.reuters.com/world/americas/bolsonaro-refuses-concede-says-he-will-seek-annulment-brazil-vote-2026-10-26}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Rogaway and Shrimpton(2004)]{rogaway2004hash}
+P.~Rogaway and T.~Shrimpton.
+\newblock {Cryptographic Hash-Function Basics: Definitions, Implications, and
+  Separations for Preimage Resistance, Second-Preimage Resistance, and
+  Collision Resistance}.
+\newblock In B.~Roy and W.~Meier, editors, \emph{Fast Software Encryption (FSE
+  2004)}, Lecture Notes in Computer Science, pages 371--388. Springer, 2004.
+\newblock \doi{10.1007/978-3-540-25937-4_24}.
+
+\bibitem[Rossini et~al.(2023)Rossini, Mont'Alverne, and
+  Kalogeropoulos]{rossini2023electoral}
+P.~Rossini, C.~Mont'Alverne, and A.~Kalogeropoulos.
+\newblock {Explaining beliefs in electoral misinformation in the 2022
+  {B}razilian election: The role of ideology, political trust, social media,
+  and messaging apps}.
+\newblock \emph{Harvard Kennedy School (HKS) Misinformation Review}, 4\penalty0
+  (3), 2023.
+\newblock \doi{10.37016/mr-2020-115}.
+
+\bibitem[Rundgren et~al.(2020)Rundgren, Jordan, and Erdtman]{rfc8785}
+A.~Rundgren, B.~Jordan, and S.~Erdtman.
+\newblock {{JSON} Canonicalization Scheme ({JCS})}.
+\newblock RFC 8785, RFC Editor, June 2020.
+\newblock Informational, Independent Submission.
+
+\bibitem[Salazar~Cardozo and Williamson(2018)]{eip1108}
+A.~Salazar~Cardozo and Z.~Williamson.
+\newblock {EIP-1108}: Reduce alt\_bn128 precompile gas costs.
+\newblock Ethereum Improvement Proposals, no. 1108, May 2018.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-1108}.
+
+\bibitem[Samuel et~al.(2010)Samuel, Mathewson, Cappos, and
+  Dingledine]{samuel2010tuf}
+J.~Samuel, N.~Mathewson, J.~Cappos, and R.~Dingledine.
+\newblock {Survivable Key Compromise in Software Update Systems}.
+\newblock In \emph{Proceedings of the 17th ACM Conference on Computer and
+  Communications Security (CCS '10)}, pages 61--72. ACM, 2010.
+\newblock \doi{10.1145/1866307.1866315}.
+
+\bibitem[Samuels(2003)]{samuels2003ambition}
+D.~Samuels.
+\newblock \emph{{Ambition, Federalism, and Legislative Politics in {Brazil}}}.
+\newblock Cambridge University Press, Cambridge, 2003.
+\newblock \doi{10.1017/CBO9780511510366}.
+
+\bibitem[{Sigstore}()]{fulcio}
+{Sigstore}.
+\newblock {Fulcio: Certificate Authority Overview}.
+\newblock URL \url{https://docs.sigstore.dev/certificate_authority/overview/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{SLSA Community}(2025{\natexlab{a}})]{slsa12}
+{SLSA Community}.
+\newblock {{SLSA} Specification, Version 1.2}, Nov. 2025{\natexlab{a}}.
+\newblock URL \url{https://slsa.dev/spec/v1.2/}.
+\newblock Open Source Security Foundation. Status: Approved.
+
+\bibitem[{SLSA Community}(2025{\natexlab{b}})]{slsa12provenance}
+{SLSA Community}.
+\newblock {{SLSA} Specification, Version 1.2. Build: Provenance},
+  2025{\natexlab{b}}.
+\newblock URL \url{https://slsa.dev/spec/v1.2/build-provenance}.
+\newblock Predicate type \url{https://slsa.dev/provenance/v1}.
+
+\bibitem[Snyder and Str{\"o}mberg(2010)]{snyder2010press}
+J.~M. Snyder, Jr. and D.~Str{\"o}mberg.
+\newblock {Press Coverage and Political Accountability}.
+\newblock \emph{Journal of Political Economy}, 118\penalty0 (2):\penalty0
+  355--408, 2010.
+\newblock \doi{10.1086/652903}.
+
+\bibitem[Stevens et~al.(2017)Stevens, Bursztein, Karpman, Albertini, and
+  Markov]{stevens2017sha1}
+M.~Stevens, E.~Bursztein, P.~Karpman, A.~Albertini, and Y.~Markov.
+\newblock {The First Collision for Full {SHA-1}}.
+\newblock In J.~Katz and H.~Shacham, editors, \emph{Advances in Cryptology --
+  {CRYPTO} 2017}, Lecture Notes in Computer Science, pages 570--596. Springer,
+  2017.
+\newblock \doi{10.1007/978-3-319-63688-7_19}.
+
+\bibitem[{Supremo Tribunal Federal}(2022)]{stf2022secretbudget}
+{Supremo Tribunal Federal}.
+\newblock {STF julga orçamento secreto inconstitucional}, Dec. 2022.
+\newblock URL
+  \url{https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=499330&tip=UN}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Supremo Tribunal Federal}(2023)]{stf8jan}
+{Supremo Tribunal Federal}.
+\newblock {8 de janeiro}, 2023.
+\newblock URL \url{https://portal.stf.jus.br/hotsites/8dejaneiro}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Supremo Tribunal Federal}(2025)]{stf2025conviction}
+{Supremo Tribunal Federal}.
+\newblock {STF fixa penas de 16 a 27 anos para condenados por tentativa de
+  golpe de Estado}, Sept. 2025.
+\newblock URL
+  \url{https://noticias.stf.jus.br/postsnoticias/stf-fixa-penas-de-16-a-27-anos-para-condenados-por-tentativa-de-golpe-de-estado}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Szalachowski(2018)]{szalachowski2018timestamps}
+P.~Szalachowski.
+\newblock {(Short Paper) Towards More Reliable {Bitcoin} Timestamps}.
+\newblock In \emph{2018 Crypto Valley Conference on Blockchain Technology
+  (CVCBT)}, pages 101--104. IEEE, 2018.
+\newblock \doi{10.1109/CVCBT.2018.00018}.
+
+\bibitem[Tang(2019)]{eip2200}
+W.~Tang.
+\newblock {EIP-2200}: Structured definitions for net gas metering.
+\newblock Ethereum Improvement Proposals, no. 2200, July 2019.
+\newblock URL \url{https://eips.ethereum.org/EIPS/eip-2200}.
+
+\bibitem[Tejadas and Albala(2026)]{tejadas2026nep}
+V.~Tejadas and A.~Albala.
+\newblock Nova {C}{\^a}mara: federa{\c{c}}{\~o}es ainda maquiam
+  diminui{\c{c}}{\~a}o real do n{\'u}mero de legendas.
+\newblock Correio Braziliense, opinion, Oct. 2026.
+\newblock URL
+  \url{https://www.correiobraziliense.com.br/opiniao/2026/10/7515981-nova-camara-federacoes-ainda-maquiam-diminuicao-real-do-numero-de-legendas.html}.
+\newblock Published 7 October 2026.
+
+\bibitem[{TLSNotary}({\natexlab{a}})]{tlsnotary}
+{TLSNotary}.
+\newblock {TLSNotary}, {\natexlab{a}}.
+\newblock URL \url{https://tlsnotary.org/}.
+\newblock A project of the Ethereum Foundation. Accessed 16 November 2026.
+
+\bibitem[{TLSNotary}({\natexlab{b}})]{tlsnotary-docs}
+{TLSNotary}.
+\newblock {TLSNotary} documentation: Introduction and frequently asked
+  questions, {\natexlab{b}}.
+\newblock URL \url{https://tlsnotary.org/docs/intro}.
+\newblock See also \url{https://tlsnotary.org/docs/faq}. Accessed 16 November
+  2026.
+
+\bibitem[Todd(2016)]{todd2016opentimestamps}
+P.~Todd.
+\newblock {{OpenTimestamps}: Scalable, Trust-Minimized, Distributed
+  Timestamping with {Bitcoin}}.
+\newblock Blog post, 15 September 2016, Sept. 2016.
+\newblock URL \url{https://petertodd.org/2016/opentimestamps-announcement}.
+
+\bibitem[Torres-Arias et~al.(2019)Torres-Arias, Afzali, Kuppusamy, Curtmola,
+  and Cappos]{torresarias2019intoto}
+S.~Torres-Arias, H.~Afzali, T.~K. Kuppusamy, R.~Curtmola, and J.~Cappos.
+\newblock {in-toto: Providing Farm-to-Table Guarantees for Bits and Bytes}.
+\newblock In \emph{28th USENIX Security Symposium (USENIX Security 19)}, pages
+  1393--1410. USENIX Association, 2019.
+\newblock ISBN 978-1-939133-06-9.
+\newblock URL
+  \url{https://www.usenix.org/conference/usenixsecurity19/presentation/torres-arias}.
+
+\bibitem[{Tribunal Superior Eleitoral}(2022)]{tse2022result}
+{Tribunal Superior Eleitoral}.
+\newblock {100\% das seções totalizadas: confira como ficou o quadro
+  eleitoral após o 2º turno}, Oct. 2022.
+\newblock URL
+  \url{https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Tribunal Superior Eleitoral}(2023)]{tse2023ineligible}
+{Tribunal Superior Eleitoral}.
+\newblock {Por maioria de votos, TSE declara Bolsonaro inelegível por 8 anos},
+  June 2023.
+\newblock URL
+  \url{https://www.tse.jus.br/comunicacao/noticias/2023/Junho/por-maioria-de-votos-tse-declara-bolsonaro-inelegivel-por-8-anos}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Tribunal Superior Eleitoral}(2026{\natexlab{a}})]{tse2026runoff}
+{Tribunal Superior Eleitoral}.
+\newblock {Presidente do TSE anuncia reeleição de Lula e faz balanço do 2º
+  turno das Eleições 2026}, Oct. 2026{\natexlab{a}}.
+\newblock URL
+  \url{https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/presidente-do-tse-anuncia-reeleicao-de-lula-e-faz-balanco-do-2o-turno-das-eleicoes-2026}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{Tribunal Superior Eleitoral}(2026{\natexlab{b}})]{tse2026systems}
+{Tribunal Superior Eleitoral}.
+\newblock {Por Dentro das Eleições: Brasil utiliza sistemas eleitorais
+  majoritário e proporcional}, Apr. 2026{\natexlab{b}}.
+\newblock URL
+  \url{https://www.tse.jus.br/comunicacao/noticias/2026/Abril/por-dentro-das-eleicoes-brasil-utiliza-sistemas-eleitorais-majoritario-e-proporcional}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[{UCLA Department of Political Science and Social Science
+  Computing}()]{voteview_about}
+{UCLA Department of Political Science and Social Science Computing}.
+\newblock {Voteview: Congressional Roll-Call Votes Database -- About}.
+\newblock URL \url{https://voteview.com/about}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Vosoughi et~al.(2018)Vosoughi, Roy, and Aral]{vosoughi2018spread}
+S.~Vosoughi, D.~Roy, and S.~Aral.
+\newblock {The spread of true and false news online}.
+\newblock \emph{Science}, 359\penalty0 (6380):\penalty0 1146--1151, 2018.
+\newblock \doi{10.1126/science.aap9559}.
+
+\bibitem[{VoteWatch Europe}()]{votewatch_closure}
+{VoteWatch Europe}.
+\newblock {{VoteWatch} (closure notice)}.
+\newblock URL \url{https://www.votewatch.eu/}.
+\newblock Accessed 16 November 2026.
+
+\bibitem[Walter et~al.(2020)Walter, Cohen, Holbert, and
+  Morag]{walter2020factchecking}
+N.~Walter, J.~Cohen, R.~L. Holbert, and Y.~Morag.
+\newblock {Fact-Checking: A Meta-Analysis of What Works and for Whom}.
+\newblock \emph{Political Communication}, 37\penalty0 (3):\penalty0 350--375,
+  2020.
+\newblock \doi{10.1080/10584609.2019.1668894}.
+
+\bibitem[Willison(2020)]{willison2020git}
+S.~Willison.
+\newblock Git scraping: track changes over time by scraping to a {Git}
+  repository.
+\newblock Simon Willison's Weblog, Oct. 2020.
+\newblock URL \url{https://simonwillison.net/2020/Oct/9/git-scraping/}.
+
+\bibitem[Zhang et~al.(2020)Zhang, Maram, Malvai, Goldfeder, and
+  Juels]{zhang2020deco}
+F.~Zhang, D.~Maram, H.~Malvai, S.~Goldfeder, and A.~Juels.
+\newblock {{DECO}: Liberating Web Data Using Decentralized Oracles for {TLS}}.
+\newblock In \emph{Proceedings of the 2020 ACM SIGSAC Conference on Computer
+  and Communications Security (CCS '20)}, pages 1919--1938. ACM, 2020.
+\newblock \doi{10.1145/3372297.3417239}.
+
+\bibitem[Zucco and Lauderdale(2011)]{zucco2011distinguishing}
+C.~Zucco, Jr. and B.~E. Lauderdale.
+\newblock {Distinguishing Between Influences on {Brazilian} Legislative
+  Behavior}.
+\newblock \emph{Legislative Studies Quarterly}, 36\penalty0 (3):\penalty0
+  363--396, 2011.
+\newblock \doi{10.1111/j.1939-9162.2011.00019.x}.
+
+\end{thebibliography}

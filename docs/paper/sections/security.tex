@@ -1,0 +1,98 @@
+\section{Security analysis}
+\label{sec:security}
+
+Table~\ref{tab:claims} lists each claim a reader may want to check, the mechanism that supports it, and what still has to be trusted. The rest of this section argues each row and then states what the system does not prove.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{3.6cm}>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Claim & Mechanism & Still trusted \\
+\midrule
+A file was not changed after collection & SHA-256 in the manifest and in the file name & Nothing beyond SHA-256, once the manifest is authenticated \\
+\addlinespace[3pt]
+A file was produced by the public collector at a given commit and run & Sigstore attestation of the manifest and data files & The CI platform, its hosted runners, runner image and Node.js release; Sigstore's certificate authority and log \\
+\addlinespace[3pt]
+The collection existed by a given time & OpenTimestamps proof ending in a Bitcoin block header & Bitcoin's proof of work; honest header times (about two hours); block explorers, unless the reader runs a node \\
+\addlinespace[3pt]
+An official record was later changed or removed & Append-only versions with content hashes & The lake operator, for versions the Chamber no longer serves \\
+\addlinespace[3pt]
+A metric follows from the official files & Public formula; digests of the source files & Nothing, while the Chamber still serves the same files \\
+\addlinespace[3pt]
+The deployed site is the one that was built & \texttt{SHA256SUMS} written at each deploy & The deployer: the list is not attested \\
+\addlinespace[3pt]
+The Chamber returned this content & None: the API does not sign its answers & TLS at collection time; comparison with the live API \\
+\addlinespace[3pt]
+A simple-language summary is correct & None: unreviewed text, supplied by the operator and labelled as model output & The operator; the reader's comparison with the official text \\
+
+\bottomrule
+\end{tabularx}
+\caption{What each proof establishes and what remains trusted.}
+\label{tab:claims}
+\end{table}
+
+\subsection{Integrity}
+
+Suppose the manifest name $h_M$ is known to be authentic. To replace an artifact $x$ with $x'\neq x$ under the same key, the operator, the host or a network attacker must find a second preimage of $H$, which for SHA-256 has an expected strength of 256 bits for short messages and never less than 201 bits for the longest ones~\citep{sp800-107r1,kelsey2005second}. By the length-dependent bound, the largest artifact in a manifest (237\,kB) keeps about 244 bits and the largest bulk file in the lake (198\,MB) about 234 bits. The integrity argument does not depend on the transport, so it holds against the host and the network as well as the operator.
+
+Collision resistance (128 bits for SHA-256~\citep{sp800-107r1,rogaway2004hash}) is the relevant property only for a party that chooses both colliding files \emph{before} publication. That party is the operator. A collision would let the operator obtain one attestation and one timestamp covering two different collections and later show whichever suits. No such attack on SHA-256 is known; the full collision on SHA-1~\citep{stevens2017sha1} shows why the choice of function matters. Known quantum algorithms lower the query bounds to about $2^{128}$ for preimages~\citep{grover1996search} and about $2^{85}$ for collisions~\citep{brassard1998quantum}, and NIST expects hash functions of this size to remain usable~\citep{nistir8105}.
+
+\subsection{Provenance}
+
+A valid attestation shows that a workflow run holding the stated identity signed a statement about a file with that digest, and that the signature was logged~\citep{github-attestations}. With the verification flags given earlier, the identity is the public collection workflow on the main branch, on a runner hosted by the platform.
+
+This defeats the operator in the role that matters most. To publish an edited file with a valid attestation, the operator would have to commit code that performs the edit to the public repository, where the commit is visible and named in the certificate. Hand-editing an output and committing it is detectable: the file no longer matches any attested digest. The evaluation confirms this.
+
+The guarantee has stated limits. GitHub describes attestations alone as meeting SLSA Build Level~2~\citep{github-attestations}, the level at which forging provenance ``requires an explicit `attack', though this may be easy to perform''~\citep{slsa12}. Only the certificate fields and the log timestamp are outside the control of the workflow that produced the attestation; an attacker inside the run could falsify the rest of the predicate~\citep{gh-attestation-verify}. The platform itself warns that attestations ``are not a guarantee that an artifact is secure''~\citep{github-attestations}. In our setting this means: the attestation proves which public code ran, and proves nothing about whether that code is correct or whether its input was authentic. A reader must still read the collector, or trust someone who has. The collector's own code is short, about a thousand lines, but the code that ran also includes its dependencies, fixed by the lockfile, and the runner image. And the verification command accepts any commit on the main branch: it shows that the public collector produced the file, not that the version which ran had been reviewed. A verifier who wants more can pin the expected commit, or the project can tag reviewed releases and attest only from them.
+
+The operator also controls the repository and could, in principle, push a malicious commit, let it run once, and force-push it away. The certificate and the public log entry would still name the commit hash, but the code would be harder to obtain. Independent forks that mirror the repository, and archives that copy it, remove this weakness.
+
+\subsection{Time}
+
+A complete proof shows that $h_M$ was committed in a block at a given height. Rewriting it would require redoing the proof of work of that block and all later ones~\citep{nakamoto2008bitcoin}. The time claim is an upper bound with a precision of hours; it says nothing about how long before the block the data existed. The attestation's log entry gives a second time, asserted by the signing service; in our measurements the two agree within the confirmation delay.
+
+What the timestamp adds over the transparency log is independence. It survives the disappearance of the repository, the CI platform, the signing service and the project itself: the proof file and the manifest are enough, with any copy of the block headers. Provided that someone keeps the manifest, the files and the proof, a reader ten years from now can still show that the collector had recorded a given record of a given vote by November 2026. That proviso is the subject of the next subsections.
+
+\subsection{Immutability: how the stored data is kept from changing}
+\label{sec:immutability}
+
+``The database'' is three stores with different guarantees. For each we separate what \emph{prevents} a change, what would \emph{detect} one, and what is left to trust.
+
+\emph{The collection archive (git).} Raw captures, snapshots and manifests are files in the public repository, under names that are their own SHA-256 digests. Three things protect them. A file cannot be altered in place without its name ceasing to match its content, which any reader can test with one command. The repository's history is itself a chain of hashes: each commit commits to the full tree and to its parent, so rewriting an old collection changes every later commit identifier, in a repository that is public and that any reader can clone and keep. And the manifest of each collection is attested and timestamped outside the repository, so even a rewritten history could not produce a different manifest carrying the old attestation or the old Bitcoin proof. We checked the history directly: across all commits, no file under the immutable archive path has ever been modified or deleted.
+
+\emph{The lake (object storage).} The lake is append-only by construction. Its program contains no update and no delete: a raw official file is written only if no object with that digest exists, and tables grow only by appending new data files in a new table snapshot~\citep{iceberg-spec}. A correction by the Chamber does not replace a row; it adds a version. Three digests make the content checkable from outside: the object name of each raw file is its SHA-256; each silver row carries a hash that anyone can recompute from that raw file; and each batch identifier is the hash of the year's four file digests, published with every metric. The evaluation uses exactly these to confirm that the published figures match the Chamber's current files.
+
+Here the guarantee is weaker than for the archive, and we say so plainly. Append-only is a property of the program, not of the storage: whoever holds the storage credentials could delete or replace objects. On the day of our measurements the bucket had no retention lock configured. The lake's batches are not attested or timestamped, so for versions that the Chamber no longer serves, the lake is the only witness. A reader can always detect a lake that disagrees with the Chamber's current files; a reader cannot yet prove what the lake said last month.
+
+Two inexpensive measures would close most of this. The storage provider offers bucket locks that ``prevent the deletion and overwriting of objects''~\citep{cloudflare-bucketlocks}; a lock on the raw-file prefix would turn append-only from a convention into an enforced rule against accident and against a leaked write key, though not against the account owner, who can remove the rule. And the workflow could compute a running digest of the lake, $h_n = H(h_{n-1} \,\|\, b_n)$ over successive batch identifiers $b_n$, with $h_0$ a fixed constant such as 32 zero bytes and $\|$ the concatenation of the 32-byte $h_{n-1}$ with $b_n$, and attest and timestamp $h_n$ each day alongside the manifest. Any later rewrite of an old batch would then contradict a value already anchored in a public log and in the Bitcoin blockchain. This is the construction of tamper-evident logs~\citep{crosby2009tamper}, applied with the tools the project already uses; Appendix~\ref{app:lean} proves that a rewrite which keeps the number of batches yields a collision of $H$, and that one which adds or removes batches yields a collision of $H$ or a preimage of $h_0$; a counterexample shows the second case cannot be dropped.
+
+\emph{The published metrics.} The JSON files served by the API are derived data and are replaced whenever a year's batch changes. Their protection is not immutability but reproducibility: each carries its batch identifier and the digests of its source files, and can be regenerated from them.
+
+In short: the collection archive is protected by naming, public history and external anchors; the lake by construction and by recomputation, with enforcement and anchoring still to be added; and the metrics by being recomputable.
+
+\subsection{Freshness, hidden inputs and preservation}
+\label{sec:freshness}
+
+\emph{Freshness and rollback.} The proofs show that a collection is authentic, not that it is the latest. A host, or the operator, could serve an older manifest that still verifies; during our measurements the site's transparency page named a manifest of 9 November although later collections existed. Nothing in the design stops the operator from running the workflow several times and publishing the result that suits, either: there are three collections for 8 November. The defence is that every run and every attestation is public, so a reader can list all collections and compare the one served with the newest. Two cheap measures would make this routine: the site should show the newest manifest and its time on every page, and the verification guide should check that no later attested manifest exists.
+
+\emph{Hidden inputs.} The attestation names the commit, but a run also depends on inputs that are not in the commit. The collection job uses no secret, but it restores a dependency cache from earlier runs and can be started by hand as well as by the schedule. The certificate records the trigger, so a verifier can require scheduled runs only; the cache is trusted to match the lockfile. The generated summaries are written outside the workflow and committed as an input file: the attestation shows which summaries were published, not how they were produced. The lake job, which holds the storage credentials, is not attested at all.
+
+\emph{Preservation.} A timestamp outlives the project only if someone keeps the manifest, the files and the proof. The CI platform deletes run logs and artifacts after a retention period~\citep{github-log-retention}, and the repository can be deleted by its owner. Universal source archives such as Software Heritage~\citep{dicosmo2017software} preserve public repositories with their full history under intrinsic hash identifiers, and would keep the archive, the proofs and the code that produced them beyond the life of the project. Requesting such archival after each collection, and storing the attestation bundles next to the files, would turn the ten-year claim from a possibility into a plan.
+
+\subsection{What is not proven}
+\label{sec:notproven}
+
+\emph{Origin.} The Chamber's API does not sign its responses. The collector authenticates the server by TLS when it connects, but TLS leaves no transferable evidence: a third party cannot later check that the bytes came from the Chamber. Everything downstream is therefore a proof about what the collector \emph{recorded}, not about what the Chamber \emph{said}. \citet{lemieux2016trusting} draws the same line for blockchain record keeping in general: such systems protect the integrity of what was registered, not the reliability of the record at its creation.
+
+Three things narrow this gap without closing it. A reader can fetch the same URL today and compare fields, since each raw capture stores its URL and capture time. Anyone can run the same workflow from a fork as an independent witness; two unrelated collectors recording the same content at the same time would be much harder to explain away. Their manifests will never be byte-identical, because each capture embeds its own capture time, so witnesses must be compared record by record on the decoded response bodies, ignoring the capture metadata. And for the bulk files, the lake records a digest that a reader can compare with the file the Chamber serves now.
+
+The gap could be closed from either side. The Chamber could sign its responses, for instance with HTTP Message Signatures~\citep{rfc9421} under a certificate of the national public-key infrastructure~\citep{mp2200-2}. Failing that, a collector could produce a transferable proof of the TLS session with a protocol such as DECO or TLSNotary~\citep{zhang2020deco,tlsnotary}, at the cost of a third-party notary and a much heavier client.
+
+\emph{Deployment.} The site is built and deployed from the maintainer's environment, not from CI. The deploy writes a checksum of every published file, but that list is not attested, so it shows that the site is internally consistent, not who built it. The attested data files can be checked directly; the HTML that presents them cannot, except by rebuilding the site from the public source.
+
+\emph{Deputy profiles and metrics.} Profile files are attested by a separate monthly workflow and are not part of the manifest. The lake's tables and the metrics derived from them are not attested at all; they rest on recomputation from the Chamber's files.
+
+\emph{Completeness.} Nothing proves that the collector recorded \emph{every} relevant record. A collector that systematically skipped a class of votes would produce valid proofs. The defence is again public code and recomputation of totals.
+
+\emph{Summaries.} No mechanism checks that a generated explanation is faithful to the text it explains.

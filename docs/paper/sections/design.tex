@@ -1,0 +1,258 @@
+\section{Goals and threat model}
+\label{sec:goals}
+
+\subsection{The main goal: closing the distance}
+
+The problem described above is first a problem of distance. The Chamber publishes a REST API and yearly bulk files with every voting, every individual vote and every leadership orientation~\citep{camara_dadosabertos}. The data are public, but they are large (the 96 yearly files used for the metrics add up to 1.52\,GB of JSON), spread over many endpoints, and written in procedural vocabulary. A citizen who wants to know what was voted yesterday, or how a party has voted since the last election, cannot get the answer from them unaided.
+
+The main goal of the system is therefore to bring the legislature closer to the people it represents: to say, in simple language, what each voting was about, who voted and how, and to give the context needed to read a vote correctly, such as what the official summary of the bill says, what the leaderships oriented, and how a party has behaved over time. Verifiability serves that goal; it is not a goal in itself. An intermediary that explains the Chamber but cannot be believed does not close the distance, and in Brazil today every intermediary is presumed to have a side.
+
+Vigia do Povo is such an intermediary, run by a private individual with no institutional standing. Its design starts from the assumption that readers have no reason to trust it, and that some will suspect it of taking a side.
+
+\subsection{Goals}
+
+\begin{description}[leftmargin=1.2em,style=nextline,itemsep=2pt]
+\item[G1. Closeness.] A citizen with no training can find out what the Chamber voted and how each deputy voted, in simple language, with the context needed to interpret it.
+\item[G2. Reach.] The site works on a cheap phone and a slow connection and never requires JavaScript to read a page.
+\item[G3. Integrity.] Anyone can detect whether a published file was changed after it was collected.
+\item[G4. Provenance.] Anyone can check which program, at which source revision and in which run, produced a published file, and that no person edited the output by hand.
+\item[G5. Time.] Anyone can check that a collection existed no later than a given moment, without trusting the project's clock or its hosting providers.
+\item[G6. History.] When the official source changes or removes a record, the earlier version stays available, and the change is itself recorded.
+\item[G7. Recomputation.] Every published number follows from the official files by a public rule that a reader can apply with tools unrelated to the project.
+\item[G8. Zero cost.] The system runs inside free allowances, so that it does not depend on a funder and can be replicated by anyone.
+\end{description}
+
+G1 and G2 are the purpose. G3 to G7 make the purpose credible. G8 keeps it alive: a transparency tool that stops when a grant ends does not serve the people it is for.
+
+\subsection{Adversaries and trust}
+
+We consider four adversaries.
+
+\emph{The operator.} The maintainer, or someone who takes over the maintainer's accounts, may want to alter a vote, a count or a date. This is the adversary a sceptical reader has in mind, and the main one the design addresses.
+
+\emph{The host.} The site is served by a CDN and the metrics by an object store. Either could serve altered files, by fault or under pressure.
+
+\emph{The network.} An attacker between the reader and the site may alter responses.
+
+\emph{The source.} The Chamber may correct, rewrite or remove records after publication. Most such changes are legitimate corrections, but a reader should be able to see them.
+
+The design does \emph{not} defend against a source that publishes false records from the start, nor against a compromise of the continuous-integration (CI) platform that runs the collector.
+
+\subsection{The trust gap}
+\label{sec:gap}
+
+It helps to state precisely what a reader of a conventional monitoring site takes on faith. Between the legislature's server and the reader's screen there is a chain of steps that only the operator sees:
+
+\begin{enumerate}[leftmargin=1.6em,itemsep=1pt]
+\item \emph{Which program} fetched the data, and whether it is the program the operator says it is.
+\item \emph{Whether that program ran unmodified}, on the day in question, or whether something else produced the output.
+\item \emph{Whether a person touched the output} between the program and the database.
+\item \emph{Whether the database was changed later}, after the reader, a journalist or a court relied on it.
+\item \emph{Whether the published number} was computed from that database by the rule the site describes.
+\end{enumerate}
+
+We call the sum of these the \emph{trust gap}. It exists even when the operator is honest and the code is open, because publishing source code shows what \emph{could} have run, not what \emph{did} run. An operator who publishes a scraper on a code-hosting site and runs it on a private server leaves steps 2 to 4 exactly as unverifiable as before.
+
+The design closes each step with a different mechanism, summarised in Table~\ref{tab:gap} and described in the rest of this section: open source for step~1; execution on a machine the operator does not control, certified by a third party, for steps~2 and~3; content addressing, public history and timestamps for step~4; and recomputation for step~5.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{4.3cm}>{\raggedright\arraybackslash}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+What the reader would have to believe & Conventional site & This design \\
+\midrule
+Which program fetched the data & The operator's description & Open source under the MIT licence; the commit is named in the attestation \\
+\addlinespace[3pt]
+That it ran unmodified & The operator's server, unseen & A fresh virtual machine hosted by the CI platform, which signs what ran \\
+\addlinespace[3pt]
+That nobody edited the output & The operator's word & Output digests signed inside the run, before any person can touch the files \\
+\addlinespace[3pt]
+That the database did not change later & The operator's word & Content-addressed files in a public history, anchored by a Bitcoin timestamp \\
+\addlinespace[3pt]
+That the number follows from the data & The operator's word & A public formula over the official files, recomputable by anyone \\
+\bottomrule
+\end{tabularx}
+\caption{The trust gap, step by step.}
+\label{tab:gap}
+\end{table}
+
+\section{System design}
+\label{sec:design}
+
+Figure~\ref{fig:pipeline} shows the two data paths. The \emph{collection path} takes a small, recent sample from the API every day and publishes it with the full chain of proofs. The \emph{lake path} processes the complete yearly bulk files since 2003 into versioned tables and aggregate metrics, without signatures: its numbers are checked by recomputation. Both run in the same public workflow file.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  font=\footnotesize,
+  node distance=5mm and 7mm,
+  box/.style={draw, rounded corners=2pt, align=center, inner sep=4pt, minimum height=8mm, fill=white},
+  ext/.style={box, fill=black!6},
+  proof/.style={box, dashed},
+  arr/.style={-{Stealth[length=2mm]}, semithick},
+  lbl/.style={font=\scriptsize, align=center}
+]
+\node[ext] (api) {C\^amara\\REST API};
+\node[ext, below=14mm of api] (bulk) {C\^amara\\yearly bulk files};
+
+\node[box, right=of api] (collect) {Collector\\(public CI run)};
+\node[box, right=of collect] (cas) {Content-addressed\\captures};
+\node[box, right=of cas] (manifest) {Manifest\\$M$, key $H(M)$};
+
+\node[proof, above=8mm of collect, xshift=12mm] (sig) {Sigstore attestation\\(Fulcio cert., Rekor log)};
+\node[proof, above=8mm of manifest, xshift=16mm] (ots) {OpenTimestamps\\(Bitcoin block)};
+
+\node[box, right=of bulk] (bronze) {Bronze\\files by SHA-256};
+\node[box, right=of bronze] (silver) {Silver\\SCD type 2};
+\node[box, right=of silver] (gold) {Gold\\metrics per batch};
+
+\node[ext, right=9mm of manifest, yshift=-11mm] (site) {Static site\\and metrics API};
+
+\draw[arr] (api) -- (collect);
+\draw[arr] (collect) -- (cas);
+\draw[arr] (cas) -- (manifest);
+\draw[arr] (bulk) -- (bronze);
+\draw[arr] (bronze) -- (silver);
+\draw[arr] (silver) -- (gold);
+\draw[arr] (manifest.east) -| (site.north);
+\draw[arr] (gold.east) -| (site.south);
+\draw[arr, dashed] ([xshift=-3mm]manifest.north east) -- ([xshift=-3mm]manifest.north east |- ots.south);
+\draw[arr, dashed] ([xshift=-6mm]manifest.north) |- node[lbl, pos=0.75, above] {digests} (sig.east);
+\draw[arr, dashed] (collect.north) -- node[lbl, left] {run identity} (collect.north |- sig.south);
+
+\node[lbl, below=1mm of collect] {schema checks,\\tests, redaction};
+\node[lbl, below=1mm of silver] {append-only};
+\end{tikzpicture}
+\caption{The two data paths. Solid arrows carry data. Dashed arrows carry digests into public infrastructure that the project does not control: a transparency log for the attestation and the Bitcoin blockchain for the timestamp.}
+\label{fig:pipeline}
+\end{figure}
+
+\subsection{Collection}
+\label{sec:collection}
+
+A scheduled workflow on GitHub-hosted runners starts the collector at 09:00 UTC (06:00 in Bras\'ilia) every day. The collector discovers the six bills with the most recent identifiers of the current year and the propositions affected by the eight most recent votings of the month, keeps every proposition collected on earlier days, and refreshes each one's detail, authors, official themes, related votings and individual votes.
+
+The collector treats the source as untrusted input. It accepts only HTTPS URLs on an explicit list of four Chamber hosts, with no port or credentials, and rejects API redirects. Every response is decoded against a schema; a response that does not match stops the run. Two records for the same deputy in the same voting stop the run instead of one being picked silently. Requests time out after 30 seconds and are retried at most twice with exponential backoff and jitter, honouring \texttt{Retry-After}. Output files are written through a temporary file and an atomic rename, and only after the whole collection has validated, so a failed run leaves the previous collection in place.
+
+Two fields are removed from vote captures before anything is stored: each deputy's e-mail address and photo URL. The removal is declared in a \texttt{redactions} list next to the capture, so that a reader does not mistake the capture for a byte-exact HTTP response.
+
+\subsection{Content addressing and the manifest}
+\label{sec:manifest}
+
+Each run produces a set of artifacts: one \emph{raw} capture per API response (the URL, the capture time and the decoded body), one \emph{normalized} snapshot that the site renders, and one \emph{legislative} dataset of propositions, votings and ballots. Let $H$ be SHA-256~\citep{fips180-4} and let $c(\cdot)$ be a canonical JSON encoding: object keys sorted recursively by code unit, two-space indentation, one trailing newline. The idea is the same as the JSON Canonicalization Scheme~\citep{rfc8785}, though the encoding is the project's own and is fixed by its source code. Each artifact $x$ of kind $k$ is stored under the key
+\[
+  \texttt{v1/}k\texttt{/}H(c(x))\texttt{.json},
+\]
+so equal values always get the same name and the same bytes, and a published object never changes. This is content addressing as used by IPFS and Trusty URIs~\citep{benet2014ipfs,kuhn2014trusty}.
+
+The run's manifest $M$ lists, for every artifact, its kind, key, digest and size, together with the creation time. The manifest is stored under $H(c(M))$. One 64-character string therefore commits to everything the run collected, in the manner of a one-level Merkle tree~\citep{merkle1988signature}. Since $c$ is injective and $M$ contains every artifact's digest, producing a different set of artifacts with the same manifest name would require exhibiting a collision of $H$, either between two manifests or between two artifacts. ``Different'' here means a different canonical encoding: two JSON values that differ only in the order of their keys are deliberately the same artifact. Appendix~\ref{app:lean} proves this reduction.
+
+\subsection{Closing the gap: public code on a public runner}
+\label{sec:attestation}
+
+Integrity alone does not answer the sceptical reader's question, because the operator could build a consistent manifest over edited files. The central design decision is therefore about \emph{where} the collector runs.
+
+It does not run on the maintainer's computer or on a server the maintainer rents. It runs on a runner hosted by the CI platform. Each such runner ``is a new virtual machine (VM) hosted by GitHub''~\citep{github-hosted-runners}, created from an image the platform publishes. The maintainer writes the code and the schedule and then has no access to the machine while it works: the platform checks out the public commit, installs the dependencies pinned by the lockfile, runs the collector, the tests and the checks, and produces the files. For public repositories this execution costs the project nothing (``use of the standard GitHub-hosted runners is free and unlimited on public repositories''~\citep{github-runners-reference}), and its logs are public: anyone can open a run and read, line by line, what was executed.
+
+The division of roles is what closes the gap. The maintainer \emph{authors} the collector; the platform \emph{executes} it; a signing service \emph{certifies} which code was executed and what it produced; a public log \emph{records} the certificate; and the result is committed to the repository by the platform's automation account, with a message that names the run. The maintainer never needs to handle a collected data file, and a data file the maintainer did handle is recognisable as such. This holds for the attested files only: the site's pages, the lake and the metrics are built or written outside this path, as the security analysis states.
+
+Open source is the other half. The attestation says ``commit \texttt{ea20c3a} of this repository produced this file''; that sentence is only useful because anyone can read commit \texttt{ea20c3a}. The code is under the MIT licence, its dependencies are fixed by a lockfile, and a reader who distrusts both the maintainer and the platform can fork the repository and run the identical workflow under their own account, as an independent witness.
+
+Concretely, the workflow asks the CI platform to attest the outputs.
+
+After the collector finishes, and only if tests, type checks and formatting checks pass, the workflow calls GitHub's artifact attestation action for three files: the manifest, the legislative dataset and the snapshot. An attestation binds a file digest to an in-toto statement with a SLSA provenance predicate~\citep{torresarias2019intoto,slsa12provenance}. It is signed with a key whose certificate is issued by Sigstore's certificate authority to the workflow's OpenID Connect identity and is valid for ten minutes~\citep{newman2022sigstore,fulcio}; the signature is recorded in the public Rekor transparency log~\citep{github-attestations}. The certificate carries the repository, the workflow file and branch, the commit and the run, and says whether the runner was hosted by GitHub.
+
+Because the manifest is one of the three attested files, the attestation covers every raw capture through its digest. All third-party actions in the workflow are pinned by commit hash, and every package, including the timestamping client and its dependencies, is installed from a frozen lockfile with integrity hashes. This matters because any step in the job could request the signing token: code resolved at run time would be code the attestation does not name. The commit does not fix everything, though: the runner image and the Node.js release are chosen by the platform at run time, and are trusted along with it.
+
+Anyone can repeat the check with the GitHub command-line tool:
+
+\begin{lstlisting}
+gh attestation verify legislativo.json -R c0utin/vigiadopovo \
+  --signer-workflow c0utin/vigiadopovo/.github/workflows/collect.yml \
+  --source-ref refs/heads/main --deny-self-hosted-runners
+\end{lstlisting}
+
+The last flag matters. Attestations can also be produced on runners controlled by the repository owner, so a verifier who wants protection from the operator must reject those explicitly. The project's verification guide prescribes exactly this command.
+
+A collection made on a developer's machine records \texttt{collector:\ null} in its provenance file, and the site then states that the collection has no origin attestation.
+
+\subsection{Time: anchoring the manifest in Bitcoin}
+\label{sec:time}
+
+The Rekor entry already carries a time, but it is asserted by the same parties that vouch for provenance. For a time bound that depends on none of them, the workflow anchors the manifest in Bitcoin.
+
+The Bitcoin blockchain is used here only as a public, append-only record that nobody controls~\citep{nakamoto2008bitcoin}. About every ten minutes a new \emph{block} is added. Its \emph{header}, 80 bytes long, contains the time at which it was produced, the hash of the previous header, and the root of a Merkle tree over the block's transactions. Thousands of independent nodes keep copies of all headers, and changing an old block would require redoing the proof of work of that block and of every block after it. A digest written into a transaction is therefore fixed in a header that the whole network holds, and the header's position in the chain bounds when it was written. No coins are moved and nothing about the data is revealed: only a 32-byte digest is committed.
+
+The workflow does this through OpenTimestamps~\citep{todd2016opentimestamps}, which makes it free. The client sends the manifest's digest to public calendar servers, which aggregate all digests received in a one-second interval into a Merkle tree and periodically commit a tree of those roots in a single Bitcoin transaction. This follows the linked time-stamping idea of \citet{haber1991timestamp}, with the blockchain as the widely witnessed record.
+
+The receipt is first \emph{pending}: it names the calendar that will complete it. Every later run executes the client's \texttt{upgrade} step on all earlier receipts, which replaces the pending reference with the full path of hash operations from the manifest digest to the Merkle root in a block header. A complete proof needs only the Bitcoin block headers to verify. A calendar cannot attach an existing proof to a different document without finding a collision of a hash function used in the proof, which in practice is SHA-256; at worst it fails to deliver a proof~\citep{todd2016opentimestamps}. The proof is about content, not time: the time bound comes from the block, as explained next.
+
+The proof shows that the manifest existed before the block was mined. Turning that into a date relies on the header's time, which miners set within loose limits: it must exceed the median of the previous eleven blocks and may be up to two hours ahead of network time~\citep{bitcoin-devref-blockchain,szalachowski2018timestamps}. Assuming honest miners, the header time is accurate to within about two hours in either direction, so the proof gives an upper bound on when the manifest existed, with a resolution of hours, and nothing about how long before. Proofs are stored outside the immutable \texttt{v1/} tree, because the upgrade step rewrites them.
+
+\subsection{Why not an on-chain verifier}
+\label{sec:onchain}
+
+An obvious alternative is to put the whole check on a programmable blockchain: a contract that verifies, for each collection, a proof that the data came from the Chamber's server, for instance a TLSNotary proof of the HTTPS session or a succinct zero-knowledge proof derived from it, and stores the result. We decided against it for four reasons, of which cost is the first.
+
+\emph{Every verification is paid for, every day, forever.} On Ethereum, checking a pairing-based proof costs 45,000 gas plus 34,000 gas per pairing~\citep{eip1108}, so the pairing check alone of a standard Groth16 verifier, which uses four pairings, costs 181,000 gas; storing each new 32-byte result costs another 20,000 gas, or 22,100 for a slot not yet touched in the transaction~\citep{eip2200,eip2929}. These are gas units, not money; their price in currency varies, but it is never zero, and it recurs with every collection. The system's daily collection, attestation and timestamp cost nothing (goal G8). A design that needs a funded wallet stops the day the wallet is empty, which is exactly the fragility that makes monitoring projects disappear.
+
+\emph{A wallet is a key, and a key is trust.} Paying for transactions requires the project to hold a private signing key, the one kind of secret the data path avoids: the attestations are signed with short-lived certificates issued to the workflow run. The project does hold storage and deployment credentials, which is precisely why the lake and the deployment are not trusted to the same degree. A wallet key would put the operator back in the data path, since whoever holds it decides what is submitted.
+
+\emph{The proof of origin still needs a trusted party.} TLSNotary works by adding a third party, a verifier, which takes part in the TLS connection through secure multi-party computation; its documentation states that the most practical way to use the data on-chain is to prove it to an off-chain verifier, and that ``trust is still required in the designated Verifier when it attests to the verified data on-chain''~\citep{tlsnotary-docs}. An on-chain contract would therefore check the signature of a notary, not the Chamber's server: it would move the trust, not remove it.
+
+\emph{The time guarantee is already available for free.} What a public blockchain adds that nothing else does is a widely witnessed, append-only order of events. OpenTimestamps obtains that property by committing one 32-byte digest per aggregation round, with the cost shared among all users of the calendars and paid by them, not by the project.
+
+The on-chain route is worth revisiting if the Chamber signs its responses, which would remove the notary, or if a public funder wants to pay for a permanent registry. Until then the system uses a blockchain only for what is cheap and necessary: a timestamp.
+
+\subsection{History: an append-only lake}
+\label{sec:lake}
+
+The yearly bulk files are rewritten by the Chamber whenever a record of that year changes. A republisher that keeps only the latest copy silently inherits every rewrite. The lake path keeps all of them.
+
+A Rust program downloads four files per year (votings, individual votes, leadership orientations, and the propositions each voting affects) and writes three layers, following the bronze, silver and gold convention of lakehouse systems~\citep{armbrust2021lakehouse}, as Apache Iceberg tables~\citep{iceberg-spec} on object storage. Nothing is updated or deleted; every write is an append.
+
+\emph{Bronze} stores each version of each file exactly as published, once, under its SHA-256, and records per batch the URL, digest, size, collection time and the list of JSON fields the file contained. If the Chamber renames or removes a field the pipeline reads, the year fails with an explicit error instead of filling the column with nulls as though the data had changed.
+
+\emph{Silver} stores typed records as a slowly changing dimension of type~2~\citep{kimball2013toolkit}. A row is one version of one record, identified by a key (for a vote, the voting identifier and the deputy identifier). It carries a content hash, defined as the SHA-256 of the compact JSON array of the record's content columns in table order, an operation code, and the batch in which the version was seen. The operation is \texttt{I} for a new record, \texttt{A} for changed content, and \texttt{R} for a record that left the official file, stored as a tombstone with null content. The state of the record at any instant is its latest version up to that instant. A reader with catalog access can ask what a given vote looked like on a given day.
+
+\emph{Gold} stores the aggregates the site publishes. Each gold row names its \emph{batch}, the SHA-256 of the year's four sorted \texttt{file:sha256} lines. A published metric is thereby tied to the exact bytes of the official files it came from. A year whose files have not changed since the last batch is skipped.
+
+The lake runs as a separate job after the attested collection and cannot block it. Its outputs are not attested; their link to the source is the file digests, which a reader compares against the Chamber's current files.
+
+\subsection{Metrics with public formulas}
+\label{sec:metrics}
+
+The site publishes three families of numbers for every year since 2003: votings per month, each deputy's votes by body and position, and the \emph{alignment} of each party with four leaderships that issue voting orientations on most floor votes (Government, Opposition, Majority and Minority).
+
+Let $V=\{\text{Sim},\text{N\~ao},\text{Absten\c{c}\~ao},\text{Obstru\c{c}\~ao}\}$ be the registered positions; absences and the vote of the presiding deputy are outside $V$. Let $\mathcal{V}_{b,a}$ be the individual votes cast in year $a$ in votings where leadership $b$ oriented Sim or N\~ao, and write $\mathrm{orientation}_b(v)$ for that orientation in the voting of vote $v$. For party $p$,
+\begin{equation}
+\label{eq:alignment}
+\mathrm{alignment}(p,b,a)=
+\frac{\bigl|\{v\in\mathcal{V}_{b,a} : \mathrm{party}(v)=p,\ \mathrm{vote}(v)\in V,\ \mathrm{vote}(v)=\mathrm{orientation}_b(v)\}\bigr|}
+     {\bigl|\{v\in\mathcal{V}_{b,a} : \mathrm{party}(v)=p,\ \mathrm{vote}(v)\in V\}\bigr|}.
+\end{equation}
+The party is the one registered on each vote, so a deputy who changes party during the year is counted under each. An absence is never counted as a vote. The ratio is undefined when the denominator is zero. The site publishes the numerator and the denominator, not only the ratio. Because the orientation is always Sim or N\~ao, both of which are in $V$, the numerator never exceeds the denominator. Leaderships are identified by their label in the orientation file; the Government leadership appears in the files as both ``GOV.'' and ``Governo'', and the two labels are treated as one. Since orientations are only Sim or N\~ao, an abstention or an obstruction always counts as not coinciding. Appendix~\ref{app:lean} proves that the numerator never exceeds the denominator, that both counts ignore the order of the records and any absences, and that the denominators of all parties add up to the total number of registered votes in the votings the leadership oriented.
+
+The measure is deliberately modest. It is a count of coincidences with a public orientation, close to the roll-call agreement scores long used in the study of Brazilian coalition politics~\citep{figueiredo1999executivo}. It is not an ideal-point estimate~\citep{poole1997congress,clinton2004statistical}, and the site says in each response that coinciding with an orientation does not mean supporting the merit of a bill. The project does not compute each party's alignment with its own leadership, because many parties orient through federations or blocs whose names are truncated in the source, and a join by party label would drop those votes without warning.
+
+The metrics are served by an edge function that executes no query and holds no secret: it validates the year, identifier and leadership against closed lists and returns a slice of a precomputed JSON file. Visitors cannot trigger computation.
+
+\subsection{A deterministic, replayable score}
+\label{sec:quality}
+
+The project also implements, but does not publish, a ranking of sitting deputies that scores only outcomes: a bill earns points when the Chamber approves it or when it becomes law, weighted by the kind of norm, reduced for honorific bills and divided among its authors. Filing a bill earns nothing. The scoring function is pure: it reads no clock, network, random source or locale, sorts its input by each bill's identifier, which the Chamber assigns uniquely, before use, and publishes the digests of its exact input and output, so that anyone can replay it and obtain the same bytes~\citep{peng2011reproducible,lamb2022reproducible}. It also reports how each rank moves under alternative weightings. We do not evaluate the ranking here; its risks are discussed with the social impact.
+
+\subsection{Simple language, context and summaries}
+\label{sec:plain}
+
+Pages are prerendered and lead with the answer: what was voted, who voted how. Reading a bill page, the method page or the transparency page requires no JavaScript. The site describes itself as explaining the Chamber in \emph{linguagem simples}, the term of the national policy~\citep{brasil2025lei15263}: short sentences, common words and the most important information first. Each vote is shown with its context: the bill it concerns, its official summary and the result, and, on the metrics pages, how each party has voted relative to the leaderships' orientations over the years. Each bill shows the official summary (\emph{ementa}) and, when one exists, a short explanation in simple language generated by a language model.
+
+Generated text is the part of the site that cannot be verified, so it is fenced. A summary covers only the official summary text, never the full bill. It is bound to its source by the SHA-256 of the pair (bill identifier, official summary): if the Chamber changes the summary, the hash no longer matches, the explanation is withdrawn and the bill returns to a queue. Each explanation is labelled as machine-generated and not reviewed by a person. The explanations reach the collector as a file that the maintainer commits, so the label is the operator's declaration: the attestation proves which explanations were published, not who or what wrote them. No model produces any number on the site.
+
+The site also offers its content as plain text (an index file and Markdown versions of its pages) for readers who use AI assistants, on the reasoning that a model answering a question about a vote should be handed the official record and its caveats instead of recalling them.
+
+\subsection{Deployment and cost}
+\label{sec:deploy}
+
+The site is a static bundle served from a CDN's free tier. The collection, attestation and timestamping run on free CI minutes for public repositories. The lake uses an object store's free allowance; before any write, a budget check reads the month's real usage from the provider's analytics API and stops the job when any allowance reaches 80\%. Visitor traffic cannot create a bill. Static pages do not invoke the edge function; the function is capped by its free plan at 100,000 requests a day, after which requests fail; and it reads the object store at most twice per request (once, except in early January, when a request without a year falls back to the previous year), which bounds reads at about 3.1 million a month against an allowance of 10 million.

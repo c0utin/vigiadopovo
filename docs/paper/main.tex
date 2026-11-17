@@ -1,0 +1,173 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[margin=2.6cm]{geometry}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{textcomp}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=1.17}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true,columns=fullflexible,frame=single,framesep=3pt,rulecolor=\color{black!25},xleftmargin=4pt,xrightmargin=4pt,extendedchars=true,upquote=true,literate={ã}{{\~a}}1 {ç}{{\c{c}}}1 {é}{{\'e}}1}
+\setlength{\emergencystretch}{2em}
+
+\title{\textbf{Check It Yourself:\\ Verifiable Legislative Transparency\\ in Simple Language for Brazil's Chamber of Deputies}}
+\author{Rafael Coutinho\\[2pt]
+{\small Independent researcher, Brazil}\\
+{\small\texttt{rafaelcouto111@gmail.com}}}
+\date{November 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent
+Most Brazilians cannot name a single member of the Chamber of Deputies, and the intermediaries that could bring the legislature closer are distrusted, in a country whose last two presidential elections ended in disputes over whether the official record could be believed. We present \emph{Vigia do Povo}, an open-source site that tells citizens, in simple language and with context, what the Chamber votes and how each deputy voted, and that is built so that readers need not trust its operator for the data it publishes. The collector is open source and runs on a machine hosted by the CI platform, not by the maintainer; each daily collection is content-addressed with SHA-256, attested through Sigstore to the public code and run that produced it, and timestamped in the Bitcoin blockchain with OpenTimestamps. The yearly files since 2003 are kept in an append-only data lake, and every metric is a public formula that anyone can recompute from the Chamber's own files. We state precisely what this proves: the daily collection carries signed provenance and a timestamp, the historical metrics are checkable by recomputation rather than by signature, and, because the Chamber does not sign its data, no proof reaches back to what the Chamber said. We prove the underlying commitment properties and the metric's basic properties in Lean, and explain why the system avoids an on-chain verifier. Using only public data, we verified the attestations of the current collection, all 254 of its file digests and twelve timestamps, confirmed that a tampered file is rejected, and recomputed 363 published rows of the metric from 336,089 official vote records with independent code, finding no difference. Drawing on experimental evidence that information alone rarely changes votes, we argue that the realistic value of verifiability lies with journalists, fact-checkers and other intermediaries, discuss the risks of machine-written summaries, and call on legislatures to sign the data they publish.
+\end{abstract}
+
+\noindent\textbf{Keywords:} legislative transparency; data provenance; Sigstore; trusted timestamping; formal verification; civic technology; disinformation; Brazil.
+
+\input{sections/intro}
+\input{sections/context}
+\input{sections/related}
+\input{sections/design}
+\input{sections/implementation}
+\input{sections/security}
+\input{sections/evaluation}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\section*{Availability}
+
+The source code is published under the MIT licence at \url{https://github.com/c0utin/vigiadopovo}, and the site is at \url{https://vigiadopovo.rafaelcouto111.workers.dev}. The verification guide followed in the evaluation is the file \texttt{VERIFY.md} of the repository. All data are official records of the C\^amara dos Deputados. The Lean proofs of Appendix~\ref{app:lean} are in the directory \texttt{docs/paper/lean} of the same repository. The measurements in this paper refer to the repository and the site as of 16 November 2026; all web sources in the references were accessed on that date.
+
+\section*{Ethics}
+
+The system processes only public records of public officials acting in their official capacity, and removes contact details from what it stores. It carries no advertising and no tracking. The project is not affiliated with the C\^amara dos Deputados, any party, government or company, and makes no voting recommendation.
+
+\section*{Use of AI tools}
+
+An AI assistant (Claude, by Anthropic) was used to draft this manuscript, to search for and check the references, to run the measurements under the author's direction, and to write the Lean proofs, which were checked by the Lean kernel. The author reviewed the text and takes full responsibility for its content. The site's bill summaries in simple language are also machine-generated, as described in the design.
+
+\bibliographystyle{abbrvnat}
+\bibliography{references}
+
+\appendix
+\section{Machine-checked proofs}
+\label{app:lean}
+
+The mathematical claims of the design are proved in Lean~4~\citep{moura2021lean4}, using only the core library, with no unproved steps (\texttt{sorry}) and no axioms beyond Lean's standard ones (propositional extensionality, choice and quotient soundness). The proofs are in \texttt{docs/paper/lean} of the repository and are checked with \texttt{lake build \&\& lake env lean CheckAxioms.lean} on Lean~4.36.0.
+
+The security results are reductions. The hash function $H$ is an arbitrary function, never assumed injective; a \emph{collision} is a pair $x\neq y$ with $H(x)=H(y)$; and each theorem shows that a successful attack exhibits one. The canonical encodings of artifacts and manifests, and the concatenation in the hash chain, are assumed injective. Table~\ref{tab:lean} lists the main theorems.
+
+\begin{table}[ht]
+\centering
+\small
+\begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{5.8cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Theorem (file) & Statement \\
+\midrule
+\texttt{content\_address\_collision} (Commitment) & Two different artifacts stored under the same key have encodings that collide under $H$. \\
+\addlinespace[2pt]
+\texttt{manifest\_collision} (Commitment) & Two runs with the same manifest name and different artifact lists give a collision of $H$, between the two manifests or between two artifacts at the same position. \\
+\addlinespace[2pt]
+\texttt{chain\_collision\_same\_length} (HashChain) & Two batch histories of equal length with the same head and different contents give a collision of $H$. \\
+\addlinespace[2pt]
+\texttt{chain\_collision\_or\_preimage} (HashChain) & For any lengths, the same holds with ``a collision of $H$ or a preimage of $h_0$''. \\
+\addlinespace[2pt]
+\texttt{chain\_extension\_counterexample} (HashChain) & The preimage case cannot be dropped: if $h_0=H(h_0\|b)$, the empty history and a one-batch history share a head, even with no collision. \\
+\addlinespace[2pt]
+\texttt{run\_collision} (Timestamp) & If one timestamp path takes two different digests to the same root, one of the hash functions in the path has a collision. \\
+\addlinespace[2pt]
+\texttt{numer\_le\_denom}, \texttt{alignment\_mem\_unit} (Alignment) & The numerator of Equation~\ref{eq:alignment} is at most its denominator, so the ratio lies in $[0,1]$ when defined. \\
+\addlinespace[2pt]
+\texttt{numer\_perm}, \texttt{denom\_perm} (Alignment) & Both counts are unchanged by any reordering of the records. \\
+\addlinespace[2pt]
+\texttt{numer\_filter\_V}, \texttt{denom\_filter\_V} (Alignment) & Adding or removing records whose position is outside $V$, such as absences, changes neither count. \\
+\addlinespace[2pt]
+\texttt{sum\_denom}, \texttt{sum\_numer} (Alignment) & Over a list of distinct parties that covers every record, the denominators add up to all registered votes in votings the leadership oriented Sim or N\~ao, and the numerators to all coinciding votes. \\
+\addlinespace[2pt]
+\texttt{score\_independent\_of\_order} (Score) & With unique identifiers, any function applied after sorting by identifier gives the same output for every input order. \\
+\addlinespace[2pt]
+\texttt{sortById\_needs\_unique\_ids} (Score) & With a repeated identifier, the sorted result can depend on input order. \\
+\bottomrule
+\end{tabularx}
+\caption{Main theorems of the Lean development.}
+\label{tab:lean}
+\end{table}
+
+Formalising the claims sharpened four statements in the text: the manifest commits to its artifacts only if the encodings are injective and the manifest lists every digest; the hash chain needs a fixed $h_0$ and an injective concatenation; a timestamp is only as strong as the weakest hash function in its path; and the score is independent of input order only because identifiers are unique. Two of the alignment results are immediate from the definitions: the numerator is at most the denominator because Equation~\ref{eq:alignment} counts only votes in $V$, and the official vote files contain no absence records, so the results about positions outside $V$ guard against a format change rather than describe current data. The score is modelled as one list sorted by identifier, while the implementation sorts its two inputs, bills and documents, separately; the result applies to each. The alignment model assumes one orientation per vote record, so the join of votes with orientations is outside it. The proofs do not cover floating-point rounding, and they concern the constructions, not the project's source code.
+
+\section{Yearly coverage of the lake}
+\label{app:years}
+
+Table~\ref{tab:years} gives, for each year, the figures published by the site's metrics API on 16 November 2026. ``Recorded'' counts votings with individual vote records in the official files. ``Government-oriented votes'' counts registered votes in votings where the Government leadership oriented Sim or N\~ao, the denominator of Equation~\ref{eq:alignment} summed over parties; the last column is the share of those that coincide with the orientation.
+
+\begin{table}[ht]
+\centering
+\small
+\input{data/yeartable}
+\caption{Coverage by year. The year 2026 is partial.}
+\label{tab:years}
+\end{table}
+
+\section{Reproducing the checks}
+\label{app:repro}
+
+The verification described in the evaluation, for a manifest digest \texttt{\$HASH} read from the site's transparency page:
+
+\begin{lstlisting}
+SITE=https://vigiadopovo.rafaelcouto111.workers.dev
+REPO=c0utin/vigiadopovo
+curl -fsSLO "$SITE/pipeline/v1/manifests/$HASH.json"
+gh attestation verify "$HASH.json" -R "$REPO" \
+  --signer-workflow "$REPO/.github/workflows/collect.yml" \
+  --source-ref refs/heads/main --deny-self-hosted-runners
+echo "$HASH  $HASH.json" | sha256sum -c -
+jq -r '.artifacts[] | "\(.sha256) \(.key)"' "$HASH.json" |
+while read -r sha key; do
+  curl -fsSL "$SITE/pipeline/$key" -o artifact.json
+  echo "$sha  artifact.json" | sha256sum -c --quiet - || echo "MISMATCH $key"
+done
+curl -fsSLO "$SITE/pipeline/timestamps/$HASH.json.ots"
+npx -y -p opentimestamps@0.4.9 ots-cli.js verify -f "$HASH.json" "$HASH.json.ots"
+\end{lstlisting}
+
+The recomputation described in the evaluation, for the Government leadership in 2019, in SQL over the Chamber's files (shown here for DuckDB), should return the same counts as the site's API at \texttt{/api/metricas/alinhamento?ano=2019\&bancada=Governo}:
+
+\begin{lstlisting}
+WITH votos AS (
+  SELECT unnest(dados, recursive := true) FROM read_json(
+   'https://dadosabertos.camara.leg.br/arquivos/votacoesVotos/json/votacoesVotos-2019.json',
+   maximum_object_size = 500000000)),
+orientacoes AS (
+  SELECT unnest(dados, recursive := true) FROM read_json(
+   'https://dadosabertos.camara.leg.br/arquivos/votacoesOrientacoes/json/votacoesOrientacoes-2019.json',
+   maximum_object_size = 500000000))
+SELECT v.siglaPartido AS partido, count(*) AS votos,
+       count(*) FILTER (WHERE v.voto = o.orientacao) AS alinhados
+FROM votos v JOIN orientacoes o ON o.idVotacao = v.idVotacao
+WHERE upper(o.siglaBancada) IN ('GOV.', 'GOVERNO')
+  AND o.orientacao IN ('Sim', 'Não')
+  AND v.voto IN ('Sim', 'Não', 'Abstenção', 'Obstrução')
+GROUP BY partido ORDER BY votos DESC;
+\end{lstlisting}
+
+The three largest rows are PSL 10,793 votes of which 10,530 coincide, PT 9,214 and 1,955, and PSD 6,814 and 6,146.
+
+\end{document}

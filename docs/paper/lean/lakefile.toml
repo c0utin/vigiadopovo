@@ -1,0 +1,5 @@
+name = "paper-proofs"
+defaultTargets = ["PaperProofs"]
+
+[[lean_lib]]
+name = "PaperProofs"

@@ -1,0 +1,52 @@
+\section{Social impact: what verifiability can and cannot do}
+\label{sec:discussion}
+
+It would be easy to end a paper like this with the claim that cryptographic proofs restore trust in politics. The evidence does not support that claim, and this section tries to state the expected impact with the same care as the security claims.
+
+\subsection{What changes}
+
+\emph{The question changes from ``whom do you believe?'' to ``did you check?''.} When two people disagree about how a party voted, a conventional site offers its reputation. This one offers a procedure: the official files, their digests, a formula, and a count that either reproduces or does not. The procedure gives the same answer to a supporter of either side. In a polarised country where each side assumes the other's sources are captured, a number that does not depend on a source's good faith is a different kind of object.
+
+\emph{An edit leaves evidence.} The common suspicion about a politically sensitive site is that someone will quietly adjust it. Here a quiet adjustment is detectable by anyone, as the tamper test showed, and the published history shows when the official record itself changed. For the attested data, the operator's honesty stops being an assumption and becomes an observable; the pages that present it are still built by the operator.
+
+\emph{The record outlives the project.} Monitoring organisations close and their archives vanish. A manifest and its timestamp proof remain verifiable with no surviving party.
+
+\emph{The source is put on the spot.} Once every later step is provable, the one unproven step is conspicuous: the Chamber does not sign what it publishes. The declaration of parliamentary monitoring organisations already asks parliaments to ``guarantee that the information [they release] to the public is accurate''~\citep{openingparliament2012declaration}. Signed responses are a small technical measure with which a legislature could meet that request, and a design like ours shows what it would enable.
+
+\subsection{What does not change}
+
+\emph{Information alone rarely changes votes.} The largest coordinated test of the idea, six randomised trials in five countries including Brazil, found ``no evidence overall that typical, nonpartisan voter information campaigns shape voter behavior''; the pooled effect on the incumbent's vote was statistically indistinguishable from zero for both good and bad news~\citep{dunning2019metaketa}. In the Brazilian trial, voters strongly sanctioned malfeasant mayors in hypothetical scenarios and took no action when given the same information about their own mayor~\citep{boas2019norms}. The closest experiment to a legislator scorecard, covering every member of Uganda's parliament, found no change in members' behaviour and no effect on re-election; only one voter in eight had heard of the scorecard~\citep{humphreys2012policing}.
+
+\emph{Where disclosure did matter, an intermediary carried it.} The release of municipal audits in Brazil reduced the re-election of mayors with reported violations, and the effect was larger where local radio existed to spread the findings~\citep{ferraz2008exposing}. In the United States, members of Congress who receive less local press coverage work less for their constituencies~\citep{snyder2010press}. Transparency produces accountability only through actors able to use it and sanctions able to follow it~\citep{fox2007uncertain,fung2007full,peixoto2016when}.
+
+\emph{Disclosure can also harm.} Corruption information lowered turnout in Mexico: voters withdrew instead of sanctioning~\citep{chong2015corruption}. Transparency experiments have found weak and sometimes negative effects on trust in government~\citep{grimmelikhuijsen2013effect}. \citet{lessig2009against} warned that raw legislative data invites spurious readings that an inattentive audience cannot correct, and that the result is cynicism. A country in which two voters in three cannot name a deputy is exposed to exactly that.
+
+\emph{Proofs do not persuade people who believe a falsehood.} The correction literature reviewed earlier gives no reason to think that a digest will move someone whom a fact-check did not.
+
+From this evidence we draw a modest theory of change. The realistic users of verifiable legislative data are not the median voter but the intermediaries who reach voters: journalists, fact-checkers, teachers, researchers, advocacy groups and, increasingly, AI assistants. For them, a figure that can be cited with a proof is cheaper to use and harder to attack. Whether this improves what reaches citizens is an empirical question that this paper does not answer.
+
+We are also unable to measure it. The site uses no analytics, no cookies and no accounts, as a matter of privacy; the hosting platform keeps short-lived request logs for the metrics API, for debugging, which we did not analyse. We therefore have no data on who uses the site or how. We report no usage figures because none exist.
+
+\subsection{Who can verify}
+\label{sec:whoverifies}
+
+``Anyone can verify'' is true in the sense that no permission is needed. In practice, the verification we carried out needs a command line, a GitHub account and familiarity with digests, in a country where 29\% of adults are functionally illiterate~\citep{inaf2024} and a sixth of the population is offline~\citep{carro2026brazil}. Verifiability is exercised by a few on behalf of the many, as with open-source software and published science. Its value to the many depends on the few existing, being independent, and being heard.
+
+The project takes one unusual step to widen that group. Its verification guide is written for AI agents: it tells an assistant how to run each check for a user, to report each as passed, failed or not checked, never to report a check it did not run, and to say plainly what a passing check does not mean. A person who cannot use a terminal can ask an assistant that can. This moves the trust to the assistant, which is not the same as removing it, but assistants are many and independent of the project. We consider this a promising and untested idea.
+
+\subsection{Risks of the system itself}
+\label{sec:risks}
+
+\emph{A proof can be mistaken for the truth.} A badge that says ``attested'' and ``timestamped'' may be read as ``certified by the Chamber'' or ``the summary is correct''. Neither follows (Table~\ref{tab:claims}). A system that proves some things rigorously carries a duty to be loud about what it does not prove; the site and its guide repeat these limits, and we cannot say whether readers absorb them.
+
+\emph{Rankings.} The project's unpublished legislative-quality score invites every objection raised against rankings. Counting only approved bills avoids rewarding volume and symbolic bills, but approval depends on belonging to the majority: an opposition deputy can work hard and score nothing. Deputies' ambitions often lie outside the legislature altogether~\citep{samuels2003ambition}. The word ``quality'' is a judgement that no formula earns. And if the ranking were ever to matter, Campbell's law predicts it would be gamed~\citep{campbell1979assessing}, as speaking counts were in the United Kingdom~\citep{korthagen2020parliamentary}. Publishing rank ranges under alternative weights and every component of every score is a mitigation, not an answer. An operator with long experience chose to stop publishing rankings~\citep{parsons2020publishing}; that choice deserves weight before this one is released.
+
+\emph{Alignment misread as loyalty or merit.} Coincidence with the Government's orientation is not support for the content of a bill, and a low figure is not obstruction. The site says so in every response. The metric also ignores absences, which can themselves be a tactic.
+
+\emph{Generated summaries.} Abstractive summarisers are ``highly prone to hallucinate content that is unfaithful to the input document''~\citep{maynez2020faithfulness}; general-purpose language models hallucinated on at least 58\% of legal queries in one study~\citep{dahl2024large}, and specialised legal tools on 17\% to 33\%~\citep{magesh2025hallucination}. We found no peer-reviewed evaluation of machine-written simple-language summaries of bills for citizens. The project's summaries are unreviewed. Restricting them to the official one-paragraph summary, binding them to it by hash and labelling them limits the damage; it does not make them reliable. Yet simple language is not optional for the audience described above, and ballot-measure research shows that harder wording makes more voters skip a question~\citep{reilly2011ballot}. Human review of each summary is the obvious next step.
+
+\emph{Selection is editorial.} Deciding to show the six most recent bills, or alignment with the Government before any other metric, shapes what readers think matters. Neutrality of data is not neutrality of emphasis.
+
+\emph{Personal data.} Legislators' names and votes are public by design and necessary for the purpose. The system removes e-mail addresses and photo URLs from captures and publishes no identity numbers, birth dates or contact details, following the data-minimisation logic of Brazil's data-protection law, which requires that the processing of publicly accessible personal data consider the purpose, good faith and public interest that justified making it available~\citep{brasil2018lgpd}.
+
+\emph{Dependence on foreign platforms.} Collection, signing and hosting rely on a small number of companies outside Brazil, any of which could change terms or withdraw service. The design limits the damage: the proofs already issued remain valid, the code is open, and anyone can run the same workflow elsewhere. It does not remove the dependence.
