@@ -1,7 +1,128 @@
 {
-  "collectedAt": "2026-11-17T18:21:12.683Z",
+  "collectedAt": "2026-11-18T17:54:31.662Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2655202,
+      "label": "PL 5896/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+      "presentedAt": "2026-11-18T12:29",
+      "status": {
+        "dataHora": "2026-11-18T12:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5896/2026 (Projeto de Lei), pelo Deputado Carlos Chiodini (MDB/SC), que \"Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”\"."
+      },
+      "authors": [
+        {
+          "name": "Carlos Chiodini",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655202",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198392",
+      "votes": [],
+      "sourceHash": "744eaa34c493a0fc0a8c907372f5fe6ef2ea51b3706e50282e255daef9eb74c3",
+      "summary": null
+    },
+    {
+      "id": 2655184,
+      "label": "PL 5895/2026",
+      "type": "Projeto de Lei",
+      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+      "presentedAt": "2026-11-18T11:13",
+      "status": {
+        "dataHora": "2026-11-18T11:13",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5895/2026 (Projeto de Lei), pelo Deputado Luiz Carlos Motta (PL/SP), que \"institui o marco nacional de proteção, defesa e reconhecimento dos trabalhadores do comércio e estabelece diretrizes para a política nacional de valorização e desenvolvimento profissional da categoria\"."
+      },
+      "authors": [
+        {
+          "name": "Luiz Carlos Motta",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655184",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198350",
+      "votes": [],
+      "sourceHash": "935e354e996aa5d0e55c72e36154f587ba08c7e7dae2103b6375656d0ba05ba9",
+      "summary": null
+    },
+    {
+      "id": 2655134,
+      "label": "PL 5894/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
+      "presentedAt": "2026-11-18T10:00",
+      "status": {
+        "dataHora": "2026-11-18T10:00",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5894/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo\"."
+      },
+      "authors": [
+        {
+          "name": "Rubens Pereira Júnior",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655134",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655134",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198161",
+      "votes": [],
+      "sourceHash": "976681d0df8c87d4f4dac2ec776ca5dbeeb8a1f2a21122f6aaa21172aab3725e",
+      "summary": null
+    },
+    {
+      "id": 2655025,
+      "label": "PL 5893/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+      "presentedAt": "2026-11-18T09:00",
+      "status": {
+        "dataHora": "2026-11-18T09:00",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5893/2026 (Projeto de Lei), pela Deputada Tabata Amaral (PSB/SP), que \"Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal\"."
+      },
+      "authors": [
+        {
+          "name": "Tabata Amaral",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655025",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198040",
+      "votes": [],
+      "sourceHash": "47ca67971b8570bffca9b1a95709281ebb41361e3815769ffd399017bc0f4768",
+      "summary": null
+    },
     {
       "id": 2654578,
       "label": "PL 5881/2026",
@@ -169,7 +290,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654371",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196927",
@@ -408,11 +542,11 @@
       "ementa": "Institui a Lei Manfred e Marisia von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências.",
       "presentedAt": "2026-11-16T13:57",
       "status": {
-        "dataHora": "2026-11-16T13:57",
+        "dataHora": "2026-11-17T17:46",
         "descricaoSituacao": null,
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "descricaoTramitacao": "Apresentação de Requerimento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5861/2026 (Projeto de Lei), pelo Deputado Sanderson (PL/RS), que \"Institui a Lei Suzane Von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências\"."
+        "despacho": "Apresentação do REQ n. 4482/2026 (Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual), pelos Deputados Célio Studart (PSD/CE) e Sanderson PL        , que \"Requer a inclusão de coautoria no Projeto de Lei nº 5861/2026, que institui a Lei Manfred e Marisia von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências, de autoria do Dep. Sanderson (PL/RS)\"."
       },
       "authors": [
         {
@@ -473,6 +607,46 @@
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196374",
       "votes": [],
       "sourceHash": "8997fde42d6c50d9071093a7e2548a8415dc58bfaf3b9e84e070011768fc0797",
+      "summary": null
+    },
+    {
+      "id": 2655132,
+      "label": "PL 2423/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "presentedAt": "2026-11-13T18:37",
+      "status": {
+        "dataHora": "2026-11-13T18:37",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 2423/2026 (Projeto de Lei), pelo Senado Federal, que \"Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás\"."
+      },
+      "authors": [
+        {
+          "name": "Senado Federal - Vanderlan Cardoso",
+          "type": "Órgão do Poder Legislativo"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655132",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198159",
+      "votes": [],
+      "sourceHash": "8c68485f13f21e80a4ca0c912006aa8a02e8232a1375e51476d6265c08dd72dc",
       "summary": null
     },
     {
@@ -1985,6 +2159,46 @@
       "summary": null
     },
     {
+      "id": 2655116,
+      "label": "PL 3768/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Prêmio Nacional da Educação Brasileira (PNEB).",
+      "presentedAt": "2026-11-13T18:28",
+      "status": {
+        "dataHora": "2026-11-13T18:28",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 3768/2026 (Projeto de Lei), pelo Senado Federal, que \"Institui o Prêmio Nacional da Educação Brasileira (PNEB)\"."
+      },
+      "authors": [
+        {
+          "name": "Senado Federal -  Camilo Santana",
+          "type": "Órgão do Poder Legislativo"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655116",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198137",
+      "votes": [],
+      "sourceHash": "28ccd6b168d76f61258fc3592d2b4ce078a93d10e4e5bfcb247360a71252a3db",
+      "summary": null
+    },
+    {
       "id": 2653822,
       "label": "PL 5851/2026",
       "type": "Projeto de Lei",
@@ -2477,6 +2691,74 @@
       "summary": null
     },
     {
+      "id": 2652524,
+      "label": "PRC 50/2026",
+      "type": "Projeto de Resolução",
+      "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+      "presentedAt": "2026-11-10T19:20",
+      "status": {
+        "dataHora": "2026-11-17T18:17",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
+        "siglaOrgao": "MESA",
+        "despacho": "Às Comissões deMesa Diretora da Câmara dos Deputados eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação do Plenário.Regime de Tramitação: Urgência (Art. 155, RICD)."
+      },
+      "authors": [
+        {
+          "name": "Soraya Santos",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652524",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3193174",
+      "votes": [
+        {
+          "id": "2652524-18",
+          "date": "2026-11-17",
+          "description": "Aprovada a Redação Final, assinada pelo relator, Dep. Lula da Fonte (PP/PE).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-18"
+        },
+        {
+          "id": "2652524-16",
+          "date": "2026-11-17",
+          "description": "Aprovado o Projeto de Resolução nº 50, de 2026.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-16"
+        },
+        {
+          "id": "2654009-7",
+          "date": "2026-11-17",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7"
+        }
+      ],
+      "sourceHash": "8d7f080ce8b95f256cd17d653f3fcd32be4abaff5710db554b66db91fd083d47",
+      "summary": null
+    },
+    {
       "id": 2651409,
       "label": "PL 5796/2026",
       "type": "Projeto de Lei",
@@ -2564,7 +2846,7 @@
       "presentedAt": "2026-11-09T11:08",
       "status": {
         "dataHora": "2026-11-09T11:08",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5794/2026 (Projeto de Lei), pelo Deputado Raimundo Santos (PSD/PA), que \"Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas\"."
@@ -2730,7 +3012,7 @@
       "presentedAt": "2026-11-06T11:10",
       "status": {
         "dataHora": "2026-11-06T11:10",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5786/2026 (Projeto de Lei), pela Deputada Clarissa Tércio (PP/PE), que \"Altera a Lei nº 12.594, de 18 de janeiro de 2012, para vedar a visita íntima a adolescente privado de liberdade no âmbito do Sistema Nacional de Atendimento Socioeducativo (Sinase), e revoga o art. 68 da mesma Lei\"."
@@ -2816,7 +3098,7 @@
       "presentedAt": "2026-11-05T17:36",
       "status": {
         "dataHora": "2026-11-05T17:36",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5784/2026 (Projeto de Lei), pela Deputada Renilce Nicodemos (MDB/PA), que \"Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências\"."
@@ -2936,7 +3218,7 @@
       "presentedAt": "2026-11-05T13:44",
       "status": {
         "dataHora": "2026-11-05T13:44",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5778/2026 (Projeto de Lei), pelo Deputado Leo Prates (REPUBLIC/BA), que \"Dispõe sobre a obrigatoriedade da presença de Agentes de Proteção da Infância e Juventude em eventos públicos de grande porte, estabelece medidas de prevenção à violação dos direitos de crianças e adolescentes e dá outras providências\"."
@@ -2982,7 +3264,7 @@
       "presentedAt": "2026-11-05T12:12",
       "status": {
         "dataHora": "2026-11-05T12:12",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5777/2026 (Projeto de Lei), pelo Deputado Pastor Sargento Isidório (AVANTE/BA), que \"Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional. \"."
@@ -3062,7 +3344,7 @@
       "presentedAt": "2026-11-05T10:31",
       "status": {
         "dataHora": "2026-11-05T10:31",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5775/2026 (Projeto de Lei), pelo Deputado Alexandre Lindenmeyer (PT/RS -Fdr PT-PCdoB-PV), que \"Institui a Política Nacional de Valorização da Música Autoral em feiras, festivais, mostras culturais e demais eventos públicos realizados ou apoiados com recursos da União, e dá outras providências\"."
@@ -3244,7 +3526,7 @@
       "presentedAt": "2026-10-29T14:09",
       "status": {
         "dataHora": "2026-10-29T14:09",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5702/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução\"."
@@ -3292,7 +3574,7 @@
       "presentedAt": "2026-10-29T12:30",
       "status": {
         "dataHora": "2026-10-29T12:30",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5700/2026 (Projeto de Lei), pelo Deputado Hildo Rocha (MDB/MA), que \"Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes\"."
@@ -3334,7 +3616,7 @@
       "presentedAt": "2026-10-29T12:05",
       "status": {
         "dataHora": "2026-10-29T12:05",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5699/2026 (Projeto de Lei), pelo Deputado Emanuel Pinheiro Neto (PSD/MT), que \"Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização. \"."
@@ -3388,7 +3670,7 @@
       "presentedAt": "2026-10-29T11:34",
       "status": {
         "dataHora": "2026-10-29T11:34",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5698/2026 (Projeto de Lei), pela Deputada Dani Cunha (PL/RJ), que \"Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo\"."
@@ -3423,17 +3705,161 @@
       }
     },
     {
+      "id": 2648616,
+      "label": "MPV 1398/2026",
+      "type": "Medida Provisória",
+      "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+      "presentedAt": "2026-10-21T00:00",
+      "status": {
+        "dataHora": "2026-11-17T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A matéria vai ao Senado Federal (MPV 1.398-A/2026)."
+      },
+      "authors": [
+        {
+          "name": "Poder Executivo",
+          "type": "Órgão do Poder Executivo"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648616",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185402",
+      "votes": [
+        {
+          "id": "2648616-28",
+          "date": "2026-11-17",
+          "description": "Aprovada a Medida Provisória nº 1.398, de 2026.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-28"
+        },
+        {
+          "id": "2648616-26",
+          "date": "2026-11-17",
+          "description": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26"
+        },
+        {
+          "id": "2648616-10",
+          "date": "2026-11-10",
+          "description": "Aprovado o parecer na Comissão Mista",
+          "organ": "CN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-10"
+        }
+      ],
+      "sourceHash": "fe25c8764f3549c8b4c45cf4a903e4721d40c1263043abdefff4fd8be8909b0a",
+      "summary": null
+    },
+    {
+      "id": 2648606,
+      "label": "MPV 1397/2026",
+      "type": "Medida Provisória",
+      "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+      "presentedAt": "2026-10-21T00:00",
+      "status": {
+        "dataHora": "2026-11-18T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "siglaOrgao": "MESA",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 266/2026/SGM-P."
+      },
+      "authors": [
+        {
+          "name": "Poder Executivo",
+          "type": "Órgão do Poder Executivo"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648606",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185390",
+      "votes": [
+        {
+          "id": "2648606-32",
+          "date": "2026-11-17",
+          "description": "Rejeitada a Emenda de Comissão nº 1.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-32"
+        },
+        {
+          "id": "2648606-28",
+          "date": "2026-11-17",
+          "description": "Aprovada a Redação Final assinada pelo Dep. Mauro Benevides Filho (UNIÃO-CE).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-28"
+        },
+        {
+          "id": "2648606-26",
+          "date": "2026-11-17",
+          "description": "Aprovada a Medida Provisória nº 1.397, de 2026.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-26"
+        },
+        {
+          "id": "2648606-24",
+          "date": "2026-11-17",
+          "description": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-24"
+        },
+        {
+          "id": "2648606-9",
+          "date": "2026-11-11",
+          "description": "Aprovado o parecer na Comissão Mista",
+          "organ": "CN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-9"
+        }
+      ],
+      "sourceHash": "7d02100935ebbf83fc3d31f1f7bcd91c8c5aadbd86d26aa00c05d75e6a016d44",
+      "summary": null
+    },
+    {
       "id": 2647427,
       "label": "PL 5542/2026",
       "type": "Projeto de Lei",
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
       "presentedAt": "2026-10-13T13:26",
       "status": {
-        "dataHora": "2026-11-11T13:32",
-        "descricaoSituacao": "Pronta para Pauta",
-        "descricaoTramitacao": "Recebimento - Relator(a)",
+        "dataHora": "2026-11-17T17:47",
+        "descricaoSituacao": "Aguardando Deliberação",
+        "descricaoTramitacao": "Apresentação de Requerimento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PRLP n. 1 PLEN (Parecer Preliminar de Plenário), pela Deputada Iza Arruda (MDB/PE)."
+        "despacho": "Apresentação do REQ n. 4483/2026 (Requerimento de Apensação), pelo Deputado(a) Lula da Fonte (PP-PE), que: \"Requer a a apensação para tramitação conjunta do PL 1040/2026 ao PL 5542/2026\"."
       },
       "authors": [
         {
@@ -3485,17 +3911,79 @@
       }
     },
     {
+      "id": 2644208,
+      "label": "PL 5127/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "presentedAt": "2026-08-19T15:28",
+      "status": {
+        "dataHora": "2026-11-18T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "siglaOrgao": "MESA",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 268/2026/SGM-P."
+      },
+      "authors": [
+        {
+          "name": "Flávia Morais",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644208",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3173788",
+      "votes": [
+        {
+          "id": "2644208-20",
+          "date": "2026-11-17",
+          "description": "Aprovada a Redação Final assinada pelo relator, Dep. Luiz Gastão (PSD/CE).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-20"
+        },
+        {
+          "id": "2644208-16",
+          "date": "2026-11-17",
+          "description": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-16"
+        },
+        {
+          "id": "2647302-7",
+          "date": "2026-11-10",
+          "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647302-7"
+        }
+      ],
+      "sourceHash": "889414dade78d1b62351de3ae6959b6c186a9b0b2ca41a0aaf9d3cdc281e59ab",
+      "summary": null
+    },
+    {
       "id": 2641546,
       "label": "MPV 1379/2026",
       "type": "Medida Provisória",
       "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
       "presentedAt": "2026-07-22T00:00",
       "status": {
-        "dataHora": "2026-11-11T00:00",
-        "descricaoSituacao": "Aguardando Encaminhamento",
-        "descricaoTramitacao": "Publicação de Proposição",
-        "siglaOrgao": "CCP",
-        "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 12/11/2026."
+        "dataHora": "2026-11-17T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Aprovação no Senado Federal",
+        "siglaOrgao": "PLEN",
+        "despacho": "Aprovada no Senado Federal"
       },
       "authors": [
         {
@@ -4059,11 +4547,11 @@
       "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
       "presentedAt": "2026-02-11T10:15",
       "status": {
-        "dataHora": "2026-11-12T09:34",
-        "descricaoSituacao": "Aguardando Designação de Relator(a)",
-        "descricaoTramitacao": "Recebimento",
+        "dataHora": "2026-11-18T13:26",
+        "descricaoSituacao": "Aguardando Parecer",
+        "descricaoTramitacao": "Designação de Relator(a)",
         "siglaOrgao": "CCJC",
-        "despacho": "Recebimento pelo(a) CCJC."
+        "despacho": "Designado Relator da Redação Final, Dep. Felipe Carreras (PSB-PE)."
       },
       "authors": [
         {
@@ -5673,11 +6161,11 @@
       "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
       "presentedAt": "2022-11-18T14:36",
       "status": {
-        "dataHora": "2026-11-17T14:05",
-        "descricaoSituacao": "Aguardando Encaminhamento",
-        "descricaoTramitacao": "Encaminhamento",
-        "siglaOrgao": "MESA",
-        "despacho": "Encaminhado à CCP"
+        "dataHora": "2026-11-18T12:37",
+        "descricaoSituacao": "Aguardando Parecer",
+        "descricaoTramitacao": "Designação de Relator(a)",
+        "siglaOrgao": "CCJC",
+        "despacho": "Designada Relatora da Redação Final, Dep. Laura Carneiro (PSD-RJ)."
       },
       "authors": [
         {

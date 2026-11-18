@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-16T14:24",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a responsabilidade das instituições de pagamento por boletos fraudulentos emitidos por meio de suas plataformas e sobre os mecanismos de segurança para prevenir essa fraude.",
+      "ementaDetalhada": null,
+      "id": 2654168,
+      "justificativa": null,
+      "keywords": "Responsabilidade; Instituição de pagamento (IP); prevenção; Fraude bancária; Fraude eletrônica; emissão; Boleto bancário; Crime contra as relações de consumo; Penalidade administrativa; Prejuízo ao consumidor; Canal de denúncia; Responsabilidade objetiva; Segurança da informação",
+      "numero": 5862,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-16T14:24",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5862/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Dispõe sobre a responsabilidade das instituições de pagamento por boletos fraudulentos emitidos por meio de suas plataformas e sobre os mecanismos de segurança para prevenir essa fraude\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196497",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-18T17:54:45.018Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654168"
+}

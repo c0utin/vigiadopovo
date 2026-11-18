@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Rubens Pereira Júnior",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178887"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-18T17:54:43.787Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170/autores"
+}

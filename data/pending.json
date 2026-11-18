@@ -1,5 +1,41 @@
 [
   {
+    "id": 2654578,
+    "sourceHash": "1b84c4a8839aeedd172599beb7bf64897ca3eee9b08d625e11e3b4cfad0595f1",
+    "ementa": "Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578"
+  },
+  {
+    "id": 2654503,
+    "sourceHash": "cdac2ab1da159b65539d059299ca69a06bc9a6512eab7b2e96e1ba5adb96e8a0",
+    "ementa": "Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503"
+  },
+  {
+    "id": 2654412,
+    "sourceHash": "9723a863fe40aaf82faca971bab7ca58612513bdd98444a694ec79b598c79cd9",
+    "ementa": "Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412"
+  },
+  {
+    "id": 2654386,
+    "sourceHash": "e508bf5b90b29e3a90e8573536352eb8e76eb893cafac8bfe8c5a0b31e62fc1e",
+    "ementa": "Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386"
+  },
+  {
+    "id": 2654371,
+    "sourceHash": "496f084f085cbd136d5c6f580d358cce685eaf909629457a545870b1ad315a0e",
+    "ementa": "Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371"
+  },
+  {
+    "id": 2654360,
+    "sourceHash": "13ce28131f6bfb12c899a111f58cb5d08e6e2e294f8f75100243808962b100d9",
+    "ementa": "Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360"
+  },
+  {
     "id": 2654171,
     "sourceHash": "3d651cb2091b1c6dbeb2f8a951ba2134ff0d7c064a501f01376b3651bbc194ad",
     "ementa": "Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos.",
@@ -330,39 +366,63 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
   },
   {
-    "id": 2654578,
-    "sourceHash": "1b84c4a8839aeedd172599beb7bf64897ca3eee9b08d625e11e3b4cfad0595f1",
-    "ementa": "Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS).",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578"
+    "id": 2655202,
+    "sourceHash": "744eaa34c493a0fc0a8c907372f5fe6ef2ea51b3706e50282e255daef9eb74c3",
+    "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202"
   },
   {
-    "id": 2654503,
-    "sourceHash": "cdac2ab1da159b65539d059299ca69a06bc9a6512eab7b2e96e1ba5adb96e8a0",
-    "ementa": "Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503"
+    "id": 2655184,
+    "sourceHash": "935e354e996aa5d0e55c72e36154f587ba08c7e7dae2103b6375656d0ba05ba9",
+    "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184"
   },
   {
-    "id": 2654412,
-    "sourceHash": "9723a863fe40aaf82faca971bab7ca58612513bdd98444a694ec79b598c79cd9",
-    "ementa": "Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412"
+    "id": 2655134,
+    "sourceHash": "976681d0df8c87d4f4dac2ec776ca5dbeeb8a1f2a21122f6aaa21172aab3725e",
+    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655134"
   },
   {
-    "id": 2654386,
-    "sourceHash": "e508bf5b90b29e3a90e8573536352eb8e76eb893cafac8bfe8c5a0b31e62fc1e",
-    "ementa": "Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386"
+    "id": 2655132,
+    "sourceHash": "8c68485f13f21e80a4ca0c912006aa8a02e8232a1375e51476d6265c08dd72dc",
+    "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132"
   },
   {
-    "id": 2654371,
-    "sourceHash": "496f084f085cbd136d5c6f580d358cce685eaf909629457a545870b1ad315a0e",
-    "ementa": "Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371"
+    "id": 2655116,
+    "sourceHash": "28ccd6b168d76f61258fc3592d2b4ce078a93d10e4e5bfcb247360a71252a3db",
+    "ementa": "Institui o Prêmio Nacional da Educação Brasileira (PNEB).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116"
   },
   {
-    "id": 2654360,
-    "sourceHash": "13ce28131f6bfb12c899a111f58cb5d08e6e2e294f8f75100243808962b100d9",
-    "ementa": "Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360"
+    "id": 2655025,
+    "sourceHash": "47ca67971b8570bffca9b1a95709281ebb41361e3815769ffd399017bc0f4768",
+    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025"
+  },
+  {
+    "id": 2652524,
+    "sourceHash": "8d7f080ce8b95f256cd17d653f3fcd32be4abaff5710db554b66db91fd083d47",
+    "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524"
+  },
+  {
+    "id": 2644208,
+    "sourceHash": "889414dade78d1b62351de3ae6959b6c186a9b0b2ca41a0aaf9d3cdc281e59ab",
+    "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208"
+  },
+  {
+    "id": 2648616,
+    "sourceHash": "fe25c8764f3549c8b4c45cf4a903e4721d40c1263043abdefff4fd8be8909b0a",
+    "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616"
+  },
+  {
+    "id": 2648606,
+    "sourceHash": "7d02100935ebbf83fc3d31f1f7bcd91c8c5aadbd86d26aa00c05d75e6a016d44",
+    "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606"
   }
 ]

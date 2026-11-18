@@ -1,8 +1,122 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-17T18:21:12.683Z",
+  "collectedAt": "2026-11-18T17:54:31.662Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2654578,
+      "label": "PL 5881/2026",
+      "ementa": "Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654578",
+      "labels": [
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2654503,
+      "label": "PL 5878/2026",
+      "ementa": "Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654503",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2654412,
+      "label": "PL 5876/2026",
+      "ementa": "Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654412",
+      "labels": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2654386,
+      "label": "PL 5875/2026",
+      "ementa": "Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654386",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2654371,
+      "label": "PL 5874/2026",
+      "ementa": "Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654371",
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2654360,
+      "label": "PL 5873/2026",
+      "ementa": "Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654360",
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
     {
       "id": 2654171,
       "label": "PL 5865/2026",
@@ -1582,105 +1696,205 @@
       ]
     },
     {
-      "id": 2654578,
-      "label": "PL 5881/2026",
-      "ementa": "Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654578",
-      "labels": [
-        {
-          "id": "camara:tema:56",
-          "name": "Saúde",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2654503,
-      "label": "PL 5878/2026",
-      "ementa": "Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654503",
-      "labels": [
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:56",
-          "name": "Saúde",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654503/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2654412,
-      "label": "PL 5876/2026",
-      "ementa": "Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654412",
-      "labels": [
-        {
-          "id": "camara:tema:72",
-          "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2654386,
-      "label": "PL 5875/2026",
-      "ementa": "Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654386",
-      "labels": [
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:56",
-          "name": "Saúde",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654386/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2654371,
-      "label": "PL 5874/2026",
-      "ementa": "Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654371",
+      "id": 2655202,
+      "label": "PL 5896/2026",
+      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655202",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2654360,
-      "label": "PL 5873/2026",
-      "ementa": "Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654360",
+      "id": 2655184,
+      "label": "PL 5895/2026",
+      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655184",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655134,
+      "label": "PL 5894/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655134",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655132,
+      "label": "PL 2423/2026",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655132",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655116,
+      "label": "PL 3768/2026",
+      "ementa": "Institui o Prêmio Nacional da Educação Brasileira (PNEB).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655116",
       "labels": [
         {
           "id": "camara:tema:46",
           "name": "Educação",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
           "relevance": 0
         },
         {
-          "id": "camara:tema:57",
-          "name": "Defesa e Segurança",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360/temas",
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
           "relevance": 1
         }
       ],
       "votingIds": []
+    },
+    {
+      "id": 2655025,
+      "label": "PL 5893/2026",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655025",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2652524,
+      "label": "PRC 50/2026",
+      "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652524",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2652524-18",
+        "2652524-16",
+        "2654009-7"
+      ]
+    },
+    {
+      "id": 2644208,
+      "label": "PL 5127/2026",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644208",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": [
+        "2644208-20",
+        "2644208-16",
+        "2647302-7"
+      ]
+    },
+    {
+      "id": 2648616,
+      "label": "MPV 1398/2026",
+      "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648616",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2648616-28",
+        "2648616-26",
+        "2648616-10"
+      ]
+    },
+    {
+      "id": 2648606,
+      "label": "MPV 1397/2026",
+      "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648606",
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2648606-32",
+        "2648606-28",
+        "2648606-26",
+        "2648606-24",
+        "2648606-9"
+      ]
     }
   ],
   "votings": [
@@ -7994,6 +8208,34 @@
       "ballots": []
     },
     {
+      "id": "2644208-16",
+      "date": "2026-11-17",
+      "description": "Aprovado o Projeto de Lei nº 5.127, de 2026.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-16",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-16/votos",
+      "approval": 1,
+      "propositionIds": [
+        2644208
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2644208-20",
+      "date": "2026-11-17",
+      "description": "Aprovada a Redação Final assinada pelo relator, Dep. Luiz Gastão (PSD/CE).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-20",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2644208-20/votos",
+      "approval": 1,
+      "propositionIds": [
+        2644208
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
       "id": "2645996-7",
       "date": "2026-10-28",
       "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
@@ -8008,6 +8250,20 @@
       "ballots": []
     },
     {
+      "id": "2647302-7",
+      "date": "2026-11-10",
+      "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647302-7",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647302-7/votos",
+      "approval": 1,
+      "propositionIds": [
+        2644208
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
       "id": "2647742-7",
       "date": "2026-10-28",
       "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
@@ -8017,6 +8273,118 @@
       "approval": 1,
       "propositionIds": [
         2647427
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648606-24",
+      "date": "2026-11-17",
+      "description": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-24",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-24/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648606
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648606-26",
+      "date": "2026-11-17",
+      "description": "Aprovada a Medida Provisória nº 1.397, de 2026.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-26",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-26/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648606
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648606-28",
+      "date": "2026-11-17",
+      "description": "Aprovada a Redação Final assinada pelo Dep. Mauro Benevides Filho (UNIÃO-CE).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-28",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-28/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648606
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648606-32",
+      "date": "2026-11-17",
+      "description": "Rejeitada a Emenda de Comissão nº 1.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-32",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-32/votos",
+      "approval": 0,
+      "propositionIds": [
+        2648606
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648606-9",
+      "date": "2026-11-11",
+      "description": "Aprovado o parecer na Comissão Mista",
+      "organ": "CN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-9",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-9/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648606
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648616-10",
+      "date": "2026-11-10",
+      "description": "Aprovado o parecer na Comissão Mista",
+      "organ": "CN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-10",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-10/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648616
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648616-26",
+      "date": "2026-11-17",
+      "description": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648616
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2648616-28",
+      "date": "2026-11-17",
+      "description": "Aprovada a Medida Provisória nº 1.398, de 2026.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-28",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-28/votos",
+      "approval": 1,
+      "propositionIds": [
+        2648616
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []
@@ -8045,6 +8413,48 @@
       "approval": 1,
       "propositionIds": [
         2389679
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2652524-16",
+      "date": "2026-11-17",
+      "description": "Aprovado o Projeto de Resolução nº 50, de 2026.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-16",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-16/votos",
+      "approval": 1,
+      "propositionIds": [
+        2652524
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2652524-18",
+      "date": "2026-11-17",
+      "description": "Aprovada a Redação Final, assinada pelo relator, Dep. Lula da Fonte (PP/PE).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-18",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-18/votos",
+      "approval": 1,
+      "propositionIds": [
+        2652524
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654009-7",
+      "date": "2026-11-17",
+      "description": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7/votos",
+      "approval": 1,
+      "propositionIds": [
+        2652524
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []
