@@ -1,9 +1,11 @@
 // The site, deputy photos included, stays a prerendered static build served
 // from Workers assets. This Worker only runs for /api/* (precomputed metrics in
-// R2); see run_worker_first in wrangler.jsonc. Reads go through the Cache API
-// of the data center, and only then R2.
+// R2) and /pipeline/v1/* (the content-addressed archive, see pipeline.ts); see
+// run_worker_first in wrangler.jsonc. Reads go through the Cache API of the
+// data center first.
 import { Effect } from "effect";
 import { serveMetrics } from "./metrics.ts";
+import { servePipeline } from "./pipeline.ts";
 
 interface Env {
   ASSETS: Fetcher;
@@ -18,7 +20,13 @@ export default {
         ? serveMetrics(request, env.MEDIA, caches.default, (p) =>
             ctx.waitUntil(p),
           )
-        : Effect.promise(() => env.ASSETS.fetch(request));
+        : pathname.startsWith("/pipeline/v1/")
+          ? Effect.promise(() =>
+              servePipeline(request, fetch, caches.default, (p) =>
+                ctx.waitUntil(p),
+              ),
+            )
+          : Effect.promise(() => env.ASSETS.fetch(request));
     return Effect.runPromise(response);
   },
 } satisfies ExportedHandler<Env>;

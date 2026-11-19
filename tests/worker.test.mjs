@@ -121,3 +121,49 @@ test("without ?ano, a year not computed yet falls back to the previous one", asy
   // An explicit year is never replaced by another one.
   assert.equal((await get(`/api/metricas/fontes?ano=${ano}`)).status, 404);
 });
+
+test("serves archive files from the repository only when the bytes match their name", async () => {
+  const { servePipeline } = await import("../worker/pipeline.ts");
+  const { createHash } = await import("node:crypto");
+  const body = '{\n  "a": 1\n}\n';
+  const digest = createHash("sha256").update(body).digest("hex");
+  const entries = new Map();
+  const cache = {
+    match: async (key) => entries.get(key.url)?.clone(),
+    put: async (key, response) => void entries.set(key.url, response),
+  };
+  const fetched = [];
+  const serve = (path, upstream) =>
+    servePipeline(
+      new Request(`https://vigia.example${path}`),
+      async (url) => {
+        fetched.push(url);
+        return new Response(upstream);
+      },
+      cache,
+      (p) => p,
+    );
+
+  const ok = await serve(`/pipeline/v1/raw/${digest}.json`, body);
+  assert.equal(ok.status, 200);
+  assert.equal(await ok.text(), body);
+  assert.deepEqual(fetched, [
+    `https://raw.githubusercontent.com/c0utin/vigiadopovo/main/static/pipeline/v1/raw/${digest}.json`,
+  ]);
+  // Immutable: the second request is answered from the cache.
+  await serve(`/pipeline/v1/raw/${digest}.json`, "changed");
+  assert.equal(fetched.length, 1);
+
+  const tampered = await serve(
+    `/pipeline/v1/manifests/${digest}.json`,
+    body.replace("1", "2"),
+  );
+  assert.equal(tampered.status, 502);
+
+  for (const path of [
+    "/pipeline/v1/raw/../x.json",
+    "/pipeline/v1/raw/abc.json",
+  ])
+    assert.equal((await serve(path, body)).status, 404);
+  assert.equal(fetched.length, 2);
+});

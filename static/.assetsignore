@@ -1,0 +1,4 @@
+# The content-addressed archive is served by the Worker from the public
+# repository (worker/pipeline.ts), keeping the upload under the free plan's
+# 20,000 files per version.
+pipeline/v1/
