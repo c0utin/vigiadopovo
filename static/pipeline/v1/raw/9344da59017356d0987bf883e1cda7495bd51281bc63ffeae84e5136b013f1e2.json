@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-18",
+      "dataHoraRegistro": "2026-11-19T09:36:32",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Sugestão de Emenda, adotada como Emenda 03 da Comissão.",
+      "efeitosRegistrados": [],
+      "id": "2654725-2",
+      "idEvento": 83354,
+      "idOrgao": 539385,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 612,
+          "dataApresentacao": "2026-11-17T12:40",
+          "ementa": "SLD n. 06 - Dep Maria Rosas - Requer a inclusão de meta no programa Transformação do Estado para a Cidadania e o Desenvolvimento (Programa: 2301 / Objetivo específico: 0418 / Unidade de medida: 172 - unidade / Acréscimos: 100)",
+          "id": 2654725,
+          "numero": 6,
+          "siglaTipo": "SLD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654725"
+        }
+      ],
+      "proposicoesAfetadas": [],
+      "siglaOrgao": "CCOM",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação da SLD n. 6/2026 (Sugestão de Emenda à LDO - Comissões), pela Deputada Maria Rosas (REPUBLIC/SP), que \"SLD n. 06 - Dep Maria Rosas - Requer a inclusão de meta no programa Transformação do Estado para a Cidadania e o Desenvolvimento (Programa: 2301 / Objetivo específico: 0418 / Unidade de medida: 172 - unidade / Acréscimos: 100)\n\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654725-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654725-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-19T18:07:15.761Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654725-2"
+}

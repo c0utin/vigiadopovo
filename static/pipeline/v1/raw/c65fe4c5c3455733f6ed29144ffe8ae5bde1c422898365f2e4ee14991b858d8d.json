@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-18",
+      "dataHoraRegistro": "2026-11-18T17:02:37",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+      "efeitosRegistrados": [],
+      "id": "866002-105",
+      "idEvento": 83382,
+      "idOrgao": 180,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-01-26T17:37",
+          "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+          "id": 866002,
+          "numero": 8332,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2016-10-17T19:13:59",
+        "descricao": "Apresentação do Ofício n. 291/2016, pelo Tribunal Superior do Trabalho, que: \"Solicita a retirada do Projeto de Lei n. 8.332/2015\".",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2114142"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83382",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-19T18:07:16.444Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105"
+}
