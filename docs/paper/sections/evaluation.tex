@@ -6,7 +6,7 @@ We evaluate the deployed system, not a prototype. All measurements were taken on
 \subsection{Following the public verification guide}
 \label{sec:eval-verify}
 
-The repository ships a verification guide. We followed its steps against the live site, using only public data, although with a client signed in to the author's own GitHub account, which the command-line tool requires; an independent repetition remains to be done.
+The repository ships a verification guide. We followed its steps against the live site, using only public data, although with a client signed in to the author's own GitHub account, which the command-line tool requires. The author ran every check in this section, with the AI assistant credited at the end of the paper, which also helped write the project's code; the checks are therefore a demonstration that the mechanisms work, and an independent repetition remains to be done.
 
 \emph{Finding the collection.} The transparency page named manifest \texttt{0290c5d7\ldots7d4c}, created on 9 November 2026 at 19:43:28 UTC, listing 254 artifacts.
 
@@ -16,7 +16,7 @@ The repository ships a verification guide. We followed its steps against the liv
 
 \emph{Time.} The OpenTimestamps client reported that Bitcoin block 975,215 attests the manifest's existence as of 9 November 2026.
 
-\emph{A tampered file.} We flipped one bit inside the official summary of the first bill in the snapshot file and repeated the provenance check. Verification failed: no attestation exists for the altered digest. An operator who edits a published file by hand cannot keep the attestation.
+\emph{A tampered file.} We flipped one bit inside the official summary of the first bill in the snapshot file and repeated the provenance check. Verification failed: no attestation exists for the altered digest. This outcome follows from the construction, and the test only confirms that the verification command rejects it as designed; an operator who edits a published file by hand cannot keep the attestation. The attacks that would test the design itself, attesting from a self-hosted runner, from a branch or from a commit later force-pushed away, were not attempted.
 
 The full check took a few minutes, most of it spent downloading the 254 artifacts one at a time. It needs a command line, the GitHub client with an account, and a JavaScript runtime. That is a real barrier, to which we return when discussing who can verify.
 
@@ -46,7 +46,7 @@ Manifest & Created (UTC) & Artifacts & Block height & Delay (min) \\
 \texttt{05513dea} & 15 Nov 16:13 & 416 & 975,985 & 10 \\
 \bottomrule
 \end{tabular}
-\caption{The twelve timestamp proofs in the repository, all verified on 16 November 2026. Delay is the time from the manifest's creation to the header time of the attesting block. The first manifest was stamped almost five days after its creation. Two manifests of 8 November share a block.}
+\caption{The twelve timestamp proofs in the repository, all verified on 16 November 2026. Delay is the time from the manifest's creation to the header time of the attesting block. The first manifest was made on a developer's machine before the workflow existed, carries no attestation, and was stamped almost five days after its creation. Two manifests of 8 November share a block.}
 \label{tab:timestamps}
 \end{table}
 
@@ -55,7 +55,7 @@ For the eleven manifests stamped in the run that created them, the attesting blo
 \subsection{Recomputing published numbers without the project's code}
 \label{sec:eval-recompute}
 
-The strongest check of a number is to compute it again by other means. We wrote a script of about 50 lines in plain Python, sharing no code with the project (whose aggregation is written in Rust on a dataframe library). The script downloads the Chamber's yearly files of individual votes and leadership orientations, applies Equation~\ref{eq:alignment}, and compares the result with the site's API row by row. We ran it for four years chosen to span the series (2011, 2019, 2023 and 2026) and all four leaderships.
+The strongest check of a number is to compute it again by other means. We wrote a script of about 60 lines in plain Python, using only the standard library and sharing no code with the project (whose aggregation is written in Rust on a dataframe library); it is published as \texttt{docs/paper/scripts/recompute.py}. Its author is the project's author, so it shares his reading of Equation~\ref{eq:alignment} and checks the implementation against that reading, not the reading itself. The script downloads the Chamber's yearly files of individual votes and leadership orientations, applies Equation~\ref{eq:alignment}, and compares the result with the site's API row by row. We ran it for four years chosen to span the series (2011, 2019, 2023 and 2026) and all four leaderships. It also asserts that no voting has two Sim or N\~ao orientations from the same leadership, which Equation~\ref{eq:alignment} assumes and a join of votes with orientations would otherwise double-count; the assertion held in every year, and the lake now checks the same condition.
 
 \begin{table}[t]
 \centering
@@ -92,7 +92,7 @@ Six records rewritten in place, in two runs over nine days, is a small number, a
 \subsection{Operation and cost}
 \label{sec:eval-ops}
 
-Failures were closed. On the two days when the collection step failed, no manifest was written and the previous collection stayed in place; a transparency tool that publishes a partial collection as though it were complete would be worse than one that publishes nothing that day. Scheduled runs set for 09:00 UTC started six to eleven hours late: the CI platform does not guarantee start times for scheduled workflows, and a project that depends on free CI inherits that. A collection run took a median of 2.6 minutes, and a lake run about two minutes.
+Between its first run on 5 November and the measurements, the workflow ran 13 times: 11 on its schedule and two started by hand on 8 November. The collection succeeded in 11 runs, each of which produced one of the manifests of Table~\ref{tab:timestamps}, and failed in two, on 10 and 11 November; the lake job failed at its budget check in the first five runs and succeeded in every later run in which it started. Failures were closed. On the two days when the collection step failed, no manifest was written and the previous collection stayed in place; a transparency tool that publishes a partial collection as though it were complete would be worse than one that publishes nothing that day. Scheduled runs set for 09:00 UTC started six to eleven hours late: the CI platform does not guarantee start times for scheduled workflows, and a project that depends on free CI inherits that. A collection run took a median of 2.6 minutes, and a lake run about two minutes.
 
 The complete history from 2003 to 2026, as 96 source files totalling 1.52\,GB of JSON, occupies 244\,MB in object storage, 2.4\% of the free allowance. Every other monthly allowance was at or below 0.3\%. The system has cost nothing to run.
 

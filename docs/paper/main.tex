@@ -111,7 +111,7 @@ Theorem (file) & Statement \\
 \label{tab:lean}
 \end{table}
 
-Formalising the claims sharpened four statements in the text: the manifest commits to its artifacts only if the encodings are injective and the manifest lists every digest; the hash chain needs a fixed $h_0$ and an injective concatenation; a timestamp is only as strong as the weakest hash function in its path; and the score is independent of input order only because identifiers are unique. Two of the alignment results are immediate from the definitions: the numerator is at most the denominator because Equation~\ref{eq:alignment} counts only votes in $V$, and the official vote files contain no absence records, so the results about positions outside $V$ guard against a format change rather than describe current data. The score is modelled as one list sorted by identifier, while the implementation sorts its two inputs, bills and documents, separately; the result applies to each. The alignment model assumes one orientation per vote record, so the join of votes with orientations is outside it. The proofs do not cover floating-point rounding, and they concern the constructions, not the project's source code.
+Formalising the claims sharpened four statements in the text: the manifest commits to its artifacts only if the encodings are injective and the manifest lists every digest; the hash chain needs a fixed $h_0$ and an injective concatenation; a timestamp is only as strong as the weakest hash function in its path; and the score is independent of input order only because identifiers are unique. Two of the alignment results are immediate from the definitions: the numerator is at most the denominator because Equation~\ref{eq:alignment} counts only votes in $V$, and the official vote files contain no absence records, so the results about positions outside $V$ guard against a format change rather than describe current data. The score is modelled as one list sorted by identifier, while the implementation sorts its two inputs, bills and documents, separately; the result applies to each. The alignment model assumes one orientation per vote record, so the join of votes with orientations is outside it; the lake and the recomputation script check that assumption on the data instead. The proofs do not cover floating-point rounding, and they concern the constructions, not the project's source code.
 
 \section{Yearly coverage of the lake}
 \label{app:years}
@@ -168,6 +168,6 @@ WHERE upper(o.siglaBancada) IN ('GOV.', 'GOVERNO')
 GROUP BY partido ORDER BY votos DESC;
 \end{lstlisting}
 
-The three largest rows are PSL 10,793 votes of which 10,530 coincide, PT 9,214 and 1,955, and PSD 6,814 and 6,146.
+Run as printed with DuckDB 2.0.0 on 19 November 2026, it returns as its three largest rows PSL 10,793 votes of which 10,530 coincide, PT 9,214 and 1,955, and PSD 6,814 and 6,146, the same as the API. The script of the evaluation, \texttt{docs/paper/scripts/recompute.py}, repeats the comparison for every row, leadership and year given on its command line; rerun on 19 November for 2011, 2019, 2023 and 2026, it again found all 363 rows equal.
 
 \end{document}

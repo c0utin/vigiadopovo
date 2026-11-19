@@ -22,8 +22,8 @@ None of these techniques is new. They come from software supply-chain security, 
 \begin{enumerate}[leftmargin=1.6em,itemsep=2pt]
 \item \textbf{a design} for verifiable republication of legislative data that runs entirely on free public infrastructure, with no ledger, token or signing key of its own, together with the reasons for not using an on-chain verifier;
 \item \textbf{a trust analysis} that separates what is proven from what is not, including freshness, hidden inputs and long-term preservation;
-\item \textbf{machine-checked proofs} in Lean of the properties the design relies on: that the manifest commits to its artifacts unless SHA-256 has a collision, that a proposed hash chain over the lake's batches would commit to them unless SHA-256 has a collision or a preimage of a fixed starting value, that a timestamp path cannot be moved to another document, and that the published metric is well defined;
-\item \textbf{an evaluation of the deployed system}, in which the attestations of the current collection, all 254 of its file digests and twelve timestamps verified, a tampered file was rejected, and an independent recomputation of 363 published rows of the metric from 336,089 official vote records found no difference;
+\item \textbf{a formalisation} in Lean of the elementary properties the design relies on, stated as reductions to collisions of SHA-256; the proofs are short, and their value is that writing them sharpened four claims in the text;
+\item \textbf{an evaluation of the deployed system}, in which the attestations of the current collection, all 254 of its file digests and twelve timestamps verified, and a recomputation of 363 published rows of the metric from 336,089 official vote records, with a published script that shares no code with the project, found no difference;
 \item \textbf{an assessment of social impact} grounded in the experimental literature, which finds that information alone rarely changes votes, and an account of the risks the system itself creates.
 \end{enumerate}
 

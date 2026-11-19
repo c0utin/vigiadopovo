@@ -1,4 +1,4 @@
-\begin{thebibliography}{162}
+\begin{thebibliography}{163}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1090,6 +1090,12 @@ J.~M. Snyder, Jr. and D.~Str{\"o}mberg.
 \newblock \emph{Journal of Political Economy}, 118\penalty0 (2):\penalty0
   355--408, 2010.
 \newblock \doi{10.1086/652903}.
+
+\bibitem[{Starling Lab for Data Integrity}(2026)]{starling-framework}
+{Starling Lab for Data Integrity}.
+\newblock The {Starling} framework: Capture, store, verify.
+\newblock Web page, 2026.
+\newblock URL \url{https://starlinglab.org/starling-framework}.
 
 \bibitem[Stevens et~al.(2017)Stevens, Bursztein, Karpman, Albertini, and
   Markov]{stevens2017sha1}

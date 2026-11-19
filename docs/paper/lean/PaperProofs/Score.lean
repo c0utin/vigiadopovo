@@ -13,7 +13,7 @@ input order (merge sort is stable), so swapping them changes the sorted list
 (`sortById_needs_unique_ids`).
 
 Out of scope: the floating-point and rounding behaviour of the actual score, which the
-paper handles by summing pre-rounded parts in a fixed order.
+implementation (`scripts/pipeline/quality.ts`) handles by rounding each share to cents.
 -/
 
 namespace PaperProofs.Score
