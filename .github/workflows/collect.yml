@@ -71,6 +71,7 @@ jobs:
           rm -f static/pipeline/timestamps/*.bak
 
       - name: Attest the collection outputs
+        id: attest
         if: steps.manifest.outputs.changed == 'true'
         uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
         with:
@@ -78,6 +79,15 @@ jobs:
             ${{ steps.manifest.outputs.path }}
             static/legislativo.json
             static/dados.json
+
+      # Published next to the proofs, so a reader can verify the attestation
+      # without fetching it from GitHub's API, and it outlives log retention.
+      - name: Publish the attestation bundle
+        if: steps.manifest.outputs.changed == 'true'
+        run: |
+          mkdir -p static/pipeline/attestations
+          cp "${{ steps.attest.outputs.bundle-path }}" \
+            "static/pipeline/attestations/${{ steps.manifest.outputs.hash }}.jsonl"
 
       # The site is deployed from an Amp orb (`pnpm ship`), not from here.
       - name: Commit the collection
