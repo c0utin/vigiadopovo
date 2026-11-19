@@ -3,3 +3,7 @@
 *.log
 *.out
 *.pdf
+arxiv/
+arxiv.tar.gz
+*.fls
+*.fdb_latexmk
