@@ -12,6 +12,8 @@ const PERIODS = [
   { title: "Mais antigas", maxDays: Infinity },
 ];
 
+const MAX_SEARCHED_AUTHORS = 10;
+
 // Ship only row and search fields, never full voting histories or source captures.
 export function load() {
   // Periods are relative to the collection day in Brasília, not to the visit:
@@ -34,14 +36,15 @@ export function load() {
         .map((event) => event.date.slice(0, 10));
       const latest = events.reduce((a, b) => (b > a ? b : a));
       const age = (reference - Date.parse(latest)) / 86_400_000;
+      // Without an AI summary the official ementa is the title.
+      const title = p.summary?.title ?? p.ementa;
       return {
         period: PERIODS.findIndex((period) => age <= period.maxDays),
         row: {
           id: p.id,
           label: p.label,
           date: latest,
-          // Without an AI summary the official ementa is the title.
-          title: p.summary?.title ?? p.ementa,
+          title,
           // "Apresentação de Proposição" is the first step; the date already says it.
           stage:
             p.status?.descricaoSituacao ??
@@ -49,8 +52,11 @@ export function load() {
               ? null
               : p.status?.descricaoTramitacao),
           topic: p.summary?.topic ?? null,
+          // Only what the row does not show; feed.js adds the row's own text.
+          // Bills signed by dozens of deputies would outgrow the homepage
+          // budget, so their authors are left out of the homepage search.
           search: normalize(
-            `${p.label} ${p.ementa} ${p.summary?.title ?? ""} ${p.summary?.topic ?? ""} ${p.authors.map((a) => a.name).join(" ")}`,
+            `${title === p.ementa ? "" : p.ementa} ${p.authors.length <= MAX_SEARCHED_AUTHORS ? p.authors.map((a) => a.name).join(" ") : ""}`,
           ),
         },
       };

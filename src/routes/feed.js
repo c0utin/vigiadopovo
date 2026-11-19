@@ -16,6 +16,10 @@
       .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase()
       .trim();
+  // data-search holds only what a row does not show, so add its visible text.
+  const text = new Map(
+    rows.map((row) => [row, clean(`${row.textContent} ${row.dataset.search}`)]),
+  );
   let topic = "";
   const update = () => {
     const query = clean(input.value);
@@ -23,7 +27,7 @@
     let shown = 0;
     for (const row of rows) {
       const match =
-        row.dataset.search.includes(query) &&
+        text.get(row).includes(query) &&
         (!topic || row.dataset.topic === topic);
       row.hidden = !match;
       if (match) shown++;
