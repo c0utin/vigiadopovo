@@ -81,7 +81,7 @@
   </div>
   <p class="caveat">Resumos por IA, sem revisão humana. Proposta não é lei.</p>
   <p class="sr-only" data-count aria-live="polite">
-    {portal.total} propostas
+    {portal.listed} propostas
   </p>
 
   <div id="propostas">
@@ -111,6 +111,11 @@
       </section>
     {/each}
   </div>
+  {#if portal.listed < portal.total}
+    <a class="card-link" href={resolve("propostas/")}
+      >Ver todas as {portal.total} propostas →</a
+    >
+  {/if}
   <div class="empty-state" data-empty hidden>
     <h3>Nenhuma proposta encontrada.</h3>
     <p>Tente outra palavra ou outro tema.</p>
