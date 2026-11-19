@@ -6,7 +6,9 @@ import { defineConfig } from "vite";
 export default defineConfig({
   plugins: [
     sveltekit({
-      adapter: adapter({ precompress: true }),
+      // No precompress: Workers assets ignore .br/.gz siblings and compress at
+      // the edge, and the copies would count against the free 20,000-file limit.
+      adapter: adapter(),
       // Cloudflare serves the site from the root; BASE_PATH is for hosts under a subpath.
       paths: {
         base: (process.env.BASE_PATH ?? "") as "" | `/${string}`,
