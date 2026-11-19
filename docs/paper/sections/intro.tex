@@ -5,7 +5,7 @@ In June 2026, four months before a general election, two in three Brazilian vote
 
 These facts describe one problem from two sides. Citizens are far from the institution that writes their laws, and the channels that could bring them closer are not believed. The records exist: the Chamber publishes every recorded vote as open data. But raw records are not understanding, and whoever turns one into the other, a newspaper, a ranking or a message forwarded in a family group, asks to be trusted at a moment when trust is the scarce resource.
 
-\emph{Vigia do Povo} (``the people's watch'') is an independent, open-source site built to address both sides. Its first aim is to shorten the distance: to tell a citizen, in simple language and with the context needed to read it, what the Chamber voted and how each deputy voted. Its second aim is that the reader should not have to trust the site to believe it. Every published file and number comes with the means to check it:
+\emph{Vigia do Povo} (``the people's watch'') is an independent, open-source site built to address both sides. Its first aim is to shorten the distance: to tell a citizen, in simple language and with the context needed to read it, what the Chamber voted and how each deputy voted. Its second aim is that the reader should not have to trust the site to believe the data behind it. The daily collection's data files and the published metrics come with the means to check them:
 
 \begin{itemize}[leftmargin=1.4em,itemsep=2pt]
 \item every collected file is named by its SHA-256 digest, and one manifest digest commits to a whole day's collection;
@@ -15,7 +15,7 @@ These facts describe one problem from two sides. Citizens are far from the insti
 \item every metric is a public formula over the official files, which a reader can recompute with unrelated tools.
 \end{itemize}
 
-The guarantees are not uniform, and we keep them apart throughout. The daily collection carries the full chain of signed provenance and timestamp. The historical metrics since 2003 are computed from the Chamber's yearly files and are checkable by recomputation, not by signature. And because the Chamber does not sign what it publishes, no proof reaches back to what the Chamber itself said.
+The guarantees are not uniform, and we keep them apart throughout. The daily collection carries the full chain of signed provenance and timestamp. The historical metrics since 2003 are computed from the Chamber's yearly files and are checkable by recomputation, not by signature. The pages a reader sees are built and deployed by the operator and are not attested, and nothing shows that the collection they present is the latest. And because the Chamber does not sign what it publishes, no proof reaches back to what the Chamber itself said.
 
 None of these techniques is new. They come from software supply-chain security, trusted timestamping and data engineering. What we contribute is their combination for a setting that we believe is common and underserved: an outsider with no authority republishing a government's unsigned open data for a public that has reason to be sceptical. Specifically, we contribute:
 

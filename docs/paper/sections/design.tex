@@ -66,7 +66,7 @@ Which program fetched the data & The operator's description & Open source under 
 \addlinespace[3pt]
 That it ran unmodified & The operator's server, unseen & A fresh virtual machine hosted by the CI platform, which signs what ran \\
 \addlinespace[3pt]
-That nobody edited the output & The operator's word & Output digests signed inside the run, before any person can touch the files \\
+That nobody edited the output & The operator's word & Output digests signed inside the run, before any person can touch the files; any human influence on the run's inputs is a public commit \\
 \addlinespace[3pt]
 That the database did not change later & The operator's word & Content-addressed files in a public history, anchored by a Bitcoin timestamp \\
 \addlinespace[3pt]
@@ -135,7 +135,7 @@ A scheduled workflow on GitHub-hosted runners starts the collector at 09:00 UTC 
 
 The collector treats the source as untrusted input. It accepts only HTTPS URLs on an explicit list of four Chamber hosts, with no port or credentials, and rejects API redirects. Every response is decoded against a schema; a response that does not match stops the run. Two records for the same deputy in the same voting stop the run instead of one being picked silently. Requests time out after 30 seconds and are retried at most twice with exponential backoff and jitter, honouring \texttt{Retry-After}. Output files are written through a temporary file and an atomic rename, and only after the whole collection has validated, so a failed run leaves the previous collection in place.
 
-Two fields are removed from vote captures before anything is stored: each deputy's e-mail address and photo URL. The removal is declared in a \texttt{redactions} list next to the capture, so that a reader does not mistake the capture for a byte-exact HTTP response.
+Two fields are removed from vote captures before anything is stored: each deputy's e-mail address and photo URL. The removal is declared in a \texttt{redactions} list next to the capture, so that a reader does not mistake the capture for a byte-exact HTTP response. Even without redactions it is not one: the capture stores the decoded body, so differences that parsing erases, such as whitespace, string escapes or a repeated key, are not recorded, and the commitments below are to the decoded value.
 
 \subsection{Content addressing and the manifest}
 \label{sec:manifest}
@@ -188,7 +188,7 @@ The workflow does this through OpenTimestamps~\citep{todd2016opentimestamps}, wh
 
 The receipt is first \emph{pending}: it names the calendar that will complete it. Every later run executes the client's \texttt{upgrade} step on all earlier receipts, which replaces the pending reference with the full path of hash operations from the manifest digest to the Merkle root in a block header. A complete proof needs only the Bitcoin block headers to verify. A calendar cannot attach an existing proof to a different document without finding a collision of a hash function used in the proof, which in practice is SHA-256; at worst it fails to deliver a proof~\citep{todd2016opentimestamps}. The proof is about content, not time: the time bound comes from the block, as explained next.
 
-The proof shows that the manifest existed before the block was mined. Turning that into a date relies on the header's time, which miners set within loose limits: it must exceed the median of the previous eleven blocks and may be up to two hours ahead of network time~\citep{bitcoin-devref-blockchain,szalachowski2018timestamps}. Assuming honest miners, the header time is accurate to within about two hours in either direction, so the proof gives an upper bound on when the manifest existed, with a resolution of hours, and nothing about how long before. Proofs are stored outside the immutable \texttt{v1/} tree, because the upgrade step rewrites them.
+The proof shows that the manifest existed before the block was mined. Turning that into a date relies on the header's time, which miners set within loose limits: it must exceed the median of the previous eleven blocks and may be up to two hours ahead of network time~\citep{bitcoin-devref-blockchain,szalachowski2018timestamps}. These rules limit how far a header time can run ahead of real time, but not how far it can lag, beyond the median rule. We therefore assume honest miners, under which the header time is accurate to within about two hours; a bound that does not need the assumption can be taken from the header times of later blocks. Either way the proof gives an upper bound on when the manifest existed, with a resolution of hours, and nothing about how long before. Proofs are stored outside the immutable \texttt{v1/} tree, because the upgrade step rewrites them.
 
 \subsection{Why not an on-chain verifier}
 \label{sec:onchain}
@@ -255,4 +255,4 @@ The site also offers its content as plain text (an index file and Markdown versi
 \subsection{Deployment and cost}
 \label{sec:deploy}
 
-The site is a static bundle served from a CDN's free tier. The collection, attestation and timestamping run on free CI minutes for public repositories. The lake uses an object store's free allowance; before any write, a budget check reads the month's real usage from the provider's analytics API and stops the job when any allowance reaches 80\%. Visitor traffic cannot create a bill. Static pages do not invoke the edge function; the function is capped by its free plan at 100,000 requests a day, after which requests fail; and it reads the object store at most twice per request (once, except in early January, when a request without a year falls back to the previous year), which bounds reads at about 3.1 million a month against an allowance of 10 million.
+The site is a static bundle served from a CDN's free tier. The collection, attestation and timestamping run on free CI minutes for public repositories. The lake uses an object store's free allowance; before any write, a budget check reads the month's real usage from the provider's analytics API and stops the job when any allowance reaches 80\%. Visitor traffic cannot create a bill. Static pages do not invoke the edge function; the function is capped by its free plan at 100,000 requests a day, after which requests fail; and it reads the object store at most twice per request (once, except in early January, when a request without a year falls back to the previous year), which bounds reads at about 3.1 million a month, and at 6.2 million even if every request read twice, against an allowance of 10 million.
