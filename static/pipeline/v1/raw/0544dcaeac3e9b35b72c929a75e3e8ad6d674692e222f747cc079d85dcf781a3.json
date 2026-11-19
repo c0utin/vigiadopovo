@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-18",
+      "dataHoraRegistro": "2026-11-19T09:33:34",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Sugestão de Emenda, adotada como Emenda 01 da Comissão.",
+      "efeitosRegistrados": [],
+      "id": "2654719-2",
+      "idEvento": 83354,
+      "idOrgao": 539385,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 612,
+          "dataApresentacao": "2026-11-17T12:09",
+          "ementa": "SLD n. 01 - Dep Marcos Tavares - Requer a inclusâo de meta no programa de Comunicações para Inclusão e Transformação (Programa: 2305 / Acréscimo: 2000)",
+          "id": 2654719,
+          "numero": 1,
+          "siglaTipo": "SLD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654719"
+        }
+      ],
+      "proposicoesAfetadas": [],
+      "siglaOrgao": "CCOM",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação da SLD n. 1/2026 (Sugestão de Emenda à LDO - Comissões), pelo Deputado Marcos Tavares (PDT/RJ), que \"SLD n. 01 - Dep Marcos Tavares - Requer a inclusâo de meta no programa de Comunicações para Inclusão e Transformação (Programa: 2305 / Acréscimo: 2000)\n\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654719-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654719-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-19T18:07:16.217Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654719-2"
+}

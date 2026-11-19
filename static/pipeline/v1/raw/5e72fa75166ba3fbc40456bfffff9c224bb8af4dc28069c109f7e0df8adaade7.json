@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 0,
+      "data": "2026-11-18",
+      "dataHoraRegistro": "2026-11-19T09:37:52",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Rejeitada a Sugestão de Emenda.",
+      "efeitosRegistrados": [],
+      "id": "2654724-2",
+      "idEvento": 83354,
+      "idOrgao": 539385,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 612,
+          "dataApresentacao": "2026-11-17T12:37",
+          "ementa": "SLD n. 05 - Dep Maria Rosas - Requer a inclusão de meta no programa Comunicações para Inclusão e Transformação (Programa: 2305 / Objetivo específico: 0097 / Unidade de medida: 173 - unidade por ano / Acréscimos: 50)",
+          "id": 2654724,
+          "numero": 5,
+          "siglaTipo": "SLD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654724"
+        }
+      ],
+      "proposicoesAfetadas": [],
+      "siglaOrgao": "CCOM",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação da SLD n. 5/2026 (Sugestão de Emenda à LDO - Comissões), pela Deputada Maria Rosas (REPUBLIC/SP), que \"SLD n. 05 - Dep Maria Rosas - Requer a inclusão de meta no programa Comunicações para Inclusão e Transformação (Programa: 2305 / Objetivo específico: 0097 / Unidade de medida: 173 - unidade por ano / Acréscimos: 50)\n\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654724-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654724-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-19T18:07:14.943Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654724-2"
+}
