@@ -45,6 +45,21 @@ pub fn compute(tables: &[(&'static str, DataFrame)]) -> Result<Vec<(&'static str
     let orientacoes = frame(tables, "orientacoes");
     let votacoes = frame(tables, "votacoes");
 
+    // Both joins below assume one orientation per voting and leadership; a
+    // second row would count every vote of that voting twice.
+    let repetidas = orientacoes
+        .clone()
+        .filter(col("bloco").is_not_null())
+        .group_by([col("id_votacao"), col("bloco")])
+        .agg([len().alias("n")])
+        .filter(col("n").gt(lit(1)))
+        .collect()?
+        .height();
+    anyhow::ensure!(
+        repetidas == 0,
+        "{repetidas} pares (votação, bancada) com mais de uma orientação"
+    );
+
     let alinhamento = votos
         .clone()
         .filter(one_of("voto", &POSITIONS))
@@ -133,4 +148,71 @@ pub fn compute(tables: &[(&'static str, DataFrame)]) -> Result<Vec<(&'static str
         ("deputado_votos", deputados),
         ("votacoes_mes", votacoes_mes),
     ])
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    fn tables(orientacoes: DataFrame) -> Vec<(&'static str, DataFrame)> {
+        let mut votacoes = df!(
+            "id" => ["v1"],
+            "sigla_orgao" => ["PLEN"],
+            "votos_registrados" => [2i32],
+        )
+        .unwrap();
+        votacoes
+            .with_column(
+                Series::new("data".into(), [20_000i32])
+                    .cast(&DataType::Date)
+                    .unwrap()
+                    .into_column(),
+            )
+            .unwrap();
+        let votos = df!(
+            "id_votacao" => ["v1", "v1"],
+            "voto" => ["Sim", "Não"],
+            "deputado_id" => [1i64, 2],
+            "partido" => ["PT", "PT"],
+        )
+        .unwrap();
+        vec![
+            ("votacoes", votacoes),
+            ("votos", votos),
+            ("orientacoes", orientacoes),
+        ]
+    }
+
+    #[test]
+    fn counts_each_vote_once_and_rejects_repeated_orientations() {
+        let one = df!(
+            "id_votacao" => ["v1"],
+            "bloco" => ["Governo"],
+            "orientacao" => ["Sim"],
+        )
+        .unwrap();
+        let gold = compute(&tables(one)).unwrap();
+        let alinhamento = &gold[0].1;
+        assert_eq!(
+            alinhamento.column("votos").unwrap().i64().unwrap().get(0),
+            Some(2)
+        );
+        assert_eq!(
+            alinhamento
+                .column("alinhados")
+                .unwrap()
+                .i64()
+                .unwrap()
+                .get(0),
+            Some(1)
+        );
+
+        let two = df!(
+            "id_votacao" => ["v1", "v1"],
+            "bloco" => ["Governo", "Governo"],
+            "orientacao" => ["Sim", "Sim"],
+        )
+        .unwrap();
+        assert!(compute(&tables(two)).is_err());
+    }
 }

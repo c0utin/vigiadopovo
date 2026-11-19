@@ -487,8 +487,8 @@ pub const TABLES: [(&str, &[(&str, Kind)]); 4] = [
     ("votacoes_proposicoes", VOTACOES_PROPOSICOES),
 ];
 
-/// The Câmara spelled the same leadership differently over the years ("GOV."
-/// until 2022, "Governo" after). `bloco` gives these four one name; every
+/// The Câmara spells the Government leadership both "GOV." and "Governo",
+/// sometimes within one year's file (2019 and 2022 have both). `bloco` gives these four one name; every
 /// other bancada (parties, federations, truncated bloc names) stays as published.
 fn bloco(bancada: &str) -> Option<String> {
     match bancada.to_uppercase().as_str() {
