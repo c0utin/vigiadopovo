@@ -57,7 +57,34 @@ done
 
 Expected: `✓ Verification succeeded!` for each file. The output names the commit and workflow run; report them. If it fails with "no attestations found", the file differs from anything the collector produced, or it predates the workflow. Do not treat this as proof of tampering without checking whether `legislativo.json`/`dados.json` were replaced by a newer collection (compare `collectedAt`).
 
+Collections from 2026-11-20 on also publish the attestation bundle next to the proofs, so the check does not have to fetch it from GitHub's API: `curl -fsSLO "$SITE/pipeline/attestations/$HASH.jsonl"`, then add `--bundle "$HASH.jsonl"` to the command above. A missing bundle for an older collection is expected.
+
 Offline alternative: `gh attestation download <file> -R "$REPO"` on a connected machine, then `gh attestation verify <file> -R "$REPO" --bundle <file>.jsonl --custom-trusted-root trusted_root.jsonl` (get the root with `gh attestation trusted-root > trusted_root.jsonl`).
+
+## 2b. Check how the run was started, that it is the newest, and what people changed
+
+A valid attestation does not show that this is the latest collection, that the run was not picked among several, or that nobody edited the inputs it read. Check all three and report each:
+
+```sh
+# Scheduled runs are expected; workflow_dispatch means someone started it by hand.
+gh attestation verify "$HASH.json" -R "$REPO" \
+  --signer-workflow "$REPO/.github/workflows/collect.yml" \
+  --source-ref refs/heads/main --deny-self-hosted-runners --format json |
+  jq -r '.[0].verificationResult.signature.certificate.githubWorkflowTrigger'
+
+# The newest collection on main. If it differs from $HASH, the site is serving an older one.
+gh api "repos/$REPO/contents/src/lib/data/provenance.json" --jq .content | base64 -d | jq -r .manifestHash
+
+# Commits by people that touched the collector's data inputs and outputs.
+git clone -q --filter=blob:none "https://github.com/$REPO.git" repo
+git -C repo log --no-merges --format='%h %ad %an %s' --date=short -- \
+  data static/dados.json static/legislativo.json src/lib/data static/pipeline |
+  grep -v 'github-actions\[bot\]'
+```
+
+- A manual trigger is not a failure, but say so: the operator could have run the workflow several times and kept the result that suited.
+- An older manifest on the site is "stale", not "tampered": the deploy is manual.
+- The collector refreshes every proposition listed in the previous `static/dados.json`, so a human commit to that file changes what the next attested collection contains. Commits to `data/summaries.json` are expected (the AI summaries are committed by hand). Report any other human commit to these paths with its date, and whether it falls before the collection being checked.
 
 ## 3. Check the manifest's own hash and every artifact it lists
 
