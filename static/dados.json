@@ -1,7 +1,169 @@
 {
-  "collectedAt": "2026-11-18T17:54:31.662Z",
+  "collectedAt": "2026-11-19T18:07:08.591Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2655581,
+      "label": "PL 5912/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
+      "presentedAt": "2026-11-19T14:13",
+      "status": {
+        "dataHora": "2026-11-19T14:13",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5912/2026 (Projeto de Lei), pelo Deputado Josivaldo Jp (UNIÃO/MA), que \"Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM. \"."
+      },
+      "authors": [
+        {
+          "name": "Josivaldo Jp",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655581",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199284",
+      "votes": [],
+      "sourceHash": "0784b0f8b559ca7d1c8a655c1c7d7019f8a899c6181fde57b3341245db31d744",
+      "summary": null
+    },
+    {
+      "id": 2655580,
+      "label": "PL 5911/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
+      "presentedAt": "2026-11-19T13:51",
+      "status": {
+        "dataHora": "2026-11-19T13:51",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5911/2026 (Projeto de Lei), pelo Deputado Murilo Galdino (REPUBLIC/PB), que \"Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM). \"."
+      },
+      "authors": [
+        {
+          "name": "Murilo Galdino",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655580",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199282",
+      "votes": [],
+      "sourceHash": "579c5e533a66592c7621d5ebe84e94f70a1cc6a6b77538512e71b8240fac1823",
+      "summary": null
+    },
+    {
+      "id": 2655542,
+      "label": "PL 5910/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
+      "presentedAt": "2026-11-19T12:10",
+      "status": {
+        "dataHora": "2026-11-19T12:10",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5910/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais\"."
+      },
+      "authors": [
+        {
+          "name": "Rubens Pereira Júnior",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655542",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199129",
+      "votes": [],
+      "sourceHash": "75bacfd13b04d4e1b91598ff278bf87e68946a35a5452322988e438adfce2ba2",
+      "summary": null
+    },
+    {
+      "id": 2655541,
+      "label": "PL 5909/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
+      "presentedAt": "2026-11-19T12:00",
+      "status": {
+        "dataHora": "2026-11-19T12:00",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5909/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base\"."
+      },
+      "authors": [
+        {
+          "name": "Rubens Pereira Júnior",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655541",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199128",
+      "votes": [],
+      "sourceHash": "5feeb9640300640752a9eb6a4349124f854091d13c2b400d0ac371cc36766d0f",
+      "summary": null
+    },
+    {
+      "id": 2655540,
+      "label": "PL 5908/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
+      "presentedAt": "2026-11-19T11:54",
+      "status": {
+        "dataHora": "2026-11-19T11:54",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5908/2026 (Projeto de Lei), pelo Deputado Pastor Sargento Isidório (AVANTE/BA), que \"Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional. \"."
+      },
+      "authors": [
+        {
+          "name": "Pastor Sargento Isidório",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199127",
+      "votes": [],
+      "sourceHash": "f2aa9b23da902a3cebfdd24f308ead3fc812de0fc16292a0a1a45de60903ed12",
+      "summary": null
+    },
+    {
+      "id": 2655533,
+      "label": "PL 5907/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
+      "presentedAt": "2026-11-19T11:17",
+      "status": {
+        "dataHora": "2026-11-19T11:17",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5907/2026 (Projeto de Lei), pelo Deputado Kim Kataguiri (MISSÃO/SP), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais\"."
+      },
+      "authors": [
+        {
+          "name": "Kim Kataguiri",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655533",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199118",
+      "votes": [],
+      "sourceHash": "3b32d9e13e4ab0850d259db21ad465a033440826debe771ae39aad5dbaef5c69",
+      "summary": null
+    },
     {
       "id": 2655202,
       "label": "PL 5896/2026",
@@ -21,7 +183,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655202",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198392",
@@ -48,7 +223,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655184",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198350",
@@ -75,7 +263,14 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655134/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655134",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655134",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198161",
@@ -617,7 +812,7 @@
       "presentedAt": "2026-11-13T18:37",
       "status": {
         "dataHora": "2026-11-13T18:37",
-        "descricaoSituacao": null,
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 2423/2026 (Projeto de Lei), pelo Senado Federal, que \"Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás\"."
@@ -1054,11 +1249,11 @@
       "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
       "presentedAt": "2026-11-13T18:29",
       "status": {
-        "dataHora": "2026-11-13T18:29",
+        "dataHora": "2026-11-19T12:55",
         "descricaoSituacao": null,
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "descricaoTramitacao": "Apresentação de Requerimento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5854/2026 (Projeto de Lei), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências\"."
+        "despacho": "Apresentação do REQ n. 4496/2026 (Requerimento de Retirada de Proposição de Iniciativa Coletiva), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências\"."
       },
       "authors": [
         {
@@ -2166,7 +2361,7 @@
       "presentedAt": "2026-11-13T18:28",
       "status": {
         "dataHora": "2026-11-13T18:28",
-        "descricaoSituacao": null,
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 3768/2026 (Projeto de Lei), pelo Senado Federal, que \"Institui o Prêmio Nacional da Educação Brasileira (PNEB)\"."
@@ -2697,11 +2892,11 @@
       "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
       "presentedAt": "2026-11-10T19:20",
       "status": {
-        "dataHora": "2026-11-17T18:17",
-        "descricaoSituacao": null,
-        "descricaoTramitacao": "Distribuição",
-        "siglaOrgao": "MESA",
-        "despacho": "Às Comissões deMesa Diretora da Câmara dos Deputados eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação do Plenário.Regime de Tramitação: Urgência (Art. 155, RICD)."
+        "dataHora": "2026-11-18T00:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Publicação de Proposição",
+        "siglaOrgao": "CCP",
+        "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 19/11/2026."
       },
       "authors": [
         {
@@ -2806,7 +3001,7 @@
       "presentedAt": "2026-11-09T11:14",
       "status": {
         "dataHora": "2026-11-09T11:14",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5795/2026 (Projeto de Lei), pela Deputada Duda Salabert (PSOL/MG), que \"Altera o Decreto-Lei nº 25, de 30 de novembro de 1937 e a Lei nº 8.313, de 23 de dezembro de 1991, Lei nº 11.771, de 17 de setembro de 2008, Lei nº 11.904, de 14 de janeiro de 2009, Lei nº 11.906, de 20 de janeiro de 2009, e Lei nº 12.343, de 2 de dezembro de 2010, para fortalecer a preservação, a valorização e a difusão da memória e do patrimônio cultural de grupos historicamente invisibilizados, especialmente das populações LGBTI+, negras e quilombolas\"."
@@ -2972,7 +3167,7 @@
       "presentedAt": "2026-11-06T11:49",
       "status": {
         "dataHora": "2026-11-06T11:49",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5787/2026 (Projeto de Lei), pelo Deputado Marcos Tavares (PDT/RJ), que \"Institui a Lei do Silêncio Inclusivo e da Proteção Sensorial Imediata, estabelece medidas protetivas de urgência e mecanismos de intervenção policial destinados à preservação do sossego, da saúde e da integridade física, psíquica e sensorial de pessoas com vulnerabilidade comprovada a estímulos sonoros, especialmente crianças e pessoas idosas, confere ao delegado de polícia competência para determinar medidas emergenciais de cessação de perturbações abusivas, prevê responsabilização pelo descumprimento de determinações protetivas e altera o Decreto-Lei nº 3.688, de 3 de outubro de 1941 (Lei das Contravenções Penais)\"."
@@ -3383,11 +3578,11 @@
       "ementa": "Altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM).",
       "presentedAt": "2026-11-05T08:07",
       "status": {
-        "dataHora": "2026-11-05T08:07",
+        "dataHora": "2026-11-18T17:28",
         "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "descricaoTramitacao": "Apresentação de Requerimento",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5774/2026 (Projeto de Lei), pelo Deputado Delegado Palumbo (PODE/SP), que \"Altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM)\"."
+        "despacho": "Apresentação do REQ n. 4488/2026 (Requerimento de Urgência (Art. 155 do RICD)), pelos Deputado Delegado Palumbo (PODE/SP) e outros, que \"Requer, nos termos do art. 155 do RICD, urgência para o Projeto de Lei nº 5.774, de 2026, que “altera a Lei nº 15.409, de 20 de maio de 2026, para assegurar à mulher o direito de consultar o Cadastro Nacional de Pessoas Condenadas por Violência contra a Mulher (CNVM).”\"."
       },
       "authors": [
         {
@@ -3478,7 +3673,7 @@
       "presentedAt": "2026-10-29T14:28",
       "status": {
         "dataHora": "2026-10-29T14:28",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5703/2026 (Projeto de Lei), pelo Deputado Reimont (PT/RJ -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS\"."
@@ -3711,11 +3906,11 @@
       "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
       "presentedAt": "2026-10-21T00:00",
       "status": {
-        "dataHora": "2026-11-17T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (MPV 1.398-A/2026)."
+        "dataHora": "2026-11-17T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Ricardo Barros (PP/PR)."
       },
       "authors": [
         {
@@ -3855,11 +4050,11 @@
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
       "presentedAt": "2026-10-13T13:26",
       "status": {
-        "dataHora": "2026-11-17T17:47",
+        "dataHora": "2026-11-18T13:55",
         "descricaoSituacao": "Aguardando Deliberação",
-        "descricaoTramitacao": "Apresentação de Requerimento",
-        "siglaOrgao": "MESA",
-        "despacho": "Apresentação do REQ n. 4483/2026 (Requerimento de Apensação), pelo Deputado(a) Lula da Fonte (PP-PE), que: \"Requer a a apensação para tramitação conjunta do PL 1040/2026 ao PL 5542/2026\"."
+        "descricaoTramitacao": "Encerramentos",
+        "siglaOrgao": "PLEN",
+        "despacho": "Matéria não apreciada em face do encerramento da Sessão."
       },
       "authors": [
         {
@@ -3918,10 +4113,10 @@
       "presentedAt": "2026-08-19T15:28",
       "status": {
         "dataHora": "2026-11-18T00:00",
-        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
-        "descricaoTramitacao": "Expedição de Documento",
-        "siglaOrgao": "MESA",
-        "despacho": "Remessa ao Senado Federal por meio do Of. nº 268/2026/SGM-P."
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Publicação de Proposição",
+        "siglaOrgao": "CCP",
+        "despacho": "Encaminhada à publicação. Publicação Inicial em avulso e no DCD de 19/11/2026."
       },
       "authors": [
         {
@@ -4547,11 +4742,11 @@
       "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
       "presentedAt": "2026-02-11T10:15",
       "status": {
-        "dataHora": "2026-11-18T13:26",
-        "descricaoSituacao": "Aguardando Parecer",
-        "descricaoTramitacao": "Designação de Relator(a)",
+        "dataHora": "2026-11-19T10:40",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Recebimento - Redação Final",
         "siglaOrgao": "CCJC",
-        "despacho": "Designado Relator da Redação Final, Dep. Felipe Carreras (PSB-PE)."
+        "despacho": "Apresentação da RDF n. 1 CCJC (Redação Final), pelo Deputado Felipe Carreras (PSB/PE)."
       },
       "authors": [
         {
@@ -6161,11 +6356,11 @@
       "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
       "presentedAt": "2022-11-18T14:36",
       "status": {
-        "dataHora": "2026-11-18T12:37",
-        "descricaoSituacao": "Aguardando Parecer",
-        "descricaoTramitacao": "Designação de Relator(a)",
+        "dataHora": "2026-11-18T20:17",
+        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoTramitacao": "Recebimento - Redação Final",
         "siglaOrgao": "CCJC",
-        "despacho": "Designada Relatora da Redação Final, Dep. Laura Carneiro (PSD-RJ)."
+        "despacho": "Apresentação da RDF n. 1 CCJC (Redação Final), pela Deputada Laura Carneiro (PSD/RJ)."
       },
       "authors": [
         {
@@ -6193,6 +6388,13 @@
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2216469",
       "votes": [
+        {
+          "id": "2338753-114",
+          "date": "2026-11-18",
+          "description": "Deferido o Requerimento n. 4433/2026, nos termos do artigo 104, caput, do RICD.",
+          "organ": "SECAP(SGM)",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-114"
+        },
         {
           "id": "2600339-18",
           "date": "2026-11-11",
@@ -6446,11 +6648,11 @@
       "ementa": "Institui no calendário nacional o \"Dia Nacional do Autocuidado\".",
       "presentedAt": "2019-05-22T19:59",
       "status": {
-        "dataHora": "2026-11-10T00:00",
-        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
-        "descricaoTramitacao": "Recebimento - Redação Final",
+        "dataHora": "2026-11-18T16:04",
+        "descricaoSituacao": "Aguardando Sanção",
+        "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Eduardo Bismarck (PV/CE -Fdr PT-PCdoB-PV)."
+        "despacho": "Remessa do Ofício nº 817/2026/PS-GSE ao Senado Federal, comunicando envio à sanção."
       },
       "authors": [
         {
@@ -6523,6 +6725,180 @@
         "scope": "ementa",
         "method": "Inferência neste chat · sem revisão humana"
       }
+    },
+    {
+      "id": 1194323,
+      "label": "PL 956/2015",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+      "presentedAt": "2015-03-27T12:55",
+      "status": {
+        "dataHora": "2026-11-18T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A Matéria vai ao Senado Federal (PL 956-D/2015)."
+      },
+      "authors": [
+        {
+          "name": "Tribunal Superior do Trabalho",
+          "type": "Órgão do Poder Judiciário"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:76",
+          "name": "Direito e Justiça",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=1194323",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1315063",
+      "votes": [
+        {
+          "id": "1194323-116",
+          "date": "2026-11-18",
+          "description": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-116"
+        },
+        {
+          "id": "1194323-109",
+          "date": "2026-11-04",
+          "description": "Aprovada a Redação Final.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109"
+        },
+        {
+          "id": "1194323-99",
+          "date": "2026-08-31",
+          "description": "Aprovadas as Emendas de nºs 1 a 4 da Comissão de Finanças e Tributação.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-99"
+        },
+        {
+          "id": "1194323-97",
+          "date": "2026-08-31",
+          "description": "Aprovado o Projeto de Lei nº 956, de 2015.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-97"
+        },
+        {
+          "id": "1194323-87",
+          "date": "2026-07-08",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-87"
+        },
+        {
+          "id": "1194323-75",
+          "date": "2026-05-06",
+          "description": "Aprovado o Parecer. Com voto contrário dos Dep. Kim Kataguiri e Sidney Leite.",
+          "organ": "CFT",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-75"
+        },
+        {
+          "id": "1194323-61",
+          "date": "2025-12-17",
+          "description": "Rejeitado o Requerimento de Votação Nominal do Requerimento de Retirada de Pauta.",
+          "organ": "CFT",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61"
+        },
+        {
+          "id": "1194323-26",
+          "date": "2015-08-19",
+          "description": "Aprovado o Parecer contra os votos dos Deputados Silvio Costa e Daniel Vilela.",
+          "organ": "CTRAB",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26"
+        }
+      ],
+      "sourceHash": "04aea1d70cbe046b88f9e55ccf4b4a0a8d6c23796d0f8cdb879a0df5b2454ecd",
+      "summary": null
+    },
+    {
+      "id": 866002,
+      "label": "PL 8332/2015",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+      "presentedAt": "2015-01-26T17:37",
+      "status": {
+        "dataHora": "2026-11-18T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A Matéria vai ao Senado Federal (PL 8.832-D/2015)."
+      },
+      "authors": [
+        {
+          "name": "Tribunal Superior do Trabalho",
+          "type": "Órgão do Poder Judiciário"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=866002",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1296311",
+      "votes": [
+        {
+          "id": "866002-105",
+          "date": "2026-11-18",
+          "description": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105"
+        },
+        {
+          "id": "866002-98",
+          "date": "2026-11-04",
+          "description": "Aprovada a Redação Final.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98"
+        },
+        {
+          "id": "866002-89",
+          "date": "2026-08-31",
+          "description": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-89"
+        },
+        {
+          "id": "866002-79",
+          "date": "2026-07-08",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79"
+        },
+        {
+          "id": "866002-66",
+          "date": "2026-05-06",
+          "description": "Aprovado o Parecer.",
+          "organ": "CFT",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66"
+        },
+        {
+          "id": "866002-21",
+          "date": "2015-09-09",
+          "description": "Aprovado por Unanimidade o Parecer.",
+          "organ": "CTRAB",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21"
+        }
+      ],
+      "sourceHash": "a7937e395304e49808108305184b882b833c2c1da70cd4409a5e380c8a0a01a6",
+      "summary": null
     }
   ]
 }

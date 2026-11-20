@@ -1,8 +1,86 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-18T17:54:31.662Z",
+  "collectedAt": "2026-11-19T18:07:08.591Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2655202,
+      "label": "PL 5896/2026",
+      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655202",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655184,
+      "label": "PL 5895/2026",
+      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655184",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655134,
+      "label": "PL 5894/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655134",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655134/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655025,
+      "label": "PL 5893/2026",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655025",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
     {
       "id": 2654578,
       "label": "PL 5881/2026",
@@ -262,6 +340,27 @@
       "votingIds": []
     },
     {
+      "id": 2655132,
+      "label": "PL 2423/2026",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655132",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
       "id": 2653948,
       "label": "PL 5856/2026",
       "ementa": "Altera a Lei nº 14.597, de 14 de junho de 2023 (Lei Geral do Esporte), para estabelecer medidas de responsabilização disciplinar de atletas pela prática de violência contra a mulher.",
@@ -345,6 +444,27 @@
       "ementa": "Institui o Imposto sobre Grandes  Fortunas, previsto no art. 153, inciso VII, da Constituição Federal.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2653944",
       "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655116,
+      "label": "PL 3768/2026",
+      "ementa": "Institui o Prêmio Nacional da Educação Brasileira (PNEB).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655116",
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
+          "relevance": 1
+        }
+      ],
       "votingIds": []
     },
     {
@@ -610,6 +730,37 @@
         }
       ],
       "votingIds": []
+    },
+    {
+      "id": 2652524,
+      "label": "PRC 50/2026",
+      "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652524",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2652524-18",
+        "2652524-16",
+        "2654009-7"
+      ]
     },
     {
       "id": 2651409,
@@ -1092,6 +1243,64 @@
       "votingIds": []
     },
     {
+      "id": 2648616,
+      "label": "MPV 1398/2026",
+      "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648616",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2648616-28",
+        "2648616-26",
+        "2648616-10"
+      ]
+    },
+    {
+      "id": 2648606,
+      "label": "MPV 1397/2026",
+      "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648606",
+      "labels": [
+        {
+          "id": "camara:tema:40",
+          "name": "Economia",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2648606-32",
+        "2648606-28",
+        "2648606-26",
+        "2648606-24",
+        "2648606-9"
+      ]
+    },
+    {
       "id": 2647427,
       "label": "PL 5542/2026",
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
@@ -1118,6 +1327,31 @@
       ],
       "votingIds": [
         "2647742-7"
+      ]
+    },
+    {
+      "id": 2644208,
+      "label": "PL 5127/2026",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644208",
+      "labels": [
+        {
+          "id": "camara:tema:35",
+          "name": "Arte, Cultura e Religião",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": [
+        "2644208-20",
+        "2644208-16",
+        "2647302-7"
       ]
     },
     {
@@ -1599,6 +1833,7 @@
         }
       ],
       "votingIds": [
+        "2338753-114",
         "2600339-18",
         "2600339-15",
         "2338753-88",
@@ -1696,208 +1931,219 @@
       ]
     },
     {
-      "id": 2655202,
-      "label": "PL 5896/2026",
-      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655202",
+      "id": 2655581,
+      "label": "PL 5912/2026",
+      "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655581",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2655184,
-      "label": "PL 5895/2026",
-      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655184",
+      "id": 2655580,
+      "label": "PL 5911/2026",
+      "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655580",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2655134,
-      "label": "PL 5894/2026",
-      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655134",
+      "id": 2655542,
+      "label": "PL 5910/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655542",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2655132,
-      "label": "PL 2423/2026",
-      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655132",
-      "labels": [
-        {
-          "id": "camara:tema:35",
-          "name": "Arte, Cultura e Religião",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:72",
-          "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/temas",
-          "relevance": 0
-        }
-      ],
+      "id": 2655541,
+      "label": "PL 5909/2026",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655541",
+      "labels": [],
       "votingIds": []
     },
     {
-      "id": 2655116,
-      "label": "PL 3768/2026",
-      "ementa": "Institui o Prêmio Nacional da Educação Brasileira (PNEB).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655116",
-      "labels": [
-        {
-          "id": "camara:tema:46",
-          "name": "Educação",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:72",
-          "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
-          "relevance": 1
-        }
-      ],
+      "id": 2655540,
+      "label": "PL 5908/2026",
+      "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
+      "labels": [],
       "votingIds": []
     },
     {
-      "id": 2655025,
-      "label": "PL 5893/2026",
-      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655025",
-      "labels": [
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:56",
-          "name": "Saúde",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/temas",
-          "relevance": 0
-        }
-      ],
+      "id": 2655533,
+      "label": "PL 5907/2026",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655533",
+      "labels": [],
       "votingIds": []
     },
     {
-      "id": 2652524,
-      "label": "PRC 50/2026",
-      "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2652524",
-      "labels": [
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
-          "relevance": 2
-        },
-        {
-          "id": "camara:tema:46",
-          "name": "Educação",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:72",
-          "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": [
-        "2652524-18",
-        "2652524-16",
-        "2654009-7"
-      ]
-    },
-    {
-      "id": 2644208,
-      "label": "PL 5127/2026",
-      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2644208",
-      "labels": [
-        {
-          "id": "camara:tema:35",
-          "name": "Arte, Cultura e Religião",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:72",
-          "name": "Homenagens e Datas Comemorativas",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/temas",
-          "relevance": 1
-        }
-      ],
-      "votingIds": [
-        "2644208-20",
-        "2644208-16",
-        "2647302-7"
-      ]
-    },
-    {
-      "id": 2648616,
-      "label": "MPV 1398/2026",
-      "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648616",
+      "id": 866002,
+      "label": "PL 8332/2015",
+      "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=866002",
       "labels": [
         {
           "id": "camara:tema:34",
           "name": "Administração Pública",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:70",
-          "name": "Finanças Públicas e Orçamento",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/temas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/temas",
           "relevance": 0
         }
       ],
       "votingIds": [
-        "2648616-28",
-        "2648616-26",
-        "2648616-10"
+        "866002-105",
+        "866002-98",
+        "866002-89",
+        "866002-79",
+        "866002-66",
+        "866002-21"
       ]
     },
     {
-      "id": 2648606,
-      "label": "MPV 1397/2026",
-      "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2648606",
+      "id": 1194323,
+      "label": "PL 956/2015",
+      "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=1194323",
       "labels": [
         {
-          "id": "camara:tema:40",
-          "name": "Economia",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
-          "relevance": 1
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/temas",
+          "relevance": 0
         },
         {
-          "id": "camara:tema:55",
-          "name": "Relações Internacionais e Comércio Exterior",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
-          "relevance": 2
-        },
-        {
-          "id": "camara:tema:70",
-          "name": "Finanças Públicas e Orçamento",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/temas",
+          "id": "camara:tema:76",
+          "name": "Direito e Justiça",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/temas",
           "relevance": 0
         }
       ],
       "votingIds": [
-        "2648606-32",
-        "2648606-28",
-        "2648606-26",
-        "2648606-24",
-        "2648606-9"
+        "1194323-116",
+        "1194323-109",
+        "1194323-99",
+        "1194323-97",
+        "1194323-87",
+        "1194323-75",
+        "1194323-61",
+        "1194323-26"
       ]
     }
   ],
   "votings": [
+    {
+      "id": "1194323-109",
+      "date": "2026-11-04",
+      "description": "Aprovada a Redação Final.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-116",
+      "date": "2026-11-18",
+      "description": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-116",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-116/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-26",
+      "date": "2015-08-19",
+      "description": "Aprovado o Parecer contra os votos dos Deputados Silvio Costa e Daniel Vilela.",
+      "organ": "CTRAB",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-61",
+      "date": "2025-12-17",
+      "description": "Rejeitado o Requerimento de Votação Nominal do Requerimento de Retirada de Pauta.",
+      "organ": "CFT",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61/votos",
+      "approval": 0,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-75",
+      "date": "2026-05-06",
+      "description": "Aprovado o Parecer. Com voto contrário dos Dep. Kim Kataguiri e Sidney Leite.",
+      "organ": "CFT",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-75",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-75/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-87",
+      "date": "2026-07-08",
+      "description": "Aprovado o Parecer.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-87",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-87/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-97",
+      "date": "2026-08-31",
+      "description": "Aprovado o Projeto de Lei nº 956, de 2015.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-97",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-97/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "1194323-99",
+      "date": "2026-08-31",
+      "description": "Aprovadas as Emendas de nºs 1 a 4 da Comissão de Finanças e Tributação.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-99",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-99/votos",
+      "approval": 1,
+      "propositionIds": [
+        1194323
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
     {
       "id": "2204495-106",
       "date": "2026-11-10",
@@ -2104,6 +2350,20 @@
       "approval": 1,
       "propositionIds": [
         2270540
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2338753-114",
+      "date": "2026-11-18",
+      "description": "Deferido o Requerimento n. 4433/2026, nos termos do artigo 104, caput, do RICD.",
+      "organ": "SECAP(SGM)",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-114",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-114/votos",
+      "approval": 1,
+      "propositionIds": [
+        2338753
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []
@@ -8455,6 +8715,162 @@
       "approval": 1,
       "propositionIds": [
         2652524
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654719-2",
+      "date": "2026-11-18",
+      "description": "Aprovada a Sugestão de Emenda, adotada como Emenda 01 da Comissão.",
+      "organ": "CCOM",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654719-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654719-2/votos",
+      "approval": 1,
+      "propositionIds": [],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654720-2",
+      "date": "2026-11-18",
+      "description": "Aprovada a Sugestão de Emenda, adotada como Emenda 02 da Comissão.",
+      "organ": "CCOM",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654720-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654720-2/votos",
+      "approval": 1,
+      "propositionIds": [],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654721-2",
+      "date": "2026-11-18",
+      "description": "Rejeitada a Sugestão de Emenda.",
+      "organ": "CCOM",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654721-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654721-2/votos",
+      "approval": 0,
+      "propositionIds": [],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654723-2",
+      "date": "2026-11-18",
+      "description": "Rejeitada a Sugestão de Emenda.",
+      "organ": "CCOM",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654723-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654723-2/votos",
+      "approval": 0,
+      "propositionIds": [],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654724-2",
+      "date": "2026-11-18",
+      "description": "Rejeitada a Sugestão de Emenda.",
+      "organ": "CCOM",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654724-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654724-2/votos",
+      "approval": 0,
+      "propositionIds": [],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "2654725-2",
+      "date": "2026-11-18",
+      "description": "Aprovada a Sugestão de Emenda, adotada como Emenda 03 da Comissão.",
+      "organ": "CCOM",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654725-2",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654725-2/votos",
+      "approval": 1,
+      "propositionIds": [],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "866002-105",
+      "date": "2026-11-18",
+      "description": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105/votos",
+      "approval": 1,
+      "propositionIds": [
+        866002
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "866002-21",
+      "date": "2015-09-09",
+      "description": "Aprovado por Unanimidade o Parecer.",
+      "organ": "CTRAB",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21/votos",
+      "approval": 1,
+      "propositionIds": [
+        866002
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "866002-66",
+      "date": "2026-05-06",
+      "description": "Aprovado o Parecer.",
+      "organ": "CFT",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66/votos",
+      "approval": 1,
+      "propositionIds": [
+        866002
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "866002-79",
+      "date": "2026-07-08",
+      "description": "Aprovado o Parecer.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79/votos",
+      "approval": 1,
+      "propositionIds": [
+        866002
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "866002-89",
+      "date": "2026-08-31",
+      "description": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
+      "organ": "PLEN",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-89",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-89/votos",
+      "approval": 1,
+      "propositionIds": [
+        866002
+      ],
+      "ballotCoverage": "no-individual-records",
+      "ballots": []
+    },
+    {
+      "id": "866002-98",
+      "date": "2026-11-04",
+      "description": "Aprovada a Redação Final.",
+      "organ": "CCJC",
+      "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98",
+      "ballotsUrl": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98/votos",
+      "approval": 1,
+      "propositionIds": [
+        866002
       ],
       "ballotCoverage": "no-individual-records",
       "ballots": []

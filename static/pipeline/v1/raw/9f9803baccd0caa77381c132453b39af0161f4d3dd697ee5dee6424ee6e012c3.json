@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-18T11:13",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "INSTITUI O MARCO NACIONAL DE PROTEÇÃO, DEFESA E RECONHECIMENTO DOS TRABALHADORES DO COMÉRCIO E ESTABELECE DIRETRIZES PARA A POLÍTICA NACIONAL DE VALORIZAÇÃO E DESENVOLVIMENTO PROFISSIONAL DA CATEGORIA.",
+      "ementaDetalhada": null,
+      "id": 2655184,
+      "justificativa": null,
+      "keywords": "Proteção social; Defesa; reconhecimento; Valorização; Comerciário; diretrizes; Política pública; Educação e formação profissional; prevenção; Fraude no comércio; Ambiente de trabalho; Igualdade de oportunidade; proteção; Dados pessoais; Saúde do trabalhador; Segurança do trabalho; Inclusão social; Condições de trabalho; Saúde mental; Lei Geral de Proteção de Dados Pessoais (LGPDP) (2018)",
+      "numero": 5895,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-18T11:13",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5895/2026 (Projeto de Lei), pelo Deputado Luiz Carlos Motta (PL/SP), que \"institui o marco nacional de proteção, defesa e reconhecimento dos trabalhadores do comércio e estabelece diretrizes para a política nacional de valorização e desenvolvimento profissional da categoria\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198350",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-19T18:07:18.148Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184"
+}
