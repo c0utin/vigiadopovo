@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-18",
+      "dataHoraRegistro": "2026-11-19T09:35:39",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Sugestão de Emenda, adotada como Emenda 02 da Comissão.",
+      "efeitosRegistrados": [],
+      "id": "2654720-2",
+      "idEvento": 83354,
+      "idOrgao": 539385,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 612,
+          "dataApresentacao": "2026-11-17T12:23",
+          "ementa": "SLD n. 02 - Dep Marcos Tavares - Requer a inclusão de meta no programa  Comunicações para Inclusão e Transformação (Programa: 2305 / Objetivo específico: 0105 / Unidade de medida: 1232 - % / Acréscimos: 100)",
+          "id": 2654720,
+          "numero": 2,
+          "siglaTipo": "SLD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654720"
+        }
+      ],
+      "proposicoesAfetadas": [],
+      "siglaOrgao": "CCOM",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação da SLD n. 2/2026 (Sugestão de Emenda à LDO - Comissões), pelo Deputado Marcos Tavares (PDT/RJ), que \"SLD n. 02 - Dep Marcos Tavares - Requer a inclusão de meta no programa  Comunicações para Inclusão e Transformação (Programa: 2305 / Objetivo específico: 0105 / Unidade de medida: 1232 - % / Acréscimos: 100)\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654720-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654720-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:40:53.366Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654720-2"
+}

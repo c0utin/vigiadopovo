@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-19T16:05",
+        "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
+        "id": 2655695,
+        "numero": 5756,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-19T15:02",
+        "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+        "id": 2655688,
+        "numero": 892,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-19T16:43",
+        "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+        "id": 2655664,
+        "numero": 5916,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-19T16:22",
+        "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
+        "id": 2655649,
+        "numero": 5915,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655649"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-19T15:23",
+        "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+        "id": 2655613,
+        "numero": 5914,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-19T15:05",
+        "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+        "id": 2655598,
+        "numero": 5913,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655598"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=899&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:40:51.620Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

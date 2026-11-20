@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 58,
+        "relevancia": 0,
+        "tema": "Trabalho e Emprego"
+      },
+      {
+        "codTema": 56,
+        "relevancia": 1,
+        "tema": "Saúde"
+      },
+      {
+        "codTema": 70,
+        "relevancia": 2,
+        "tema": "Finanças Públicas e Orçamento"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:40:57.887Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas"
+}

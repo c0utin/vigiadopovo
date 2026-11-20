@@ -1,5 +1,41 @@
 [
   {
+    "id": 2655581,
+    "sourceHash": "0784b0f8b559ca7d1c8a655c1c7d7019f8a899c6181fde57b3341245db31d744",
+    "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581"
+  },
+  {
+    "id": 2655580,
+    "sourceHash": "579c5e533a66592c7621d5ebe84e94f70a1cc6a6b77538512e71b8240fac1823",
+    "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580"
+  },
+  {
+    "id": 2655542,
+    "sourceHash": "75bacfd13b04d4e1b91598ff278bf87e68946a35a5452322988e438adfce2ba2",
+    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542"
+  },
+  {
+    "id": 2655541,
+    "sourceHash": "5feeb9640300640752a9eb6a4349124f854091d13c2b400d0ac371cc36766d0f",
+    "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541"
+  },
+  {
+    "id": 2655540,
+    "sourceHash": "f2aa9b23da902a3cebfdd24f308ead3fc812de0fc16292a0a1a45de60903ed12",
+    "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540"
+  },
+  {
+    "id": 2655533,
+    "sourceHash": "3b32d9e13e4ab0850d259db21ad465a033440826debe771ae39aad5dbaef5c69",
+    "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533"
+  },
+  {
     "id": 2655202,
     "sourceHash": "744eaa34c493a0fc0a8c907372f5fe6ef2ea51b3706e50282e255daef9eb74c3",
     "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
@@ -426,40 +462,10 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2238560"
   },
   {
-    "id": 2655581,
-    "sourceHash": "0784b0f8b559ca7d1c8a655c1c7d7019f8a899c6181fde57b3341245db31d744",
-    "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581"
-  },
-  {
-    "id": 2655580,
-    "sourceHash": "579c5e533a66592c7621d5ebe84e94f70a1cc6a6b77538512e71b8240fac1823",
-    "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580"
-  },
-  {
-    "id": 2655542,
-    "sourceHash": "75bacfd13b04d4e1b91598ff278bf87e68946a35a5452322988e438adfce2ba2",
-    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542"
-  },
-  {
-    "id": 2655541,
-    "sourceHash": "5feeb9640300640752a9eb6a4349124f854091d13c2b400d0ac371cc36766d0f",
-    "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541"
-  },
-  {
-    "id": 2655540,
-    "sourceHash": "f2aa9b23da902a3cebfdd24f308ead3fc812de0fc16292a0a1a45de60903ed12",
-    "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540"
-  },
-  {
-    "id": 2655533,
-    "sourceHash": "3b32d9e13e4ab0850d259db21ad465a033440826debe771ae39aad5dbaef5c69",
-    "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533"
+    "id": 1194323,
+    "sourceHash": "04aea1d70cbe046b88f9e55ccf4b4a0a8d6c23796d0f8cdb879a0df5b2454ecd",
+    "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323"
   },
   {
     "id": 866002,
@@ -468,9 +474,39 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
   },
   {
-    "id": 1194323,
-    "sourceHash": "04aea1d70cbe046b88f9e55ccf4b4a0a8d6c23796d0f8cdb879a0df5b2454ecd",
-    "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323"
+    "id": 2655695,
+    "sourceHash": "297152698997e8e15e99cb0f412426eb2c077c69839785f81c4f9c5f385e1c6d",
+    "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695"
+  },
+  {
+    "id": 2655688,
+    "sourceHash": "7efd894a6261d62559f03c819e0552b42c28a98658130f5f22ca103c3a99b8bb",
+    "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688"
+  },
+  {
+    "id": 2655664,
+    "sourceHash": "21fc52bdbf354d867447458d8ae8d414aa5e4f30fb116ed50d7af3b242e8f138",
+    "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664"
+  },
+  {
+    "id": 2655649,
+    "sourceHash": "58ba8e9808d0f164ede60afdf46d05f471daa63f9616971994a35308d5b89b09",
+    "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655649"
+  },
+  {
+    "id": 2655613,
+    "sourceHash": "567751d054ccb28b4832d368bf379a77da19e37b7e0c3d7641c79b89f95f25e8",
+    "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613"
+  },
+  {
+    "id": 2655598,
+    "sourceHash": "f38d3aac94622545ca34eaab9ddce379924f2c3c6e8ba6f21244eb1d99a099f5",
+    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655598"
   }
 ]

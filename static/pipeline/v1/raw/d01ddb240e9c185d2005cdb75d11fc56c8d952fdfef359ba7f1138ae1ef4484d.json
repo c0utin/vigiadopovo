@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-16T14:30",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem.",
+      "ementaDetalhada": null,
+      "id": 2654170,
+      "justificativa": null,
+      "keywords": "",
+      "numero": 5864,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-16T14:30",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5864/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196499",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:41:09.893Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170"
+}

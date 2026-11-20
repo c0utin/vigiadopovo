@@ -1,0 +1,17 @@
+{
+  "body": {
+    "dados": [],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66/votos",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:43:25.778Z",
+  "redactions": [
+    "dados[].deputado_.email",
+    "dados[].deputado_.urlFoto"
+  ],
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66/votos"
+}

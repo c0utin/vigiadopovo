@@ -1,7 +1,226 @@
 {
-  "collectedAt": "2026-11-19T18:07:08.591Z",
+  "collectedAt": "2026-11-20T17:40:48.175Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2655664,
+      "label": "PL 5916/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+      "presentedAt": "2026-11-19T16:43",
+      "status": {
+        "dataHora": "2026-11-19T16:43",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5916/2026 (Projeto de Lei), pela Deputada Silvye Alves (UNIÃO/GO), que \"Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado. \"."
+      },
+      "authors": [
+        {
+          "name": "Silvye Alves",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:61",
+          "name": "Viação, Transporte e Mobilidade",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655664",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199468",
+      "votes": [],
+      "sourceHash": "21fc52bdbf354d867447458d8ae8d414aa5e4f30fb116ed50d7af3b242e8f138",
+      "summary": null
+    },
+    {
+      "id": 2655649,
+      "label": "PL 5915/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
+      "presentedAt": "2026-11-19T16:22",
+      "status": {
+        "dataHora": "2026-11-19T16:22",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5915/2026 (Projeto de Lei), pela Deputada Greyce Elias (PL/MG), que \"Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais\"."
+      },
+      "authors": [
+        {
+          "name": "Greyce Elias",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655649",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655649",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199445",
+      "votes": [],
+      "sourceHash": "58ba8e9808d0f164ede60afdf46d05f471daa63f9616971994a35308d5b89b09",
+      "summary": null
+    },
+    {
+      "id": 2655695,
+      "label": "PL 5756/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
+      "presentedAt": "2026-11-19T16:05",
+      "status": {
+        "dataHora": "2026-11-19T16:05",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5756/2026 (Projeto de Lei), pelo Senado Federal, que \"Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores darede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19\"."
+      },
+      "authors": [
+        {
+          "name": "Senado Federal - Professora Dorinha Seabra",
+          "type": "Órgão do Poder Legislativo"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655695",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199597",
+      "votes": [],
+      "sourceHash": "297152698997e8e15e99cb0f412426eb2c077c69839785f81c4f9c5f385e1c6d",
+      "summary": null
+    },
+    {
+      "id": 2655613,
+      "label": "PL 5914/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+      "presentedAt": "2026-11-19T15:23",
+      "status": {
+        "dataHora": "2026-11-19T15:23",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5914/2026 (Projeto de Lei), pelas Deputada Jandira Feghali (PCdoB/RJ -Fdr PT-PCdoB-PV) e outros, que \"Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos\"."
+      },
+      "authors": [
+        {
+          "name": "Alice Portugal",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daiana Santos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Almeida",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Enfermeira Rejane",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gervásio Maia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Inácio Arruda",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jandira Feghali",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Márcio Jerry",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Orlando Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Pedro Uczai",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Professora Marcivania",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Renildo Calheiros",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655613",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199342",
+      "votes": [],
+      "sourceHash": "567751d054ccb28b4832d368bf379a77da19e37b7e0c3d7641c79b89f95f25e8",
+      "summary": null
+    },
+    {
+      "id": 2655598,
+      "label": "PL 5913/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+      "presentedAt": "2026-11-19T15:05",
+      "status": {
+        "dataHora": "2026-11-19T15:05",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5913/2026 (Projeto de Lei), pelo Deputado Baleia Rossi (MDB/SP), que \"Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho\"."
+      },
+      "authors": [
+        {
+          "name": "Baleia Rossi",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655598",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655598",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199312",
+      "votes": [],
+      "sourceHash": "f38d3aac94622545ca34eaab9ddce379924f2c3c6e8ba6f21244eb1d99a099f5",
+      "summary": null
+    },
+    {
+      "id": 2655688,
+      "label": "PL 892/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+      "presentedAt": "2026-11-19T15:02",
+      "status": {
+        "dataHora": "2026-11-19T15:02",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 892/2026 (Projeto de Lei), pelo Senado Federal, que \"Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado. \"."
+      },
+      "authors": [
+        {
+          "name": "Senado Federal - Dra. Eudócia",
+          "type": "Órgão do Poder Legislativo"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655688",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199590",
+      "votes": [],
+      "sourceHash": "7efd894a6261d62559f03c819e0552b42c28a98658130f5f22ca103c3a99b8bb",
+      "summary": null
+    },
     {
       "id": 2655581,
       "label": "PL 5912/2026",
@@ -75,7 +294,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655542",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199129",
@@ -102,7 +340,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+          "relevance": 2
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655541",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199128",
@@ -129,7 +386,14 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199127",
@@ -156,7 +420,20 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/temas",
+          "relevance": 1
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655533",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199118",
@@ -812,7 +1089,7 @@
       "presentedAt": "2026-11-13T18:37",
       "status": {
         "dataHora": "2026-11-13T18:37",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 2423/2026 (Projeto de Lei), pelo Senado Federal, que \"Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás\"."
@@ -2361,7 +2638,7 @@
       "presentedAt": "2026-11-13T18:28",
       "status": {
         "dataHora": "2026-11-13T18:28",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 3768/2026 (Projeto de Lei), pelo Senado Federal, que \"Institui o Prêmio Nacional da Educação Brasileira (PNEB)\"."
@@ -3040,11 +3317,11 @@
       "ementa": "Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas.",
       "presentedAt": "2026-11-09T11:08",
       "status": {
-        "dataHora": "2026-11-09T11:08",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5794/2026 (Projeto de Lei), pelo Deputado Raimundo Santos (PSD/PA), que \"Dispõe sobre medidas emergenciais destinadas à prevenção e ao enfrentamento dos incêndios florestais, da estiagem e da crise de abastecimento de água no Estado do Pará, e estabelece medidas de assistência às populações e de recuperação das áreas atingidas\"."
+        "despacho": "Às Comissões deIntegração Nacional e Desenvolvimento Regional;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -3087,7 +3364,7 @@
       "presentedAt": "2026-11-06T22:56",
       "status": {
         "dataHora": "2026-11-06T22:56",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5793/2026 (Projeto de Lei), pela Deputada Laura Carneiro (PSD/RJ), que \"Dispõe sobre os recursos cabíveis contra as decisões judiciais que concedem, indeferem ou reveem as medidas protetivas de urgência previstas na Lei nº 11.340, de 7 de agosto de 2006 (Lei Maria da Penha)\"."
@@ -3292,11 +3569,11 @@
       "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
       "presentedAt": "2026-11-05T17:36",
       "status": {
-        "dataHora": "2026-11-05T17:36",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5784/2026 (Projeto de Lei), pela Deputada Renilce Nicodemos (MDB/PA), que \"Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências\"."
+        "despacho": "Às Comissões deIndústria, Comércio e Serviços eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -3339,7 +3616,7 @@
       "presentedAt": "2026-11-05T17:06",
       "status": {
         "dataHora": "2026-11-05T17:06",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5783/2026 (Projeto de Lei), pela Deputada Duda Salabert (PSOL/MG), que \"Altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 5.889, de 8 de junho de 1973, para determinar que os intervalos intrajornada para repouso ou alimentação sejam computados na duração do trabalho e remunerados como de serviço efetivo\"."
@@ -3373,7 +3650,7 @@
       "presentedAt": "2026-11-05T13:49",
       "status": {
         "dataHora": "2026-11-05T13:49",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5779/2026 (Projeto de Lei), pelo Deputado Leo Prates (REPUBLIC/BA), que \"Institui diretrizes nacionais para a valorização dos Agentes de Proteção da Infância e da Juventude e estabelece princípios para o reconhecimento, a capacitação e o apoio ao exercício de suas atividades\"."
@@ -3458,11 +3735,11 @@
       "ementa": "Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional.",
       "presentedAt": "2026-11-05T12:12",
       "status": {
-        "dataHora": "2026-11-05T12:12",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5777/2026 (Projeto de Lei), pelo Deputado Pastor Sargento Isidório (AVANTE/BA), que \"Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional. \"."
+        "despacho": "Às Comissões deCultura;Finanças e Tributação (Mérito e Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -3505,7 +3782,7 @@
       "presentedAt": "2026-11-05T10:36",
       "status": {
         "dataHora": "2026-11-05T10:36",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5776/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 13.675, de 11 de junho de 2018, para instituir diretrizes para a proteção de servidores do sistema penal e de segurança pública ameaçados em razão da função\"."
@@ -3672,11 +3949,11 @@
       "ementa": "Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS.",
       "presentedAt": "2026-10-29T14:28",
       "status": {
-        "dataHora": "2026-10-29T14:28",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5703/2026 (Projeto de Lei), pelo Deputado Reimont (PT/RJ -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 15.069, de 23 de dezembro de 2024, que institui a Política Nacional de Cuidados, a Lei nº 8.080, de 19 de setembro de 1990, que dispõe sobre as condições para a promoção, proteção e recuperação da saúde, e a Lei nº 8.742, de 7 de dezembro de 1993, que dispõe sobre a organização da Assistência Social, para dispor sobre atendimento a pessoas idosas residentes em instituições de longa permanência pelo Subsistema de Atendimento e Internação Domiciliar do Sistema Único de Saúde (SUS); o acolhimento de pessoas idosas em situação de risco pessoal e social pelo Sistema Único de Assistência Social (Suas); o caráter residencial das instituições de longa permanência; o acolhimento institucional e os cuidados de longa duração destinados às pessoas idosas e sua articulação com o SUS\"."
+        "despacho": "Às Comissões dePrevidência, Assistência Social, Infância, Adolescência e Família;Saúde;Defesa dos Direitos da Pessoa Idosa;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -3720,11 +3997,11 @@
       "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução.",
       "presentedAt": "2026-10-29T14:09",
       "status": {
-        "dataHora": "2026-10-29T14:09",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5702/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 7.210, de 11 de julho de 1984 (Lei de Execução Penal), e a Lei nº 8.036, de 11 de maio de 1990, para aperfeiçoar a reparação dos danos materiais causados por crimes contra o patrimônio e disciplinar sua execução\"."
+        "despacho": "Às Comissões dePrevidência, Assistência Social, Infância, Adolescência e Família;Trabalho;Segurança Pública e Combate ao Crime Organizado eConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -3768,11 +4045,11 @@
       "ementa": "Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes.",
       "presentedAt": "2026-10-29T12:30",
       "status": {
-        "dataHora": "2026-10-29T12:30",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5700/2026 (Projeto de Lei), pelo Deputado Hildo Rocha (MDB/MA), que \"Altera os arts. 108 e 109 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para elevar os percentuais mínimos de votação nominal exigidos dos candidatos para o preenchimento de vagas pelo quociente partidário e para a distribuição de lugares remanescentes\"."
+        "despacho": "À Comissão deConstituição e Justiça e de Cidadania (Mérito e Art. 54, RICD).Proposição Sujeita à Apreciação do Plenário.Regime de Tramitação: Prioridade (Art. 151, II, RICD)."
       },
       "authors": [
         {
@@ -3810,11 +4087,11 @@
       "ementa": "Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização.",
       "presentedAt": "2026-10-29T12:05",
       "status": {
-        "dataHora": "2026-10-29T12:05",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5699/2026 (Projeto de Lei), pelo Deputado Emanuel Pinheiro Neto (PSD/MT), que \"Altera a Lei nº 9.029, de 13 de abril de 1995, para assegurar a proteção ao emprego e à liberdade de voto, explicitar a vedação à discriminação política e eleitoral nas relações de trabalho e estabelecer medidas de prevenção, reparação e responsabilização. \"."
+        "despacho": "Às Comissões deTrabalho eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -3864,11 +4141,11 @@
       "ementa": "Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo.",
       "presentedAt": "2026-10-29T11:34",
       "status": {
-        "dataHora": "2026-10-29T11:34",
-        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
-        "descricaoTramitacao": "Apresentação de Proposição",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
         "siglaOrgao": "MESA",
-        "despacho": "Apresentação do PL n. 5698/2026 (Projeto de Lei), pela Deputada Dani Cunha (PL/RJ), que \"Estabelece diretrizes para a cobertura universal do Censo Demográfico, mediante cruzamento de informações da coleta presencial, das respostas digitais e de registros administrativos, para ampliar a cobertura e aperfeiçoar a apuração da população e atualiza as penalidades pela recusa injustificada de prestar informações domiciliares ao censo\"."
+        "despacho": "Às Comissões deCiência, Tecnologia e Inovação;Finanças e Tributação (Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD)."
       },
       "authors": [
         {
@@ -4174,11 +4451,11 @@
       "ementa": "Altera a Lei nº 15.473, de 22 de julho de 2026, que altera a Lei nº 9.818, de 23 de agosto de 1999, e a Lei nº 12.712, de 30 de agosto de 2012, para fortalecer e modernizar o sistema brasileiro de apoio oficial ao crédito à exportação.",
       "presentedAt": "2026-07-22T00:00",
       "status": {
-        "dataHora": "2026-11-17T00:00",
-        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
-        "descricaoTramitacao": "Aprovação no Senado Federal",
-        "siglaOrgao": "PLEN",
-        "despacho": "Aprovada no Senado Federal"
+        "dataHora": "2026-11-19T15:18",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do DOC n. 1896/2026 (Ofício do Congresso Nacional), pelo CN        , que \"Ofício SF nº 286/2026, que encaminha o projeto de Lei de Conversão à sanção\"."
       },
       "authors": [
         {
@@ -4525,11 +4802,11 @@
       "ementa": "Dispõe sobre o compartilhamento de infraestrutura física aérea de titularidade de prestadoras de serviços de distribuição de energia elétrica com prestadoras de serviços de telecomunicações, altera a Lei nº 9.427, de 26 de dezembro de 1996, a Lei nº 9.472, de 16 de julho de 1997, e a Lei nº 14.947, de 2 de agosto de 2024, e dá outras providências.",
       "presentedAt": "2026-04-16T18:00",
       "status": {
-        "dataHora": "2026-11-10T00:00",
+        "dataHora": "2026-11-19T15:33",
         "descricaoSituacao": "Aguardando Autógrafos na Mesa",
-        "descricaoTramitacao": "Expedição de Documento",
+        "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
-        "despacho": "Remessa ao Senado Federal por meio do Of. nº 247/2026/SGM-P."
+        "despacho": "Apresentação do DOC n. 1901/2026 (Ofício do Senado Federal), pelo Senado Federal, que \"Ofício SF nº 1574/2026, que comunica remessa de Projeto de Lei à sanção. \"."
       },
       "authors": [
         {
@@ -4743,7 +5020,7 @@
       "presentedAt": "2026-02-11T10:15",
       "status": {
         "dataHora": "2026-11-19T10:40",
-        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoSituacao": "Aguardando Deliberação",
         "descricaoTramitacao": "Recebimento - Redação Final",
         "siglaOrgao": "CCJC",
         "despacho": "Apresentação da RDF n. 1 CCJC (Redação Final), pelo Deputado Felipe Carreras (PSB/PE)."
@@ -6587,7 +6864,7 @@
       "presentedAt": "2020-03-05T16:59",
       "status": {
         "dataHora": "2026-11-17T12:18",
-        "descricaoSituacao": "Pronta para Pauta",
+        "descricaoSituacao": "Aguardando Deliberação",
         "descricaoTramitacao": "Recebimento - Redação Final",
         "siglaOrgao": "CCJC",
         "despacho": "Apresentação da RDF n. 1 CCJC (Redação Final), pelo Deputado Marangoni (PODE/SP)."

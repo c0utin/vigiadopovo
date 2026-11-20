@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-17T10:41",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação.",
+      "ementaDetalhada": null,
+      "id": 2654360,
+      "justificativa": null,
+      "keywords": "vistoria; Instalação elétrica; Escola pública; prevenção; Incêndio; Educação básica; condição; repasse; Recursos públicos; Obra pública; Normas de Prevenção e Combate a Incêndio e Pânico; diretrizes",
+      "numero": 5873,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-17T10:41",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5873/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196914",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:41:08.371Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654360"
+}

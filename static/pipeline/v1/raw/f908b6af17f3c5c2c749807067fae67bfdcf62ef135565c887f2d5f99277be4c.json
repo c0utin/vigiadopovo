@@ -1,0 +1,19 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 70,
+        "relevancia": 0,
+        "tema": "Finanças Públicas e Orçamento"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653947/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-20T17:41:17.553Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653947/temas"
+}

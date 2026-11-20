@@ -1,8 +1,114 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-19T18:07:08.591Z",
+  "collectedAt": "2026-11-20T17:40:48.175Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2655581,
+      "label": "PL 5912/2026",
+      "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655581",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655580,
+      "label": "PL 5911/2026",
+      "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655580",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655542,
+      "label": "PL 5910/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655542",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655541,
+      "label": "PL 5909/2026",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655541",
+      "labels": [
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:58",
+          "name": "Trabalho e Emprego",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
+          "relevance": 2
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655540,
+      "label": "PL 5908/2026",
+      "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
+      "labels": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655533,
+      "label": "PL 5907/2026",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655533",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
     {
       "id": 2655202,
       "label": "PL 5896/2026",
@@ -1931,76 +2037,6 @@
       ]
     },
     {
-      "id": 2655581,
-      "label": "PL 5912/2026",
-      "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655581",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655580,
-      "label": "PL 5911/2026",
-      "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655580",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655542,
-      "label": "PL 5910/2026",
-      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655542",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655541,
-      "label": "PL 5909/2026",
-      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655541",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655540,
-      "label": "PL 5908/2026",
-      "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655533,
-      "label": "PL 5907/2026",
-      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655533",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 866002,
-      "label": "PL 8332/2015",
-      "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=866002",
-      "labels": [
-        {
-          "id": "camara:tema:34",
-          "name": "Administração Pública",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": [
-        "866002-105",
-        "866002-98",
-        "866002-89",
-        "866002-79",
-        "866002-66",
-        "866002-21"
-      ]
-    },
-    {
       "id": 1194323,
       "label": "PL 956/2015",
       "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
@@ -2029,6 +2065,89 @@
         "1194323-61",
         "1194323-26"
       ]
+    },
+    {
+      "id": 866002,
+      "label": "PL 8332/2015",
+      "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=866002",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "866002-105",
+        "866002-98",
+        "866002-89",
+        "866002-79",
+        "866002-66",
+        "866002-21"
+      ]
+    },
+    {
+      "id": 2655695,
+      "label": "PL 5756/2026",
+      "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655695",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655688,
+      "label": "PL 892/2026",
+      "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655688",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655664,
+      "label": "PL 5916/2026",
+      "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655664",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:61",
+          "name": "Viação, Transporte e Mobilidade",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655649,
+      "label": "PL 5915/2026",
+      "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655649",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655613,
+      "label": "PL 5914/2026",
+      "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655613",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655598,
+      "label": "PL 5913/2026",
+      "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655598",
+      "labels": [],
+      "votingIds": []
     }
   ],
   "votings": [
