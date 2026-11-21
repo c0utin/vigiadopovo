@@ -1,5 +1,41 @@
 [
   {
+    "id": 2655664,
+    "sourceHash": "21fc52bdbf354d867447458d8ae8d414aa5e4f30fb116ed50d7af3b242e8f138",
+    "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664"
+  },
+  {
+    "id": 2655649,
+    "sourceHash": "58ba8e9808d0f164ede60afdf46d05f471daa63f9616971994a35308d5b89b09",
+    "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655649"
+  },
+  {
+    "id": 2655695,
+    "sourceHash": "297152698997e8e15e99cb0f412426eb2c077c69839785f81c4f9c5f385e1c6d",
+    "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695"
+  },
+  {
+    "id": 2655613,
+    "sourceHash": "567751d054ccb28b4832d368bf379a77da19e37b7e0c3d7641c79b89f95f25e8",
+    "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613"
+  },
+  {
+    "id": 2655598,
+    "sourceHash": "f38d3aac94622545ca34eaab9ddce379924f2c3c6e8ba6f21244eb1d99a099f5",
+    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655598"
+  },
+  {
+    "id": 2655688,
+    "sourceHash": "7efd894a6261d62559f03c819e0552b42c28a98658130f5f22ca103c3a99b8bb",
+    "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688"
+  },
+  {
     "id": 2655581,
     "sourceHash": "0784b0f8b559ca7d1c8a655c1c7d7019f8a899c6181fde57b3341245db31d744",
     "ementa": "Institui o Programa de equipes especializadas para o atendimento de urgências em saúde mental ERSAM.",
@@ -472,41 +508,5 @@
     "sourceHash": "a7937e395304e49808108305184b882b833c2c1da70cd4409a5e380c8a0a01a6",
     "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
-  },
-  {
-    "id": 2655695,
-    "sourceHash": "297152698997e8e15e99cb0f412426eb2c077c69839785f81c4f9c5f385e1c6d",
-    "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695"
-  },
-  {
-    "id": 2655688,
-    "sourceHash": "7efd894a6261d62559f03c819e0552b42c28a98658130f5f22ca103c3a99b8bb",
-    "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688"
-  },
-  {
-    "id": 2655664,
-    "sourceHash": "21fc52bdbf354d867447458d8ae8d414aa5e4f30fb116ed50d7af3b242e8f138",
-    "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664"
-  },
-  {
-    "id": 2655649,
-    "sourceHash": "58ba8e9808d0f164ede60afdf46d05f471daa63f9616971994a35308d5b89b09",
-    "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655649"
-  },
-  {
-    "id": 2655613,
-    "sourceHash": "567751d054ccb28b4832d368bf379a77da19e37b7e0c3d7641c79b89f95f25e8",
-    "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613"
-  },
-  {
-    "id": 2655598,
-    "sourceHash": "f38d3aac94622545ca34eaab9ddce379924f2c3c6e8ba6f21244eb1d99a099f5",
-    "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655598"
   }
 ]

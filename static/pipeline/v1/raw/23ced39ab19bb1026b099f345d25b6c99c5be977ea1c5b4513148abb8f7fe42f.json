@@ -1,0 +1,92 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-18T17:02:37",
+        "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+        "id": "866002-105",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83382",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T10:53:34",
+        "descricao": "Aprovada a Redação Final.",
+        "id": "866002-98",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83058",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-08-31",
+        "dataHoraRegistro": "2026-08-31T19:34:22",
+        "descricao": "Aprovado o Projeto de Lei nº 8.332, de 2015.",
+        "id": "866002-89",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-89",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82935",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-07-08",
+        "dataHoraRegistro": "2026-07-08T13:29:57",
+        "descricao": "Aprovado o Parecer.",
+        "id": "866002-79",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82677",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-05-06",
+        "dataHoraRegistro": "2026-05-06T10:13:29",
+        "descricao": "Aprovado o Parecer.",
+        "id": "866002-66",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CFT",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81857",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2010",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2015-09-09",
+        "dataHoraRegistro": "2015-09-09T10:53:09",
+        "descricao": "Aprovado por Unanimidade o Parecer.",
+        "id": "866002-21",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CTRAB",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/40850",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:43:42.559Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/votacoes"
+}

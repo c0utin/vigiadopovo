@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T12:12",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a vedação à utilização de recursos públicos para contratação de artistas que promovam ofensas discriminatórias contra Estados ou regiões brasileiras, estimulem a hostilidade entre brasileiros ou atentem contra a unidade nacional.",
+      "ementaDetalhada": null,
+      "id": 2651158,
+      "justificativa": null,
+      "keywords": "proibição; Recursos públicos; Contratação pública; financiamento; Artista; Discriminação; Preconceito regional; Xenofobia regional; Discurso de ódio",
+      "numero": 5777,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": null,
+        "codTipoTramitacao": "110",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
+        "despacho": "Às Comissões deCultura;Finanças e Tributação (Mérito e Art. 54, RICD) eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 7,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190467",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:42:47.950Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651158"
+}

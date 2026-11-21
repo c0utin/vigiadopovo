@@ -1,8 +1,69 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-20T17:40:48.175Z",
+  "collectedAt": "2026-11-21T16:41:51.118Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2655664,
+      "label": "PL 5916/2026",
+      "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655664",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:61",
+          "name": "Viação, Transporte e Mobilidade",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2655649,
+      "label": "PL 5915/2026",
+      "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655649",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655695,
+      "label": "PL 5756/2026",
+      "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655695",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655613,
+      "label": "PL 5914/2026",
+      "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655613",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655598,
+      "label": "PL 5913/2026",
+      "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655598",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2655688,
+      "label": "PL 892/2026",
+      "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655688",
+      "labels": [],
+      "votingIds": []
+    },
     {
       "id": 2655581,
       "label": "PL 5912/2026",
@@ -2087,67 +2148,6 @@
         "866002-66",
         "866002-21"
       ]
-    },
-    {
-      "id": 2655695,
-      "label": "PL 5756/2026",
-      "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655695",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655688,
-      "label": "PL 892/2026",
-      "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655688",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655664,
-      "label": "PL 5916/2026",
-      "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655664",
-      "labels": [
-        {
-          "id": "camara:tema:43",
-          "name": "Direito Penal e Processual Penal",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:61",
-          "name": "Viação, Transporte e Mobilidade",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
-          "relevance": 1
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2655649,
-      "label": "PL 5915/2026",
-      "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655649",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655613,
-      "label": "PL 5914/2026",
-      "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655613",
-      "labels": [],
-      "votingIds": []
-    },
-    {
-      "id": 2655598,
-      "label": "PL 5913/2026",
-      "ementa": "Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655598",
-      "labels": [],
-      "votingIds": []
     }
   ],
   "votings": [

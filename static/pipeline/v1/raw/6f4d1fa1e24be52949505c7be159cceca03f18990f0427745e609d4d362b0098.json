@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 43,
+        "relevancia": 0,
+        "tema": "Direito Penal e Processual Penal"
+      },
+      {
+        "codTema": 57,
+        "relevancia": 1,
+        "tema": "Defesa e Segurança"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:42:05.981Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/temas"
+}

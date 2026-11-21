@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-16T12:06",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana",
+      "ementaDetalhada": null,
+      "id": 2654057,
+      "justificativa": null,
+      "keywords": "alteração; Estatuto da Cidade (2001); Política urbana; Segurança alimentar e nutricional; Alimentação adequada",
+      "numero": 5860,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-16T12:06",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5860/2026 (Projeto de Lei), pelo Deputado Padre João (PT/MG -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196374",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:42:18.502Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654057"
+}

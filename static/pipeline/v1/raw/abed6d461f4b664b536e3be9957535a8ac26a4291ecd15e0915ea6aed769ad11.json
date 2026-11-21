@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 74,
+        "relevancia": 0,
+        "tema": "Política, Partidos e Eleições"
+      },
+      {
+        "codTema": 37,
+        "relevancia": 1,
+        "tema": "Comunicações"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:42:30.706Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653816/temas"
+}

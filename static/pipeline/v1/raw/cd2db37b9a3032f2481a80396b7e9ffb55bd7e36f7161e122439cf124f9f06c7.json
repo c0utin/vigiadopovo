@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-11",
+      "dataHoraRegistro": "2026-11-11T15:51:40",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o parecer na Comissão Mista",
+      "efeitosRegistrados": [],
+      "id": "2648606-9",
+      "idEvento": null,
+      "idOrgao": 111,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 291,
+          "dataApresentacao": "2026-10-21T00:00",
+          "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+          "id": 2648606,
+          "numero": 1397,
+          "siglaTipo": "MPV",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606"
+        }
+      ],
+      "siglaOrgao": "CN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-9",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/111"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-9",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:42:58.635Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-9"
+}

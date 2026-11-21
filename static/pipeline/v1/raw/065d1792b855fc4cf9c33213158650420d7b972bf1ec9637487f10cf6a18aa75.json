@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 50000,
+        "nome": "Tribunal Superior do Trabalho",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Órgão do Poder Judiciário",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/275"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-21T16:43:42.318Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/autores"
+}
