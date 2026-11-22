@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-13T18:29",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2653946,
+      "justificativa": null,
+      "keywords": "alteração; Legislação Tributária Federal (pessoa jurídica) (1995); Legislação Tributária Federal (pessoa física) (1995); Incidência tributária; Imposto sobre a Renda da Pessoa Física (IRPF); Imposto de Renda Retido na Fonte (IRRF); Lucro; Dividendos; Pessoa física; Pessoa jurídica; Base de cálculo; Tributação",
+      "numero": 5854,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "194",
+        "dataHora": "2026-11-19T12:55",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Requerimento",
+        "despacho": "Apresentação do REQ n. 4496/2026 (Requerimento de Retirada de Proposição de Iniciativa Coletiva), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto sobre a Renda das Pessoas Físicas sobre lucros e dividendos distribuídos por pessoas jurídicas, altera as Leis nº 9.249, de 26 de dezembro de 1995, e nº 9.250, de 26 de dezembro de 1995, e dá outras providências\".",
+        "regime": ".",
+        "sequencia": 5,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199156"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3195958",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-22T17:00:37.152Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653946"
+}

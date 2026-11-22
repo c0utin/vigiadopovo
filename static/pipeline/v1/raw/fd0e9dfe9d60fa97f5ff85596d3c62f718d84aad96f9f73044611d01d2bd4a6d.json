@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T10:53:34",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Redação Final.",
+      "efeitosRegistrados": [],
+      "id": "866002-98",
+      "idEvento": 83058,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-10-28T16:56",
+          "ementa": "Redação Final ao PL 8332/2015",
+          "id": 2649373,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649373"
+        },
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2026-07-08T18:48",
+          "ementa": "Parecer da Comissão  (CCJC) ao PL 8332/2015",
+          "id": 2638423,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638423"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2026-07-08T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 8332/2015",
+          "id": 2637918,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637918"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-06-09T19:40",
+          "ementa": "Parecer do Relator, Dep. Domingos Neto (PSD-CE), pela constitucionalidade, juridicidade e técnica legislativa e, no mérito, pela aprovação do Projeto de Lei nº 8.332/2015.",
+          "id": 2630810,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630810"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-01-26T17:37",
+          "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+          "id": 866002,
+          "numero": 8332,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-06-10T18:07:06",
+        "descricao": "Parecer do Relator, Dep. Domingos Neto (PSD-CE), pela constitucionalidade, juridicidade e técnica legislativa e, no mérito, pela aprovação do Projeto de Lei nº 8.332/2015.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630810"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83058",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-22T17:02:07.188Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-98"
+}

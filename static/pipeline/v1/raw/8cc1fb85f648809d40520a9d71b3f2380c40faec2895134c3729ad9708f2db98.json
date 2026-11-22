@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 70,
+        "relevancia": 0,
+        "tema": "Finanças Públicas e Orçamento"
+      },
+      {
+        "codTema": 42,
+        "relevancia": 1,
+        "tema": "Direito Civil e Processual Civil"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653184/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-22T17:00:50.523Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653184/temas"
+}

@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-17",
+      "dataHoraRegistro": "2026-11-17T16:35:03",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 4453/2026, Da Sra. Soraya Santos e outros, que solicita urgência (art. 155) para o PRC 50/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PRC 50/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-11-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4453/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PRC 50/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2654009-7",
+      "idEvento": 83363,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-11-16T11:47",
+          "ementa": "Requer Urgência para o Projeto de Resolução nº 50/2026, que institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+          "id": 2654009,
+          "numero": 4453,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654009"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 141,
+          "dataApresentacao": "2026-11-10T19:20",
+          "ementa": "Institui o Prêmio Trajetórias de Êxito na Superdotação e na Dupla Excepcionalidade.",
+          "id": 2652524,
+          "numero": 50,
+          "siglaTipo": "PRC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-22T17:00:53.165Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7"
+}

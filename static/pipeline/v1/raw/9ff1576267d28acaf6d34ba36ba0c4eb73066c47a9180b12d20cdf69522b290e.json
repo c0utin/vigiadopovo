@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T11:54",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
+      "ementaDetalhada": null,
+      "id": 2655540,
+      "justificativa": null,
+      "keywords": "alteração; Lei dos Símbolos Nacionais (1971); Bandeira Nacional; inscrição; Justiça social",
+      "numero": 5908,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-19T11:54",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5908/2026 (Projeto de Lei), pelo Deputado Pastor Sargento Isidório (AVANTE/BA), que \"Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199127",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-22T17:00:17.673Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540"
+}
