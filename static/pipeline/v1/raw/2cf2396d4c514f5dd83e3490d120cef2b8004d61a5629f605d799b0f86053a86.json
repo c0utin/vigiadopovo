@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 56,
+        "relevancia": 0,
+        "tema": "Saúde"
+      },
+      {
+        "codTema": 61,
+        "relevancia": 1,
+        "tema": "Viação, Transporte e Mobilidade"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:04:23.300Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580/temas"
+}

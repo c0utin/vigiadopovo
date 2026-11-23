@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-23T15:34",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, para assegurar atenção integral à saúde de crianças e adolescentes com prejuízos decorrentes do uso problemático de dispositivos digitais.",
+      "ementaDetalhada": null,
+      "id": 2658850,
+      "justificativa": null,
+      "keywords": "alteração; Estatuto da Criança e do Adolescente (ECA) (1990); Atenção integral à saúde; Criança; Adolescente; uso problemático; uso excessivo; Dispositivo móvel; Produto eletrônico; Internet; Saúde física; Saúde mental; Educação digital; prevenção; Família; Comunidade escolar; Sistema Único de Saúde (SUS); Educação e formação profissional; Profissional da educação; Profissional de saúde",
+      "numero": 5929,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-23T15:34",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5929/2026 (Projeto de Lei), pelo Deputado Fábio Teruel (MDB/SP), que \"Altera a Lei nº 8.069, de 13 de julho de 1990, para assegurar atenção integral à saúde de crianças e adolescentes com prejuízos decorrentes do uso problemático de dispositivos digitais\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203117",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:06:21.230Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850"
+}

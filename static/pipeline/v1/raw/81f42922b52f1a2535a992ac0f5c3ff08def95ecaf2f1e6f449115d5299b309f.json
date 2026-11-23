@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 0,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-19T09:37:52",
+        "descricao": "Rejeitada a Sugestão de Emenda.",
+        "id": "2654724-2",
+        "proposicaoObjeto": "SLD 5/2026 CCOM",
+        "siglaOrgao": "CCOM",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654724-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654724"
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-19T09:37:33",
+        "descricao": "Rejeitada a Sugestão de Emenda.",
+        "id": "2654723-2",
+        "proposicaoObjeto": "SLD 4/2026 CCOM",
+        "siglaOrgao": "CCOM",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654723-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654723"
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-19T09:37:14",
+        "descricao": "Rejeitada a Sugestão de Emenda.",
+        "id": "2654721-2",
+        "proposicaoObjeto": "SLD 3/2026 CCOM",
+        "siglaOrgao": "CCOM",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654721-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654721"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-19T09:36:32",
+        "descricao": "Aprovada a Sugestão de Emenda, adotada como Emenda 03 da Comissão.",
+        "id": "2654725-2",
+        "proposicaoObjeto": "SLD 6/2026 CCOM",
+        "siglaOrgao": "CCOM",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654725-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654725"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-19T09:35:39",
+        "descricao": "Aprovada a Sugestão de Emenda, adotada como Emenda 02 da Comissão.",
+        "id": "2654720-2",
+        "proposicaoObjeto": "SLD 2/2026 CCOM",
+        "siglaOrgao": "CCOM",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654720-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654720"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-19T09:33:34",
+        "descricao": "Aprovada a Sugestão de Emenda, adotada como Emenda 01 da Comissão.",
+        "id": "2654719-2",
+        "proposicaoObjeto": "SLD 1/2026 CCOM",
+        "siglaOrgao": "CCOM",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654719-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83354",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539385",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654719"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-18T17:02:37",
+        "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+        "id": "866002-105",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-105",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83382",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-18T17:02:18",
+        "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+        "id": "1194323-116",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-116",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83382",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-23&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-23&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-23&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-23&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=197&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:04:13.096Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-23&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}

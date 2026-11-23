@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Carlos Chiodini",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204361"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:04:28.852Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/autores"
+}

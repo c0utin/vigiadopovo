@@ -1,0 +1,77 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-17",
+      "dataHoraRegistro": "2026-11-17T17:20:11",
+      "dataHoraUltimaAberturaVotacao": "2026-11-17T17:19:29",
+      "descUltimaAberturaVotacao": "Votação preliminar em turno único.",
+      "descricao": "Aprovado, em apreciação preliminar, o Parecer da Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, acerca dos pressupostos constitucionais de relevância e urgência e de sua adequação financeira e orçamentária, nos termos do artigo 8º da Resolução nº 01, de 2002-CN.",
+      "efeitosRegistrados": [],
+      "id": "2648616-26",
+      "idEvento": 83363,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-17T00:00",
+          "ementa": "Redação Final ao MPV 1398/2026",
+          "id": 2655553,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655553"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 134,
+          "dataApresentacao": "2026-11-12T14:21",
+          "ementa": "Submete à deliberação do Congresso Nacional o texto da Medida Provisória nº 1.398, de 20 de outubro de 2026, que “Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.”.",
+          "id": 2653251,
+          "numero": 814,
+          "siglaTipo": "MSC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653251"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-10-27T00:00",
+          "ementa": "Estabelece diretrizes de transparência, priorização e acompanhamento da aplicação dos recursos destinados às ações de proteção e defesa civil previstas na Medida Provisória nº 1.398, de 20 de outubro de 2026.",
+          "id": 2649287,
+          "numero": 1,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649287"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 291,
+          "dataApresentacao": "2026-10-21T00:00",
+          "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+          "id": 2648616,
+          "numero": 1398,
+          "siglaTipo": "MPV",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:05:25.661Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-26"
+}

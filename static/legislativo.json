@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-22T17:00:02.313Z",
+  "collectedAt": "2026-11-23T21:04:08.905Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
     {
@@ -29,7 +29,14 @@
       "label": "PL 5915/2026",
       "ementa": "Denomina “Passarela Dr. Elias – Elias José Abrão Neto” a passarela de pedestres localizada sobre a Rodovia BR-365, no Município de Patrocínio, Estado de Minas Gerais.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655649",
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:72",
+          "name": "Homenagens e Datas Comemorativas",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655649/temas",
+          "relevance": 0
+        }
+      ],
       "votingIds": []
     },
     {
@@ -37,7 +44,26 @@
       "label": "PL 5756/2026",
       "ementa": "Altera a Lei nº 14.172, de 10 de junho de 2021, para ampliar o prazo para aplicação e eventual restituição dos recursos entregues pela União aos Estados e ao Distrito Federal voltados para a garantia do acesso à internet, com fins educacionais, aos estabelecimentos de ensino, aos alunos e aos professores da\nrede pública de ensino dos Estados, do Distrito Federal e dos Municípios, em virtude da calamidade pública decorrente da covid-19.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655695",
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655695/temas",
+          "relevance": 0
+        }
+      ],
       "votingIds": []
     },
     {
@@ -61,7 +87,20 @@
       "label": "PL 892/2026",
       "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655688",
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688/temas",
+          "relevance": 0
+        }
+      ],
       "votingIds": []
     },
     {
@@ -77,7 +116,20 @@
       "label": "PL 5911/2026",
       "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655580",
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:61",
+          "name": "Viação, Transporte e Mobilidade",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580/temas",
+          "relevance": 1
+        }
+      ],
       "votingIds": []
     },
     {
@@ -90,19 +142,25 @@
           "id": "camara:tema:43",
           "name": "Direito Penal e Processual Penal",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
-          "relevance": 1
+          "relevance": 0
         },
         {
           "id": "camara:tema:44",
           "name": "Direitos Humanos e Minorias",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
-          "relevance": 2
+          "relevance": 1
         },
         {
           "id": "camara:tema:56",
           "name": "Saúde",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
-          "relevance": 0
+          "relevance": 3
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/temas",
+          "relevance": 2
         }
       ],
       "votingIds": []
@@ -124,12 +182,6 @@
           "name": "Trabalho e Emprego",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
           "relevance": 0
-        },
-        {
-          "id": "camara:tema:70",
-          "name": "Finanças Públicas e Orçamento",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/temas",
-          "relevance": 2
         }
       ],
       "votingIds": []
@@ -140,6 +192,12 @@
       "ementa": "Altera a Lei nº 5.700, de 1º de setembro de 1971, para incluir a expressão “Justiça Social” na inscrição da Bandeira Nacional.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655540",
       "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540/temas",
+          "relevance": 1
+        },
         {
           "id": "camara:tema:72",
           "name": "Homenagens e Datas Comemorativas",
@@ -198,16 +256,16 @@
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2655184",
       "labels": [
         {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
-          "relevance": 1
-        },
-        {
           "id": "camara:tema:58",
           "name": "Trabalho e Emprego",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
           "relevance": 0
+        },
+        {
+          "id": "camara:tema:66",
+          "name": "Indústria, Comércio e Serviços",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655184/temas",
+          "relevance": 1
         }
       ],
       "votingIds": []
@@ -375,12 +433,6 @@
           "relevance": 1
         },
         {
-          "id": "camara:tema:37",
-          "name": "Comunicações",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171/temas",
-          "relevance": 2
-        },
-        {
           "id": "camara:tema:54",
           "name": "Energia, Recursos Hídricos e Minerais",
           "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171/temas",
@@ -395,12 +447,6 @@
       "ementa": "Veda a criação e o uso comercial de réplicas de voz ou de imagem de pessoa natural geradas por inteligência artificial sem autorização expressa do titular e dispõe sobre os deveres dos provedores de aplicações de internet que disponibilizam modelos de geração de voz ou de imagem.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654170",
       "labels": [
-        {
-          "id": "camara:tema:34",
-          "name": "Administração Pública",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170/temas",
-          "relevance": 2
-        },
         {
           "id": "camara:tema:42",
           "name": "Direito Civil e Processual Civil",
@@ -421,32 +467,7 @@
       "label": "PL 5863/2026",
       "ementa": "Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde.",
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2654169",
-      "labels": [
-        {
-          "id": "camara:tema:34",
-          "name": "Administração Pública",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169/temas",
-          "relevance": 3
-        },
-        {
-          "id": "camara:tema:56",
-          "name": "Saúde",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169/temas",
-          "relevance": 2
-        },
-        {
-          "id": "camara:tema:62",
-          "name": "Ciência, Tecnologia e Inovação",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:70",
-          "name": "Finanças Públicas e Orçamento",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169/temas",
-          "relevance": 1
-        }
-      ],
+      "labels": [],
       "votingIds": []
     },
     {
@@ -2148,6 +2169,80 @@
         "866002-66",
         "866002-21"
       ]
+    },
+    {
+      "id": 2658887,
+      "label": "PL 5930/2026",
+      "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2658887",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2658850,
+      "label": "PL 5929/2026",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, para assegurar atenção integral à saúde de crianças e adolescentes com prejuízos decorrentes do uso problemático de dispositivos digitais.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2658850",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2658843,
+      "label": "PL 5928/2026",
+      "ementa": "Institui normas de proteção do trabalhador frente a decisões automatizadas e à vigilância por sistemas de inteligência artificial nas relações de trabalho, disciplina a dispensa coletiva motivada por automação e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais).",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2658843",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2658842,
+      "label": "PL 5927/2026",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2658842",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2657828,
+      "label": "PL 5926/2026",
+      "ementa": "Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2657828",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2657827,
+      "label": "PL 5925/2026",
+      "ementa": "Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2657827",
+      "labels": [],
+      "votingIds": []
     }
   ],
   "votings": [

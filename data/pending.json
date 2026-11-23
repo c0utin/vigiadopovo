@@ -508,5 +508,41 @@
     "sourceHash": "a7937e395304e49808108305184b882b833c2c1da70cd4409a5e380c8a0a01a6",
     "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+  },
+  {
+    "id": 2658887,
+    "sourceHash": "6ccafaeda72f84aff707745f4aa6e20253b22052ab3833d6a7eb49f1c14fa247",
+    "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887"
+  },
+  {
+    "id": 2658850,
+    "sourceHash": "2712210f0c6f81ad3d65ae89543e30fa07e13577977c13d03a0f1de3c5b02d5f",
+    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, para assegurar atenção integral à saúde de crianças e adolescentes com prejuízos decorrentes do uso problemático de dispositivos digitais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850"
+  },
+  {
+    "id": 2658843,
+    "sourceHash": "be835d887a55ef987ddb0b7f7c45af4a08accc0b7db28adeec8a8362171ba7c9",
+    "ementa": "Institui normas de proteção do trabalhador frente a decisões automatizadas e à vigilância por sistemas de inteligência artificial nas relações de trabalho, disciplina a dispensa coletiva motivada por automação e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843"
+  },
+  {
+    "id": 2658842,
+    "sourceHash": "cac68584f7204499634d82bb4f4c382c5442673158b2e381b17ed4f79ff3d75e",
+    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842"
+  },
+  {
+    "id": 2657828,
+    "sourceHash": "54fc75defe4a9511df1f2f2d61e2a9b713afb76a19fcce624a19934d195549dd",
+    "ementa": "Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828"
+  },
+  {
+    "id": 2657827,
+    "sourceHash": "240298a90e3eac2d4c7b5bd141e2470648027aa3a12f2694469be52f5bae8744",
+    "ementa": "Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827"
   }
 ]

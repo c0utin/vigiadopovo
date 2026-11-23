@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Josivaldo Jp",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/215043"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:04:21.558Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581/autores"
+}

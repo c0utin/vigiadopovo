@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 54,
+        "relevancia": 0,
+        "tema": "Energia, Recursos Hídricos e Minerais"
+      },
+      {
+        "codTema": 34,
+        "relevancia": 1,
+        "tema": "Administração Pública"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-23T21:04:39.757Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171/temas"
+}
