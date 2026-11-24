@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-24T10:58",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 12.345, de 9 de dezembro de 2010, para estabelecer parâmetros de avaliação da relevância social de datas comemorativas nacionais, ampliar a transparência do procedimento de sua instituição e prevenir sobreposições temáticas injustificadas.",
+      "ementaDetalhada": null,
+      "id": 2659113,
+      "justificativa": null,
+      "keywords": "alteração; Lei federal; avaliação; Relevância social; Data comemorativa; critério; criação; Feriado; Transparência pública",
+      "numero": 5953,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-24T10:58",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5953/2026 (Projeto de Lei), pelo Deputado Sidney Leite (PSD/AM), que \"Altera a Lei nº 12.345, de 9 de dezembro de 2010, para estabelecer parâmetros de avaliação da relevância social de datas comemorativas nacionais, ampliar a transparência do procedimento de sua instituição e prevenir sobreposições temáticas injustificadas\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659113",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659113/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203758",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659113",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:06:59.489Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659113"
+}

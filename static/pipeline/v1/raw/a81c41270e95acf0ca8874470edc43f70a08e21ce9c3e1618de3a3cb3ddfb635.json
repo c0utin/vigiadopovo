@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 291,
+      "dataApresentacao": "2026-10-21T00:00",
+      "descricaoTipo": "Medida Provisória",
+      "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+      "ementaDetalhada": null,
+      "id": 2648606,
+      "justificativa": null,
+      "keywords": "Crédito extraordinário; Encargo financeiro da União; Financiamento; Pessoa física; Pessoa jurídica de direito privado; Exportação; bens; Serviços; Plano Brasil Soberano; Fundo de Garantia à Exportação (FGE); decorrência; tarifação; Estados Unidos",
+      "numero": 1397,
+      "siglaTipo": "MPV",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-18T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 266/2026/SGM-P.",
+        "regime": "Urgência (Art. 62, CF)",
+        "sequencia": 36,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6855",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185390",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:05:44.844Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606"
+}

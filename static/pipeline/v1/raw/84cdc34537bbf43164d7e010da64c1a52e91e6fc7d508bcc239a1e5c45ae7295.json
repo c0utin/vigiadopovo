@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-23T17:07",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil.",
+      "ementaDetalhada": null,
+      "id": 2658887,
+      "justificativa": null,
+      "keywords": "alteração; Lei federal; Programa de Mobilização de Capital Privado Externo e Proteção Cambial (Programa Eco Invest Brasil); Elegibilidade; Investimento; Governança; transparência; Comitê executivo; Ministro de Estado da Fazenda; Mudança climática; Proteção ambiental; Desenvolvimento sustentável; Transição ecológica",
+      "numero": 5930,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-23T17:07",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5930/2026 (Projeto de Lei), pela Deputada Tabata Amaral (PSB/SP), que \"Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203194",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:04.853Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887"
+}

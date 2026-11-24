@@ -1,5 +1,41 @@
 [
   {
+    "id": 2658887,
+    "sourceHash": "6ccafaeda72f84aff707745f4aa6e20253b22052ab3833d6a7eb49f1c14fa247",
+    "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887"
+  },
+  {
+    "id": 2658850,
+    "sourceHash": "2712210f0c6f81ad3d65ae89543e30fa07e13577977c13d03a0f1de3c5b02d5f",
+    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, para assegurar atenção integral à saúde de crianças e adolescentes com prejuízos decorrentes do uso problemático de dispositivos digitais.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850"
+  },
+  {
+    "id": 2658843,
+    "sourceHash": "be835d887a55ef987ddb0b7f7c45af4a08accc0b7db28adeec8a8362171ba7c9",
+    "ementa": "Institui normas de proteção do trabalhador frente a decisões automatizadas e à vigilância por sistemas de inteligência artificial nas relações de trabalho, disciplina a dispensa coletiva motivada por automação e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais).",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843"
+  },
+  {
+    "id": 2658842,
+    "sourceHash": "cac68584f7204499634d82bb4f4c382c5442673158b2e381b17ed4f79ff3d75e",
+    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842"
+  },
+  {
+    "id": 2657828,
+    "sourceHash": "54fc75defe4a9511df1f2f2d61e2a9b713afb76a19fcce624a19934d195549dd",
+    "ementa": "Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828"
+  },
+  {
+    "id": 2657827,
+    "sourceHash": "240298a90e3eac2d4c7b5bd141e2470648027aa3a12f2694469be52f5bae8744",
+    "ementa": "Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827"
+  },
+  {
     "id": 2655664,
     "sourceHash": "21fc52bdbf354d867447458d8ae8d414aa5e4f30fb116ed50d7af3b242e8f138",
     "ementa": "Altera o parágrafo único do art. 1º da Lei nº 8.072, de 25 de julho de 1990, para considerar hediondo o homicídio praticado na direção de veículo automotor, quando praticado em concurso com a condução de veículo com capacidade psicomotora alterada em razão da influência de álcool ou de outra substância psicoativa que determine dependência (art. 306 do CTB) ou com a participação em corrida, disputa ou competição automobilística não autorizada (art. 308 do CTB), vedando fiança, anistia, graça e indulto e impondo cumprimento inicial da pena em regime fechado.",
@@ -510,39 +546,45 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
   },
   {
-    "id": 2658887,
-    "sourceHash": "6ccafaeda72f84aff707745f4aa6e20253b22052ab3833d6a7eb49f1c14fa247",
-    "ementa": "Altera a Lei nº 14.995, de 10 de outubro de 2024, para estabelecer critérios de elegibilidade dos investimentos e aperfeiçoar a governança e a transparência do Programa Eco Invest Brasil.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887"
+    "id": 2659310,
+    "sourceHash": "56ec66f5504796728b95a9c6677abf5790449c4b0c3eda7bb426c135f4ff4ba3",
+    "ementa": "Altera a Lei nº 13.185, de 6 de novembro de 2015, que institui o Programa de Combate à Intimidação Sistemática (Bullying), para assegurar direitos de acolhimento, proteção e informação à vítima e à sua família, instituir canal seguro de relato e disciplinar a resposta dos estabelecimentos de educação básica a casos de intimidação sistemática, inclusive em ambiente digital.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659310"
   },
   {
-    "id": 2658850,
-    "sourceHash": "2712210f0c6f81ad3d65ae89543e30fa07e13577977c13d03a0f1de3c5b02d5f",
-    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990, para assegurar atenção integral à saúde de crianças e adolescentes com prejuízos decorrentes do uso problemático de dispositivos digitais.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658850"
+    "id": 2659238,
+    "sourceHash": "f5e22ad1e0eaf3a04338b5b0629886d79fb02584182802fd714a5a600cff61bb",
+    "ementa": "Altera a Lei nº 13.988, de 14 de abril de 2020, e a Lei nº 10.522, de 19 de julho de 2002, para instituir modalidade de transação tributária vinculada à capacidade efetiva de pagamento, criar o Bônus de Conformidade Corrente para contribuintes adimplentes, instituir o Cadastro Nacional de Grandes Devedores Contumazes da Dívida Ativa e estabelecer regras céleres de cobrança e constrição patrimonial, e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659238"
   },
   {
-    "id": 2658843,
-    "sourceHash": "be835d887a55ef987ddb0b7f7c45af4a08accc0b7db28adeec8a8362171ba7c9",
-    "ementa": "Institui normas de proteção do trabalhador frente a decisões automatizadas e à vigilância por sistemas de inteligência artificial nas relações de trabalho, disciplina a dispensa coletiva motivada por automação e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais).",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843"
+    "id": 2659237,
+    "sourceHash": "c4e2f9d7cb45b388ebb58e7098a7c2280213b9d208a8f116a4203aa6228f67ad",
+    "ementa": "Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237"
   },
   {
-    "id": 2658842,
-    "sourceHash": "cac68584f7204499634d82bb4f4c382c5442673158b2e381b17ed4f79ff3d75e",
-    "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842"
+    "id": 2659137,
+    "sourceHash": "00b9391f88a4ae291b250d99a2e51698627c02a5786c5b07474e9a38a448354b",
+    "ementa": "Dispõe sobre o bloqueio imediato de aparelhos celulares com IMEI registrado como roubado, furtado ou extraviado e sobre a identificação dos aparelhos que, apesar da restrição, permanecem em uso nas redes das prestadoras de telefonia.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659137"
   },
   {
-    "id": 2657828,
-    "sourceHash": "54fc75defe4a9511df1f2f2d61e2a9b713afb76a19fcce624a19934d195549dd",
-    "ementa": "Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828"
+    "id": 2659114,
+    "sourceHash": "658482136c03c1dcdc1307d00c3fde687c185ddcd91f28afa602d690050a156b",
+    "ementa": "Altera a Lei nº 6.454, de 24 de outubro de 1977, para estabelecer critérios de relevância histórica e social na denominação de bens públicos federais, ampliar a transparência das homenagens e evitar denominações duplicadas ou desprovidas de justificativa de interesse público.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659114"
   },
   {
-    "id": 2657827,
-    "sourceHash": "240298a90e3eac2d4c7b5bd141e2470648027aa3a12f2694469be52f5bae8744",
-    "ementa": "Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827"
+    "id": 2659113,
+    "sourceHash": "2fd844e5297eae8dd6dd6cf8e2b5adbc4af1a15597dad6f681ea62f20a8c565f",
+    "ementa": "Altera a Lei nº 12.345, de 9 de dezembro de 2010, para estabelecer parâmetros de avaliação da relevância social de datas comemorativas nacionais, ampliar a transparência do procedimento de sua instituição e prevenir sobreposições temáticas injustificadas.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659113"
+  },
+  {
+    "id": 2655570,
+    "sourceHash": "80df7fb1c80a1c36d79062dbd85b773ebe79bcd3db124f56ba0f258efcba677c",
+    "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570"
   }
 ]

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 140,
+      "dataApresentacao": "2026-11-19T13:11",
+      "descricaoTipo": "Projeto de Lei Complementar",
+      "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2655570,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 299,
+      "siglaTipo": "PLP",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1150,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-24T09:53",
+        "descricaoSituacao": "Aguardando Sanção",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Remessa do Ofício nº 868/2026/PS-GSE ao Senado Federal, comunicando envio à sanção.",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 70,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204486",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199234",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:07:00.433Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570"
+}

@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Mauricio Neves",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220647"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659238/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:06:55.225Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659238/autores"
+}

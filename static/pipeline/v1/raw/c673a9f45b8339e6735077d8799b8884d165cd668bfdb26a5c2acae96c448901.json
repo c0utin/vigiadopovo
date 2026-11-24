@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-23T15:26",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui normas de proteção do trabalhador frente a decisões automatizadas e à vigilância por sistemas de inteligência artificial nas relações de trabalho, disciplina a dispensa coletiva motivada por automação e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais).",
+      "ementaDetalhada": null,
+      "id": 2658843,
+      "justificativa": null,
+      "keywords": "alteração; Consolidação das Leis do Trabalho (CLT) (1943); Lei Geral de Proteção de Dados Pessoais (LGPDP) (2018); Normas de proteção ao trabalho; Inteligência artificial; Revisão humana; Decisão automatizada; Demissão coletiva; automação; Relações trabalhistas",
+      "numero": 5928,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-23T15:26",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5928/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Institui normas de proteção do trabalhador frente a decisões automatizadas e à vigilância por sistemas de inteligência artificial nas relações de trabalho, disciplina a dispensa coletiva motivada por automação e altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943, e a Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais)\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203100",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:06.914Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658843"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T12:10",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais.",
+      "ementaDetalhada": null,
+      "id": 2655542,
+      "justificativa": null,
+      "keywords": "Alteração; Código Penal (1940); Lei Ruth Brilhante (2006); Crime contra a pessoa; Aumento da pena; Feminicídio; Homicídio; Lesão corporal; Agente comunitário de saúde; Agente de combate às endemias; Tipificação de conduta; Ameaça; Constrangimento; violência; Grave ameaça; Ameaça contra o trabalhador em horário no exercício do labor; Agressão contra o trabalhador em horário no exercício do labor; ente federado; Medida de segurança; Processo seletivo; Vaga; Mulher",
+      "numero": 5910,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 905,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-19T12:10",
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5910/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199129",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:20.900Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655542"
+}

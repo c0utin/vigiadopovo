@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T13:51",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM).",
+      "ementaDetalhada": null,
+      "id": 2655580,
+      "justificativa": null,
+      "keywords": "alteração; Código de Trânsito Brasileiro (1997); criação; cadastro; Motociclista; Informação; Dados pessoais sensíveis; Unidade de saúde; Atendimento de emergência pré-hospitalar; Vítima; Acidente de trânsito; adesão voluntária; autorização prévia; diretrizes",
+      "numero": 5911,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 905,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-19T13:51",
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5911/2026 (Projeto de Lei), pelo Deputado Murilo Galdino (REPUBLIC/PB), que \"Altera a Lei nº 9.503, de 1997 (Código de Trânsito Brasileiro), para criar o Registro Nacional de Identificação de Emergência de Motociclistas (RENIEM). \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199282",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:19.799Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655580"
+}

@@ -1,0 +1,19 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 56,
+        "relevancia": 0,
+        "tema": "Saúde"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:19.535Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655581/temas"
+}

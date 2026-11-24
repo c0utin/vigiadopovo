@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 74,
+        "relevancia": 0,
+        "tema": "Política, Partidos e Eleições"
+      },
+      {
+        "codTema": 61,
+        "relevancia": 2,
+        "tema": "Viação, Transporte e Mobilidade"
+      },
+      {
+        "codTema": 43,
+        "relevancia": 1,
+        "tema": "Direito Penal e Processual Penal"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:10.753Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827/temas"
+}

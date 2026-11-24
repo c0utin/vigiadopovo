@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T15:23",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos.",
+      "ementaDetalhada": null,
+      "id": 2655613,
+      "justificativa": null,
+      "keywords": "criação; Fundo Soberano de Desenvolvimento Nacional (FSDN); Desenvolvimento econômico; Desenvolvimento social; Desenvolvimento tecnológico; Desenvolvimento científico; Meio ambiente; integração; Território",
+      "numero": 5914,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 905,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-19T15:23",
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5914/2026 (Projeto de Lei), pelas Deputada Jandira Feghali (PCdoB/RJ -Fdr PT-PCdoB-PV) e outros, que \"Institui o Fundo Soberano de Desenvolvimento Nacional (FSDN) e estabelece diretrizes para sua organização, governança, gestão e aplicação de recursos\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199342",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:15.049Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613"
+}

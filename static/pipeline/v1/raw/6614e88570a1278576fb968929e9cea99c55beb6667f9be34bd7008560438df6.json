@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-24T16:51",
+        "ementa": "Altera a Lei nº 13.185, de 6 de novembro de 2015, que institui o Programa de Combate à Intimidação Sistemática (Bullying), para assegurar direitos de acolhimento, proteção e informação à vítima e à sua família, instituir canal seguro de relato e disciplinar a resposta dos estabelecimentos de educação básica a casos de intimidação sistemática, inclusive em ambiente digital.",
+        "id": 2659310,
+        "numero": 5958,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659310"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-24T14:48",
+        "ementa": "Altera a Lei nº 13.988, de 14 de abril de 2020, e a Lei nº 10.522, de 19 de julho de 2002, para instituir modalidade de transação tributária vinculada à capacidade efetiva de pagamento, criar o Bônus de Conformidade Corrente para contribuintes adimplentes, instituir o Cadastro Nacional de Grandes Devedores Contumazes da Dívida Ativa e estabelecer regras céleres de cobrança e constrição patrimonial, e dá outras providências.",
+        "id": 2659238,
+        "numero": 5957,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659238"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-24T14:39",
+        "ementa": "Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos.",
+        "id": 2659237,
+        "numero": 5956,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-24T12:02",
+        "ementa": "Dispõe sobre o bloqueio imediato de aparelhos celulares com IMEI registrado como roubado, furtado ou extraviado e sobre a identificação dos aparelhos que, apesar da restrição, permanecem em uso nas redes das prestadoras de telefonia.",
+        "id": 2659137,
+        "numero": 5955,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659137"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-24T10:58",
+        "ementa": "Altera a Lei nº 6.454, de 24 de outubro de 1977, para estabelecer critérios de relevância histórica e social na denominação de bens públicos federais, ampliar a transparência das homenagens e evitar denominações duplicadas ou desprovidas de justificativa de interesse público.",
+        "id": 2659114,
+        "numero": 5954,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659114"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-24T10:58",
+        "ementa": "Altera a Lei nº 12.345, de 9 de dezembro de 2010, para estabelecer parâmetros de avaliação da relevância social de datas comemorativas nacionais, ampliar a transparência do procedimento de sua instituição e prevenir sobreposições temáticas injustificadas.",
+        "id": 2659113,
+        "numero": 5953,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659113"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=905&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:01.649Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

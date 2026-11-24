@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": null,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-24T00:35:14",
+        "descricao": "Mantido o texto. Sim: 319; Não: 127; Abstenção: 1; Total: 447.",
+        "id": "2655570-60",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-60",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": null,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-24T00:12:26",
+        "descricao": "Mantido o texto. Sim: 310; Não: 132; Total: 442.",
+        "id": "2655570-57",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-57",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": null,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-23T23:54:54",
+        "descricao": "Mantido o texto. Sim: 333; Não: 138; Abstenção: 1; Total: 472.",
+        "id": "2655570-53",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-53",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-23T23:26:45",
+        "descricao": "Rejeitada a Emenda de Plenário nº 38. Sim: 172; Não: 282; Abstenção: 2; Total: 456.",
+        "id": "2655570-50",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-50",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-23T23:13:43",
+        "descricao": "Rejeitada a Emenda de Plenário nº 23. Sim: 146; Não: 315; Abstenção: 1; Total: 462.",
+        "id": "2655570-47",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-47",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": null,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-23T23:01:03",
+        "descricao": "Mantido o texto. Sim: 413; Não: 29; Total: 442.",
+        "id": "2655570-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-23T22:44:11",
+        "descricao": "Rejeitadas as Emendas de Plenário. Sim: 129; Não: 319; Abstenção: 4; Total: 452.",
+        "id": "2655570-41",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-41",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-23",
+        "dataHoraRegistro": "2026-11-23T22:33:44",
+        "descricao": "Aprovado o Projeto de Lei Complementar nº 299, de 2026, ressalvados os destaques. Sim: 353; Não: 128; Abstenção: 5; Total: 486.",
+        "id": "2655570-39",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655570-39",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-24&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-24&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-24&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-24&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=200&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:03.089Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-24&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}

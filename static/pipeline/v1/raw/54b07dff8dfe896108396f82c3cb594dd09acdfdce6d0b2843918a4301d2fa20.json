@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T11:17",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais.",
+      "ementaDetalhada": null,
+      "id": 2655533,
+      "justificativa": null,
+      "keywords": "alteração; Código de Processo Penal (1941); Mandado de busca e apreensão; Busca domiciliar; Busca pessoal; obrigatoriedade; Mandado judicial; Polícia; Guarda municipal; Ministério público; Órgão de segurança pública; Prazo máximo; Diligência; preservação; Prova (direito penal); Crime; Furto; Telefone celular; rastreamento; Equipamento eletrônico",
+      "numero": 5907,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 905,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-19T11:17",
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5907/2026 (Projeto de Lei), pelo Deputado Kim Kataguiri (MISSÃO/SP), que \"Altera o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), para conferir celeridade à expedição de mandados de busca domiciliar e pessoal, e legitimidade para seu requerimento por órgãos de segurança pública e guardas municipais\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199118",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:04:24.173Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655533"
+}

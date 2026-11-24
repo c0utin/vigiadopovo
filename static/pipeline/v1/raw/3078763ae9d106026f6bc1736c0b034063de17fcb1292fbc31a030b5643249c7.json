@@ -1,0 +1,217 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 0,
+      "data": "2025-12-17",
+      "dataHoraRegistro": "2025-12-17T11:30:53",
+      "dataHoraUltimaAberturaVotacao": "2025-12-17T11:25:50",
+      "descUltimaAberturaVotacao": "Votação do Requerimento de Votação Nominal do Requerimento de Retirada de Pauta, de autoria do Deputado Kim Kataguiri",
+      "descricao": "Rejeitado o Requerimento de Votação Nominal do Requerimento de Retirada de Pauta.",
+      "efeitosRegistrados": [],
+      "id": "1194323-61",
+      "idEvento": 80794,
+      "idOrgao": 2010,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-17T08:10",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 956/2015",
+          "id": 2597627,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2597627"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-17T08:10",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 956/2015-Requerimento de Retirada de Matéria da Pauta - PL 956/2015",
+          "id": 2597632,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2597632"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-10T08:02",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 956/2015",
+          "id": 2594780,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2594780"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-10T08:02",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 956/2015-Requerimento de Retirada de Matéria da Pauta - PL 956/2015",
+          "id": 2594787,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2594787"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-03T09:11",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 956/2015",
+          "id": 2591436,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591436"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-03T09:11",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 956/2015-Requerimento de Retirada de Matéria da Pauta - PL 956/2015",
+          "id": 2591425,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591425"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2025-11-26T15:30",
+          "ementa": "VOTO pela COMPATIBILIDADE E ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA do Projeto de Lei n.º 956, de 2015, desde que com as emendas 01, 02, 03 e 04 apresentadas, e pela incompatibilidade e inadequação orçamentária e financeira das emendas adotadas pela CTASP",
+          "id": 2589247,
+          "numero": 4,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589247"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2025-11-26T15:30",
+          "ementa": "VOTO pela COMPATIBILIDADE E ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA do Projeto de Lei n.º 956, de 2015, desde que com as emendas 01, 02, 03 e 04 apresentadas, e pela incompatibilidade e inadequação orçamentária e financeira das emendas adotadas pela CTASP",
+          "id": 2589248,
+          "numero": 5,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589248"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2025-11-26T15:30",
+          "ementa": "VOTO pela COMPATIBILIDADE E ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA do Projeto de Lei n.º 956, de 2015, desde que com as emendas 01, 02, 03 e 04 apresentadas, e pela incompatibilidade e inadequação orçamentária e financeira das emendas adotadas pela CTASP",
+          "id": 2589249,
+          "numero": 6,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589249"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2025-11-26T15:30",
+          "ementa": "VOTO pela COMPATIBILIDADE E ADEQUAÇÃO ORÇAMENTÁRIA E FINANCEIRA do Projeto de Lei n.º 956, de 2015, desde que com as emendas 01, 02, 03 e 04 apresentadas, e pela incompatibilidade e inadequação orçamentária e financeira das emendas adotadas pela CTASP",
+          "id": 2589250,
+          "numero": 7,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589250"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-11-26T15:30",
+          "ementa": "Parecer do Relator, Dep. Pedro Westphalen (PP-RS), pela compatibilidade e adequação financeira e orçamentária do PL 956/2015, com as emendas; e pela incompatibilidade e inadequação financeira e orçamentária das Emendas n. 1 e 2 da CTRAB.",
+          "id": 2589241,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589241"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2016-05-25T11:58",
+          "ementa": "",
+          "id": 2085722,
+          "numero": 2,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2085722"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2016-05-25T11:58",
+          "ementa": "",
+          "id": 2085723,
+          "numero": 3,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2085723"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2016-05-25T11:56",
+          "ementa": "Parecer do relator, Dep. Jerônimo Goergen, pela compatibilidade e adequação financeira e orçamentária do Projeto de Lei nº 956/15 e da Emenda da Comissão de Trabalho, de Administração e Serviço Público, com emenda de adequação e submenda.",
+          "id": 2085721,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2085721"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2015-10-20T16:40",
+          "ementa": "",
+          "id": 2023763,
+          "numero": 1,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2023763"
+        },
+        {
+          "ano": 0,
+          "codTipo": 709,
+          "dataApresentacao": "2015-10-20T16:40",
+          "ementa": "",
+          "id": 2023764,
+          "numero": 1,
+          "siglaTipo": "SBR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2023764"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-10-20T16:39",
+          "ementa": "Parecer do relator, Dep. Jerônimo Goergen, pela compatibilidade e adequação financeira e orçamentária do PL nº 956/2015, com emenda, da emenda nº 01 da Comissão de Trabalho, de Administração e Serviço Público - CTASP, com submenda, e das emendas nº 02 e nº 03 da CTASP.",
+          "id": 2023762,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2023762"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-03-27T12:55",
+          "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+          "id": 1194323,
+          "numero": 956,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323"
+        }
+      ],
+      "siglaOrgao": "CFT",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-11-27T12:11:17",
+        "descricao": "Parecer do Relator, Dep. Pedro Westphalen (PP-RS), pela compatibilidade e adequação financeira e orçamentária do PL 956/2015, com as emendas; e pela incompatibilidade e inadequação financeira e orçamentária das Emendas n. 1 e 2 da CTRAB.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589241"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/80794",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2010"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:06:50.029Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61"
+}

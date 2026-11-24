@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T18:51:39",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o parecer na Comissão Mista",
+      "efeitosRegistrados": [],
+      "id": "2648616-10",
+      "idEvento": null,
+      "idOrgao": 111,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 291,
+          "dataApresentacao": "2026-10-21T00:00",
+          "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+          "id": 2648616,
+          "numero": 1398,
+          "siglaTipo": "MPV",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616"
+        }
+      ],
+      "siglaOrgao": "CN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-10",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/111"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-10",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-24T20:05:44.393Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648616-10"
+}
