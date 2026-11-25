@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-17",
+      "dataHoraRegistro": "2026-11-17T16:35:47",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Realizar o encaminhamento do PL-1969/2022 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "efeitosRegistrados": [],
+      "id": "2332174-48",
+      "idEvento": null,
+      "idOrgao": 186,
+      "objetosPossiveis": [
+        {
+          "ano": 2023,
+          "codTipo": 308,
+          "dataApresentacao": "2023-06-14T20:57",
+          "ementa": "Requer distribuição de projetos para a Comissão de Previdência, Assistência Social, Infância, Adolescência e Família (CPASF).",
+          "id": 2369432,
+          "numero": 1958,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2369432"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-11T18:00",
+          "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+          "id": 2332174,
+          "numero": 1969,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174"
+        }
+      ],
+      "siglaOrgao": "CCP",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-48",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-48",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:51:15.892Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-48"
+}

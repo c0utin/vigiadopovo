@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 43,
+        "relevancia": 1,
+        "tema": "Direito Penal e Processual Penal"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:48:57.390Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842/temas"
+}

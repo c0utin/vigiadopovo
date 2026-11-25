@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T11:46",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Política Nacional de Cuidado Integral à Pessoa com Distonia e à sua Família; altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943; e dispõe sobre a dedução, do imposto sobre a renda da pessoa física, da contribuição patronal incidente sobre a remuneração de cuidador de pessoa com deficiência.",
+      "ementaDetalhada": null,
+      "id": 2659671,
+      "justificativa": null,
+      "keywords": "alteração; Consolidação das Leis do Trabalho (CLT) (1943); Distonia; Cuidador de deficientes; Política Nacional de Cuidados; Cuidador familiar; Pessoa com deficiência; Sistema Único de Saúde (SUS); Cadastro Único para Programas Sociais do Governo Federal; Benefício de Prestação Continuada (BPC); Sistema Único de Assistência Social (SUAS); Programa Nacional de Apoio à Atenção da Saúde da Pessoa com Deficiência (PRONAS/PCD); Falta ao trabalho; Dedução tributária; Imposto sobre a Renda da Pessoa Física (IRPF); Trabalhador doméstico; Empregador doméstico; Contribuição previdenciária patronal; Saúde mental; Renúncia fiscal",
+      "numero": 5963,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T11:46",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5963/2026 (Projeto de Lei), pelo Deputado Fernando Rodolfo (PRD/PE), que \"Institui a Política Nacional de Cuidado Integral à Pessoa com Distonia e à sua Família; altera a Consolidação das Leis do Trabalho, aprovada pelo Decreto-Lei nº 5.452, de 1º de maio de 1943; e dispõe sobre a dedução, do imposto sobre a renda da pessoa física, da contribuição patronal incidente sobre a remuneração de cuidador de pessoa com deficiência\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659671",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659671/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204749",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659671",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:48:45.397Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659671"
+}

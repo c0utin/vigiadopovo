@@ -1,0 +1,87 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-04-15",
+      "dataHoraRegistro": "2026-04-15T14:12:33",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2428685-56",
+      "idEvento": 81569,
+      "idOrgao": 536996,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-04-15T12:14",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2616534,
+          "numero": 2,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616534"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-04-15T12:07",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2616530,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616530"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-03-24T12:49",
+          "ementa": "Parecer da Relatora, Dep. Denise Pessôa (PT-RS), pela aprovação deste e do Substitutivo da Comissão de Turismo, com substitutivo.",
+          "id": 2611434,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2611434"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-03-24T12:49",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2611435,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2611435"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2024,
+          "codTipo": 139,
+          "dataApresentacao": "2024-04-23T12:34",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2428685,
+          "numero": 1384,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685"
+        }
+      ],
+      "siglaOrgao": "CCULT",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-03-24T12:53:33",
+        "descricao": "Parecer da Relatora, Dep. Denise Pessôa (PT-RS), pela aprovação deste e do Substitutivo da Comissão de Turismo, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2611434"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-56",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81569",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/536996"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-56",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:51:01.549Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-56"
+}

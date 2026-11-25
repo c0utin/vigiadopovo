@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-17",
+      "dataHoraRegistro": "2026-11-17T17:06:41",
+      "dataHoraUltimaAberturaVotacao": "2026-11-17T17:06:22",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pelo Dep. Mauro Benevides Filho (UNIÃO-CE).",
+      "efeitosRegistrados": [],
+      "id": "2648606-28",
+      "idEvento": 83363,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-10-27T00:00",
+          "ementa": "EMENDA 1",
+          "id": 2649051,
+          "numero": 1,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649051"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 130,
+          "dataApresentacao": "2026-10-27T00:00",
+          "ementa": "À Medida Provisória nº 1.397, de 20 de outubro de 2026, que abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$ 6.494.296.446,00, para o fim que especifica.",
+          "id": 2649286,
+          "numero": 2,
+          "siglaTipo": "EMC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649286"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 291,
+          "dataApresentacao": "2026-10-21T00:00",
+          "ementa": "Abre crédito extraordinário, em favor de Encargos Financeiros da União, no valor de R$6.494.296.446,00, para o fim que especifica.",
+          "id": 2648606,
+          "numero": 1397,
+          "siglaTipo": "MPV",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648606"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-28",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-28",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:50:26.933Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2648606-28"
+}

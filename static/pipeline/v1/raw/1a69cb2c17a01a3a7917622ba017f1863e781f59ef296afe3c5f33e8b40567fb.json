@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Talíria Petrone",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204464"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:51:15.296Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174/autores"
+}

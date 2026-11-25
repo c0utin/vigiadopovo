@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T12:45",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui o Protocolo Nacional de Alta Segura da Pessoa Idosa, dispõe sobre a comunicação obrigatória dos casos de ausência de retaguarda familiar, o acolhimento transitório e o registro nacional de casos de abandono hospitalar, e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2659903,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5965,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T12:45",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5965/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Institui o Protocolo Nacional de Alta Segura da Pessoa Idosa, dispõe sobre a comunicação obrigatória dos casos de ausência de retaguarda familiar, o acolhimento transitório e o registro nacional de casos de abandono hospitalar, e dá outras providências\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659903",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659903/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205076",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659903",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:48:43.319Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659903"
+}

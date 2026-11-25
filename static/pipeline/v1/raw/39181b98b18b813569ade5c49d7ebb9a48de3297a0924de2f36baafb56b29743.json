@@ -1,0 +1,70 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-08-20",
+      "dataHoraRegistro": "2025-08-20T14:03:14",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovados, em bloco, os Requerimentos 20, 21 e 22/2025.",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2025-08-20T14:00",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 21/2025,do Sr. André Figueiredo que requer a realização de Audiência Pública para debater a regulamentação da Film Commission e sua relevância para o Turismo Nacional.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do REQ n. 21/2025 (Requerimento de Audiência Pública), pelo Deputado André Figueiredo (PDT/CE), que \"Requer a realização de Audiência Pública para debater a regulamentação da Film Commission e sua relevância para o Turismo Nacional\".",
+          "tituloProposicao": "PL 1384/2024",
+          "tituloProposicaoCitada": "REQ 21/2025 CTUR",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539288"
+        }
+      ],
+      "id": "2539288-2",
+      "idEvento": 77653,
+      "idOrgao": 6066,
+      "objetosPossiveis": [
+        {
+          "ano": 2025,
+          "codTipo": 294,
+          "dataApresentacao": "2025-08-04T13:26",
+          "ementa": "Requer a realização de Audiência Pública para debater a regulamentação da Film Commission e sua relevância para o Turismo Nacional.",
+          "id": 2539288,
+          "numero": 21,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2539288"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2024,
+          "codTipo": 139,
+          "dataApresentacao": "2024-04-23T12:34",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2428685,
+          "numero": 1384,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685"
+        }
+      ],
+      "siglaOrgao": "CTUR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": "Apresentação do REQ n. 21/2025 (Requerimento de Audiência Pública), pelo Deputado André Figueiredo (PDT/CE), que \"Requer a realização de Audiência Pública para debater a regulamentação da Film Commission e sua relevância para o Turismo Nacional\".",
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2539288-2",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77653",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6066"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2539288-2",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:51:02.056Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2539288-2"
+}

@@ -1,0 +1,117 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2015-08-19",
+      "dataHoraRegistro": "2015-08-19T11:17:30",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer contra os votos dos Deputados Silvio Costa e Daniel Vilela.",
+      "efeitosRegistrados": [],
+      "id": "1194323-26",
+      "idEvento": 40405,
+      "idOrgao": 2015,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2015-08-19T10:00",
+          "ementa": "Aprovado o Parecer contra os votos dos Deputados Silvio Costa e Daniel Vilela..  Parecer do Relator, Dep. Luiz Carlos Busato (PTB-RS), pela aprovação, com emendas.",
+          "id": 1673054,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1673054"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2015-08-12T19:16",
+          "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+          "id": 1618391,
+          "numero": 3,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1618391"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2015-08-12T19:15",
+          "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+          "id": 1618390,
+          "numero": 2,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1618390"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-08-12T19:06",
+          "ementa": "Parecer do Relator, Dep. Luiz Carlos Busato (PTB-RS), pela aprovação, com emendas.",
+          "id": 1618384,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1618384"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 383,
+          "dataApresentacao": "2015-07-01T20:58",
+          "ementa": "Recurso, nos termos do artigo 17, III, \"f\" c/c artigo 57, XXI, do Regimento Interno, contra a decisão do Presidente da Comissão de Trabalho, de Administração e Serviço Público - CTASP, acerca da questão de ordem levantada pelo autor.",
+          "id": 1549124,
+          "numero": 42,
+          "siglaTipo": "REC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1549124"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2015-07-01T10:34",
+          "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+          "id": 1548599,
+          "numero": 1,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1548599"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-07-01T10:27",
+          "ementa": "Parecer do Relator, Dep. Luiz Carlos Busato (PTB-RS), pela aprovação, com emenda.",
+          "id": 1548597,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1548597"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-03-27T12:55",
+          "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+          "id": 1194323,
+          "numero": 956,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323"
+        }
+      ],
+      "siglaOrgao": "CTRAB",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2015-08-12T19:19:49",
+        "descricao": "Parecer do Relator, Dep. Luiz Carlos Busato (PTB-RS), pela aprovação, com emendas.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1618384"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/40405",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:51:29.884Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26"
+}

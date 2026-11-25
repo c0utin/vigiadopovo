@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T12:18",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Regulamenta o direito à consulta prévia, livre e informada aos povos indígenas e tribais, nos termos do art. 231 da Constituição Federal e da Convenção nº 169 da Organização Internacional do Trabalho; institui procedimentos de celeridade, padrões de execução, supervisão e validação, e regime de cooperação federativa para condução operacional; e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2659678,
+      "justificativa": null,
+      "keywords": "regulamentação; População indígena; Convenção nº 169 da OIT sobre Povos Indígenas e Tribais (1989); Direitos indígenas; Licenciamento ambiental; Cooperação federativa; Recursos hídricos; Recursos minerais; Terras indígenas; Indenização; Empreendimento; Grupo indígena isolado; Competência da União; impacto ambiental; Delegação de competência; População tradicional; diretrizes",
+      "numero": 5964,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T12:18",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5964/2026 (Projeto de Lei), pelo Deputado Júnior Ferrari (PSD/PA), que \"Regulamenta o direito à consulta prévia, livre e informada aos povos indígenas e tribais, nos termos do art. 231 da Constituição Federal e da Convenção nº 169 da Organização Internacional do Trabalho; institui procedimentos de celeridade, padrões de execução, supervisão e validação, e regime de cooperação federativa para condução operacional; e dá outras providências. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659678",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659678/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204768",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659678",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:48:44.277Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659678"
+}

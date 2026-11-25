@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-25T19:20",
+        "ementa": "Altera a Lei nº 13.895, de  30 de outubro de 2019, para reforçar as diretrizes de prevenção e atenção ao diabetes.",
+        "id": 2660081,
+        "numero": 5986,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660081"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-25T18:56",
+        "ementa": "Altera a Lei nº 12.379, de 6 de janeiro de 2011, para dispor sobre a transparência ativa e a divulgação anual consolidada de dados técnicos relativos à conservação, capacidade, fluxo de veículos, sinistralidade e estágio de planejamento da malha rodoviária federal.",
+        "id": 2660076,
+        "numero": 5985,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660076"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-25T18:54",
+        "ementa": "Altera a Lei nº 12.379, de 6 de janeiro de 2011, que dispõe sobre o Sistema Nacional de Viação – SNV, para estabelecer critérios técnicos objetivos de classificação prioritária de trechos rodoviários federais para fins de elaboração de estudos de viabilidade, pavimentação, duplicação e adequação de capacidade.",
+        "id": 2660075,
+        "numero": 5984,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-25T18:32",
+        "ementa": "Altera a Lei nº 13.146, de 6 de julho de 2015 (Lei Brasileira de Inclusão da Pessoa com Deficiência), para dispor sobre a garantia de permanência do trabalhador com deficiência na função, mediante adaptações razoáveis permanentes, e dá outras providências.",
+        "id": 2660068,
+        "numero": 5983,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660068"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-25T18:18",
+        "ementa": "Altera as Leis nº 8.935, de 18 de novembro  de 1994, Lei nº 6.015, de 31 de dezembro de 1973, e Lei nº 10.169, de 29 de dezembro de 2000, para assegurar a gratuidade de atos registrais e notariais relativos a pessoas jurídicas de direito privado sem fins lucrativos e o ressarcimento dos atos gratuitos praticados pelos serviços de registro civil de pessoas jurídica.",
+        "id": 2660060,
+        "numero": 5982,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660060"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-25T17:52",
+        "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), e a Lei nº 14.164, de 10 de junho de 2021, para garantir a efetividade do conteúdo de prevenção da violência contra a mulher no ensino fundamental.",
+        "id": 2660028,
+        "numero": 5980,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660028"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=910&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:48:35.078Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T18:18",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera as Leis nº 8.935, de 18 de novembro  de 1994, Lei nº 6.015, de 31 de dezembro de 1973, e Lei nº 10.169, de 29 de dezembro de 2000, para assegurar a gratuidade de atos registrais e notariais relativos a pessoas jurídicas de direito privado sem fins lucrativos e o ressarcimento dos atos gratuitos praticados pelos serviços de registro civil de pessoas jurídica.",
+      "ementaDetalhada": null,
+      "id": 2660060,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5982,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T18:18",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5982/2026 (Projeto de Lei), pela Deputada Delegada Katarina (PSD/SE), que \"Altera as Leis nº 8.935, de 18 de novembro  de 1994, Lei nº 6.015, de 31 de dezembro de 1973, e Lei nº 10.169, de 29 de dezembro de 2000, para assegurar a gratuidade de atos registrais e notariais relativos a pessoas jurídicas de direito privado sem fins lucrativos e o ressarcimento dos atos gratuitos praticados pelos serviços de registro civil de pessoas jurídica\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660060",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660060/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205449",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660060",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T22:51:39.016Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660060"
+}
