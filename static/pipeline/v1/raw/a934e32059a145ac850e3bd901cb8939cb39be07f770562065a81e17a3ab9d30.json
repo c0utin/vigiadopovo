@@ -1,0 +1,69 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-23",
+      "dataHoraRegistro": "2026-11-23T19:45:46",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD). Sim: 318; Não: 135; Abstenção: 6; Total: 459.",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-23T18:00",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 4504/2026, Do Sr. Paulo Pimenta e outros, que solicita urgência (art. 155) para o PLP 299/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PLP 299/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2655708-8",
+      "idEvento": 83419,
+      "idOrgao": 180,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 140,
+          "dataApresentacao": "2026-11-19T13:11",
+          "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+          "id": 2655570,
+          "numero": 299,
+          "siglaTipo": "PLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-11-19T18:47",
+          "ementa": "Requer, nos termos do artigo 155 do Regimento Interno, tramitação sob o regime urgência do Projeto de Lei Complementar nº 299, de 2026.",
+          "id": 2655708,
+          "numero": 4504,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655708"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655708-8",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83419",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655708-8",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:04:55.195Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2655708-8"
+}

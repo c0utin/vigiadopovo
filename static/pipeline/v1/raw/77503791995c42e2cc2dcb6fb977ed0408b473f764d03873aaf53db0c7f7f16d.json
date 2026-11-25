@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-17T11:24",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás.",
+      "ementaDetalhada": null,
+      "id": 2654412,
+      "justificativa": null,
+      "keywords": "denominação; Rodovia; Pessoa homenageada; Produtor rural; Trecho rodoviário; Montes Claros (MG); Minas Gerais; Divisão territorial; Goiás; Homenagem póstuma; Logradouro público",
+      "numero": 5876,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-17T11:24",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5876/2026 (Projeto de Lei), pelo Deputado Weliton Prado (PSD/MG), que \"Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205182"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196988",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:05:10.898Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654412"
+}

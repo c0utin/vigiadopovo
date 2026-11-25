@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-16T13:57",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Lei Manfred e Marisia von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2654163,
+      "justificativa": null,
+      "keywords": "proibição; Vantagem econômica; Exploração comercial; Proveito do crime; Autor (direito penal); Criminoso; Condenado; Responsabilidade penal; Tipificação de conduta; Tipicidade penal; Filme documentário; Livro; Entrevista; Negócio jurídico; Monetização; Rede social digital",
+      "numero": 5861,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "194",
+        "dataHora": "2026-11-17T17:46",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Requerimento",
+        "despacho": "Apresentação do REQ n. 4482/2026 (Requerimento de Inclusão ou Retirada de Assinatura em Proposição de Iniciativa Individual), pelos Deputados Célio Studart (PSD/CE) e Sanderson PL        , que \"Requer a inclusão de coautoria no Projeto de Lei nº 5861/2026, que institui a Lei Manfred e Marisia von Richthofen, que proíbe e criminaliza a obtenção de vantagem econômica, direta ou indireta, por pessoa condenada pela prática de infração penal, mediante exploração comercial, promoção ou monetização do próprio delito, estabelece mecanismos de perda de valores, reparação das vítimas e responsabilização de terceiros que atuem para fraudar a proibição, e dá outras providências, de autoria do Dep. Sanderson (PL/RS)\".",
+        "regime": ".",
+        "sequencia": 6,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203974"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196489",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:05:21.591Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654163"
+}

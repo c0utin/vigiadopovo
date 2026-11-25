@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T15:13",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para instituir a renovação automática da matrícula de estudantes nas instituições públicas de educação básica.",
+      "ementaDetalhada": null,
+      "id": 2659970,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 5968,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T15:13",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5968/2026 (Projeto de Lei), pelo Deputado Bebeto (PP/RJ), que \"Altera a Lei nº 9.394, de 20 de dezembro de 1996, para instituir a renovação automática da matrícula de estudantes nas instituições públicas de educação básica\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659970",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659970/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205178",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659970",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:07:43.420Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659970"
+}

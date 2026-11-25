@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-16T14:33",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos.",
+      "ementaDetalhada": null,
+      "id": 2654171,
+      "justificativa": null,
+      "keywords": "rastreabilidade; comercialização; Cobre; Fio metálico; Cabo elétrico; Compra e venda; Sucata; Infraestrutura de telecomunicação; Infraestrutura; Energia elétrica; Transporte ferroviário; Saneamento; Furto; Concessionário (administração pública); Nota fiscal eletrônica; Infração administrativa; Multa administrativa",
+      "numero": 5865,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-16T14:33",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5865/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204767"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196500",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:05:16.235Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654171"
+}

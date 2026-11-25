@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 62,
+        "relevancia": 1,
+        "tema": "Ciência, Tecnologia e Inovação"
+      },
+      {
+        "codTema": 42,
+        "relevancia": 0,
+        "tema": "Direito Civil e Processual Civil"
+      },
+      {
+        "codTema": 37,
+        "relevancia": 2,
+        "tema": "Comunicações"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:05:18.589Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654170/temas"
+}

@@ -1,0 +1,92 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-24",
+        "dataHoraRegistro": "2026-11-24T17:53:39",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Orlando Silva (PCdoB/SP).",
+        "id": "2332174-62",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-62",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85464",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-24",
+        "dataHoraRegistro": "2026-11-24T17:52:28",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 1.969, de 2022, da Comissão de Direitos Humanos, Minorias e Igualdade Racial. Sim: 292; Não: 147; Abstenção: 2; Total: 441.",
+        "id": "2332174-59",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-59",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85464",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:35:47",
+        "descricao": "Realizar o encaminhamento do PL-1969/2022 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2332174-48",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-48",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:35:47",
+        "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2654306-7",
+        "proposicaoObjeto": "REQ 4466/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654306-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654306"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-10",
+        "dataHoraRegistro": "2026-06-10T15:31:05",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2332174-35",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CDHMIR",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-35",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82338",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2023-06-14",
+        "dataHoraRegistro": "2023-06-14T14:27:11",
+        "descricao": "Aprovado.",
+        "id": "2366492-2",
+        "proposicaoObjeto": "REQ 129/2023 CSAUDE",
+        "siglaOrgao": "CSAUDE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2366492-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/68236",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2366492"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:07:52.782Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174/votacoes"
+}

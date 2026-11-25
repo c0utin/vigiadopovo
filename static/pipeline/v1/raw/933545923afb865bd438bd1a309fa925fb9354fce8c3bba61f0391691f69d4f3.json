@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-24T14:39",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos.",
+      "ementaDetalhada": null,
+      "id": 2659237,
+      "justificativa": null,
+      "keywords": "alteração; Lei Antifumo (1996); obrigatoriedade; Mensagem de advertência; Embalagem do produto; Produto fumígeno; Tabaco; Prejuízo; Saúde animal; Animal doméstico",
+      "numero": 5956,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-24T14:39",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5956/2026 (Projeto de Lei), pelo Deputado Célio Studart (PSD/CE), que \"Altera a Lei nº 9.294, de 15 de julho de 1996, para tornar obrigatória, nas embalagens de produtos fumígenos derivados do tabaco, advertência sanitária sobre os danos da exposição à fumaça e aos resíduos do tabaco à saúde dos animais domésticos. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203996",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:04:28.696Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237"
+}

@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 0,
+      "data": "2021-12-14",
+      "dataHoraRegistro": null,
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Apresentação do Voto em Separado n. 1 CDHM, pelo Deputado Eli Borges  (SOLIDARI/TO).",
+      "efeitosRegistrados": [],
+      "id": "2253448-24",
+      "idEvento": null,
+      "idOrgao": 2007,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-21T14:46",
+          "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
+          "id": 2253448,
+          "numero": 2819,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253448"
+        }
+      ],
+      "siglaOrgao": "CDHMIR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2021-11-17T10:02:16",
+        "descricao": "Parecer do Relator, Dep. Bira do Pindaré (PSB-MA), pela aprovação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2307433"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-24",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-24",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:07:58.525Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-24"
+}

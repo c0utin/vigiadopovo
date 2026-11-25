@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2015,
+      "codTipo": 139,
+      "dataApresentacao": "2015-01-26T17:37",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+      "ementaDetalhada": "",
+      "id": 866002,
+      "justificativa": null,
+      "keywords": "Criação, cargo efetivo, Juiz do Trabalho Substituto, Analista Judiciário, Técnico Judiciário, Tribunal Regional do Trabalho (TRT), Fortaleza (CE).",
+      "numero": 8332,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-25T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 270/2026/SGM-P.",
+        "regime": "Prioridade (Art. 151, II, RICD)",
+        "sequencia": 111,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/143632",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198872"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1296311",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:07:39.841Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+}

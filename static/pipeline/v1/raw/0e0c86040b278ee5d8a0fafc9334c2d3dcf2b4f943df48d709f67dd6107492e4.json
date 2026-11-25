@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Soraya Santos",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178946"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:06:01.345Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/autores"
+}

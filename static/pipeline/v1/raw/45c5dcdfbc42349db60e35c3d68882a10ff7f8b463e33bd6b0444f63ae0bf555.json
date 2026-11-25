@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2015-10-21",
+      "dataHoraRegistro": "2015-10-21T15:22:31",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "606005-44",
+      "idEvento": 41823,
+      "idOrgao": 2007,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2015-10-21T14:00",
+          "ementa": "Aprovado o Parecer..  Parecer do Relator, Dep. Orlando Silva (PCdoB-SP), pela aprovação deste, na forma do substitutivo apresentado pela Comissão de Seguridade Social e Família.",
+          "id": 2024162,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2024162"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-08-05T20:33",
+          "ementa": "Parecer do Relator, Dep. Orlando Silva (PCdoB-SP), pela aprovação deste.",
+          "id": 1598630,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1598630"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-02-11T17:15",
+          "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 606005,
+          "numero": 7103,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005"
+        }
+      ],
+      "siglaOrgao": "CDHMIR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2015-08-27T11:26:23",
+        "descricao": "Parecer do Relator, Dep. Orlando Silva (PCdoB-SP), pela aprovação deste, na forma do substitutivo apresentado pela Comissão de Seguridade Social e Família.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1598630"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-44",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/41823",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-44",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-25T19:08:00.429Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-44"
+}
