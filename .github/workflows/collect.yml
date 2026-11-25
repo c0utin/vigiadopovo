@@ -4,7 +4,8 @@ name: Collect official data
 # attestations below bind each output file to this workflow, commit and run.
 on:
   schedule:
-    - cron: "0 9 * * *" # 06:00 in Brasília
+    # Off the top of the hour: GitHub delays on-the-hour schedules the most.
+    - cron: "17 9 * * *" # 06:17 in Brasília
   workflow_dispatch:
 
 permissions:

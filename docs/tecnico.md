@@ -45,7 +45,7 @@ Os comandos `pnpm data:sync`, `pnpm data:deputies`, `pnpm data:metrics`, `pnpm b
 
 ## Prova de origem sem custo
 
-`.github/workflows/collect.yml` roda `pnpm data:sync` todo dia às 06:00 (Brasília) em runners do GitHub, a partir do código público, e só grava a coleta depois de testes, tipos e formatação passarem. Em seguida:
+`.github/workflows/collect.yml` roda `pnpm data:sync` todo dia às 06:17 (Brasília) em runners do GitHub, a partir do código público, e só grava a coleta depois de testes, tipos e formatação passarem. Em seguida:
 
 1. **Atestação do GitHub (Sigstore):** assina o manifesto da execução, `static/legislativo.json` e `static/dados.json`, com o repositório, o commit, o workflow e a execução que os produziram. O manifesto cobre, por hash, todas as capturas da API.
 2. **OpenTimestamps:** carimba o hash do manifesto em `static/pipeline/timestamps/<hash>.json.ots`, ancorado no Bitcoin por calendários públicos, sem carteira ou taxa. Execuções seguintes rodam o upgrade do cliente `opentimestamps` até a prova ficar completa.

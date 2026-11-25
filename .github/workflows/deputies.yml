@@ -4,7 +4,7 @@ name: Collect deputy profiles
 # Câmara, so the site uses the profiles committed here.
 on:
   schedule:
-    - cron: "0 10 1 * *" # day 1 of each month, 07:00 in Brasília
+    - cron: "23 10 1 * *" # day 1 of each month, 07:23 in Brasília
   workflow_dispatch:
 
 permissions:

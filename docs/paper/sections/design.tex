@@ -131,7 +131,7 @@ Figure~\ref{fig:pipeline} shows the two data paths. The \emph{collection path} t
 \subsection{Collection}
 \label{sec:collection}
 
-A scheduled workflow on GitHub-hosted runners starts the collector at 09:00 UTC (06:00 in Bras\'ilia) every day. The collector discovers the six bills with the most recent identifiers of the current year and the propositions affected by the eight most recent votings of the month, keeps every proposition collected on earlier days, and refreshes each one's detail, authors, official themes, related votings and individual votes.
+A scheduled workflow on GitHub-hosted runners starts the collector at 09:17 UTC (06:17 in Bras\'ilia) every day. The collector discovers the six bills with the most recent identifiers of the current year and the propositions affected by the eight most recent votings of the month, keeps every proposition collected on earlier days, and refreshes each one's detail, authors, official themes, related votings and individual votes.
 
 The collector treats the source as untrusted input. It accepts only HTTPS URLs on an explicit list of four Chamber hosts, with no port or credentials, and rejects API redirects. Every response is decoded against a schema; a response that does not match stops the run. Two records for the same deputy in the same voting stop the run instead of one being picked silently. Requests time out after 30 seconds and are retried at most twice with exponential backoff and jitter, honouring \texttt{Retry-After}. Output files are written through a temporary file and an atomic rename, and only after the whole collection has validated, so a failed run leaves the previous collection in place.
 

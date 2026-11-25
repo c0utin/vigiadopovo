@@ -58,7 +58,7 @@ Os dados da Câmara são públicos, mas estão espalhados em arquivos enormes e 
   <img src="docs/readme/pipeline.svg" alt="Animação do pipeline: Câmara, coleta por código aberto, SHA-256, assinatura e carimbo, cálculo por regras fixas, verificação" width="100%">
 </p>
 
-1. **Coleta** (GitHub Actions, todo dia às 06:00 de Brasília): baixa a API e os arquivos oficiais da Câmara, testa, gera o manifesto com o SHA-256 de tudo, assina (Sigstore) e carimba (OpenTimestamps).
+1. **Coleta** (GitHub Actions, todo dia às 06:17 de Brasília): baixa a API e os arquivos oficiais da Câmara, testa, gera o manifesto com o SHA-256 de tudo, assina (Sigstore) e carimba (OpenTimestamps).
 2. **Lake** (Rust + Polars, Iceberg no Cloudflare R2), em arquitetura medalhão e **só com acréscimos**:
    - **bronze:** cada versão de cada arquivo oficial, exatamente como publicada, guardada pelo seu SHA-256, com a lista de campos que a API publicou;
    - **prata:** cada registro com todas as suas versões (SCD tipo 2): novo, alterado ou removido, nunca sobrescrito;
