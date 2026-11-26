@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T19:00:28",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Realizar o encaminhamento do PL-479/2015 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "efeitosRegistrados": [],
+      "id": "949156-114",
+      "idEvento": null,
+      "idOrgao": 186,
+      "objetosPossiveis": [
+        {
+          "ano": 2017,
+          "codTipo": 305,
+          "dataApresentacao": "2017-08-22T20:26",
+          "ementa": "Requer a desapensação do PL 8.138/2017 do PL 479/2015 e respectivos apensos.",
+          "id": 2148726,
+          "numero": 7072,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2148726"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 305,
+          "dataApresentacao": "2015-08-12T16:31",
+          "ementa": "Requer a desapensação do Projeto de Lei nº 1.181, de 2015, do Projeto de Lei nº 479, de 2015.",
+          "id": 1618280,
+          "numero": 2686,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1618280"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-02-26T11:02",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 949156,
+          "numero": 479,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156"
+        }
+      ],
+      "siglaOrgao": "CCP",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-114",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-114",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:09:19.849Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-114"
+}

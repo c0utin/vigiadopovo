@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-18T09:00",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal.",
+      "ementaDetalhada": null,
+      "id": 2655025,
+      "justificativa": null,
+      "keywords": "alteração; Estatuto da Criança e do Adolescente (ECA) (1990); acompanhamento; Criança; Diagnóstico médico; Doença rara; Triagem neonatal; Teste do Pezinho; Aconselhamento genético; Sistema Único de Saúde (SUS)",
+      "numero": 5893,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-18T09:00",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5893/2026 (Projeto de Lei), pela Deputada Tabata Amaral (PSB/SP), que \"Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205083"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198040",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:07:14.865Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655025"
+}

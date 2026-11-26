@@ -1,0 +1,118 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-18",
+        "dataHoraRegistro": "2026-11-18T17:02:18",
+        "descricao": "Aprovada a Redação Final nos termos do art. 198, parágrafo 5º do Regimento Interno da Câmara dos Deputados.",
+        "id": "1194323-116",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-116",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83382",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T10:53:34",
+        "descricao": "Aprovada a Redação Final.",
+        "id": "1194323-109",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83058",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-08-31",
+        "dataHoraRegistro": "2026-08-31T19:27:18",
+        "descricao": "Aprovadas as Emendas de nºs 1 a 4 da Comissão de Finanças e Tributação.",
+        "id": "1194323-99",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-99",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82935",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-08-31",
+        "dataHoraRegistro": "2026-08-31T19:26:53",
+        "descricao": "Aprovado o Projeto de Lei nº 956, de 2015.",
+        "id": "1194323-97",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-97",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82935",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-07-08",
+        "dataHoraRegistro": "2026-07-08T12:20:40",
+        "descricao": "Aprovado o Parecer.",
+        "id": "1194323-87",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-87",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82677",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-05-06",
+        "dataHoraRegistro": "2026-05-08T10:33:07",
+        "descricao": "Aprovado o Parecer. Com voto contrário dos Dep. Kim Kataguiri e Sidney Leite.",
+        "id": "1194323-75",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CFT",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-75",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81857",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2010",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 0,
+        "data": "2025-12-17",
+        "dataHoraRegistro": "2025-12-17T11:30:53",
+        "descricao": "Rejeitado o Requerimento de Votação Nominal do Requerimento de Retirada de Pauta.",
+        "id": "1194323-61",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CFT",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-61",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/80794",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2010",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2015-08-19",
+        "dataHoraRegistro": "2015-08-19T11:17:30",
+        "descricao": "Aprovado o Parecer contra os votos dos Deputados Silvio Costa e Daniel Vilela.",
+        "id": "1194323-26",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CTRAB",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-26",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/40405",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:09:10.635Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/votacoes"
+}

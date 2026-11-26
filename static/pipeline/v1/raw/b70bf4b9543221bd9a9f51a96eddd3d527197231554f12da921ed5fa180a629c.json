@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Flávia Morais",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160598"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:08:11.634Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208/autores"
+}

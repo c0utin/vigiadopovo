@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2022,
+      "codTipo": 139,
+      "dataApresentacao": "2022-10-05T10:57",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera dispositivos do Decreto-Lei nº 3.689, de 3 de outubro de 1941 – Código de Processo Penal e da Lei nº 9.099, de 26 de setembro de 1995 – Lei dos Juizados Especiais, relativos ao cabimento de instrumentos despenalizantes.",
+      "ementaDetalhada": "",
+      "id": 2335264,
+      "justificativa": null,
+      "keywords": "Alteração, Código de Processo Penal, Lei dos Juizados Especiais Cíveis e Criminais, ação penal, Acordo de Não Persecução Penal, medida despenalizadora, inaplicabilidade, crime, racismo.",
+      "numero": 2559,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 900,
+        "codTipoTramitacao": "104",
+        "dataHora": "2026-11-25T13:55",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Desapensação",
+        "despacho": "Desapensação do Projeto de Lei nº 3.929, de 2024, apensado, em face da aprovação, em Plenário, do Substitutivo ao Projeto de Lei nº 2.559, de 2022, adotado pela relatora da  Comissão de Constituição e Justiça e de Cidadania. (Sessão Deliberativa Extraordinária Semipresencial de 25/11/2026 - 13:55 - 190ª Sessão)",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 78,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/220629",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2208478",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:09:21.570Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264"
+}

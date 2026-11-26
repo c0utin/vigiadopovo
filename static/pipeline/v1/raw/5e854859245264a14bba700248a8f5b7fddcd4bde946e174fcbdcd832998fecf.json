@@ -1,0 +1,53 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T17:41:23",
+        "descricao": "Aprovada a Redação Final, assinada pelo relator, Dep. Lula da Fonte (PP/PE).",
+        "id": "2652524-18",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-18",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T17:40:26",
+        "descricao": "Aprovado o Projeto de Resolução nº 50, de 2026.",
+        "id": "2652524-16",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2652524-16",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:35:03",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2654009-7",
+        "proposicaoObjeto": "REQ 4453/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654009-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654009"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:07:44.382Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652524/votacoes"
+}

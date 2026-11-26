@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-24T16:51",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 13.185, de 6 de novembro de 2015, que institui o Programa de Combate à Intimidação Sistemática (Bullying), para assegurar direitos de acolhimento, proteção e informação à vítima e à sua família, instituir canal seguro de relato e disciplinar a resposta dos estabelecimentos de educação básica a casos de intimidação sistemática, inclusive em ambiente digital.",
+      "ementaDetalhada": null,
+      "id": 2659310,
+      "justificativa": null,
+      "keywords": "alteração; Lei federal; Programa de Combate à Intimidação Sistemática - Bullying; Instituição de ensino; Canal de denúncia; Aluno; Vítima; Bullying; Denúncia anônima; medida de proteção; Assistência psicológica; responsabilização",
+      "numero": 5958,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-24T16:51",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5958/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Altera a Lei nº 13.185, de 6 de novembro de 2015, que institui o Programa de Combate à Intimidação Sistemática (Bullying), para assegurar direitos de acolhimento, proteção e informação à vítima e à sua família, instituir canal seguro de relato e disciplinar a resposta dos estabelecimentos de educação básica a casos de intimidação sistemática, inclusive em ambiente digital\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659310",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659310/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204135",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659310",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:06:41.175Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659310"
+}

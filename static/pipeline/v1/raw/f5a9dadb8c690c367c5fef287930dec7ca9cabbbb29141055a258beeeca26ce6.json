@@ -1,0 +1,70 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T19:00:25",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-10T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": "2025-11-14T17:15",
+          "descResultado": "Aprovado o requerimento nº 3990/2026, Dos Srs. Thiago de Joaldo e Doutor Luizinho, que solicita urgência (art. 155) para o PL 479/2015.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do REQ n. 4911/2025 (Requerimento de Desapensação), pela Deputada Ana Pimentel (PT/MG -Fdr PT-PCdoB-PV), que \"Requer a desapensação do Projeto de Lei nº 4.749, de 2023, para tramitação em separado\".",
+          "tituloProposicao": "PL 479/2015",
+          "tituloProposicaoCitada": "REQ 4911/2025",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2585250"
+        }
+      ],
+      "id": "2641978-8",
+      "idEvento": 83243,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-08-05T11:08",
+          "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 479, de 2015, e de seus apensados.",
+          "id": 2641978,
+          "numero": 3990,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641978"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-02-26T11:02",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 949156,
+          "numero": 479,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641978-8",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641978-8",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:09:20.985Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641978-8"
+}

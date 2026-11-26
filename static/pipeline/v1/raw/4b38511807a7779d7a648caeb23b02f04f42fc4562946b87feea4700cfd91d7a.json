@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 54,
+        "relevancia": 2,
+        "tema": "Energia, Recursos Hídricos e Minerais"
+      },
+      {
+        "codTema": 43,
+        "relevancia": 1,
+        "tema": "Direito Penal e Processual Penal"
+      },
+      {
+        "codTema": 48,
+        "relevancia": 0,
+        "tema": "Meio Ambiente e Desenvolvimento Sustentável"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659904/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:06:38.277Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659904/temas"
+}

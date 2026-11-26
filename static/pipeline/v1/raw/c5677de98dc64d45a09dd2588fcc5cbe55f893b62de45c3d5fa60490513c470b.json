@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-24T10:58",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 6.454, de 24 de outubro de 1977, para estabelecer critérios de relevância histórica e social na denominação de bens públicos federais, ampliar a transparência das homenagens e evitar denominações duplicadas ou desprovidas de justificativa de interesse público.",
+      "ementaDetalhada": null,
+      "id": 2659114,
+      "justificativa": null,
+      "keywords": "alteração; Lei Federal; avaliação; denominação; Relevância social; Logradouro público; Bens públicos; Homenagem; Pessoa falecida; Pessoa homenageada; justificativa; Transparência pública",
+      "numero": 5954,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-24T10:58",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5954/2026 (Projeto de Lei), pelo Deputado Sidney Leite (PSD/AM), que \"Altera a Lei nº 6.454, de 24 de outubro de 1977, para estabelecer critérios de relevância histórica e social na denominação de bens públicos federais, ampliar a transparência das homenagens e evitar denominações duplicadas ou desprovidas de justificativa de interesse público\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659114",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659114/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203759",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659114",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:06:44.436Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659114"
+}

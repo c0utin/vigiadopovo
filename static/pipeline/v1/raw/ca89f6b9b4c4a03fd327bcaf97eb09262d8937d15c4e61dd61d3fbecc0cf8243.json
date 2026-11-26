@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 291,
+      "dataApresentacao": "2026-10-21T00:00",
+      "descricaoTipo": "Medida Provisória",
+      "ementa": "Abre crédito extraordinário, em favor do Ministério da Integração e do Desenvolvimento Regional, no valor de R$ 300.000.000,00, para o fim que especifica.",
+      "ementaDetalhada": null,
+      "id": 2648616,
+      "justificativa": null,
+      "keywords": "Crédito extraordinário; Ministério da Integração e do Desenvolvimento Regional; Encargo financeiro da União; Gerenciamento de risco; assistência; município; Situação de emergência; Calamidade pública; Fenômeno meteorológico adverso; Seca; Inundação; Incêndio florestal; Defesa civil",
+      "numero": 1398,
+      "siglaTipo": "MPV",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-25T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 267/2026/SGM-P.",
+        "regime": "Urgência (Art. 62, CF)",
+        "sequencia": 40,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/73788",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199014"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6855",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3185402",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:08:06.781Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2648616"
+}

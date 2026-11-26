@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2024,
+      "codTipo": 139,
+      "dataApresentacao": "2024-04-23T12:34",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+      "ementaDetalhada": "",
+      "id": 2428685,
+      "justificativa": null,
+      "keywords": "Criação, Política cultural, Política pública, Cinema, Filme, fomento, Indústria cinematográfica, Indústria audiovisual, Setor de turismo, Desenvolvimento econômico, Geração de emprego.",
+      "numero": 1384,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": null,
+        "codTipoTramitacao": "604",
+        "dataHora": "2026-11-25T18:14",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Publicação de Proposição",
+        "despacho": "Parecer recebido para publicação.",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 69,
+        "siglaOrgao": "CCP",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/92102",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6066",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2411959",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:08:39.625Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685"
+}

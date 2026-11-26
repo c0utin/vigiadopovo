@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 43,
+        "relevancia": 0,
+        "tema": "Direito Penal e Processual Penal"
+      },
+      {
+        "codTema": 61,
+        "relevancia": 1,
+        "tema": "Viação, Transporte e Mobilidade"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:06:53.826Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655664/temas"
+}

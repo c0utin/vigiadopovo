@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-18",
+      "dataHoraRegistro": "2026-11-18T16:57:20",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Deferido o Requerimento n. 4433/2026, nos termos do artigo 104, caput, do RICD.",
+      "efeitosRegistrados": [],
+      "id": "2338753-114",
+      "idEvento": null,
+      "idOrgao": 100001,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 373,
+          "dataApresentacao": "2026-02-03T09:49",
+          "ementa": "Recurso contra parecer terminativo ao Projeto de Lei nº 2812, de 2022, que revoga a Lei nº 12.318, de 26 de agosto de 2010 (Lei de Alienação Parental).",
+          "id": 2600339,
+          "numero": 1,
+          "siglaTipo": "REC",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2600339"
+        },
+        {
+          "ano": 2024,
+          "codTipo": 308,
+          "dataApresentacao": "2024-12-03T19:19",
+          "ementa": "Requer a redistribuição do PL nº 2812/2022, para análise de mérito na Comissão de Defesa dos Direitos da Mulher (CMULHER) e Comissão de Segurança Pública e Combate ao Crime Organizado (CSPCCO).",
+          "id": 2475011,
+          "numero": 4720,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2475011"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-11-18T14:36",
+          "ementa": "Revoga a Lei no 12.318, de 26 de agosto de 2010 - Lei de Alienação Parental.",
+          "id": 2338753,
+          "numero": 2812,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2338753"
+        }
+      ],
+      "siglaOrgao": "SECAP(SGM)",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-114",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/100001"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-114",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:08:54.063Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2338753-114"
+}

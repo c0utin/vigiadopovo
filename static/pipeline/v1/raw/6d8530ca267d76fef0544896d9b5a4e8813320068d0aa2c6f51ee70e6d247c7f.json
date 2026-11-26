@@ -1,0 +1,157 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-06-10",
+      "dataHoraRegistro": "2026-06-10T15:31:05",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2332174-35",
+      "idEvento": 82338,
+      "idOrgao": 2007,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-06-10T13:55",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 1969/2022",
+          "id": 2631278,
+          "numero": 8,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631278"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-06-10T13:55",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 1969/2022-Requerimento de Retirada de Matéria da Pauta - PL 1969/2022",
+          "id": 2631283,
+          "numero": 9,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631283"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 1969/2022-Requerimento de Retirada de Matéria da Pauta - PL 1969/2022",
+          "id": 2631251,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631251"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 1969/2022-Requerimento de Adiamento da Discussão - PL 1969/2022",
+          "id": 2631253,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631253"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Requerimento de Votação Nominal - PL 1969/2022",
+          "id": 2631254,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631254"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 1969/2022",
+          "id": 2631255,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631255"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Requerimento de Adiamento da Votação - PL 1969/2022",
+          "id": 2631257,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631257"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 1969/2022",
+          "id": 2631259,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631259"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2026-06-10T13:38",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 1969/2022-Requerimento de Adiamento da Votação - PL 1969/2022",
+          "id": 2631266,
+          "numero": 7,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2631266"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-05-11T17:43",
+          "ementa": "Parecer do Relator pela aprovação do Projeto de Lei n° 1.969, de 2022, na forma do substitutivo.",
+          "id": 2625650,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2625650"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-05-11T17:43",
+          "ementa": "Parecer do Relator, Dep. Reimont (PT-RJ), pela aprovação deste, com substitutivo.",
+          "id": 2625611,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2625611"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-07-11T18:00",
+          "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+          "id": 2332174,
+          "numero": 1969,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174"
+        }
+      ],
+      "siglaOrgao": "CDHMIR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-05-19T11:42:41",
+        "descricao": "Parecer do Relator, Dep. Reimont (PT-RJ), pela aprovação deste, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2625611"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-35",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82338",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-35",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:08:58.765Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2332174-35"
+}

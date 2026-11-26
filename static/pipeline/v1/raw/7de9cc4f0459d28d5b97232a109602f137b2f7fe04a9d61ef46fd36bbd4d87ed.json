@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-26T11:02",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre medidas obrigatórias para o inventário, a preservação física e digital, a digitalização, a recuperação, o controle de qualidade, a indexação, a integração eletrônica e a pesquisa histórica dos acervos de guarda permanente do Registro Civil das Pessoas Naturais anteriores à vigência da Lei nº 6.015, de 31 de dezembro de 1973; institui o Programa Nacional de Preservação dos Acervos Históricos do Registro Civil das Pessoas Naturais; altera as Leis nº 6.015, de 31 de dezembro de 1973, nº 8.935, de 18 de novembro de 1994, nº 11.977, de 7 de julho de 2009, e nº 14.382, de 27 de junho de 2022; e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2660119,
+      "justificativa": null,
+      "keywords": "alteração; Lei dos Registros Públicos (1973); Lei dos Cartórios (1994); Lei do Programa Minha Casa, Minha Vida (2009); Lei federal; conservação; Preservação digital; Acervo histórico; Livro; Documento; Digitalização; Registro público; obrigatoriedade; Inventário de acervos; Serviço notarial e de registro; deveres; Notário; Oficial de Registro; Arquivo permanente; Registro Civil de Pessoas Naturais; Prazo; Sistema Eletrônico dos Registros Públicos (SERP); Conselho Nacional de Justiça (CNJ). Corregedoria Nacional de Justiça; Despesa; Fundo para a Implementação e Custeio do Sistema Eletrônico dos Registros Públicos (FICS); prioridade; Segurança da informação; Tratamento de dados",
+      "numero": 5991,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-26T11:02",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5991/2026 (Projeto de Lei), pelo Deputado Ricardo Ayres (REPUBLIC/TO), que \"Dispõe sobre medidas obrigatórias para o inventário, a preservação física e digital, a digitalização, a recuperação, o controle de qualidade, a indexação, a integração eletrônica e a pesquisa histórica dos acervos de guarda permanente do Registro Civil das Pessoas Naturais anteriores à vigência da Lei nº 6.015, de 31 de dezembro de 1973; institui o Programa Nacional de Preservação dos Acervos Históricos do Registro Civil das Pessoas Naturais; altera as Leis nº 6.015, de 31 de dezembro de 1973, nº 8.935, de 18 de novembro de 1994, nº 11.977, de 7 de julho de 2009, e nº 14.382, de 27 de junho de 2022; e dá outras providências\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660119",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660119/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205638",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660119",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:09:17.469Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660119"
+}

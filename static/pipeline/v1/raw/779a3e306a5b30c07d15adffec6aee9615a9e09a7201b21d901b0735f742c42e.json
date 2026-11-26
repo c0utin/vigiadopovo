@@ -1,0 +1,79 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T18:29:04",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Thiago de Joaldo (REPUBLICANOS/SE).",
+        "id": "949156-136",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-136",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T18:28:26",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 479, de 2015 adotado pelo relator da Comissão de Finanças e Tributação.",
+        "id": "949156-133",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-133",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-10",
+        "dataHoraRegistro": "2026-11-10T19:00:28",
+        "descricao": "Realizar o encaminhamento do PL-479/2015 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "949156-114",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-114",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-10",
+        "dataHoraRegistro": "2026-11-10T19:00:25",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2641978-8",
+        "proposicaoObjeto": "REQ 3990/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2641978-8",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641978"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-04",
+        "dataHoraRegistro": "2026-11-04T10:49:07",
+        "descricao": "Aprovado o Parecer do Relator, Deputado Thiago de Joaldo (Republicanos - SE).",
+        "id": "949156-106",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-106",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82780",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:09:19.603Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156/votacoes"
+}

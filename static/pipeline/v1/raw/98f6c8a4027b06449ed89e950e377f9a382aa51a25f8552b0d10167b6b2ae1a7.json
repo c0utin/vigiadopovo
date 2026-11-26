@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T14:05",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.605, de 12 de fevereiro de 1998, para aumentar as penas aplicáveis à pesquisa, lavra ou extração ilegal de recursos minerais, estabelecer causas de aumento de pena e tipificar a comercialização e o financiamento de recurso mineral extraído ilegalmente; e revoga o art. 44 da Lei nº 9.605, de 12 de fevereiro de 1998, e o art. 21 da Lei nº 7.805, de 18 de julho de 1989.",
+      "ementaDetalhada": null,
+      "id": 2659904,
+      "justificativa": null,
+      "keywords": "alteração; Lei dos Crimes Ambientais (1998); Revogação; Dispositivo legal; Lei da Exploração Mineral (1989); Crime ambiental; Aumento da pena; Concurso de pessoas; Máquina; Explosivo; Violência; Grave ameaça; Arma branca; Arma de fogo; Agente público; Mercúrio; Substância tóxica; Terras indígenas; Terras quilombolas; Comunidade tradicional; Unidade de conservação; Dano ambiental; Tipificação de conduta; Tipicidade penal; comercialização; Recursos minerais; Produto do crime; Minério; Financiamento; Garimpo ilegal",
+      "numero": 5966,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T14:05",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5966/2026 (Projeto de Lei), pela Deputada Duda Salabert (PSOL/MG -Fdr PSOL-REDE), que \"Altera a Lei nº 9.605, de 12 de fevereiro de 1998, para aumentar as penas aplicáveis à pesquisa, lavra ou extração ilegal de recursos minerais, estabelecer causas de aumento de pena e tipificar a comercialização e o financiamento de recurso mineral extraído ilegalmente; e revoga o art. 44 da Lei nº 9.605, de 12 de fevereiro de 1998, e o art. 21 da Lei nº 7.805, de 18 de julho de 1989\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659904",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659904/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205077",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659904",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:06:37.677Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659904"
+}

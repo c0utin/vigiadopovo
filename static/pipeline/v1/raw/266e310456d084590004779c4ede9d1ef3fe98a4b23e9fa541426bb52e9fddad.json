@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 46,
+        "relevancia": 0,
+        "tema": "Educação"
+      },
+      {
+        "codTema": 70,
+        "relevancia": 1,
+        "tema": "Finanças Públicas e Orçamento"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-26T19:07:19.490Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/temas"
+}
