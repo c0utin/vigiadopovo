@@ -1,0 +1,105 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-24",
+        "dataHoraRegistro": "2026-11-24T17:00:59",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Talíria Petrone (PSOL/RJ).",
+        "id": "606005-112",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-112",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85464",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-24",
+        "dataHoraRegistro": "2026-11-24T17:00:23",
+        "descricao": "Aprovada a Emenda de Redação nº 1.",
+        "id": "606005-110",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-110",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85464",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-24",
+        "dataHoraRegistro": "2026-11-24T16:59:50",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 7.103, de 2014, da Comissão de Seguridade Social e Família.",
+        "id": "606005-107",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-107",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85464",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:40:17",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2654311-7",
+        "proposicaoObjeto": "REQ 4468/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654311-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654311"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2021-08-10",
+        "dataHoraRegistro": "2021-08-10T13:45:09",
+        "descricao": "Aprovado.",
+        "id": "2292310-2",
+        "proposicaoObjeto": "REQ 133/2021 CCJC",
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2292310-2",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/62560",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2292310"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2015-10-21",
+        "dataHoraRegistro": "2015-10-21T15:22:31",
+        "descricao": "Aprovado o Parecer.",
+        "id": "606005-44",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CDHMIR",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-44",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/41823",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2015-06-02",
+        "dataHoraRegistro": "2015-06-02T11:56:48",
+        "descricao": "Aprovado por Unanimidade o Parecer.",
+        "id": "606005-33",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CSAUDE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-33",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/39361",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:34.521Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005/votacoes"
+}

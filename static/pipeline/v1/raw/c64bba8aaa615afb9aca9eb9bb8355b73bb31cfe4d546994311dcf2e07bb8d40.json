@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T15:23:07",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2516578-20",
+      "idEvento": 83192,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-08-18T09:45",
+          "ementa": "Parecer do Relator, Dep. Ricardo Ayres (REPUBLIC-TO), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação.",
+          "id": 2547374,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2547374"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 554,
+          "dataApresentacao": "2025-05-26T16:14",
+          "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
+          "id": 2516578,
+          "numero": 235,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-08-20T17:35:58",
+        "descricao": "Parecer do Relator, Dep. Ricardo Ayres (REPUBLIC-TO), pela constitucionalidade, juridicidade, técnica legislativa e, no mérito, pela aprovação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2547374"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-20",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83192",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-20",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:43.317Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-20"
+}

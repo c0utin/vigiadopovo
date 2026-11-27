@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T17:52",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), e a Lei nº 14.164, de 10 de junho de 2021, para garantir a efetividade do conteúdo de prevenção da violência contra a mulher no ensino fundamental.",
+      "ementaDetalhada": null,
+      "id": 2660028,
+      "justificativa": null,
+      "keywords": "alteração; Lei de Diretrizes e Bases da Educação Nacional (1996); Lei federal; Tema transversal; Currículo escolar; Ensino fundamental; prevenção; Violência contra a mulher; Rede de proteção; Protocolo de atendimento; Ambiente escolar; Criança; Adolescente; Mulher; Instituição de ensino",
+      "numero": 5980,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T17:52",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5980/2026 (Projeto de Lei), pela Deputada Silvye Alves (UNIÃO/GO), que \"Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação Nacional), e a Lei nº 14.164, de 10 de junho de 2021, para garantir a efetividade do conteúdo de prevenção da violência contra a mulher no ensino fundamental. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660028",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660028/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205409",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660028",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:02:51.087Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660028"
+}

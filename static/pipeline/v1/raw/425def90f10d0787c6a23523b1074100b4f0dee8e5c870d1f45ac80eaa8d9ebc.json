@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-27T11:58",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
+      "ementaDetalhada": null,
+      "id": 2660437,
+      "justificativa": null,
+      "keywords": "alteração; Lei da Soberania Popular (1998); Deliberação; Aumento salarial; Subsídio (remuneração); Indenização (vantagem pecuniária); Verba indenizatória; Deputado federal; Senador; obrigatoriedade; Plebiscito; Decreto legislativo; Apoiamento; transparência",
+      "numero": 5996,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-27T11:58",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5996/2026 (Projeto de Lei), pelo Deputado Kim Kataguiri (MISSÃO/SP), que \"Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206462",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:38.131Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437"
+}

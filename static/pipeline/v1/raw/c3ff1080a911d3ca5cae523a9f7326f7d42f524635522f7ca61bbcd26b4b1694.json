@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T15:02",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material, a ser examinado.",
+      "ementaDetalhada": null,
+      "id": 2655688,
+      "justificativa": null,
+      "keywords": "alteração; Lei federal; Teste molecular; Ácido desoxirribonucleico (DNA); Teste de detecção; Papiloma Vírus Humano (HPV); Material biológico; Mulher; Sistema Único de Saúde (SUS)",
+      "numero": 892,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "611",
+        "dataHora": "2026-11-23T00:00",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Publicação de Documento",
+        "despacho": "Recebido o Ofício nº 1505/2026SF, que submete à revisão da Câmara dos Deputados, nos termos do art. 65 da Constituição Federal, o Projeto de Lei nº 892, de 2026, de autoria da Senadora Dra. Eudócia, constante do autógrafo em anexo, que “Altera a Lei nº 11.664, de 29 de abril de 2008, para tornar disponível, no Sistema Único de Saúde (SUS), o teste molecular para detecção do ácido desoxirribonucleico (DNA) do papilomavírus humano (HPV), com possibilidade de autocoleta do material a ser examinado”.",
+        "regime": ".",
+        "sequencia": 5,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205891"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199590",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:03:11.437Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655688"
+}

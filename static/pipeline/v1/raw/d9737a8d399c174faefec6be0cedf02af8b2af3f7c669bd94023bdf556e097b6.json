@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-17T10:43",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação.",
+      "ementaDetalhada": null,
+      "id": 2654371,
+      "justificativa": null,
+      "keywords": "obrigatoriedade; Cruzamento de dados; periodicidade; Censo escolar; Folha de pagamento; Profissional da educação; ente federado; recursos; Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Fundeb); Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep); Fundo Nacional de Desenvolvimento da Educação (FNDE); critério; exclusão; Estudante; Dados estatísticos; prevenção; Fraude; desvio; Recursos públicos; Educação",
+      "numero": 5874,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1210,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-17T10:43",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5874/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205072"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196927",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:03:32.159Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654371"
+}

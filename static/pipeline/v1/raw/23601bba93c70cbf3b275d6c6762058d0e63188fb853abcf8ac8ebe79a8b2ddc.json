@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-17",
+      "dataHoraRegistro": "2026-11-17T16:40:17",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": "2019-02-05T09:56",
+          "descResultado": "Aprovado o requerimento nº 4468/2026, Da Sra. Benedita da Silva e outros, que solicita urgência (art. 155) para o PL 7103/2014.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do Requerimento de Desarquivamento de Proposições n. 82/2019, pela Deputada Benedita da Silva (PT-RJ), que: \"Requer o desarquivamento de proposições\".",
+          "tituloProposicao": "PL 7103/2014",
+          "tituloProposicaoCitada": "REQ 82/2019 => PL 2436/2011",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2190939"
+        },
+        {
+          "dataHoraResultado": "2026-11-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": "2019-02-05T09:56",
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4468/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": "Apresentação do Requerimento de Desarquivamento de Proposições n. 82/2019, pela Deputada Benedita da Silva (PT-RJ), que: \"Requer o desarquivamento de proposições\".",
+          "tituloProposicao": "PL 7103/2014",
+          "tituloProposicaoCitada": "REQ 82/2019 => PL 2436/2011",
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005",
+          "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2190939"
+        }
+      ],
+      "id": "2654311-7",
+      "idEvento": 83363,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-11-16T19:43",
+          "ementa": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 7103/2014.",
+          "id": 2654311,
+          "numero": 4468,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654311"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-02-11T17:15",
+          "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 606005,
+          "numero": 7103,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654311-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654311-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:35.560Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654311-7"
+}

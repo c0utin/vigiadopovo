@@ -1,7 +1,367 @@
 {
-  "collectedAt": "2026-11-26T19:06:25.143Z",
+  "collectedAt": "2026-11-27T19:02:37.461Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2660450,
+      "label": "PL 5998/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial.",
+      "presentedAt": "2026-11-27T13:33",
+      "status": {
+        "dataHora": "2026-11-27T13:33",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5998/2026 (Projeto de Lei), pelo Deputado Afonso Motta (PDT/RS), que \"Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial\"."
+      },
+      "authors": [
+        {
+          "name": "Afonso Motta",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660450",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660450",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206516",
+      "votes": [],
+      "sourceHash": "0113165175c7224ffefefb792dc73d3b3158b2349ed2985313212136afd8bf20",
+      "summary": null
+    },
+    {
+      "id": 2660442,
+      "label": "PL 5997/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
+      "presentedAt": "2026-11-27T12:16",
+      "status": {
+        "dataHora": "2026-11-27T12:16",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5997/2026 (Projeto de Lei), pelo Deputado Silas Câmara (REPUBLIC/AM), que \"Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana\"."
+      },
+      "authors": [
+        {
+          "name": "Silas Câmara",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:62",
+          "name": "Ciência, Tecnologia e Inovação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660442",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206471",
+      "votes": [],
+      "sourceHash": "7feb829b74b322adab3f556d3021023207cf35cdd5255bf7640b2eafe81aff15",
+      "summary": null
+    },
+    {
+      "id": 2660437,
+      "label": "PL 5996/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
+      "presentedAt": "2026-11-27T11:58",
+      "status": {
+        "dataHora": "2026-11-27T11:58",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5996/2026 (Projeto de Lei), pelo Deputado Kim Kataguiri (MISSÃO/SP), que \"Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito\"."
+      },
+      "authors": [
+        {
+          "name": "Kim Kataguiri",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:53",
+          "name": "Processo Legislativo e Atuação Parlamentar",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660437",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206462",
+      "votes": [],
+      "sourceHash": "ec96fae61d50efc830b81c66a20656013fcc9f3b08d24152c160306c38811b23",
+      "summary": null
+    },
+    {
+      "id": 2660404,
+      "label": "PL 5995/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
+      "presentedAt": "2026-11-27T11:02",
+      "status": {
+        "dataHora": "2026-11-27T11:02",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5995/2026 (Projeto de Lei), pelos Deputado João Daniel (PT/SE -Fdr PT-PCdoB-PV) e outros, que \"Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências\"."
+      },
+      "authors": [
+        {
+          "name": "Airton Faleiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alexandre Lindenmeyer",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Alfredinho",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Benedita da Silva",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Veras",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carlos Zarattini",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Carol Dartora",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Daniel Almeida",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Denise Pessôa",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Fernando Mineiro",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Gilmar Machado",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Glauber Braga",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Helder Salomão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Ivoneide Caetano",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "João Daniel",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Jorge Solla",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Joseildo Ramos",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Juliana Cardoso",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Kiko Celeguim",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Lindbergh Farias",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Marcon",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Maria do Rosário",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Nilto Tatto",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Padre João",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulão",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Guedes",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Paulo Teixeira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Rogério Correia",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Valmir Assunção",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Vander Loubet",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Waldenor Pereira",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Welter",
+          "type": "Deputado(a)"
+        },
+        {
+          "name": "Zeca Dirceu",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660404",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660404",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206416",
+      "votes": [],
+      "sourceHash": "28faf1e4357e209d55b18659010555b3bb781cd34bed834afeefed37cce6f51c",
+      "summary": null
+    },
+    {
+      "id": 2660396,
+      "label": "PL 5994/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
+      "presentedAt": "2026-11-27T10:32",
+      "status": {
+        "dataHora": "2026-11-27T10:32",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5994/2026 (Projeto de Lei), pelo Deputado Capitão Alden (PL/BA), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor\"."
+      },
+      "authors": [
+        {
+          "name": "Capitão Alden",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
+          "relevance": 2
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660396",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206390",
+      "votes": [],
+      "sourceHash": "faa21343f953922de04098e89152beca6e6147076394df771d47bd1ccb9fc188",
+      "summary": null
+    },
+    {
+      "id": 2660383,
+      "label": "PL 5993/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
+      "presentedAt": "2026-11-27T09:38",
+      "status": {
+        "dataHora": "2026-11-27T09:38",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 5993/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas\"."
+      },
+      "authors": [
+        {
+          "name": "Rubens Pereira Júnior",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/temas",
+          "relevance": 1
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660383",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206364",
+      "votes": [],
+      "sourceHash": "ba9c6ad7c491446614f0966eb00ca721da35c0ca9aeae3d2781b2deee81d7ee4",
+      "summary": null
+    },
     {
       "id": 2660119,
       "label": "PL 5991/2026",
@@ -55,7 +415,26 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:37",
+          "name": "Comunicações",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660090/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:62",
+          "name": "Ciência, Tecnologia e Inovação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660090/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:67",
+          "name": "Direito e Defesa do Consumidor",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660090/temas",
+          "relevance": 2
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660090",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660090",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205581",
@@ -82,7 +461,14 @@
           "type": "Deputado(a)"
         }
       ],
-      "labels": [],
+      "labels": [
+        {
+          "id": "camara:tema:56",
+          "name": "Saúde",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660081/temas",
+          "relevance": 0
+        }
+      ],
       "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660081",
       "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660081",
       "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205546",
@@ -934,7 +1320,7 @@
       "presentedAt": "2026-11-23T15:19",
       "status": {
         "dataHora": "2026-11-23T15:19",
-        "descricaoSituacao": null,
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5927/2026 (Projeto de Lei), pelo Deputado Lucas Redecker (PSD/RS), que \"Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil. \"."
@@ -1258,7 +1644,7 @@
       "presentedAt": "2026-11-19T15:05",
       "status": {
         "dataHora": "2026-11-19T15:05",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5913/2026 (Projeto de Lei), pelo Deputado Baleia Rossi (MDB/SP), que \"Altera a Lei nº 8.742, de 7 de dezembro de 1993 (Lei Orgânica da Assistência Social), para dispor sobre a dedução dos rendimentos do trabalho do cuidador familiar no cálculo da renda familiar para fins de concessão do benefício de prestação continuada e a manutenção temporária do benefício em caso de elevação da renda familiar decorrente de trabalho\"."
@@ -1825,7 +2211,7 @@
       "presentedAt": "2026-11-18T10:00",
       "status": {
         "dataHora": "2026-11-18T10:00",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5894/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), para agravar, de forma proporcional ao número de agressores, a pena dos crimes de lesão corporal e de homicídio cometidos mediante espancamento coletivo\"."
@@ -1859,7 +2245,7 @@
       "presentedAt": "2026-11-18T09:00",
       "status": {
         "dataHora": "2026-11-18T09:00",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5893/2026 (Projeto de Lei), pela Deputada Tabata Amaral (PSB/SP), que \"Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para assegurar a confirmação diagnóstica, o tratamento e o acompanhamento da criança com resultado alterado ou inconclusivo no teste do pezinho, o aconselhamento genético à família e a divulgação de indicadores da triagem neonatal\"."
@@ -1933,7 +2319,7 @@
       "presentedAt": "2026-11-17T12:51",
       "status": {
         "dataHora": "2026-11-17T12:51",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5878/2026 (Projeto de Lei), pelo Deputado Capitão Alberto Neto (PL/AM), que \"Altera a Lei n° 14.238, de 19 de dezembro de 2021, o Estatuto da Pessoa com Câncer, para instituir a Carteira Nacional Digital de Identificação da Pessoa com Câncer, expedida gratuitamente pela direção única, no âmbito da União, do Sistema Único de Saúde, e integrada às plataformas digitais oficiais do Poder Público\"."
@@ -1973,7 +2359,7 @@
       "presentedAt": "2026-11-17T11:24",
       "status": {
         "dataHora": "2026-11-17T11:24",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5876/2026 (Projeto de Lei), pelo Deputado Weliton Prado (PSD/MG), que \"Denomina “Rodovia Marconi Malagoli” trecho da rodovia BR-365 em toda sua extensão no estado de Minas Gerais, entre o município de Montes Claros (MG) e a divisa com Goiás\"."
@@ -2007,7 +2393,7 @@
       "presentedAt": "2026-11-17T11:08",
       "status": {
         "dataHora": "2026-11-17T11:08",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5875/2026 (Projeto de Lei), pelo Deputado Dr. Daniel Soranz (PSD/RJ), que \"Institui o Programa Ótica SUS, no âmbito do Sistema Único de Saúde, para ampliar o acesso da população a meios de correção visual mediante credenciamento de estabelecimentos ópticos e cofinanciamento público\"."
@@ -2047,7 +2433,7 @@
       "presentedAt": "2026-11-17T10:43",
       "status": {
         "dataHora": "2026-11-17T10:43",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5874/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Institui o cruzamento obrigatório e periódico de dados do Censo Escolar com as folhas de pagamento dos entes federados e com os pagamentos efetuados com recursos do Fundeb, e dispõe sobre a exclusão de estudantes do Censo Escolar, para coibir fraudes e o desvio de recursos da educação\"."
@@ -2087,7 +2473,7 @@
       "presentedAt": "2026-11-17T10:41",
       "status": {
         "dataHora": "2026-11-17T10:41",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5873/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Estabelece normas gerais de vistoria elétrica e de prevenção e combate a incêndio em escolas públicas de educação básica e condiciona o repasse de recursos federais para obras e reformas escolares à sua comprovação\"."
@@ -2127,7 +2513,7 @@
       "presentedAt": "2026-11-16T14:33",
       "status": {
         "dataHora": "2026-11-16T14:33",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5865/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Dispõe sobre a rastreabilidade e a comercialização de cobre, fios e cabos elétricos por estabelecimentos de compra e venda de sucata e sobre a comunicação de furtos desses materiais pelas prestadoras de serviços públicos\"."
@@ -2219,7 +2605,7 @@
       "presentedAt": "2026-11-16T14:28",
       "status": {
         "dataHora": "2026-11-16T14:28",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5863/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde\"."
@@ -2333,7 +2719,7 @@
       "presentedAt": "2026-11-16T12:06",
       "status": {
         "dataHora": "2026-11-16T12:06",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5860/2026 (Projeto de Lei), pelo Deputado Padre João (PT/MG -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 10.257, de 10 de julho de 2001 – Estatuto da Cidade, para incluir a promoção da segurança alimentar e nutricional entre as diretrizes gerais da política urbana\"."
@@ -3173,7 +3559,7 @@
       "presentedAt": "2026-11-13T18:29",
       "status": {
         "dataHora": "2026-11-13T18:29",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5853/2026 (Projeto de Lei), pelos Deputado Pedro Uczai (PT/SC -Fdr PT-PCdoB-PV) e outros, que \"Dispõe sobre a incidência do Imposto de Renda Retido na Fonte sobre os rendimentos de títulos e valores mobiliários\"."
@@ -4002,7 +4388,7 @@
       "presentedAt": "2026-11-13T12:40",
       "status": {
         "dataHora": "2026-11-13T12:40",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5850/2026 (Projeto de Lei), pelo Deputado Paulo Folletto (PSB/ES), que \"Dispõe sobre a criação de Rota Turística Imperial São Pedro de Alcântara, nos Estados do Espírito Santo e de Minas Gerais , e dá outras providências\"."
@@ -4036,7 +4422,7 @@
       "presentedAt": "2026-11-13T12:26",
       "status": {
         "dataHora": "2026-11-13T12:26",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5849/2026 (Projeto de Lei), pelo Deputado Paulo Folletto (PSB/ES), que \"Altera a Lei n° 6.392, de 7 de julho de 1981, para incentivar a contratação de seguros contra acidentes pessoais e de responsabilidade civil, pela instituição de saúde formadora, em benefício de seus médicos residentes, bem como reajustes periódicos da bolsa concedida a esses profissionais, observadas a recomposição e a preservação de seu poder aquisitivo, segundo índices elaborados pelos órgãos técnicos competentes\"."
@@ -4076,7 +4462,7 @@
       "presentedAt": "2026-11-13T11:51",
       "status": {
         "dataHora": "2026-11-13T11:51",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5848/2026 (Projeto de Lei), pelo Deputado Marcelo Álvaro Antônio (PL/MG), que \"Dispõe sobre a responsabilização penal e civil por crimes contra o patrimônio praticados entre familiares, revoga imunidades penais, estabelece medidas de reparação patrimonial e altera o Código Civil para prever novas hipóteses de indignidade sucessória e deserdação\"."
@@ -4116,7 +4502,7 @@
       "presentedAt": "2026-11-13T11:30",
       "status": {
         "dataHora": "2026-11-13T11:30",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5847/2026 (Projeto de Lei), pelo Deputado Eros Biondini (PL/MG), que \"Acrescenta o art. 47-A à Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições), para destinar percentual mínimo do horário eleitoral gratuito no rádio e na televisão, nas eleições majoritárias, à apresentação de propostas, projetos e compromissos dos candidatos e partidos políticos\"."
@@ -4196,7 +4582,7 @@
       "presentedAt": "2026-11-12T12:48",
       "status": {
         "dataHora": "2026-11-12T12:48",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5840/2026 (Projeto de Lei), pelo Deputado Fábio Teruel (MDB/SP), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), o Decreto-Lei nº 3.689, de 3 de outubro de 1941 (Código de Processo Penal), a Lei nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa), e a Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência), para tipificar a divulgação indevida da intimidade de pessoa idosa, com deficiência ou dependente de cuidados e agravar a punição dos crimes praticados com abuso de relação de cuidado ou confiança\"."
@@ -4282,7 +4668,7 @@
       "presentedAt": "2026-11-12T12:07",
       "status": {
         "dataHora": "2026-11-12T12:07",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5838/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Institui o Sistema Nacional de Acompanhamento de Operações de Financiamento Imobiliário (SNAFI) e estabelece mecanismos de transparência, rastreabilidade e fiscalização das operações de financiamento imobiliário\"."
@@ -4322,7 +4708,7 @@
       "presentedAt": "2026-11-12T12:07",
       "status": {
         "dataHora": "2026-11-12T12:07",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5837/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Altera a Lei nº 9.514, de 20 de novembro de 1997, para estabelecer prazos e obrigações nas operações de financiamento imobiliário, disciplinar a cobrança de encargos, o fornecimento do termo de quitação e a atuação de intervenientes quitantes, e tornar obrigatória a notificação do devedor nas operações de cessão de crédito imobiliário\"."
@@ -4688,7 +5074,7 @@
       "presentedAt": "2026-11-06T12:16",
       "status": {
         "dataHora": "2026-11-06T12:16",
-        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5788/2026 (Projeto de Lei), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Dispõe sobre o rastreamento precoce do diabetes mellitus tipo 1 e da doença celíaca na população pediátrica, no âmbito do Sistema Único de Saúde (SUS), e altera a Lei nº 13.895, de 30 de outubro de 2019, que institui a Política Nacional de Prevenção do Diabetes e de Assistência Integral à Pessoa Diabética\"."
@@ -5186,7 +5572,7 @@
       "presentedAt": "2026-10-29T16:27",
       "status": {
         "dataHora": "2026-10-29T16:27",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5704/2026 (Projeto de Lei), pela Deputada Aline Gurgel (UNIÃO/AP), que \"Institui o Programa Nacional Escola Segura — Infância Protegida, destinado à prevenção de situações de risco envolvendo crianças e adolescentes no ambiente escolar e em seu entorno, e estabelece diretrizes para cooperação, monitoramento preventivo e resposta a ocorrências\"."
@@ -5611,11 +5997,11 @@
       "ementa": "Altera a Lei nº 11.340, de 7 de agosto de 2006 – Lei Maria da Penha, a fim de estabelecer garantias mínimas para a execução da monitoração eletrônica como medida protetiva de urgência, inclusive quanto à emissão de alertas sonoros e luminosos, à utilização excepcional de mecanismo de contenção física remota e à proteção da vítima.",
       "presentedAt": "2026-10-13T13:26",
       "status": {
-        "dataHora": "2026-11-25T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 5.542-A/2026)."
+        "dataHora": "2026-11-25T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pela Deputada Iza Arruda (MDB/PE)."
       },
       "authors": [
         {
@@ -6317,11 +6703,11 @@
       "ementa": "Altera a Lei nº 10.406, de 10 de janeiro de 2002 (Código Civil) e a Lei  nº 10.741, de 1º de outubro de 2003 (Estatuto da Pessoa Idosa) para dispor sobre a responsabilização por interdição abusiva",
       "presentedAt": "2026-02-11T10:15",
       "status": {
-        "dataHora": "2026-11-24T14:30",
+        "dataHora": "2026-11-26T00:00",
         "descricaoSituacao": "Aguardando Encaminhamento",
-        "descricaoTramitacao": "Aprovação da Redação Final",
-        "siglaOrgao": "CCJC",
-        "despacho": "Aprovada a Redação Final."
+        "descricaoTramitacao": "Publicação de Proposição",
+        "siglaOrgao": "CCP",
+        "despacho": "Encaminhada à publicação. Redação Final publicada em avulso e no DCD de 27/11/2026, Letra C."
       },
       "authors": [
         {
@@ -6800,6 +7186,68 @@
       "summary": null
     },
     {
+      "id": 2532113,
+      "label": "PDL 366/2025",
+      "type": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+      "presentedAt": "2025-07-04T15:30",
+      "status": {
+        "dataHora": "2026-11-26T10:00",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "siglaOrgao": "PLEN",
+        "despacho": "A matéria vai ao Senado Federal (PDL 366-B/2025)."
+      },
+      "authors": [
+        {
+          "name": "Comissão de Relações Exteriores e de Defesa Nacional",
+          "type": "COMISSÃO PERMANENTE"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532113",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2949443",
+      "votes": [
+        {
+          "id": "2532113-40",
+          "date": "2026-11-26",
+          "description": "Aprovada a Redação Final assinada pelo Dep. Afonso Florence (PT-BA).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-40"
+        },
+        {
+          "id": "2532113-37",
+          "date": "2026-11-26",
+          "description": "Aprovada a Subemenda Substitutiva ao Projeto de Decreto Legislativo nº 366, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-37"
+        },
+        {
+          "id": "2532113-20",
+          "date": "2026-11-17",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-20"
+        }
+      ],
+      "sourceHash": "ca813db140e15f1c31f375c8a2f0ef386fe6441fef913207cddfc2b7a93ebe4a",
+      "summary": null
+    },
+    {
       "id": 2531613,
       "label": "PL 3220/2025",
       "type": "Projeto de Lei",
@@ -6867,6 +7315,86 @@
         }
       ],
       "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
+      "summary": null
+    },
+    {
+      "id": 2516578,
+      "label": "PDL 235/2025",
+      "type": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
+      "presentedAt": "2025-05-26T16:14",
+      "status": {
+        "dataHora": "2026-11-26T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Ricardo Ayres (REPUBLIC/TO)."
+      },
+      "authors": [
+        {
+          "name": "Comissão de Relações Exteriores e de Defesa Nacional",
+          "type": "COMISSÃO PERMANENTE"
+        }
+      ],
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:76",
+          "name": "Direito e Justiça",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        }
+      ],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2516578",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2918125",
+      "votes": [
+        {
+          "id": "2516578-35",
+          "date": "2026-11-26",
+          "description": "Aprovada a Redação Final assinada pelo Dep. Ricardo Ayres (Republicanos/TO).",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-35"
+        },
+        {
+          "id": "2516578-33",
+          "date": "2026-11-26",
+          "description": "Aprovado o Projeto de Decreto Legislativo nº 235, de 2025.",
+          "organ": "PLEN",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-33"
+        },
+        {
+          "id": "2516578-20",
+          "date": "2026-11-10",
+          "description": "Aprovado o Parecer.",
+          "organ": "CCJC",
+          "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-20"
+        }
+      ],
+      "sourceHash": "b5c36f813ee6497141f7ae7ec2f598462e82c07b9be18789769489a1715c0cee",
       "summary": null
     },
     {
@@ -6972,11 +7500,11 @@
       "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
       "presentedAt": "2024-04-23T12:34",
       "status": {
-        "dataHora": "2026-11-25T18:14",
-        "descricaoSituacao": null,
-        "descricaoTramitacao": "Publicação de Proposição",
-        "siglaOrgao": "CCP",
-        "despacho": "Parecer recebido para publicação."
+        "dataHora": "2026-11-27T00:00",
+        "descricaoSituacao": "Aguardando Recurso",
+        "descricaoTramitacao": "Abertura de Prazo",
+        "siglaOrgao": "MESA",
+        "despacho": "Prazo para apresentação de recurso, nos termos do § 1º do art. 58 combinado com o § 2º do art. 132 do RICD (5 sessões a partir de 30/11/2026)."
       },
       "authors": [
         {
@@ -7053,11 +7581,11 @@
       "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
       "presentedAt": "2023-12-12T15:44",
       "status": {
-        "dataHora": "2026-11-06T09:48",
-        "descricaoSituacao": "Aguardando Designação de Relator(a)",
-        "descricaoTramitacao": "Recebimento",
+        "dataHora": "2026-11-27T13:00",
+        "descricaoSituacao": "Aguardando Deliberação",
+        "descricaoTramitacao": "Designação de Relator(a)",
         "siglaOrgao": "CCJC",
-        "despacho": "Recebimento pelo(a) CCJC."
+        "despacho": "Designada Relatora da Redação Final, Dep. Laura Carneiro (PSD-RJ)."
       },
       "authors": [
         {
@@ -8454,11 +8982,11 @@
       "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
       "presentedAt": "2022-07-11T18:00",
       "status": {
-        "dataHora": "2026-11-24T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 1.969-B/2022)."
+        "dataHora": "2026-11-24T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Orlando Silva (PCdoB/SP -Fdr PT-PCdoB-PV)."
       },
       "authors": [
         {
@@ -8653,11 +9181,11 @@
       "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
       "presentedAt": "2020-05-21T14:46",
       "status": {
-        "dataHora": "2026-11-24T13:55",
-        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
-        "descricaoTramitacao": "Encaminhamento (Plenário)",
-        "siglaOrgao": "PLEN",
-        "despacho": "A matéria vai ao Senado Federal (PL 2.819-B/2020)."
+        "dataHora": "2026-11-24T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pela Deputada Carol Dartora (PT/PR -Fdr PT-PCdoB-PV)."
       },
       "authors": [
         {
@@ -8759,11 +9287,11 @@
       "ementa": "Altera a Lei nº 8.080, de 19 de setembro de 1990, para tratar de ações de educação em saúde executadas pelos profissionais do Sistema Único de Saúde.",
       "presentedAt": "2020-03-05T16:59",
       "status": {
-        "dataHora": "2026-11-24T14:30",
-        "descricaoSituacao": "Recusado",
-        "descricaoTramitacao": "Aprovação da Redação Final",
-        "siglaOrgao": "CCJC",
-        "despacho": "Aprovada a Redação Final."
+        "dataHora": "2026-11-26T00:00",
+        "descricaoSituacao": "Aguardando Encaminhamento",
+        "descricaoTramitacao": "Publicação de Proposição",
+        "siglaOrgao": "CCP",
+        "despacho": "Encaminhada à publicação. Redação Final publicada em avulso e no DCD de 27/11/2026, Letra B."
       },
       "authors": [
         {

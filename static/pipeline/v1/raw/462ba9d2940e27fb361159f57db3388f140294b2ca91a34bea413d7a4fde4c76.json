@@ -1,0 +1,110 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Alice Portugal",
+        "ordemAssinatura": 10,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74057"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Daiana Santos",
+        "ordemAssinatura": 2,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220555"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Daniel Almeida",
+        "ordemAssinatura": 5,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74060"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Enfermeira Rejane",
+        "ordemAssinatura": 6,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/230765"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Gervásio Maia",
+        "ordemAssinatura": 9,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204394"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Inácio Arruda",
+        "ordemAssinatura": 4,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74295"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Jandira Feghali",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74848"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Márcio Jerry",
+        "ordemAssinatura": 8,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/81055"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Orlando Silva",
+        "ordemAssinatura": 7,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/178987"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Pedro Uczai",
+        "ordemAssinatura": 11,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160604"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Professora Marcivania",
+        "ordemAssinatura": 12,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/160641"
+      },
+      {
+        "codTipo": 10000,
+        "nome": "Renildo Calheiros",
+        "ordemAssinatura": 3,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/73801"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:03:10.086Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655613/autores"
+}

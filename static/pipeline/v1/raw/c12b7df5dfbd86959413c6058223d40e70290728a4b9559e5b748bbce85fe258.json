@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 70,
+        "relevancia": 0,
+        "tema": "Finanças Públicas e Orçamento"
+      },
+      {
+        "codTema": 44,
+        "relevancia": 1,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 40,
+        "relevancia": 2,
+        "tema": "Economia"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:03:03.182Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658887/temas"
+}

@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-07-08",
+      "dataHoraRegistro": "2026-07-08T13:29:57",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "866002-79",
+      "idEvento": 82677,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2026-07-08T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 8332/2015",
+          "id": 2637918,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637918"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-06-09T19:40",
+          "ementa": "Parecer do Relator, Dep. Domingos Neto (PSD-CE), pela constitucionalidade, juridicidade e técnica legislativa e, no mérito, pela aprovação do Projeto de Lei nº 8.332/2015.",
+          "id": 2630810,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630810"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-01-26T17:37",
+          "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+          "id": 866002,
+          "numero": 8332,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-06-10T18:07:06",
+        "descricao": "Parecer do Relator, Dep. Domingos Neto (PSD-CE), pela constitucionalidade, juridicidade e técnica legislativa e, no mérito, pela aprovação do Projeto de Lei nº 8.332/2015.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630810"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82677",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:33.204Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-79"
+}

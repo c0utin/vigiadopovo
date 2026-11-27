@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 56,
+        "relevancia": 1,
+        "tema": "Saúde"
+      },
+      {
+        "codTema": 52,
+        "relevancia": 2,
+        "tema": "Previdência e Assistência Social"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659903/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:02:55.043Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659903/temas"
+}

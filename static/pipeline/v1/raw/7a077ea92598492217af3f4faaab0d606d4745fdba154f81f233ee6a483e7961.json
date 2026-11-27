@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2022,
+      "codTipo": 139,
+      "dataApresentacao": "2022-07-11T18:00",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Reconhece a responsabilidade do Estado pelo desaparecimento forçado das 11 vítimas de Acari e estabelece Medidas de Reparação e Não-Repetição para vítimas e familiares da Chacina de Acari.",
+      "ementaDetalhada": "",
+      "id": 2332174,
+      "justificativa": null,
+      "keywords": "Reconhecimento, responsabilidade, Estado (nação), desaparecimento forçado de pessoas, vítima, Chacina de Acari, criação, providências, reparação, ausência, repetição, família. _Concessão, pensão especial, pensão vitalícia, parentesco em primeiro grau, critério. _ Inscrição, nome, mãe, mulher, vítima, Chacina de Acari, Livro dos Heróis e Heroínas da Pátria, homenagem póstuma, título honorífico.",
+      "numero": 1969,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 900,
+        "codTipoTramitacao": "506",
+        "dataHora": "2026-11-24T00:00",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Recebimento - Redação Final",
+        "despacho": "Apresentação da RDF n. 1 PLEN (Redação Final), pelo Deputado Orlando Silva (PCdoB/SP -Fdr PT-PCdoB-PV).",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 63,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178987",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2197137",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:14.845Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2332174"
+}

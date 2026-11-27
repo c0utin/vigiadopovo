@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-24T12:02",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre o bloqueio imediato de aparelhos celulares com IMEI registrado como roubado, furtado ou extraviado e sobre a identificação dos aparelhos que, apesar da restrição, permanecem em uso nas redes das prestadoras de telefonia.",
+      "ementaDetalhada": null,
+      "id": 2659137,
+      "justificativa": null,
+      "keywords": "bloqueio; Telefone celular; Identificação Internacional de Equipamento Móvel (IMEI); Roubo; Furto; extravio; Boletim de ocorrência policial; Órgão de segurança pública; Operadora de telefonia móvel; Multa administrativa; Receptação de aparelho de telefonia móvel, celular ou smartphone",
+      "numero": 5955,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-24T12:02",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5955/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Dispõe sobre o bloqueio imediato de aparelhos celulares com IMEI registrado como roubado, furtado ou extraviado e sobre a identificação dos aparelhos que, apesar da restrição, permanecem em uso nas redes das prestadoras de telefonia\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659137",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659137/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203788",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659137",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:02:59.540Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659137"
+}

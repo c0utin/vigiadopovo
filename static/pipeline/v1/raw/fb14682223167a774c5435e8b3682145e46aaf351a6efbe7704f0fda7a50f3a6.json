@@ -1,0 +1,697 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-08-13",
+      "dataHoraRegistro": "2025-08-13T15:46:49",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer, apresentou voto em separado o Deputado Helio Lopes.",
+      "efeitosRegistrados": [],
+      "id": "2335264-36",
+      "idEvento": 77601,
+      "idOrgao": 2007,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2544841,
+          "numero": 60,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544841"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2544832,
+          "numero": 59,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544832"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2544830,
+          "numero": 58,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544830"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2544828,
+          "numero": 57,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544828"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Requerimento de Votação Nominal - PL 2559/2022",
+          "id": 2544825,
+          "numero": 56,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544825"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2544823,
+          "numero": 55,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544823"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T13:56",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2544820,
+          "numero": 54,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544820"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T13:07",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2544728,
+          "numero": 45,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544728"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão",
+          "id": 2544809,
+          "numero": 53,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544809"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Requerimento de Votação Nominal - PL 2559/2022",
+          "id": 2544796,
+          "numero": 52,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544796"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão",
+          "id": 2544779,
+          "numero": 51,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544779"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta",
+          "id": 2544769,
+          "numero": 50,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544769"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Requerimento de Adiamento da Discussão",
+          "id": 2544758,
+          "numero": 49,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544758"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Requerimento de Adiamento da Discussão",
+          "id": 2544757,
+          "numero": 48,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544757"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Requerimento de Adiamento da Votação",
+          "id": 2544751,
+          "numero": 47,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544751"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação",
+          "id": 2544739,
+          "numero": 46,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544739"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-13T13:06",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2544720,
+          "numero": 44,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2544720"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação",
+          "id": 2540978,
+          "numero": 43,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540978"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão",
+          "id": 2540976,
+          "numero": 42,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540976"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Requerimento de Adiamento da Discussão",
+          "id": 2540974,
+          "numero": 41,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540974"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Requerimento de Adiamento da Votação",
+          "id": 2540972,
+          "numero": 40,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540972"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta",
+          "id": 2540967,
+          "numero": 39,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540967"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Requerimento de Votação Nominal - PL 2559/2022",
+          "id": 2540960,
+          "numero": 38,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540960"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-08-06T13:07",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2540953,
+          "numero": 37,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2540953"
+        },
+        {
+          "ano": 0,
+          "codTipo": 260,
+          "dataApresentacao": "2025-07-02T14:31",
+          "ementa": "Altera dispositivos do Decreto-Lei nº 3.689, de 3 de outubro de 1941 – Código de Processo Penal e da Lei nº 9.099, de 26 de setembro de 1995 – Lei dos Juizados Especiais, relativos ao cabimento de instrumentos despenalizantes.",
+          "id": 2531392,
+          "numero": 1,
+          "siglaTipo": "VTS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531392"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-07-02T12:29",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2530812,
+          "numero": 35,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2530812"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-07-02T12:29",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2530850,
+          "numero": 36,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2530850"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-07-02T12:28",
+          "ementa": "Requerimento de Votação Nominal - PL 2559/2022",
+          "id": 2530786,
+          "numero": 34,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2530786"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-06-17T13:02",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2526637,
+          "numero": 33,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2526637"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-06-11T13:59",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2524757,
+          "numero": 32,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524757"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-06-11T13:58",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2524748,
+          "numero": 31,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524748"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-06-11T13:58",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2524747,
+          "numero": 30,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524747"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-06-11T13:58",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2524746,
+          "numero": 29,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524746"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-06-11T13:58",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2524744,
+          "numero": 27,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524744"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-06-11T13:58",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2524745,
+          "numero": 28,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524745"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-06-11T13:51",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2524737,
+          "numero": 26,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524737"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-06-11T13:51",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2524734,
+          "numero": 25,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524734"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação",
+          "id": 2524725,
+          "numero": 24,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524725"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão",
+          "id": 2524724,
+          "numero": 23,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524724"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Requerimento de Votação Nominal - PL 2559/2022",
+          "id": 2524722,
+          "numero": 22,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524722"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta",
+          "id": 2524717,
+          "numero": 21,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524717"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2524708,
+          "numero": 20,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524708"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Requerimento de Adiamento da Votação",
+          "id": 2524700,
+          "numero": 19,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524700"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-06-11T13:00",
+          "ementa": "Requerimento de Adiamento da Discussão",
+          "id": 2524699,
+          "numero": 18,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2524699"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2025-05-08T15:00",
+          "ementa": "",
+          "id": 2506884,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2506884"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-03-20T12:04",
+          "ementa": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação deste, e do PL 3929/2024, apensado, na forma do substitutivo.",
+          "id": 2488653,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2488653"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-12T14:16",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2468409,
+          "numero": 17,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468409"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-11-12T14:16",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2468393,
+          "numero": 16,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468393"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-11-12T14:16",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2468382,
+          "numero": 14,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468382"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-11-12T14:16",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2468336,
+          "numero": 11,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468336"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-11-12T14:16",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2468307,
+          "numero": 8,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468307"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-12T14:16",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2468258,
+          "numero": 7,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468258"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2559/2022-Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2468384,
+          "numero": 15,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468384"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2468362,
+          "numero": 13,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468362"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2559/2022-Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2468359,
+          "numero": 12,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468359"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2559/2022",
+          "id": 2468323,
+          "numero": 10,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468323"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1049,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Inversão da Pauta - PL 2559/2022-Requerimento de Inversão da Pauta - PL 2559/2022",
+          "id": 2468319,
+          "numero": 9,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468319"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2559/2022",
+          "id": 2468247,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468247"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2468224,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468224"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2559/2022",
+          "id": 2468174,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468174"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Votação Nominal - PL 2559/2022",
+          "id": 2468165,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468165"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-12T13:25",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2559/2022-Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2468044,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468044"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-12T13:25",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2559/2022",
+          "id": 2468015,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468015"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-08-28T15:13",
+          "ementa": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação.",
+          "id": 2457809,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2457809"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2023-11-17T16:49",
+          "ementa": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação.",
+          "id": 2404340,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2404340"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-10-05T10:57",
+          "ementa": "Altera dispositivos do Decreto-Lei nº 3.689, de 3 de outubro de 1941 – Código de Processo Penal e da Lei nº 9.099, de 26 de setembro de 1995 – Lei dos Juizados Especiais, relativos ao cabimento de instrumentos despenalizantes.",
+          "id": 2335264,
+          "numero": 2559,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264"
+        }
+      ],
+      "siglaOrgao": "CDHMIR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-05-08T15:00:39",
+        "descricao": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação deste, e do PL 3929/2024, apensado, na forma do substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2488653"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-36",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77601",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-36",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:14.465Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-36"
+}

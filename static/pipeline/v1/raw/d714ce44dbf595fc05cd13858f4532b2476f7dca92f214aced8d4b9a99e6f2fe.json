@@ -1,0 +1,97 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2025-10-22",
+      "dataHoraRegistro": "2025-10-22T14:30:09",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2428685-38",
+      "idEvento": 79850,
+      "idOrgao": 6066,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2025-10-21T10:32",
+          "ementa": "",
+          "id": 2573500,
+          "numero": 2,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2573500"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-10-21T10:26",
+          "ementa": "Parecer do Relator, Dep. Marcelo Álvaro Antônio (PL-MG), pela aprovação, com substitutivo.",
+          "id": 2573499,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2573499"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2025-09-23T19:44",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).\nAutor: Deputado ANDRÉ FIGUEIREDO\nRelator: Deputado MARCELO ÁLVARO ANTÔNIO",
+          "id": 2563719,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2563719"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-09-23T19:44",
+          "ementa": "Parecer do Relator, Dep. Marcelo Álvaro Antônio (PL-MG), pela aprovação deste, com substitutivo.",
+          "id": 2563718,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2563718"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-11-25T16:29",
+          "ementa": "Parecer do Relator, Dep. Washington Quaquá (PT-RJ), pela aprovação.",
+          "id": 2471305,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2471305"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2024,
+          "codTipo": 139,
+          "dataApresentacao": "2024-04-23T12:34",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2428685,
+          "numero": 1384,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685"
+        }
+      ],
+      "siglaOrgao": "CTUR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-10-21T10:33:21",
+        "descricao": "Parecer do Relator, Dep. Marcelo Álvaro Antônio (PL-MG), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2573499"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-38",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/79850",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/6066"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-38",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:04:57.966Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-38"
+}

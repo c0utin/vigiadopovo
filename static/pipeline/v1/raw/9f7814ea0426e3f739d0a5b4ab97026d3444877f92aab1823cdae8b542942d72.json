@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 46,
+        "relevancia": 0,
+        "tema": "Educação"
+      },
+      {
+        "codTema": 72,
+        "relevancia": 1,
+        "tema": "Homenagens e Datas Comemorativas"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:03:50.481Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655116/temas"
+}

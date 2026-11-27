@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-05T17:36",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui diretrizes nacionais para a prevenção e o combate à fabricação, à comercialização e ao uso de linhas cortantes em pipas e artefatos similares; estabelece medidas de fiscalização, educação e responsabilização administrativa; e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2651243,
+      "justificativa": null,
+      "keywords": "diretrizes; Linha cortante; Posse, uso, fabricação, fornecimento e comercialização de linhas cortantes; Pipa; Cerol; fiscalização; prevenção; Campanha educativa; Responsabilidade administrativa; Comércio eletrônico; Linha chilena",
+      "numero": 5784,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II",
+        "codSituacao": null,
+        "codTipoTramitacao": "110",
+        "dataHora": "2026-11-19T17:29",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Distribuição",
+        "despacho": "Às Comissões deIndústria, Comércio e Serviços eConstituição e Justiça e de Cidadania (Art. 54, RICD).Proposição Sujeita à Apreciação Conclusiva pelas Comissões - Art. 24 II.Regime de Tramitação: Ordinário (Art. 151, III, RICD).",
+        "regime": "Ordinário (Art. 151, III, RICD)",
+        "sequencia": 7,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3190708",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:04:12.588Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651243"
+}

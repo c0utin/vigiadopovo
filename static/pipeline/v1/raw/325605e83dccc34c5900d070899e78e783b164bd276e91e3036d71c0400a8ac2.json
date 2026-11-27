@@ -1,0 +1,67 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2015-09-09",
+      "dataHoraRegistro": "2015-09-09T10:53:09",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado por Unanimidade o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "866002-21",
+      "idEvento": 40850,
+      "idOrgao": 2015,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2015-09-09T10:00",
+          "ementa": "Aprovado por Unanimidade o Parecer..  Parecer da Relatora, Dep. Gorete Pereira (PR-CE), pela aprovação.",
+          "id": 1715629,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1715629"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-09-08T14:44",
+          "ementa": "Parecer da Relatora, Dep. Gorete Pereira (PR-CE), pela aprovação.",
+          "id": 1712695,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1712695"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-01-26T17:37",
+          "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+          "id": 866002,
+          "numero": 8332,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+        }
+      ],
+      "siglaOrgao": "CTRAB",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2015-09-08T15:26:19",
+        "descricao": "Parecer da Relatora, Dep. Gorete Pereira (PR-CE), pela aprovação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1712695"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/40850",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:33.673Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-21"
+}

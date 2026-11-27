@@ -1,0 +1,105 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:36:50",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Benedita da Silva  (PT/RJ).",
+        "id": "2394518-63",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-63",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:35:56",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 4.887, de 2023, adotado pela relatora da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família. Sim: 320; Não: 102; Total: 422.",
+        "id": "2394518-60",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-60",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-16",
+        "dataHoraRegistro": "2026-06-16T21:04:31",
+        "descricao": "Realizar o encaminhamento do PL-4887/2023 à CFT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2394518-30",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-30",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-16",
+        "dataHoraRegistro": "2026-06-16T21:04:31",
+        "descricao": "Realizar o encaminhamento do PL-4887/2023 à CE (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2394518-29",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-29",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-16",
+        "dataHoraRegistro": "2026-06-16T21:04:30",
+        "descricao": "Realizar o encaminhamento do PL-4887/2023 à CDHMIR (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2394518-28",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-28",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-16",
+        "dataHoraRegistro": "2026-06-16T21:04:30",
+        "descricao": "Realizar o encaminhamento do PL-4887/2023 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+        "id": "2394518-27",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCP",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-27",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-06-16",
+        "dataHoraRegistro": "2026-06-16T21:04:29",
+        "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2630673-7",
+        "proposicaoObjeto": "REQ 3405/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2630673-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82513",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630673"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:04.963Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518/votacoes"
+}

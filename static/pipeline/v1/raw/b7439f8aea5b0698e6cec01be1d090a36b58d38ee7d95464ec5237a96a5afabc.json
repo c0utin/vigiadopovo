@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 56,
+        "relevancia": 0,
+        "tema": "Saúde"
+      },
+      {
+        "codTema": 48,
+        "relevancia": 1,
+        "tema": "Meio Ambiente e Desenvolvimento Sustentável"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:02:59.239Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659237/temas"
+}

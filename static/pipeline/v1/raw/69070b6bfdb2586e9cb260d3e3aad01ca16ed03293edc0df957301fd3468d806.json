@@ -1,0 +1,187 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-25",
+      "dataHoraRegistro": "2026-11-25T18:29:04",
+      "dataHoraUltimaAberturaVotacao": "2026-11-25T18:28:49",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Thiago de Joaldo (REPUBLICANOS/SE).",
+      "efeitosRegistrados": [],
+      "id": "949156-136",
+      "idEvento": 85492,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-25T13:55",
+          "ementa": "Parecer proferido em Plenário pelo Relator Dep. Thiago de Joaldo (REPUBLIC/SE) pela: • Comissão de Finanças e Tributação, que conclui pela compatibilidade e adequação financeira e orçamentária; e, no mérito, pela aprovação do Projeto de Lei nº 479, de 2015, e dos projetos a ele apensados, bem como do Substitutivo da Comissão de Educação, na forma do Substitutivo adotado. • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 479, de 2015, e dos projetos a ele apensados, bem como do Substitutivo da Comissão de Educação e do Substitutivo adotado pelo relator da Comissão de Finanças e Tributação.",
+          "id": 2660071,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660071"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-24T08:27",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 2659100,
+          "numero": 3,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659100"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-23T14:33",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 2657795,
+          "numero": 2,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657795"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-11T13:57",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre educação em tempo integral.",
+          "id": 2652857,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2652857"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 305,
+          "dataApresentacao": "2026-10-28T14:44",
+          "ementa": "Requer a desapensação do Projeto de Lei nº 3.687/2023 da árvore de projetos apensados ao Projeto de Lei nº 479/2015",
+          "id": 2649330,
+          "numero": 4353,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649330"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 305,
+          "dataApresentacao": "2026-10-28T14:10",
+          "ementa": "Requer a desapensação do Projeto de Lei nº 2.924/2024 da árvore de projetos apensados ao Projeto de Lei nº 479/2015",
+          "id": 2649320,
+          "numero": 4349,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649320"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-08-05T11:08",
+          "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 479, de 2015, e de seus apensados.",
+          "id": 2641978,
+          "numero": 3990,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2641978"
+        },
+        {
+          "ano": 2025,
+          "codTipo": 305,
+          "dataApresentacao": "2025-11-14T16:32",
+          "ementa": "Requer a desapensação do Projeto de Lei nº 4.749, de 2023, para tramitação em separado.",
+          "id": 2585250,
+          "numero": 4911,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2585250"
+        },
+        {
+          "ano": 2024,
+          "codTipo": 305,
+          "dataApresentacao": "2024-10-29T11:19",
+          "ementa": "Requer a desapensação do Projeto de Lei n° 259, de 2023 do Projeto de Lei n° 4.593/2020, apensado ao Projeto de Lei nº 479, de 2015.",
+          "id": 2464813,
+          "numero": 4338,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2464813"
+        },
+        {
+          "ano": 2024,
+          "codTipo": 305,
+          "dataApresentacao": "2024-05-07T15:55",
+          "ementa": "Requer a revisão de despacho no sentido de desapensar o PL nº 2964/2023 da árvore de apensados do PL nº 479/2015.",
+          "id": 2431640,
+          "numero": 1483,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2431640"
+        },
+        {
+          "ano": 2023,
+          "codTipo": 305,
+          "dataApresentacao": "2023-08-16T13:44",
+          "ementa": "Requer a desapensação do Projeto de Lei n° 2368/21 do Projeto de Lei n° 2595/2020, apensado ao Projeto de Lei nº 479/2015.",
+          "id": 2380026,
+          "numero": 2583,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2380026"
+        },
+        {
+          "ano": 2023,
+          "codTipo": 305,
+          "dataApresentacao": "2023-08-04T19:06",
+          "ementa": "Requer a desapensação do Projeto de Lei n° 2368/2021 do Projeto de Lei n° 2595/2020, apensado ao Projeto de Lei nº 479/2015.",
+          "id": 2375926,
+          "numero": 2394,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2375926"
+        },
+        {
+          "ano": 2017,
+          "codTipo": 305,
+          "dataApresentacao": "2017-08-22T20:26",
+          "ementa": "Requer a desapensação do PL 8.138/2017 do PL 479/2015 e respectivos apensos.",
+          "id": 2148726,
+          "numero": 7072,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2148726"
+        },
+        {
+          "ano": 2015,
+          "codTipo": 305,
+          "dataApresentacao": "2015-08-12T16:31",
+          "ementa": "Requer a desapensação do Projeto de Lei nº 1.181, de 2015, do Projeto de Lei nº 479, de 2015.",
+          "id": 1618280,
+          "numero": 2686,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1618280"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-02-26T11:02",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 949156,
+          "numero": 479,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-25T18:45:00",
+        "descricao": "Parecer proferido em Plenário pelo Relator Dep. Thiago de Joaldo (REPUBLIC/SE) pela:\r\n• Comissão de Finanças e Tributação, que conclui pela compatibilidade e adequação financeira e orçamentária; e, no mérito, pela aprovação do Projeto de Lei nº 479, de 2015, e dos projetos a ele apensados, bem como do Substitutivo da Comissão de Educação, na forma do Substitutivo adotado.\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei nº 479, de 2015, e dos projetos a ele apensados, bem como do Substitutivo da Comissão de Educação e do Substitutivo adotado pelo relator da Comissão de Finanças e Tributação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660071"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-136",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-136",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:02:44.091Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-136"
+}

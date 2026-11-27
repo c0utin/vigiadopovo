@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-12T11:41",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais.",
+      "ementaDetalhada": null,
+      "id": 2653179,
+      "justificativa": null,
+      "keywords": "alteração; Lei de Cotas Raciais em Concursos Públicos (2025); proibição; fracionamento; Vaga remanescente; Área do conhecimento; especialidade; Concurso público; Sistema de cotas raciais",
+      "numero": 5836,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 905,
+        "codTipoTramitacao": "194",
+        "dataHora": "2026-11-23T16:16",
+        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoTramitacao": "Apresentação de Requerimento",
+        "despacho": "Apresentação do REQ n. 4511/2026 (Requerimento de Retirada de Proposição de Iniciativa Individual), pelo Deputado Aureo Ribeiro (SOLIDARI/RJ), que \"Requer a retirada de tramitação do Projeto de Lei n. 5.836, de 2026, que altera a Lei nº 15.142, de 3 de junho de 2025, para explicitar a vedação ao fracionamento do cálculo da reserva de vagas por especialidade, disciplina, unidade acadêmica, departamento, campus ou local de lotação no âmbito dos concursos públicos federais\".",
+        "regime": ".",
+        "sequencia": 6,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203151"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3194621",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:04:01.125Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2653179"
+}

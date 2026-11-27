@@ -1,0 +1,97 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-24",
+      "dataHoraRegistro": "2026-11-24T16:49:54",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "2428685-67",
+      "idEvento": 83357,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2026-11-24T13:41",
+          "ementa": "Requerimento de Inversão da Pauta - PL 1384/2024",
+          "id": 2659200,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659200"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2026-11-19T17:30",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2655682,
+          "numero": 3,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655682"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2026-11-19T17:30",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2655681,
+          "numero": 2,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655681"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2026-11-19T17:30",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2655680,
+          "numero": 1,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655680"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-11-19T17:17",
+          "ementa": "Parecer do Relator, Dep. Leur Lomanto Júnior (UNIÃO-BA), pela constitucionalidade, juridicidade e técnica legislativa deste, com emendas de redação, do Substitutivo da Comissão de Turismo, com subemendas de redação, e do Substitutivo da Comissão de Cultura, com subemendas de redação.",
+          "id": 2655672,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655672"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2024,
+          "codTipo": 139,
+          "dataApresentacao": "2024-04-23T12:34",
+          "ementa": "Institui a Política Nacional para as Comissões de Apoio à Cinematografia (film commissions).",
+          "id": 2428685,
+          "numero": 1384,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2428685"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-19T17:30:25",
+        "descricao": "Parecer do Relator, Dep. Leur Lomanto Júnior (UNIÃO-BA), pela constitucionalidade, juridicidade e técnica legislativa deste, com emendas de redação, do Substitutivo da Comissão de Turismo, com subemendas de redação, e do Substitutivo da Comissão de Cultura, com subemendas de redação.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655672"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-67",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83357",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-67",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:04:57.507Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2428685-67"
+}

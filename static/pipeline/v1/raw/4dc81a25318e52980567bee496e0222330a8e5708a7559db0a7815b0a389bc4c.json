@@ -1,0 +1,53 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:03:16",
+        "descricao": "Aprovada a Redação Final assinada pela relatora Dep. Iza Arruda (MDB-PE).",
+        "id": "2647427-46",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647427-46",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:02:23",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 5.542, de 2026, adotado pela relatora Dep. Iza Arruda (MDB-PE) da Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2647427-43",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647427-43",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-10-28",
+        "dataHoraRegistro": "2026-10-28T16:09:36",
+        "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2647742-7",
+        "proposicaoObjeto": "REQ 4300/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647742-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83108",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647742"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:04:31.870Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647427/votacoes"
+}

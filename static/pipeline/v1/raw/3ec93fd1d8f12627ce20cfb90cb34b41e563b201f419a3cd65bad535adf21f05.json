@@ -1,0 +1,227 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T10:49:07",
+      "dataHoraUltimaAberturaVotacao": "2026-11-04T10:48:31",
+      "descUltimaAberturaVotacao": "Iniciada a Votação da Matéria.",
+      "descricao": "Aprovado o Parecer do Relator, Deputado Thiago de Joaldo (Republicanos - SE).",
+      "efeitosRegistrados": [],
+      "id": "949156-106",
+      "idEvento": 82780,
+      "idOrgao": 2009,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-11-03T21:04",
+          "ementa": "Institui o Marco Nacional da Educação Integral em Tempo Integral, estabelece normas gerais para sua implementação nas redes públicas de educação básica e altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre os parâmetros da oferta de educação básica em tempo integral nas redes públicas.",
+          "id": 2650217,
+          "numero": 9,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650217"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-11-03T19:59",
+          "ementa": "Institui o Marco Nacional da Educação Integral em Tempo Integral, estabelece normas gerais para sua implementação nas redes públicas de educação básica e altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre os parâmetros da oferta de educação básica em tempo integral nas redes públicas.",
+          "id": 2650207,
+          "numero": 8,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650207"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-11-03T19:52",
+          "ementa": "Institui o Marco Nacional da Educação Integral em Tempo Integral, estabelece normas gerais para sua implementação nas redes públicas de educação básica e altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre os parâmetros da oferta de educação básica em tempo integral nas redes públicas.",
+          "id": 2650199,
+          "numero": 7,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650199"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-11-03T18:51",
+          "ementa": "Parecer do Relator, Dep. Thiago de Joaldo (REPUBLIC-SE), pela aprovação do PL 479/15 e dos PLs 542/15, 552/15, 707/15, 4035/15, 6155/16, 33/19, 4380/19, 2595/20, 2368/21, 3096/21, 820/22, 281/23, 815/23, 2964/23, 3687/23, 5137/23, 788/24 (Nº Anterior: PLS 756/15), 1059/24, 2924/24, 1435/26 e 2724/26, apensados, com substitutivo; e pela rejeição dos PLs 1181/15, 3226/15, 3789/15, 4167/15, 4701/16, 5515/16, 5604/16, 5605/16, 5985/16, 8138/17, 8856/17, 8857/17, 8951/17, 10227/18, 300/19, 504/19, 4543/19, 5589/19, 5751/19, 6325/19, 3981/20, 4198/20, 4270/20, 4593/20, 4803/20, 5474/20, 716/21,  911/21, 1376/21, 2949/21, 3950/21, 505/22, 2322/22, 2690/22, 2984/22, 259/23, 4423/23, 4749/23, 4821/23, 1224/24, 1942/24 e 3255/24, apensados.",
+          "id": 2650215,
+          "numero": 9,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650215"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-11-03T15:51",
+          "ementa": "Parecer do Relator, Dep. Thiago de Joaldo (REPUBLIC-SE), pela aprovação do PL 479/15 e dos PLs 542/15,  552/15,  707/15, 4035/15, 6155/16, 33/19, 4380/19, 2595/20, 2368/21, 820/22, 281/23, 815/23, 2964/23,  788/24 (Nº Anterior: PLS 756/15), e 2724/26, apensados, com substitutivo; e pela rejeição dos PLs 1181/15, 3226/15, 3789/15, 4167/15, 4701/16, 5515/16, 5604/16, 5605/16, 5985/16, 8138/17,  8856/17, 8857/17, 8951/17, 10227/18, 300/19, 504/19, 4543/19, 5589/19, 5751/19, 6325/19, 3981/20, 4198/20,  4270/20, 4593/20, 4803/20, 5474/20, 716/21, 911/21, 1376/21, 2949/21, 3096/21, 3950/21, 505/22, 2322/22, 2690/22, 2984/22, 259/23, 3687/23, 4423/23, 4749/23, 4821/23, 5137/23, 1059/24, 1224/24, 1942/24, 2924/24, 3255/24 e 1435/26, apensados.",
+          "id": 2650019,
+          "numero": 8,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650019"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-10-28T10:03",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 479/2015",
+          "id": 2649173,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649173"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-10-27T20:13",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996, para dispor sobre educação em tempo integral.",
+          "id": 2649090,
+          "numero": 6,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649090"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-10-27T19:11",
+          "ementa": "Parecer do Relator, Dep. Thiago de Joaldo (REPUBLIC-SE), pela aprovação do PL 479/15 e dos PLs 542/15, 552/15, 707/15, 4035/15, 6155/16, 33/19, 4380/19, 2595/20, 2368/21, 820/22, 281/23, 815/23, 2964/23, 788/24 (Nº Anterior: PLS 756/15) e 2724/26, apensados, com substitutivo; e pela rejeição dos PLs 1181/15, 3226/15, 3789/15, 4167/15, 4701/16, 5515/16, 5604/16, 5605/16, 5985/16, 8138/17,  8856/17, 8857/17, 8951/17, 10227/18, 300/19, 504/19, 4543/19, 5589/19, 5751/19, 6325/19, 3981/20,  4198/20, 4270/20, 4593/20, 4803/20, 5474/20, 716/21, 911/21, 1376/21, 2949/21, 3096/21, 3950/21,  505/22, 2322/22, 2690/22, 2984/22, 259/23, 3687/23, 4423/23, 4749/23, 4821/23, 5137/23, 1059/24, 1224/24, 1942/24, 2924/24, 3255/24 e 1435/26, apensados.",
+          "id": 2649083,
+          "numero": 7,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649083"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2026-08-11T20:50",
+          "ementa": "",
+          "id": 2642801,
+          "numero": 5,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642801"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-08-11T10:59",
+          "ementa": "Parecer do Relator, Dep. Thiago de Joaldo (REPUBLIC-SE), pela aprovação do PL 479/15 e dos PLs 788/24, 542/15, 552/15, 707/15, 4035/15, 6155/16, 4380/19, 2595/20, 33/19, 281/23, 820/22 e 2368/21, apensados, com substitutivo, e pela rejeição dos PLs 1181/15, 3789/15, 5604/16, 5985/16, 300/19, 4803/20, 3950/21, 4423/23, 3226/15, 4701/16, 5474/20, 4167/15, 5515/16, 8951/17, 5605/16, 8857/17, 3981/20, 5589/19, 8138/17, 8856/17, 4543/19, 4270/20, 3687/23, 10227/18, 504/19, 911/21, 505/22, 5751/19, 6325/19, 1376/21, 4749/23, 4821/23, 3255/24, 1224/24, 4198/20, 4593/20, 3096/21, 2322/22, 2690/22, 5137/23, 1059/24, 2949/21, 259/23, 815/23, 716/21, 2984/22, 2964/23, 1942/24, 2924/24, 1435/26 e 2724/26, apensados.",
+          "id": 2642536,
+          "numero": 6,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2642536"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2016-10-17T16:33",
+          "ementa": "",
+          "id": 2114082,
+          "numero": 4,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2114082"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2016-10-17T16:32",
+          "ementa": "Parecer do Relator, Dep. Dr. Jorge Silva (PHS-ES), pela aprovação deste, do PL 552/2015, do PL 707/2015, do PL 1181/2015 e do PL 5605/2016, apensados, com substitutivo, e pela rejeição do PL 542/2015, do PL 3226/2015, do PL 3789/2015, do PL 4035/2015, do PL 4167/2015, do PL 4701/2016, do PL 5515/2016, do PL 5604/2016, do PL 5985/2016 e do PL 6155/2016, apensados.",
+          "id": 2114084,
+          "numero": 5,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2114084"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2016-09-19T18:51",
+          "ementa": "Parecer do Relator, Dep. Dr. Jorge Silva (PHS-ES), pela aprovação deste, do PL 552/2015, do PL 707/2015, do PL 1181/2015 e do PL 5605/2016, apensados, com substitutivo, e pela rejeição do PL 542/2015, do PL 3226/2015, do PL 3789/2015, do PL 4035/2015, do PL 4167/2015, do PL 4701/2016, do PL 5515/2016, do PL 5604/2016 e do PL 5985/2016,  apensados.",
+          "id": 2112150,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2112150"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2016-09-19T18:51",
+          "ementa": "",
+          "id": 2112151,
+          "numero": 3,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2112151"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2016-08-09T15:31",
+          "ementa": "Parecer do Relator, Dep. Dr. Jorge Silva (PHS-ES), pela aprovação deste, do PL 552/2015, do PL 707/2015, do PL 1181/2015 e do PL 5605/2016, apensados, com substitutivo, e pela rejeição do PL 542/2015, do PL 3226/2015, do PL 3789/2015, do PL 4035/2015, do PL 4167/2015, do PL 4701/2016, do PL 5515/2016 e do PL 5604/2016, apensados.",
+          "id": 2093339,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2093339"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2016-08-09T15:31",
+          "ementa": "",
+          "id": 2093341,
+          "numero": 2,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2093341"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2015-12-04T11:57",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 2058007,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2058007"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-12-04T11:55",
+          "ementa": "Parecer do Relator, Dep. Dr. Jorge Silva (PROS-ES), pela aprovação deste, do PL 552/2015, do PL 707/2015, e do PL 1181/2015, apensados, com substitutivo, e pela rejeição do PL 542/2015, e do PL 3226/2015, apensados.",
+          "id": 2058006,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2058006"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-02-26T11:02",
+          "ementa": "Altera a Lei nº 9.394, de 20 de dezembro de 1996 (Lei de Diretrizes e Bases da Educação - LDB), para dispor sobre educação em tempo integral.",
+          "id": 949156,
+          "numero": 479,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/949156"
+        }
+      ],
+      "siglaOrgao": "CE",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-03T21:04:29",
+        "descricao": "Parecer do Relator, Dep. Thiago de Joaldo (REPUBLIC-SE), pela aprovação do PL 479/15 e dos PLs 542/15, 552/15, 707/15, 4035/15, 6155/16, 33/19, 4380/19, 2595/20, 2368/21, 3096/21, 820/22, 281/23, 815/23, 2964/23, 3687/23, 5137/23, 788/24 (Nº Anterior: PLS 756/15), 1059/24, 2924/24, 1435/26 e 2724/26, apensados, com substitutivo; e pela rejeição dos PLs 1181/15, 3226/15, 3789/15, 4167/15, 4701/16, 5515/16, 5604/16, 5605/16, 5985/16, 8138/17, 8856/17, 8857/17, 8951/17, 10227/18, 300/19, 504/19, 4543/19, 5589/19, 5751/19, 6325/19, 3981/20, 4198/20, 4270/20, 4593/20, 4803/20, 5474/20, 716/21,  911/21, 1376/21, 2949/21, 3950/21, 505/22, 2322/22, 2690/22, 2984/22, 259/23, 4423/23, 4749/23, 4821/23, 1224/24, 1942/24 e 3255/24, apensados.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2650215"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-106",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82780",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2009"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-106",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-27T19:05:31.250Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-106"
+}
