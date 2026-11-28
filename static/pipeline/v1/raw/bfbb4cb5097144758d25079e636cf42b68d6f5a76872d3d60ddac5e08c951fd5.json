@@ -1,0 +1,92 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:56:06",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Dandara (PT/MG).",
+        "id": "2335264-76",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-76",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:54:34",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 2.559, de 2022, adotado pela relatora da  Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2335264-73",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-73",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:41:08",
+        "descricao": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4469/2026.",
+        "id": "2335264-50",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-50",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:41:07",
+        "descricao": "Aprovado o requerimento nº 4469/2026, Da Sra. Benedita da Silva e outros, que solicita urgência (art. 155) para o PL 2559/2022.",
+        "id": "2335264-49",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-49",
+        "uriEvento": null,
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T16:40:58",
+        "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+        "id": "2654312-7",
+        "proposicaoObjeto": "REQ 4469/2026",
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654312-7",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654312"
+      },
+      {
+        "aprovacao": 1,
+        "data": "2025-08-13",
+        "dataHoraRegistro": "2025-08-13T15:46:49",
+        "descricao": "Aprovado o Parecer, apresentou voto em separado o Deputado Helio Lopes.",
+        "id": "2335264-36",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CDHMIR",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-36",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/77601",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:35.557Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264/votacoes"
+}

@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Silas Câmara",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/74356"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:53.324Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/autores"
+}

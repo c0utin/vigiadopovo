@@ -1,0 +1,94 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-06-16",
+      "dataHoraRegistro": "2026-06-16T21:04:29",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-06-16T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 3405/2026,da Sra. Benedita da Silva e outros, que solicita urgência (art. 155) para o PL 4887/2023.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 4887/2023",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-06-16T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-4887/2023 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 4887/2023",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-06-16T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-4887/2023 à CDHMIR (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 4887/2023",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2630673-7",
+      "idEvento": 82513,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-06-09T16:49",
+          "ementa": "Requer a urgência do Projeto de Lei nº 4887/2023.",
+          "id": 2630673,
+          "numero": 3405,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630673"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-10-09T13:11",
+          "ementa": "Cria o Protocolo de Acolhimento  e Atendimento às vítimas de discriminação racial e condutas análogas nos estabelecimentos de ensino do país, altera as Leis nº 13.431, de 4 de abril de 2017, e nº 8.069, de 13 de julho de 1990, e dá outras providências.",
+          "id": 2394518,
+          "numero": 4887,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2630673-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/82513",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2630673-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:28.171Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2630673-7"
+}

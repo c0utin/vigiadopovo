@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Fernando Rodolfo",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204427"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659671/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:09.376Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659671/autores"
+}

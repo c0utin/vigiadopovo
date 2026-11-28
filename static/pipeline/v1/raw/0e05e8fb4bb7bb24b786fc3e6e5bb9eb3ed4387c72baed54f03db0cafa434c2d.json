@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-17",
+      "dataHoraRegistro": "2026-11-17T16:40:58",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 4469/2026, Da Sra. Benedita da Silva e outros, que solicita urgência (art. 155) para o PL 2559/2022.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 2559/2022",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-11-17T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4469/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 2559/2022",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2654312-7",
+      "idEvento": 83363,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-11-16T19:44",
+          "ementa": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 2559/2022.",
+          "id": 2654312,
+          "numero": 4469,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654312"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2022,
+          "codTipo": 139,
+          "dataApresentacao": "2022-10-05T10:57",
+          "ementa": "Altera dispositivos do Decreto-Lei nº 3.689, de 3 de outubro de 1941 – Código de Processo Penal e da Lei nº 9.099, de 26 de setembro de 1995 – Lei dos Juizados Especiais, relativos ao cabimento de instrumentos despenalizantes.",
+          "id": 2335264,
+          "numero": 2559,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2335264"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654312-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83363",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654312-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:36.313Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2654312-7"
+}

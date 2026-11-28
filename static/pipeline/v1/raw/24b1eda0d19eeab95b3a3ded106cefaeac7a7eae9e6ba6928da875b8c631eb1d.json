@@ -1,0 +1,57 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-26",
+      "dataHoraRegistro": "2026-11-26T11:44:26",
+      "dataHoraUltimaAberturaVotacao": "2026-11-26T11:44:11",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Projeto de Decreto Legislativo nº 235, de 2025.",
+      "efeitosRegistrados": [],
+      "id": "2516578-33",
+      "idEvento": 85534,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-11-26T00:00",
+          "ementa": "Redação Final ao PDL 235/2025",
+          "id": 2660466,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660466"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 554,
+          "dataApresentacao": "2025-05-26T16:14",
+          "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
+          "id": 2516578,
+          "numero": 235,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-33",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-33",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:50.983Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-33"
+}

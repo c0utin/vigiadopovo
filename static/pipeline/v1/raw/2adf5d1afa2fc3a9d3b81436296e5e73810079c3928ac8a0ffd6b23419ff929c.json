@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 140,
+      "dataApresentacao": "2026-11-19T13:11",
+      "descricaoTipo": "Projeto de Lei Complementar",
+      "ementa": "Altera a Lei Complementar nº?200, de 30 de agosto de 2023, a Lei Complementar nº?176, de 29 de dezembro de 2020, a Lei Complementar nº?235, de 27 de agosto de 2026, a Lei Complementar nº?224, de 26 de dezembro de 2025, a Lei nº?11.540, de 12 de novembro de 2007, e a Lei nº?9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências.",
+      "ementaDetalhada": null,
+      "id": 2655570,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 299,
+      "siglaTipo": "PLP",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1140,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T10:30",
+        "descricaoSituacao": "Transformado em Norma Jurídica",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação da MSC n. 890/2026 (Mensagem de Restituição de Autógrafos), pelo Poder Executivo, que \"Comunica, o Excelentíssimo Senhor Presidente da República a sanção do Projeto de Lei Complementar nº 299, de 2026, que “Altera a Lei Complementar nº 200, de 30 de agosto de 2023, a Lei Complementar nº 176, de 29 de dezembro de 2020, a Lei Complementar nº 235, de 27 de agosto de 2026, a Lei Complementar nº 224, de 26 de dezembro de 2025, a Lei nº 11.540, de 12 de novembro de 2007, e a Lei nº 9.796, de 5 de maio de 1999, para conferir ao Poder Executivo federal novos instrumentos de gestão, com vistas a garantir a estabilidade macroeconômica do País e criar as condições adequadas ao desenvolvimento socioeconômico; e dá outras providências”, e restitui, para o arquivo do Congresso Nacional, autógrafo do texto ora convertido na Lei Complementar nº 239, de 24 de novembro de 2026\".",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 77,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204486",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205068"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199234",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:27.956Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655570"
+}

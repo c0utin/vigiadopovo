@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 44,
+        "relevancia": 0,
+        "tema": "Direitos Humanos e Minorias"
+      },
+      {
+        "codTema": 57,
+        "relevancia": 2,
+        "tema": "Defesa e Segurança"
+      },
+      {
+        "codTema": 62,
+        "relevancia": 1,
+        "tema": "Ciência, Tecnologia e Inovação"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:53.756Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas"
+}

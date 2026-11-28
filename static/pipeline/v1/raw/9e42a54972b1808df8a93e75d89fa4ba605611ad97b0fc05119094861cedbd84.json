@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-13T18:37",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+      "ementaDetalhada": null,
+      "id": 2655132,
+      "justificativa": null,
+      "keywords": "reconhecimento; Romaria do Divino Pai Eterno; Trindade (GO); Goiás; Manifestação cultural; Cultura nacional",
+      "numero": 2423,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "611",
+        "dataHora": "2026-11-23T00:00",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Publicação de Documento",
+        "despacho": "Recebido o Ofício nº 1439/2026SF , que submete à revisão da Câmara dos Deputados, nos termos do art. 65 da Constituição Federal, o Projeto de Lei nº 2.423, de 2026, de autoria do Senador Vanderlan Cardoso, constante do autógrafo em anexo, que “Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás”.",
+        "regime": ".",
+        "sequencia": 7,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203180"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198159",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:54.664Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655132"
+}

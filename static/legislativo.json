@@ -1,8 +1,126 @@
 {
   "schemaVersion": 1,
-  "collectedAt": "2026-11-27T19:02:37.461Z",
+  "collectedAt": "2026-11-28T17:37:46.375Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2660450,
+      "label": "PL 5998/2026",
+      "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660450",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2660442,
+      "label": "PL 5997/2026",
+      "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660442",
+      "labels": [
+        {
+          "id": "camara:tema:44",
+          "name": "Direitos Humanos e Minorias",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:62",
+          "name": "Ciência, Tecnologia e Inovação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2660437,
+      "label": "PL 5996/2026",
+      "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660437",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:53",
+          "name": "Processo Legislativo e Atuação Parlamentar",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
+          "relevance": 2
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2660404,
+      "label": "PL 5995/2026",
+      "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660404",
+      "labels": [],
+      "votingIds": []
+    },
+    {
+      "id": 2660396,
+      "label": "PL 5994/2026",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660396",
+      "labels": [
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
+          "relevance": 1
+        },
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
+          "relevance": 2
+        }
+      ],
+      "votingIds": []
+    },
+    {
+      "id": 2660383,
+      "label": "PL 5993/2026",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660383",
+      "labels": [
+        {
+          "id": "camara:tema:46",
+          "name": "Educação",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:70",
+          "name": "Finanças Públicas e Orçamento",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/temas",
+          "relevance": 1
+        }
+      ],
+      "votingIds": []
+    },
     {
       "id": 2660119,
       "label": "PL 5991/2026",
@@ -2537,6 +2655,31 @@
       ]
     },
     {
+      "id": 2532113,
+      "label": "PDL 366/2025",
+      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532113",
+      "labels": [
+        {
+          "id": "camara:tema:43",
+          "name": "Direito Penal e Processual Penal",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2532113-40",
+        "2532113-37",
+        "2532113-20"
+      ]
+    },
+    {
       "id": 2531613,
       "label": "PL 3220/2025",
       "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
@@ -2555,6 +2698,49 @@
         "2531613-12",
         "2531613-11",
         "2612448-7"
+      ]
+    },
+    {
+      "id": 2516578,
+      "label": "PDL 235/2025",
+      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2516578",
+      "labels": [
+        {
+          "id": "camara:tema:34",
+          "name": "Administração Pública",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:42",
+          "name": "Direito Civil e Processual Civil",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:55",
+          "name": "Relações Internacionais e Comércio Exterior",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:57",
+          "name": "Defesa e Segurança",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        },
+        {
+          "id": "camara:tema:76",
+          "name": "Direito e Justiça",
+          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
+          "relevance": 0
+        }
+      ],
+      "votingIds": [
+        "2516578-35",
+        "2516578-33",
+        "2516578-20"
       ]
     },
     {
@@ -3063,190 +3249,52 @@
       ]
     },
     {
-      "id": 2660450,
-      "label": "PL 5998/2026",
-      "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660450",
+      "id": 2660498,
+      "label": "PL 6007/2026",
+      "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660498",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2660442,
-      "label": "PL 5997/2026",
-      "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660442",
-      "labels": [
-        {
-          "id": "camara:tema:44",
-          "name": "Direitos Humanos e Minorias",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:57",
-          "name": "Defesa e Segurança",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
-          "relevance": 2
-        },
-        {
-          "id": "camara:tema:62",
-          "name": "Ciência, Tecnologia e Inovação",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/temas",
-          "relevance": 1
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2660437,
-      "label": "PL 5996/2026",
-      "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660437",
-      "labels": [
-        {
-          "id": "camara:tema:34",
-          "name": "Administração Pública",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:53",
-          "name": "Processo Legislativo e Atuação Parlamentar",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
-          "relevance": 2
-        },
-        {
-          "id": "camara:tema:70",
-          "name": "Finanças Públicas e Orçamento",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": []
-    },
-    {
-      "id": 2660404,
-      "label": "PL 5995/2026",
-      "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660404",
+      "id": 2660488,
+      "label": "PL 6006/2026",
+      "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660488",
       "labels": [],
       "votingIds": []
     },
     {
-      "id": 2660396,
-      "label": "PL 5994/2026",
-      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660396",
-      "labels": [
-        {
-          "id": "camara:tema:42",
-          "name": "Direito Civil e Processual Civil",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
-          "relevance": 1
-        },
-        {
-          "id": "camara:tema:43",
-          "name": "Direito Penal e Processual Penal",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:57",
-          "name": "Defesa e Segurança",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/temas",
-          "relevance": 2
-        }
-      ],
+      "id": 2660487,
+      "label": "PL 6004/2026",
+      "ementa": "Institui a Política Nacional Juventude Negra Viva, de enfrentamento à violência contra a juventude negra e de promoção de seus direitos.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660487",
+      "labels": [],
       "votingIds": []
     },
     {
-      "id": 2660383,
-      "label": "PL 5993/2026",
-      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660383",
-      "labels": [
-        {
-          "id": "camara:tema:46",
-          "name": "Educação",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:70",
-          "name": "Finanças Públicas e Orçamento",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/temas",
-          "relevance": 1
-        }
-      ],
+      "id": 2660486,
+      "label": "PL 6003/2026",
+      "ementa": "Institui a Década Nacional das Populações Negra e Indígena.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660486",
+      "labels": [],
       "votingIds": []
     },
     {
-      "id": 2532113,
-      "label": "PDL 366/2025",
-      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2532113",
-      "labels": [
-        {
-          "id": "camara:tema:43",
-          "name": "Direito Penal e Processual Penal",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:55",
-          "name": "Relações Internacionais e Comércio Exterior",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": [
-        "2532113-40",
-        "2532113-37",
-        "2532113-20"
-      ]
+      "id": 2660485,
+      "label": "PL 6002/2026",
+      "ementa": "Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660485",
+      "labels": [],
+      "votingIds": []
     },
     {
-      "id": 2516578,
-      "label": "PDL 235/2025",
-      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
-      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2516578",
-      "labels": [
-        {
-          "id": "camara:tema:34",
-          "name": "Administração Pública",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:42",
-          "name": "Direito Civil e Processual Civil",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:55",
-          "name": "Relações Internacionais e Comércio Exterior",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:57",
-          "name": "Defesa e Segurança",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
-          "relevance": 0
-        },
-        {
-          "id": "camara:tema:76",
-          "name": "Direito e Justiça",
-          "sourceUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578/temas",
-          "relevance": 0
-        }
-      ],
-      "votingIds": [
-        "2516578-35",
-        "2516578-33",
-        "2516578-20"
-      ]
+      "id": 2660480,
+      "label": "PL 6001/2026",
+      "ementa": "Institui o Inventário Nacional dos Lugares de Memória da Escravidão e da Resistência Negra e Indígena.",
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660480",
+      "labels": [],
+      "votingIds": []
     }
   ],
   "votings": [

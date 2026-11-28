@@ -1,5 +1,41 @@
 [
   {
+    "id": 2660450,
+    "sourceHash": "0113165175c7224ffefefb792dc73d3b3158b2349ed2985313212136afd8bf20",
+    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660450"
+  },
+  {
+    "id": 2660442,
+    "sourceHash": "7feb829b74b322adab3f556d3021023207cf35cdd5255bf7640b2eafe81aff15",
+    "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442"
+  },
+  {
+    "id": 2660437,
+    "sourceHash": "ec96fae61d50efc830b81c66a20656013fcc9f3b08d24152c160306c38811b23",
+    "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437"
+  },
+  {
+    "id": 2660404,
+    "sourceHash": "28faf1e4357e209d55b18659010555b3bb781cd34bed834afeefed37cce6f51c",
+    "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660404"
+  },
+  {
+    "id": 2660396,
+    "sourceHash": "faa21343f953922de04098e89152beca6e6147076394df771d47bd1ccb9fc188",
+    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396"
+  },
+  {
+    "id": 2660383,
+    "sourceHash": "ba9c6ad7c491446614f0966eb00ca721da35c0ca9aeae3d2781b2deee81d7ee4",
+    "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383"
+  },
+  {
     "id": 2660119,
     "sourceHash": "677d4a5ba492fa83d942abb7814df5b371cd7aece6456aa210d5aa6322a3855e",
     "ementa": "Dispõe sobre medidas obrigatórias para o inventário, a preservação física e digital, a digitalização, a recuperação, o controle de qualidade, a indexação, a integração eletrônica e a pesquisa histórica dos acervos de guarda permanente do Registro Civil das Pessoas Naturais anteriores à vigência da Lei nº 6.015, de 31 de dezembro de 1973; institui o Programa Nacional de Preservação dos Acervos Históricos do Registro Civil das Pessoas Naturais; altera as Leis nº 6.015, de 31 de dezembro de 1973, nº 8.935, de 18 de novembro de 1994, nº 11.977, de 7 de julho de 2009, e nº 14.382, de 27 de junho de 2022; e dá outras providências.",
@@ -606,10 +642,22 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2584437"
   },
   {
+    "id": 2532113,
+    "sourceHash": "ca813db140e15f1c31f375c8a2f0ef386fe6441fef913207cddfc2b7a93ebe4a",
+    "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113"
+  },
+  {
     "id": 2531613,
     "sourceHash": "652902338a78b2cba0c4ba087582540175b0fc9abaf4d64834b191a60bf0a6ff",
     "ementa": "Institui o Dia Nacional da Consolidação da Independência do Brasil.",
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2531613"
+  },
+  {
+    "id": 2516578,
+    "sourceHash": "b5c36f813ee6497141f7ae7ec2f598462e82c07b9be18789769489a1715c0cee",
+    "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578"
   },
   {
     "id": 2515534,
@@ -714,51 +762,39 @@
     "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005"
   },
   {
-    "id": 2660450,
-    "sourceHash": "0113165175c7224ffefefb792dc73d3b3158b2349ed2985313212136afd8bf20",
-    "ementa": "Altera a Lei nº 9.503, de 23 de setembro de 1997 (Código de Trânsito Brasileiro), para tornar obrigatório o fornecimento de roda sobressalente e dos equipamentos necessários à sua substituição em automóveis, camionetas, caminhonetes e utilitários, vedadas a dispensa e a substituição por sistemas alternativos de reparação emergencial.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660450"
+    "id": 2660498,
+    "sourceHash": "cc55b34c1e371de08744a9ae13952c2a72d78387e31d0fa39823f86f84c32683",
+    "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660498"
   },
   {
-    "id": 2660442,
-    "sourceHash": "7feb829b74b322adab3f556d3021023207cf35cdd5255bf7640b2eafe81aff15",
-    "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442"
+    "id": 2660488,
+    "sourceHash": "e9196eea89d95c3512651f314871b635822f8d4198ab112e345e2954fd47a716",
+    "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660488"
   },
   {
-    "id": 2660437,
-    "sourceHash": "ec96fae61d50efc830b81c66a20656013fcc9f3b08d24152c160306c38811b23",
-    "ementa": "Altera a Lei n.º 9.709, de 18 de novembro de 1998, para condicionar o aumento de salário e demais benefícios de deputados federais e senadores a realização de plebiscito.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660437"
+    "id": 2660487,
+    "sourceHash": "225e7fa0d7206cfd2966b602fcf9a4e5592f29720d5c456a29e6026a51ee9287",
+    "ementa": "Institui a Política Nacional Juventude Negra Viva, de enfrentamento à violência contra a juventude negra e de promoção de seus direitos.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660487"
   },
   {
-    "id": 2660404,
-    "sourceHash": "28faf1e4357e209d55b18659010555b3bb781cd34bed834afeefed37cce6f51c",
-    "ementa": "Institui a Política Nacional de Combate à Discriminação e à Estigmatização de Povos e Comunidades em Contextos Internacionais e dá outras providências.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660404"
+    "id": 2660486,
+    "sourceHash": "122b34c02f00b33da215f6e992d267e43ea3c71196610b34d1765de8cb860dd6",
+    "ementa": "Institui a Década Nacional das Populações Negra e Indígena.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486"
   },
   {
-    "id": 2660396,
-    "sourceHash": "faa21343f953922de04098e89152beca6e6147076394df771d47bd1ccb9fc188",
-    "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396"
+    "id": 2660485,
+    "sourceHash": "a5956040e4f47b40705ec488d5f18aa3b2467e30cc08831296b173d0f2bd97b7",
+    "ementa": "Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485"
   },
   {
-    "id": 2660383,
-    "sourceHash": "ba9c6ad7c491446614f0966eb00ca721da35c0ca9aeae3d2781b2deee81d7ee4",
-    "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383"
-  },
-  {
-    "id": 2532113,
-    "sourceHash": "ca813db140e15f1c31f375c8a2f0ef386fe6441fef913207cddfc2b7a93ebe4a",
-    "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113"
-  },
-  {
-    "id": 2516578,
-    "sourceHash": "b5c36f813ee6497141f7ae7ec2f598462e82c07b9be18789769489a1715c0cee",
-    "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Cooperação Jurídica Internacional em Matéria Civil, assinado em Georgetown, em 6 de maio de 2022.",
-    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2516578"
+    "id": 2660480,
+    "sourceHash": "4cadef71e606c18569fd7ab13b52b94e5069149fc43d85b28e8ad3f2aaceda6c",
+    "ementa": "Institui o Inventário Nacional dos Lugares de Memória da Escravidão e da Resistência Negra e Indígena.",
+    "source": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660480"
   }
 ]

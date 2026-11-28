@@ -1,0 +1,24 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 72,
+        "relevancia": 0,
+        "tema": "Homenagens e Datas Comemorativas"
+      },
+      {
+        "codTema": 34,
+        "relevancia": 1,
+        "tema": "Administração Pública"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:38.310Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655540/temas"
+}

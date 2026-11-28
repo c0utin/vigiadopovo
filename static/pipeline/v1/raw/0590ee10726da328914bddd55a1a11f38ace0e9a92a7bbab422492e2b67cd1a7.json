@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-17T13:38",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS).",
+      "ementaDetalhada": null,
+      "id": 2654578,
+      "justificativa": null,
+      "keywords": "alteração; Teste molecular; Papiloma Vírus Humano (HPV); Rastreamento de doenças; Câncer de colo do útero; Teste de Papanicolau; Sistema Único de Saúde (SUS); Mulher",
+      "numero": 5881,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-17T13:38",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5881/2026 (Projeto de Lei), pelo Deputado Beto Preto (PSD/PR), que \"Altera a Lei n° 11.664, de 29 de abril de 2008, para assegurar a oferta do teste molecular para detecção do papilomavírus humano (HPV) oncogênico no rastreamento do câncer do colo do útero no âmbito do Sistema Único de Saúde (SUS)\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205550"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3197212",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:43.555Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654578"
+}

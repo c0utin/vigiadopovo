@@ -1,0 +1,13 @@
+{
+  "body": {
+    "dados": [],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:39:33.366Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2651096/votacoes"
+}

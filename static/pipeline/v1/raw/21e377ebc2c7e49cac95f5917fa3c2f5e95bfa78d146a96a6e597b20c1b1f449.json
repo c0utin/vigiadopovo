@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-27T12:16",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana.",
+      "ementaDetalhada": null,
+      "id": 2660442,
+      "justificativa": null,
+      "keywords": "proibição; compartilhamento; Impulsionamento de conteúdo; Exposição de imagem; Vídeo; Fotografia; Vítima; Agressão; Tortura; obrigações; Plataforma digital; Provedor de aplicações; Rede social digital; Princípio da dignidade da pessoa humana; Superexposição nociva; Exploração midiática",
+      "numero": 5997,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-27T12:16",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5997/2026 (Projeto de Lei), pelo Deputado Silas Câmara (REPUBLIC/AM), que \"Dispõe sobre a proibição da divulgação, compartilhamento e impulsionamento de imagens e vídeos que exponham vítimas de violência física nas redes sociais e plataformas digitais, e estabelece medidas de proteção à dignidade humana\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206471",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:53.111Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660442"
+}

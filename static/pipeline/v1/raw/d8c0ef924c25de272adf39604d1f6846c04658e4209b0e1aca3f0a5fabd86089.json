@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 2,
+        "nome": "Comissão de Relações Exteriores e de Defesa Nacional",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "COMISSÃO PERMANENTE",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2018"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:07.548Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/autores"
+}

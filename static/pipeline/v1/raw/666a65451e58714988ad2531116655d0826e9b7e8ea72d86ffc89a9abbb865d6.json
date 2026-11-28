@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T14:13",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 9.718, de 27 de novembro de 1998, para atualizar os limites de receita relativos à opção pela tributação com base no lucro presumido.",
+      "ementaDetalhada": null,
+      "id": 2659905,
+      "justificativa": null,
+      "keywords": "alteração; Legislação Tributária Federal (1998); Tributação; Receita bruta; Lucro presumido; limite; Correção monetária; Lucro real; opção",
+      "numero": 5967,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T14:13",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5967/2026 (Projeto de Lei), pelo Deputado Gilson Daniel (PODE/ES), que \"Altera a Lei nº 9.718, de 27 de novembro de 1998, para atualizar os limites de receita relativos à opção pela tributação com base no lucro presumido\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659905",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659905/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205082",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659905",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:05.475Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659905"
+}

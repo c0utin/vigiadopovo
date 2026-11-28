@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2015,
+      "codTipo": 139,
+      "dataApresentacao": "2015-03-27T12:55",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+      "ementaDetalhada": "",
+      "id": 1194323,
+      "justificativa": null,
+      "keywords": "Criação, vara do trabalho, Tribunal Regional do Trabalho (TRT), Porto Alegre (RS), Capão da Canoa (RS), Marau (RS), Nova Prata (RS), São Sebastião do Caí (RS), Tramandaí (RS), Rio Grande do Sul, juiz do trabalho, cargo efetivo, cargo em comissão, função comissionada.",
+      "numero": 956,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 926,
+        "codTipoTramitacao": "190",
+        "dataHora": "2026-11-25T00:00",
+        "descricaoSituacao": "Aguardando Apreciação pelo Senado Federal",
+        "descricaoTramitacao": "Expedição de Documento",
+        "despacho": "Remessa ao Senado Federal por meio do Of. nº 271/2026/SGM-P.",
+        "regime": "Prioridade (Art. 151, II, RICD)",
+        "sequencia": 124,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/178835",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198875"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2015",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1315063",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:51.357Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323"
+}

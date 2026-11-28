@@ -1,0 +1,22 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTipo": 10000,
+        "nome": "Capitão Alden",
+        "ordemAssinatura": 1,
+        "proponente": 1,
+        "tipo": "Deputado(a)",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220690"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/autores",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:56.009Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/autores"
+}

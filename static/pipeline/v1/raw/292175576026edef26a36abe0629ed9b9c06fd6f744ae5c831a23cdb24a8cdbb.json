@@ -1,0 +1,130 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-26",
+        "dataHoraRegistro": "2026-11-26T11:53:03",
+        "descricao": "Aprovada a Redação Final assinada pelo Dep. Afonso Florence (PT-BA).",
+        "id": "2532113-40",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-40",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-26",
+        "dataHoraRegistro": "2026-11-26T11:51:47",
+        "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Decreto Legislativo nº 366, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2532113-37",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-37",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-26",
+        "dataHoraRegistro": "2026-11-26T11:44:52",
+        "descricao": "Aprovada a Redação Final assinada pelo Dep. Ricardo Ayres (Republicanos/TO).",
+        "id": "2516578-35",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-35",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-26",
+        "dataHoraRegistro": "2026-11-26T11:44:26",
+        "descricao": "Aprovado o Projeto de Decreto Legislativo nº 235, de 2025.",
+        "id": "2516578-33",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2516578-33",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T18:29:04",
+        "descricao": "Aprovada a Redação Final assinada pelo relator, Dep. Thiago de Joaldo (REPUBLICANOS/SE).",
+        "id": "949156-136",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-136",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T18:28:26",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 479, de 2015 adotado pelo relator da Comissão de Finanças e Tributação.",
+        "id": "949156-133",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/949156-133",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:56:06",
+        "descricao": "Aprovada a Redação Final assinada pela relatora, Dep. Dandara (PT/MG).",
+        "id": "2335264-76",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-76",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-25",
+        "dataHoraRegistro": "2026-11-25T17:54:34",
+        "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 2.559, de 2022, adotado pela relatora da  Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2335264-73",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2335264-73",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85492",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-28&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-28&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=2&itens=8",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-28&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=1&itens=8",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-28&ordem=DESC&ordenarPor=dataHoraRegistro&pagina=233&itens=8",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:50.126Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes?dataInicio=2026-11-01&dataFim=2026-11-28&itens=8&ordem=DESC&ordenarPor=dataHoraRegistro"
+}

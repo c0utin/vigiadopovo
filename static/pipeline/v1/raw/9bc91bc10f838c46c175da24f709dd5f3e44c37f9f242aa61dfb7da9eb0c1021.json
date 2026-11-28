@@ -1,0 +1,86 @@
+{
+  "body": {
+    "dados": [
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-27T18:59",
+        "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+        "id": 2660498,
+        "numero": 6007,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660498"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-27T16:57",
+        "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+        "id": 2660488,
+        "numero": 6006,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660488"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-27T16:27",
+        "ementa": "Institui a Política Nacional Juventude Negra Viva, de enfrentamento à violência contra a juventude negra e de promoção de seus direitos.",
+        "id": 2660487,
+        "numero": 6004,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660487"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-27T16:22",
+        "ementa": "Institui a Década Nacional das Populações Negra e Indígena.",
+        "id": 2660486,
+        "numero": 6003,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-27T16:19",
+        "ementa": "Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público.",
+        "id": 2660485,
+        "numero": 6002,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485"
+      },
+      {
+        "ano": 2026,
+        "codTipo": 139,
+        "dataApresentacao": "2026-11-27T16:00",
+        "ementa": "Institui o Inventário Nacional dos Lugares de Memória da Escravidão e da Resistência Negra e Indígena.",
+        "id": 2660480,
+        "numero": 6001,
+        "siglaTipo": "PL",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660480"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id",
+        "rel": "self"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=2&itens=6",
+        "rel": "next"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=1&itens=6",
+        "rel": "first"
+      },
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&ordem=DESC&ordenarPor=id&pagina=912&itens=6",
+        "rel": "last"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:48.634Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?siglaTipo=PL&ano=2026&itens=6&ordem=DESC&ordenarPor=id"
+}

@@ -1,0 +1,277 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-05-06",
+      "dataHoraRegistro": "2026-05-06T10:13:29",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "866002-66",
+      "idEvento": 81857,
+      "idOrgao": 2010,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-04-29T09:06",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2619447,
+          "numero": 9,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2619447"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2026-04-29T09:06",
+          "ementa": "Requerimento de Inversão da Pauta - PL 8332/2015",
+          "id": 2619456,
+          "numero": 10,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2619456"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-04-29T09:06",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 8332/2015-Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2619469,
+          "numero": 11,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2619469"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1049,
+          "dataApresentacao": "2026-04-29T09:06",
+          "ementa": "Votação Nominal do Requerimento de Inversão da Pauta - PL 8332/2015-Requerimento de Inversão da Pauta - PL 8332/2015",
+          "id": 2619496,
+          "numero": 12,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2619496"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2026-04-29T09:06",
+          "ementa": "Requerimento de Adiamento da Votação - PL 8332/2015",
+          "id": 2619497,
+          "numero": 13,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2619497"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2026-04-29T09:06",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 8332/2015-Requerimento de Adiamento da Votação - PL 8332/2015",
+          "id": 2619542,
+          "numero": 14,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2619542"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-04-15T09:57",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2616337,
+          "numero": 7,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616337"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-04-15T09:57",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 8332/2015-Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2616344,
+          "numero": 8,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616344"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-03-24T16:11",
+          "ementa": "Parecer do Relator, Dep. José Airton Félix Cirilo (PT-CE), pela compatibilidade e adequação financeira e orçamentária do Projeto de Lei n.º 8332, de 2015.",
+          "id": 2611568,
+          "numero": 5,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2611568"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-17T08:10",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2597626,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2597626"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-17T08:09",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 8332/2015-Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2597631,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2597631"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-10T08:03",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2594784,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2594784"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-10T08:02",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 8332/2015-Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2594783,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2594783"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-12-03T09:11",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2591438,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591438"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-12-03T09:11",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 8332/2015-Requerimento de Retirada de Matéria da Pauta - PL 8332/2015",
+          "id": 2591427,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2591427"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2025-11-26T11:54",
+          "ementa": "Parecer pela aprovação do PL 8332/2015, que Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+          "id": 2589205,
+          "numero": 4,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589205"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-11-26T11:54",
+          "ementa": "Parecer do Relator, Dep. José Airton Félix Cirilo (PT-CE), pela compatibilidade e adequação financeira e orçamentária do PL 8332/2015, com emenda.",
+          "id": 2589204,
+          "numero": 4,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2589204"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2016-06-08T11:18",
+          "ementa": "",
+          "id": 2087179,
+          "numero": 3,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2087179"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2016-06-08T11:16",
+          "ementa": "Parecer do relator, Dep. Ademir Camilo, pela compatibilidade e adequação financeira e orçamentária, com emenda.",
+          "id": 2087176,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2087176"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2015-11-03T10:31",
+          "ementa": "",
+          "id": 2026129,
+          "numero": 2,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2026129"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-11-03T10:31",
+          "ementa": "Parecer do Relator, Dep. Giovani Cherini, pela compatibilidade e adequação financeira e orçamentária, com emenda.",
+          "id": 2026131,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2026131"
+        },
+        {
+          "ano": 0,
+          "codTipo": 257,
+          "dataApresentacao": "2015-09-29T15:44",
+          "ementa": "",
+          "id": 1805600,
+          "numero": 1,
+          "siglaTipo": "EMR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1805600"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-09-29T15:43",
+          "ementa": "Parecer do relator, Dep. André Figueiredo, pela compatibilidade e adequação financeira e orçamentária, com emenda.",
+          "id": 1805599,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1805599"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-01-26T17:37",
+          "ementa": "Dispõe sobre a criação de cargos de Juiz do Trabalho Substituto e de cargos de provimento efetivo no Tribunal Regional do Trabalho da 7ª Região e dá outras providências.",
+          "id": 866002,
+          "numero": 8332,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/866002"
+        }
+      ],
+      "siglaOrgao": "CFT",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-03-24T17:17:53",
+        "descricao": "Parecer do Relator, Dep. José Airton Félix Cirilo (PT-CE), pela compatibilidade e adequação financeira e orçamentária do Projeto de Lei n.º 8332, de 2015.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2611568"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81857",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2010"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:58.363Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/866002-66"
+}

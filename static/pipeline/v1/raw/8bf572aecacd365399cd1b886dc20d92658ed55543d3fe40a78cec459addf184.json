@@ -1,0 +1,19 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 61,
+        "relevancia": 0,
+        "tema": "Viação, Transporte e Mobilidade"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:01.709Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075/temas"
+}

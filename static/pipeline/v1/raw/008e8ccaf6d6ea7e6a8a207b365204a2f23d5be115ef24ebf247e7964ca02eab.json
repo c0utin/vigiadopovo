@@ -1,0 +1,53 @@
+{
+  "body": {
+    "dados": [
+      {
+        "aprovacao": 1,
+        "data": "2026-11-26",
+        "dataHoraRegistro": "2026-11-26T11:53:03",
+        "descricao": "Aprovada a Redação Final assinada pelo Dep. Afonso Florence (PT-BA).",
+        "id": "2532113-40",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-40",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-26",
+        "dataHoraRegistro": "2026-11-26T11:51:47",
+        "descricao": "Aprovada a Subemenda Substitutiva ao Projeto de Decreto Legislativo nº 366, de 2025, adotada pelo relator da Comissão de Constituição e Justiça e de Cidadania.",
+        "id": "2532113-37",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "PLEN",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-37",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriProposicaoObjeto": null
+      },
+      {
+        "aprovacao": 1,
+        "data": "2026-11-17",
+        "dataHoraRegistro": "2026-11-17T15:21:41",
+        "descricao": "Aprovado o Parecer.",
+        "id": "2532113-20",
+        "proposicaoObjeto": null,
+        "siglaOrgao": "CCJC",
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-20",
+        "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83282",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+        "uriProposicaoObjeto": null
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/votacoes",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:08.292Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/votacoes"
+}

@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-27T16:22",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Década Nacional das Populações Negra e Indígena.",
+      "ementaDetalhada": null,
+      "id": 2660486,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 6003,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-27T16:22",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 6003/2026 (Projeto de Lei), pela Deputada Dandara (PT/MG -Fdr PT-PCdoB-PV), que \"Institui a Década Nacional das Populações Negra e Indígena. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206783",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:41:04.823Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486"
+}

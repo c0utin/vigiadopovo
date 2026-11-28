@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-23T15:00",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos.",
+      "ementaDetalhada": null,
+      "id": 2657828,
+      "justificativa": null,
+      "keywords": "criação; Semana; conscientização; Doação de sangue; Transfusão de sangue; Cachorro; Gato; Saúde animal; Medicina veterinária; Data comemorativa; Junho",
+      "numero": 5926,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-23T15:00",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5926/2026 (Projeto de Lei), pelo Deputado Murilo Galdino (REPUBLIC/PB), que \"Institui a Semana Nacional de Conscientização sobre a Doação e a Transfusão de Sangue em Cães e Gatos\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3202005",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:18.947Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657828"
+}

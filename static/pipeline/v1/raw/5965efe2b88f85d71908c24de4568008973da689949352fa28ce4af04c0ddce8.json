@@ -1,0 +1,107 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-24",
+      "dataHoraRegistro": "2026-11-24T16:59:50",
+      "dataHoraUltimaAberturaVotacao": "2026-11-24T16:58:32",
+      "descUltimaAberturaVotacao": "Votação em turno único.",
+      "descricao": "Aprovado o Substitutivo ao Projeto de Lei nº 7.103, de 2014, da Comissão de Seguridade Social e Família.",
+      "efeitosRegistrados": [],
+      "id": "606005-107",
+      "idEvento": 85464,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 192,
+          "dataApresentacao": "2026-11-24T13:55",
+          "ementa": "Parecer proferido em Plenário pela Relatora Dep. Talíria Petrone (PSOL/RJ) pela: • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei n.º 7.103, de 2014, e do Substitutivo da Comissão de Seguridade Social e Família.",
+          "id": 2659304,
+          "numero": 1,
+          "siglaTipo": "PPP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659304"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-23T20:19",
+          "ementa": "Modifica a Lei nº 12.288, de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 2659021,
+          "numero": 2,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659021"
+        },
+        {
+          "ano": 0,
+          "codTipo": 872,
+          "dataApresentacao": "2026-11-23T19:04",
+          "ementa": "Modifica a Lei nº 12.288, de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 2658958,
+          "numero": 1,
+          "siglaTipo": "ERD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658958"
+        },
+        {
+          "ano": 0,
+          "codTipo": 891,
+          "dataApresentacao": "2026-11-23T18:43",
+          "ementa": "Modifica a Lei nº 12.288, de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 2658949,
+          "numero": 1,
+          "siglaTipo": "PRLP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658949"
+        },
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-11-16T19:43",
+          "ementa": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 7103/2014.",
+          "id": 2654311,
+          "numero": 4468,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654311"
+        },
+        {
+          "ano": 2016,
+          "codTipo": 322,
+          "dataApresentacao": "2016-11-09T15:14",
+          "ementa": "Requer prioridade para apreciação do Projeto de Lei 7.103, de 2014.",
+          "id": 2116633,
+          "numero": 5503,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2116633"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-02-11T17:15",
+          "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 606005,
+          "numero": 7103,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-24T16:51:46",
+        "descricao": "Parecer proferido em Plenário pela Relatora Dep. Talíria Petrone (PSOL/RJ) pela:\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa do Projeto de Lei n.º 7.103, de 2014, e do Substitutivo da Comissão de Seguridade Social e Família.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659304"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-107",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85464",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-107",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:41:00.372Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-107"
+}

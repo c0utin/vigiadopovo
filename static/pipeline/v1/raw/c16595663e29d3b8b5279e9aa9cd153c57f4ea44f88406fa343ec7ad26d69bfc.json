@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-16T14:28",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde.",
+      "ementaDetalhada": null,
+      "id": 2654169,
+      "justificativa": null,
+      "keywords": "garantia; Segurança cibernética; Conta bancária; Sistema de Pagamentos Brasileiro (SBP); Movimentação financeira; Recursos públicos; Sistema Único de Saúde (SUS); Incidente de segurança; Fraude bancária",
+      "numero": 5863,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1210,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-16T14:28",
+        "descricaoSituacao": "Aguardando Chancela e Publicação do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5863/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Estabelece diretrizes mínimas de segurança cibernética para as contas bancárias e os sistemas de pagamento que movimentam recursos do Sistema Único de Saúde\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3204301"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3196498",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:50.757Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2654169"
+}

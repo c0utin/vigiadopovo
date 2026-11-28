@@ -1,0 +1,137 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-26",
+      "dataHoraRegistro": "2026-11-26T11:53:03",
+      "dataHoraUltimaAberturaVotacao": "2026-11-26T11:52:40",
+      "descUltimaAberturaVotacao": "Votação da Redação Final.",
+      "descricao": "Aprovada a Redação Final assinada pelo Dep. Afonso Florence (PT-BA).",
+      "efeitosRegistrados": [],
+      "id": "2532113-40",
+      "idEvento": 85534,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 1001,
+          "dataApresentacao": "2026-11-26T11:10",
+          "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+          "id": 2660125,
+          "numero": 1,
+          "siglaTipo": "PRLE",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660125"
+        },
+        {
+          "ano": 0,
+          "codTipo": 442,
+          "dataApresentacao": "2026-11-26T10:00",
+          "ementa": "Leitura realizada em Plenário pelo Dep. Dr. Francisco (PT/PI) do parecer do Relator pela: • Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa da Emenda de Plenário nº 1; e, no mérito, pela sua aprovação, na forma da Subemenda Substitutiva adotada.",
+          "id": 2660154,
+          "numero": 1,
+          "siglaTipo": "PEP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660154"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-11-25T15:05",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 366/2025",
+          "id": 2659913,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659913"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-11-25T15:05",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 366/2025-Requerimento de Retirada de Matéria da Pauta - PDL 366/2025",
+          "id": 2659914,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659914"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-11-24T16:15",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 366/2025",
+          "id": 2659271,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659271"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-11-24T16:15",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 366/2025-Requerimento de Retirada de Matéria da Pauta - PDL 366/2025",
+          "id": 2659272,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2659272"
+        },
+        {
+          "ano": 0,
+          "codTipo": 870,
+          "dataApresentacao": "2026-11-23T16:44",
+          "ementa": "Emenda de Plenário.",
+          "id": 2658878,
+          "numero": 1,
+          "siglaTipo": "EMP",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658878"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-11-23T13:59",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PDL 366/2025",
+          "id": 2657768,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657768"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-11-23T13:59",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PDL 366/2025-Requerimento de Retirada de Matéria da Pauta - PDL 366/2025",
+          "id": 2657769,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657769"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2025,
+          "codTipo": 554,
+          "dataApresentacao": "2025-07-04T15:30",
+          "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+          "id": 2532113,
+          "numero": 366,
+          "siglaTipo": "PDL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-11-26T11:50:27",
+        "descricao": "Leitura realizada em Plenário pelo Dep. Dr. Francisco (PT/PI) do parecer do Relator pela:\r\n• Comissão de Constituição e Justiça e de Cidadania, que conclui pela constitucionalidade, juridicidade e boa técnica legislativa da Emenda de Plenário nº 1; e, no mérito, pela sua aprovação, na forma da Subemenda Substitutiva adotada.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660154"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-40",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/85534",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-40",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:50.334Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2532113-40"
+}

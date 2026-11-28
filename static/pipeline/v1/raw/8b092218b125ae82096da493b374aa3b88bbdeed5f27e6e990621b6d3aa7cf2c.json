@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-23T14:46",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação.",
+      "ementaDetalhada": null,
+      "id": 2657827,
+      "justificativa": null,
+      "keywords": "alteração; Código Eleitoral (1965); Crime eleitoral; Crime contra a liberdade eleitoral; Direito de sufrágio; responsabilização; perda; Cargo público; Perda de mandato eletivo; Aumento da pena; obstrução; Via pública; Transporte público coletivo",
+      "numero": 5925,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-23T14:46",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5925/2026 (Projeto de Lei), pela Deputada Daiana Santos (PCdoB/RS -Fdr PT-PCdoB-PV), que \"Altera o art. 297 da Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral), para aumentar a pena do crime de impedimento ou embaraço ao exercício do sufrágio, estabelecer causas de aumento de pena, disciplinar a responsabilização dos participantes, prever a perda de cargo, função pública ou mandato eletivo e especificar condutas que comprometam o deslocamento de eleitores e o acesso aos locais de votação\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3202004",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:19.828Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2657827"
+}

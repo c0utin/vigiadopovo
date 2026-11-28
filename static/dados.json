@@ -1,7 +1,169 @@
 {
-  "collectedAt": "2026-11-27T19:02:37.461Z",
+  "collectedAt": "2026-11-28T17:37:46.375Z",
   "coverage": "Câmara dos Deputados · amostra de proposições e votações",
   "propositions": [
+    {
+      "id": 2660498,
+      "label": "PL 6007/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+      "presentedAt": "2026-11-27T18:59",
+      "status": {
+        "dataHora": "2026-11-27T18:59",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 6007/2026 (Projeto de Lei), pelo Deputado Nikolas Ferreira (PL/MG), que \"Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular\"."
+      },
+      "authors": [
+        {
+          "name": "Nikolas Ferreira",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660498",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660498",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206798",
+      "votes": [],
+      "sourceHash": "cc55b34c1e371de08744a9ae13952c2a72d78387e31d0fa39823f86f84c32683",
+      "summary": null
+    },
+    {
+      "id": 2660488,
+      "label": "PL 6006/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular.",
+      "presentedAt": "2026-11-27T16:57",
+      "status": {
+        "dataHora": "2026-11-27T16:57",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 6006/2026 (Projeto de Lei), pelo Deputado Nikolas Ferreira (PL/MG), que \"Veda o transporte de Ministros do Supremo Tribunal Federal em aeronaves das Forças Armadas, ressalvadas as hipóteses que especifica, e dispõe sobre o ressarcimento dos custos do transporte irregular\"."
+      },
+      "authors": [
+        {
+          "name": "Nikolas Ferreira",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660488",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660488",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206785",
+      "votes": [],
+      "sourceHash": "e9196eea89d95c3512651f314871b635822f8d4198ab112e345e2954fd47a716",
+      "summary": null
+    },
+    {
+      "id": 2660487,
+      "label": "PL 6004/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui a Política Nacional Juventude Negra Viva, de enfrentamento à violência contra a juventude negra e de promoção de seus direitos.",
+      "presentedAt": "2026-11-27T16:27",
+      "status": {
+        "dataHora": "2026-11-27T16:27",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 6004/2026 (Projeto de Lei), pela Deputada Dandara (PT/MG -Fdr PT-PCdoB-PV), que \"Institui a Política Nacional Juventude Negra Viva, de enfrentamento à violência contra a juventude negra e de promoção de seus direitos. \"."
+      },
+      "authors": [
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660487",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660487",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206784",
+      "votes": [],
+      "sourceHash": "225e7fa0d7206cfd2966b602fcf9a4e5592f29720d5c456a29e6026a51ee9287",
+      "summary": null
+    },
+    {
+      "id": 2660486,
+      "label": "PL 6003/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui a Década Nacional das Populações Negra e Indígena.",
+      "presentedAt": "2026-11-27T16:22",
+      "status": {
+        "dataHora": "2026-11-27T16:22",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 6003/2026 (Projeto de Lei), pela Deputada Dandara (PT/MG -Fdr PT-PCdoB-PV), que \"Institui a Década Nacional das Populações Negra e Indígena. \"."
+      },
+      "authors": [
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660486",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660486",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206783",
+      "votes": [],
+      "sourceHash": "122b34c02f00b33da215f6e992d267e43ea3c71196610b34d1765de8cb860dd6",
+      "summary": null
+    },
+    {
+      "id": 2660485,
+      "label": "PL 6002/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público.",
+      "presentedAt": "2026-11-27T16:19",
+      "status": {
+        "dataHora": "2026-11-27T16:19",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 6002/2026 (Projeto de Lei), pela Deputada Dandara (PT/MG -Fdr PT-PCdoB-PV), que \"Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público. \"."
+      },
+      "authors": [
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660485",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206780",
+      "votes": [],
+      "sourceHash": "a5956040e4f47b40705ec488d5f18aa3b2467e30cc08831296b173d0f2bd97b7",
+      "summary": null
+    },
+    {
+      "id": 2660480,
+      "label": "PL 6001/2026",
+      "type": "Projeto de Lei",
+      "ementa": "Institui o Inventário Nacional dos Lugares de Memória da Escravidão e da Resistência Negra e Indígena.",
+      "presentedAt": "2026-11-27T16:00",
+      "status": {
+        "dataHora": "2026-11-27T16:00",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "siglaOrgao": "MESA",
+        "despacho": "Apresentação do PL n. 6001/2026 (Projeto de Lei), pela Deputada Dandara (PT/MG -Fdr PT-PCdoB-PV), que \"Institui o Inventário Nacional dos Lugares de Memória da Escravidão e da Resistência Negra e Indígena. \"."
+      },
+      "authors": [
+        {
+          "name": "Dandara",
+          "type": "Deputado(a)"
+        }
+      ],
+      "labels": [],
+      "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2660480",
+      "apiUrl": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660480",
+      "documentUrl": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206774",
+      "votes": [],
+      "sourceHash": "4cadef71e606c18569fd7ab13b52b94e5069149fc43d85b28e8ad3f2aaceda6c",
+      "summary": null
+    },
     {
       "id": 2660450,
       "label": "PL 5998/2026",
@@ -1320,7 +1482,7 @@
       "presentedAt": "2026-11-23T15:19",
       "status": {
         "dataHora": "2026-11-23T15:19",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5927/2026 (Projeto de Lei), pelo Deputado Lucas Redecker (PSD/RS), que \"Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil. \"."
@@ -1959,7 +2121,7 @@
       "presentedAt": "2026-11-19T12:10",
       "status": {
         "dataHora": "2026-11-19T12:10",
-        "descricaoSituacao": "Aguardando Despacho do Presidente da Câmara dos Deputados",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
         "descricaoTramitacao": "Apresentação de Proposição",
         "siglaOrgao": "MESA",
         "despacho": "Apresentação do PL n. 5910/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 (Código Penal), e a Lei nº 11.350, de 5 de outubro de 2006, para agravar a pena dos crimes praticados contra agentes comunitários de saúde e agentes de combate às endemias em razão do exercício da função e para dispor sobre a proteção desses profissionais\"."
@@ -7581,11 +7743,11 @@
       "ementa": "Dispõe sobre a permissão de reprodução adaptada de obras para pessoas com deficiência intelectual.",
       "presentedAt": "2023-12-12T15:44",
       "status": {
-        "dataHora": "2026-11-27T13:00",
+        "dataHora": "2026-11-27T20:06",
         "descricaoSituacao": "Aguardando Deliberação",
-        "descricaoTramitacao": "Designação de Relator(a)",
+        "descricaoTramitacao": "Recebimento - Redação Final",
         "siglaOrgao": "CCJC",
-        "despacho": "Designada Relatora da Redação Final, Dep. Laura Carneiro (PSD-RJ)."
+        "despacho": "Apresentação da RDF n. 1 CCJC (Redação Final), pela Deputada Laura Carneiro (PSD/RJ)."
       },
       "authors": [
         {

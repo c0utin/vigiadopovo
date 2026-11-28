@@ -1,0 +1,46 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-06-16",
+      "dataHoraRegistro": "2026-06-16T21:04:31",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Realizar o encaminhamento do PL-4887/2023 à CFT (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+      "efeitosRegistrados": [],
+      "id": "2394518-30",
+      "idEvento": null,
+      "idOrgao": 186,
+      "objetosPossiveis": [],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2023,
+          "codTipo": 139,
+          "dataApresentacao": "2023-10-09T13:11",
+          "ementa": "Cria o Protocolo de Acolhimento  e Atendimento às vítimas de discriminação racial e condutas análogas nos estabelecimentos de ensino do país, altera as Leis nº 13.431, de 4 de abril de 2017, e nº 8.069, de 13 de julho de 1990, e dá outras providências.",
+          "id": 2394518,
+          "numero": 4887,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518"
+        }
+      ],
+      "siglaOrgao": "CCP",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-30",
+      "uriEvento": null,
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/186"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-30",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:27.245Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2394518-30"
+}

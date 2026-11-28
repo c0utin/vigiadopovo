@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-27T16:19",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público.",
+      "ementaDetalhada": null,
+      "id": 2660485,
+      "justificativa": null,
+      "keywords": null,
+      "numero": 6002,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-27T16:19",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 6002/2026 (Projeto de Lei), pela Deputada Dandara (PT/MG -Fdr PT-PCdoB-PV), que \"Dispõe sobre normas gerais de proteção ao toque ritual dos povos e comunidades tradicionais de matriz africana e às manifestações culturais afro-brasileiras de percussão, e estabelece garantias na atuação do poder público. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206780",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:41:05.830Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660485"
+}

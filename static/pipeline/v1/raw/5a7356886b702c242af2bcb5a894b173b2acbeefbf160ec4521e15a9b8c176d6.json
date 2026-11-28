@@ -1,0 +1,77 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2015-06-02",
+      "dataHoraRegistro": "2015-06-02T11:56:48",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado por Unanimidade o Parecer.",
+      "efeitosRegistrados": [],
+      "id": "606005-33",
+      "idEvento": 39361,
+      "idOrgao": 2014,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2015-06-02T09:30",
+          "ementa": "Aprovado por Unanimidade o Parecer..  Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação, com substitutivo.",
+          "id": 1301732,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1301732"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2015-04-16T15:38",
+          "ementa": "Modifica a Lei nº 12.288, de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema Único de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 1212599,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1212599"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2015-04-07T18:24",
+          "ementa": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação, com substitutivo.",
+          "id": 1212598,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1212598"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2014,
+          "codTipo": 139,
+          "dataApresentacao": "2014-02-11T17:15",
+          "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+          "id": 606005,
+          "numero": 7103,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005"
+        }
+      ],
+      "siglaOrgao": "CSAUDE",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2015-04-16T15:38:35",
+        "descricao": "Parecer da Relatora, Dep. Erika Kokay (PT-DF), pela aprovação, com substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1212598"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-33",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/39361",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-33",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:41:01.696Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/606005-33"
+}

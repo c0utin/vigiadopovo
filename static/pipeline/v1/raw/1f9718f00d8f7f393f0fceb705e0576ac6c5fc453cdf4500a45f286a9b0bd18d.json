@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-18T12:29",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”.",
+      "ementaDetalhada": null,
+      "id": 2655202,
+      "justificativa": null,
+      "keywords": "Título de capital nacional; Itaiópolis (SC); Santa Catarina; Cultura (ciências sociais); Polônia; Ucrânia; Colono imigrante; Europa; Homenagem; Valor histórico; tradição; Identidade cultural; Título de topônimo",
+      "numero": 5896,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-18T12:29",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5896/2026 (Projeto de Lei), pelo Deputado Carlos Chiodini (MDB/SC), que \"Confere ao Município de Itaiópolis, no Estado de Santa Catarina, o título de “Capital Nacional da Cultura Polonesa e Ucraniana”\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205551"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3198392",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:39.637Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655202"
+}

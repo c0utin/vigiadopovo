@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2025,
+      "codTipo": 554,
+      "dataApresentacao": "2025-07-04T15:30",
+      "descricaoTipo": "Projeto de Decreto Legislativo de Acordos, tratados ou atos internacionais",
+      "ementa": "Aprova o texto do Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal, assinado em Georgetown, em 6 de maio de 2022.",
+      "ementaDetalhada": "",
+      "id": 2532113,
+      "justificativa": null,
+      "keywords": "Aprovação, Ato internacional, Tratado entre a República Federativa do Brasil e a República Cooperativa da Guiana sobre Auxílio Jurídico Mútuo em Matéria Penal (2022), Brasil, Guiana, Cooperação jurídica internacional.",
+      "numero": 366,
+      "siglaTipo": "PDL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1293,
+        "codTipoTramitacao": "1243",
+        "dataHora": "2026-11-26T10:00",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "despacho": "A matéria vai ao Senado Federal (PDL 366-B/2025).",
+        "regime": "Urgência (Art. 151, I \"j\", RICD)",
+        "sequencia": 41,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/160508",
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206267"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2949443",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:07.341Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2532113"
+}

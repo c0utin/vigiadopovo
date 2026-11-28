@@ -1,0 +1,29 @@
+{
+  "body": {
+    "dados": [
+      {
+        "codTema": 37,
+        "relevancia": 0,
+        "tema": "Comunicações"
+      },
+      {
+        "codTema": 62,
+        "relevancia": 1,
+        "tema": "Ciência, Tecnologia e Inovação"
+      },
+      {
+        "codTema": 67,
+        "relevancia": 2,
+        "tema": "Direito e Defesa do Consumidor"
+      }
+    ],
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660090/temas",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:59.132Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660090/temas"
+}

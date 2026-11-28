@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-19T12:00",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base.",
+      "ementaDetalhada": null,
+      "id": 2655541,
+      "justificativa": null,
+      "keywords": "alteração; Lei Ruth Brilhante (2006); Agente comunitário de saúde; Agente de combate às endemias; Adicional de insalubridade; percentual; máximo; Salário base; Vencimento básico; Esgoto sanitário; Lixo doméstico; Água contaminada; inspeção; Visita domiciliar; Vetor biológico; Doença; alto risco; Vigilância em saúde",
+      "numero": 5909,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-19T12:00",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5909/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 11.350, de 5 de outubro de 2006, para fixar em grau máximo o adicional de insalubridade dos Agentes Comunitários de Saúde e dos Agentes de Combate às Endemias, e assegurar o cálculo sobre o vencimento ou salário-base\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205892"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3199128",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:36.647Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2655541"
+}

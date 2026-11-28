@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-04-28",
+      "dataHoraRegistro": "2026-04-28T19:51:34",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-04-28T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 2192/2026,da Sra. Benedita da Silva, que solicita urgência (art. 155) para o PL 2819/2020.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 2819/2020",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253448",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-04-28T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Realizar o encaminhamento do PL-2819/2020 à CCJC (tramitação simultânea), em razão da aprovação de requerimento de urgência.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 2819/2020",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253448",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2617683-7",
+      "idEvento": 81785,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-04-22T16:18",
+          "ementa": "Com base no art. 155 do Regimento Interno, requeremos regime de urgência para a apreciação do PL 2819/2020.",
+          "id": 2617683,
+          "numero": 2192,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2617683"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-21T14:46",
+          "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
+          "id": 2253448,
+          "numero": 2819,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253448"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617683-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81785",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617683-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:45.510Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2617683-7"
+}

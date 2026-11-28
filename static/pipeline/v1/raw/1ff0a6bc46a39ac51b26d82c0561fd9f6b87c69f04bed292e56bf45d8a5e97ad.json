@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-27T09:38",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas.",
+      "ementaDetalhada": null,
+      "id": 2660383,
+      "justificativa": null,
+      "keywords": "alteração; Lei de Licitações e Contratos Administrativos (2021); Contratação direta; Dispensa de licitação; Inexigibilidade de licitação; Recursos didáticos; Livro didático; condição; complementaridade; ausência; contrato; duplicação; fornecimento; Programa Nacional do Livro e do Material Didático (PNLD); justificativa; quantidade; Estudante; Professor; Transparência ativa; Comunicação; Tribunal de contas; declaração; Ordenador de despesa",
+      "numero": 5993,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-27T09:38",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5993/2026 (Projeto de Lei), pelo Deputado Rubens Pereira Júnior (PT/MA -Fdr PT-PCdoB-PV), que \"Altera a Lei nº 14.133, de 1º de abril de 2021, para condicionar a contratação direta de material didático à demonstração de não sobreposição ao Programa Nacional do Livro e do Material Didático, à publicidade do termo de referência e ao controle dos tribunais de contas\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206364",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:56.658Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660383"
+}

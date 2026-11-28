@@ -1,0 +1,97 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-04",
+      "dataHoraRegistro": "2026-11-04T10:53:34",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovada a Redação Final.",
+      "efeitosRegistrados": [],
+      "id": "1194323-109",
+      "idEvento": 83058,
+      "idOrgao": 2003,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 197,
+          "dataApresentacao": "2026-10-28T14:29",
+          "ementa": "Redação Final ao PL 956/2015",
+          "id": 2649325,
+          "numero": 1,
+          "siglaTipo": "RDF",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2649325"
+        },
+        {
+          "ano": 0,
+          "codTipo": 187,
+          "dataApresentacao": "2026-07-08T18:47",
+          "ementa": "Parecer da Comissão  (CCJC) ao PL 956/2015",
+          "id": 2638421,
+          "numero": 1,
+          "siglaTipo": "PAR",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2638421"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2026-07-08T09:00",
+          "ementa": "Requerimento de Inversão da Pauta - PL 956/2015",
+          "id": 2637908,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2637908"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-07-01T13:48",
+          "ementa": "Parecer do Relator, Dep. Afonso Motta (PDT-RS), pela constitucionalidade, juridicidade e técnica legislativa do Projeto de Lei nº 956/2015, das Emendas da Comissão de Trabalho, de Administração e Serviço Público e das Emendas da Comissão de Finanças e Tributação; e, no mérito, pela aprovação do Projeto de Lei nº 956/2015 e das Emendas da Comissão de Finanças e Tributação, e pela rejeição das Emendas da Comissão de Trabalho, de Administração e Serviço Público.",
+          "id": 2636184,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636184"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2026-06-03T15:04",
+          "ementa": "Parecer do Relator, Dep. Afonso Motta (PDT-RS).",
+          "id": 2630051,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2630051"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2015,
+          "codTipo": 139,
+          "dataApresentacao": "2015-03-27T12:55",
+          "ementa": "Dispõe sobre a criação de Varas do Trabalho na jurisdição do Tribunal Regional do Trabalho da 4ª Região e dá outras providências.",
+          "id": 1194323,
+          "numero": 956,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/1194323"
+        }
+      ],
+      "siglaOrgao": "CCJC",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2026-07-01T19:24:52",
+        "descricao": "Parecer do Relator, Dep. Afonso Motta (PDT-RS), pela constitucionalidade, juridicidade e técnica legislativa do Projeto de Lei nº 956/2015, das Emendas da Comissão de Trabalho, de Administração e Serviço Público e das Emendas da Comissão de Finanças e Tributação; e, no mérito, pela aprovação do Projeto de Lei nº 956/2015 e das Emendas da Comissão de Finanças e Tributação, e pela rejeição das Emendas da Comissão de Trabalho, de Administração e Serviço Público.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2636184"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83058",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2003"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:52.674Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/1194323-109"
+}

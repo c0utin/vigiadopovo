@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-23T15:19",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil.",
+      "ementaDetalhada": null,
+      "id": 2658842,
+      "justificativa": null,
+      "keywords": "alteração; Estatuto da Criança e do Adolescente (ECA) (1990); Crime contra a criança e o adolescente; Aumento da pena; critério; Pornografia infantil; Tipificação de conduta",
+      "numero": 5927,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": 1200,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-23T15:19",
+        "descricaoSituacao": "Aguardando Autorização do Despacho",
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5927/2026 (Projeto de Lei), pelo Deputado Lucas Redecker (PSD/RS), que \"Altera a Lei nº 8.069, de 13 de julho de 1990 (Estatuto da Criança e do Adolescente), para aumentar as penas dos crimes relacionados à pornografia infantil. \".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206799"
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3203099",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:17.974Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2658842"
+}

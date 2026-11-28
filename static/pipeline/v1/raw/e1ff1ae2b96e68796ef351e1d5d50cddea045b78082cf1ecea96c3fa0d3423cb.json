@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T18:56",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 12.379, de 6 de janeiro de 2011, para dispor sobre a transparência ativa e a divulgação anual consolidada de dados técnicos relativos à conservação, capacidade, fluxo de veículos, sinistralidade e estágio de planejamento da malha rodoviária federal.",
+      "ementaDetalhada": null,
+      "id": 2660076,
+      "justificativa": null,
+      "keywords": "alteração; Lei federal; Transparência ativa; Publicidade; Relatório técnico; conservação; Infraestrutura rodoviária; Sinalização de trânsito; Malha rodoviária federal; prevenção; Acidente de trânsito",
+      "numero": 5985,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T18:56",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5985/2026 (Projeto de Lei), pelo Deputado Cabo Gilberto Silva (PL/PB), que \"Altera a Lei nº 12.379, de 6 de janeiro de 2011, para dispor sobre a transparência ativa e a divulgação anual consolidada de dados técnicos relativos à conservação, capacidade, fluxo de veículos, sinistralidade e estágio de planejamento da malha rodoviária federal\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660076",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660076/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205481",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660076",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:00.191Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660076"
+}

@@ -1,0 +1,1077 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-04-15",
+      "dataHoraRegistro": "2026-04-15T15:52:10",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado o Parecer, apresentou voto em separado o Deputado Eli Borges.",
+      "efeitosRegistrados": [],
+      "id": "2253448-66",
+      "idEvento": 81580,
+      "idOrgao": 2007,
+      "objetosPossiveis": [
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-04-15T14:31",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2616634,
+          "numero": 94,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616634"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-04-15T14:28",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2616625,
+          "numero": 93,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616625"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2026-04-15T13:31",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2616606,
+          "numero": 92,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2616606"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-03-04T13:23",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2606773,
+          "numero": 91,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2606773"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-03-04T13:23",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2606760,
+          "numero": 90,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2606760"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2026-02-25T14:00",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2604700,
+          "numero": 89,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2604700"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2026-02-25T14:00",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2604698,
+          "numero": 88,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2604698"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2026-02-25T13:09",
+          "ementa": "Requerimento de Votação Nominal - PL 2819/2020",
+          "id": 2604691,
+          "numero": 87,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2604691"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2569808,
+          "numero": 86,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569808"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2569803,
+          "numero": 85,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569803"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2819/2020-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2569784,
+          "numero": 84,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569784"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2819/2020-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2569783,
+          "numero": 83,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569783"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2569782,
+          "numero": 82,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569782"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Requerimento de Votação Nominal - PL 2819/2020",
+          "id": 2569774,
+          "numero": 81,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569774"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2025-10-08T13:47",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2569765,
+          "numero": 80,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2569765"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2025-10-03T10:06",
+          "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
+          "id": 2567570,
+          "numero": 2,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2567570"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2025-10-03T10:06",
+          "ementa": "Parecer da Relatora, Dep. Daiana Santos (PCdoB-RS), pela aprovação deste, na forma do substitutivo.",
+          "id": 2567568,
+          "numero": 6,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2567568"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-12-11T14:26",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2478990,
+          "numero": 78,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478990"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-12-11T13:57",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2478832,
+          "numero": 70,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478832"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-12-11T13:57",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2478886,
+          "numero": 73,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478886"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-12-11T13:56",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2819/2020-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2478831,
+          "numero": 69,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478831"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-12-11T13:56",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2819/2020-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2478899,
+          "numero": 74,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478899"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-12-11T13:56",
+          "ementa": "Requerimento de Votação Nominal - PL 2819/2020",
+          "id": 2478963,
+          "numero": 76,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478963"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-12-11T13:52",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2478998,
+          "numero": 79,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478998"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-12-11T13:32",
+          "ementa": "Requerimento de Votação Nominal - PL 2819/2020",
+          "id": 2478928,
+          "numero": 75,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478928"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1049,
+          "dataApresentacao": "2024-12-11T13:32",
+          "ementa": "Votação Nominal do Requerimento de Inversão da Pauta - PL 2819/2020-Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2478739,
+          "numero": 65,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478739"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-12-11T13:32",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2478675,
+          "numero": 62,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478675"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-12-11T13:31",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2819/2020-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2478794,
+          "numero": 68,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478794"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-12-11T13:31",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2478708,
+          "numero": 64,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478708"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-12-11T13:30",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2819/2020-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2478863,
+          "numero": 72,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478863"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-12-11T13:30",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2478750,
+          "numero": 67,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478750"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-12-11T13:28",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2478981,
+          "numero": 77,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478981"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-12-11T13:28",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2478741,
+          "numero": 66,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478741"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-12-11T13:01",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2478852,
+          "numero": 71,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478852"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-12-11T13:01",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2478687,
+          "numero": 63,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2478687"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-27T14:37",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2472714,
+          "numero": 61,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472714"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-27T14:37",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2472712,
+          "numero": 60,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472712"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-27T14:15",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta",
+          "id": 2472705,
+          "numero": 59,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472705"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1049,
+          "dataApresentacao": "2024-11-27T14:15",
+          "ementa": "Votação Nominal do Requerimento de Inversão da Pauta - PL 2819/2020-Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2472704,
+          "numero": 58,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472704"
+        },
+        {
+          "ano": 0,
+          "codTipo": 468,
+          "dataApresentacao": "2024-11-27T13:14",
+          "ementa": "Requerimento de Encerramento da Discussão - Comissões - PL 2819/2020",
+          "id": 2472671,
+          "numero": 57,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472671"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-11-27T13:03",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2472564,
+          "numero": 50,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472564"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-11-27T13:02",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2819/2020-Requerimento de Adiamento da Votação",
+          "id": 2472601,
+          "numero": 56,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472601"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-11-27T13:02",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2819/2020-Requerimento de Adiamento da Discussão",
+          "id": 2472600,
+          "numero": 55,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472600"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-11-27T13:02",
+          "ementa": "Requerimento de Votação Nominal - PL 2819/2020",
+          "id": 2472597,
+          "numero": 54,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472597"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-11-27T13:02",
+          "ementa": "Requerimento de Adiamento da Votação",
+          "id": 2472596,
+          "numero": 53,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472596"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-11-27T13:02",
+          "ementa": "Requerimento de Adiamento da Discussão",
+          "id": 2472579,
+          "numero": 52,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472579"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-27T13:02",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta",
+          "id": 2472565,
+          "numero": 51,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2472565"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-11-12T14:11",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2468201,
+          "numero": 37,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468201"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-12T14:11",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2468232,
+          "numero": 39,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468232"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-11-12T14:11",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2468328,
+          "numero": 43,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468328"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-12T14:11",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2468403,
+          "numero": 49,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468403"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-11-12T14:11",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2819/2020-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2468387,
+          "numero": 48,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468387"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-11-12T14:11",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2819/2020-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2468365,
+          "numero": 46,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468365"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1040,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Discussão - PL 2819/2020-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2468378,
+          "numero": 47,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468378"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2468353,
+          "numero": 45,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468353"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1042,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Adiamento da Votação - PL 2819/2020-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2468347,
+          "numero": 44,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468347"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2468317,
+          "numero": 42,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468317"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2468295,
+          "numero": 41,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468295"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1049,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Votação Nominal do Requerimento de Inversão da Pauta - PL 2819/2020-Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2468294,
+          "numero": 40,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468294"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2468216,
+          "numero": 38,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468216"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Votação Nominal - PL 2819/2020",
+          "id": 2468186,
+          "numero": 36,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468186"
+        },
+        {
+          "ano": 0,
+          "codTipo": 876,
+          "dataApresentacao": "2024-11-12T14:03",
+          "ementa": "Requerimento de Inversão da Pauta - PL 2819/2020",
+          "id": 2468158,
+          "numero": 35,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468158"
+        },
+        {
+          "ano": 0,
+          "codTipo": 1051,
+          "dataApresentacao": "2024-11-12T13:25",
+          "ementa": "Votação Nominal do Requerimento de Retirada de Pauta - PL 2819/2020-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2468050,
+          "numero": 34,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468050"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-11-12T13:25",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2468022,
+          "numero": 33,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2468022"
+        },
+        {
+          "ano": 0,
+          "codTipo": 255,
+          "dataApresentacao": "2024-06-10T16:39",
+          "ementa": "",
+          "id": 2439362,
+          "numero": 1,
+          "siglaTipo": "SBT",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2439362"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-06-10T14:15",
+          "ementa": "Parecer da Relatora, Dep. Reginete Bispo (PT-RS), pela aprovação, com substitutivo.",
+          "id": 2439360,
+          "numero": 5,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2439360"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-05-22T15:12",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2435745,
+          "numero": 32,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435745"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-05-22T14:10",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2435728,
+          "numero": 31,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435728"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-05-22T14:10",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2435696,
+          "numero": 28,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435696"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-05-22T14:10",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2435692,
+          "numero": 27,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435692"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-05-22T14:03",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2435727,
+          "numero": 30,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435727"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-05-22T14:03",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2435726,
+          "numero": 29,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435726"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-05-22T14:03",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2435686,
+          "numero": 26,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435686"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-05-22T14:03",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2435654,
+          "numero": 25,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2435654"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2024-04-30T11:21",
+          "ementa": "Parecer da relatora, pela aprovação do PL 2819/2020.",
+          "id": 2432031,
+          "numero": 4,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2432031"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-03-13T13:41",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2420927,
+          "numero": 24,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420927"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-03-13T13:41",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2420910,
+          "numero": 23,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420910"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-03-13T13:41",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2420907,
+          "numero": 22,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420907"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-03-13T13:25",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2420871,
+          "numero": 20,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420871"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2024-03-13T13:21",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2420859,
+          "numero": 18,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420859"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2024-03-13T13:21",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2420865,
+          "numero": 19,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420865"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2024-03-13T13:21",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2420881,
+          "numero": 21,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420881"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2024-03-13T13:20",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2420856,
+          "numero": 17,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2420856"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2023-10-18T13:07",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2397546,
+          "numero": 16,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2397546"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2023-10-18T13:07",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2397527,
+          "numero": 15,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2397527"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-18T13:07",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2397516,
+          "numero": 14,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2397516"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2023-10-18T13:07",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2397496,
+          "numero": 13,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2397496"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-18T13:07",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2397493,
+          "numero": 12,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2397493"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-18T13:07",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2397475,
+          "numero": 11,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2397475"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-04T16:33",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2394042,
+          "numero": 10,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394042"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2023-10-04T16:33",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2394031,
+          "numero": 9,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394031"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2023-10-04T13:25",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2393934,
+          "numero": 8,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393934"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-04T13:25",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2393918,
+          "numero": 7,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393918"
+        },
+        {
+          "ano": 0,
+          "codTipo": 328,
+          "dataApresentacao": "2023-10-04T13:01",
+          "ementa": "Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2393898,
+          "numero": 6,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393898"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-04T13:01",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2393895,
+          "numero": 5,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393895"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-04T13:01",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Retirada de Matéria da Pauta - PL 2819/2020",
+          "id": 2393890,
+          "numero": 4,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393890"
+        },
+        {
+          "ano": 0,
+          "codTipo": 329,
+          "dataApresentacao": "2023-10-04T13:01",
+          "ementa": "Requerimento de Adiamento da Discussão - PL 2819/2020",
+          "id": 2393881,
+          "numero": 3,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393881"
+        },
+        {
+          "ano": 0,
+          "codTipo": 336,
+          "dataApresentacao": "2023-10-04T13:01",
+          "ementa": "Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2393856,
+          "numero": 2,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393856"
+        },
+        {
+          "ano": 0,
+          "codTipo": 332,
+          "dataApresentacao": "2023-10-04T13:01",
+          "ementa": "Requerimento de Votação Nominal-Requerimento de Adiamento da Votação - PL 2819/2020",
+          "id": 2393846,
+          "numero": 1,
+          "siglaTipo": "RPD",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2393846"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2023-09-29T11:28",
+          "ementa": "Parecer da relatora, Dep. Reginete Bispo (PT/RS), pela aprovação do Projeto de Lei nº 2819/2020",
+          "id": 2391986,
+          "numero": 3,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2391986"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2022-06-01T19:07",
+          "ementa": "Parecer do Relator, Dep. Helder Salomão (PT-ES), pela aprovação.",
+          "id": 2325842,
+          "numero": 2,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2325842"
+        },
+        {
+          "ano": 0,
+          "codTipo": 260,
+          "dataApresentacao": "2021-12-14T09:47",
+          "ementa": "Voto em Separado",
+          "id": 2312290,
+          "numero": 1,
+          "siglaTipo": "VTS",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2312290"
+        },
+        {
+          "ano": 0,
+          "codTipo": 190,
+          "dataApresentacao": "2021-11-16T19:10",
+          "ementa": "Parecer do Relator, Dep. Bira do Pindaré (PSB-MA), pela aprovação.",
+          "id": 2307433,
+          "numero": 1,
+          "siglaTipo": "PRL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2307433"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2020,
+          "codTipo": 139,
+          "dataApresentacao": "2020-05-21T14:46",
+          "ementa": "Dispõe sobre medidas de garantia da equidade na atenção integral à saúde da população negra em casos de epidemias ou pandemias, surtos provocados por doenças contagiosas ou durante a decretação de Estado de Calamidade Pública.",
+          "id": 2253448,
+          "numero": 2819,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2253448"
+        }
+      ],
+      "siglaOrgao": "CDHMIR",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": "2025-10-06T12:43:56",
+        "descricao": "Parecer da Relatora, Dep. Daiana Santos (PCdoB-RS), pela aprovação deste, na forma do substitutivo.",
+        "uriProposicaoCitada": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2567568"
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-66",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/81580",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2007"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-66",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:45.771Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2253448-66"
+}

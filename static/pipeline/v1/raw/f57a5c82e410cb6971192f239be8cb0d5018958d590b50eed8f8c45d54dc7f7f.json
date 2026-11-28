@@ -1,0 +1,82 @@
+{
+  "body": {
+    "dados": {
+      "aprovacao": 1,
+      "data": "2026-11-10",
+      "dataHoraRegistro": "2026-11-10T19:41:27",
+      "dataHoraUltimaAberturaVotacao": null,
+      "descUltimaAberturaVotacao": null,
+      "descricao": "Aprovado, por unanimidade, o Requerimento de Urgência (Art. 155 do RICD).",
+      "efeitosRegistrados": [
+        {
+          "dataHoraResultado": "2026-11-10T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Aprovado o requerimento nº 4281/2026, Do Sr. Luiz Gastão e outros, que solicita urgência (art. 155) para o PL 5127/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 5127/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208",
+          "uriProposicaoCitada": null
+        },
+        {
+          "dataHoraResultado": "2026-11-10T13:55",
+          "dataHoraUltimaAberturaVotacao": null,
+          "dataHoraUltimaApresentacaoProposicao": null,
+          "descResultado": "Alteração do Regime de Tramitação desta proposição em virtude da Aprovação do REQ 4281/2026.",
+          "descUltimaAberturaVotacao": null,
+          "descUltimaApresentacaoProposicao": null,
+          "tituloProposicao": "PL 5127/2026",
+          "tituloProposicaoCitada": null,
+          "uriProposicao": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208",
+          "uriProposicaoCitada": null
+        }
+      ],
+      "id": "2647302-7",
+      "idEvento": 83243,
+      "idOrgao": 180,
+      "objetosPossiveis": [
+        {
+          "ano": 2026,
+          "codTipo": 392,
+          "dataApresentacao": "2026-10-05T15:28",
+          "ementa": "Requer regime de urgência para a apreciação do Projeto de Lei nº 5.127, de 2026, que “Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás”.",
+          "id": 2647302,
+          "numero": 4281,
+          "siglaTipo": "REQ",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2647302"
+        }
+      ],
+      "proposicoesAfetadas": [
+        {
+          "ano": 2026,
+          "codTipo": 139,
+          "dataApresentacao": "2026-08-19T15:28",
+          "ementa": "Reconhece como manifestação da cultura nacional a Romaria do Divino Pai Eterno, realizada no Município de Trindade, no Estado de Goiás.",
+          "id": 2644208,
+          "numero": 5127,
+          "siglaTipo": "PL",
+          "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2644208"
+        }
+      ],
+      "siglaOrgao": "PLEN",
+      "ultimaApresentacaoProposicao": {
+        "dataHoraRegistro": null,
+        "descricao": null,
+        "uriProposicaoCitada": null
+      },
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647302-7",
+      "uriEvento": "https://dadosabertos.camara.leg.br/api/v2/eventos/83243",
+      "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180"
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647302-7",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:39:46.725Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/votacoes/2647302-7"
+}

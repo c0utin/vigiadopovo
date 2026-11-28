@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2014,
+      "codTipo": 139,
+      "dataApresentacao": "2014-02-11T17:15",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Modifica a Lei nº 12.288,de 20 de julho de 2010 (Estatuto da Igualdade Racial), para incluir o quesito cor ou raça nos prontuários, registros e cadastramentos do Sistema de Informação em Saúde do Sistema Único de Saúde (SUS).",
+      "ementaDetalhada": "",
+      "id": 606005,
+      "justificativa": null,
+      "keywords": "Alteração, Estatuto da Igualdade Racial, inclusão, informação, raça, cor, prontuário, registro, cadastro, formulário, hospital, Sistema Único de Saúde (SUS).",
+      "numero": 7103,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 1293,
+        "codTipoTramitacao": "1243",
+        "dataHora": "2026-11-24T13:55",
+        "descricaoSituacao": "Aguardando Envio ao Senado Federal",
+        "descricaoTramitacao": "Encaminhamento (Plenário)",
+        "despacho": "A matéria vai ao Senado Federal (PL 7.103-C/2014).",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 113,
+        "siglaOrgao": "PLEN",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/180",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/204464",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/2014",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1225472",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:59.019Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/606005"
+}

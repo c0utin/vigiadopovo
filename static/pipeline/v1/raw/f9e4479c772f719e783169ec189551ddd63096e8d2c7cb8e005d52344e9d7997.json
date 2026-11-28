@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2023,
+      "codTipo": 139,
+      "dataApresentacao": "2023-10-09T13:11",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Cria o Protocolo de Acolhimento  e Atendimento às vítimas de discriminação racial e condutas análogas nos estabelecimentos de ensino do país, altera as Leis nº 13.431, de 4 de abril de 2017, e nº 8.069, de 13 de julho de 1990, e dá outras providências.",
+      "ementaDetalhada": "",
+      "id": 2394518,
+      "justificativa": null,
+      "keywords": "Criação, Protocolo de Acolhimento e Atendimento às vítimas de discriminação racial e condutas análogas, Instituição de ensino. _ Alteração, Lei Federal, Violência psicológica, Tipificação de conduta, Discriminação racial, vítima, criança, adolescente, Grupo étnico. _ Alteração, Estatuto da Criança e do Adolescente (ECA), autoridade competente, criança, adolescente, Atividade educativa, escola, conscientização, Diversidade cultural, Medida socioeducativa.",
+      "numero": 4887,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Proposição Sujeita à Apreciação do Plenário",
+        "codSituacao": 900,
+        "codTipoTramitacao": "104",
+        "dataHora": "2026-11-25T13:55",
+        "descricaoSituacao": "Aguardando Autógrafos na Mesa",
+        "descricaoTramitacao": "Desapensação",
+        "despacho": "Desapensação dos Projetos de Lei nºs 4.898, de 2023, e 1.445, de 2024, apensados, em face da aprovação, em Plenário, do Substitutivo ao Projeto de Lei nº 4.887, de 2023, adotado pela relatora da Comissão de Previdência, Assistência Social, Infância, Adolescência e Família. (Sessão Deliberativa Extraordinária Semipresencial de 25/11/2026 - 13:55 - 190ª Sessão)",
+        "regime": "Urgência (Art. 155, RICD)",
+        "sequencia": 64,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": "https://dadosabertos.camara.leg.br/api/v2/deputados/73701",
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518/autores",
+      "uriOrgaoNumerador": "https://dadosabertos.camara.leg.br/api/v2/orgaos/539387",
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=2341913",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:40:25.807Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2394518"
+}

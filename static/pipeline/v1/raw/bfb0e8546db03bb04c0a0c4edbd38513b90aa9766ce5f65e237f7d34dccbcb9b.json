@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-25T18:54",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera a Lei nº 12.379, de 6 de janeiro de 2011, que dispõe sobre o Sistema Nacional de Viação – SNV, para estabelecer critérios técnicos objetivos de classificação prioritária de trechos rodoviários federais para fins de elaboração de estudos de viabilidade, pavimentação, duplicação e adequação de capacidade.",
+      "ementaDetalhada": null,
+      "id": 2660075,
+      "justificativa": null,
+      "keywords": "alteração; Lei federal; critério técnico; classificação; ordem de prioridade; Rodovia federal; Trecho rodoviário; Estudo; viabilidade; pavimentação; duplicação; Obra viária; Segurança viária; prevenção; Acidente de trânsito",
+      "numero": 5984,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-25T18:54",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5984/2026 (Projeto de Lei), pelo Deputado Cabo Gilberto Silva (PL/PB), que \"Altera a Lei nº 12.379, de 6 de janeiro de 2011, que dispõe sobre o Sistema Nacional de Viação – SNV, para estabelecer critérios técnicos objetivos de classificação prioritária de trechos rodoviários federais para fins de elaboração de estudos de viabilidade, pavimentação, duplicação e adequação de capacidade\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3205468",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:38:01.038Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660075"
+}

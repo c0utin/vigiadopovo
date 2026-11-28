@@ -1,0 +1,50 @@
+{
+  "body": {
+    "dados": {
+      "ano": 2026,
+      "codTipo": 139,
+      "dataApresentacao": "2026-11-27T10:32",
+      "descricaoTipo": "Projeto de Lei",
+      "ementa": "Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor.",
+      "ementaDetalhada": null,
+      "id": 2660396,
+      "justificativa": null,
+      "keywords": "alteração; Código Penal (1940); Código de Processo Penal (1941); Código Civil (2002); crime; Legítima defesa; Prisão em flagrante; Legítima defesa presumida; Invasão de propriedade; Dispositivo de segurança; Propriedade particular; Sentença condenatória; Responsabilidade civil; Reparação do dano",
+      "numero": 5994,
+      "siglaTipo": "PL",
+      "statusProposicao": {
+        "ambito": "Regimental",
+        "apreciacao": "Indefinida",
+        "codSituacao": null,
+        "codTipoTramitacao": "100",
+        "dataHora": "2026-11-27T10:32",
+        "descricaoSituacao": null,
+        "descricaoTramitacao": "Apresentação de Proposição",
+        "despacho": "Apresentação do PL n. 5994/2026 (Projeto de Lei), pelo Deputado Capitão Alden (PL/BA), que \"Altera o Decreto-Lei nº 2.848, de 7 de dezembro de 1940 — Código Penal, o Decreto-Lei nº 3.689, de 3 de outubro de 1941 — Código de Processo Penal, e a Lei nº 10.406, de 10 de janeiro de 2002 — Código Civil, para disciplinar o emprego de dispositivos defensivos na proteção da propriedade privada, estabelecer presunção relativa de finalidade defensiva em caso de invasão ilícita, assegurar proteção jurídica ao proprietário, possuidor ou morador, disciplinar a utilização de registros audiovisuais como meio de prova e estabelecer regras para a reparação dos danos causados pelo invasor\".",
+        "regime": ".",
+        "sequencia": 1,
+        "siglaOrgao": "MESA",
+        "uriOrgao": "https://dadosabertos.camara.leg.br/api/v2/orgaos/4",
+        "uriUltimoRelator": null,
+        "url": null
+      },
+      "texto": null,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396",
+      "uriAutores": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396/autores",
+      "uriOrgaoNumerador": null,
+      "uriPropAnterior": null,
+      "uriPropPosterior": null,
+      "uriPropPrincipal": null,
+      "urlInteiroTeor": "https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=3206390",
+      "urnFinal": null
+    },
+    "links": [
+      {
+        "href": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396",
+        "rel": "self"
+      }
+    ]
+  },
+  "collectedAt": "2026-11-28T17:37:55.790Z",
+  "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2660396"
+}
